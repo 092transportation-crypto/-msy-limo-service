@@ -1,0 +1,12 @@
+# 301 Redirects: Force all traffic to non-www HTTPS
+# These rules execute BEFORE any other processing
+
+# Force www to non-www with 301 (permanent redirect)
+https://www.msylimoservice.com/* https://msylimoservice.com/:splat 301!
+http://www.msylimoservice.com/* https://msylimoservice.com/:splat 301!
+
+# Force HTTP to HTTPS
+http://msylimoservice.com/* https://msylimoservice.com/:splat 301!
+
+# SPA fallback - serve index.html for client-side routing
+/*    /index.html   200

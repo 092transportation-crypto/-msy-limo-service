@@ -1,0 +1,179 @@
+/* MSY Limo Service - Gold & Black Theme Styles */
+
+/* Hero Section */
+.hero-section {
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, 
+    rgba(0, 0, 0, 0.7) 0%, 
+    rgba(0, 0, 0, 0.8) 50%,
+    rgba(0, 0, 0, 0.9) 100%
+  );
+}
+
+.hero-image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Navigation */
+.nav-light {
+  background: #000000;
+}
+
+.nav-scrolled {
+  background: #000000;
+  box-shadow: 0 2px 20px rgba(245, 158, 11, 0.1);
+}
+
+/* Service Cards - Gold Theme */
+.service-card-light {
+  position: relative;
+  background: #111111;
+  border: 1px solid rgba(245, 158, 11, 0.2);
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.service-card-light:hover {
+  border-color: rgba(245, 158, 11, 0.5);
+  box-shadow: 0 10px 40px rgba(245, 158, 11, 0.1);
+  transform: translateY(-4px);
+}
+
+/* Fleet Grid */
+.fleet-card-light {
+  position: relative;
+  overflow: hidden;
+  background: #111111;
+  border: 1px solid rgba(245, 158, 11, 0.2);
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.fleet-card-light:hover {
+  border-color: rgba(245, 158, 11, 0.5);
+  box-shadow: 0 10px 30px rgba(245, 158, 11, 0.1);
+}
+
+.fleet-card-light img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transition: transform 0.5s ease;
+}
+
+.fleet-card-light:hover img {
+  transform: scale(1.02);
+}
+
+/* Buttons - Gold Theme */
+.btn-navy {
+  background: linear-gradient(to right, #f59e0b, #d97706);
+  color: #000000;
+  font-weight: 700;
+  padding: 0.875rem 1.75rem;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-navy:hover {
+  background: linear-gradient(to right, #fbbf24, #f59e0b);
+  box-shadow: 0 10px 30px rgba(245, 158, 11, 0.3);
+}
+
+.btn-navy-outline {
+  background: transparent;
+  color: #f59e0b;
+  font-weight: 600;
+  padding: 0.875rem 1.75rem;
+  border: 2px solid #f59e0b;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.btn-navy-outline:hover {
+  background-color: #f59e0b;
+  color: #000000;
+}
+
+/* Section styling */
+.section-light {
+  background: #000000;
+}
+
+.section-gray {
+  background: #111111;
+}
+
+/* Form Inputs - Dark Theme */
+.form-input-light {
+  width: 100%;
+  background: #1a1a1a;
+  border: 1px solid rgba(245, 158, 11, 0.2);
+  border-radius: 8px;
+  padding: 1rem 1.25rem;
+  color: #FFFFFF;
+  font-family: var(--font-body);
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.form-input-light::placeholder {
+  color: #6b7280;
+}
+
+.form-input-light:focus {
+  border-color: #f59e0b;
+  box-shadow: 0 0 0 3px rgba(245, 158, 11, 0.1);
+}
+
+/* Footer - Black Theme */
+.footer-navy {
+  background: #000000;
+  color: #FFFFFF;
+}
+
+/* Testimonial Card - Dark */
+.testimonial-card-light {
+  background: #111111;
+  border: 1px solid rgba(245, 158, 11, 0.2);
+  border-radius: 8px;
+  padding: 2rem;
+}
+
+/* Location Tags */
+.location-tag-light {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  background: rgba(245, 158, 11, 0.1);
+  border: 1px solid rgba(245, 158, 11, 0.2);
+  border-radius: 8px;
+  font-size: 0.875rem;
+  color: #f59e0b;
+  transition: all 0.3s ease;
+}
+
+.location-tag-light:hover {
+  background: #f59e0b;
+  border-color: #f59e0b;
+  color: #000000;
+}
+
+/* Hide Emergent Badge */
+#emergent-badge {
+  display: none !important;
+}
