@@ -33,7 +33,7 @@ const HomePage = () => {
           "@type": "LocalBusiness",
           "name": "MSY Limo Service",
           "image": "https://msylimoservice.com/wp-content/uploads/2024/08/Sulari-3.png",
-          "telephone": "+1-667-400-0092",
+          "telephone": "+1-877-609-1919",
           "email": "msylimoservices@gmail.com",
           "url": "https://msylimoservice.com",
           "address": {

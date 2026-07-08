@@ -6,7 +6,7 @@ import Footer from "@/components/Footer";
 import { ChevronDown, Phone, HelpCircle, MessageCircle } from "lucide-react";
 
 const faqData = [
-  { q: "How do I book a limo service?", a: "You can book online through our reservation system, call us at (667) 400-0092, or email msylimoservices@gmail.com. We recommend booking 24-48 hours in advance for regular service, and 2-4 weeks for weddings." },
+  { q: "How do I book a limo service?", a: "You can book online through our reservation system, call us at (877) 609-1919, or email msylimoservices@gmail.com. We recommend booking 24-48 hours in advance for regular service, and 2-4 weeks for weddings." },
   { q: "What airports do you service?", a: "We provide airport transfers to MSY (Louis Armstrong New Orleans International) and NEW (Lakefront Airport). All airport transfers include flight tracking and complimentary wait time." },
   { q: "What vehicles are in your fleet?", a: "Our fleet includes Mercedes-Benz S-Class sedans, Cadillac Escalade SUVs, Mercedes Sprinter vans, stretch limousines, and executive mini-buses. All vehicles are late-model and meticulously maintained." },
   { q: "Do you offer wedding transportation?", a: "Yes! We specialize in wedding transportation throughout New Orleans, Kenner, Metairie, and surrounding areas. We offer stretch limos, luxury sedans, and can coordinate multiple vehicles for your entire wedding party." },
@@ -136,12 +136,12 @@ const FAQPage = () => {
             <p className="text-white/70 mb-6 text-lg">Still have questions?</p>
             <div className="flex flex-wrap justify-center gap-4">
               <motion.a 
-                href="tel:+16674000092" 
+                href="tel:+18776091919" 
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="inline-flex items-center gap-2 bg-gradient-to-r from-amber-500 to-amber-600 text-black px-6 py-3 rounded-xl font-semibold hover:from-amber-400 hover:to-amber-500 transition-all"
               >
-                <Phone className="w-4 h-4" /> Call (667) 400-0092
+                <Phone className="w-4 h-4" /> Call (877) 609-1919
               </motion.a>
               <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
                 <Link 

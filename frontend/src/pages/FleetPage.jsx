@@ -67,8 +67,8 @@ const FleetPage = () => {
             <Link to="/contact" className="bg-gradient-to-r from-amber-500 to-amber-600 text-black px-6 py-3 rounded-xl font-bold hover:from-amber-400 hover:to-amber-500 transition-all inline-flex items-center gap-2">
               Reserve a Vehicle <ArrowRight className="w-4 h-4" />
             </Link>
-            <a href="tel:+16674000092" className="border-2 border-amber-500 text-amber-400 px-6 py-3 rounded-xl font-semibold hover:bg-amber-500 hover:text-black transition-colors inline-flex items-center gap-2">
-              <Phone className="w-4 h-4" /> (667) 400-0092
+            <a href="tel:+18776091919" className="border-2 border-amber-500 text-amber-400 px-6 py-3 rounded-xl font-semibold hover:bg-amber-500 hover:text-black transition-colors inline-flex items-center gap-2">
+              <Phone className="w-4 h-4" /> (877) 609-1919
             </a>
           </motion.div>
         </div>
@@ -167,8 +167,8 @@ const FleetPage = () => {
               </Link>
             </motion.div>
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-              <a href="tel:+16674000092" className="border-2 border-black text-black px-8 py-4 rounded-xl font-bold hover:bg-black hover:text-amber-400 transition-colors inline-block">
-                Call (667) 400-0092
+              <a href="tel:+18776091919" className="border-2 border-black text-black px-8 py-4 rounded-xl font-bold hover:bg-black hover:text-amber-400 transition-colors inline-block">
+                Call (877) 609-1919
               </a>
             </motion.div>
           </motion.div>

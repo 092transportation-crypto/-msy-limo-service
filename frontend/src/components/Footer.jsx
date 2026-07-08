@@ -53,8 +53,8 @@ const Footer = () => {
               >
                 Book Now <ArrowRight className="w-4 h-4" />
               </Link>
-              <a href="tel:+16674000092" className="w-full sm:w-auto text-black hover:text-gray-800 active:text-gray-700 font-bold text-lg py-2 text-center">
-                (667) 400-0092
+              <a href="tel:+18776091919" className="w-full sm:w-auto text-black hover:text-gray-800 active:text-gray-700 font-bold text-lg py-2 text-center">
+                (877) 609-1919
               </a>
             </div>
           </div>
@@ -86,11 +86,11 @@ const Footer = () => {
               </p>
               
               <div className="space-y-3 md:space-y-4">
-                <a href="tel:+16674000092" className="flex items-center gap-3 text-white hover:text-amber-400 active:text-amber-300 transition-colors group p-2 -ml-2 rounded-xl hover:bg-white/5">
+                <a href="tel:+18776091919" className="flex items-center gap-3 text-white hover:text-amber-400 active:text-amber-300 transition-colors group p-2 -ml-2 rounded-xl hover:bg-white/5">
                   <div className="w-12 h-12 md:w-10 md:h-10 bg-amber-500/10 border border-amber-500/30 rounded-xl flex items-center justify-center group-hover:bg-amber-500/20 flex-shrink-0">
                     <Phone className="w-6 h-6 md:w-5 md:h-5 text-amber-400" />
                   </div>
-                  <span className="font-semibold text-lg">(667) 400-0092</span>
+                  <span className="font-semibold text-lg">(877) 609-1919</span>
                 </a>
                 <a href="mailto:msylimoservices@gmail.com" className="flex items-center gap-3 text-white hover:text-amber-400 active:text-amber-300 transition-colors group p-2 -ml-2 rounded-xl hover:bg-white/5">
                   <div className="w-12 h-12 md:w-10 md:h-10 bg-amber-500/10 border border-amber-500/30 rounded-xl flex items-center justify-center group-hover:bg-amber-500/20 flex-shrink-0">

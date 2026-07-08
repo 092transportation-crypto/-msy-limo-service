@@ -127,9 +127,9 @@ const ContactPage = () => {
       <section className="bg-gradient-to-r from-amber-600 via-amber-500 to-amber-600 py-6">
         <div className="max-w-7xl mx-auto px-6 md:px-12">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-            <a href="tel:+16674000092" className="flex items-center gap-3 text-black font-semibold hover:opacity-80 transition-opacity">
+            <a href="tel:+18776091919" className="flex items-center gap-3 text-black font-semibold hover:opacity-80 transition-opacity">
               <Phone className="w-5 h-5" />
-              <span className="text-lg">(667) 400-0092</span>
+              <span className="text-lg">(877) 609-1919</span>
             </a>
             <a href="mailto:msylimoservices@gmail.com" className="flex items-center gap-3 text-black font-semibold hover:opacity-80 transition-opacity">
               <Mail className="w-5 h-5" />
@@ -174,7 +174,7 @@ const ContactPage = () => {
                 className="space-y-6 mb-8"
               >
                 <motion.a 
-                  href="tel:+16674000092" 
+                  href="tel:+18776091919" 
                   variants={itemVariants}
                   whileHover={{ x: 10 }}
                   className="flex items-center gap-4 group"
@@ -184,7 +184,7 @@ const ContactPage = () => {
                   </div>
                   <div>
                     <p className="text-sm text-white/50">Call Us 24/7</p>
-                    <p className="text-xl font-semibold text-white group-hover:text-amber-400 transition-colors">(667) 400-0092</p>
+                    <p className="text-xl font-semibold text-white group-hover:text-amber-400 transition-colors">(877) 609-1919</p>
                   </div>
                 </motion.a>
 

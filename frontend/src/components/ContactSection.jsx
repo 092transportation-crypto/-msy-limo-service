@@ -101,7 +101,7 @@ const ContactSection = () => {
               className="space-y-6"
             >
               <a 
-                href="tel:+16674000092" 
+                href="tel:+18776091919" 
                 className="flex items-center gap-4 group"
                 data-testid="contact-phone"
               >
@@ -111,7 +111,7 @@ const ContactSection = () => {
                 <div>
                   <p className="text-sm text-white/50">Call Us 24/7</p>
                   <p className="text-xl font-semibold text-white group-hover:text-amber-400 transition-colors">
-                    (667) 400-0092
+                    (877) 609-1919
                   </p>
                 </div>
               </a>

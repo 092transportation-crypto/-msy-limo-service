@@ -152,13 +152,13 @@ const HeroSection = () => {
               className="flex flex-wrap items-center gap-4"
             >
               <motion.a 
-                href="tel:+16674000092"
+                href="tel:+18776091919"
                 className="flex items-center gap-3 bg-gradient-to-r from-amber-500 to-amber-600 text-black px-8 py-4 rounded-xl font-bold text-lg hover:from-amber-400 hover:to-amber-500 transition-all shadow-lg shadow-amber-500/30"
                 whileHover={{ scale: 1.05, boxShadow: "0 20px 40px rgba(245, 158, 11, 0.4)" }}
                 whileTap={{ scale: 0.95 }}
               >
                 <Phone className="w-5 h-5" />
-                <span>(667) 400-0092</span>
+                <span>(877) 609-1919</span>
               </motion.a>
               <motion.a 
                 href="mailto:msylimoservices@gmail.com"
@@ -336,7 +336,7 @@ const HeroSection = () => {
               <p className="text-center text-white/50 text-sm mb-3">Or contact us directly</p>
               <div className="grid grid-cols-2 gap-3">
                 <motion.a 
-                  href="tel:+16674000092"
+                  href="tel:+18776091919"
                   className="flex items-center justify-center gap-2 bg-amber-500/10 border border-amber-500/30 text-amber-400 py-3 rounded-xl font-medium hover:bg-amber-500/20 transition-colors text-sm"
                   whileHover={{ scale: 1.02 }}
                 >

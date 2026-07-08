@@ -6,7 +6,7 @@ const quickLinks = [
   { icon: FileText, label: "GET QUOTE", href: "/contact", isLink: true },
   { icon: HelpCircle, label: "FAQ", href: "/faq", isLink: true },
   { icon: Car, label: "FLEET", href: "/fleet", isLink: true },
-  { icon: Phone, label: "CALL NOW", href: "tel:+16674000092", isLink: false }
+  { icon: Phone, label: "CALL NOW", href: "tel:+18776091919", isLink: false }
 ];
 
 const QuickLinksBar = () => {

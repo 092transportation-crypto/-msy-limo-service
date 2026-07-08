@@ -195,12 +195,12 @@ const AboutPage = () => {
               Book Now
             </motion.a>
             <motion.a 
-              href="tel:+16674000092" 
+              href="tel:+18776091919" 
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="border-2 border-black text-black px-8 py-4 rounded-xl font-semibold hover:bg-black hover:text-amber-400 transition-colors"
             >
-              (667) 400-0092
+              (877) 609-1919
             </motion.a>
           </motion.div>
         </div>

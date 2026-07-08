@@ -89,12 +89,12 @@ const EventsPage = () => {
                   Book Event Transportation <ArrowRight className="w-4 h-4" />
                 </motion.a>
                 <motion.a 
-                  href="tel:+16674000092" 
+                  href="tel:+18776091919" 
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   className="border-2 border-amber-500 text-amber-400 px-6 py-3 rounded-xl font-semibold hover:bg-amber-500 hover:text-black transition-colors inline-flex items-center gap-2"
                 >
-                  <Phone className="w-4 h-4" /> (667) 400-0092
+                  <Phone className="w-4 h-4" /> (877) 609-1919
                 </motion.a>
               </motion.div>
             </div>
@@ -208,7 +208,7 @@ const EventsPage = () => {
                 Online Reservations
               </motion.a>
               <p className="text-center text-white/70 text-sm">Or call us 24/7</p>
-              <a href="tel:+16674000092" className="block text-center text-2xl font-semibold mt-2 text-amber-400 hover:text-amber-300 transition-colors">(667) 400-0092</a>
+              <a href="tel:+18776091919" className="block text-center text-2xl font-semibold mt-2 text-amber-400 hover:text-amber-300 transition-colors">(877) 609-1919</a>
             </motion.div>
           </div>
         </div>

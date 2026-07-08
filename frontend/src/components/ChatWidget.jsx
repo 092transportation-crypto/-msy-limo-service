@@ -59,7 +59,7 @@ const ChatWidget = () => {
     } catch (error) {
       setMessages(prev => [...prev, { 
         role: "assistant", 
-        content: "I apologize, but I'm having trouble connecting right now. Please call us at (667) 400-0092 for immediate assistance." 
+        content: "I apologize, but I'm having trouble connecting right now. Please call us at (877) 609-1919 for immediate assistance." 
       }]);
     } finally {
       setIsLoading(false);
@@ -178,7 +178,7 @@ const ChatWidget = () => {
               </button>
             </div>
             <p className="text-xs text-white/60 text-center mt-2">
-              Or call us at <a href="tel:+16674000092" className="text-amber-400 font-medium">(667) 400-0092</a>
+              Or call us at <a href="tel:+18776091919" className="text-amber-400 font-medium">(877) 609-1919</a>
             </p>
           </div>
         </div>
