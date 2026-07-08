@@ -3,7 +3,15 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
+import SEO, { buildFaqSchema } from "@/components/SEO";
 import { Briefcase, CheckCircle, Phone, ArrowRight, Users, Shield } from "lucide-react";
+
+const corporateFaqSchema = buildFaqSchema([
+  { q: "Do you offer corporate accounts?", a: "Yes — corporate accounts include simplified monthly billing, priority booking, saved traveler profiles, and dedicated account management. Call (877) 609-1919 to set one up at no cost." },
+  { q: "Can you pick up our clients at MSY airport?", a: "Absolutely. We provide meet-and-greet service at baggage claim with a personalized sign, flight tracking, and direct delivery to your office, hotel, or meeting." },
+  { q: "Do you handle roadshows and multi-stop itineraries?", a: "Yes. Hourly charters keep a dedicated chauffeur and vehicle with your team all day for investor roadshows, site visits, and multi-office schedules across the New Orleans metro and Baton Rouge." },
+  { q: "Are your chauffeurs suitable for executive travel?", a: "All chauffeurs are background-checked, professionally trained, and discreet. As a Licensed & Insured Louisiana Carrier, we meet corporate duty-of-care requirements with commercial insurance on every vehicle." },
+]);
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -40,6 +48,12 @@ const CorporatePage = () => {
 
   return (
     <div className="min-h-screen bg-black">
+      <SEO
+        title="Corporate Car Service New Orleans | MSY Chauffeur"
+        description="Executive MSY chauffeur service for business travel — corporate accounts, client meet & greet at MSY airport, roadshows & monthly billing. (877) 609-1919."
+        path="/services/corporate-transportation"
+        schema={[corporateFaqSchema]}
+      />
       <Navigation />
       
       <section className="pt-20 bg-black text-white">

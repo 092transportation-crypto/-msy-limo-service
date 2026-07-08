@@ -70,9 +70,9 @@ const UniqueFeatures = () => {
     },
     {
       icon: Award,
-      title: "5-Star Service",
-      description: "Consistently rated 5 stars by our valued clients. Excellence is our standard.",
-      highlight: "TOP RATED",
+      title: "White-Glove Service",
+      description: "Licensed & Insured Louisiana Carrier. Professional excellence is our standard on every ride.",
+      highlight: "LA CARRIER",
       color: "from-yellow-400 to-amber-300",
       link: "/about"
     },
@@ -198,9 +198,9 @@ const UniqueFeatures = () => {
           className="mt-20 grid grid-cols-2 md:grid-cols-4 gap-6"
         >
           {[
-            { number: "10K+", label: "Happy Clients", link: "/about" },
-            { number: "50+", label: "Luxury Vehicles", link: "/fleet" },
-            { number: "35+", label: "Cities Covered", link: "/contact" },
+            { number: "Licensed & Insured", label: "Louisiana Carrier", link: "/about" },
+            { number: "Luxury Fleet", label: "Sedans, SUVs & Sprinters", link: "/fleet" },
+            { number: "Flat Rates", label: "No Surge Pricing", link: "/contact" },
             { number: "24/7", label: "Availability", link: "/contact" }
           ].map((stat, i) => (
             <Link to={stat.link} key={stat.label}>
@@ -210,8 +210,8 @@ const UniqueFeatures = () => {
                 transition={{ delay: i * 0.1 }}
                 className="text-center hover:scale-105 transition-transform"
               >
-                <motion.div 
-                  className="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-yellow-300 mb-2"
+                <motion.div
+                  className="text-2xl md:text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-yellow-300 mb-2"
                   initial={{ opacity: 0 }}
                   whileInView={{ opacity: 1 }}
                   transition={{ delay: i * 0.1 + 0.3 }}

@@ -14,8 +14,16 @@ const Footer = () => {
   ];
 
   const areas = [
-    "New Orleans", "Kenner", "Metairie", "Gretna", "Harvey",
-    "Chalmette", "LaPlace", "Slidell", "Mandeville", "Covington"
+    { name: "New Orleans", href: "/msy-to-new-orleans-downtown" },
+    { name: "French Quarter", href: "/msy-to-french-quarter" },
+    { name: "Kenner", href: "/msy-to-kenner" },
+    { name: "Metairie", href: "/msy-to-metairie" },
+    { name: "Gretna", href: "/msy-to-gretna" },
+    { name: "Slidell", href: "/msy-to-slidell" },
+    { name: "Mandeville", href: "/msy-to-mandeville" },
+    { name: "Covington", href: "/msy-to-covington" },
+    { name: "Hammond", href: "/msy-to-hammond" },
+    { name: "Baton Rouge", href: "/msy-to-baton-rouge" },
   ];
 
   const quickLinks = [
@@ -158,11 +166,11 @@ const Footer = () => {
 
             {/* Service Areas */}
             <div>
-              <h4 className="text-amber-400 font-bold mb-6 text-sm tracking-wider uppercase">Service Areas</h4>
+              <h4 className="text-amber-400 font-bold mb-6 text-sm tracking-wider uppercase">Airport Routes</h4>
               <ul className="space-y-2">
                 {areas.map((area) => (
-                  <li key={area}>
-                    <Link to="/contact" className="text-white/70 hover:text-amber-400 transition-colors text-sm">{area}</Link>
+                  <li key={area.name}>
+                    <Link to={area.href} className="text-white/70 hover:text-amber-400 transition-colors text-sm">MSY to {area.name}</Link>
                   </li>
                 ))}
               </ul>

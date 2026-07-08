@@ -3,7 +3,15 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
+import SEO, { buildFaqSchema } from "@/components/SEO";
 import { Users, Briefcase, Phone, ArrowRight, Star } from "lucide-react";
+
+const fleetFaqSchema = buildFaqSchema([
+  { q: "What vehicles are in the MSY Limo fleet?", a: "Mercedes-Benz E-Class and S-Class sedans, Cadillac Escalade SUVs, and Mercedes Sprinter vans seating up to 13 passengers — all late-model and meticulously maintained." },
+  { q: "Which vehicle is best for an MSY airport transfer?", a: "Sedans suit 1–3 travelers with standard luggage; the Escalade fits families and extra bags; the Sprinter handles groups up to 13. We'll recommend the right class when you book." },
+  { q: "Do all vehicles include amenities?", a: "Yes — leather interiors, climate control, bottled water, phone charging, and Wi-Fi on equipped vehicles, with a professional chauffeur on every trip." },
+  { q: "Are the vehicles commercially insured?", a: "Yes. MSY Limo Service is a Licensed & Insured Louisiana Carrier — every vehicle carries commercial livery insurance and is driven by a background-checked chauffeur." },
+]);
 
 const fleet = [
   { id: 1, name: "Mercedes E-Class", image: "https://92limo.com/wp-content/uploads/2025/06/mercedes-e-class-removebg-preview-300x138.png", passengers: 3, luggage: 2, category: "Business Class", desc: "Elegant business sedan for professional travel.", features: ["Leather Interior", "WiFi", "Climate Control", "Professional"] },
@@ -30,6 +38,12 @@ const FleetPage = () => {
 
   return (
     <div className="min-h-screen bg-black">
+      <SEO
+        title="Luxury Fleet | MSY Airport Car Service Vehicles"
+        description="Explore the MSY Limo fleet — Mercedes sedans, Cadillac Escalade SUVs & Sprinter vans for New Orleans airport limo service. Call (877) 609-1919."
+        path="/fleet"
+        schema={[fleetFaqSchema]}
+      />
       <Navigation />
       <section className="pt-28 bg-black text-white">
         <div className="max-w-7xl mx-auto px-6 md:px-12 py-16">

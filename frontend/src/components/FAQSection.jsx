@@ -2,41 +2,41 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import { ChevronDown } from "lucide-react";
 
-const faqData = [
+export const faqData = [
   {
     id: "faq-1",
-    question: "Can a large group of passengers go on limo for professional events?",
-    answer: "You can take your large team of professionals and colleagues to a business or corporate event because stretched limousines are perfect. It doesn't avoid any problem in booking multiple vehicles for larger numbers of passengers but also adds a sense of style and unity as you enter with your whole team in a limousine for professional events."
+    question: "How do I book MSY airport car service?",
+    answer: "Book online through our reservation system or call (877) 609-1919 — our dispatch desk answers 24/7. Provide your flight number and we handle the rest, including real-time flight tracking and complimentary wait time at Louis Armstrong International."
   },
   {
     id: "faq-2",
-    question: "What's unique about Black Urban limo services?",
-    answer: "Black Urban offers unmatched luxury transportation with professionally trained chauffeurs, a premium fleet of vehicles, and personalized service tailored to your specific needs. We go beyond transportation to create memorable experiences."
+    question: "What makes MSY Limo different from a taxi or rideshare?",
+    answer: "Flat rates confirmed at booking with no surge pricing, a guaranteed reserved chauffeur, late-model luxury vehicles, and commercial insurance. We are a Licensed & Insured Louisiana Carrier — every trip is driven by a background-checked, professionally trained chauffeur."
   },
   {
     id: "faq-3",
-    question: "How safety is ensured for passengers of Black Urban limo services?",
-    answer: "All our chauffeurs are background-checked, professionally licensed, and trained in safety protocols. Our vehicles undergo regular maintenance and safety inspections. We also provide real-time flight tracking for airport pickups."
+    question: "What areas do you serve around New Orleans?",
+    answer: "The entire Greater New Orleans metro and beyond: downtown, the French Quarter, Metairie, Kenner, Gretna and the West Bank, Slidell, Mandeville, Covington, Hammond, and long-distance transfers to Baton Rouge and the Gulf Coast."
   },
   {
     id: "faq-4",
-    question: "Why are Black Urban limo services more exciting than a regular cab?",
-    answer: "Unlike regular cabs, our limo services offer luxury vehicles, professional chauffeurs in formal attire, complimentary amenities, privacy, and a premium experience from door to door."
+    question: "What happens if my flight into MSY is delayed?",
+    answer: "Nothing changes for you. We track every inbound flight in real time and adjust your pickup automatically, with 60 minutes of complimentary wait time on domestic arrivals and 90 minutes on international arrivals."
   },
   {
     id: "faq-5",
-    question: "Which limos are best for wedding or family night?",
-    answer: "For weddings, we recommend our stretch limousines which can accommodate the wedding party. For family nights out, the Cadillac Escalade or Mercedes Sprinter offers space and luxury for everyone."
+    question: "Which vehicles are best for weddings or group nights out?",
+    answer: "For weddings, our stretch limousines accommodate the whole wedding party. For family outings or group celebrations, the Cadillac Escalade seats up to 6 and the Mercedes Sprinter van carries up to 13 passengers in comfort."
   },
   {
     id: "faq-6",
-    question: "Are there hidden charges of taxes with Black Urban limo?",
-    answer: "No, we believe in transparent pricing. All taxes and fees are included in your quoted price. There are no hidden charges or surprise fees when you book with us."
+    question: "Are there hidden charges or taxes on top of my quote?",
+    answer: "No. We believe in transparent pricing — all taxes and fees are included in the flat rate you confirm at booking. There are no hidden charges or surprise fees, regardless of traffic, events, or time of day."
   },
   {
     id: "faq-7",
-    question: "Can I get a customized exterior decoration or amenities with a limo?",
-    answer: "Yes! We offer customization options for special events like weddings and proms. This includes decorations, specific beverages, and other amenities upon request."
+    question: "Do you provide corporate car service at MSY airport?",
+    answer: "Yes. We offer corporate accounts with priority booking, consolidated monthly billing, and meet-and-greet service for arriving clients. Hourly charters are available for roadshows and multi-stop business days."
   }
 ];
 
@@ -97,7 +97,7 @@ const FAQSection = () => {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="text-white/70"
           >
-            Black Urban Limousine Services
+            MSY Airport Car Service & Chauffeur Questions
           </motion.p>
         </div>
 

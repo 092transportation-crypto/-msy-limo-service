@@ -2,7 +2,15 @@ import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
+import SEO, { buildFaqSchema } from "@/components/SEO";
 import { Phone, Mail, MapPin, Clock, Send, Calendar, User, MessageSquare, Car } from "lucide-react";
+
+const contactFaqSchema = buildFaqSchema([
+  { q: "How do I get a quote for MSY airport car service?", a: "Submit the quote form with your trip details, call (877) 609-1919, or email msylimoservices@gmail.com. Quotes are flat rates by vehicle class, confirmed before you ride." },
+  { q: "How far in advance should I book?", a: "24–48 hours ahead is comfortable for standard transfers; book earlier for weddings, festival weekends, and large groups. Same-day requests are often possible — just call." },
+  { q: "Do you answer after hours?", a: "Yes — our dispatch desk operates 24/7 for bookings, changes, and live trip support." },
+  { q: "Can I book a round trip in one request?", a: "Yes, and we recommend it: booking your return at the same time locks in your departure pickup and guarantees vehicle availability." },
+]);
 import { toast } from "sonner";
 
 const containerVariants = {
@@ -89,6 +97,12 @@ const ContactPage = () => {
 
   return (
     <div className="min-h-screen bg-black">
+      <SEO
+        title="Contact MSY Limo | Book MSY Airport Car Service"
+        description="Book your MSY airport car service or New Orleans airport limo — instant quotes by phone at (877) 609-1919 or through our online form, 24/7."
+        path="/contact"
+        schema={[contactFaqSchema]}
+      />
       <Navigation />
       
       {/* Hero Section */}

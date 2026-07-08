@@ -3,7 +3,15 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
+import SEO, { buildFaqSchema } from "@/components/SEO";
 import { Plane, Clock, CheckCircle, Phone, ArrowRight } from "lucide-react";
+
+const airportFaqSchema = buildFaqSchema([
+  { q: "Which airports does MSY Limo Service cover?", a: "We serve MSY (Louis Armstrong New Orleans International) and NEW (Lakefront Airport). Every transfer includes real-time flight tracking and complimentary wait time." },
+  { q: "How much wait time is included with an airport pickup?", a: "60 minutes of complimentary wait time on domestic arrivals, 90 minutes on international arrivals, and 15 minutes for departures — we track your flight so delays never cost you extra." },
+  { q: "Where does my chauffeur meet me at MSY?", a: "Standard pickups meet you at the arrivals curb; with meet-and-greet service, your chauffeur waits inside baggage claim with a personalized sign and helps with luggage." },
+  { q: "Do you offer flat rates for MSY airport car service?", a: "Yes — every airport transfer is a flat rate quoted by vehicle class and confirmed at booking, with no surge pricing at any hour or event. Call (877) 609-1919 for a quote." },
+]);
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -39,8 +47,14 @@ const AirportPage = () => {
 
   return (
     <div className="min-h-screen bg-black">
+      <SEO
+        title="MSY Airport Transportation | New Orleans Airport Limo"
+        description="MSY airport car service with flight tracking, meet & greet and flat rates. New Orleans airport limo transfers 24/7. Book now or call (877) 609-1919."
+        path="/services/airport-transportation"
+        schema={[airportFaqSchema]}
+      />
       <Navigation />
-      
+
       <section className="pt-28 bg-black text-white">
         <div className="max-w-7xl mx-auto px-6 md:px-12 py-16">
           <div className="grid lg:grid-cols-2 gap-12 items-center">

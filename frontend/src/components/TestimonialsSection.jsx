@@ -116,19 +116,19 @@ const TestimonialsSection = () => {
         >
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             <div>
-              <p className="text-4xl md:text-5xl font-medium text-[#D4AF37]" style={{ fontFamily: "'Playfair Display', serif" }}>15+</p>
-              <p className="text-sm text-[#A3A3A3] mt-2">Years Experience</p>
+              <p className="text-2xl md:text-3xl font-medium text-[#D4AF37]" style={{ fontFamily: "'Playfair Display', serif" }}>Licensed &amp; Insured</p>
+              <p className="text-sm text-[#A3A3A3] mt-2">Louisiana Carrier</p>
             </div>
             <div>
-              <p className="text-4xl md:text-5xl font-medium text-[#D4AF37]" style={{ fontFamily: "'Playfair Display', serif" }}>10k+</p>
-              <p className="text-sm text-[#A3A3A3] mt-2">Happy Clients</p>
+              <p className="text-2xl md:text-3xl font-medium text-[#D4AF37]" style={{ fontFamily: "'Playfair Display', serif" }}>Professional</p>
+              <p className="text-sm text-[#A3A3A3] mt-2">Background-Checked Chauffeurs</p>
             </div>
             <div>
-              <p className="text-4xl md:text-5xl font-medium text-[#D4AF37]" style={{ fontFamily: "'Playfair Display', serif" }}>4.9</p>
-              <p className="text-sm text-[#A3A3A3] mt-2">Average Rating</p>
+              <p className="text-2xl md:text-3xl font-medium text-[#D4AF37]" style={{ fontFamily: "'Playfair Display', serif" }}>Flight Tracking</p>
+              <p className="text-sm text-[#A3A3A3] mt-2">On Every MSY Pickup</p>
             </div>
             <div>
-              <p className="text-4xl md:text-5xl font-medium text-[#D4AF37]" style={{ fontFamily: "'Playfair Display', serif" }}>24/7</p>
+              <p className="text-2xl md:text-3xl font-medium text-[#D4AF37]" style={{ fontFamily: "'Playfair Display', serif" }}>24/7</p>
               <p className="text-sm text-[#A3A3A3] mt-2">Available</p>
             </div>
           </div>

@@ -3,7 +3,15 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
+import SEO, { buildFaqSchema } from "@/components/SEO";
 import { Clock, CheckCircle, Phone, ArrowRight, MapPin, Wine } from "lucide-react";
+
+const hourlyFaqSchema = buildFaqSchema([
+  { q: "What is the minimum booking for hourly charter?", a: "Hourly charters start at a 3-hour minimum with a dedicated chauffeur and unlimited stops within our service area." },
+  { q: "What are hourly charters used for?", a: "Plantation and city tours, shopping days, multi-stop business schedules, medical appointments, and any itinerary where you want the vehicle to stay with you." },
+  { q: "Can I change the itinerary during the charter?", a: "Yes — your chauffeur is at your disposal for the booked time, and route changes on the fly are part of the service." },
+  { q: "Which vehicles are available by the hour?", a: "Every vehicle in our fleet: executive sedans, Cadillac Escalade SUVs, Mercedes Sprinter vans, and stretch limousines. Call (877) 609-1919 for hourly rates." },
+]);
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -40,6 +48,12 @@ const HourlyPage = () => {
 
   return (
     <div className="min-h-screen bg-black">
+      <SEO
+        title="Hourly Limo Charter New Orleans | MSY Limo Service"
+        description="Hourly chauffeur charter in New Orleans — tours, multi-stop days & events with a dedicated luxury vehicle. 3-hour minimum. Call (877) 609-1919."
+        path="/services/hourly-charter"
+        schema={[hourlyFaqSchema]}
+      />
       <Navigation />
       
       <section className="pt-20 bg-black text-white">

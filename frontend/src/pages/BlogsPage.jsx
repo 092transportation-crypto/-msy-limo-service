@@ -4,7 +4,15 @@ import { motion } from "framer-motion";
 import DOMPurify from "dompurify";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
+import SEO, { buildFaqSchema } from "@/components/SEO";
+import { seoBlogPosts } from "@/data/blogPostsData";
 import { Calendar, Clock, ArrowRight, User, Tag, Share2, Facebook, Twitter, Linkedin, Link2, Check } from "lucide-react";
+
+const blogFaqSchema = buildFaqSchema([
+  { q: "What topics does the MSY Limo blog cover?", a: "MSY airport transportation guides, car service vs. rideshare comparisons, corporate travel tips, and local New Orleans travel advice — from the French Quarter to the Northshore." },
+  { q: "How do I book a ride after reading a guide?", a: "Book online through our reservation system or call (877) 609-1919 — dispatch answers 24/7 and every quote is a flat rate confirmed before you ride." },
+  { q: "Do you publish route-specific pricing information?", a: "Our route pages and guides explain flat-rate pricing by vehicle class. For an exact quote on any trip, call (877) 609-1919 with your pickup and drop-off details." },
+]);
 import { toast } from "sonner";
 
 const containerVariants = {
@@ -576,8 +584,14 @@ const BlogsPage = () => {
 
   return (
     <div className="min-h-screen bg-black">
+      <SEO
+        title="New Orleans Limo Blog | MSY Airport Travel Tips"
+        description="Guides on MSY airport car service, New Orleans airport limo travel, corporate transportation & flat-rate transfers. Book 24/7 at (877) 609-1919."
+        path="/blog"
+        schema={[blogFaqSchema]}
+      />
       <Navigation />
-      
+
       {/* Hero Section */}
       <section className="pt-28 pb-16 bg-black text-white">
         <div className="max-w-7xl mx-auto px-6 md:px-12">
@@ -622,6 +636,66 @@ const BlogsPage = () => {
           </motion.div>
         </div>
       </section>
+
+      {/* In-Depth Guides (standalone SEO posts) */}
+      {selectedCategory === "All" && (
+        <section className="py-12 bg-black border-y border-amber-500/10">
+          <div className="max-w-7xl mx-auto px-6 md:px-12">
+            <motion.h2
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              className="text-2xl font-medium mb-8 text-amber-400"
+              style={{ fontFamily: "'Playfair Display', serif" }}
+            >
+              In-Depth Guides
+            </motion.h2>
+            <motion.div
+              variants={containerVariants}
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true }}
+              className="grid md:grid-cols-2 lg:grid-cols-3 gap-6"
+            >
+              {seoBlogPosts.map((post) => (
+                <motion.article
+                  key={post.slug}
+                  variants={itemVariants}
+                  whileHover={{ y: -8 }}
+                  className="bg-gray-900/50 border border-amber-500/20 rounded-xl overflow-hidden hover:border-amber-500/40 transition-all"
+                >
+                  <Link to={`/blog/${post.slug}`}>
+                    <div className="aspect-video overflow-hidden">
+                      <img
+                        src={post.image}
+                        alt={post.title}
+                        className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+                        loading="lazy"
+                      />
+                    </div>
+                  </Link>
+                  <div className="p-6">
+                    <div className="flex items-center gap-2 mb-3">
+                      <span className="px-2 py-1 bg-amber-500/10 text-amber-400 text-xs rounded-full">{post.category}</span>
+                      <span className="text-white/40 text-xs flex items-center gap-1">
+                        <Clock className="w-3 h-3" /> {post.readTime}
+                      </span>
+                    </div>
+                    <h3 className="text-lg font-semibold text-white mb-2 line-clamp-2">{post.title}</h3>
+                    <p className="text-white/60 text-sm line-clamp-2 mb-4">{post.excerpt}</p>
+                    <Link
+                      to={`/blog/${post.slug}`}
+                      className="text-amber-400 text-sm font-medium inline-flex items-center gap-1 hover:gap-2 transition-all"
+                    >
+                      Read Full Guide <ArrowRight className="w-4 h-4" />
+                    </Link>
+                  </div>
+                </motion.article>
+              ))}
+            </motion.div>
+          </div>
+        </section>
+      )}
 
       {/* Featured Posts */}
       {selectedCategory === "All" && (

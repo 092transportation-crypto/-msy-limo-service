@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
+import SEO, { buildFaqSchema } from "@/components/SEO";
 import { ChevronDown, Phone, HelpCircle, MessageCircle } from "lucide-react";
 
 const faqData = [
@@ -38,6 +39,12 @@ const FAQPage = () => {
 
   return (
     <div className="min-h-screen bg-black">
+      <SEO
+        title="FAQ | MSY Airport Car Service & Limo Questions"
+        description="Answers about MSY airport car service — booking, airports served, fleet, wait times, cancellations & corporate accounts. Call (877) 609-1919."
+        path="/faq"
+        schema={[buildFaqSchema(faqData)]}
+      />
       <Navigation />
       
       <section className="pt-20 bg-black text-white">

@@ -8,9 +8,14 @@ import ServicesPortfolio from "@/components/ServicesPortfolio";
 import FleetSection from "@/components/FleetSection";
 import ServiceAreasSection from "@/components/ServiceAreasSection";
 import CTASection from "@/components/CTASection";
-import FAQSection from "@/components/FAQSection";
+import FAQSection, { faqData } from "@/components/FAQSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
+import SEO, { buildFaqSchema } from "@/components/SEO";
+
+const homeFaqSchema = buildFaqSchema(
+  faqData.map(({ question, answer }) => ({ q: question, a: answer }))
+);
 
 const HomePage = () => {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -26,6 +31,12 @@ const HomePage = () => {
       transition={{ duration: 0.3 }}
       className="min-h-screen bg-black"
     >
+      <SEO
+        title="MSY Airport Car Service | New Orleans Airport Limo"
+        description="MSY airport car service & New Orleans airport limo. Luxury chauffeur transfers, flat rates, flight tracking, 24/7. Licensed & insured. Call (877) 609-1919."
+        path="/"
+        schema={[homeFaqSchema]}
+      />
       {/* Schema.org structured data for SEO */}
       <script type="application/ld+json">
         {JSON.stringify({

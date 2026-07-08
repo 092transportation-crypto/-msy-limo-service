@@ -3,7 +3,15 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
+import SEO, { buildFaqSchema } from "@/components/SEO";
 import { Shield, Clock, Users, Award, Phone, ArrowRight } from "lucide-react";
+
+const aboutFaqSchema = buildFaqSchema([
+  { q: "Is MSY Limo Service licensed and insured?", a: "Yes — we operate as a Licensed & Insured Louisiana Carrier with commercial insurance on every vehicle and background-checked, professionally trained chauffeurs." },
+  { q: "What areas does MSY Limo Service cover?", a: "The entire Greater New Orleans metro — downtown, the French Quarter, Metairie, Kenner, the West Bank, and the Northshore — plus long-distance service to Baton Rouge, Hammond, and the Gulf Coast." },
+  { q: "What services do you offer?", a: "MSY airport transfers, corporate car service, wedding limousines, cruise port transfers, special events, Saints game day transportation, and hourly charters." },
+  { q: "How can I reach MSY Limo Service?", a: "Call (877) 609-1919 any time — dispatch answers 24/7 — or book online through our reservation system." },
+]);
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -32,6 +40,12 @@ const AboutPage = () => {
 
   return (
     <div className="min-h-screen bg-black">
+      <SEO
+        title="About MSY Limo | New Orleans Chauffeur Service"
+        description="MSY Limo Service — a Licensed & Insured Louisiana Carrier providing MSY airport car service and luxury chauffeur transportation across New Orleans."
+        path="/about"
+        schema={[aboutFaqSchema]}
+      />
       <Navigation />
       
       <section className="pt-20 bg-black text-white">

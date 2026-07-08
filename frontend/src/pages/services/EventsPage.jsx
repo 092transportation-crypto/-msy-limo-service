@@ -3,7 +3,15 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
+import SEO, { buildFaqSchema } from "@/components/SEO";
 import { PartyPopper, CheckCircle, Phone, ArrowRight, Music, GraduationCap, Star } from "lucide-react";
+
+const eventsFaqSchema = buildFaqSchema([
+  { q: "Do you provide limo service for proms and graduations?", a: "Yes — prom and graduation packages include a professional chauffeur, party-ready vehicles, and parent-approved safety standards from a Licensed & Insured Louisiana Carrier." },
+  { q: "Can you take us to concerts and games at the Superdome or Smoothie King Center?", a: "Absolutely. We drop you at the entrance and schedule a post-event pickup so you skip parking entirely — including Saints game days and major concerts." },
+  { q: "How late do you operate for events?", a: "24/7. Late-night pickups after galas, festivals, and nights out are a core service — your ride home is scheduled before you even go out." },
+  { q: "Is there surge pricing during festivals like Mardi Gras?", a: "Never. Event transportation is flat-rate, confirmed at booking. We do recommend reserving early for Mardi Gras, Jazz Fest, and Essence Fest weekends." },
+]);
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -40,6 +48,12 @@ const EventsPage = () => {
 
   return (
     <div className="min-h-screen bg-black">
+      <SEO
+        title="Special Event Limo New Orleans | MSY Limo Service"
+        description="Limo service for proms, concerts, galas & nights out in New Orleans. Flat rates, late-night pickups & professional chauffeurs. Call (877) 609-1919."
+        path="/services/special-events"
+        schema={[eventsFaqSchema]}
+      />
       <Navigation />
       
       <section className="pt-20 bg-black text-white">

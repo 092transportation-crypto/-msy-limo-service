@@ -3,7 +3,15 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
+import SEO, { buildFaqSchema } from "@/components/SEO";
 import { Ship, Clock, CheckCircle, Phone, ArrowRight, Anchor, MapPin, Calendar, Waves } from "lucide-react";
+
+const cruiseFaqSchema = buildFaqSchema([
+  { q: "How far is the New Orleans cruise terminal from MSY airport?", a: "The Port of New Orleans terminals are about 25 minutes from MSY in normal traffic. We time embarkation-day pickups around your ship's boarding window." },
+  { q: "Do you drop off directly at the cruise terminal?", a: "Yes — direct curbside drop-off at the Julia Street and Erato Street terminals with luggage assistance, so you walk straight to check-in." },
+  { q: "Can you pick us up after the cruise returns?", a: "Absolutely. We schedule post-cruise pickups around typical debarkation times and monitor ship arrival status, taking you to MSY, your hotel, or home." },
+  { q: "Do you handle large cruise groups?", a: "Yes — Sprinter vans seat up to 13 passengers with luggage, and we coordinate multiple vehicles for family reunions and group cruises. Call (877) 609-1919 to arrange it." },
+]);
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -73,6 +81,12 @@ const CruisePage = () => {
 
   return (
     <div className="min-h-screen bg-black">
+      <SEO
+        title="New Orleans Cruise Port Car Service | MSY Limo"
+        description="Cruise terminal transfers from MSY airport, hotels & homes to the Port of New Orleans. Luggage help, flat rates, group vans. Call (877) 609-1919."
+        path="/services/cruise-transportation"
+        schema={[cruiseFaqSchema]}
+      />
       <Navigation />
       
       {/* Hero Section */}

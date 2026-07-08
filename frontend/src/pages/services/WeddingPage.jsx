@@ -3,7 +3,15 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
+import SEO, { buildFaqSchema } from "@/components/SEO";
 import { Heart, CheckCircle, Phone, ArrowRight, Sparkles, Users } from "lucide-react";
+
+const weddingFaqSchema = buildFaqSchema([
+  { q: "How far in advance should we book wedding transportation?", a: "We recommend 2 to 4 weeks minimum, and earlier for peak wedding season and festival weekends in New Orleans. Multiple-vehicle coordination books up fastest." },
+  { q: "Can you coordinate vehicles for the whole wedding party?", a: "Yes — a luxury sedan for the couple, stretch limousine for the bridal party, and Sprinter shuttles for guests, all coordinated on one timeline with one point of contact." },
+  { q: "Do you decorate the wedding vehicle?", a: "Decorated vehicles are available upon request, along with red carpet service and a complimentary champagne toast for the newlyweds." },
+  { q: "Which New Orleans wedding venues do you serve?", a: "All of them — from French Quarter courtyards and Garden District estates to Northshore venues in Covington and Mandeville. We plan routes and timing around your ceremony schedule." },
+]);
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -40,6 +48,12 @@ const WeddingPage = () => {
 
   return (
     <div className="min-h-screen bg-black">
+      <SEO
+        title="Wedding Limo New Orleans | MSY Limo Service"
+        description="Elegant wedding limo service in New Orleans — stretch limos, luxury sedans & guest shuttles with champagne toast and red carpet. Call (877) 609-1919."
+        path="/services/wedding-limo"
+        schema={[weddingFaqSchema]}
+      />
       <Navigation />
       
       <section className="pt-20 bg-black text-white">
