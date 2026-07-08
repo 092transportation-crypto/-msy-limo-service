@@ -34,6 +34,16 @@ const ROUTE_SLUGS = [
   "msy-to-mandeville",
   "msy-to-hammond",
   "msy-to-gretna",
+  "msy-to-biloxi",
+  "msy-to-gulf-shores",
+  "msy-to-mobile-al",
+  "msy-to-lafayette",
+  "msy-to-lake-charles",
+  "msy-to-natchez",
+  "msy-to-jackson-ms",
+  "msy-to-pensacola",
+  "msy-to-shreveport",
+  "msy-to-baton-rouge-downtown",
 ];
 
 // Minimal loading spinner

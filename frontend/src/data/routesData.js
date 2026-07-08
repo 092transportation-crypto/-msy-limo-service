@@ -604,6 +604,606 @@ export const routes = [
       },
     ],
   },
+  {
+    slug: "msy-to-biloxi",
+    city: "Biloxi",
+    h1: "MSY Airport to Biloxi Car Service",
+    metaTitle: "MSY to Biloxi Car Service | Casino Coast Chauffeur",
+    metaDescription:
+      "Private car service from MSY airport to Biloxi casinos & the Mississippi Gulf Coast. Flat rates, flight tracking, 24/7 dispatch. Call (877) 609-1919.",
+    distance: "≈ 85 miles",
+    time: "80–95 minutes",
+    routeVia: "via I-10 East",
+    intro: [
+      "Flying into New Orleans and heading for the Mississippi Gulf Coast? Our MSY-to-Biloxi car service puts you at the Beau Rivage, Hard Rock, or your Gulf-front condo in about an hour and a half — without a rental counter, a shuttle timetable, or a rideshare driver deciding an 85-mile trip isn't worth the return leg.",
+      "Louis Armstrong International is frequently the smartest airport for Coast travelers: more nonstop routes and better fares than the regional alternatives, with a straight shot east on I-10 across the Louisiana marsh and into Harrison County. Your chauffeur tracks the flight, meets you at baggage claim or the curb, and handles luggage while you settle into a Mercedes sedan or Escalade for the ride.",
+      "Casino weekends are the heart of this route, but far from all of it. We carry contractors and military personnel to Keesler Air Force Base, wedding parties to beachfront venues in Gulfport and Biloxi, and cruise passengers connecting between MSY and Coast hotels. Whatever brings you across the state line, the rate is flat, confirmed at booking, and immune to surge pricing.",
+    ],
+    highlights: [
+      "Direct I-10 East run — no stops, no shuttle transfers",
+      "Casino drop-offs at the porte cochère, not the parking garage",
+      "Flight tracking with complimentary wait time included",
+      "Flat rates confirmed before you fly — no surge, ever",
+      "Group Sprinters for casino trips and beach weekends",
+      "Licensed & Insured Louisiana Carrier",
+    ],
+    destinationsTitle: "Biloxi & Gulf Coast Destinations We Serve",
+    destinations: [
+      { name: "Beau Rivage Resort & Casino", blurb: "The Coast's flagship resort — direct valet-entrance drop-off for hotel and casino guests." },
+      { name: "Hard Rock Hotel & Casino Biloxi", blurb: "Beachfront gaming and concerts at the foot of the Biloxi Bay Bridge." },
+      { name: "Golden Nugget & IP Casino Resort", blurb: "Back Bay and beachfront properties covered on every casino run." },
+      { name: "Keesler Air Force Base", blurb: "Reliable transfers for service members, families, and visiting contractors with gate-procedure experience." },
+      { name: "Gulfport Harbor & Jones Park", blurb: "Charter fishing departures, festivals, and events along the Gulfport waterfront." },
+      { name: "Biloxi Beach & Highway 90 Hotels", blurb: "Condos and hotels along the beachfront strip from Gulfport to Ocean Springs." },
+    ],
+    whyTitle: "Why Coast Travelers Book a Chauffeur From MSY",
+    whyParagraphs: [
+      "Rideshare across a state line is a gamble that gets worse after dark — drivers cancel long trips, and finding a return ride from Biloxi at midnight is its own adventure. A reserved chauffeur removes both problems: the trip is committed when you book, and round-trip reservations lock in your ride home before you ever leave. Many casino guests book the return for Sunday afternoon and treat the whole weekend as door-to-door.",
+      "As a Licensed & Insured Louisiana Carrier, we run this interstate route under commercial insurance with background-checked professional chauffeurs. Ride with a group in a Sprinter van and the per-person cost routinely beats driving once you count parking, fuel, and the value of arriving rested at the tables.",
+    ],
+    faqs: [
+      {
+        q: "How long is the drive from MSY to Biloxi?",
+        a: "About 85 miles and 80 to 95 minutes via I-10 East in normal traffic. Friday evening casino traffic can add time; your chauffeur plans around it before pickup.",
+      },
+      {
+        q: "Do you drop off directly at the casinos?",
+        a: "Yes — valet-entrance drop-off at the Beau Rivage, Hard Rock, Golden Nugget, IP, and every other Coast property, with luggage handled to the door.",
+      },
+      {
+        q: "Can we book a round trip for a casino weekend?",
+        a: "Absolutely, and most Biloxi clients do. Book both legs at once and your Sunday return is guaranteed — no hunting for a ride back across the state line.",
+      },
+      {
+        q: "Do you serve Gulfport, Ocean Springs, and Keesler AFB?",
+        a: "Yes. The entire Mississippi Coast from Bay St. Louis to Ocean Springs is in our coverage area, including Keesler Air Force Base transfers. Call (877) 609-1919 with your address for an exact quote.",
+      },
+      {
+        q: "What does an MSY-to-Biloxi transfer cost?",
+        a: "It's a flat rate by vehicle class — sedan, SUV, or Sprinter — confirmed at booking and unaffected by traffic, demand, or time of day.",
+      },
+    ],
+  },
+  {
+    slug: "msy-to-gulf-shores",
+    city: "Gulf Shores",
+    h1: "MSY Airport to Gulf Shores Car Service",
+    metaTitle: "MSY to Gulf Shores Car Service | Beach Transfers",
+    metaDescription:
+      "Luxury car service from MSY airport to Gulf Shores & Orange Beach, Alabama. Flat rates, room for beach luggage, 24/7 booking. Call (877) 609-1919.",
+    distance: "≈ 200 miles",
+    time: "3–3.5 hours",
+    routeVia: "via I-10 East & AL-59 South",
+    intro: [
+      "Gulf Shores and Orange Beach draw families from across the country — and many of them discover that flying into New Orleans beats the regional airports on both fares and nonstop options. The catch is the 200-mile drive. Our MSY-to-Gulf Shores car service turns that drive into the easiest part of the trip: a chauffeur meets your flight, loads a week's worth of beach luggage, and delivers you straight to your rental's front door in about three hours.",
+      "The route runs I-10 East past the Mississippi Coast and Mobile Bay, then south on AL-59 to the island. Along the way you're in a late-model SUV or Sprinter van with room for coolers, golf clubs, and car seats — not folded into a rental with the beach chairs on someone's lap. Families nap; couples watch the Gulf Coast roll by; nobody navigates Mobile's tunnel traffic after a 6 a.m. departure.",
+      "We time pickups to your flight with real-time tracking, and return trips are scheduled around checkout so vacation ends at your door, not in a rental-return line with a flight to catch. One flat rate, both directions if you want it, confirmed before you fly.",
+    ],
+    highlights: [
+      "Door-to-door from MSY baggage claim to your beach rental",
+      "SUVs & Sprinters sized for family beach luggage",
+      "Child car seats available on request",
+      "Flight tracking with complimentary wait time",
+      "Round-trip bookings with checkout-day return pickups",
+      "Licensed & Insured Louisiana Carrier",
+    ],
+    destinationsTitle: "Gulf Shores & Orange Beach Stops",
+    destinations: [
+      { name: "Gulf Shores Beach Rentals", blurb: "Direct delivery to condos and beach houses from Fort Morgan Road to the Hangout district." },
+      { name: "Orange Beach & Perdido Key", blurb: "East-island resorts, marinas, and rentals along Perdido Beach Boulevard." },
+      { name: "The Hangout & Gulf Place", blurb: "The heart of the Gulf Shores beachfront — festivals, restaurants, and the public beach." },
+      { name: "The Wharf at Orange Beach", blurb: "Concert amphitheater, marina, and shopping — event drop-offs and pickups available." },
+      { name: "Fort Morgan Peninsula", blurb: "Quiet west-end beach houses and the historic fort at the mouth of Mobile Bay." },
+      { name: "Bon Secour & Foley", blurb: "OWA Parks, Tanger Outlets, and inland stops on the way to the sand." },
+    ],
+    whyTitle: "The Family Math on a Gulf Shores Transfer",
+    whyParagraphs: [
+      "Price a week of airport parking or a rental car that sits in a condo garage for six days, add the stress of a three-hour drive on each end of vacation, and a chauffeured transfer stops looking like a luxury and starts looking like arithmetic. One vehicle carries the whole family and all the gear, the flat rate is known before you fly, and both drives happen while you rest.",
+      "Rideshares essentially don't exist for this route — 200-mile cross-state trips get declined, and there's no reliable ride back. We commit to both legs at booking, run them under commercial insurance as a Licensed & Insured Louisiana Carrier, and put a background-checked professional chauffeur behind the wheel for every mile of I-10.",
+    ],
+    faqs: [
+      {
+        q: "How far is Gulf Shores from New Orleans airport?",
+        a: "About 200 miles — plan on 3 to 3.5 hours door to door via I-10 East and AL-59 South, depending on Mobile-area traffic and your exact rental location.",
+      },
+      {
+        q: "Is flying into MSY better than the regional airports for Gulf Shores?",
+        a: "Often, yes — MSY typically offers more nonstops and lower fares. Pairing the cheaper flight with a private transfer frequently costs less overall than connecting itineraries into smaller airports.",
+      },
+      {
+        q: "Can you fit a family's beach luggage?",
+        a: "Yes. Escalades handle a family of five with full luggage; Sprinter vans carry larger groups plus coolers, strollers, and golf clubs. Tell us your headcount and bags and we'll size the vehicle.",
+      },
+      {
+        q: "Do you provide car seats for the drive?",
+        a: "Forward-facing and booster seats are available on request at booking — set it up once and both legs of a round trip are covered.",
+      },
+      {
+        q: "How does the return pickup work on checkout day?",
+        a: "We schedule around your checkout time and flight, monitor traffic that morning, and confirm the evening before. You lock the condo door and the vacation logistics are done.",
+      },
+    ],
+  },
+  {
+    slug: "msy-to-mobile-al",
+    city: "Mobile",
+    h1: "MSY Airport to Mobile, Alabama Car Service",
+    metaTitle: "MSY to Mobile AL Car Service | MSY Limo",
+    metaDescription:
+      "Chauffeured car service from MSY airport to Mobile, Alabama — downtown, cruise terminal & Airbus. Flat rates, 24/7 dispatch. Call (877) 609-1919.",
+    distance: "≈ 145 miles",
+    time: "2–2.5 hours",
+    routeVia: "via I-10 East",
+    intro: [
+      "Mobile sits two hours east of Louis Armstrong International on a straight I-10 run — close enough that flying into New Orleans often beats connecting through Atlanta or Dallas to reach the regional airport, and far enough that you want a professional handling the drive. Our MSY-to-Mobile car service covers business travelers, cruise passengers, and families with the same formula: flat rate, tracked flight, chauffeur at baggage claim.",
+      "Cruise traffic anchors this route. Carnival sails year-round from the Mobile Alabama Cruise Terminal, and passengers flying into MSY for better fares book us for the connection — we time embarkation-day pickups against boarding windows and meet returning ships for the ride back. Business travel fills the weekdays: Airbus's Final Assembly Line, the shipyards, and downtown's banking and legal district all see our vehicles regularly.",
+      "The drive crosses the Mississippi Coast and Mobile Bay via the Wallace Tunnel or the Bayway, and our chauffeurs know how game-day and beach-season traffic reshape both. You ride in a quiet cabin with Wi-Fi, take your calls, and arrive downtown or at the terminal ready for what's next.",
+    ],
+    highlights: [
+      "2–2.5 hour direct interstate transfer",
+      "Cruise terminal timing for Carnival sailings",
+      "Corporate service for Airbus, shipyards & downtown",
+      "Work en route — Wi-Fi and quiet executive cabins",
+      "Round trips and same-day returns available",
+      "Licensed & Insured Louisiana Carrier",
+    ],
+    destinationsTitle: "Mobile Destinations We Cover",
+    destinations: [
+      { name: "Mobile Alabama Cruise Terminal", blurb: "Embarkation and debarkation transfers timed to Carnival's boarding windows." },
+      { name: "Downtown & the RSA Tower District", blurb: "Hotels, law firms, and banking offices in Mobile's business core." },
+      { name: "Airbus U.S. Manufacturing", blurb: "Executive transfers to the Final Assembly Line at Brookley Aeroplex." },
+      { name: "USS Alabama Battleship Park", blurb: "The Bay's signature landmark for family visits and events." },
+      { name: "Mobile Convention Center & Saenger Theatre", blurb: "Conferences, concerts, and Mardi Gras season downtown — Mobile's original celebration." },
+      { name: "Spring Hill & Midtown", blurb: "Residential pickups and drop-offs across Mobile's historic neighborhoods." },
+    ],
+    whyTitle: "The Smart Connection Between MSY and the Port City",
+    whyParagraphs: [
+      "Flights into MSY are frequently cheaper and more direct than routings into the regional airport — but only if the ground leg is solved. A rental adds return logistics and downtown parking; rideshares decline 145-mile interstate trips as a matter of routine. A reserved chauffeur makes the MSY option genuinely better: committed at booking, tracked in real time, and priced as one flat number you can put in a travel budget.",
+      "Every Mobile transfer runs under commercial insurance as a Licensed & Insured Louisiana Carrier with a background-checked professional at the wheel. For cruise groups, one Sprinter van moves the whole party and its luggage together — no caravan coordination on embarkation morning.",
+    ],
+    faqs: [
+      {
+        q: "How long does MSY to Mobile take?",
+        a: "About 145 miles and 2 to 2.5 hours via I-10 East, depending on Mississippi Coast traffic and the Bayway. Your chauffeur tracks conditions and plans the departure accordingly.",
+      },
+      {
+        q: "Do you handle Carnival cruise connections from MSY?",
+        a: "Yes — it's one of this route's most common bookings. We time pickups to your flight and the ship's boarding window, and meet returning sailings for the ride back to MSY or a New Orleans hotel.",
+      },
+      {
+        q: "Can I work during the drive?",
+        a: "That's the point of the executive sedan: quiet cabin, Wi-Fi, device charging, and two productive hours instead of two hours of driving.",
+      },
+      {
+        q: "Do you offer same-day round trips for business?",
+        a: "Yes — same-day returns and hourly holds for meetings at Airbus, the port, or downtown are routine. Call (877) 609-1919 to build the itinerary.",
+      },
+      {
+        q: "Is the rate flat even with tunnel or Bayway traffic?",
+        a: "Always. The flat rate is confirmed at booking and never changes with traffic, weather, or time of day.",
+      },
+    ],
+  },
+  {
+    slug: "msy-to-lafayette",
+    city: "Lafayette",
+    h1: "MSY Airport to Lafayette Car Service",
+    metaTitle: "MSY to Lafayette LA Car Service | MSY Limo",
+    metaDescription:
+      "Private chauffeur service from MSY airport to Lafayette — Oil Center, UL & Cajun Country. Flat rates, flight tracking, 24/7. Call (877) 609-1919.",
+    distance: "≈ 135 miles",
+    time: "2–2.25 hours",
+    routeVia: "via I-10 West across the Atchafalaya Basin",
+    intro: [
+      "Lafayette is the capital of Cajun Country and the energy hub of Acadiana — and its most scenic approach is the one our chauffeurs drive daily: I-10 West across the eighteen-mile Atchafalaya Basin Bridge, one of the great swamp crossings in America. Our MSY-to-Lafayette car service covers the 135 miles in just over two hours, door to door, with a flat rate confirmed before your flight boards.",
+      "Energy executives are this route's weekday regulars. Oil and gas travelers landing at MSY reach the Oil Center, Petroleum Club, and service-company campuses without a rental car or a two-hour drive after a cross-country flight — and the cabin doubles as an office the whole way. Weekends bring University of Louisiana families for Ragin' Cajuns games, festival travelers for Festival International and Festivals Acadiens, and food pilgrims chasing boudin and crawfish étouffée at the source.",
+      "Every transfer includes real-time flight tracking and complimentary wait time, and the return leg books just as easily — Lafayette to MSY with a pre-dawn pickup, confirmed the night before, so the first flight out is never a gamble.",
+    ],
+    highlights: [
+      "The Atchafalaya Basin crossing handled by a professional",
+      "Oil Center and energy-corridor corporate transfers",
+      "UL Lafayette game days and campus visits",
+      "Festival International & event weekend service",
+      "Flat rates with Wi-Fi-equipped executive vehicles",
+      "Licensed & Insured Louisiana Carrier",
+    ],
+    destinationsTitle: "Lafayette & Acadiana Destinations",
+    destinations: [
+      { name: "The Oil Center", blurb: "Lafayette's energy business district — service companies, medical offices, and the Petroleum Club." },
+      { name: "University of Louisiana at Lafayette", blurb: "Cajun Field game days, campus tours, and graduation weekends." },
+      { name: "Downtown Lafayette", blurb: "Festival International, the Acadiana Center for the Arts, and the Jefferson Street dining corridor." },
+      { name: "River Ranch", blurb: "Lafayette's upscale village district — hotels, offices, and residential pickups." },
+      { name: "Ochsner Lafayette General", blurb: "Comfortable, assisted medical-travel transfers for patients and families." },
+      { name: "Breaux Bridge & Vermilionville", blurb: "Cajun cultural landmarks and the crawfish capital, minutes off I-10." },
+    ],
+    whyTitle: "Two Hours of Basin Instead of Two Hours of Driving",
+    whyParagraphs: [
+      "The Atchafalaya Basin Bridge is beautiful and unforgiving — eighteen miles with no exits, where a fender-bender stalls the interstate for hours. Our chauffeurs check Basin conditions before every departure and route via US-190 when I-10 locks up, local judgment that turns a potential three-hour ordeal back into a two-hour ride. Rideshares rarely accept the trip at all; when they do, that judgment isn't part of the fare.",
+      "We run Lafayette transfers as a Licensed & Insured Louisiana Carrier — commercial insurance, background-checked chauffeurs, late-model vehicles — with corporate accounts available for energy companies moving people between Acadiana and MSY every week. One number, one flat rate, every trip.",
+    ],
+    faqs: [
+      {
+        q: "How long is the drive from MSY to Lafayette?",
+        a: "About 135 miles and 2 to 2.25 hours via I-10 West, most of it across the Atchafalaya Basin Bridge. Basin incidents can add time — your chauffeur monitors conditions and reroutes via US-190 when it's faster.",
+      },
+      {
+        q: "Do you offer corporate accounts for energy companies?",
+        a: "Yes — consolidated billing, priority booking, and saved traveler profiles for companies moving crews and executives between Acadiana and MSY. Call (877) 609-1919 to set one up.",
+      },
+      {
+        q: "Can you handle UL Lafayette game-day groups?",
+        a: "Absolutely. Sprinter vans carry up to 13 to Cajun Field and back, with post-game pickups scheduled so nobody drives home from Lafayette at midnight.",
+      },
+      {
+        q: "Do you serve the surrounding Acadiana towns?",
+        a: "Yes — Breaux Bridge, Broussard, Youngsville, New Iberia, and Opelousas are all in our coverage area, quoted flat by address.",
+      },
+      {
+        q: "What about early-morning departures from Lafayette to MSY?",
+        a: "Routine. We confirm the night before, pad for Basin conditions, and have you at the terminal with time to spare — the first flight out is exactly why clients book us.",
+      },
+    ],
+  },
+  {
+    slug: "msy-to-lake-charles",
+    city: "Lake Charles",
+    h1: "MSY Airport to Lake Charles Car Service",
+    metaTitle: "MSY to Lake Charles Car Service | MSY Limo",
+    metaDescription:
+      "Long-distance car service from MSY airport to Lake Charles — L'Auberge, Golden Nugget & the LNG corridor. Flat rates, 24/7. Call (877) 609-1919.",
+    distance: "≈ 205 miles",
+    time: "3–3.5 hours",
+    routeVia: "via I-10 West",
+    intro: [
+      "Lake Charles anchors Southwest Louisiana — casino resorts on the lakefront, one of the largest LNG and petrochemical corridors in the world, and a steady flow of business travelers who discover that flying into New Orleans often beats the connections into the regional airport. Our MSY-to-Lake Charles car service bridges the 205 miles with a professional chauffeur, a flat rate, and three hours you can spend working, resting, or watching Louisiana roll past.",
+      "The weekday version of this route is industrial: engineers, executives, and project teams bound for the LNG terminals, refineries, and plants from Westlake to Cameron Parish. We run single-traveler sedans and full project-team Sprinters, coordinate multiple arrivals into one vehicle, and hold cars on standby for same-day returns. The weekend version is leisure — L'Auberge and Golden Nugget casino stays, golf trips, and festival weekends on the lakefront.",
+      "Either way, the mechanics are identical: your flight is tracked into MSY, your chauffeur is positioned before you land, and the price you confirmed at booking is the price, regardless of traffic through Baton Rouge or fog over the Calcasieu River.",
+    ],
+    highlights: [
+      "Direct I-10 West transfer — 3 to 3.5 hours door to door",
+      "LNG & petrochemical corridor crew and executive transfers",
+      "L'Auberge and Golden Nugget casino drop-offs",
+      "Team Sprinters and multi-arrival coordination",
+      "Same-day returns and standby holds available",
+      "Licensed & Insured Louisiana Carrier",
+    ],
+    destinationsTitle: "Lake Charles Destinations We Serve",
+    destinations: [
+      { name: "L'Auberge Casino Resort", blurb: "The lakefront flagship — golf, gaming, and resort stays with valet-entrance drop-off." },
+      { name: "Golden Nugget Lake Charles", blurb: "Casino, marina, and concert venue next door on the boardwalk." },
+      { name: "Westlake Industrial Corridor", blurb: "Plant gates and contractor offices across the Calcasieu River." },
+      { name: "LNG Terminals & Cameron Parish", blurb: "Project-site transfers south toward Hackberry and Cameron for energy teams." },
+      { name: "Downtown & the Lakefront", blurb: "The civic center, lakefront promenade, and Lake Charles' business district." },
+      { name: "McNeese State University", blurb: "Campus visits, Cowboys athletics, and graduation weekends." },
+    ],
+    whyTitle: "Why Energy Travelers Route Through MSY With Us",
+    whyParagraphs: [
+      "Connecting flights into the regional airport burn hours and frequently cost more than the nonstop into New Orleans. Pair the MSY nonstop with a chauffeured transfer and the total travel time is often a wash — except you spend the ground leg on a laptop instead of in a middle seat, and the schedule belongs to you rather than to a connection bank. For project teams, one Sprinter from MSY beats four rental cars on every line of the expense report.",
+      "We operate as a Licensed & Insured Louisiana Carrier with commercial coverage across every parish on the route, background-checked chauffeurs, and 24/7 dispatch that plant schedules can actually rely on — including turnaround-season crew moves and 4 a.m. pickups for the first flight out.",
+    ],
+    faqs: [
+      {
+        q: "How long does MSY to Lake Charles take?",
+        a: "About 205 miles and 3 to 3.5 hours via I-10 West, passing Baton Rouge and the Atchafalaya Basin. Your chauffeur plans around Baton Rouge rush hour when it matters.",
+      },
+      {
+        q: "Do you serve the LNG terminals and plant sites?",
+        a: "Yes — Westlake, Sulphur, Hackberry, and Cameron Parish project sites are regular destinations, with gate-procedure experience and crew-sized vehicles available.",
+      },
+      {
+        q: "Can you coordinate a team arriving on different flights?",
+        a: "Routinely. We stage one vehicle against multiple arrivals, or run staggered cars, whichever the schedule and budget prefer. Dispatch handles the moving parts.",
+      },
+      {
+        q: "Do you do casino round trips to L'Auberge and Golden Nugget?",
+        a: "Yes — weekend round trips with a scheduled Sunday return are a staple of this route. Book both legs at once and the ride home is guaranteed.",
+      },
+      {
+        q: "What does the transfer cost?",
+        a: "A flat rate by vehicle class, confirmed at booking. Call (877) 609-1919 with your dates and destination for an exact quote.",
+      },
+    ],
+  },
+  {
+    slug: "msy-to-natchez",
+    city: "Natchez",
+    h1: "MSY Airport to Natchez, Mississippi Car Service",
+    metaTitle: "MSY to Natchez MS Car Service | MSY Limo",
+    metaDescription:
+      "Chauffeured car service from MSY airport to historic Natchez, Mississippi — antebellum homes, Pilgrimage & the bluffs. Flat rates. Call (877) 609-1919.",
+    distance: "≈ 175 miles",
+    time: "3 hours",
+    routeVia: "via I-10 W, I-55 N & US-61 North",
+    intro: [
+      "Natchez rewards travelers who make the trip — the oldest city on the Mississippi River, its bluffs lined with antebellum mansions, its calendar anchored by Spring and Fall Pilgrimage tours that draw visitors from around the world. What Natchez doesn't have is a major airport. Our MSY-to-Natchez car service solves that: land at Louis Armstrong International, meet your chauffeur, and spend the three-hour drive north watching Louisiana give way to the Mississippi hill country.",
+      "The route follows I-55 through Manchac and McComb before turning onto US-61 — the storied Blues Highway — into Adams County. It's a drive with real history under it, and a much better experience from the back seat of an Escalade than from a rental car after a morning of flights. Couples celebrating anniversaries, heritage travelers tracing family lines, and Pilgrimage groups make up most of this route's bookings.",
+      "We also carry business travelers to Natchez's hospitality and industrial employers, and wedding parties to the city's mansion venues — Dunleith, Monmouth, and the bluff-top historic district. Every trip is flat-rate, flight-tracked, and confirmed in writing before you fly.",
+    ],
+    highlights: [
+      "Direct three-hour transfer — no regional connections",
+      "Pilgrimage season and festival weekend service",
+      "Wedding and event transfers to mansion venues",
+      "The Blues Highway driven by a professional",
+      "Round trips timed to your return flight from MSY",
+      "Licensed & Insured Louisiana Carrier",
+    ],
+    destinationsTitle: "Natchez Destinations We Serve",
+    destinations: [
+      { name: "Historic Downtown & the Bluffs", blurb: "Bed-and-breakfasts, the riverfront, and the bluff-top promenade above the Mississippi." },
+      { name: "Dunleith & Monmouth Historic Inns", blurb: "Antebellum estate hotels and wedding venues — we know every gate and portico." },
+      { name: "Natchez Pilgrimage Tours", blurb: "Spring and Fall Pilgrimage itineraries with hourly service between tour homes." },
+      { name: "Natchez Grand Hotel & Casino District", blurb: "Riverfront hotels and Magnolia Bluffs Casino under the hill." },
+      { name: "Natchez Trace Parkway", blurb: "The northern terminus of America's most scenic parkway — drop-offs for road-trippers and cyclists." },
+      { name: "Vidalia, Louisiana", blurb: "Cross-river pickups and drop-offs on the Louisiana side of the bridge." },
+    ],
+    whyTitle: "The Civilized Way to Reach the Bluffs",
+    whyParagraphs: [
+      "There is no easy flight to Natchez — every practical itinerary lands at a bigger airport and drives. MSY is usually the best of those options, with the most nonstops into the region, and a chauffeured transfer makes the ground leg part of the vacation instead of a chore. During Pilgrimage weeks, when the city fills and its narrow streets crowd with tours, arriving with a driver who has worked the season before is worth a great deal.",
+      "As a Licensed & Insured Louisiana Carrier we run the interstate and highway legs under commercial insurance with background-checked chauffeurs, and we'll keep the vehicle with you for the weekend on an hourly basis — mansion tours, dinner under the hill, and the ride back to MSY all on one reservation.",
+    ],
+    faqs: [
+      {
+        q: "How long is the drive from MSY to Natchez?",
+        a: "About 175 miles and roughly 3 hours via I-55 North and US-61. It's a scenic run through Manchac and the Mississippi hill country — comfortable in a single leg with a professional driving.",
+      },
+      {
+        q: "Do you offer service during Spring and Fall Pilgrimage?",
+        a: "Yes — Pilgrimage weeks are this route's peak season. Book early; we also offer hourly service between tour homes once you're in town.",
+      },
+      {
+        q: "Can you handle wedding groups at Dunleith or Monmouth?",
+        a: "Absolutely. We coordinate guest arrivals from MSY, run event-day shuttles between venues and hotels, and handle the couple's departure. One contact manages the whole weekend.",
+      },
+      {
+        q: "Is a round trip cheaper than two one-ways?",
+        a: "Booking both legs together guarantees your return and simplifies pricing — call (877) 609-1919 and we'll quote the round trip as a single flat figure.",
+      },
+      {
+        q: "Do you also serve Vidalia and Ferriday on the Louisiana side?",
+        a: "Yes, cross-river addresses in Concordia Parish are covered at the same flat-rate structure, quoted by address.",
+      },
+    ],
+  },
+  {
+    slug: "msy-to-jackson-ms",
+    city: "Jackson",
+    h1: "MSY Airport to Jackson, Mississippi Car Service",
+    metaTitle: "MSY to Jackson MS Car Service | MSY Limo",
+    metaDescription:
+      "Private car service from MSY airport to Jackson, Mississippi — downtown, UMMC & the Capitol. Flat rates, work en route, 24/7. Call (877) 609-1919.",
+    distance: "≈ 185 miles",
+    time: "2.75–3 hours",
+    routeVia: "via I-55 North",
+    intro: [
+      "Jackson and New Orleans are joined by one of the simplest drives in the South: I-55 North, nearly door to door, through Manchac swamp and the Mississippi pine belt into the capital city. Our MSY-to-Jackson car service runs that line in just under three hours — a genuine alternative to connecting flights that often take longer gate-to-gate once layovers are counted, and always an alternative to three hours behind the wheel yourself.",
+      "The route's regulars are professionals: attorneys and lobbyists working between the two capitals, medical travelers bound for the University of Mississippi Medical Center, and executives visiting Jackson's banking and government corridor. The executive sedan is a rolling office — Wi-Fi, charging, quiet — and the flat rate produces exactly one receipt for the expense report.",
+      "Families use the route too, in both directions: Jackson residents flying out of MSY for its nonstop options, and New Orleans travelers headed north for games at Mississippi Veterans Memorial Stadium, events at the Coliseum, or family visits across central Mississippi. Every trip is flight-tracked, confirmed in advance, and driven by a background-checked professional.",
+    ],
+    highlights: [
+      "Straight I-55 run — under three hours door to door",
+      "UMMC and medical-travel transfers with door assistance",
+      "Capitol, legal & banking district corporate service",
+      "Often faster than connecting flights, gate to gate",
+      "Jackson-to-MSY departures for nonstop flight access",
+      "Licensed & Insured Louisiana Carrier",
+    ],
+    destinationsTitle: "Jackson Destinations We Serve",
+    destinations: [
+      { name: "University of Mississippi Medical Center", blurb: "Patient and family transfers with punctual appointment timing and door-to-door assistance." },
+      { name: "Mississippi State Capitol & Downtown", blurb: "Government, legal, and lobbying transfers in the capital core." },
+      { name: "Fondren & Belhaven", blurb: "Jackson's dining and arts districts, plus residential pickups." },
+      { name: "Jackson Convention Complex", blurb: "Conference and trade-show transfers with group vehicles available." },
+      { name: "Ridgeland & Madison", blurb: "The Renaissance district, corporate offices, and suburban home pickups north of the city." },
+      { name: "Mississippi Veterans Memorial Stadium", blurb: "Game days and events, with post-event pickups scheduled in advance." },
+    ],
+    whyTitle: "Drive Time That Works as Hard as You Do",
+    whyParagraphs: [
+      "Flying MSY-to-Jackson means a connection; driving yourself means three lost hours and a car to park downtown. The chauffeured middle path wins on both counts for most schedules: leave baggage claim in a working cabin, take the morning's calls across the pine belt, and step out at UMMC or the Capitol on time. Medical travelers tell us the same thing in different words — after a treatment day, not driving is the entire point.",
+      "We run the route as a Licensed & Insured Louisiana Carrier, with commercial insurance across the state line and 24/7 dispatch watching every leg. Standing weekly reservations and corporate accounts are available for firms working both capitals, and group Sprinters handle conference delegations and family travel with everyone in one vehicle.",
+    ],
+    faqs: [
+      {
+        q: "How long does MSY to Jackson take?",
+        a: "About 185 miles and 2.75 to 3 hours straight up I-55 North. It's one of the most predictable long-distance routes we run.",
+      },
+      {
+        q: "Do you handle medical trips to UMMC?",
+        a: "Yes — appointment-timed pickups, door-to-door assistance, and a comfortable ride home after treatment days. Recurring medical schedules can be set up as standing reservations.",
+      },
+      {
+        q: "Is this really competitive with flying?",
+        a: "Frequently. There's no nonstop between MSY and Jackson, so connecting itineraries often exceed three hours gate-to-gate — before adding airport time on both ends. The car is door to door.",
+      },
+      {
+        q: "Can Jackson residents book you to catch flights out of MSY?",
+        a: "Yes, it's half this route's business — MSY's nonstop options make the drive worthwhile, and we time departures against your flight with buffer built in.",
+      },
+      {
+        q: "Do you serve Ridgeland, Madison, and the suburbs?",
+        a: "All of metro Jackson is covered — Ridgeland, Madison, Flowood, Clinton, and Brandon — quoted flat by address. Call (877) 609-1919 for an exact rate.",
+      },
+    ],
+  },
+  {
+    slug: "msy-to-pensacola",
+    city: "Pensacola",
+    h1: "MSY Airport to Pensacola Car Service",
+    metaTitle: "MSY to Pensacola Car Service | MSY Limo",
+    metaDescription:
+      "Luxury car service from MSY airport to Pensacola & Pensacola Beach — NAS, the beaches & downtown. Flat rates, 24/7 booking. Call (877) 609-1919.",
+    distance: "≈ 200 miles",
+    time: "3–3.25 hours",
+    routeVia: "via I-10 East",
+    intro: [
+      "Pensacola sits at the far western tip of Florida, three hours east of Louis Armstrong International on I-10 — and for many travelers, the MSY nonstop plus a chauffeured transfer beats connecting itineraries into the regional airport on both price and total time. Our MSY-to-Pensacola car service makes the ground leg effortless: flight tracked, chauffeur at baggage claim, and a straight run across the Gulf Coast to the beaches, the base, or downtown.",
+      "The route serves three distinct crowds. Beach travelers head for Pensacola Beach and Perdido Key, with SUVs and Sprinters sized for family luggage and a drop-off at the condo door. Military families and contractors travel to Naval Air Station Pensacola — home of the Blue Angels and the National Naval Aviation Museum — where our chauffeurs know the gate procedures. And business travelers work the downtown corridor, the port, and the medical campuses along Ninth Avenue.",
+      "Whatever the destination, the structure is the same: one flat rate confirmed at booking, complimentary wait time on arrival, and a return leg you can schedule now or add later with a phone call.",
+    ],
+    highlights: [
+      "Three-hour I-10 East transfer, door to door",
+      "Pensacola Beach & Perdido Key condo drop-offs",
+      "NAS Pensacola transfers with gate-procedure experience",
+      "Family-sized SUVs & Sprinters with car seats on request",
+      "Flat rates — often beats connecting-flight itineraries",
+      "Licensed & Insured Louisiana Carrier",
+    ],
+    destinationsTitle: "Pensacola Destinations We Serve",
+    destinations: [
+      { name: "Pensacola Beach", blurb: "Casino Beach, the boardwalk, and Gulf-front condos across the Bob Sikes Bridge." },
+      { name: "Perdido Key", blurb: "West-end beach rentals and the Florida-Alabama line — including the Flora-Bama, naturally." },
+      { name: "NAS Pensacola & the Aviation Museum", blurb: "Military transfers, graduations, and Blue Angels practice-day visits." },
+      { name: "Downtown & Palafox Street", blurb: "One of the South's great main streets — hotels, dining, and the Saenger Theatre." },
+      { name: "Sacred Heart & Baptist Medical Campuses", blurb: "Medical-travel transfers with appointment timing and door assistance." },
+      { name: "Gulf Breeze & Navarre", blurb: "Communities across the bay, quoted flat by address." },
+    ],
+    whyTitle: "The Case for Driving the Coast — in the Back Seat",
+    whyParagraphs: [
+      "Rideshare will not reliably carry you 200 miles across two state lines, and rental math for a beach week — the fee, the fuel, the condo parking, the return-day scramble — rarely favors the rental. A reserved transfer is one flat number, both directions if you like, with the whole family and their luggage in one vehicle and a professional handling Mobile's tunnel traffic while you point out the Bay to the kids.",
+      "NAS graduations deserve a special word: they're among our favorite runs, and among the busiest. Families flying into MSY for a winging or boot-camp graduation should book the transfer when they book the hotel — vehicles for those weekends go early. As a Licensed & Insured Louisiana Carrier, we run every leg under commercial insurance with background-checked chauffeurs.",
+    ],
+    faqs: [
+      {
+        q: "How long is the drive from MSY to Pensacola?",
+        a: "About 200 miles and 3 to 3.25 hours via I-10 East, crossing the Mississippi Coast and Mobile Bay. Beach-season Saturdays run slightly longer near the bridges.",
+      },
+      {
+        q: "Why fly into MSY instead of the regional airport?",
+        a: "MSY's nonstop network is far larger, and fares are frequently lower. Adding a flat-rate transfer often produces a cheaper, faster door-to-door itinerary than connecting flights.",
+      },
+      {
+        q: "Can you take us to NAS Pensacola for a graduation?",
+        a: "Yes — we handle NAS transfers regularly and know the gate procedures. Book early for graduation weekends; demand is high and vehicles sell out.",
+      },
+      {
+        q: "Do you drop off directly at beach condos?",
+        a: "Door to door — Pensacola Beach, Perdido Key, Gulf Breeze, and Navarre addresses all included, with luggage handled from baggage claim to your rental's entrance.",
+      },
+      {
+        q: "How do I get a quote for this route?",
+        a: "Call (877) 609-1919 or book online with your dates, party size, and address. The rate is flat by vehicle class and confirmed in writing.",
+      },
+    ],
+  },
+  {
+    slug: "msy-to-shreveport",
+    city: "Shreveport",
+    h1: "MSY Airport to Shreveport Car Service",
+    metaTitle: "MSY to Shreveport Car Service | MSY Limo",
+    metaDescription:
+      "Premium long-distance car service from MSY airport to Shreveport-Bossier — casinos, Barksdale AFB & downtown. Flat rates. Call (877) 609-1919.",
+    distance: "≈ 320 miles",
+    time: "4.5–5 hours",
+    routeVia: "via I-10 W, I-49 North",
+    intro: [
+      "Shreveport is the longest route in our Louisiana network — 320 miles from Louis Armstrong International, up through Lafayette and the length of I-49 to the Red River. It's a serious drive, and that's precisely why the travelers who book it do: a chauffeured transfer turns five hours behind the wheel into five hours of work, rest, or an actual nap, door to door from MSY baggage claim to Shreveport-Bossier.",
+      "Who makes this trip? Executives and legal teams working between New Orleans and Northwest Louisiana's energy, healthcare, and film industries. Military families bound for Barksdale Air Force Base in Bossier City. Casino travelers heading to the riverboats and Margaritaville. And travelers who simply prefer MSY's nonstop network to connecting through Dallas — pairing the better flight with a ground leg someone else drives.",
+      "Long routes reward professionalism: we plan fuel and comfort stops, monitor I-49 conditions the whole way, and quote the trip as one flat rate confirmed before you fly. Round trips, multi-day itineraries, and one-way relocations are all standard bookings on this corridor, and the vehicle can hold in Shreveport for a return leg whenever your schedule sends you back south.",
+    ],
+    highlights: [
+      "Door-to-door alternative to connecting through Dallas",
+      "Five hours of work or rest instead of driving",
+      "Barksdale AFB transfers with gate experience",
+      "Casino district drop-offs in Shreveport & Bossier",
+      "Planned comfort stops on every long-haul leg",
+      "Licensed & Insured Louisiana Carrier",
+    ],
+    destinationsTitle: "Shreveport-Bossier Destinations",
+    destinations: [
+      { name: "Barksdale Air Force Base", blurb: "PCS moves, graduations, and TDY transfers for military families and contractors." },
+      { name: "Downtown Shreveport", blurb: "The business district, courthouse, and Red River waterfront." },
+      { name: "Bossier City Casino District", blurb: "Margaritaville, Horseshoe, and the boardwalk resorts along the river." },
+      { name: "Ochsner LSU Health Shreveport", blurb: "Long-distance medical transfers with comfort planning for patients." },
+      { name: "Shreveport's Film & Studio Corridor", blurb: "Production crew and talent transfers for Louisiana's northern film hub." },
+      { name: "Ruston & Grambling", blurb: "Louisiana Tech and Grambling State — campus trips along the I-20 corridor east." },
+    ],
+    whyTitle: "When the Long Way Is the Smart Way",
+    whyParagraphs: [
+      "There's no nonstop between New Orleans and Shreveport, so every flight itinerary connects — usually through Dallas, usually consuming four-plus hours gate to gate before airport time on either end. The chauffeured drive is honestly competitive on total time and wins outright on experience: no security line, no middle seat, laptop open the whole way, and the schedule is yours. For two or more travelers the flat rate splits favorably against airfares, too.",
+      "Every Shreveport run is driven by a background-checked professional under commercial insurance — we are a Licensed & Insured Louisiana Carrier — with dispatch monitoring the full route. Book round trips or hold the vehicle for a multi-day itinerary; the corridor is long, but the logistics are one phone call: (877) 609-1919.",
+    ],
+    faqs: [
+      {
+        q: "How long does MSY to Shreveport take?",
+        a: "About 320 miles and 4.5 to 5 hours via I-10 West and I-49 North, including a planned comfort stop. Your chauffeur manages timing and conditions the whole way.",
+      },
+      {
+        q: "Isn't flying faster?",
+        a: "Rarely by much. With no nonstop, connections through Dallas typically run 4+ hours gate to gate, plus airport time on both ends. The car is door to door, private, and productive.",
+      },
+      {
+        q: "Do you serve Barksdale Air Force Base?",
+        a: "Yes — Barksdale transfers for military families, graduations, and TDY travel are regular bookings, with gate procedures handled smoothly.",
+      },
+      {
+        q: "Can we stop along the way?",
+        a: "Comfort stops are built into every long-haul leg, and meal or business stops can be added when you book — the itinerary is yours.",
+      },
+      {
+        q: "What does the MSY-to-Shreveport transfer cost?",
+        a: "It's quoted as a single flat rate by vehicle class, confirmed in writing at booking. Call (877) 609-1919 with your dates for exact pricing.",
+      },
+    ],
+  },
+  {
+    slug: "msy-to-baton-rouge-downtown",
+    city: "Downtown Baton Rouge",
+    h1: "MSY Airport to Downtown Baton Rouge Car Service",
+    metaTitle: "MSY to Downtown Baton Rouge Car Service | MSY Limo",
+    metaDescription:
+      "Executive car service from MSY airport to downtown Baton Rouge — Capitol district, hotels & River Center. Flat rates, 24/7. Call (877) 609-1919.",
+    distance: "≈ 78 miles",
+    time: "80–95 minutes",
+    routeVia: "via I-10 West to downtown exits",
+    intro: [
+      "Downtown Baton Rouge is where Louisiana does business: the State Capitol and its surrounding agencies, the Nineteenth Judicial District Court, the riverfront hotels, and the convention traffic of the Raising Cane's River Center. Our dedicated MSY-to-downtown service is built for that world — a chauffeur meets your flight at Louis Armstrong International and delivers you to Third Street, the Capitol steps, or your hotel lobby in about ninety minutes, ready to work.",
+      "This is the executive version of our Baton Rouge route. Where our general service covers the whole metro from LSU to the industrial corridor, the downtown run is tuned for session weeks, court calendars, and conference schedules: chauffeurs who know which Capitol-area streets close during session, pickups timed to committee adjournments, and same-day returns to MSY held on standby while your hearing runs long.",
+      "The math favors the chauffeur here more than almost anywhere. Downtown Baton Rouge parking is scarce during session, rideshares from MSY balk at the distance, and the seventy-eight miles of I-10 between the airport and the Capitol are the most productive work window in Louisiana travel — Wi-Fi on, calls made, briefs read, arrival composed.",
+    ],
+    highlights: [
+      "Capitol-district drop-offs timed to session schedules",
+      "80–95 minutes from MSY baggage claim to Third Street",
+      "Same-day returns with standby holds during hearings",
+      "Executive sedans with Wi-Fi — work the whole ride",
+      "Court, agency & convention transfers downtown",
+      "Licensed & Insured Louisiana Carrier",
+    ],
+    destinationsTitle: "Downtown Baton Rouge Destinations",
+    destinations: [
+      { name: "Louisiana State Capitol", blurb: "Session-week transfers for legislators, staff, counsel, and lobbyists — timed to the calendar." },
+      { name: "Raising Cane's River Center", blurb: "Conventions, trade shows, and arena events on the riverfront." },
+      { name: "Third Street & the Hotel District", blurb: "The Watermark, Hilton Capitol Center, Hotel Indigo, and downtown's dining corridor." },
+      { name: "Nineteenth JDC & Federal Courthouses", blurb: "Punctual transfers for attorneys, witnesses, and court business — docket times treated as hard deadlines." },
+      { name: "The Water Campus", blurb: "Research institutions and offices anchoring the southern riverfront." },
+      { name: "IBM & the Downtown Tech Corridor", blurb: "Corporate visits along the River Road technology district." },
+    ],
+    whyTitle: "Built for Session Weeks and Court Calendars",
+    whyParagraphs: [
+      "Anyone who has worked a legislative session knows the rhythm: hearings run long, schedules collapse, and the drive back to New Orleans lands at the worst hour of I-10 traffic. Our downtown service is designed around that rhythm — standby holds keep your chauffeur minutes away while committee business runs over, dispatch watches the interstate both directions, and the same flat rate applies whether you leave at 3 p.m. or 8 p.m.",
+      "Firms and associations working the Capitol regularly set up corporate accounts: priority booking during session, consolidated monthly invoicing by client or matter code, and one number that answers around the clock. Every trip runs under commercial insurance — we are a Licensed & Insured Louisiana Carrier — with background-checked professional chauffeurs who understand that in this district, punctuality is the product.",
+    ],
+    faqs: [
+      {
+        q: "How long is the ride from MSY to downtown Baton Rouge?",
+        a: "About 78 miles and 80 to 95 minutes via I-10 West in normal conditions. Session-week afternoons and Friday rush hours run longer; your chauffeur plans departures around both.",
+      },
+      {
+        q: "Can you hold a car while my hearing or meeting runs long?",
+        a: "Yes — standby holds are a core feature of the downtown service. Your chauffeur stages nearby and departs the moment you're out, at an hourly hold rate quoted upfront.",
+      },
+      {
+        q: "How is this different from your general Baton Rouge route?",
+        a: "Same fleet and pricing structure, tuned focus: this service targets the Capitol district, courts, and downtown hotels with session-aware scheduling. For LSU, the industrial corridor, or metro-wide trips, see our MSY-to-Baton Rouge page.",
+      },
+      {
+        q: "Do you offer accounts for law firms and lobbying groups?",
+        a: "Yes — corporate accounts include priority session-week booking, matter-code invoicing, and a dedicated contact. Call (877) 609-1919 to establish one.",
+      },
+      {
+        q: "Can you run same-day round trips from New Orleans?",
+        a: "Routinely — down for a morning hearing, standby through the afternoon, home by dinner. The whole day books as one reservation with one flat quote.",
+      },
+    ],
+  },
 ];
 
 export const getRouteBySlug = (slug) => routes.find((r) => r.slug === slug);

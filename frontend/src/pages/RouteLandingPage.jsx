@@ -44,7 +44,7 @@ const RouteLandingPage = ({ slug }) => {
     buildFaqSchema(route.faqs),
   ];
 
-  const otherRoutes = routes.filter((r) => r.slug !== slug).slice(0, 6);
+  const otherRoutes = routes.filter((r) => r.slug !== slug);
 
   return (
     <div className="min-h-screen bg-black">
@@ -120,7 +120,7 @@ const RouteLandingPage = ({ slug }) => {
           >
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
               <Link
-                to="/book"
+                to="/booking"
                 className="bg-gradient-to-r from-amber-500 to-amber-600 text-black px-6 py-3 rounded-xl font-bold hover:from-amber-400 hover:to-amber-500 transition-all inline-flex items-center gap-2"
               >
                 Book This Route <ArrowRight className="w-4 h-4" />
@@ -309,7 +309,7 @@ const RouteLandingPage = ({ slug }) => {
           <div className="flex flex-wrap justify-center gap-4">
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
               <Link
-                to="/book"
+                to="/booking"
                 className="bg-black text-amber-400 px-8 py-4 rounded-xl font-bold hover:bg-gray-900 transition-colors inline-block"
               >
                 Book Now
