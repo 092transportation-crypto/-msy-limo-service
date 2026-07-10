@@ -65,10 +65,10 @@ const ContactPage = () => {
     setIsSubmitting(true);
     
     try {
-      const response = await fetch(`${process.env.REACT_APP_BACKEND_URL}/api/contact`, {
+      const response = await fetch('/api/quote-requests', {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(formData)
+        body: JSON.stringify({ ...formData, source: "Contact page" })
       });
       
       if (response.ok) {

@@ -3,7 +3,6 @@ import { motion } from "framer-motion";
 import { Phone, Mail, MapPin, Send, Calendar, Clock, Car, User } from "lucide-react";
 import { toast } from "sonner";
 
-const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
 
 const serviceTypes = [
   "Airport Transportation",
@@ -38,10 +37,10 @@ const ContactSection = () => {
     setIsSubmitting(true);
 
     try {
-      const response = await fetch(`${BACKEND_URL}/api/contact`, {
+      const response = await fetch('/api/quote-requests', {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(formData)
+        body: JSON.stringify({ ...formData, source: "Homepage contact section" })
       });
       
       if (response.ok) {

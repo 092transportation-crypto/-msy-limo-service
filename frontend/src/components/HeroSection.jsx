@@ -4,7 +4,6 @@ import { Sparkles, Phone, Mail, User, Car, Calendar, Clock, Send } from "lucide-
 import { Link } from "react-router-dom";
 import { toast } from "sonner";
 
-const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
 
 const serviceTypes = [
   "Airport Transportation",
@@ -37,10 +36,10 @@ const HeroSection = () => {
     setIsSubmitting(true);
     
     try {
-      const response = await fetch(`${BACKEND_URL}/api/contact`, {
+      const response = await fetch('/api/quote-requests', {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ ...formData, email: formData.phone + "@quote.request" })
+        body: JSON.stringify({ ...formData, source: "Homepage hero form" })
       });
       
       if (response.ok) {
