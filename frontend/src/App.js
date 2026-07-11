@@ -21,6 +21,7 @@ const BookingPage = lazy(() => import("@/pages/BookingPage"));
 const BlogsPage = lazy(() => import("@/pages/BlogsPage"));
 const BlogPostPage = lazy(() => import("@/pages/BlogPostPage"));
 const RouteLandingPage = lazy(() => import("@/pages/RouteLandingPage"));
+const VenueLandingPage = lazy(() => import("@/pages/VenueLandingPage"));
 
 // MSY airport route landing pages (content lives in src/data/routesData.js)
 const ROUTE_SLUGS = [
@@ -44,6 +45,14 @@ const ROUTE_SLUGS = [
   "msy-to-pensacola",
   "msy-to-shreveport",
   "msy-to-baton-rouge-downtown",
+];
+
+// Concert & event venue landing pages (content lives in src/data/venuesData.js)
+const VENUE_SLUGS = [
+  "concert-transportation",
+  "smoothie-king-center-transportation",
+  "caesars-superdome-transportation",
+  "house-of-blues-new-orleans-transportation",
 ];
 
 // Minimal loading spinner
@@ -94,6 +103,10 @@ function App() {
             {/* MSY Airport Route Landing Pages */}
             {ROUTE_SLUGS.map((slug) => (
               <Route key={slug} path={`/${slug}`} element={<RouteLandingPage slug={slug} />} />
+            ))}
+            {/* Concert & Event Venue Landing Pages */}
+            {VENUE_SLUGS.map((slug) => (
+              <Route key={slug} path={`/${slug}`} element={<VenueLandingPage slug={slug} />} />
             ))}
             <Route path="/book" element={<BookingPage />} />
             <Route path="/booking" element={<BookingPage />} />
