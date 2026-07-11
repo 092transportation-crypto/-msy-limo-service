@@ -130,7 +130,7 @@ const FleetPage = () => {
                     <span className="flex items-center gap-1"><Briefcase className="w-4 h-4 text-amber-400" />{vehicle.luggage} Bags</span>
                   </div>
                   <motion.div whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.98 }}>
-                    <Link to="/contact" className="block w-full text-center py-3 bg-gradient-to-r from-amber-500 to-amber-600 text-black font-bold rounded-xl hover:from-amber-400 hover:to-amber-500 transition-all">
+                    <Link to="/booking" className="block w-full text-center py-3 bg-gradient-to-r from-amber-500 to-amber-600 text-black font-bold rounded-xl hover:from-amber-400 hover:to-amber-500 transition-all">
                       Book Now
                     </Link>
                   </motion.div>
@@ -176,7 +176,7 @@ const FleetPage = () => {
             className="flex flex-wrap justify-center gap-4"
           >
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-              <Link to="/contact" className="bg-black text-amber-400 px-8 py-4 rounded-xl font-bold hover:bg-gray-900 transition-colors inline-block">
+              <Link to="/booking" className="bg-black text-amber-400 px-8 py-4 rounded-xl font-bold hover:bg-gray-900 transition-colors inline-block">
                 Book Now
               </Link>
             </motion.div>

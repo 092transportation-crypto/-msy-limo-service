@@ -93,7 +93,7 @@ const CorporatePage = () => {
                 className="flex flex-wrap gap-4"
               >
                 <motion.a 
-                  href="https://book.mylimobiz.com/v4/92transp"
+                  href="/booking"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   className="bg-gradient-to-r from-amber-500 to-amber-600 text-black px-6 py-3 rounded-xl font-semibold hover:from-amber-400 hover:to-amber-500 transition-all inline-flex items-center gap-2"
@@ -212,7 +212,7 @@ const CorporatePage = () => {
                 Set Up a Corporate Account
               </h3>
               <motion.a 
-                href="https://book.mylimobiz.com/v4/92transp"
+                href="/booking"
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
                 className="block w-full bg-gradient-to-r from-amber-500 to-amber-600 text-black text-center py-4 rounded-xl font-semibold hover:from-amber-400 hover:to-amber-500 transition-all mb-4"

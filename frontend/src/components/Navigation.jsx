@@ -123,9 +123,7 @@ const Navigation = () => {
             {/* CTA Buttons */}
             <div className="hidden lg:flex items-center gap-3">
               <a
-                href="https://book.mylimobiz.com/v4/92transp"
-                data-ores-widget="website"
-                data-ores-alias="92transp"
+                href="/booking"
                 className="bg-gradient-to-r from-amber-500 to-amber-600 text-black hover:from-amber-400 hover:to-amber-500 rounded px-6 py-2.5 text-sm font-bold transition-all shadow-lg shadow-amber-500/25"
               >
                 Book Now
@@ -198,9 +196,7 @@ const Navigation = () => {
 
               <div className="mt-6">
                 <a
-                  href="https://book.mylimobiz.com/v4/92transp"
-                  data-ores-widget="website"
-                  data-ores-alias="92transp"
+                  href="/booking"
                   className="block w-full bg-gradient-to-r from-amber-500 to-amber-600 text-black text-center py-3 rounded font-bold"
                 >
                   Book Now

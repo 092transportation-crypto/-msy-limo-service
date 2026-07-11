@@ -190,7 +190,7 @@ const ServiceAreasSection = () => {
           className="mt-16 text-center"
         >
           <Link
-            to="/contact"
+            to="/booking"
             className="inline-flex items-center gap-2 bg-gradient-to-r from-amber-500 to-amber-600 text-black px-8 py-4 rounded-xl font-bold text-lg hover:from-amber-400 hover:to-amber-500 transition-all shadow-lg shadow-amber-500/30"
           >
             Book Your Ride in New Orleans

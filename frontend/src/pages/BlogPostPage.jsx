@@ -181,7 +181,7 @@ const BlogPostPage = () => {
           <div className="flex flex-wrap justify-center gap-4">
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
               <Link
-                to="/book"
+                to="/booking"
                 className="bg-black text-amber-400 px-8 py-4 rounded-xl font-bold hover:bg-gray-900 transition-colors inline-flex items-center gap-2"
               >
                 Book Now <ArrowRight className="w-4 h-4" />

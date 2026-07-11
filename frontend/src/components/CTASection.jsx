@@ -43,7 +43,7 @@ const CTASection = () => {
             className="flex flex-col sm:flex-row items-center justify-center gap-4"
           >
             <Link
-              to="/contact"
+              to="/booking"
               className="bg-gradient-to-r from-amber-500 to-amber-600 text-black px-8 py-4 rounded font-semibold hover:from-amber-400 hover:to-amber-500 transition-all inline-flex items-center gap-2"
               data-testid="cta-book"
             >

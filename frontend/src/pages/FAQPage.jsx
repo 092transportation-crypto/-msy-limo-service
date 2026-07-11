@@ -182,7 +182,7 @@ const FAQPage = () => {
             Ready to Book?
           </motion.h2>
           <motion.a 
-            href="https://book.mylimobiz.com/v4/92transp"
+            href="/booking"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             className="bg-black text-amber-400 px-8 py-4 rounded-xl font-semibold hover:bg-gray-900 transition-colors inline-block"

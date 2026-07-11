@@ -38,6 +38,10 @@ module.exports = async (req, res) => {
     email: field(body.email, 200),
     phone: field(body.phone, 40),
     serviceType: field(body.serviceType || body.service_type, 80) || 'General inquiry',
+    contactMethod: field(body.contactMethod || body.contact_method, 40),
+    vehiclePreference: field(body.vehiclePreference || body.vehicle_preference, 80),
+    hearAbout: field(body.hearAbout || body.hear_about, 120),
+    smsConsent: body.smsConsent ?? body.sms_consent ? 'Yes' : 'No',
     pickupLocation: field(body.pickupLocation || body.pickup_location, 300),
     dropoffLocation: field(body.dropoffLocation || body.dropoff_location, 300),
     date: field(body.date, 40),
@@ -71,12 +75,16 @@ module.exports = async (req, res) => {
       ${row('Name', inquiry.name)}
       ${row('Email', inquiry.email)}
       ${row('Phone', inquiry.phone)}
+      ${row('Preferred Contact', inquiry.contactMethod)}
       ${row('Service Type', inquiry.serviceType)}
+      ${row('Vehicle Preference', inquiry.vehiclePreference)}
       ${row('Pickup Location', inquiry.pickupLocation)}
       ${row('Drop-off Location', inquiry.dropoffLocation)}
       ${row('Date', inquiry.date)}
       ${row('Time', inquiry.time)}
       ${row('Passengers', inquiry.passengers)}
+      ${row('Heard About Us Via', inquiry.hearAbout)}
+      ${row('SMS Consent', inquiry.smsConsent)}
       ${row('Message', inquiry.message)}
       ${row('Inquiry ID', id)}
     </table>
@@ -93,12 +101,16 @@ module.exports = async (req, res) => {
     `Name:             ${inquiry.name}`,
     `Email:            ${inquiry.email || '—'}`,
     `Phone:            ${inquiry.phone || '—'}`,
+    `Preferred Contact:${inquiry.contactMethod || '—'}`,
     `Service Type:     ${inquiry.serviceType}`,
+    `Vehicle:          ${inquiry.vehiclePreference || '—'}`,
     `Pickup Location:  ${inquiry.pickupLocation || '—'}`,
     `Drop-off:         ${inquiry.dropoffLocation || '—'}`,
     `Date:             ${inquiry.date || '—'}`,
     `Time:             ${inquiry.time || '—'}`,
     `Passengers:       ${inquiry.passengers || '—'}`,
+    `Heard About Us:   ${inquiry.hearAbout || '—'}`,
+    `SMS Consent:      ${inquiry.smsConsent}`,
     `Message:          ${inquiry.message || '—'}`,
     `Inquiry ID:       ${id}`,
   ].join('\n');

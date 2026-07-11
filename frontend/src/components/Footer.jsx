@@ -27,7 +27,7 @@ const Footer = () => {
   ];
 
   const quickLinks = [
-    { name: "Book Online", href: "/contact" },
+    { name: "Book Online", href: "/booking" },
     { name: "Our Fleet", href: "/fleet" },
     { name: "About Us", href: "/about" },
     { name: "FAQ", href: "/faq" },
@@ -56,7 +56,7 @@ const Footer = () => {
             </div>
             <div className="flex flex-col sm:flex-row items-center gap-3 md:gap-4 w-full md:w-auto">
               <Link
-                to="/contact"
+                to="/booking"
                 className="w-full sm:w-auto bg-black text-amber-400 px-6 md:px-8 py-3 md:py-4 rounded-xl font-bold hover:bg-gray-900 active:bg-gray-800 transition-colors inline-flex items-center justify-center gap-2 shadow-lg text-center"
               >
                 Book Now <ArrowRight className="w-4 h-4" />
