@@ -103,6 +103,9 @@ const Navigation = () => {
                 )}
               </div>
 
+              <Link to="/concert-transportation" className="px-4 py-2 text-sm text-white/90 hover:text-amber-400 transition-colors font-medium">
+                Events & Concerts
+              </Link>
               <Link to="/fleet" className="px-4 py-2 text-sm text-white/90 hover:text-amber-400 transition-colors font-medium">
                 Fleet
               </Link>
@@ -188,6 +191,7 @@ const Navigation = () => {
                 )}
               </div>
 
+              <Link to="/concert-transportation" className="py-3 text-white border-b border-amber-500/20 hover:text-amber-400">Events & Concerts</Link>
               <Link to="/fleet" className="py-3 text-white border-b border-amber-500/20 hover:text-amber-400">Fleet</Link>
               <Link to="/about" className="py-3 text-white border-b border-amber-500/20 hover:text-amber-400">About</Link>
               <Link to="/blog" className="py-3 text-white border-b border-amber-500/20 hover:text-amber-400">Blog</Link>
