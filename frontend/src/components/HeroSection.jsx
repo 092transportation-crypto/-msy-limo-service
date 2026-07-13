@@ -122,8 +122,8 @@ const HeroSection = () => {
             <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold tracking-tight leading-[1.1] mb-6" style={{ fontFamily: "'Playfair Display', serif" }}>
               <span className="text-white block">MSY LIMO SERVICE</span>
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 via-yellow-300 to-amber-500 block">NEW ORLEANS</span>
-              <span className="sr-only">Luxury Limousine & Airport Transportation</span>
             </h1>
+            <p className="sr-only">Luxury Limousine &amp; Airport Transportation</p>
 
             <motion.p
               initial={{ opacity: 0, y: 30 }}

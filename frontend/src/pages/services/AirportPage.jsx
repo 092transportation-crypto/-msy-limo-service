@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { setPageSeo } from "@/lib/seo";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import Navigation from "@/components/Navigation";
@@ -29,6 +30,11 @@ const itemVariants = {
 const AirportPage = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
+    setPageSeo({
+      title: "Airport Transportation New Orleans | MSY Limo Service",
+      description: "Airport transportation in New Orleans to & from MSY Louis Armstrong Airport. Licensed chauffeurs, real-time flight tracking & free wait time. Book 24/7. (877) 609-1919.",
+      path: "/services/airport-transportation",
+    });
   }, []);
 
   const airports = [
@@ -170,6 +176,27 @@ const AirportPage = () => {
               </motion.a>
             ))}
           </motion.div>
+        </div>
+      </section>
+
+      {/* SEO: booking + coverage */}
+      <section className="py-16 bg-gray-900">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6">
+          <h2 className="text-3xl font-medium mb-6 text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-yellow-300" style={{ fontFamily: "'Playfair Display', serif" }}>
+            Book Your New Orleans Airport Transfer Today
+          </h2>
+          <p className="text-gray-300 leading-relaxed mb-4">
+            Our MSY airport car service covers every corner of the metro. Landing late? Your chauffeur tracks the
+            flight and meets you at baggage claim. Heading out? We handle airport transportation to downtown New
+            Orleans, plus direct transfers from Kenner to MSY airport — Kenner airport transportation is our home
+            turf, minutes from the terminal.
+          </p>
+          <p className="text-gray-300 leading-relaxed">
+            West Bank travelers rely on us for Gretna to MSY airport, Harvey to MSY airport, and Westwego to MSY
+            airport pickups, while Harvey airport transportation and Chalmette to MSY airport runs are quoted flat —
+            no surge, ever. We also offer Metairie airport transportation and long-distance Baton Rouge airport car
+            service, making us the luxury airport car service New Orleans travelers book again and again.
+          </p>
         </div>
       </section>
 

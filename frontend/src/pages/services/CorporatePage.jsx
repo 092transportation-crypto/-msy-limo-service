@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { setPageSeo } from "@/lib/seo";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import Navigation from "@/components/Navigation";
@@ -29,6 +30,11 @@ const itemVariants = {
 const CorporatePage = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
+    setPageSeo({
+      title: "Corporate Transportation New Orleans | MSY Limo Service",
+      description: "Corporate transportation & executive car service in New Orleans for business travel & conventions. Wi-Fi fleet, corporate accounts. Book 24/7. (877) 609-1919.",
+      path: "/services/corporate-transportation",
+    });
   }, []);
 
   const benefits = [
@@ -223,6 +229,26 @@ const CorporatePage = () => {
               <a href="tel:+18776091919" className="block text-center text-2xl font-semibold mt-2 text-amber-400 hover:text-amber-300 transition-colors">(877) 609-1919</a>
             </motion.div>
           </div>
+        </div>
+      </section>
+
+      {/* SEO: corporate benefits */}
+      <section className="py-16 bg-gray-900">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6">
+          <h2 className="text-3xl font-medium mb-6 text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-yellow-300" style={{ fontFamily: "'Playfair Display', serif" }}>
+            Corporate Transportation Benefits in New Orleans
+          </h2>
+          <p className="text-gray-300 leading-relaxed mb-4">
+            New Orleans executive transportation should feel invisible: cars that are already waiting, chauffeurs who
+            know the fastest route to the convention center, and invoices that arrive once a month. Our New Orleans
+            executive car service gives your team exactly that — Wi-Fi-equipped vehicles, NDA-friendly chauffeurs,
+            and a dedicated account manager for corporate transportation in New Orleans at any scale.
+          </p>
+          <p className="text-gray-300 leading-relaxed">
+            From business travel transportation in New Orleans for visiting executives to convention transportation
+            for entire delegations during peak season, one call moves your whole team. That reliability is why
+            companies searching for an executive car service in New Orleans make us their standing arrangement.
+          </p>
         </div>
       </section>
 

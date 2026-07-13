@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { setPageSeo } from "@/lib/seo";
 import { motion } from "framer-motion";
 import Navigation from "@/components/Navigation";
 import HeroSection from "@/components/HeroSection";
@@ -22,6 +23,11 @@ const HomePage = () => {
 
   useEffect(() => {
     setIsLoaded(true);
+    setPageSeo({
+      title: "MSY Limo Service | Luxury Transportation New Orleans",
+      description: "MSY Limo Service offers luxury airport transfers, corporate limos & chauffeur services in New Orleans & Louisiana. Book 24/7. (877) 609-1919",
+      path: "/",
+    });
   }, []);
 
   return (
@@ -73,6 +79,26 @@ const HomePage = () => {
         <ServicesPortfolio />
         <FleetSection />
         <ServiceAreasSection />
+        {/* SEO: New Orleans service overview */}
+        <section className="py-16 bg-gray-900">
+          <div className="max-w-4xl mx-auto px-4 sm:px-6">
+            <h2 className="text-3xl font-medium mb-6 text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-yellow-300" style={{ fontFamily: "'Playfair Display', serif" }}>
+              New Orleans Limo &amp; Chauffeur Service, Citywide and Beyond
+            </h2>
+            <p className="text-gray-300 leading-relaxed mb-4">
+              MSY Limo Service is the New Orleans limo service locals and visitors trust for polished, on-time rides.
+              Our New Orleans car service pairs licensed, professionally attired chauffeurs with a spotless luxury
+              fleet — whether you need a New Orleans chauffeur service for a night in the French Quarter, a black car
+              to a convention, or an airport transfer at dawn.
+            </p>
+            <p className="text-gray-300 leading-relaxed">
+              We serve the whole metro: Metairie chauffeur service for business travelers, Gretna and Marrero chauffeur
+              service on the West Bank, Mandeville chauffeur service and Covington car service across the Northshore,
+              plus Slidell and every parish in between. One flat quote, every mile in style.
+            </p>
+          </div>
+        </section>
+
         <CTASection />
         <FAQSection />
         <ContactSection />

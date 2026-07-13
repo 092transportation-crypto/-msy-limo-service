@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { setPageSeo } from "@/lib/seo";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import Navigation from "@/components/Navigation";
@@ -29,6 +30,11 @@ const itemVariants = {
 const EventsPage = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
+    setPageSeo({
+      title: "Special Events Transportation New Orleans | MSY Limo Service",
+      description: "VIP transportation in New Orleans for concerts, galas, proms & sports events. Stretch limos, professional chauffeurs & late-night service. Book 24/7. (877) 609-1919.",
+      path: "/services/special-events",
+    });
   }, []);
 
   const events = [
@@ -225,6 +231,26 @@ const EventsPage = () => {
               <a href="tel:+18776091919" className="block text-center text-2xl font-semibold mt-2 text-amber-400 hover:text-amber-300 transition-colors">(877) 609-1919</a>
             </motion.div>
           </div>
+        </div>
+      </section>
+
+      {/* SEO: special events booking */}
+      <section className="py-16 bg-gray-900">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6">
+          <h2 className="text-3xl font-medium mb-6 text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-yellow-300" style={{ fontFamily: "'Playfair Display', serif" }}>
+            Book Your Special Event Limo in New Orleans Today
+          </h2>
+          <p className="text-gray-300 leading-relaxed mb-4">
+            When the night matters, VIP transportation in New Orleans is the difference between a good evening and an
+            unforgettable one. Arrive at the Superdome, Smoothie King Center, or a French Quarter gala in a stretch
+            limousine with a professional chauffeur holding the door — no parking, no rideshare roulette, no waiting
+            in the rain after the encore.
+          </p>
+          <p className="text-gray-300 leading-relaxed">
+            We handle concerts, galas, proms, bachelor and bachelorette parties, and game days with late-night
+            availability and flat, all-inclusive pricing. Tell us the venue and the schedule; your chauffeur handles
+            everything else. Book online in minutes or call 24/7 — your VIP night starts at the curb.
+          </p>
         </div>
       </section>
 
