@@ -7,7 +7,7 @@ import SEO, { buildFaqSchema } from "@/components/SEO";
 import { ChevronDown, Phone, HelpCircle, MessageCircle } from "lucide-react";
 
 const faqData = [
-  { q: "How do I book a limo service?", a: "You can book online through our reservation system, call us at (877) 609-1919, or email msylimoservices@gmail.com. We recommend booking 24-48 hours in advance for regular service, and 2-4 weeks for weddings." },
+  { q: "How do I book a limo service?", a: "You can book online through our reservation system, call us at (877) 609-1919, or email info@msylimoservice.com. We recommend booking 24-48 hours in advance for regular service, and 2-4 weeks for weddings." },
   { q: "What airports do you service?", a: "We provide airport transfers to MSY (Louis Armstrong New Orleans International) and NEW (Lakefront Airport). All airport transfers include flight tracking and complimentary wait time." },
   { q: "What vehicles are in your fleet?", a: "Our fleet includes Mercedes-Benz S-Class sedans, Cadillac Escalade SUVs, Mercedes Sprinter vans, stretch limousines, and executive mini-buses. All vehicles are late-model and meticulously maintained." },
   { q: "Do you offer wedding transportation?", a: "Yes! We specialize in wedding transportation throughout New Orleans, Kenner, Metairie, and surrounding areas. We offer stretch limos, luxury sedans, and can coordinate multiple vehicles for your entire wedding party." },

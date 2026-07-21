@@ -116,7 +116,7 @@ const ContactSection = () => {
               </a>
 
               <a 
-                href="mailto:msylimoservices@gmail.com" 
+                href="mailto:info@msylimoservice.com" 
                 className="flex items-center gap-4 group"
                 data-testid="contact-email"
               >
@@ -126,7 +126,7 @@ const ContactSection = () => {
                 <div>
                   <p className="text-sm text-white/50">Email Us</p>
                   <p className="text-xl font-semibold text-white group-hover:text-amber-400 transition-colors">
-                    msylimoservices@gmail.com
+                    info@msylimoservice.com
                   </p>
                 </div>
               </a>

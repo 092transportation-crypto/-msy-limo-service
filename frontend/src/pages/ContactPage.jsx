@@ -6,7 +6,7 @@ import SEO, { buildFaqSchema } from "@/components/SEO";
 import { Phone, Mail, MapPin, Clock, Send, Calendar, User, MessageSquare, Car } from "lucide-react";
 
 const contactFaqSchema = buildFaqSchema([
-  { q: "How do I get a quote for MSY airport car service?", a: "Submit the quote form with your trip details, call (877) 609-1919, or email msylimoservices@gmail.com. Quotes are flat rates by vehicle class, confirmed before you ride." },
+  { q: "How do I get a quote for MSY airport car service?", a: "Submit the quote form with your trip details, call (877) 609-1919, or email info@msylimoservice.com. Quotes are flat rates by vehicle class, confirmed before you ride." },
   { q: "How far in advance should I book?", a: "24–48 hours ahead is comfortable for standard transfers; book earlier for weddings, festival weekends, and large groups. Same-day requests are often possible — just call." },
   { q: "Do you answer after hours?", a: "Yes — our dispatch desk operates 24/7 for bookings, changes, and live trip support." },
   { q: "Can I book a round trip in one request?", a: "Yes, and we recommend it: booking your return at the same time locks in your departure pickup and guarantees vehicle availability." },
@@ -145,9 +145,9 @@ const ContactPage = () => {
               <Phone className="w-5 h-5" />
               <span className="text-lg">(877) 609-1919</span>
             </a>
-            <a href="mailto:msylimoservices@gmail.com" className="flex items-center gap-3 text-black font-semibold hover:opacity-80 transition-opacity">
+            <a href="mailto:info@msylimoservice.com" className="flex items-center gap-3 text-black font-semibold hover:opacity-80 transition-opacity">
               <Mail className="w-5 h-5" />
-              <span>msylimoservices@gmail.com</span>
+              <span>info@msylimoservice.com</span>
             </a>
             <div className="flex items-center gap-3 text-black font-semibold">
               <MapPin className="w-5 h-5" />
@@ -203,7 +203,7 @@ const ContactPage = () => {
                 </motion.a>
 
                 <motion.a 
-                  href="mailto:msylimoservices@gmail.com" 
+                  href="mailto:info@msylimoservice.com" 
                   variants={itemVariants}
                   whileHover={{ x: 10 }}
                   className="flex items-center gap-4 group"
@@ -213,7 +213,7 @@ const ContactPage = () => {
                   </div>
                   <div>
                     <p className="text-sm text-white/50">Email Us</p>
-                    <p className="text-xl font-semibold text-white group-hover:text-amber-400 transition-colors">msylimoservices@gmail.com</p>
+                    <p className="text-xl font-semibold text-white group-hover:text-amber-400 transition-colors">info@msylimoservice.com</p>
                   </div>
                 </motion.a>
 

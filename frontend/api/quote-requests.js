@@ -4,7 +4,7 @@
 // Required environment variables (set in Vercel project settings):
 //   SMTP_USER          — Gmail address used to send
 //   SMTP_PASSWORD      — 16-character Gmail app password
-//   NOTIFICATION_EMAIL — where booking notifications are delivered (defaults to SMTP_USER)
+//   NOTIFICATION_EMAIL — where booking notifications are delivered (defaults to info@msylimoservice.com)
 
 const nodemailer = require('nodemailer');
 const crypto = require('crypto');
@@ -26,7 +26,7 @@ module.exports = async (req, res) => {
 
   const smtpUser = process.env.SMTP_USER;
   const smtpPassword = process.env.SMTP_PASSWORD;
-  const recipient = process.env.NOTIFICATION_EMAIL || smtpUser;
+  const recipient = process.env.NOTIFICATION_EMAIL || 'info@msylimoservice.com';
   if (!smtpUser || !smtpPassword) {
     console.error('SMTP_USER / SMTP_PASSWORD not configured');
     return res.status(500).json({ success: false, message: 'Email service not configured' });

@@ -24,7 +24,7 @@ db = client[os.environ['DB_NAME']]
 # Resend email configuration
 resend.api_key = os.environ.get('RESEND_API_KEY', '')
 SENDER_EMAIL = os.environ.get('SENDER_EMAIL', 'onboarding@resend.dev')
-NOTIFY_EMAIL = os.environ.get('NOTIFY_EMAIL', 'msylimoservices@gmail.com')
+NOTIFY_EMAIL = os.environ.get('NOTIFY_EMAIL', 'info@msylimoservice.com')
 
 # Create the main app
 app = FastAPI(
@@ -387,7 +387,7 @@ CHAT_SYSTEM_MESSAGE = """You are a helpful customer service assistant for MSY Li
 
 ABOUT THE COMPANY:
 - Phone: (877) 609-1919
-- Email: msylimoservices@gmail.com
+- Email: info@msylimoservice.com
 - Location: Columbia, Maryland, USA
 - Available 24/7
 

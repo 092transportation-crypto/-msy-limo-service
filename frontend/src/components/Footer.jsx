@@ -100,11 +100,11 @@ const Footer = () => {
                   </div>
                   <span className="font-semibold text-lg">(877) 609-1919</span>
                 </a>
-                <a href="mailto:msylimoservices@gmail.com" className="flex items-center gap-3 text-white hover:text-amber-400 active:text-amber-300 transition-colors group p-2 -ml-2 rounded-xl hover:bg-white/5">
+                <a href="mailto:info@msylimoservice.com" className="flex items-center gap-3 text-white hover:text-amber-400 active:text-amber-300 transition-colors group p-2 -ml-2 rounded-xl hover:bg-white/5">
                   <div className="w-12 h-12 md:w-10 md:h-10 bg-amber-500/10 border border-amber-500/30 rounded-xl flex items-center justify-center group-hover:bg-amber-500/20 flex-shrink-0">
                     <Mail className="w-6 h-6 md:w-5 md:h-5 text-amber-400" />
                   </div>
-                  <span className="text-sm md:text-base break-all">msylimoservices@gmail.com</span>
+                  <span className="text-sm md:text-base break-all">info@msylimoservice.com</span>
                 </a>
                 <div className="flex items-center gap-3 text-white/70 p-2 -ml-2">
                   <div className="w-12 h-12 md:w-10 md:h-10 bg-amber-500/10 border border-amber-500/30 rounded-xl flex items-center justify-center flex-shrink-0">

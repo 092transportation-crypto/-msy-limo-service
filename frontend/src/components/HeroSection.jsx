@@ -160,7 +160,7 @@ const HeroSection = () => {
                 <span>(877) 609-1919</span>
               </motion.a>
               <motion.a 
-                href="mailto:msylimoservices@gmail.com"
+                href="mailto:info@msylimoservice.com"
                 className="flex items-center gap-2 border-2 border-amber-500 text-amber-400 px-8 py-4 rounded-xl font-semibold hover:bg-amber-500 hover:text-black transition-all"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
@@ -343,7 +343,7 @@ const HeroSection = () => {
                   Call Now
                 </motion.a>
                 <motion.a 
-                  href="mailto:msylimoservices@gmail.com"
+                  href="mailto:info@msylimoservice.com"
                   className="flex items-center justify-center gap-2 bg-amber-500/10 border border-amber-500/30 text-amber-400 py-3 rounded-xl font-medium hover:bg-amber-500/20 transition-colors text-sm"
                   whileHover={{ scale: 1.02 }}
                 >
