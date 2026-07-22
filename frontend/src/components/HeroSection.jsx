@@ -1,29 +1,16 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { Sparkles, Phone, Mail, User, Car, Calendar, Clock, Send } from "lucide-react";
+import { Sparkles, Phone, Mail, Calendar, MapPin, Send } from "lucide-react";
 import { Link } from "react-router-dom";
 import { toast } from "sonner";
-
-
-const serviceTypes = [
-  "Airport Transportation",
-  "Corporate Transportation", 
-  "Wedding Limo Service",
-  "Special Events",
-  "Hourly Charter",
-  "Cruise Port Transfer",
-  "Saints Game Day",
-  "Other"
-];
+import TrustSignals from "@/components/TrustSignals";
 
 const HeroSection = () => {
   const [formData, setFormData] = useState({
-    name: "",
     phone: "",
-    serviceType: "",
-    date: "",
-    time: "",
-    message: ""
+    pickupLocation: "",
+    dropoffLocation: "",
+    date: ""
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
 
@@ -39,12 +26,12 @@ const HeroSection = () => {
       const response = await fetch('/api/quote-requests', {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ ...formData, source: "Homepage hero form" })
+        body: JSON.stringify({ ...formData, source: "Homepage hero quick quote" })
       });
-      
+
       if (response.ok) {
-        toast.success("Quote request sent! We'll call you shortly.");
-        setFormData({ name: "", phone: "", serviceType: "", date: "", time: "", message: "" });
+        toast.success("Quote request sent! We'll call or text you within 15 minutes.");
+        setFormData({ phone: "", pickupLocation: "", dropoffLocation: "", date: "" });
       } else {
         toast.error("Failed to send. Please call us directly.");
       }
@@ -144,24 +131,28 @@ const HeroSection = () => {
               Premium Executive Ground Transportation Services in New Orleans, Kenner, Metairie & Greater Louisiana Area
             </motion.p>
 
+            {/* Big phone CTA */}
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.8 }}
-              className="flex flex-wrap items-center gap-4"
             >
-              <motion.a 
+              <p className="text-amber-400 text-sm font-semibold tracking-widest uppercase mb-2 flex items-center gap-2">
+                <Phone className="w-4 h-4" /> Call or Text 24/7
+              </p>
+              <a
                 href="tel:+18776091919"
-                className="flex items-center gap-3 bg-gradient-to-r from-amber-500 to-amber-600 text-black px-8 py-4 rounded-xl font-bold text-lg hover:from-amber-400 hover:to-amber-500 transition-all shadow-lg shadow-amber-500/30"
-                whileHover={{ scale: 1.05, boxShadow: "0 20px 40px rgba(245, 158, 11, 0.4)" }}
-                whileTap={{ scale: 0.95 }}
+                data-testid="hero-phone-number"
+                className="inline-block text-4xl sm:text-5xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-amber-400 via-yellow-300 to-amber-500 hover:from-amber-300 hover:to-amber-400 transition-all tracking-tight"
               >
-                <Phone className="w-5 h-5" />
-                <span>(877) 609-1919</span>
-              </motion.a>
-              <motion.a 
+                (877) 609-1919
+              </a>
+              <div className="mt-4 flex flex-wrap items-center gap-4">
+                <TrustSignals center={false} />
+              </div>
+              <motion.a
                 href="mailto:info@msylimoservice.com"
-                className="flex items-center gap-2 border-2 border-amber-500 text-amber-400 px-8 py-4 rounded-xl font-semibold hover:bg-amber-500 hover:text-black transition-all"
+                className="mt-5 inline-flex items-center gap-2 border-2 border-amber-500 text-amber-400 px-6 py-3 rounded-xl font-semibold hover:bg-amber-500 hover:text-black transition-all"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
@@ -214,64 +205,45 @@ const HeroSection = () => {
               style={{ backgroundSize: "200% 200%" }}
             >
               <h2 className="text-2xl font-bold" style={{ fontFamily: "'Playfair Display', serif" }}>
-                Get a Free Quote
+                Get an Instant Quote
               </h2>
-              <p className="text-black/70 text-sm">Fast response guaranteed</p>
+              <p className="text-black/70 text-sm">We respond within 15 minutes</p>
             </motion.div>
-            
-            <form onSubmit={handleSubmit} className="p-6 space-y-4">
-              {/* Name */}
+
+            <form onSubmit={handleSubmit} className="p-6 space-y-4" data-testid="hero-quick-quote-form">
+              {/* Pickup Location */}
               <div>
                 <div className="relative">
-                  <User className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-amber-500/50" />
+                  <MapPin className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-amber-500/50" />
                   <input
                     type="text"
-                    name="name"
-                    value={formData.name}
+                    name="pickupLocation"
+                    value={formData.pickupLocation}
                     onChange={handleChange}
                     required
-                    placeholder="Your Name *"
+                    placeholder="Pickup Location (e.g. MSY Airport) *"
                     className="w-full pl-11 pr-4 py-3 bg-gray-900/80 border border-amber-500/20 rounded-xl text-white placeholder-white/40 focus:border-amber-500 focus:outline-none transition-colors"
                   />
                 </div>
               </div>
 
-              {/* Phone */}
+              {/* Drop-off Location */}
               <div>
                 <div className="relative">
-                  <Phone className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-amber-500/50" />
+                  <MapPin className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-amber-500/50" />
                   <input
-                    type="tel"
-                    name="phone"
-                    value={formData.phone}
+                    type="text"
+                    name="dropoffLocation"
+                    value={formData.dropoffLocation}
                     onChange={handleChange}
                     required
-                    placeholder="Phone Number *"
+                    placeholder="Drop-off Location *"
                     className="w-full pl-11 pr-4 py-3 bg-gray-900/80 border border-amber-500/20 rounded-xl text-white placeholder-white/40 focus:border-amber-500 focus:outline-none transition-colors"
                   />
                 </div>
               </div>
 
-              {/* Service Type */}
-              <div>
-                <div className="relative">
-                  <Car className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-amber-500/50" />
-                  <select
-                    name="serviceType"
-                    value={formData.serviceType}
-                    onChange={handleChange}
-                    required
-                    className="w-full pl-11 pr-4 py-3 bg-gray-900/80 border border-amber-500/20 rounded-xl text-white focus:border-amber-500 focus:outline-none transition-colors appearance-none cursor-pointer"
-                  >
-                    <option value="" className="bg-gray-900">Service Type *</option>
-                    {serviceTypes.map(type => (
-                      <option key={type} value={type} className="bg-gray-900">{type}</option>
-                    ))}
-                  </select>
-                </div>
-              </div>
-
-              {/* Date & Time */}
+              {/* Date & Phone */}
               <div className="grid grid-cols-2 gap-3">
                 <div className="relative">
                   <Calendar className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-amber-500/50" />
@@ -281,32 +253,22 @@ const HeroSection = () => {
                     value={formData.date}
                     onChange={handleChange}
                     required
+                    aria-label="Pickup date"
                     className="w-full pl-11 pr-2 py-3 bg-gray-900/80 border border-amber-500/20 rounded-xl text-white focus:border-amber-500 focus:outline-none transition-colors"
                   />
                 </div>
                 <div className="relative">
-                  <Clock className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-amber-500/50" />
+                  <Phone className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-amber-500/50" />
                   <input
-                    type="time"
-                    name="time"
-                    value={formData.time}
+                    type="tel"
+                    name="phone"
+                    value={formData.phone}
                     onChange={handleChange}
                     required
-                    className="w-full pl-11 pr-2 py-3 bg-gray-900/80 border border-amber-500/20 rounded-xl text-white focus:border-amber-500 focus:outline-none transition-colors"
+                    placeholder="Phone *"
+                    className="w-full pl-11 pr-2 py-3 bg-gray-900/80 border border-amber-500/20 rounded-xl text-white placeholder-white/40 focus:border-amber-500 focus:outline-none transition-colors"
                   />
                 </div>
-              </div>
-
-              {/* Additional Details */}
-              <div>
-                <textarea
-                  name="message"
-                  value={formData.message}
-                  onChange={handleChange}
-                  rows="2"
-                  placeholder="Pickup & drop-off locations, passengers..."
-                  className="w-full px-4 py-3 bg-gray-900/80 border border-amber-500/20 rounded-xl text-white placeholder-white/40 focus:border-amber-500 focus:outline-none transition-colors resize-none"
-                />
               </div>
 
               {/* Submit Button */}
@@ -325,10 +287,12 @@ const HeroSection = () => {
                 ) : (
                   <>
                     <Send className="w-5 h-5" />
-                    Get My Free Quote
+                    Get Quote
                   </>
                 )}
               </motion.button>
+
+              <TrustSignals />
             </form>
 
             <div className="px-6 pb-6">

@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
+import TrustSignals from "@/components/TrustSignals";
 
 const CTASection = () => {
   return (
@@ -63,6 +64,8 @@ const CTASection = () => {
               (877) 609-1919
             </a>
           </motion.div>
+
+          <TrustSignals className="mt-6" />
 
           {/* Internal Links for SEO */}
           <motion.div

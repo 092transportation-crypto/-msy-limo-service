@@ -3,7 +3,8 @@ import { motion } from "framer-motion";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import SEO, { buildFaqSchema } from "@/components/SEO";
-import { Phone, Mail, MapPin, Clock, Send, Calendar, User, MessageSquare, Car } from "lucide-react";
+import { Phone, Mail, MapPin, Clock, Send, Calendar, User } from "lucide-react";
+import TrustSignals from "@/components/TrustSignals";
 
 const contactFaqSchema = buildFaqSchema([
   { q: "How do I get a quote for MSY airport car service?", a: "Submit the quote form with your trip details, call (877) 609-1919, or email info@msylimoservice.com. Quotes are flat rates by vehicle class, confirmed before you ride." },
@@ -33,28 +34,14 @@ const ContactPage = () => {
 
   const [formData, setFormData] = useState({
     name: "",
-    email: "",
     phone: "",
-    date: "",
-    time: "",
-    serviceType: "",
+    email: "",
     pickupLocation: "",
     dropoffLocation: "",
-    passengers: "",
-    message: ""
+    date: "",
+    passengers: ""
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
-
-  const serviceTypes = [
-    "Airport Transportation",
-    "Corporate Transportation", 
-    "Wedding Limo Service",
-    "Special Events",
-    "Hourly Charter",
-    "Cruise Port Transfer",
-    "Saints Game Day",
-    "Other"
-  ];
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -72,18 +59,15 @@ const ContactPage = () => {
       });
       
       if (response.ok) {
-        toast.success("Quote request sent! We'll contact you shortly.");
+        toast.success("Quote request sent! We'll contact you within 15 minutes.");
         setFormData({
           name: "",
-          email: "",
           phone: "",
-          date: "",
-          time: "",
-          serviceType: "",
+          email: "",
           pickupLocation: "",
           dropoffLocation: "",
-          passengers: "",
-          message: ""
+          date: "",
+          passengers: ""
         });
       } else {
         toast.error("Failed to send. Please call us directly.");
@@ -249,11 +233,11 @@ const ContactPage = () => {
               <div className="bg-black rounded-2xl border border-amber-500/20 overflow-hidden shadow-xl shadow-amber-500/5">
                 <div className="bg-gradient-to-r from-amber-500 to-amber-600 py-4 px-6">
                   <h3 className="text-xl font-bold text-black">Get a Free Quote</h3>
-                  <p className="text-black/70 text-sm">Fill out the form and we'll get back to you ASAP</p>
+                  <p className="text-black/70 text-sm">We respond within 15 minutes</p>
                 </div>
-                
-                <form onSubmit={handleSubmit} className="p-6 space-y-4">
-                  {/* Name & Email Row */}
+
+                <form onSubmit={handleSubmit} className="p-6 space-y-4" data-testid="contact-quote-form">
+                  {/* Name & Phone Row */}
                   <div className="grid md:grid-cols-2 gap-4">
                     <div>
                       <label className="block text-white/70 text-sm mb-2">Full Name *</label>
@@ -271,25 +255,6 @@ const ContactPage = () => {
                       </div>
                     </div>
                     <div>
-                      <label className="block text-white/70 text-sm mb-2">Email *</label>
-                      <div className="relative">
-                        <Mail className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-amber-500/50" />
-                        <input
-                          type="email"
-                          name="email"
-                          value={formData.email}
-                          onChange={handleChange}
-                          required
-                          placeholder="john@example.com"
-                          className="w-full pl-11 pr-4 py-3 bg-gray-900 border border-amber-500/20 rounded-xl text-white placeholder-white/30 focus:border-amber-500 focus:outline-none transition-colors"
-                        />
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* Phone & Service Type Row */}
-                  <div className="grid md:grid-cols-2 gap-4">
-                    <div>
                       <label className="block text-white/70 text-sm mb-2">Phone Number *</label>
                       <div className="relative">
                         <Phone className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-amber-500/50" />
@@ -304,27 +269,54 @@ const ContactPage = () => {
                         />
                       </div>
                     </div>
-                    <div>
-                      <label className="block text-white/70 text-sm mb-2">Service Type *</label>
-                      <div className="relative">
-                        <Car className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-amber-500/50" />
-                        <select
-                          name="serviceType"
-                          value={formData.serviceType}
-                          onChange={handleChange}
-                          required
-                          className="w-full pl-11 pr-4 py-3 bg-gray-900 border border-amber-500/20 rounded-xl text-white focus:border-amber-500 focus:outline-none transition-colors appearance-none cursor-pointer"
-                        >
-                          <option value="" className="bg-gray-900">Select Service</option>
-                          {serviceTypes.map(type => (
-                            <option key={type} value={type} className="bg-gray-900">{type}</option>
-                          ))}
-                        </select>
-                      </div>
+                  </div>
+
+                  {/* Email */}
+                  <div>
+                    <label className="block text-white/70 text-sm mb-2">Email *</label>
+                    <div className="relative">
+                      <Mail className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-amber-500/50" />
+                      <input
+                        type="email"
+                        name="email"
+                        value={formData.email}
+                        onChange={handleChange}
+                        required
+                        placeholder="john@example.com"
+                        className="w-full pl-11 pr-4 py-3 bg-gray-900 border border-amber-500/20 rounded-xl text-white placeholder-white/30 focus:border-amber-500 focus:outline-none transition-colors"
+                      />
                     </div>
                   </div>
 
-                  {/* Date & Time Row */}
+                  {/* Pickup & Dropoff Row */}
+                  <div className="grid md:grid-cols-2 gap-4">
+                    <div>
+                      <label className="block text-white/70 text-sm mb-2">Pickup Location *</label>
+                      <input
+                        type="text"
+                        name="pickupLocation"
+                        value={formData.pickupLocation}
+                        onChange={handleChange}
+                        required
+                        placeholder="Address or Airport"
+                        className="w-full px-4 py-3 bg-gray-900 border border-amber-500/20 rounded-xl text-white placeholder-white/30 focus:border-amber-500 focus:outline-none transition-colors"
+                      />
+                    </div>
+                    <div>
+                      <label className="block text-white/70 text-sm mb-2">Drop-off Location *</label>
+                      <input
+                        type="text"
+                        name="dropoffLocation"
+                        value={formData.dropoffLocation}
+                        onChange={handleChange}
+                        required
+                        placeholder="Address or Airport"
+                        className="w-full px-4 py-3 bg-gray-900 border border-amber-500/20 rounded-xl text-white placeholder-white/30 focus:border-amber-500 focus:outline-none transition-colors"
+                      />
+                    </div>
+                  </div>
+
+                  {/* Date & Passengers Row */}
                   <div className="grid md:grid-cols-2 gap-4">
                     <div>
                       <label className="block text-white/70 text-sm mb-2">Pickup Date *</label>
@@ -341,74 +333,16 @@ const ContactPage = () => {
                       </div>
                     </div>
                     <div>
-                      <label className="block text-white/70 text-sm mb-2">Pickup Time *</label>
-                      <div className="relative">
-                        <Clock className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-amber-500/50" />
-                        <input
-                          type="time"
-                          name="time"
-                          value={formData.time}
-                          onChange={handleChange}
-                          required
-                          className="w-full pl-11 pr-4 py-3 bg-gray-900 border border-amber-500/20 rounded-xl text-white focus:border-amber-500 focus:outline-none transition-colors"
-                        />
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* Pickup & Dropoff Row */}
-                  <div className="grid md:grid-cols-2 gap-4">
-                    <div>
-                      <label className="block text-white/70 text-sm mb-2">Pickup Location</label>
+                      <label className="block text-white/70 text-sm mb-2">Passengers</label>
                       <input
-                        type="text"
-                        name="pickupLocation"
-                        value={formData.pickupLocation}
+                        type="number"
+                        name="passengers"
+                        value={formData.passengers}
                         onChange={handleChange}
-                        placeholder="Address or Airport"
+                        min="1"
+                        max="20"
+                        placeholder="How many?"
                         className="w-full px-4 py-3 bg-gray-900 border border-amber-500/20 rounded-xl text-white placeholder-white/30 focus:border-amber-500 focus:outline-none transition-colors"
-                      />
-                    </div>
-                    <div>
-                      <label className="block text-white/70 text-sm mb-2">Drop-off Location</label>
-                      <input
-                        type="text"
-                        name="dropoffLocation"
-                        value={formData.dropoffLocation}
-                        onChange={handleChange}
-                        placeholder="Address or Airport"
-                        className="w-full px-4 py-3 bg-gray-900 border border-amber-500/20 rounded-xl text-white placeholder-white/30 focus:border-amber-500 focus:outline-none transition-colors"
-                      />
-                    </div>
-                  </div>
-
-                  {/* Passengers */}
-                  <div>
-                    <label className="block text-white/70 text-sm mb-2">Number of Passengers</label>
-                    <input
-                      type="number"
-                      name="passengers"
-                      value={formData.passengers}
-                      onChange={handleChange}
-                      min="1"
-                      max="20"
-                      placeholder="How many passengers?"
-                      className="w-full px-4 py-3 bg-gray-900 border border-amber-500/20 rounded-xl text-white placeholder-white/30 focus:border-amber-500 focus:outline-none transition-colors"
-                    />
-                  </div>
-
-                  {/* Message */}
-                  <div>
-                    <label className="block text-white/70 text-sm mb-2">Additional Details</label>
-                    <div className="relative">
-                      <MessageSquare className="absolute left-3 top-3 w-5 h-5 text-amber-500/50" />
-                      <textarea
-                        name="message"
-                        value={formData.message}
-                        onChange={handleChange}
-                        rows="3"
-                        placeholder="Any special requests or additional information..."
-                        className="w-full pl-11 pr-4 py-3 bg-gray-900 border border-amber-500/20 rounded-xl text-white placeholder-white/30 focus:border-amber-500 focus:outline-none transition-colors resize-none"
                       />
                     </div>
                   </div>
@@ -433,6 +367,8 @@ const ContactPage = () => {
                       </>
                     )}
                   </motion.button>
+
+                  <TrustSignals />
                 </form>
               </div>
             </motion.div>

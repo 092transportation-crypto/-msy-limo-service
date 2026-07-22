@@ -4,6 +4,7 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import SEO from "@/components/SEO";
 import { Phone, Mail, User, Calendar, Clock, MapPin, Car, Users, MessageSquare, Send } from "lucide-react";
+import TrustSignals from "@/components/TrustSignals";
 import { toast } from "sonner";
 
 const SERVICE_TYPES = [
@@ -418,6 +419,9 @@ const BookingPage = () => {
                     </>
                   )}
                 </motion.button>
+
+                <p className="text-center text-amber-400 text-sm font-medium">We respond within 15 minutes</p>
+                <TrustSignals />
               </form>
             </div>
           </motion.div>

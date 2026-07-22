@@ -34,7 +34,7 @@ module.exports = async (req, res) => {
 
   const body = typeof req.body === 'object' && req.body !== null ? req.body : {};
   const inquiry = {
-    name: field(body.name, 120),
+    name: field(body.name, 120) || 'Website Visitor',
     email: field(body.email, 200),
     phone: field(body.phone, 40),
     serviceType: field(body.serviceType || body.service_type, 80) || 'General inquiry',
@@ -51,10 +51,10 @@ module.exports = async (req, res) => {
     source: field(body.source, 40) || 'Quote form',
   };
 
-  if (!inquiry.name || !(inquiry.phone || inquiry.email)) {
+  if (!(inquiry.phone || inquiry.email)) {
     return res.status(400).json({
       success: false,
-      message: 'Please provide your name and a phone number or email.',
+      message: 'Please provide a phone number or email so we can reach you.',
     });
   }
 

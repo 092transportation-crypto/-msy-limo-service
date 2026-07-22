@@ -141,8 +141,15 @@ const Navigation = () => {
             </div>
 
             {/* Mobile Menu Button */}
-            <div className="flex lg:hidden items-center gap-4">
-              <a href="tel:+18776091919" className="text-amber-400">
+            <div className="flex lg:hidden items-center gap-3">
+              <a
+                href="/booking"
+                data-testid="mobile-book-now"
+                className="bg-gradient-to-r from-amber-500 to-amber-600 text-black rounded px-4 py-2 text-sm font-bold shadow-lg shadow-amber-500/25"
+              >
+                Book Now
+              </a>
+              <a href="tel:+18776091919" className="text-amber-400" aria-label="Call MSY Limo Service">
                 <Phone className="w-5 h-5" />
               </a>
               <button onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)} className="text-white p-2">

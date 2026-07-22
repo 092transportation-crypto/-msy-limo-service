@@ -3,6 +3,7 @@ import { useEffect, lazy, Suspense } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Toaster } from "@/components/ui/sonner";
 import ChatWidget from "@/components/ChatWidget";
+import FloatingCallButton from "@/components/FloatingCallButton";
 
 // Lazy load pages for better performance
 const HomePage = lazy(() => import("@/pages/HomePage"));
@@ -116,6 +117,7 @@ function App() {
       </BrowserRouter>
       <Toaster position="top-right" />
       <ChatWidget />
+      <FloatingCallButton />
     </div>
   );
 }

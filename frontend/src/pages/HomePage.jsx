@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import Navigation from "@/components/Navigation";
 import HeroSection from "@/components/HeroSection";
 import QuickLinksBar from "@/components/QuickLinksBar";
+import PricingTable from "@/components/PricingTable";
 import UniqueFeatures from "@/components/UniqueFeatures";
 import ServicesPortfolio from "@/components/ServicesPortfolio";
 import FleetSection from "@/components/FleetSection";
@@ -75,6 +76,7 @@ const HomePage = () => {
       <main>
         <HeroSection />
         <QuickLinksBar />
+        <PricingTable />
         <UniqueFeatures />
         <ServicesPortfolio />
         <FleetSection />
