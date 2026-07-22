@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Logo from "@/components/Logo";
 import { Phone, Mail, MapPin, Clock, ArrowRight, Sparkles, Instagram, Facebook } from "lucide-react";
 import { motion } from "framer-motion";
 
@@ -75,16 +76,7 @@ const Footer = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12 lg:gap-8">
             {/* Company Info */}
             <div className="lg:col-span-2">
-              <Link to="/">
-                <img 
-                  src="https://customer-assets.emergentagent.com/job_premium-rides-70/artifacts/c9yxyyub_WhatsApp%20Image%202026-02-06%20at%206.29.35%20PM.jpeg" 
-                  alt="MSY Limo Service Logo"
-                  className="h-20 w-auto mb-6"
-                  width="96"
-                  height="80"
-                  loading="lazy"
-                />
-              </Link>
+              <Logo testId="footer-logo" className="mb-6" />
               <p className="text-amber-400 italic mb-4 text-lg" style={{ fontFamily: "'Playfair Display', serif" }}>
                 "Arrive in Style, Every Mile."
               </p>

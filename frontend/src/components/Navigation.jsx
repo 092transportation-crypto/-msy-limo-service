@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X, Phone, ChevronDown } from "lucide-react";
 import { Link, useLocation } from "react-router-dom";
+import Logo from "@/components/Logo";
 
 const Navigation = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -45,17 +46,8 @@ const Navigation = () => {
       <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-black ${isScrolled ? "shadow-lg shadow-amber-500/10" : ""}`}>
         <nav className="max-w-7xl mx-auto px-4 md:px-8">
           <div className="flex items-center justify-between h-24 md:h-28">
-            {/* Logo - Very Big */}
-            <Link to="/" className="flex items-center" data-testid="nav-logo">
-              <img 
-                src="https://customer-assets.emergentagent.com/job_premium-rides-70/artifacts/c9yxyyub_WhatsApp%20Image%202026-02-06%20at%206.29.35%20PM.jpeg" 
-                alt="MSY Limo Service - Arrive in Style, Every Mile"
-                className="h-20 md:h-24 w-auto"
-                width="96"
-                height="80"
-                fetchpriority="high"
-              />
-            </Link>
+            {/* Logo */}
+            <Logo testId="nav-logo" />
 
             {/* Desktop Navigation */}
             <div className="hidden lg:flex items-center gap-1">

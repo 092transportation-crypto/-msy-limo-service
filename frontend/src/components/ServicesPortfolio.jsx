@@ -18,7 +18,7 @@ const services = [
     category: "BUSINESS TRAVEL",
     title: "CORPORATE TRANSPORTATION",
     description: "Professional executive car service designed for business travelers. Perfect for client meetings, corporate events, roadshows, and daily executive commutes. Confidential, punctual, and impeccably professional.",
-    image: "https://customer-assets.emergentagent.com/job_premium-rides-70/artifacts/6m6vftrh_photo-1560472354-b33ff0c44a43.avif",
+    image: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?auto=format&fit=crop&w=800&q=80",
     icon: Briefcase,
     link: "/services/corporate-transportation"
   },
