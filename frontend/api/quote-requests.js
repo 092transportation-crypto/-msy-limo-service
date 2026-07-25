@@ -18,19 +18,36 @@ const escapeHtml = (v) =>
 
 const field = (v, max) => String(v ?? '').trim().slice(0, max);
 
+const isValidEmail = (v = '') => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v);
+
+// Masks an email for logs: "ab***@domain.com"
+const maskEmail = (addr = '') =>
+  addr.replace(/^([^@]{0,2})[^@]*(@.*)$/, '$1***$2') || '(empty)';
+
 module.exports = async (req, res) => {
   if (req.method !== 'POST') {
     res.setHeader('Allow', 'POST');
     return res.status(405).json({ success: false, message: 'Method not allowed' });
   }
 
-  const smtpUser = process.env.SMTP_USER;
-  const smtpPassword = process.env.SMTP_PASSWORD;
-  const recipient = process.env.NOTIFICATION_EMAIL || 'info@msylimoservice.com';
+  // Env values pasted into dashboards often carry stray whitespace/newlines,
+  // which malform the From header and trigger 5xx rejections.
+  const smtpUser = (process.env.SMTP_USER || '').trim();
+  const smtpPassword = (process.env.SMTP_PASSWORD || '').trim();
+  const recipient =
+    (process.env.NOTIFICATION_EMAIL || '').trim() || 'info@msylimoservice.com';
   if (!smtpUser || !smtpPassword) {
     console.error('SMTP_USER / SMTP_PASSWORD not configured');
     return res.status(500).json({ success: false, message: 'Email service not configured' });
   }
+  console.log(
+    'smtp env check:',
+    JSON.stringify({
+      SMTP_USER: maskEmail(smtpUser),
+      SMTP_PASSWORD: 'set',
+      NOTIFICATION_EMAIL: maskEmail(recipient),
+    })
+  );
 
   const body = typeof req.body === 'object' && req.body !== null ? req.body : {};
   const inquiry = {
@@ -123,14 +140,35 @@ module.exports = async (req, res) => {
       auth: { user: smtpUser, pass: smtpPassword },
     });
 
-    await transporter.sendMail({
-      from: `MSY Limo Service Website <${smtpUser}>`,
+    // The From header AND the SMTP envelope sender (MAIL FROM) must both be
+    // exactly the authenticated Gmail account — anything else is spoofing and
+    // gets 550-rejected. The customer's address goes in Reply-To only, and
+    // only when it is well-formed.
+    const info = await transporter.sendMail({
+      from: { name: 'MSY Limo Service Website', address: smtpUser },
       to: recipient,
-      replyTo: inquiry.email || smtpUser,
+      ...(isValidEmail(inquiry.email) ? { replyTo: inquiry.email } : {}),
+      envelope: { from: smtpUser, to: [recipient] },
       subject: `New Quote Request — ${inquiry.serviceType} — ${inquiry.name}`,
       text,
       html,
+      headers: {
+        'X-Mailer': 'MSY Limo Service Website',
+        'X-Inquiry-ID': id,
+        'X-Auto-Response-Suppress': 'All',
+      },
     });
+
+    console.log(
+      'quote email sent:',
+      JSON.stringify({
+        inquiryId: id,
+        messageId: info.messageId,
+        smtpResponse: info.response,
+        accepted: (info.accepted || []).map(maskEmail),
+        rejected: (info.rejected || []).map(maskEmail),
+      })
+    );
 
     return res.status(200).json({
       id,
@@ -138,7 +176,23 @@ module.exports = async (req, res) => {
       message: 'Quote request received. Our team will contact you shortly.',
     });
   } catch (err) {
+    // Surface the exact SMTP rejection (e.g. the full 550 line) in the logs.
     console.error('Failed to send quote email:', err);
+    console.error(
+      'smtp failure detail:',
+      JSON.stringify({
+        inquiryId: id,
+        code: err.code,
+        command: err.command,
+        responseCode: err.responseCode,
+        response: err.response,
+        rejected: (err.rejected || []).map(maskEmail),
+        rejectedErrors: (err.rejectedErrors || []).map((e) => ({
+          recipient: maskEmail(e.recipient),
+          response: e.response,
+        })),
+      })
+    );
     return res.status(500).json({
       success: false,
       message: 'Unable to send your request right now. Please call us directly.',
