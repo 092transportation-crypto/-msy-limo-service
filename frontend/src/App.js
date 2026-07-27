@@ -46,6 +46,16 @@ const ROUTE_SLUGS = [
   "msy-to-pensacola",
   "msy-to-shreveport",
   "msy-to-baton-rouge-downtown",
+  "msy-to-baton-rouge-airport",
+  "msy-to-houma",
+  "msy-to-morgan-city",
+  "msy-to-new-iberia",
+  "msy-to-opelousas",
+  "msy-to-natchitoches",
+  "msy-to-alexandria-la",
+  "msy-to-monroe-la",
+  "msy-to-lake-charles-airport",
+  "msy-to-hattiesburg-ms",
 ];
 
 // Concert & event venue landing pages (content lives in src/data/venuesData.js)

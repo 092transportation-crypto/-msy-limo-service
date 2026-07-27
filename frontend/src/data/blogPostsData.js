@@ -63,6 +63,10 @@ export const seoBlogPosts = [
         q: "What happens if my flight is delayed?",
         a: "Your chauffeur tracks the flight and adjusts automatically. Domestic arrivals include 60 minutes of complimentary wait time; international arrivals include 90 minutes.",
       },
+      {
+        q: "Can I book a car service from MSY for a group?",
+        a: "Yes — Cadillac Escalade SUVs seat up to 6 and Mercedes Sprinter vans up to 13 with luggage, so groups ride together on one flat rate instead of coordinating multiple rideshares. Call (877) 609-1919 to reserve.",
+      },
     ],
   },
   {
@@ -606,6 +610,10 @@ export const seoBlogPosts = [
         a: "24–48 hours is comfortable for standard transfers. For Mardi Gras, Jazz Fest, Essence Fest, Saints home games, and major conventions, book as soon as your flights are confirmed — top companies' vehicles sell out.",
       },
       {
+        q: "Do the best MSY car services operate overnight?",
+        a: "Yes — 24/7 dispatch is a defining trait of a top-tier operator. Red-eye arrivals, midnight delays, and 4 a.m. departures all get guaranteed pickups; if a company can't answer the phone overnight, keep looking.",
+      },
+      {
         q: "Does the best car service cost more than average ones?",
         a: "Often less than you'd expect: flat rates ignore surge pricing, and per-vehicle quotes split well across groups. The real cost difference shows up with cut-rate operators — in no-shows, surprise fees, and missed flights.",
       },
@@ -677,6 +685,205 @@ export const seoBlogPosts = [
       {
         q: "Do you offer corporate accounts for New Orleans ground transportation?",
         a: "Yes — priority dispatch, consolidated monthly invoicing with cost-center coding, saved traveler profiles, and a dedicated contact. There's no setup fee; call (877) 609-1919 and it can be running the same day.",
+      },
+    ],
+  },
+  {
+    slug: "new-orleans-airport-early-morning-pickup",
+    title: "Early Morning Pickups at New Orleans Airport: How to Never Miss a 6 A.M. Flight",
+    metaTitle: "Early Morning Pickup to MSY Airport | 4 AM Car Service",
+    metaDescription:
+      "Catching a 6 a.m. flight out of MSY? How pre-dawn airport pickups work, when to leave from each neighborhood & why reserved cars beat apps. (877) 609-1919.",
+    category: "Airport",
+    author: "MSY Limo Team",
+    date: "July 27, 2026",
+    readTime: "7 min read",
+    excerpt:
+      "The 6 a.m. departure out of MSY is won or lost the night before. Here's exactly how pre-dawn airport pickups work, when to leave from every corner of the metro, and why a reserved chauffeur is the only ride that's guaranteed to show at 4 a.m.",
+    image: "https://images.unsplash.com/photo-1490430657723-4d607c1503fc?auto=format&fit=crop&w=800&q=80",
+    content: `
+      <p>Every seasoned New Orleans traveler knows the feeling: the alarm goes off at 3:45 a.m., the house is dark, and somewhere between the coffee maker and the front door lives a single question — is the ride actually coming? For a 6 a.m. departure out of Louis Armstrong International, that question is the whole ballgame. Miss the pickup and you've missed the flight; there's no later option that fixes a morning connection through Atlanta or Dallas. Here's how the pre-dawn run to MSY really works, and how to make it bulletproof.</p>
+
+      <h2>Why Early Mornings Are Rideshare's Weakest Hour</h2>
+      <p>Rideshare works on driver supply, and at 4 a.m. supply is at its daily low. The app may show a car twelve minutes away — driven by someone finishing a long night shift, who may accept your trip, reconsider, and cancel. At 4 a.m. there is no crowd of replacement drivers behind them. Travelers across Metairie, the Northshore, and the West Bank tell us the same story: the first driver cancelled, the second was fifteen minutes in the wrong direction, and the airport buffer evaporated before the ride even started.</p>
+      <p>A reserved car service inverts the model. Your pickup is scheduled, assigned to a specific chauffeur, and confirmed the evening before. Our dispatch runs 24/7, the vehicle is dispatched with buffer time built in, and you get a text when it's on the way. The 4 a.m. question — is the ride coming? — is answered the night before, in writing.</p>
+
+      <h2>When to Leave: A Neighborhood-by-Neighborhood Guide</h2>
+      <p>For a 6 a.m. domestic departure, plan to be at the terminal by 4:45–5:00 a.m. Working backward, here's what pickup times look like across the metro in pre-dawn traffic:</p>
+      <ul>
+        <li><strong>Kenner & Metairie:</strong> pickup 4:15–4:30 a.m. — the shortest runs we make, but still worth scheduling rather than gambling.</li>
+        <li><strong>Downtown & French Quarter:</strong> pickup around 4:00–4:15 a.m., before the city's earliest traffic exists.</li>
+        <li><strong>Uptown & West Bank:</strong> pickup 3:55–4:10 a.m., with bridge routing handled by your chauffeur.</li>
+        <li><strong>Slidell & the Northshore:</strong> pickup 3:30–3:50 a.m. — the trips where a scheduled car matters most, because replacement rides simply don't exist out there before dawn.</li>
+        <li><strong>Baton Rouge & Houma:</strong> pickup 2:45–3:15 a.m. for long-distance departures — routine work for our dispatch, unthinkable for an app.</li>
+      </ul>
+      <p>International or peak-season departures? Add 30–45 minutes. During Mardi Gras, Jazz Fest, and Essence Fest weeks, MSY security lines at dawn are genuinely long, and we recommend the earlier end of every window. Our dispatchers recommend a pickup time for your exact address and flight when you book — you don't have to do this math alone.</p>
+
+      <h2>How a Pre-Dawn Pickup Actually Runs</h2>
+      <p>The night before, you get a confirmation with your pickup window and chauffeur details. Dispatch stages the vehicle with time to spare — for far-flung pickups, the chauffeur is often positioned in your area the night before. You get an on-the-way text, the car arrives a few minutes early with the cabin lit and climate set, your bags are loaded for you, and the ride to the terminal happens on empty roads while you finish waking up. Domestic departure doors, not the far end of a shuttle loop: you're at check-in minutes after leaving the curb of your own driveway.</p>
+
+      <h2>The Habits of People Who Never Miss Flights</h2>
+      <ol>
+        <li><strong>Book the pickup when you book the flight.</strong> A 4 a.m. ride reserved two weeks out costs the same as one reserved tonight — and it's guaranteed either way.</li>
+        <li><strong>Give us the flight number,</strong> so dispatch cross-checks the departure and adjusts if the airline moves it.</li>
+        <li><strong>Stage everything at the door the night before.</strong> The most common pre-dawn delay isn't the car — it's the passport hunt at 4:05 a.m.</li>
+        <li><strong>Confirm your phone is off silent.</strong> The on-the-way text and the chauffeur's arrival call are your safety net.</li>
+        <li><strong>For can't-miss trips, take the earlier window.</strong> Fifteen quiet minutes at the gate beat fifteen frantic ones on Airline Highway.</li>
+      </ol>
+
+      <h2>The Bottom Line</h2>
+      <p>Early flights out of MSY reward exactly one virtue: certainty. A reserved chauffeur — scheduled the night before, tracked by 24/7 dispatch, and committed to your door at 4 a.m. — is the only form of airport transportation built entirely around that virtue. Whether you're leaving from a <a href="/msy-to-metairie">Metairie</a> home, a <a href="/msy-to-french-quarter">French Quarter</a> hotel, or a <a href="/msy-to-slidell">Slidell</a> address across the lake, book the pickup tonight and sleep on it. Reserve online or call <a href="tel:+18776091919">(877) 609-1919</a> — our dispatch desk is awake at 4 a.m. either way.</p>
+    `,
+    faqs: [
+      {
+        q: "How early should I book a 4 a.m. pickup to MSY?",
+        a: "As soon as your flight is ticketed — pre-dawn slots are scheduled work, and booking early guarantees your window. Same-evening requests are often possible, but a day or more of notice is ideal.",
+      },
+      {
+        q: "What time should I leave for a 6 a.m. flight at MSY?",
+        a: "Plan to reach the terminal by 4:45–5:00 a.m. That means a roughly 4:15 a.m. pickup from Metairie or Kenner, 4:00–4:15 from downtown, and 3:30–3:50 from the Northshore. We recommend an exact time for your address when you book.",
+      },
+      {
+        q: "How do I know the car will actually show up at 4 a.m.?",
+        a: "Your reservation is assigned to a specific chauffeur and confirmed the night before, dispatch monitors every pre-dawn run in real time, and you receive an on-the-way text before arrival. Guaranteed early pickups are one of our core services.",
+      },
+      {
+        q: "Do you do early pickups outside New Orleans — Slidell, the Northshore, Baton Rouge?",
+        a: "Yes, daily. Long-distance pre-dawn pickups are where reserved service matters most, because rideshare coverage in those areas is nearly zero before dawn. We stage vehicles with extra buffer for bridge and interstate legs.",
+      },
+      {
+        q: "Does an early-morning pickup cost extra?",
+        a: "No. Rates are flat by vehicle class around the clock — a 4 a.m. pickup costs the same as a 4 p.m. one, with no surge pricing or night surcharge. Call (877) 609-1919 for a quote.",
+      },
+    ],
+  },
+  {
+    slug: "msy-airport-transportation-guide-2026",
+    title: "MSY Airport Transportation Guide 2026: Options, Prices & Local Advice",
+    metaTitle: "MSY Airport Transportation Guide 2026 | All Options",
+    metaDescription:
+      "The 2026 guide to getting to & from MSY airport — car service, rideshare, taxi, shuttle & bus compared, with times, costs & local tips. (877) 609-1919.",
+    category: "Travel",
+    author: "MSY Limo Team",
+    date: "July 27, 2026",
+    readTime: "9 min read",
+    excerpt:
+      "Everything that changed and everything that matters for getting to and from Louis Armstrong International in 2026 — every transportation option compared honestly, with real times, real costs, and the local knowledge that saves trips.",
+    image: "https://images.unsplash.com/photo-1556388158-158ea5ccacbd?auto=format&fit=crop&w=800&q=80",
+    content: `
+      <p>Louis Armstrong New Orleans International Airport sits in Kenner, about 14 miles west of downtown — close enough that ground transportation feels like an afterthought, far enough that choosing badly costs real time and money. This 2026 guide covers every way to make the trip, what each actually costs, and the local wrinkles — festival closures, bridge fog, convention surges — that the booking apps won't warn you about.</p>
+
+      <h2>Your Options at a Glance</h2>
+      <p><strong>Private car service.</strong> A reserved chauffeur meets you at the curb or inside baggage claim, the rate is flat and confirmed at booking, and the vehicle is a late-model sedan, SUV, or Sprinter van. Downtown takes 20–30 minutes. This is the only option where the ride is committed to you before you land — with flight tracking and complimentary wait time absorbing delays automatically. Best for: business travel, families and groups, early departures, long distances, and anyone whose plans can't flex.</p>
+      <p><strong>Rideshare.</strong> Uber and Lyft pick up from a designated area that can be a fair walk from baggage claim. Off-peak fares downtown are moderate; during conventions, festivals, and peak arrival banks, surge pricing can double or triple the cost. Long-distance requests — the Northshore, Baton Rouge, the Mississippi Coast — are frequently declined or cancelled. Best for: solo travelers with light bags, flexible timing, and short off-peak trips.</p>
+      <p><strong>Taxi.</strong> The traditional stand operates outside baggage claim with regulated per-person rates to downtown. No reservation needed, but no flat guarantee for farther destinations, and vehicle quality varies widely. Best for: spontaneous short trips when the line is short.</p>
+      <p><strong>Airport shuttle.</strong> Shared vans serve downtown hotels at a per-person rate that looks cheap until you count stops — your hotel may be the sixth drop. Budget an hour or more for a 25-minute trip. Best for: solo budget travelers with time to spare.</p>
+      <p><strong>Public bus.</strong> The cheapest option by far, with routes connecting the airport toward downtown, but travel times run well over an hour with luggage in tow. Best for: minimalist travelers on the tightest budgets.</p>
+
+      <h2>What Trips Actually Cost in 2026</h2>
+      <p>Downtown by taxi runs a regulated per-person rate; rideshare varies with demand from moderate to painful; shuttles charge per seat; and a private sedan is a flat quote that doesn't move. The pattern to notice: for two or more people, or any group with real luggage, per-vehicle flat pricing closes most of the gap with per-person options — and on surge days it wins outright. For long distances (<a href="/msy-to-baton-rouge">Baton Rouge</a>, <a href="/msy-to-biloxi">Biloxi</a>, the Northshore), reserved car service isn't just competitive; it's often the only option that reliably exists.</p>
+
+      <h2>The 2026 Local Knowledge That Saves Trips</h2>
+      <ul>
+        <li><strong>The calendar rules everything.</strong> Mardi Gras season, Jazz Fest (late April–early May), Essence Fest (early July), Saints home Sundays, and mega-conventions each transform demand, prices, and street access. Check the citywide calendar before you land, and book ground transportation the day flights are ticketed during those windows.</li>
+        <li><strong>French Quarter streets close</strong> — for festivals, second lines, and sometimes just Saturday night. Drivers who work the Quarter daily know which entrances stay reachable; apps don't.</li>
+        <li><strong>Causeway fog is real</strong> from late fall through spring. Northshore trips can reroute via I-12 — professional dispatch handles this automatically; a rideshare driver may simply cancel.</li>
+        <li><strong>Early departures forgive nothing.</strong> Rideshare supply at 4 a.m. is thin everywhere and absent outside the city core. If your flight leaves at 6 a.m., a scheduled pickup is the difference between boarding and rebooking — our <a href="/blog/new-orleans-airport-early-morning-pickup">early-morning pickup guide</a> covers exact timing by neighborhood.</li>
+        <li><strong>Meet-and-greet matters more than it sounds.</strong> For arriving clients, first-time visitors, and anyone with heavy luggage, a chauffeur inside baggage claim with a name sign removes every point of arrival friction.</li>
+      </ul>
+
+      <h2>Matching the Option to the Trip</h2>
+      <p>Honest matchmaking: a solo consultant with a carry-on landing at 2 p.m. on a quiet Tuesday will do fine with rideshare. A family of five with beach luggage, a corporate group headed to the Morial Center, a bride's party bound for a Northshore venue, anyone connecting to a <a href="/services/cruise-transportation">cruise departure</a>, and every single 6 a.m. departure — those trips belong with a reserved chauffeur, because what they're buying isn't luxury; it's certainty.</p>
+
+      <h2>Book the Ride Before You Fly</h2>
+      <p>MSY Limo Service runs flat-rate chauffeured transfers between the airport and everywhere Louisiana travels — downtown and the Quarter, Metairie and the West Bank, the Northshore, Baton Rouge, the River Parishes, and across state lines to the Mississippi Coast and Florida panhandle. Every airport trip includes flight tracking, complimentary wait time, and 24/7 dispatch. Reserve online in about a minute or call <a href="tel:+18776091919">(877) 609-1919</a> — and land knowing the ride is already handled.</p>
+    `,
+    faqs: [
+      {
+        q: "What's the cheapest way from MSY to downtown New Orleans?",
+        a: "The public bus, followed by shared shuttles — both trade significant time for savings. For two or more travelers, a flat-rate private car often costs little more per person than a shuttle while taking a third of the time.",
+      },
+      {
+        q: "How long does it take to get from MSY to downtown or the French Quarter?",
+        a: "20–30 minutes to the CBD and 25–35 to the French Quarter in normal traffic. Rush hour, festivals, and Superdome events can push either past 45 minutes — professional chauffeurs route around it.",
+      },
+      {
+        q: "Is Uber reliable at MSY in 2026?",
+        a: "For short, off-peak trips, generally yes. During surge windows, for pre-dawn pickups, and for long-distance destinations like the Northshore or Baton Rouge, cancellations and price spikes are common — those trips are better served by a reserved car.",
+      },
+      {
+        q: "Should I book airport transportation in advance for Mardi Gras or Jazz Fest?",
+        a: "Absolutely — book as soon as flights are ticketed. Festival weeks strain every transportation option in the city, and reserved flat-rate cars are immune to the surge pricing that hits everything on-demand.",
+      },
+      {
+        q: "Does MSY Limo Service cover destinations beyond New Orleans?",
+        a: "Yes — the Northshore, Baton Rouge, Houma, the River Parishes, and out-of-state runs to Biloxi, Gulf Shores, Mobile, Pensacola, and beyond, all at flat rates with 24/7 dispatch. Call (877) 609-1919 for any route.",
+      },
+    ],
+  },
+  {
+    slug: "new-orleans-jazz-fest-transportation",
+    title: "New Orleans Jazz Fest Transportation: The Complete Getting-There Guide",
+    metaTitle: "Jazz Fest Transportation Guide | New Orleans Car Service",
+    metaDescription:
+      "Getting to Jazz Fest without the chaos — Fair Grounds logistics, drop-off strategy, MSY arrivals & group transport that beats surge pricing. (877) 609-1919.",
+    category: "Events",
+    author: "MSY Limo Team",
+    date: "July 27, 2026",
+    readTime: "8 min read",
+    excerpt:
+      "The Fair Grounds has no parking, the streets around it close, and surge pricing peaks exactly when the last set ends. Here's the complete transportation playbook for Jazz Fest — from MSY arrival to the final ride home.",
+    image: "https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?auto=format&fit=crop&w=800&q=80",
+    content: `
+      <p>The New Orleans Jazz & Heritage Festival is the city at its absolute best: two spring weekends, a dozen stages, and half a million people converging on the Fair Grounds Race Course in Mid-City. It is also, by design, a transportation puzzle — the Fair Grounds has essentially no public parking, the surrounding streets restrict traffic, and every on-demand ride in the city surges at exactly 7 p.m. when the headliners finish. Solve the transportation and you've solved Jazz Fest. Here's the playbook.</p>
+
+      <h2>Understand the Fair Grounds Problem First</h2>
+      <p>The festival sits in a residential neighborhood between Esplanade Ridge and Gentilly, reachable by surface streets that narrow to a crawl on festival days. There is no festival parking lot; nearby residents sell driveway spots, but hunting one from behind the wheel costs an hour you could have spent at the Gospel Tent. The city restricts several blocks around the gates, so even drop-offs need local knowledge: the difference between a driver who knows the working drop corners on Esplanade or Broad and one following a pin is measured in twenty minutes of walking.</p>
+
+      <h2>Your Options, Honestly Ranked</h2>
+      <p><strong>Chauffeured drop-off and pickup.</strong> The gold standard. A reserved vehicle drops your group at the closest accessible corner to your entrance, then returns at a scheduled time — or on your text — at a pre-agreed meeting point away from the worst crush. Flat rate, no surge, and the ride home exists before you need it. For groups, a Sprinter van turns the ride itself into part of the festival.</p>
+      <p><strong>Rideshare.</strong> Workable inbound in the morning; rough outbound. When 100,000 people leave at once, pickup zones jam, prices spike hard, and matching with your driver in the scrum on Broad Street is its own event. If you go this route, walk several blocks away from the grounds before requesting.</p>
+      <p><strong>Shuttles and transit.</strong> Official festival shuttles from downtown are a solid budget option with dedicated lanes — expect lines at day's end. City buses and the Canal streetcar get you within walking distance cheaply, with festival-day crowds.</p>
+      <p><strong>Driving yourself.</strong> The worst option. Between driveway-spot hunting, post-fest gridlock, and the day-drinking math of a festival, leave the car at the hotel.</p>
+
+      <h2>Flying In: The MSY Arrival Play</h2>
+      <p>Jazz Fest weekends are among MSY's busiest of the year, and the rideshare lot shows it. The professional move: book a chauffeured airport transfer with your flight number before you fly. Your chauffeur tracks the arrival, meets you at baggage claim or the curb, and delivers you to your <a href="/msy-to-french-quarter">French Quarter</a> or <a href="/msy-to-new-orleans-downtown">downtown</a> hotel at a flat rate that ignores festival demand entirely. Many festival groups book the full package at once — airport arrival, daily festival drop-offs and pickups, a night out on Frenchmen Street, and the departure run — one reservation, one number to text all weekend.</p>
+
+      <h2>The Veteran Moves</h2>
+      <ul>
+        <li><strong>Set the pickup point before you enter.</strong> Agree on a corner two or three blocks out — our chauffeurs recommend proven spots — and the day ends with a walk to a waiting car instead of a negotiation.</li>
+        <li><strong>Leave 30 minutes before close, or 45 after.</strong> The crush is the last set's final note. Slip out early or let a cold drink at the Fair Grounds' edge absorb the wave.</li>
+        <li><strong>Book evening plans as a round trip.</strong> Post-fest dinner in the Quarter and the late sets on Frenchmen Street are half the festival — a scheduled evening car means nobody's phone battery decides how the night ends.</li>
+        <li><strong>Hydrate the group, not just the phones.</strong> April in New Orleans is warm; an SUV with cold water waiting at pickup has rescued many a festival crew.</li>
+        <li><strong>Book everything early.</strong> Festival weekends sell out hotels, restaurants — and transportation fleets. Reserve vehicles when you book flights, especially Sprinters for groups.</li>
+      </ul>
+
+      <h2>Groups Are Where This Really Pays</h2>
+      <p>Jazz Fest is a group pilgrimage — college friends reuniting, families spanning three generations, crews who've come every year for decades. Coordinating six people across three rideshares in a surge zone is misery; one 13-passenger Sprinter with a chauffeur who already knows the plan is joy. Split the flat rate across the crew and the per-person cost routinely beats surge pricing anyway — with the ride home guaranteed while the last brass note is still hanging over the Fair Grounds.</p>
+
+      <h2>Lock In the Weekend</h2>
+      <p>MSY Limo Service runs Jazz Fest transportation every spring: airport transfers timed to festival flights, daily Fair Grounds drop-offs and scheduled pickups, evening rounds to the Quarter and Frenchmen Street, and group Sprinters for the whole crew. Flat rates, zero surge, 24/7 dispatch, and chauffeurs who know exactly which corner works at 7 p.m. on the second Sunday. Book the weekend at <a href="tel:+18776091919">(877) 609-1919</a> and spend your festival thinking about set conflicts, not street closures.</p>
+    `,
+    faqs: [
+      {
+        q: "Is there parking at Jazz Fest?",
+        a: "Effectively no — the Fair Grounds has no public festival lot, and nearby street parking is restricted or claimed by dawn. Drop-off transportation is the standard way in; driving yourself is the least practical option.",
+      },
+      {
+        q: "Where do cars drop off for Jazz Fest?",
+        a: "The city restricts blocks immediately around the gates, so drop-offs happen at accessible corners a short walk out — experienced chauffeurs know which corners work for each entrance and adjust to each year's closures.",
+      },
+      {
+        q: "How bad is surge pricing after Jazz Fest ends?",
+        a: "It's the worst window of the festival — demand peaks the moment headliners finish, and rideshare prices can multiply while pickup zones gridlock. A pre-scheduled flat-rate pickup avoids the entire problem.",
+      },
+      {
+        q: "Can you handle a group for the whole Jazz Fest weekend?",
+        a: "Yes — that's our specialty. A Sprinter van covers airport transfers, daily festival runs, and evening outings for up to 13 people on one reservation, with one dispatch number to text all weekend. Book early; festival weekends sell out.",
+      },
+      {
+        q: "Do you also cover airport transfers during Jazz Fest weekends?",
+        a: "Yes. Festival-week MSY transfers include flight tracking and complimentary wait time, at the same flat rates as any other week — no festival surcharge, no surge. Call (877) 609-1919 with your flight details.",
       },
     ],
   },
