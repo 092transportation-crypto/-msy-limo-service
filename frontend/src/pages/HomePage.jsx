@@ -3,6 +3,7 @@ import { setPageSeo } from "@/lib/seo";
 import { motion } from "framer-motion";
 import Navigation from "@/components/Navigation";
 import HeroSection from "@/components/HeroSection";
+import TrustBar from "@/components/TrustBar";
 import QuickLinksBar from "@/components/QuickLinksBar";
 import PricingTable from "@/components/PricingTable";
 import UniqueFeatures from "@/components/UniqueFeatures";
@@ -75,6 +76,7 @@ const HomePage = () => {
       
       <main>
         <HeroSection />
+        <TrustBar />
         <QuickLinksBar />
         <PricingTable />
         <UniqueFeatures />
