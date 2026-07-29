@@ -1,22 +1,32 @@
 import { Link } from "react-router-dom";
 
-// Text logo: gold "MSY LIMO SERVICE" wordmark.
-// Replaces the old hosted image logo (dead external URL).
+// Brand logo: original gold "M" limousine mark (restored from the site's
+// app icon — the old hosted header image on emergentagent.com is dead)
+// paired with the gold "MSY LIMO SERVICE" wordmark.
 const Logo = ({ className = "", testId = "text-logo" }) => (
   <Link
     to="/"
     data-testid={testId}
     aria-label="MSY Limo Service — Home"
-    className={`inline-flex flex-col items-start leading-none select-none ${className}`}
+    className={`inline-flex items-center gap-3 leading-none select-none ${className}`}
   >
-    <span
-      className="text-3xl md:text-4xl font-extrabold tracking-wide text-transparent bg-clip-text bg-gradient-to-r from-amber-400 via-yellow-300 to-amber-500"
-      style={{ fontFamily: "'Playfair Display', serif" }}
-    >
-      MSY
-    </span>
-    <span className="mt-1 text-[0.6rem] md:text-[0.68rem] font-semibold tracking-[0.3em] uppercase text-transparent bg-clip-text bg-gradient-to-r from-amber-400 via-yellow-300 to-amber-500">
-      Limo Service
+    <img
+      src="/images/msy-logo.png"
+      alt=""
+      aria-hidden="true"
+      className="h-12 w-12 md:h-14 md:w-14 rounded-xl flex-shrink-0"
+      onError={(e) => { e.currentTarget.style.display = "none"; }}
+    />
+    <span className="inline-flex flex-col items-start">
+      <span
+        className="text-3xl md:text-4xl font-extrabold tracking-wide text-transparent bg-clip-text bg-gradient-to-r from-amber-400 via-yellow-300 to-amber-500"
+        style={{ fontFamily: "'Playfair Display', serif" }}
+      >
+        MSY
+      </span>
+      <span className="mt-1 text-[0.6rem] md:text-[0.68rem] font-semibold tracking-[0.3em] uppercase text-transparent bg-clip-text bg-gradient-to-r from-amber-400 via-yellow-300 to-amber-500">
+        Limo Service
+      </span>
     </span>
   </Link>
 );
