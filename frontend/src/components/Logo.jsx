@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 
-// Brand logo: original gold "M" limousine mark (restored from the site's
-// app icon — the old hosted header image on emergentagent.com is dead)
+// Brand logo: the original MSY Limo Service mark (gold skyline/limo emblem)
 // paired with the gold "MSY LIMO SERVICE" wordmark.
 const Logo = ({ className = "", testId = "text-logo" }) => (
   <Link
@@ -14,7 +13,7 @@ const Logo = ({ className = "", testId = "text-logo" }) => (
       src="/images/msy-logo.png"
       alt=""
       aria-hidden="true"
-      className="h-12 w-12 md:h-14 md:w-14 rounded-xl flex-shrink-0"
+      className="h-14 w-14 md:h-16 md:w-16 rounded-full flex-shrink-0"
       onError={(e) => { e.currentTarget.style.display = "none"; }}
     />
     <span className="inline-flex flex-col items-start">
