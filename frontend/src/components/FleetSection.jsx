@@ -5,39 +5,75 @@ import { Link } from "react-router-dom";
 const fleet = [
   {
     id: 1,
-    name: "Mercedes E-Class",
-    image: "https://images.unsplash.com/photo-1563720223185-11003d516935?w=600",
+    name: "Mercedes-Benz E-Class 2023+ or similar",
+    image: "/images/mercedes-e-class.jpg",
     passengers: 3,
     luggage: 2,
-    category: "Business Class",
+    category: "Business Sedan",
     features: ["Leather Interior", "WiFi", "Climate Control", "Professional"]
   },
   {
     id: 2,
-    name: "Mercedes S-Class",
-    image: "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=600",
+    name: "BMW 7 Series / Mercedes S-Class 2023+ or similar",
+    image: "/images/bmw-7-series.jpg",
     passengers: 3,
     luggage: 2,
-    category: "First Class",
+    category: "First Class Sedan",
     features: ["Premium Leather", "Massage Seats", "Privacy Glass", "Mini Bar"]
   },
   {
     id: 3,
-    name: "Cadillac Escalade",
-    image: "https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?w=600",
+    name: "Lincoln Nautilus 2023+ or similar",
+    image: "/images/lincoln-nautilus.jpg",
+    passengers: 3,
+    luggage: 4,
+    category: "Midsize SUV",
+    features: ["Extra Luggage Room", "Leather Interior", "Climate Control", "WiFi"]
+  },
+  {
+    id: 4,
+    name: "Chevrolet Suburban 2023+ or similar",
+    image: "/images/chevy-suburban.jpg",
     passengers: 5,
+    luggage: 5,
+    category: "Luxury SUV",
+    features: ["Spacious", "Group Friendly", "Premium Sound", "USB Charging"]
+  },
+  {
+    id: 5,
+    name: "Cadillac Escalade 2023+ or similar",
+    image: "/images/cadillac-escalade.jpg",
+    passengers: 6,
     luggage: 5,
     category: "Premium SUV",
     features: ["Spacious", "Premium Sound", "TV Screens", "USB Charging"]
   },
   {
-    id: 4,
-    name: "Mercedes Sprinter",
-    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600",
+    id: 6,
+    name: "Mercedes Sprinter 2023+ or similar",
+    image: "/images/sprinter-shuttle-seats.jpg",
     passengers: 13,
-    luggage: 12,
-    category: "Sprinter Van",
-    features: ["Group Travel", "Conference Setup", "WiFi", "USB Ports"]
+    luggage: 13,
+    category: "Sprinter Shuttle",
+    features: ["Group Travel", "Spacious Seating", "WiFi", "USB Ports"]
+  },
+  {
+    id: 7,
+    name: "Mercedes Sprinter 2023+ or similar",
+    image: "/images/mercedes-sprinter.jpg",
+    passengers: 13,
+    luggage: 13,
+    category: "Sprinter Executive",
+    features: ["Captain Chairs", "Conference Setup", "WiFi", "USB Ports"]
+  },
+  {
+    id: 8,
+    name: "Mercedes Sprinter Limo 2023+ or similar",
+    image: "/images/limousine.jpg",
+    passengers: 13,
+    luggage: 13,
+    category: "Sprinter Limo",
+    features: ["Limo Interior", "Mood Lighting", "Premium Sound", "Mini Bar"]
   }
 ];
 
