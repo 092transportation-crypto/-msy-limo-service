@@ -5,7 +5,7 @@ import Navigation from "@/components/Navigation";
 import HeroSection from "@/components/HeroSection";
 import TrustBar from "@/components/TrustBar";
 import QuickLinksBar from "@/components/QuickLinksBar";
-import PricingTable from "@/components/PricingTable";
+import CallForQuoteSection from "@/components/CallForQuoteSection";
 import UniqueFeatures from "@/components/UniqueFeatures";
 import ServicesPortfolio from "@/components/ServicesPortfolio";
 import FleetSection from "@/components/FleetSection";
@@ -78,7 +78,7 @@ const HomePage = () => {
         <HeroSection />
         <TrustBar />
         <QuickLinksBar />
-        <PricingTable />
+        <CallForQuoteSection />
         <UniqueFeatures />
         <ServicesPortfolio />
         <FleetSection />

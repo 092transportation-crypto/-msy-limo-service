@@ -6,7 +6,7 @@ const fleet = [
   {
     id: 1,
     name: "Mercedes E-Class",
-    image: "https://92limo.com/wp-content/uploads/2025/06/mercedes-e-class-removebg-preview-300x138.png",
+    image: "https://images.unsplash.com/photo-1563720223185-11003d516935?w=600",
     passengers: 3,
     luggage: 2,
     category: "Business Class",
@@ -15,7 +15,7 @@ const fleet = [
   {
     id: 2,
     name: "Mercedes S-Class",
-    image: "https://92limo.com/wp-content/uploads/2025/06/mercedes-s-class-300x186.png",
+    image: "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=600",
     passengers: 3,
     luggage: 2,
     category: "First Class",
@@ -24,7 +24,7 @@ const fleet = [
   {
     id: 3,
     name: "Cadillac Escalade",
-    image: "https://92limo.com/wp-content/uploads/2025/06/cadillac-escalade-300x169.png",
+    image: "https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?w=600",
     passengers: 5,
     luggage: 5,
     category: "Premium SUV",
@@ -33,7 +33,7 @@ const fleet = [
   {
     id: 4,
     name: "Mercedes Sprinter",
-    image: "https://92limo.com/wp-content/uploads/2025/06/mercedes-sprinter-300x200.png",
+    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600",
     passengers: 13,
     luggage: 12,
     category: "Sprinter Van",
@@ -62,8 +62,8 @@ const FleetSection = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           {fleet.map((vehicle) => (
             <div key={vehicle.id} className="bg-gray-900/50 backdrop-blur-sm border border-amber-500/20 rounded-2xl overflow-hidden group hover:border-amber-500/50 transition-all">
-              <div className="relative h-48 overflow-hidden bg-gradient-to-br from-gray-800 to-gray-900 flex items-center justify-center p-4">
-                <img src={vehicle.image} alt={`${vehicle.name} luxury limo New Orleans`} className="w-full h-full object-contain" loading="lazy" />
+              <div className="relative h-48 overflow-hidden bg-gradient-to-br from-gray-800 to-gray-900">
+                <img src={vehicle.image} alt={`${vehicle.name} luxury limo New Orleans`} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
                 <div className="absolute top-4 left-4">
                   <span className="px-3 py-1 bg-gradient-to-r from-amber-500 to-amber-600 text-black text-xs font-bold rounded-lg">{vehicle.category}</span>
                 </div>

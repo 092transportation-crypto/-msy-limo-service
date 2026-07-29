@@ -14,10 +14,10 @@ const fleetFaqSchema = buildFaqSchema([
 ]);
 
 const fleet = [
-  { id: 1, name: "Mercedes E-Class", image: "https://92limo.com/wp-content/uploads/2025/06/mercedes-e-class-removebg-preview-300x138.png", passengers: 3, luggage: 2, category: "Business Class", desc: "Elegant business sedan for professional travel.", features: ["Leather Interior", "WiFi", "Climate Control", "Professional"] },
-  { id: 2, name: "Mercedes S-Class", image: "https://92limo.com/wp-content/uploads/2025/06/mercedes-s-class-300x186.png", passengers: 3, luggage: 2, category: "First Class", desc: "The pinnacle of luxury sedans for VIP travel.", features: ["Premium Leather", "Massage Seats", "Privacy Glass", "Mini Bar"] },
-  { id: 3, name: "Cadillac Escalade", image: "https://92limo.com/wp-content/uploads/2025/06/cadillac-escalade-300x169.png", passengers: 5, luggage: 5, category: "Premium SUV", desc: "Spacious luxury SUV for groups and families.", features: ["Spacious Interior", "Premium Sound", "TV Screens", "USB Charging"] },
-  { id: 4, name: "Mercedes Sprinter", image: "https://92limo.com/wp-content/uploads/2025/06/mercedes-sprinter-300x200.png", passengers: 13, luggage: 12, category: "Sprinter Van", desc: "Executive van for groups and corporate transport.", features: ["Group Seating", "Conference Setup", "WiFi", "USB Ports"] },
+  { id: 1, name: "Mercedes E-Class", image: "https://images.unsplash.com/photo-1563720223185-11003d516935?w=600", passengers: 3, luggage: 2, category: "Business Class", desc: "Elegant business sedan for professional travel.", features: ["Leather Interior", "WiFi", "Climate Control", "Professional"] },
+  { id: 2, name: "Mercedes S-Class", image: "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=600", passengers: 3, luggage: 2, category: "First Class", desc: "The pinnacle of luxury sedans for VIP travel.", features: ["Premium Leather", "Massage Seats", "Privacy Glass", "Mini Bar"] },
+  { id: 3, name: "Cadillac Escalade", image: "https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?w=600", passengers: 5, luggage: 5, category: "Premium SUV", desc: "Spacious luxury SUV for groups and families.", features: ["Spacious Interior", "Premium Sound", "TV Screens", "USB Charging"] },
+  { id: 4, name: "Mercedes Sprinter", image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600", passengers: 13, luggage: 12, category: "Sprinter Van", desc: "Executive van for groups and corporate transport.", features: ["Group Seating", "Conference Setup", "WiFi", "USB Ports"] },
 ];
 
 const containerVariants = {
@@ -105,11 +105,11 @@ const FleetPage = () => {
                 transition={{ type: "spring", stiffness: 300 }}
                 className="bg-black/50 border border-amber-500/20 rounded-2xl overflow-hidden hover:border-amber-500/50 transition-all group"
               >
-                <div className="h-48 bg-gradient-to-br from-gray-800 to-gray-900 flex items-center justify-center p-4 overflow-hidden">
-                  <motion.img 
-                    src={vehicle.image} 
-                    alt={`${vehicle.name} luxury limo New Orleans`} 
-                    className="w-full h-full object-contain"
+                <div className="h-48 bg-gradient-to-br from-gray-800 to-gray-900 overflow-hidden">
+                  <motion.img
+                    src={vehicle.image}
+                    alt={`${vehicle.name} luxury limo New Orleans`}
+                    className="w-full h-full object-cover"
                     loading="lazy"
                     whileHover={{ scale: 1.1 }}
                     transition={{ duration: 0.4 }}
