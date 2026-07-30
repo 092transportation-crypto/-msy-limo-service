@@ -119,7 +119,7 @@ const HourlyPage = () => {
               className="hidden lg:block"
             >
               <motion.img 
-                src="https://images.unsplash.com/photo-1739789750796-93800f347d64?auto=format&fit=crop&w=600&q=80" 
+                src="/images/stock/u-1739789750796.jpg" 
                 alt="Hourly chauffeur service New Orleans" 
                 className="rounded-2xl shadow-2xl shadow-amber-500/10 border border-amber-500/20"
                 whileHover={{ scale: 1.03 }}

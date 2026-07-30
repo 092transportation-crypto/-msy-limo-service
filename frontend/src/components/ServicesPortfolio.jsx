@@ -9,7 +9,7 @@ const services = [
     category: "AIRPORT SERVICES",
     title: "AIRPORT TRANSFERS",
     description: "Reliable airport transportation to and from MSY (Louis Armstrong New Orleans International). Our chauffeurs track flights in real time and ensure stress-free, on-time pickups for business and leisure travelers.",
-    image: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=800&q=80",
+    image: "/images/stock/u-1436491865332.jpg",
     icon: Plane,
     link: "/services/airport-transportation"
   },
@@ -18,7 +18,7 @@ const services = [
     category: "BUSINESS TRAVEL",
     title: "CORPORATE TRANSPORTATION",
     description: "Professional executive car service designed for business travelers. Perfect for client meetings, corporate events, roadshows, and daily executive commutes. Confidential, punctual, and impeccably professional.",
-    image: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?auto=format&fit=crop&w=800&q=80",
+    image: "/images/stock/u-1560472354.jpg",
     icon: Briefcase,
     link: "/services/corporate-transportation"
   },
@@ -27,7 +27,7 @@ const services = [
     category: "SPECIAL OCCASIONS",
     title: "EVENTS & WEDDINGS",
     description: "Make your special day unforgettable with our elegant event transportation. Stretch limousines, luxury sedans, and party buses available for weddings, proms, galas, and Mardi Gras celebrations.",
-    image: "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=800&q=80",
+    image: "/images/stock/u-1519741497674.jpg",
     icon: Users,
     link: "/services/wedding-limo"
   },
@@ -36,7 +36,7 @@ const services = [
     category: "FLEXIBLE SERVICE",
     title: "HOURLY CHARTER",
     description: "Flexible hourly charter service with a dedicated chauffeur at your disposal. Ideal for city tours, French Quarter exploration, plantation tours, or when you need transportation throughout the day.",
-    image: "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?auto=format&fit=crop&w=800&q=80",
+    image: "/images/stock/u-1449824913935.jpg",
     icon: Clock,
     link: "/services/hourly-charter"
   },
@@ -45,7 +45,7 @@ const services = [
     category: "PERSONAL TRANSPORTATION",
     title: "POINT-TO-POINT",
     description: "Our point-to-point service offers direct transportation between two locations, billed at a flat rate. Perfect for business meetings, dinner reservations, or any occasion requiring reliable transportation.",
-    image: "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?auto=format&fit=crop&w=800&q=80",
+    image: "/images/stock/u-1449965408869.jpg",
     icon: MapPin,
     link: "/services/special-events"
   }

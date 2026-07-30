@@ -15,12 +15,12 @@ const AboutSection = () => {
             className="grid grid-cols-2 gap-4"
           >
             <img
-              src="https://images.unsplash.com/photo-1687634365981-f6c4e3bba317?auto=format&fit=crop&w=600&q=80"
+              src="/images/stock/u-1687634365981.jpg"
               alt="Luxury black SUV limousine"
               className="w-full h-64 object-cover rounded-lg"
             />
             <img
-              src="https://images.unsplash.com/photo-1739789750796-93800f347d64?auto=format&fit=crop&w=600&q=80"
+              src="/images/stock/u-1739789750796.jpg"
               alt="MSY Limo professional chauffeur service New Orleans service"
               className="w-full h-64 object-cover rounded-lg mt-8"
             />

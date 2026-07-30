@@ -123,7 +123,7 @@ const CorporatePage = () => {
               className="hidden lg:block"
             >
               <motion.img 
-                src="https://images.unsplash.com/photo-1769787301187-0fab290ba2f2?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzl8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBleGVjdXRpdmUlMjBidXNpbmVzcyUyMGxpbW91c2luZSUyMGNoYXVmZmV1cnxlbnwwfHx8fDE3NzEwOTA3ODR8MA&ixlib=rb-4.1.0&q=85" 
+                src="/images/stock/u-1769787301187.jpg" 
                 alt="Executive in suit with luxury black SUV fleet for corporate transportation in New Orleans" 
                 className="rounded-2xl shadow-2xl shadow-amber-500/10 border border-amber-500/20"
                 whileHover={{ scale: 1.03 }}

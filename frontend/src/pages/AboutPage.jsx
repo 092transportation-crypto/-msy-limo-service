@@ -115,14 +115,14 @@ const AboutPage = () => {
               className="grid grid-cols-2 gap-4"
             >
               <motion.img 
-                src="https://images.unsplash.com/photo-1687634365981-f6c4e3bba317?auto=format&fit=crop&w=400&q=80" 
+                src="/images/stock/u-1687634365981.jpg" 
                 alt="Luxury sedan for New Orleans limo service" 
                 className="rounded-lg shadow-xl"
                 whileHover={{ scale: 1.05 }}
                 transition={{ duration: 0.3 }}
               />
               <motion.img 
-                src="https://images.unsplash.com/photo-1739789750796-93800f347d64?auto=format&fit=crop&w=400&q=80" 
+                src="/images/stock/u-1739789750796.jpg" 
                 alt="Professional chauffeur in New Orleans" 
                 className="rounded-lg mt-8 shadow-xl"
                 whileHover={{ scale: 1.05 }}

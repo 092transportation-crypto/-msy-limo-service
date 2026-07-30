@@ -150,7 +150,7 @@ const CruisePage = () => {
               className="hidden lg:block"
             >
               <motion.img 
-                src="https://images.unsplash.com/photo-1710615209322-77731e33d4a6?auto=format&fit=crop&w=600&q=80" 
+                src="/images/stock/u-1710615209322.jpg" 
                 alt="New Orleans cruise ship transportation Port of New Orleans" 
                 className="rounded-2xl shadow-2xl shadow-amber-500/10 border border-amber-500/20"
                 whileHover={{ scale: 1.03 }}
@@ -335,7 +335,7 @@ const CruisePage = () => {
               transition={{ duration: 0.6, delay: 0.2 }}
             >
               <motion.img 
-                src="https://images.unsplash.com/photo-1702722710064-02a7d4730197?auto=format&fit=crop&w=600&q=80" 
+                src="/images/stock/u-1702722710064.jpg" 
                 alt="Luxury cruise ship Caribbean vacation from New Orleans" 
                 className="rounded-2xl shadow-2xl shadow-amber-500/10 border border-amber-500/20"
                 whileHover={{ scale: 1.03 }}

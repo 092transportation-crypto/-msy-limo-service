@@ -125,7 +125,7 @@ const EventsPage = () => {
               className="hidden lg:block"
             >
               <motion.img 
-                src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=600&q=80" 
+                src="/images/stock/u-1492684223066.jpg" 
                 alt="Special events limo service New Orleans" 
                 className="rounded-2xl shadow-2xl shadow-amber-500/10 border border-amber-500/20"
                 whileHover={{ scale: 1.03 }}

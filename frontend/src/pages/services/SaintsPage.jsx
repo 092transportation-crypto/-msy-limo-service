@@ -155,7 +155,7 @@ const SaintsPage = () => {
               className="hidden lg:block"
             >
               <motion.img 
-                src="https://images.unsplash.com/photo-1706092647576-8c4ce0229954?auto=format&fit=crop&w=600&q=80" 
+                src="/images/stock/u-1706092647576.jpg" 
                 alt="New Orleans Saints game day limo transportation Superdome" 
                 className="rounded-2xl shadow-2xl shadow-amber-500/10 border border-amber-500/20"
                 whileHover={{ scale: 1.03 }}
@@ -267,7 +267,7 @@ const SaintsPage = () => {
               transition={{ duration: 0.6, delay: 0.2 }}
             >
               <motion.img 
-                src="https://images.unsplash.com/photo-1767584413129-2ad2941b7e46?auto=format&fit=crop&w=600&q=80" 
+                src="/images/stock/u-1767584413129.jpg" 
                 alt="Football stadium New Orleans Saints game transportation" 
                 className="rounded-2xl shadow-2xl shadow-amber-500/10 border border-amber-500/20"
                 whileHover={{ scale: 1.03 }}

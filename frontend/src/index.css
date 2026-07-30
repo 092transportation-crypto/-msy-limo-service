@@ -135,3 +135,43 @@ img {
 #emergent-badge {
   display: none !important;
 }
+
+/* ---------- Gold theme utilities (inquiry form) ---------- */
+
+.gold-gradient {
+  background: linear-gradient(135deg, #FCD34D 0%, #F59E0B 45%, #D97706 100%);
+}
+
+.tabnums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* iOS Safari: keep native date/time values left-aligned inside padded fields */
+input[type="date"]::-webkit-date-and-time-value,
+input[type="time"]::-webkit-date-and-time-value {
+  text-align: left;
+  margin: 0;
+}
+
+/* Recurring light sweep across gold CTAs */
+.btn-shimmer::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -150%;
+  width: 55%;
+  background: linear-gradient(115deg, transparent, rgba(255, 255, 255, 0.5), transparent);
+  transform: skewX(-20deg);
+  animation: shimmerSweep 2.8s ease-in-out infinite;
+  pointer-events: none;
+}
+@keyframes shimmerSweep {
+  0% { left: -150%; }
+  60% { left: 150%; }
+  100% { left: 150%; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .btn-shimmer::after { animation: none; }
+}
