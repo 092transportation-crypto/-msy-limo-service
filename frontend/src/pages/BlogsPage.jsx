@@ -444,7 +444,7 @@ const blogPosts = [
       <h3>Sprinter Vans</h3>
       <p><strong>Best for:</strong> Large groups, corporate teams, wine tours</p>
       <ul>
-        <li>Seats up to 14 passengers</li>
+        <li>Seats up to 13 passengers</li>
         <li>Executive seating configuration</li>
         <li>Great for team building events</li>
         <li>Cost-effective for groups</li>

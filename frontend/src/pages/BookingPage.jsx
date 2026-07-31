@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { motion } from "framer-motion";
+import { BadgeDollarSign } from "lucide-react";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import SEO from "@/components/SEO";
@@ -58,6 +59,29 @@ const BookingPage = () => {
       {/* Booking Form */}
       <section className="py-16 bg-gray-900">
         <div className="max-w-4xl mx-auto px-6 md:px-12">
+          {/* Flat-Rate Notice */}
+          <div
+            data-testid="rates-notice"
+            className="mb-8 overflow-hidden rounded-2xl border border-amber-500/40 bg-gradient-to-r from-amber-500/10 via-amber-500/5 to-amber-500/10"
+          >
+            <div className="h-1 w-full bg-gradient-to-r from-amber-500 to-amber-200" aria-hidden="true" />
+            <div className="flex flex-col items-center gap-4 px-6 py-6 text-center sm:flex-row sm:gap-5 sm:px-8 sm:text-left">
+              <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-amber-500 to-amber-200 shadow-lg shadow-amber-500/30">
+                <BadgeDollarSign className="h-6 w-6 text-black" aria-hidden="true" />
+              </div>
+              <div className="min-w-0">
+                <p className="text-base font-bold text-white md:text-lg">
+                  Flat-Rate Pricing — <span className="text-amber-400">No Surge, Ever</span>
+                </p>
+                <p className="mt-1 text-sm leading-relaxed text-white/70">
+                  Rates vary by vehicle and distance. Every quote is all-inclusive — tolls,
+                  taxes &amp; gratuity. Fill out the form below for your{" "}
+                  <span className="font-semibold text-amber-400">free instant quote</span>.
+                </p>
+              </div>
+            </div>
+          </div>
+
           <InquiryForm />
         </div>
       </section>

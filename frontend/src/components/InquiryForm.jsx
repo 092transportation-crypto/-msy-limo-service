@@ -36,11 +36,16 @@ const SERVICE_OPTIONS = [
   { value: "Hourly", icon: Clock },
 ];
 
+// The 8 fleet categories — kept in sync with the Fleet page and 92limo.com.
 const VEHICLE_OPTIONS = [
   { value: "Business Sedan", icon: Car },
-  { value: "First Class Sedan", icon: CarFront },
-  { value: "SUV", icon: CarFront },
-  { value: "Sprinter Van", icon: Bus },
+  { value: "First Class Sedan", icon: Car },
+  { value: "Midsize SUV", icon: CarFront },
+  { value: "Luxury SUV", icon: CarFront },
+  { value: "Premium SUV", icon: CarFront },
+  { value: "Sprinter Shuttle", icon: Bus },
+  { value: "Sprinter Executive", icon: Bus },
+  { value: "Sprinter Limo", icon: Bus },
 ];
 
 const HEAR_ABOUT_OPTIONS = [
