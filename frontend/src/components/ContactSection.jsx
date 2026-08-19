@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { Phone, Mail, MapPin, Send, Calendar, Clock, Car, User } from "lucide-react";
+import { Phone, Mail, MapPin, Send, Calendar, Clock, Car, User, Plane } from "lucide-react";
 import { toast } from "sonner";
 
 
@@ -21,6 +21,7 @@ const ContactSection = () => {
     email: "",
     phone: "",
     serviceType: "",
+    flightNumber: "",
     date: "",
     time: "",
     message: ""
@@ -40,12 +41,20 @@ const ContactSection = () => {
       const response = await fetch('/api/quote-requests', {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ ...formData, source: "Homepage contact section" })
+        body: JSON.stringify({
+          ...formData,
+          // Flight number only applies to airport transportation.
+          flightNumber:
+            formData.serviceType === "Airport Transportation"
+              ? formData.flightNumber.trim()
+              : "",
+          source: "Homepage contact section",
+        })
       });
       
       if (response.ok) {
         toast.success("Quote request sent! We'll contact you shortly.");
-        setFormData({ name: "", email: "", phone: "", serviceType: "", date: "", time: "", message: "" });
+        setFormData({ name: "", email: "", phone: "", serviceType: "", flightNumber: "", date: "", time: "", message: "" });
       } else {
         toast.error("Failed to send. Please call us directly.");
       }
@@ -232,6 +241,25 @@ const ContactSection = () => {
                   </div>
                 </div>
               </div>
+
+              {/* Flight number — airport transportation only */}
+              {formData.serviceType === "Airport Transportation" && (
+                <div>
+                  <label className="block text-white/70 text-sm mb-2">Flight Number (optional)</label>
+                  <div className="relative">
+                    <Plane className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-amber-500/50" />
+                    <input
+                      type="text"
+                      name="flightNumber"
+                      value={formData.flightNumber}
+                      onChange={handleChange}
+                      placeholder="e.g. AA1234"
+                      className="w-full pl-11 pr-4 py-3 bg-gray-900 border border-amber-500/20 rounded-xl text-white placeholder-white/30 focus:border-amber-500 focus:outline-none transition-colors"
+                      data-testid="input-flight-number"
+                    />
+                  </div>
+                </div>
+              )}
 
               {/* Date & Time */}
               <div className="grid md:grid-cols-2 gap-4">

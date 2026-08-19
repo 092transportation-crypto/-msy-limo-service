@@ -55,6 +55,7 @@ module.exports = async (req, res) => {
     email: field(body.email, 200),
     phone: field(body.phone, 40),
     serviceType: field(body.serviceType || body.service_type, 80) || 'General inquiry',
+    flightNumber: field(body.flightNumber || body.flight_number, 40),
     contactMethod: field(body.contactMethod || body.contact_method, 40),
     vehiclePreference: field(body.vehiclePreference || body.vehicle_preference, 80),
     hearAbout: field(body.hearAbout || body.hear_about, 120),
@@ -94,6 +95,7 @@ module.exports = async (req, res) => {
       ${row('Phone', inquiry.phone)}
       ${row('Preferred Contact', inquiry.contactMethod)}
       ${row('Service Type', inquiry.serviceType)}
+      ${inquiry.flightNumber ? row('Flight Number', inquiry.flightNumber) : ''}
       ${row('Vehicle Preference', inquiry.vehiclePreference)}
       ${row('Pickup Location', inquiry.pickupLocation)}
       ${row('Drop-off Location', inquiry.dropoffLocation)}
@@ -120,6 +122,7 @@ module.exports = async (req, res) => {
     `Phone:            ${inquiry.phone || '—'}`,
     `Preferred Contact:${inquiry.contactMethod || '—'}`,
     `Service Type:     ${inquiry.serviceType}`,
+    ...(inquiry.flightNumber ? [`Flight Number:    ${inquiry.flightNumber}`] : []),
     `Vehicle:          ${inquiry.vehiclePreference || '—'}`,
     `Pickup Location:  ${inquiry.pickupLocation || '—'}`,
     `Drop-off:         ${inquiry.dropoffLocation || '—'}`,
