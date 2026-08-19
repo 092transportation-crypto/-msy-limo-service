@@ -272,7 +272,7 @@ const RouteLandingPage = ({ slug }) => {
             className="text-2xl font-medium mb-8 text-amber-400"
             style={{ fontFamily: "'Playfair Display', serif" }}
           >
-            More MSY Airport Routes
+            Also Serving These MSY Routes
           </h2>
           <div className="flex flex-wrap gap-3">
             {otherRoutes.map((r) => (

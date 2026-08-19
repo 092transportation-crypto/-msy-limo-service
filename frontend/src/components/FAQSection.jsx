@@ -4,6 +4,11 @@ import { ChevronDown } from "lucide-react";
 
 export const faqData = [
   {
+    id: "faq-0",
+    question: "How far in advance should I book?",
+    answer: "Book by the night before at the latest — earlier for pre-dawn departures, festival weekends, Mardi Gras, and cruise embarkation days when vehicles sell out. Same-day requests are accommodated whenever a vehicle is available, and our line answers 24/7 at (877) 609-1919."
+  },
+  {
     id: "faq-1",
     question: "How do I book MSY airport car service?",
     answer: "Book online through our reservation system or call (877) 609-1919 — our dispatch desk answers 24/7. Provide your flight number and we handle the rest, including real-time flight tracking and complimentary wait time at Louis Armstrong International."
