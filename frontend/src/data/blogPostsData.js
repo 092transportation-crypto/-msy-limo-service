@@ -887,6 +887,344 @@ export const seoBlogPosts = [
       },
     ],
   },
+  {
+    slug: "msy-airport-tips-2026",
+    title: "10 Tips for a Stress-Free MSY New Orleans Airport Experience",
+    metaTitle: "10 Stress-Free MSY Airport Tips for 2026",
+    metaDescription:
+      "Ten practical tips for a smooth trip through New Orleans' MSY airport in 2026 — security timing, terminal layout, and smarter rides. (877) 609-1919.",
+    category: "Travel",
+    author: "MSY Limo Team",
+    date: "August 5, 2026",
+    readTime: "8 min read",
+    excerpt:
+      "MSY's modern terminal is one of the easiest in the South — if you know its rhythms. Ten field-tested tips covering security, festival-season crowds, weather, and the ride on both ends.",
+    image: "/images/stock/u-1449824913935.jpg",
+    content: `
+      <p>Louis Armstrong New Orleans International is a genuinely pleasant airport — the modern terminal that opened in 2019 replaced decades of cramped concourses with bright halls, good local food, and live music. But MSY has its own rhythms, shaped by festival season, afternoon thunderstorms, and a city that does everything in waves. These ten tips are what frequent New Orleans flyers actually do differently.</p>
+
+      <h2>1. Time Your Arrival Around the City's Calendar, Not Yours</h2>
+      <p>MSY's crowds don't follow normal business patterns — they follow the city's. The Sunday after Jazz Fest weekend, the Wednesday after Mardi Gras, the Monday after a Saints home stand or a major convention: these are the mornings when security lines double. If your departure lands on one of them, add 30 minutes to whatever you normally allow. On an ordinary day, 90 minutes to two hours before a domestic flight is comfortable; on a festival-exodus morning, two-plus hours is the honest number.</p>
+
+      <h2>2. Know the Terminal Layout</h2>
+      <p>Everything at MSY runs through one consolidated terminal with three concourses — A, B, and C — behind a shared security area. That is good news: no wrong-terminal disasters, and gates are a manageable walk. The practical tip is on the front end: check-in counters are grouped by airline along the departures hall, so knowing your airline's position means being dropped at the right door instead of hauling bags the length of the building.</p>
+
+      <h2>3. Respect the Afternoon Thunderstorm</h2>
+      <p>From late spring through summer, New Orleans builds an afternoon storm the way other cities build rush hour. Ramp closures for lightning pause ground operations, delays cascade into the evening banks, and I-10 turns hostile in heavy rain. Morning flights dodge most of this; if you must fly in the afternoon, pad the schedule and treat the forecast as part of the itinerary.</p>
+
+      <h2>4. Use PreCheck and the Quieter Hours</h2>
+      <p>TSA PreCheck at MSY routinely runs a fraction of the standard line, and midday Tuesday through Thursday is the airport at its calmest. If your schedule is flexible, those windows make the whole experience feel like a small regional airport with big-airport food.</p>
+
+      <h2>5. Eat on the Secure Side — Seriously</h2>
+      <p>MSY is one of the few airports where the food court is a destination: outposts of genuine local names mean your last meal in New Orleans doesn't have to be an airport compromise. Clear security first, then eat — the good options sit beyond the checkpoint, and a po-boy at the gate beats a granola bar in a security line.</p>
+
+      <h2>6. Plan the 15 Miles Between the City and the Airport</h2>
+      <p>MSY sits in Kenner, about 25 to 35 minutes west of downtown and the French Quarter on I-10 — longer at rush hour or in rain. There is no rail link, so everyone rides the highway. That makes the transportation decision matter more here than in cities with a train fallback: whatever you choose has to work on the day you fly, at the hour you fly.</p>
+
+      <h2>7. Run the Parking Math Before Defaulting to the Garage</h2>
+      <p>Driving yourself and parking at MSY works for quick trips, but the daily rates compound fast on a week away, the economy lots add shuttle time in both directions, and festival weekends fill the garages early. For any trip past a few days, a flat-rate car both ways frequently costs about the same as parking — without the dawn shuttle wait or the return-day hike to remember where you left the car. Run the numbers once for your typical trip; most travelers are surprised which way they land.</p>
+
+      <h2>8. Skip the Rideshare Lot Shuffle on Arrival</h2>
+      <p>App-based pickups at MSY happen in a designated area that means a walk with your luggage in Louisiana humidity, then a plate-matching exercise among idling cars. A reserved car service meets you at the curb — or inside baggage claim with a name sign if you book meet-and-greet — with the vehicle positioned before you land. After a long travel day, the difference is not subtle.</p>
+
+      <h2>9. Book Early-Morning Rides the Night Before</h2>
+      <p>The first departure bank leaves MSY around 5 to 6 a.m., which means 4-something pickups from downtown hotels — exactly when rideshare driver supply is thinnest and cancellations hurt most. A pre-arranged chauffeur is committed to your pickup the night before at a flat rate. It is the single most reliable upgrade an early flyer can make.</p>
+
+      <h2>10. Let Flight Tracking Do the Worrying</h2>
+      <p>Delays are part of flying; absorbing them shouldn't be your job. A professional car service tracks your inbound flight and adjusts the pickup automatically — at MSY Limo Service that includes complimentary wait time on every airport arrival — so a two-hour delay changes nothing about your ride except the clock.</p>
+
+      <h2>The Bonus Tip: Make the Ground Legs Someone Else's Problem</h2>
+      <p>Every tip above gets easier when the drive is handled: no parking-garage math, no lot shuffle, no 4:30 a.m. app roulette. That is exactly what we do — flat rates, flight tracking, professional chauffeurs, and a car that is already there. Reserve online in about a minute or call <a href="tel:+18776091919">(877) 609-1919</a>, 24/7, and make MSY the easiest part of the trip.</p>
+    `,
+    faqs: [
+      {
+        q: "How early should I arrive at MSY in 2026?",
+        a: "Ninety minutes to two hours before domestic flights on normal days, and two-plus hours on festival-exodus mornings — the days after Mardi Gras, Jazz Fest, Essence Fest, and major conventions, when security lines run longest.",
+      },
+      {
+        q: "How far is MSY from downtown New Orleans and the French Quarter?",
+        a: "About 15 miles west in Kenner — typically 25 to 35 minutes on I-10, longer in rush hour or heavy rain. There is no rail link, so plan your ride in advance rather than improvising at the curb.",
+      },
+      {
+        q: "Where do rideshare pickups happen at MSY?",
+        a: "In a designated pickup area that requires a walk from baggage claim. A reserved car service meets you at the arrivals curb, or inside baggage claim with a name sign when you book meet-and-greet service.",
+      },
+      {
+        q: "What is the best time of day to fly out of MSY?",
+        a: "Morning. Summer afternoons regularly build thunderstorms that pause ramp operations and cascade delays into the evening. Early flights dodge both the weather and the worst security crowds.",
+      },
+    ],
+  },
+  {
+    slug: "new-orleans-transportation-guide",
+    title: "Complete Transportation Guide for New Orleans Visitors",
+    metaTitle: "New Orleans Transportation Guide for Visitors",
+    metaDescription:
+      "How to get around New Orleans — streetcars, walking, rideshare, ferries, and when a private car makes sense, from MSY to your hotel. (877) 609-1919.",
+    category: "Travel",
+    author: "MSY Limo Team",
+    date: "August 8, 2026",
+    readTime: "9 min read",
+    excerpt:
+      "New Orleans rewards travelers who match the ride to the trip — streetcar for the charm, feet for the Quarter, and a private car for the moments that matter. The complete visitor's guide.",
+    image: "/images/stock/u-1492684223066.jpg",
+    content: `
+      <p>New Orleans is a city best experienced at street level — but getting between those streets takes a little local knowledge. The transportation network here is charming, quirky, and uneven: world-famous streetcars that are slower than walking pace, a compact core you can cross on foot, and a highway-only airport connection. This guide matches each way of getting around to the trips it actually serves well.</p>
+
+      <h2>Start With Your Feet: The Walkable Core</h2>
+      <p>The French Quarter is barely a mile across, and walking is genuinely the best way to see it — no vehicle can match wandering Royal Street at your own pace. The adjacent Marigny, the Warehouse District, and the riverfront are all comfortably walkable too. The honest caveats: summer heat is serious business, distances deceive once you leave the core, and after a long evening on Frenchmen Street, a ride home beats a long walk every time.</p>
+
+      <h2>The Streetcars: Ride Them for the Experience</h2>
+      <p>The St. Charles line — the oldest continuously operating streetcar in the world — rolls past the mansions and oaks of the Garden District and is an attraction in its own right. The Canal Street and Riverfront lines cover downtown and the river's edge. Fares are inexpensive and day passes make hopping on and off easy. Treat streetcars as sightseeing that happens to move you: they are wonderful and unhurried, which is a polite way of saying slow. Ride them when the journey is the point, not when you have a reservation.</p>
+
+      <h2>Buses and the Algiers Ferry</h2>
+      <p>The RTA bus network fills the gaps between streetcar lines and reaches neighborhoods visitors rarely see. The Canal Street ferry to Algiers Point is a two-dollar river crossing with the best skyline view in the city — a genuine local secret. Both are useful supplements; neither is a schedule-keeping backbone.</p>
+
+      <h2>Rideshare and Taxis: The Middle of the Menu</h2>
+      <p>Uber, Lyft, and the city's taxis cover the everyday middle ground well — cross-town hops, rainy-night returns, dinner in Mid-City. The weak spots are predictable: surge pricing during festivals and conventions, thin driver supply late at night and at dawn, and event-weekend pickup chaos in the Quarter, where street closures can put your driver three blocks and twenty minutes away.</p>
+
+      <h2>Where a Private Car Service Fits</h2>
+      <p>A chauffeured car is not how you cross the Quarter — it is how you handle the trips where failure is expensive. The airport transfer, first and foremost: MSY sits 15 highway miles west with no rail option, and a flat-rate, flight-tracked pickup turns the most stressful leg of the trip into the easiest. Beyond that: early-morning departures, group dinners where six people should arrive together, plantation and swamp-tour days outside the city, cruise terminal transfers with a week of luggage, and any evening where the plan involves not driving. One flat rate, a professional chauffeur, and a vehicle sized to the group — sedan, Escalade, or Sprinter van.</p>
+
+      <h2>Match the Ride to the Trip: A Cheat Sheet</h2>
+      <ul>
+        <li><strong>Exploring the Quarter and Marigny:</strong> walk — nothing else compares.</li>
+        <li><strong>Garden District afternoon:</strong> St. Charles streetcar out, rideshare back.</li>
+        <li><strong>Cross-town dinner reservation:</strong> rideshare or taxi, with buffer on event nights.</li>
+        <li><strong>Airport, both directions:</strong> pre-booked flat-rate car service.</li>
+        <li><strong>Festival weekends:</strong> feet plus streetcar plus a pre-arranged car for the bookends.</li>
+        <li><strong>Group nights, cruise transfers, day trips:</strong> one right-sized chauffeured vehicle.</li>
+      </ul>
+
+      <h2>Pedicabs, Bikes, and the Last Half Mile</h2>
+      <p>Two smaller players round out the menu. Pedicabs work the Quarter and the Warehouse District and are genuinely useful for the last half mile — after dinner, between venues, when feet are done for the night — priced per block and worth it for the ride itself. The city's bike-share and rental options shine on the flat, scenic stretches: the riverfront path, Esplanade toward City Park, the Lafitte Greenway. Ride in the morning before the heat builds, use the marked lanes, and treat the Quarter's cobblestones and crowds as a dismount zone. Neither replaces a real ride across town, but both make the in-between distances more fun than any car could.</p>
+
+      <h2>The Festival-Season Asterisk</h2>
+      <p>Every rule above bends during Mardi Gras, Jazz Fest, Essence, and French Quarter Fest. Streets close, rideshare surges triple, and the streetcars pack like parade floats. The visitors who move well during festivals are the ones who booked their fixed rides — airport transfers especially — days or weeks ahead, and kept everything else on foot.</p>
+
+      <h2>Arrive Like You've Been Here Before</h2>
+      <p>One last local truth: New Orleans runs on its own clock, and the best visits accept it. Build slack into every plan, expect the streetcar to take the scenic amount of time, and save the precision for the two trips that actually demand it — the airport runs. Get the airport legs and the big-night rides locked in advance, then let New Orleans set the pace for everything in between. For the pre-booked half of that equation, we're the local answer: flat rates from MSY to every neighborhood, flight tracking, and chauffeurs who know the city's closures before the barricades go up. Book online or call <a href="tel:+18776091919">(877) 609-1919</a>, 24/7.</p>
+    `,
+    faqs: [
+      {
+        q: "Do I need a rental car to visit New Orleans?",
+        a: "For most visitors, no. The core neighborhoods are walkable, streetcars and rideshare cover the middle distances, and parking downtown is scarce and expensive. Rent a car only for multi-stop day trips outside the city — or book a chauffeured car and skip the driving entirely.",
+      },
+      {
+        q: "Are the streetcars a practical way to get around?",
+        a: "They are wonderful and slow. Ride the St. Charles line for the Garden District experience and use day passes freely, but do not depend on streetcars when you have a reservation or a schedule.",
+      },
+      {
+        q: "What is the best way to get from MSY airport to my hotel?",
+        a: "A pre-booked flat-rate car service is the most reliable option — MSY has no rail link, and rideshare surges during the festivals and conventions that fill the city. A flight-tracked chauffeur meets you at the curb at one confirmed price.",
+      },
+      {
+        q: "How do visitors get around during festival weekends?",
+        a: "Feet and streetcars for the celebration itself, plus pre-arranged cars for the fixed points — airport transfers and any trip with a deadline. Rideshare surge and street closures make improvised rides the weak link during Mardi Gras and Jazz Fest.",
+      },
+    ],
+  },
+  {
+    slug: "msy-to-french-quarter-guide",
+    title: "Best Way to Get from MSY Airport to the French Quarter",
+    metaTitle: "MSY to French Quarter: Best Way to Get There",
+    metaDescription:
+      "Every way from MSY airport to the French Quarter compared — shuttle, taxi, rideshare, and flat-rate car service — with honest times and costs. (877) 609-1919.",
+    category: "Airport",
+    author: "MSY Limo Team",
+    date: "August 11, 2026",
+    readTime: "8 min read",
+    excerpt:
+      "Fifteen highway miles separate your gate from your first beignet. Every option for the MSY-to-French-Quarter run, compared honestly — and how to time it right.",
+    image: "/images/stock/u-1519741497674.jpg",
+    content: `
+      <p>The trip from Louis Armstrong International to the French Quarter is the classic New Orleans arrival: about 15 miles east on I-10, then an exit into a neighborhood that predates the highway by two centuries. On a clear midday run it takes 25 minutes; at rush hour, in rain, or on a festival Friday it can stretch well past 45. Here is every way to make the trip, compared honestly.</p>
+
+      <h2>The Options on the Board</h2>
+      <p>With no train between the airport and the city, everyone rides the road. The realistic menu: the shared-ride airport shuttle, the city's taxis with their published airport fares, rideshare apps, and a pre-booked private car service. Public buses technically make the trip, but with transfers and travel time that only make sense for the most budget-bound, luggage-free travelers.</p>
+
+      <h2>The Shared Shuttle: Cheap, but You Ride the Whole Route</h2>
+      <p>The airport shuttle sells seats per person and delivers passengers hotel by hotel, which means your arrival time depends on where you fall in the drop-off order — first stop is fine, seventh is a slow tour of downtown with luggage on your lap. For solo travelers on loose schedules, it is economical. For couples, the per-person math quickly approaches a private ride that leaves when you do.</p>
+
+      <h2>Taxis: The Reliable Baseline</h2>
+      <p>New Orleans taxis run published airport fares to the Quarter, which insulates you from surge pricing, and the line at the airport moves steadily. The trade-offs are the ones taxis carry everywhere: vehicle condition is a lottery, larger groups need multiple cars, and nobody is tracking your flight if you land two hours late at midnight.</p>
+
+      <h2>Rideshare: Great Tuesday, Rough Saturday</h2>
+      <p>Off-peak, Uber and Lyft are the convenient middle option — modest fares and quick matches. The French Quarter run exposes their weak points on exactly the days you are most likely to travel: convention and festival arrivals trigger surge that can double or triple the fare, the pickup means a walk to the designated area, and drop-offs get complicated when event closures seal the Quarter's edges. You find out the real price and the real route when you are already standing in the humidity.</p>
+
+      <h2>Private Car Service: The Fixed Point</h2>
+      <p>A pre-booked chauffeur inverts the variables. The rate is flat and confirmed at booking — the same number on a quiet Tuesday and a Jazz Fest Friday, tolls and tip math included up front. The chauffeur tracks your flight, positions before you land, and meets you at the curb or inside baggage claim with a name sign. Quarter drop-offs get local judgment: which hotel entrances are reachable during closures, which corner beats the barricade by half a block. For couples, families, and anyone arriving with a schedule, it is the option engineered for the days the other options wobble. Our <a href="/msy-to-french-quarter">MSY to French Quarter route page</a> covers the corridor in detail.</p>
+
+      <h2>What About Renting a Car?</h2>
+      <p>For a French Quarter trip, a rental is usually the wrong tool. You pay for the car all week while it sits in a hotel garage at steep nightly rates, street parking in and around the Quarter is scarce and enforcement is enthusiastic, and everything you came for is walkable once you arrive. The rental earns its keep only when your itinerary leaves the city — plantation country, the Gulf Coast, a swamp tour you're driving to yourself. Even then, many visitors find a chauffeured day trip simpler: someone else drives, nobody hunts parking, and the vehicle is exactly as large as the group needs.</p>
+
+      <h2>Timing the Run</h2>
+      <p>Whatever you ride, the corridor has moods. Weekday afternoons from 3:30 to 6:30 clog the I-10 approach downtown; summer thunderstorms slow everything; and festival weekends add closure detours on the Quarter's edge. Landing midday or mid-evening usually means the easy 25-minute version. Build the extra half hour into rush-hour and event-day plans — or hand the problem to a driver who manages this corridor for a living.</p>
+
+      <h2>The Verdict by Traveler</h2>
+      <ul>
+        <li><strong>Solo, tight budget, loose schedule:</strong> the shuttle earns its fare.</li>
+        <li><strong>Spontaneous off-peak arrival:</strong> taxi or rideshare serves fine.</li>
+        <li><strong>Couples and families with luggage:</strong> a flat-rate private car — the per-person gap nearly vanishes and the drama fully does.</li>
+        <li><strong>Groups of four-plus:</strong> one Escalade or Sprinter beats coordinating multiple cars, every time.</li>
+        <li><strong>Festival and convention arrivals:</strong> pre-booked car service, no contest — flat rates ignore surge.</li>
+      </ul>
+
+      <h2>Start the Trip at Baggage Claim</h2>
+      <p>A final note on the return leg: the same comparison applies in reverse, with one twist — Quarter pickups on busy weekends can mean your rideshare is idling three blocks away behind a closure while your flight clock runs. A scheduled car with a confirmed pickup point and time removes the guesswork on the day it matters most. Book both directions together and the whole visit is bracketed by rides that simply happen.</p>
+      <p>The best New Orleans arrivals begin with someone already waiting. We run the MSY-to-Quarter corridor daily with flat rates, flight tracking, complimentary wait time, and chauffeurs who know which barricade moved this morning. Book online in about a minute or call <a href="tel:+18776091919">(877) 609-1919</a> — and go straight from the gate to the good part.</p>
+    `,
+    faqs: [
+      {
+        q: "How long does it take to get from MSY to the French Quarter?",
+        a: "About 25 to 35 minutes in normal traffic on I-10, stretching to 45-plus during weekday rush hours, heavy rain, or festival weekends. Midday and mid-evening arrivals usually get the easy version of the trip.",
+      },
+      {
+        q: "Is there a train or streetcar from MSY to the French Quarter?",
+        a: "No. The streetcar network does not reach the airport, so every option rides the highway — shuttle, taxi, rideshare, or private car service.",
+      },
+      {
+        q: "What is the cheapest way from MSY to the French Quarter?",
+        a: "The shared-ride shuttle for solo travelers, though hotel-by-hotel drop-offs make it the slowest door-to-door option. For two or more people, a flat-rate private car narrows the per-person gap dramatically while eliminating the wait.",
+      },
+      {
+        q: "Why book a car service instead of Uber for a French Quarter arrival?",
+        a: "Flat pricing that ignores festival and convention surge, a chauffeur who tracks your flight and waits through delays, curbside or in-terminal pickup, and local judgment on Quarter street closures at drop-off. Call (877) 609-1919 for an exact quote.",
+      },
+    ],
+  },
+  {
+    slug: "mardi-gras-transportation-guide",
+    title: "Mardi Gras Transportation Guide: Getting Around New Orleans During Carnival",
+    metaTitle: "Mardi Gras Transportation Guide (New Orleans)",
+    metaDescription:
+      "Getting around New Orleans during Mardi Gras — parade closures, airport arrivals, hotel access, and why pre-booked cars win Carnival. (877) 609-1919.",
+    category: "Events",
+    author: "MSY Limo Team",
+    date: "August 14, 2026",
+    readTime: "9 min read",
+    excerpt:
+      "Mardi Gras redraws the city's map daily — parade routes close, the Quarter seals, and rideshare surges triple. How locals and smart visitors actually move during Carnival.",
+    image: "/images/stock/u-1514525253161.jpg",
+    content: `
+      <p>Mardi Gras is the best time to be in New Orleans and the hardest time to move through it. For the final two weeks of Carnival, parade routes close major corridors for hours at a stretch, the French Quarter effectively seals to vehicles, and a million extra people compete for every ride in town. The visitors who enjoy it most are the ones who understand one thing early: during Carnival, transportation is something you plan, not something you summon.</p>
+
+      <h2>How the City Actually Closes</h2>
+      <p>The Uptown parade route along St. Charles Avenue and Canal Street shuts down hours before each parade rolls and stays closed until cleanup passes — which, on the big weekends, means the city's main artery is a pedestrian mall from afternoon until late night, day after day. Cross-town trips that take 15 minutes in January take 45 or simply become impossible. The Quarter, meanwhile, closes to traffic in practice: barricades, crowds, and police lines make driving in a non-option from the weekend before Fat Tuesday onward.</p>
+
+      <h2>The Golden Rule: Position Yourself, Then Walk</h2>
+      <p>Locals treat parade days like weather: you don't fight the route, you position around it. Get to the right side of St. Charles before closures start, plan your day's meals and bathrooms on the side you're standing on, and accept that crossing the route mid-parade is a fantasy. Feet are the only vehicle that works everywhere during Carnival — comfortable shoes are transportation equipment.</p>
+
+      <h2>What Happens to Rideshare</h2>
+      <p>Rideshare still runs during Mardi Gras — at Carnival prices, from Carnival distances. Surge multipliers on parade nights are the steepest of the year, pickup points get pushed blocks away from wherever you actually are, and drivers cancel when they see a destination inside the closure map. It remains usable for daytime trips away from the routes; as an after-parade exit strategy, it is the most expensive disappointment in town.</p>
+
+      <h2>Streetcars and Buses: Partial Credit</h2>
+      <p>The St. Charles streetcar suspends along the parade route for much of the season, and buses detour constantly. The Canal and Riverfront lines help around the edges when they're running. Treat transit as a bonus when it appears, never as the plan.</p>
+
+      <h2>The Airport Runs: Book Them Like Flights</h2>
+      <p>MSY during Carnival is the airport at full throttle — the Friday and Saturday before Fat Tuesday and Ash Wednesday's exodus are among its busiest days of the year. This is the leg where pre-booking pays most: a flat-rate chauffeur with your flight number rides out delays automatically, meets you at the curb, and — critically — knows which approach to your hotel still exists that day. Booking the airport transfer at the same time you book the hotel is the move; Carnival-week capacity sells out, and improvising an MSY pickup on parade day is genuinely grim. The same goes double for the departure: hotels inside the closure box can require creative pickup points, and a local chauffeur plans that with you the night before.</p>
+
+      <h2>Group Nights, Balls, and the Long Way Around</h2>
+      <p>Carnival's calendar is more than parades — balls, dinners, and family gatherings send dressed-up groups across town all season. One pre-booked Escalade or Sprinter with a chauffeur who reroutes around the day's closures beats six people in costumes negotiating three surging rideshares from a barricaded corner. For parade-night pickups, professionals arrange a fixed rendezvous point outside the box in advance — the difference between a smooth exit and an hour of walking.</p>
+
+      <h2>Where You Stay Shapes How You Move</h2>
+      <p>Transportation strategy starts at hotel booking. Stay along or near the parade route — St. Charles, the CBD, Canal — and Carnival comes to your doorstep, with the trade-off that arriving and departing by car during parade hours takes planning. Stay in the Quarter and you're walking distance from the season's heart but effectively car-free for the final week; plan pickups from the Quarter's lakeside or downriver edges. Stay farther out — Mid-City, Metairie — and you'll ride in daily, which is comfortable on parade-free mornings and demands the pre-positioning rule on parade days. There is no wrong answer, only a different transportation plan for each — and it's far easier to build that plan before you arrive than at a barricade.</p>
+
+      <h2>The Carnival Transportation Checklist</h2>
+      <ul>
+        <li><strong>Book airport transfers when you book the hotel</strong> — both directions, flight numbers attached.</li>
+        <li><strong>Check each day's parade schedule</strong> and position before closures, not after.</li>
+        <li><strong>Keep everything near the routes on foot</strong> — shoes are your real ride.</li>
+        <li><strong>Pre-arrange fixed pickup points</strong> outside closure zones for evening plans.</li>
+        <li><strong>Give every trip double time</strong> — Carnival traffic laughs at estimates.</li>
+      </ul>
+
+      <h2>Let the Good Times Roll — With a Ride Waiting</h2>
+      <p>Mardi Gras rewards the prepared. We drive every Carnival — airport transfers that ignore surge, parade-night group runs, and chauffeurs who know the closure map because they lived it yesterday. Reserve your Carnival dates early online or call <a href="tel:+18776091919">(877) 609-1919</a>, and spend the season catching throws instead of chasing rides.</p>
+    `,
+    faqs: [
+      {
+        q: "Can you drive in the French Quarter during Mardi Gras?",
+        a: "Effectively no. Barricades, police lines, and crowds close the Quarter to practical vehicle access from the final weekend of Carnival through Fat Tuesday. Plan on walking within the Quarter and arranging pickups at its edges.",
+      },
+      {
+        q: "How far in advance should I book airport transportation for Mardi Gras?",
+        a: "When you book your hotel — weeks ahead at minimum. Carnival week is among MSY's busiest of the year, and pre-booked car service capacity sells out. Attach your flight numbers so tracking handles the inevitable delays.",
+      },
+      {
+        q: "Does Uber work during Mardi Gras parades?",
+        a: "It runs, but with the year's steepest surge pricing, pickup points pushed far from the routes, and frequent cancellations for destinations inside closure zones. It serves daytime trips away from parades; for parade nights, pre-arranged cars with fixed rendezvous points work far better.",
+      },
+      {
+        q: "How do groups get to Carnival balls and dinners during closures?",
+        a: "One pre-booked SUV or Sprinter van with a chauffeur who plans around that day's parade map — including a confirmed pickup point outside the closure box for the return. Call (877) 609-1919 with your event date and we'll build the route.",
+      },
+    ],
+  },
+  {
+    slug: "msy-to-cruise-port-guide",
+    title: "MSY Airport to the New Orleans Cruise Port: The Complete Transfer Guide",
+    metaTitle: "MSY to New Orleans Cruise Port: Ride Guide",
+    metaDescription:
+      "From MSY airport to the Port of New Orleans cruise terminals — timing, luggage, groups, and the smartest embarkation-day transfers. (877) 609-1919.",
+    category: "Travel",
+    author: "MSY Limo Team",
+    date: "August 17, 2026",
+    readTime: "8 min read",
+    excerpt:
+      "Embarkation day runs on a deadline the ship enforces. How to get from MSY to the cruise terminals — luggage, timing, groups, and the return trip — without cutting it close.",
+    image: "/images/stock/u-1580974852861.jpg",
+    content: `
+      <p>New Orleans is one of the country's great cruise home ports — ships depart year-round for the Caribbean from terminals right on the downtown riverfront. That geography is a gift: the port sits about 16 miles from MSY, minutes from the French Quarter, close enough to build a vacation around. But embarkation day runs on a deadline that the ship, not you, enforces. Here is how to handle the transfer properly in both directions.</p>
+
+      <h2>Where the Ships Actually Leave From</h2>
+      <p>The Port of New Orleans cruise terminals sit along the Mississippi at the foot of the Warehouse District, near the Convention Center — the Erato Street and Julia Street terminals handle the major lines. From MSY that is a 25-to-40-minute drive on I-10 depending on the hour, ending in a port-entrance approach that stacks up with taxis, rideshares, and shuttle buses precisely at midday, when every ship loads at once.</p>
+
+      <h2>The Embarkation-Day Math</h2>
+      <p>Boarding windows typically run from late morning to mid-afternoon, and the ship sails with or without you. Working backward: if final boarding is 3:00, you want to be at the terminal by 1:30, which means leaving the airport by 12:45 at the latest — with slack for I-10's moods. Flying in the morning of the cruise is doable with an early flight and a pre-booked transfer; flying in the day before, enjoying an evening in the Quarter, and making a ten-minute hop to the port the next morning is the veteran move.</p>
+
+      <h2>The Luggage Reality</h2>
+      <p>Cruise travel is the heaviest-luggage travel there is — a family of four rolling a week of formal nights and beach days does not fit in a sedan, let alone a surge-priced compact. This is the trip to size the vehicle honestly: an Escalade swallows a couple's worth of cruise luggage, and a Sprinter van handles a family or two couples traveling together, with everyone and every bag in one vehicle. At the terminal, porters take checked bags at the curb — so a drop-off directly at your terminal's entrance, rather than a walk from a distant pickup zone, saves real effort at the exact moment you have the most to carry.</p>
+
+      <h2>Your Options, Honestly Ranked</h2>
+      <ul>
+        <li><strong>Cruise-line shuttles:</strong> dependable but rigid — you wait for the bus to fill, ride the route, and pay per person, which adds up fast for families.</li>
+        <li><strong>Taxis:</strong> a workable baseline with published airport fares, limited by trunk space and group size.</li>
+        <li><strong>Rideshare:</strong> fine for a light-packing couple off-peak; risky at midday embarkation crunch, when demand spikes and big-luggage trips get cancelled.</li>
+        <li><strong>Pre-booked private car:</strong> flat rate, flight tracking, a vehicle sized to your luggage, and a drop at your terminal door — the option built for a day with a deadline.</li>
+      </ul>
+
+      <h2>The Return Trip: Disembarkation Without Drama</h2>
+      <p>Coming home is its own puzzle: ships clear customs in the morning, but your actual walk-off time depends on luggage tags, customs flow, and the ship's schedule — it can float by an hour or more. A pre-arranged pickup with a company that monitors ship arrivals absorbs that uncertainty the way flight tracking absorbs airline delays: you text when you're through the terminal doors, and the car comes to you rather than the reverse. For post-cruise flights out of MSY, book nothing before midday — late morning disembarkation plus the drive makes early departures a gamble no one should take.</p>
+
+      <h2>Driving Yourself? The Port Parking Math</h2>
+      <p>Regional cruisers sometimes drive in and park at the port for the week, and the terminals do offer secured parking — at nightly rates that multiply across a seven-day sailing. Add the pre-cruise drive, the garage queue at midday embarkation, and the post-cruise crawl out of the district with every other returning passenger, and the math tightens considerably. For travelers within an hour or two of the city, door-to-door car service both ways often lands within striking distance of a week of port parking — with no garage, no queue, and the vacation starting in the back seat. Farther out, flying into MSY plus a flat-rate transfer beats the long drive entirely.</p>
+
+      <h2>Make It a New Orleans Bookend</h2>
+      <p>The smartest cruise itineraries treat the city as part of the vacation: arrive a day early, let us run you from MSY to a Quarter hotel, spend the evening on gumbo and live music, and take the short ride to the port rested the next morning. On the return, a late-afternoon flight leaves room for one last beignet run — with the luggage riding in the car, not at your feet.</p>
+
+      <h2>Book the Transfer Like It Matters — Because It Does</h2>
+      <p>We run airport-to-port and port-to-airport transfers for every sailing season — flat rates, flight and ship monitoring, terminal-door drop-offs, and Sprinters for the groups and the luggage. Reserve online or call <a href="tel:+18776091919">(877) 609-1919</a>, and start the cruise at the curb instead of the check-in line.</p>
+    `,
+    faqs: [
+      {
+        q: "How far is MSY airport from the New Orleans cruise terminals?",
+        a: "About 16 miles — a 25-to-40-minute drive on I-10 to the Erato Street and Julia Street terminals on the downtown riverfront, depending on traffic. Midday embarkation hours are the busiest at the port entrance.",
+      },
+      {
+        q: "Can I fly into MSY the same day my cruise leaves?",
+        a: "It's possible with an early flight and a pre-booked transfer, but arriving the day before is far safer — and turns the cruise into a New Orleans vacation with a ten-minute ride to the port the next morning.",
+      },
+      {
+        q: "What vehicle do we need for cruise luggage?",
+        a: "Size honestly: an Escalade handles a couple's cruise luggage comfortably, and a Sprinter van fits a family or two couples with every bag in one vehicle. Porters take checked bags at the terminal curb, so a door drop-off saves the heaviest carrying.",
+      },
+      {
+        q: "How does the pickup work after my cruise returns?",
+        a: "We monitor your ship's arrival and stage nearby; you confirm when you clear the terminal and the car comes to the curb. For flights home from MSY, book midday or later — morning disembarkation times can float by an hour or more.",
+      },
+    ],
+  },
 ];
 
 export const getSeoBlogPostBySlug = (slug) =>
