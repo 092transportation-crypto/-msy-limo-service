@@ -5,6 +5,7 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import SEO from "@/components/SEO";
 import InquiryForm from "@/components/InquiryForm";
+import QuoteCalculator from "@/components/QuoteCalculator";
 
 const BookingPage = () => {
   useEffect(() => {
@@ -81,6 +82,9 @@ const BookingPage = () => {
               </div>
             </div>
           </div>
+
+          {/* Instant quote calculator — above the inquiry form, both coexist */}
+          <QuoteCalculator />
 
           <InquiryForm />
         </div>
