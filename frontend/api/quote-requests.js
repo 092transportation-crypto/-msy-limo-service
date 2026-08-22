@@ -8,6 +8,7 @@
 
 const nodemailer = require('nodemailer');
 const crypto = require('crypto');
+const { computeQuote } = require('./_pricing.js');
 
 const escapeHtml = (v) =>
   String(v ?? '')
@@ -23,6 +24,79 @@ const isValidEmail = (v = '') => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v);
 // Masks an email for logs: "ab***@domain.com"
 const maskEmail = (addr = '') =>
   addr.replace(/^([^@]{0,2})[^@]*(@.*)$/, '$1***$2') || '(empty)';
+
+const usd = (v) => `$${Number(v || 0).toFixed(2)}`;
+const CUSTOM_QUOTE_TEXT = 'Custom quote requested — no instant price calculated';
+
+/**
+ * Normalize the instant-quote pricing the form submits so the notification
+ * email can show the fare breakdown. When the client says an instant price
+ * was shown, the fare is RECOMPUTED here from miles + vehicle (same bracket
+ * math as the Stripe endpoint) so the email always reflects our rate table.
+ *
+ *   { mode: 'instant', vehicle, vehicle_label, miles, base_fare, discount,
+ *     surcharge, short_notice, card_fee, total, paid, payment_intent }
+ *   { mode: 'custom', reason }   // Hourly / Wedding / Special Event, no
+ *                                 // vehicle, over 150 miles, no distance …
+ */
+function normalizePricing(raw) {
+  if (!raw || typeof raw !== 'object') {
+    return { mode: 'custom', reason: 'No pricing data submitted' };
+  }
+  if (raw.mode !== 'instant') {
+    return { mode: 'custom', reason: field(raw.reason, 200) || 'Custom quote' };
+  }
+  const miles = Number(raw.miles);
+  const vehicle = field(raw.vehicle, 40);
+  // The surcharge the customer saw is the source of truth for short notice.
+  const shortNotice = Boolean(raw.short_notice) || Number(raw.surcharge) > 0;
+  const q = computeQuote(miles, vehicle, shortNotice);
+  if (!q) return { mode: 'custom', reason: 'Vehicle has no instant pricing' };
+  if (q.overLimit) {
+    return { mode: 'custom', reason: `Trip is ${q.miles} miles (over the 150-mile instant-quote limit)` };
+  }
+  return {
+    mode: 'instant',
+    vehicle,
+    vehicle_label: field(raw.vehicle_label, 60) || vehicle,
+    miles: q.miles,
+    base_fare: q.baseFare,
+    discount: q.discount,
+    surcharge: q.surcharge,
+    short_notice: shortNotice,
+    card_fee: q.cardFee,
+    total: q.total,
+    paid: Boolean(raw.paid),
+    payment_intent: field(raw.payment_intent, 80),
+  };
+}
+
+/** [label, value] rows for the pricing section of the email. */
+function pricingRows(p) {
+  if (p.mode !== 'instant') {
+    return [['Pricing', `${CUSTOM_QUOTE_TEXT}${p.reason ? ` (${p.reason})` : ''}`]];
+  }
+  return [
+    ['Vehicle', p.vehicle_label],
+    ['Distance', `${p.miles} miles`],
+    ['Base fare', usd(p.base_fare)],
+    ['Discount (10%)', `-${usd(p.discount)}`],
+    ...(p.surcharge > 0 ? [['Short-notice surcharge (20%)', `+${usd(p.surcharge)}`]] : []),
+    ['Card fee (3%)', `+${usd(p.card_fee)}`],
+    ['TOTAL', usd(p.total)],
+    [
+      'Payment',
+      p.paid
+        ? `Paid online via Stripe${p.payment_intent ? ` (${p.payment_intent})` : ''}`
+        : 'Not paid online — instant quote only',
+    ],
+  ];
+}
+
+function pricingSubjectSuffix(p) {
+  if (p.mode !== 'instant') return 'Custom quote';
+  return `${usd(p.total)}${p.paid ? ' PAID' : ''}`;
+}
 
 module.exports = async (req, res) => {
   if (req.method !== 'POST') {
@@ -76,11 +150,15 @@ module.exports = async (req, res) => {
     });
   }
 
+  // Instant-quote pricing shown to the customer on the form (or the reason
+  // no instant price was calculated).
+  const pricing = normalizePricing(body.pricing);
+
   const id = crypto.randomUUID();
   const createdAt = new Date().toISOString();
 
   const row = (label, value) =>
-    `<tr><td style="padding:8px 12px;background:#f7f7f7;font-weight:bold;color:#333;width:170px;">${label}</td><td style="padding:8px 12px;color:#111;">${escapeHtml(value).replace(/\n/g, '<br>') || '&mdash;'}</td></tr>`;
+    `<tr><td style="padding:8px 12px;background:#f7f7f7;font-weight:bold;color:#333;width:170px;">${label}</td><td style="padding:8px 12px;color:#111;${label === 'TOTAL' ? 'font-weight:bold;font-size:16px;' : ''}">${escapeHtml(value).replace(/\n/g, '<br>') || '&mdash;'}</td></tr>`;
 
   const html = `<!doctype html>
 <html><body style="font-family:Arial,sans-serif;margin:0;padding:24px;background:#000;">
@@ -96,12 +174,13 @@ module.exports = async (req, res) => {
       ${row('Preferred Contact', inquiry.contactMethod)}
       ${row('Service Type', inquiry.serviceType)}
       ${inquiry.flightNumber ? row('Flight Number', inquiry.flightNumber) : ''}
-      ${row('Vehicle Preference', inquiry.vehiclePreference)}
+      ${pricing.mode === 'instant' ? '' : row('Vehicle Preference', inquiry.vehiclePreference)}
       ${row('Pickup Location', inquiry.pickupLocation)}
       ${row('Drop-off Location', inquiry.dropoffLocation)}
       ${row('Date', inquiry.date)}
       ${row('Time', inquiry.time)}
       ${row('Passengers', inquiry.passengers)}
+      ${pricingRows(pricing).map(([label, value]) => row(label, value)).join('\n      ')}
       ${row('Heard About Us Via', inquiry.hearAbout)}
       ${row('SMS Consent', inquiry.smsConsent)}
       ${row('Message', inquiry.message)}
@@ -123,12 +202,16 @@ module.exports = async (req, res) => {
     `Preferred Contact:${inquiry.contactMethod || '—'}`,
     `Service Type:     ${inquiry.serviceType}`,
     ...(inquiry.flightNumber ? [`Flight Number:    ${inquiry.flightNumber}`] : []),
-    `Vehicle:          ${inquiry.vehiclePreference || '—'}`,
+    ...(pricing.mode === 'instant' ? [] : [`Vehicle:          ${inquiry.vehiclePreference || '—'}`]),
     `Pickup Location:  ${inquiry.pickupLocation || '—'}`,
     `Drop-off:         ${inquiry.dropoffLocation || '—'}`,
     `Date:             ${inquiry.date || '—'}`,
     `Time:             ${inquiry.time || '—'}`,
     `Passengers:       ${inquiry.passengers || '—'}`,
+    // Fare breakdown the customer saw on the form, or the custom-quote line.
+    ...pricingRows(pricing).map(([label, value]) =>
+      `${label}:`.length >= 18 ? `${label}: ${value}` : `${`${label}:`.padEnd(18)}${value}`
+    ),
     `Heard About Us:   ${inquiry.hearAbout || '—'}`,
     `SMS Consent:      ${inquiry.smsConsent}`,
     `Message:          ${inquiry.message || '—'}`,
@@ -152,7 +235,7 @@ module.exports = async (req, res) => {
       to: recipient,
       ...(isValidEmail(inquiry.email) ? { replyTo: inquiry.email } : {}),
       envelope: { from: smtpUser, to: [recipient] },
-      subject: `New Quote Request — ${inquiry.serviceType} — ${inquiry.name}`,
+      subject: `${pricing.paid ? 'New Booking (PAID)' : 'New Quote Request'} — ${inquiry.serviceType} — ${inquiry.name} — ${pricingSubjectSuffix(pricing)}`,
       text,
       html,
       headers: {
@@ -175,6 +258,7 @@ module.exports = async (req, res) => {
 
     return res.status(200).json({
       id,
+      pricing,
       success: true,
       message: 'Quote request received. Our team will contact you shortly.',
     });

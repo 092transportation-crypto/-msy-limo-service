@@ -355,7 +355,45 @@ const InnerForm = ({ stripe, elements, stripeReady }) => {
     return true;
   };
 
-  const fileBooking = async (extraNote, source) => {
+  // Pricing payload for the notification email. Mirrors exactly what the
+  // quote panel shows: a full breakdown when an instant price was
+  // calculated, otherwise the reason no price was generated.
+  const buildPricing = (serverQuote, paymentIntentId) => {
+    if (customService) {
+      return { mode: "custom", reason: "Hourly / Wedding / Special Event" };
+    }
+    if (!form.vehiclePreference) return { mode: "custom", reason: "No vehicle selected" };
+    if (!priceKey) {
+      return { mode: "custom", reason: `${form.vehiclePreference} has no instant pricing` };
+    }
+    if (distance.status !== "ready") {
+      return { mode: "custom", reason: "Driving distance could not be calculated" };
+    }
+    const q = serverQuote || quote;
+    if (!q) return { mode: "custom", reason: "No instant price calculated" };
+    if (q.overLimit) {
+      return {
+        mode: "custom",
+        reason: `Trip is ${q.miles} miles (over the ${MAX_MILES}-mile instant-quote limit)`,
+      };
+    }
+    return {
+      mode: "instant",
+      vehicle: priceKey,
+      vehicle_label: form.vehiclePreference,
+      miles: q.miles,
+      base_fare: q.baseFare,
+      discount: q.discount,
+      surcharge: q.surcharge,
+      short_notice: q.surcharge > 0,
+      card_fee: q.cardFee,
+      total: q.total,
+      paid: Boolean(paymentIntentId),
+      payment_intent: paymentIntentId || "",
+    };
+  };
+
+  const fileBooking = async (extraNote, source, pricing) => {
     const res = await fetch("/api/quote-requests", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
@@ -378,6 +416,7 @@ const InnerForm = ({ stripe, elements, stripeReady }) => {
         message: [extraNote, form.notes.trim()].filter(Boolean).join("\n\n"),
         smsConsent: form.smsConsent,
         source,
+        pricing,
       }),
     });
     if (!res.ok) {
@@ -426,27 +465,23 @@ const InnerForm = ({ stripe, elements, stripeReady }) => {
           return;
         }
         const sq = intent.quote;
+        // The fare breakdown travels in the `pricing` payload (rendered as
+        // its own rows in the notification email); notes only carry the receipt.
         const paidNote = [
           "✅ PAID ONLINE via Stripe",
           `Amount charged: $${sq.total.toFixed(2)}`,
           "Site: msylimoservice.com",
           `PaymentIntent: ${result.paymentIntent.id}`,
-          `Flat rate (${form.vehiclePreference}, ${sq.miles} mi): $${sq.baseFare.toFixed(2)}`,
-          `Instant booking discount (10%): -$${sq.discount.toFixed(2)}`,
-          ...(sq.surcharge > 0
-            ? [`Short-notice surcharge (20%): +$${sq.surcharge.toFixed(2)}`]
-            : []),
-          `Card processing fee (3%): $${sq.cardFee.toFixed(2)}`,
         ].join("\n");
         try {
-          await fileBooking(paidNote, "Booking page — PAID");
+          await fileBooking(paidNote, "Booking page — PAID", buildPricing(sq, result.paymentIntent.id));
         } catch {
           // Payment already captured — dispatch still sees it in Stripe.
         }
         setPaidDone(true);
       } else {
         // ---- Custom-quote flow: request booking as before ----
-        await fileBooking("", "Booking page");
+        await fileBooking("", "Booking page", buildPricing());
         setPaidDone(false);
       }
       setForm(EMPTY);
