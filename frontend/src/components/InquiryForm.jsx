@@ -263,9 +263,7 @@ function SuccessBanner({ paid, onDismiss }) {
   );
 }
 
-const InnerForm = ({ stripeReady }) => {
-  const stripe = useStripe();
-  const elements = useElements();
+const InnerForm = ({ stripe, elements, stripeReady }) => {
   const [form, setForm] = useState(EMPTY);
   const [invalid, setInvalid] = useState([]);
   const [loading, setLoading] = useState(false);
@@ -1027,6 +1025,15 @@ const InnerForm = ({ stripeReady }) => {
   );
 };
 
+// Bridges the Stripe hooks to the form. MUST be rendered inside <Elements> —
+// calling useStripe/useElements without that context throws and blanks the
+// whole route, which is exactly why InnerForm takes them as props instead.
+const StripeForm = () => {
+  const stripe = useStripe();
+  const elements = useElements();
+  return <InnerForm stripe={stripe} elements={elements} stripeReady />;
+};
+
 // Loads the shared Stripe publishable key so the card field can mount inside
 // the form. If payments aren't configured yet, the form quietly falls back
 // to the request-booking flow.
@@ -1057,10 +1064,12 @@ const InquiryForm = () => {
     // available — avoids remounting Elements mid-session.
     return null;
   }
-  if (!stripePromise) return <InnerForm stripeReady={false} />;
+  if (!stripePromise) {
+    return <InnerForm stripe={null} elements={null} stripeReady={false} />;
+  }
   return (
     <Elements stripe={stripePromise}>
-      <InnerForm stripeReady />
+      <StripeForm />
     </Elements>
   );
 };
