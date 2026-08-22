@@ -14,15 +14,25 @@ const SITE_NAME = 'msylimoservice.com';
 const clip = (v, max) => String(v ?? '').trim().slice(0, max);
 
 module.exports = async (req, res) => {
+  const secretKey = process.env.STRIPE_SECRET_KEY;
+  const pk =
+    process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY ||
+    process.env.STRIPE_PUBLISHABLE_KEY;
+
+  // GET: hand the client the publishable key so the card field can mount.
+  if (req.method === 'GET') {
+    if (!secretKey || !pk) {
+      return res.status(503).json({ success: false, message: 'Payments not configured' });
+    }
+    return res.status(200).json({ success: true, publishableKey: pk });
+  }
+
   if (req.method !== 'POST') {
-    res.setHeader('Allow', 'POST');
+    res.setHeader('Allow', 'GET, POST');
     return res.status(405).json({ success: false, message: 'Method not allowed' });
   }
 
-  const secretKey = process.env.STRIPE_SECRET_KEY;
-  const publishableKey =
-    process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY ||
-    process.env.STRIPE_PUBLISHABLE_KEY;
+  const publishableKey = pk;
   if (!secretKey || !publishableKey) {
     return res.status(503).json({
       success: false,
