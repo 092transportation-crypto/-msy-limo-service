@@ -13,6 +13,7 @@ const contactFaqSchema = buildFaqSchema([
   { q: "Can I book a round trip in one request?", a: "Yes, and we recommend it: booking your return at the same time locks in your departure pickup and guarantees vehicle availability." },
 ]);
 import { toast } from "sonner";
+import { sanitizePhone, isValidPhone } from "@/lib/phone";
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -32,43 +33,49 @@ const ContactPage = () => {
     window.scrollTo(0, 0);
   }, []);
 
-  const [formData, setFormData] = useState({
-    name: "",
+  const EMPTY_FORM = {
+    firstName: "",
+    lastName: "",
     phone: "",
     email: "",
     pickupLocation: "",
     dropoffLocation: "",
     date: "",
     passengers: ""
-  });
+  };
+  const [formData, setFormData] = useState(EMPTY_FORM);
   const [isSubmitting, setIsSubmitting] = useState(false);
 
   const handleChange = (e) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
+    const { name, value } = e.target;
+    setFormData({ ...formData, [name]: name === "phone" ? sanitizePhone(value) : value });
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    if (!isValidPhone(formData.phone)) {
+      toast.error("Please enter a valid phone number (digits only, at least 10).");
+      return;
+    }
     setIsSubmitting(true);
     
     try {
       const response = await fetch('/api/quote-requests', {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ ...formData, source: "Contact page" })
+        body: JSON.stringify({
+          ...formData,
+          name: `${formData.firstName.trim()} ${formData.lastName.trim()}`.trim(),
+          firstName: formData.firstName.trim(),
+          lastName: formData.lastName.trim(),
+          phone: formData.phone.trim(),
+          source: "Contact page"
+        })
       });
       
       if (response.ok) {
         toast.success("Quote request sent! We'll contact you within 15 minutes.");
-        setFormData({
-          name: "",
-          phone: "",
-          email: "",
-          pickupLocation: "",
-          dropoffLocation: "",
-          date: "",
-          passengers: ""
-        });
+        setFormData(EMPTY_FORM);
       } else {
         toast.error("Failed to send. Please call us directly.");
       }
@@ -237,47 +244,76 @@ const ContactPage = () => {
                 </div>
 
                 <form onSubmit={handleSubmit} className="p-6 space-y-4" data-testid="contact-quote-form">
-                  {/* Name & Phone Row */}
+                  {/* First & Last Name Row */}
                   <div className="grid md:grid-cols-2 gap-4">
                     <div>
-                      <label className="block text-white/70 text-sm mb-2">Full Name *</label>
+                      <label htmlFor="cp-first-name" className="block text-white/70 text-sm mb-2">First Name *</label>
                       <div className="relative">
                         <User className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-amber-500/50" />
                         <input
+                          id="cp-first-name"
                           type="text"
-                          name="name"
-                          value={formData.name}
+                          name="firstName"
+                          autoComplete="given-name"
+                          value={formData.firstName}
                           onChange={handleChange}
                           required
-                          placeholder="John Doe"
+                          placeholder="First Name"
                           className="w-full pl-11 pr-4 py-3 bg-gray-900 border border-amber-500/20 rounded-xl text-white placeholder-white/30 focus:border-amber-500 focus:outline-none transition-colors"
+                          data-testid="contact-first-name-input"
                         />
                       </div>
                     </div>
                     <div>
-                      <label className="block text-white/70 text-sm mb-2">Phone Number *</label>
+                      <label htmlFor="cp-last-name" className="block text-white/70 text-sm mb-2">Last Name *</label>
                       <div className="relative">
-                        <Phone className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-amber-500/50" />
+                        <User className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-amber-500/50" />
                         <input
-                          type="tel"
-                          name="phone"
-                          value={formData.phone}
+                          id="cp-last-name"
+                          type="text"
+                          name="lastName"
+                          autoComplete="family-name"
+                          value={formData.lastName}
                           onChange={handleChange}
                           required
-                          placeholder="(555) 123-4567"
+                          placeholder="Last Name"
                           className="w-full pl-11 pr-4 py-3 bg-gray-900 border border-amber-500/20 rounded-xl text-white placeholder-white/30 focus:border-amber-500 focus:outline-none transition-colors"
+                          data-testid="contact-last-name-input"
                         />
                       </div>
                     </div>
                   </div>
 
-                  {/* Email */}
-                  <div>
-                    <label className="block text-white/70 text-sm mb-2">Email *</label>
+                  {/* Phone & Email Row */}
+                  <div className="grid md:grid-cols-2 gap-4">
+                    <div>
+                      <label htmlFor="cp-phone" className="block text-white/70 text-sm mb-2">Phone Number *</label>
+                      <div className="relative">
+                        <Phone className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-amber-500/50" />
+                        <input
+                          id="cp-phone"
+                          type="tel"
+                          inputMode="tel"
+                          pattern="[0-9+()\-.\s]*"
+                          name="phone"
+                          autoComplete="tel"
+                          value={formData.phone}
+                          onChange={handleChange}
+                          required
+                          placeholder="Phone Number"
+                          className="w-full pl-11 pr-4 py-3 bg-gray-900 border border-amber-500/20 rounded-xl text-white placeholder-white/30 focus:border-amber-500 focus:outline-none transition-colors"
+                          data-testid="contact-phone-input"
+                        />
+                      </div>
+                    </div>
+                    <div>
+                    <label htmlFor="cp-email" className="block text-white/70 text-sm mb-2">Email *</label>
                     <div className="relative">
                       <Mail className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-amber-500/50" />
                       <input
+                        id="cp-email"
                         type="email"
+                        autoComplete="email"
                         name="email"
                         value={formData.email}
                         onChange={handleChange}
@@ -285,6 +321,7 @@ const ContactPage = () => {
                         placeholder="john@example.com"
                         className="w-full pl-11 pr-4 py-3 bg-gray-900 border border-amber-500/20 rounded-xl text-white placeholder-white/30 focus:border-amber-500 focus:outline-none transition-colors"
                       />
+                    </div>
                     </div>
                   </div>
 

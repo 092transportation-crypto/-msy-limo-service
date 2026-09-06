@@ -2,6 +2,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import { Phone, Mail, MapPin, Send, Calendar, Clock, Car, User, Plane } from "lucide-react";
 import { toast } from "sonner";
+import { sanitizePhone, isValidPhone } from "@/lib/phone";
 
 
 const serviceTypes = [
@@ -16,8 +17,9 @@ const serviceTypes = [
 ];
 
 const ContactSection = () => {
-  const [formData, setFormData] = useState({
-    name: "",
+  const EMPTY_FORM = {
+    firstName: "",
+    lastName: "",
     email: "",
     phone: "",
     serviceType: "",
@@ -25,16 +27,21 @@ const ContactSection = () => {
     date: "",
     time: "",
     message: ""
-  });
+  };
+  const [formData, setFormData] = useState(EMPTY_FORM);
   const [isSubmitting, setIsSubmitting] = useState(false);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    setFormData(prev => ({ ...prev, [name]: value }));
+    setFormData(prev => ({ ...prev, [name]: name === "phone" ? sanitizePhone(value) : value }));
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    if (!isValidPhone(formData.phone)) {
+      toast.error("Please enter a valid phone number (digits only, at least 10).");
+      return;
+    }
     setIsSubmitting(true);
 
     try {
@@ -43,6 +50,10 @@ const ContactSection = () => {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           ...formData,
+          name: `${formData.firstName.trim()} ${formData.lastName.trim()}`.trim(),
+          firstName: formData.firstName.trim(),
+          lastName: formData.lastName.trim(),
+          phone: formData.phone.trim(),
           // Flight number only applies to airport transportation.
           flightNumber:
             formData.serviceType === "Airport Transportation"
@@ -54,7 +65,7 @@ const ContactSection = () => {
       
       if (response.ok) {
         toast.success("Quote request sent! We'll contact you shortly.");
-        setFormData({ name: "", email: "", phone: "", serviceType: "", flightNumber: "", date: "", time: "", message: "" });
+        setFormData(EMPTY_FORM);
       } else {
         toast.error("Failed to send. Please call us directly.");
       }
@@ -168,30 +179,76 @@ const ContactSection = () => {
             </div>
             
             <form onSubmit={handleSubmit} className="p-6 space-y-4" data-testid="contact-form">
-              {/* Name & Email */}
+              {/* First & Last Name */}
               <div className="grid md:grid-cols-2 gap-4">
                 <div>
-                  <label className="block text-white/70 text-sm mb-2">Full Name *</label>
+                  <label htmlFor="cs-first-name" className="block text-white/70 text-sm mb-2">First Name *</label>
                   <div className="relative">
                     <User className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-amber-500/50" />
                     <input
+                      id="cs-first-name"
                       type="text"
-                      name="name"
-                      value={formData.name}
+                      name="firstName"
+                      autoComplete="given-name"
+                      value={formData.firstName}
                       onChange={handleChange}
                       required
-                      placeholder="John Doe"
+                      placeholder="First Name"
                       className="w-full pl-11 pr-4 py-3 bg-gray-900 border border-amber-500/20 rounded-xl text-white placeholder-white/30 focus:border-amber-500 focus:outline-none transition-colors"
-                      data-testid="input-name"
+                      data-testid="input-first-name"
                     />
                   </div>
                 </div>
                 <div>
-                  <label className="block text-white/70 text-sm mb-2">Email *</label>
+                  <label htmlFor="cs-last-name" className="block text-white/70 text-sm mb-2">Last Name *</label>
+                  <div className="relative">
+                    <User className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-amber-500/50" />
+                    <input
+                      id="cs-last-name"
+                      type="text"
+                      name="lastName"
+                      autoComplete="family-name"
+                      value={formData.lastName}
+                      onChange={handleChange}
+                      required
+                      placeholder="Last Name"
+                      className="w-full pl-11 pr-4 py-3 bg-gray-900 border border-amber-500/20 rounded-xl text-white placeholder-white/30 focus:border-amber-500 focus:outline-none transition-colors"
+                      data-testid="input-last-name"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              {/* Phone & Email */}
+              <div className="grid md:grid-cols-2 gap-4">
+                <div>
+                  <label htmlFor="cs-phone" className="block text-white/70 text-sm mb-2">Phone Number *</label>
+                  <div className="relative">
+                    <Phone className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-amber-500/50" />
+                    <input
+                      id="cs-phone"
+                      type="tel"
+                      inputMode="tel"
+                      pattern="[0-9+()\-.\s]*"
+                      name="phone"
+                      autoComplete="tel"
+                      value={formData.phone}
+                      onChange={handleChange}
+                      required
+                      placeholder="Phone Number"
+                      className="w-full pl-11 pr-4 py-3 bg-gray-900 border border-amber-500/20 rounded-xl text-white placeholder-white/30 focus:border-amber-500 focus:outline-none transition-colors"
+                      data-testid="input-phone"
+                    />
+                  </div>
+                </div>
+                <div>
+                  <label htmlFor="cs-email" className="block text-white/70 text-sm mb-2">Email *</label>
                   <div className="relative">
                     <Mail className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-amber-500/50" />
                     <input
+                      id="cs-email"
                       type="email"
+                      autoComplete="email"
                       name="email"
                       value={formData.email}
                       onChange={handleChange}
@@ -204,24 +261,8 @@ const ContactSection = () => {
                 </div>
               </div>
 
-              {/* Phone & Service Type */}
+              {/* Service Type */}
               <div className="grid md:grid-cols-2 gap-4">
-                <div>
-                  <label className="block text-white/70 text-sm mb-2">Phone *</label>
-                  <div className="relative">
-                    <Phone className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-amber-500/50" />
-                    <input
-                      type="tel"
-                      name="phone"
-                      value={formData.phone}
-                      onChange={handleChange}
-                      required
-                      placeholder="(555) 123-4567"
-                      className="w-full pl-11 pr-4 py-3 bg-gray-900 border border-amber-500/20 rounded-xl text-white placeholder-white/30 focus:border-amber-500 focus:outline-none transition-colors"
-                      data-testid="input-phone"
-                    />
-                  </div>
-                </div>
                 <div>
                   <label className="block text-white/70 text-sm mb-2">Service Type *</label>
                   <div className="relative">
