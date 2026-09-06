@@ -22,8 +22,8 @@ const UniqueFeatures = () => {
     },
     {
       icon: Clock,
-      title: "60-Min Complimentary Wait",
-      description: "For airport pickups, enjoy 60 minutes of complimentary wait time for domestic flights.",
+      title: "45-Min Complimentary Wait",
+      description: "For airport pickups, enjoy 45 minutes of complimentary wait time for domestic flights and 60 minutes for international arrivals.",
       highlight: "INCLUDED",
       color: "from-amber-400 to-yellow-300",
       link: "/services/airport-transportation"

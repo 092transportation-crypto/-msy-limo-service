@@ -9,7 +9,7 @@ import { Plane, Clock, CheckCircle, Phone, ArrowRight } from "lucide-react";
 
 const airportFaqSchema = buildFaqSchema([
   { q: "Which airports does MSY Limo Service cover?", a: "We serve MSY (Louis Armstrong New Orleans International) and NEW (Lakefront Airport). Every transfer includes real-time flight tracking and complimentary wait time." },
-  { q: "How much wait time is included with an airport pickup?", a: "60 minutes of complimentary wait time on domestic arrivals, 90 minutes on international arrivals, and 15 minutes for departures — we track your flight so delays never cost you extra." },
+  { q: "How much wait time is included with an airport pickup?", a: "45 minutes of complimentary wait time on domestic arrivals, 60 minutes on international arrivals, and 15 minutes for departures — we track your flight so delays never cost you extra." },
   { q: "Where does my chauffeur meet me at MSY?", a: "Standard pickups meet you at the arrivals curb; with meet-and-greet service, your chauffeur waits inside baggage claim with a personalized sign and helps with luggage." },
   { q: "Do you offer flat rates for MSY airport car service?", a: "Yes — every airport transfer is a flat rate quoted by vehicle class and confirmed at booking, with no surge pricing at any hour or event. Call (877) 609-1919 for a quote." },
 ]);
@@ -45,7 +45,7 @@ const AirportPage = () => {
   const features = [
     "Real-time flight tracking",
     "Meet & greet service available",
-    "Complimentary 60-minute wait time for delays",
+    "Complimentary 45-minute wait time for delays",
     "Professional uniformed chauffeurs",
     "Bottled water & amenities included",
     "Child car seats available upon request",
@@ -252,8 +252,8 @@ const AirportPage = () => {
               </div>
               <div className="space-y-4 text-white/70">
                 {[
-                  { label: "Domestic Arrivals", time: "60 minutes" },
-                  { label: "International Arrivals", time: "90 minutes" },
+                  { label: "Domestic Arrivals", time: "45 minutes" },
+                  { label: "International Arrivals", time: "60 minutes" },
                   { label: "Departures", time: "15 minutes" },
                 ].map((item, i) => (
                   <motion.div 

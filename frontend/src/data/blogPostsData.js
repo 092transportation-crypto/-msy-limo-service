@@ -26,7 +26,7 @@ export const seoBlogPosts = [
       <p>A chauffeured car service inverts every one of those pain points. Your chauffeur tracks your flight number, positions the vehicle before you land, and either meets you at the curb or inside baggage claim holding a sign with your name. The trip was accepted when you booked it — cancellation isn't part of the model.</p>
 
       <h2>Wait Time: Delays Happen. Who Absorbs Them?</h2>
-      <p>If your flight is delayed two hours, Uber doesn't care — you simply request a car when you finally land, at whatever the price is at that moment. A professional car service absorbs the delay for you. At MSY Limo Service, every airport pickup includes real-time flight tracking plus 60 minutes of complimentary wait time on domestic arrivals and 90 minutes on international ones. The chauffeur adjusts automatically; you never send a panicked "my flight is late" message.</p>
+      <p>If your flight is delayed two hours, Uber doesn't care — you simply request a car when you finally land, at whatever the price is at that moment. A professional car service absorbs the delay for you. At MSY Limo Service, every airport pickup includes real-time flight tracking plus 45 minutes of complimentary wait time on domestic arrivals and 60 minutes on international ones. The chauffeur adjusts automatically; you never send a panicked "my flight is late" message.</p>
 
       <h2>Vehicles and Drivers: Whatever's Nearby vs. a Standard</h2>
       <p>Rideshare quality is a lottery — you might get a spotless SUV or a compact with 180,000 miles and someone's gym bag in the trunk. With a licensed car service, the vehicle is part of the product: late-model Mercedes-Benz sedans, Cadillac Escalades, and Sprinter vans, detailed daily, driven by background-checked, professionally trained chauffeurs. MSY Limo Service operates as a Licensed & Insured Louisiana Carrier, meaning commercial insurance covers every mile of your trip — a meaningful difference from a personal policy with a rideshare endorsement.</p>
@@ -61,7 +61,7 @@ export const seoBlogPosts = [
       },
       {
         q: "What happens if my flight is delayed?",
-        a: "Your chauffeur tracks the flight and adjusts automatically. Domestic arrivals include 60 minutes of complimentary wait time; international arrivals include 90 minutes.",
+        a: "Your chauffeur tracks the flight and adjusts automatically. Domestic arrivals include 45 minutes of complimentary wait time; international arrivals include 60 minutes.",
       },
       {
         q: "Can I book a car service from MSY for a group?",
@@ -89,7 +89,7 @@ export const seoBlogPosts = [
       <p>This is the non-negotiable. A legitimate operator is a licensed commercial carrier in Louisiana, carrying commercial livery insurance on every vehicle — not a personal auto policy. Ask directly: "Are you a licensed and insured Louisiana carrier?" A professional company answers instantly, because they've invested in being one. MSY Limo Service operates as a Licensed & Insured Louisiana Carrier, and we consider the question a compliment.</p>
 
       <h2>2. Ask How They Handle Flight Delays</h2>
-      <p>Any company can be on time for an on-time flight. The test is what happens when your 7 p.m. arrival becomes a 10:40 p.m. arrival. The right answer includes three things: real-time flight tracking by flight number, automatic pickup adjustment with no action needed from you, and defined complimentary wait time (ours is 60 minutes domestic, 90 international). If a company charges waiting fees from the original scheduled time, keep looking.</p>
+      <p>Any company can be on time for an on-time flight. The test is what happens when your 7 p.m. arrival becomes a 10:40 p.m. arrival. The right answer includes three things: real-time flight tracking by flight number, automatic pickup adjustment with no action needed from you, and defined complimentary wait time (ours is 45 minutes domestic, 60 international). If a company charges waiting fees from the original scheduled time, keep looking.</p>
 
       <h2>3. Demand a Flat Rate in Writing</h2>
       <p>Reputable black car services quote a total, flat price at booking — vehicle, tolls, airport fees, everything. Be wary of hourly minimums applied to simple transfers, vague "plus gratuity and fees" language, or quotes that can't be confirmed by email. A written flat rate is also what makes expense reporting painless for business travelers.</p>
@@ -225,7 +225,7 @@ export const seoBlogPosts = [
       </ul>
 
       <h2>What's Included at MSY Limo Service</h2>
-      <p>Our MSY-to-French Quarter flat rate covers the vehicle and chauffeur, real-time flight tracking, 60 minutes of complimentary wait time on domestic arrivals (90 international), luggage handling from carousel to hotel door, and bottled water in a detailed, late-model vehicle. Meet-and-greet service inside baggage claim — your name on a sign at the bottom of the escalator — is available as an add-on many first-time visitors love.</p>
+      <p>Our MSY-to-French Quarter flat rate covers the vehicle and chauffeur, real-time flight tracking, 45 minutes of complimentary wait time on domestic arrivals (60 international), luggage handling from carousel to hotel door, and bottled water in a detailed, late-model vehicle. Meet-and-greet service inside baggage claim — your name on a sign at the bottom of the escalator — is available as an add-on many first-time visitors love.</p>
 
       <h2>Why the Quarter Specifically Rewards a Flat Rate</h2>
       <p>The French Quarter is a 300-year-old street grid that closes to vehicles without much notice — for festivals, second lines, film shoots, or a Saturday night on Bourbon. Metered and app-based pricing makes <em>you</em> pay for those detours. Flat-rate pricing makes the route the chauffeur's job. Ours drive the Quarter daily and know which hotel entrances stay reachable when Royal Street closes, and where to stage a pickup when your block is barricaded. That knowledge is baked into the rate.</p>
@@ -256,7 +256,7 @@ export const seoBlogPosts = [
       },
       {
         q: "Does the flat rate include tolls, fees, and wait time?",
-        a: "Yes. Our flat rate is all-in: vehicle, chauffeur, airport fees, flight tracking, and complimentary wait time (60 minutes domestic, 90 international). Any add-ons like meet-and-greet are itemized upfront.",
+        a: "Yes. Our flat rate is all-in: vehicle, chauffeur, airport fees, flight tracking, and complimentary wait time (45 minutes domestic, 60 international). Any add-ons like meet-and-greet are itemized upfront.",
       },
       {
         q: "Is the flat rate the same during Mardi Gras?",
@@ -349,7 +349,7 @@ export const seoBlogPosts = [
       <p>A chauffeured transfer is reserved, not hailed — that's the entire advantage. Book as soon as your flights are confirmed, and have three things ready: your flight number, your drop-off address, and your party size with luggage count. The flight number matters most; it's what lets dispatch track your arrival automatically. Choose a vehicle class based on your group — an executive sedan for one to three travelers, a luxury SUV for four to six or anyone with extra bags, and a Sprinter van for groups of seven or more. You'll receive a written confirmation with a flat rate: one all-in number that will not change with traffic, demand, or time of day.</p>
 
       <h2>Step 2: The Day Of — You Do Nothing</h2>
-      <p>This is the part first-timers don't expect. Once you've booked, there is no app to open, no driver to message, no pin to drop. Dispatch monitors your flight number from departure. If your flight leaves Denver forty minutes late, your pickup adjusts forty minutes automatically. If you land early, your chauffeur is positioned early. At MSY Limo Service, every airport pickup includes real-time flight tracking plus 60 minutes of complimentary wait time on domestic arrivals and 90 on international ones — enough to cover customs, a slow carousel, or a coffee stop without a single fee.</p>
+      <p>This is the part first-timers don't expect. Once you've booked, there is no app to open, no driver to message, no pin to drop. Dispatch monitors your flight number from departure. If your flight leaves Denver forty minutes late, your pickup adjusts forty minutes automatically. If you land early, your chauffeur is positioned early. At MSY Limo Service, every airport pickup includes real-time flight tracking plus 45 minutes of complimentary wait time on domestic arrivals and 60 on international ones — enough to cover customs, a slow carousel, or a coffee stop without a single fee.</p>
 
       <h2>Step 3: Landing at MSY — Where Your Chauffeur Is</h2>
       <p>Louis Armstrong International's terminal is compact and easy to navigate: gates feed into a central concourse, and escalators bring you down to baggage claim on Level 1. Your pickup happens one of two ways, and you choose at booking:</p>
@@ -426,7 +426,7 @@ export const seoBlogPosts = [
       <p>Meet-and-greet service inside baggage claim, child safety seats, or an extra stop en route are the usual options. A professional company itemizes each one in the written quote — never as a surprise line at drop-off.</p>
 
       <h2>What a Legitimate Flat Rate Includes</h2>
-      <p>At MSY Limo Service, the flat rate covers the vehicle and professional chauffeur, real-time flight tracking, 60 minutes of complimentary wait time on domestic arrivals (90 on international), luggage handling, airport fees, and bottled water in a detailed late-model vehicle. If a company's "base rate" excludes airport fees, fuel surcharges, or "wait time from scheduled arrival," you're not looking at a flat rate — you're looking at a teaser.</p>
+      <p>At MSY Limo Service, the flat rate covers the vehicle and professional chauffeur, real-time flight tracking, 45 minutes of complimentary wait time on domestic arrivals (60 on international), luggage handling, airport fees, and bottled water in a detailed late-model vehicle. If a company's "base rate" excludes airport fees, fuel surcharges, or "wait time from scheduled arrival," you're not looking at a flat rate — you're looking at a teaser.</p>
 
       <h2>Fees to Watch For (and Refuse)</h2>
       <ul>
@@ -507,7 +507,7 @@ export const seoBlogPosts = [
         <li><strong>Families with children:</strong> one adult wrangling kids while another wrangles a luggage cart is nobody's vacation. A chauffeur on carousel duty changes the entire arrival.</li>
         <li><strong>Older travelers and anyone with mobility needs:</strong> no long walks with bags, no standing at a curb in July heat, an arm to lean on if wanted, and a vehicle brought as close as the airport allows.</li>
         <li><strong>Arriving clients and executives:</strong> for corporate travel, the name sign is the point. A prospect greeted by a professional chauffeur experiences your company's standards before your first handshake — see our <a href="/blog/new-orleans-corporate-travel-guide">corporate travel guide</a> for how businesses use this.</li>
-        <li><strong>International arrivals and connections:</strong> after a long-haul day, decision fatigue is real. Meet-and-greet removes the last decisions entirely, and 90 minutes of complimentary international wait time covers customs comfortably.</li>
+        <li><strong>International arrivals and connections:</strong> after a long-haul day, decision fatigue is real. Meet-and-greet removes the last decisions entirely, and 60 minutes of complimentary international wait time covers customs comfortably.</li>
         <li><strong>Groups and wedding parties:</strong> one sign collects eight people better than eight phones coordinating a curb.</li>
       </ul>
 
@@ -515,7 +515,7 @@ export const seoBlogPosts = [
       <p>Meet-and-greet is a modest flat add-on to any airport transfer — it covers the chauffeur's parking and terminal time, and it's itemized in your written quote at booking. There's no percentage markup and no surprise at drop-off. Relative to the cost of the transfer itself, most travelers who try it once consider it the best-value line on the receipt.</p>
 
       <h2>Meet-and-Greet vs. Curbside: Honest Guidance</h2>
-      <p>A frequent business traveler with a carry-on, landing at an airport they know? Curbside is faster and included — book that. Anyone managing children, heavy luggage, mobility concerns, a VIP guest, or a first visit to New Orleans? The add-on earns its keep the moment the escalator comes into view. Both options include flight tracking and complimentary wait time (60 minutes domestic, 90 international), so neither ever punishes a late flight.</p>
+      <p>A frequent business traveler with a carry-on, landing at an airport they know? Curbside is faster and included — book that. Anyone managing children, heavy luggage, mobility concerns, a VIP guest, or a first visit to New Orleans? The add-on earns its keep the moment the escalator comes into view. Both options include flight tracking and complimentary wait time (45 minutes domestic, 60 international), so neither ever punishes a late flight.</p>
 
       <h2>Four Tips for a Seamless Greeting</h2>
       <ol>
@@ -564,7 +564,7 @@ export const seoBlogPosts = [
       <p>Every car service in New Orleans claims to be the best. The websites show the same black SUVs, the same promises of luxury, the same five-star badges. But "best" at an airport isn't a vibe — it's a set of measurable standards, and in 2026 the gap between companies that meet them and companies that market them has never been wider. Here's the scorecard that separates the real operators at Louis Armstrong International, and how to apply it before you hand over a reservation.</p>
 
       <h2>Standard 1: They're On Time When It's Hard to Be</h2>
-      <p>Anyone can meet a 2 p.m. arrival on a clear Tuesday. The best car service is measured by the 11:40 p.m. arrival that was supposed to land at 8, the 4:30 a.m. departure pickup, and the Mardi Gras Saturday when half the city is barricaded. The infrastructure behind that reliability is specific: real-time flight tracking on every airport trip, dispatch staffed around the clock, and complimentary wait time defined in writing — at MSY Limo Service, 60 minutes on domestic arrivals and 90 on international. If a company can't articulate how it handles a delayed flight, it handles them badly.</p>
+      <p>Anyone can meet a 2 p.m. arrival on a clear Tuesday. The best car service is measured by the 11:40 p.m. arrival that was supposed to land at 8, the 4:30 a.m. departure pickup, and the Mardi Gras Saturday when half the city is barricaded. The infrastructure behind that reliability is specific: real-time flight tracking on every airport trip, dispatch staffed around the clock, and complimentary wait time defined in writing — at MSY Limo Service, 45 minutes on domestic arrivals and 60 on international. If a company can't articulate how it handles a delayed flight, it handles them badly.</p>
 
       <h2>Standard 2: They're Licensed, Insured, and Glad You Asked</h2>
       <p>The floor for "best" is legal. A legitimate operator holds Louisiana commercial carrier authority and carries commercial livery insurance on every vehicle — not a personal auto policy stretched over a side business. This is the difference that matters most on the day you hope never comes: commercial coverage protects every passenger on every mile. Ask the question directly. Professionals answer instantly; pretenders change the subject. MSY Limo Service operates as a Licensed & Insured Louisiana Carrier and will happily put documentation in front of you.</p>
@@ -1260,7 +1260,7 @@ export const seoBlogPosts = [
       <p>A Cadillac Escalade — six passengers with real luggage room — adds roughly $30–$60 to any sedan rate. A Mercedes Sprinter seating up to 13 typically starts around $200–$300 for city transfers and scales with distance. The math that surprises people: a Sprinter carrying ten conventioneers to a CBD hotel costs less per person than the shared shuttle, and enormously less than three surge-priced rideshare XLs on an event weekend — while everyone arrives together with all the luggage in one vehicle.</p>
 
       <h2>What the Flat Rate Includes</h2>
-      <p>Every legitimate MSY quote bundles the vehicle, the chauffeur, fuel, tolls, airport fees, real-time flight tracking, and waiting time — at MSY Limo Service, 60 complimentary minutes on domestic arrivals and 90 on international. What it never includes: surge multipliers, overnight fees, or "event pricing." Your rate during the biggest convention of the year is your rate on a quiet Tuesday, which is precisely the point of booking it in advance.</p>
+      <p>Every legitimate MSY quote bundles the vehicle, the chauffeur, fuel, tolls, airport fees, real-time flight tracking, and waiting time — at MSY Limo Service, 45 complimentary minutes on domestic arrivals and 60 on international. What it never includes: surge multipliers, overnight fees, or "event pricing." Your rate during the biggest convention of the year is your rate on a quiet Tuesday, which is precisely the point of booking it in advance.</p>
 
       <h2>Hourly Service: Pricing a Day Instead of a Trip</h2>
       <p>Point-to-point covers transfers; hourly covers occasions. When the car stays with you — a wedding shuttle rotation, a plantation-country tour, a client day bouncing between the CBD and Metairie — 2026 rates run roughly $85–$115 per hour for a sedan and $115–$150 for an SUV, usually with two-to-three-hour minimums. By the third stop of a multi-stop day, one committed vehicle beats a chain of separate bookings, and it deletes every between-stop wait from your schedule.</p>
@@ -1353,7 +1353,7 @@ export const seoBlogPosts = [
       <p>Whatever your scenario, three windows change the answer. Weekday rush on I-10 — roughly 7 to 9 a.m. and 3:30 to 6:30 p.m. — can double the drive; a chauffeur back-times around it, an app prices you through it. Event weekends — Mardi Gras, Jazz Fest, Essence, Saints home games — put surge on the apps and gridlock near the core; flat rates ignore the former and local drivers route around the latter. And the 4-to-6 a.m. departure window is when rideshare supply in the suburbs runs thinnest — the single strongest case for a scheduled pickup that exists before you wake up.</p>
 
       <h2>The Pattern Behind Every Scenario</h2>
-      <p>Read back through the verdicts and one rule emerges: the more people, luggage, deadline, or festival involved, the more a pre-committed flat-rate car wins — and MSY Limo Service built its entire product around that rule. Flight-tracked pickups, 60 to 90 minutes of included wait time, vehicles from Mercedes sedans to 13-passenger Sprinters, and one price that ignores surge entirely. Whoever you are in this article, the quote takes a minute: book online or call <a href="tel:+18776091919">(877) 609-1919</a>, any hour.</p>
+      <p>Read back through the verdicts and one rule emerges: the more people, luggage, deadline, or festival involved, the more a pre-committed flat-rate car wins — and MSY Limo Service built its entire product around that rule. Flight-tracked pickups, 45 to 60 minutes of included wait time, vehicles from Mercedes sedans to 13-passenger Sprinters, and one price that ignores surge entirely. Whoever you are in this article, the quote takes a minute: book online or call <a href="tel:+18776091919">(877) 609-1919</a>, any hour.</p>
     `,
     faqs: [
       {
@@ -1398,7 +1398,7 @@ export const seoBlogPosts = [
       <p>A complete airport booking has five ingredients: the flight number (this powers everything), the passenger count, the honest luggage count, the exact destination address, and any special needs — car seats, extra stops, meet-and-greet. Give those once and the system takes over: the rate quotes flat by vehicle class, the confirmation arrives in writing with the all-in total, and dispatch attaches your trip to your flight rather than to a clock. Book 48 hours out for routine trips; for Mardi Gras, Jazz Fest, Essence, and Saints weekends, book the day your flights are ticketed — vehicles genuinely sell out.</p>
 
       <h2>Landing Day: The Pickup, Step by Step</h2>
-      <p>Here's the choreography from wheels-down. Your chauffeur has been tracking the flight since departure, so an early landing or a two-hour delay changes nothing on your end. With <a href="/blog/msy-airport-meet-and-greet-service">meet-and-greet</a>, you exit the secure area to find a chauffeur holding a sign with your name, who takes the bags and walks you to a positioned vehicle — the right choice for first visits, international arrivals, and anyone you're trying to impress. With curbside pickup, you text or call when you reach baggage claim and the car arrives at the arrivals curb as you walk out. Either way, domestic arrivals include 60 minutes of complimentary wait time and international arrivals 90, so a slow carousel costs you nothing.</p>
+      <p>Here's the choreography from wheels-down. Your chauffeur has been tracking the flight since departure, so an early landing or a two-hour delay changes nothing on your end. With <a href="/blog/msy-airport-meet-and-greet-service">meet-and-greet</a>, you exit the secure area to find a chauffeur holding a sign with your name, who takes the bags and walks you to a positioned vehicle — the right choice for first visits, international arrivals, and anyone you're trying to impress. With curbside pickup, you text or call when you reach baggage claim and the car arrives at the arrivals curb as you walk out. Either way, domestic arrivals include 45 minutes of complimentary wait time and international arrivals 60, so a slow carousel costs you nothing.</p>
 
       <h2>What Happens When Things Go Sideways</h2>
       <p>The measure of a professional operation is the bad day, not the good one. Flight diverted? Dispatch re-times against the new arrival automatically. Missed connection putting you in four hours late? The reservation moves with you — call <a href="tel:+18776091919">(877) 609-1919</a> and a human adjusts it. Bag lost, adding an hour at the claim office? That's what the included wait time is for. The structural difference from app-based rides is that your trip was committed at booking; the question is never whether a car will exist, only when you'll be ready for it.</p>
@@ -1437,7 +1437,7 @@ export const seoBlogPosts = [
       },
       {
         q: "How does the pickup work at MSY?",
-        a: "Your chauffeur tracks the flight from departure. With meet-and-greet, they wait past the secure area with a name sign and walk you to the car; with curbside pickup, the vehicle meets you at the arrivals curb as you exit with your bags. Domestic arrivals include 60 minutes of wait time, international 90.",
+        a: "Your chauffeur tracks the flight from departure. With meet-and-greet, they wait past the secure area with a name sign and walk you to the car; with curbside pickup, the vehicle meets you at the arrivals curb as you exit with your bags. Domestic arrivals include 45 minutes of wait time, international 60.",
       },
       {
         q: "What if my flight into New Orleans is delayed or diverted?",

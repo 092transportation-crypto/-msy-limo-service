@@ -20,7 +20,7 @@ export const routes = [
     highlights: [
       "Flat-rate pricing confirmed before you ride",
       "Real-time flight tracking on every MSY pickup",
-      "60 minutes of complimentary wait time for domestic arrivals",
+      "45 minutes of complimentary wait time for domestic arrivals",
       "Meet & greet inside baggage claim available",
       "Late-model luxury sedans, SUVs & Sprinter vans",
       "Licensed & Insured Louisiana Carrier",
@@ -54,7 +54,7 @@ export const routes = [
       },
       {
         q: "What if my flight into MSY is delayed?",
-        a: "Nothing changes on your end. We track your flight number in real time and adjust the pickup automatically, with 60 minutes of complimentary wait time on domestic arrivals and 90 minutes on international ones.",
+        a: "Nothing changes on your end. We track your flight number in real time and adjust the pickup automatically, with 45 minutes of complimentary wait time on domestic arrivals and 60 minutes on international ones.",
       },
       {
         q: "Can you handle groups arriving for a convention?",
@@ -230,7 +230,7 @@ export const routes = [
       },
       {
         q: "Will you wait if my flight into MSY is late?",
-        a: "Yes. We track every inbound flight and include 60 minutes of complimentary wait time on domestic arrivals, so a delay in Atlanta or Dallas doesn't cost you your ride to Baton Rouge.",
+        a: "Yes. We track every inbound flight and include 45 minutes of complimentary wait time on domestic arrivals, so a delay in Atlanta or Dallas doesn't cost you your ride to Baton Rouge.",
       },
       {
         q: "Can you do round trips or same-day returns?",
@@ -1252,7 +1252,7 @@ export const routes = [
       },
       {
         q: "What if my flight into MSY is delayed?",
-        a: "We track it in real time and adjust the pickup automatically, with 60 minutes of complimentary wait time on domestic arrivals and 90 on international. If the delay threatens your BTR departure, dispatch calls you with options before you land.",
+        a: "We track it in real time and adjust the pickup automatically, with 45 minutes of complimentary wait time on domestic arrivals and 60 on international. If the delay threatens your BTR departure, dispatch calls you with options before you land.",
       },
       {
         q: "Can you pick up at Baton Rouge airport and drive to MSY instead?",
@@ -1338,7 +1338,7 @@ export const routes = [
     intro: [
       "Morgan City sits where the Atchafalaya River meets the Gulf Intracoastal Waterway — a shipbuilding, fabrication, and offshore-service town that has powered the working coast for a century. It is also 85 miles from Louis Armstrong International, at the far edge of what any rideshare driver will accept. Our chauffeurs run the MSY-to-Morgan City route on a committed reservation basis, covering the distance in 90 to 105 minutes down US-90 through the heart of bayou country.",
       "Most of our Morgan City passengers travel for work: marine and energy-industry visitors headed to the fabrication yards and shipyards along the Intracoastal, project engineers bound for Amelia and Berwick, and crews rotating through the port. They land at MSY after long connections, and the last thing anyone wants is a negotiation at the rideshare lot. Instead, a chauffeur is tracking the flight, the vehicle is positioned, and the rate was locked when the trip was booked.",
-      "Leisure travelers ride the route too — for the Louisiana Shrimp & Petroleum Festival over Labor Day weekend, for swamp tours and Atchafalaya Basin adventures, and for family visits across St. Mary Parish. Whatever brings you down US-90, the trip includes flight tracking, complimentary wait time, and a professional chauffeur who knows exactly how long the Berwick bridge takes at shift change.",
+      "Leisure travelers ride the route too — for the Louisiana Shrimp & Petroleum Festival over Labor Day weekend, for swamp tours and Atchafalaya Basin adventures, and for family visits across St. Mary Parish. Whatever brings you down US-60, the trip includes flight tracking, complimentary wait time, and a professional chauffeur who knows exactly how long the Berwick bridge takes at shift change.",
     ],
     highlights: [
       "Guaranteed pickups on a route apps routinely decline",
@@ -1437,7 +1437,7 @@ export const routes = [
       },
       {
         q: "What if my flight into MSY is delayed?",
-        a: "Nothing changes for you. We track the flight in real time and adjust the pickup automatically, with 60 minutes of complimentary wait time on domestic arrivals and 90 on international.",
+        a: "Nothing changes for you. We track the flight in real time and adjust the pickup automatically, with 45 minutes of complimentary wait time on domestic arrivals and 60 on international.",
       },
       {
         q: "What does the MSY to New Iberia trip cost?",

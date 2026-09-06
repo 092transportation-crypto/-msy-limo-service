@@ -26,7 +26,7 @@ export const faqData = [
   {
     id: "faq-4",
     question: "What happens if my flight into MSY is delayed?",
-    answer: "Nothing changes for you. We track every inbound flight in real time and adjust your pickup automatically, with 60 minutes of complimentary wait time on domestic arrivals and 90 minutes on international arrivals."
+    answer: "Nothing changes for you. We track every inbound flight in real time and adjust your pickup automatically, with 45 minutes of complimentary wait time on domestic arrivals and 60 minutes on international arrivals."
   },
   {
     id: "faq-5",
@@ -40,6 +40,11 @@ export const faqData = [
   },
   {
     id: "faq-7",
+    question: "What is your cancellation policy?",
+    answer: "Sedans and SUVs can be cancelled free of charge up to 3 hours before your scheduled pickup time. Sprinter vans, limousines and special-event bookings (weddings, proms, festivals and group events) can be cancelled free of charge up to 12 hours before pickup. Cancellations inside those windows may be subject to a fee."
+  },
+  {
+    id: "faq-8",
     question: "Do you provide corporate car service at MSY airport?",
     answer: "Yes. We offer corporate accounts with priority booking, consolidated monthly billing, and meet-and-greet service for arriving clients. Hourly charters are available for roadshows and multi-stop business days."
   }

@@ -117,8 +117,8 @@ const blogPosts = [
       <h3>Booking Your Airport Transfer</h3>
       <p>When you book with MSY Limo Service, you're guaranteed:</p>
       <ul>
-        <li>60-minute complimentary wait time for domestic arrivals</li>
-        <li>90-minute complimentary wait time for international arrivals</li>
+        <li>45-minute complimentary wait time for domestic arrivals</li>
+        <li>60-minute complimentary wait time for international arrivals</li>
         <li>Meet and greet service available at baggage claim</li>
         <li>Child car seats upon request</li>
       </ul>
