@@ -158,7 +158,7 @@ const ContactSection = () => {
                 <div>
                   <p className="text-sm text-white/50">Location</p>
                   <p className="text-xl font-semibold text-white">
-                    New Orleans, Louisiana
+                    9836 Lyon Ave, Laurel, MD 20723
                   </p>
                 </div>
               </div>

@@ -102,7 +102,7 @@ const Footer = () => {
                   <div className="w-12 h-12 md:w-10 md:h-10 bg-amber-500/10 border border-amber-500/30 rounded-xl flex items-center justify-center flex-shrink-0">
                     <MapPin className="w-6 h-6 md:w-5 md:h-5 text-amber-400" />
                   </div>
-                  <span>New Orleans, Louisiana</span>
+                  <span>9836 Lyon Ave, Laurel, MD 20723</span>
                 </div>
                 <div className="flex items-center gap-3 text-white/70 p-2 -ml-2">
                   <div className="w-12 h-12 md:w-10 md:h-10 bg-amber-500/10 border border-amber-500/30 rounded-xl flex items-center justify-center flex-shrink-0">

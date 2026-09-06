@@ -142,7 +142,7 @@ const ContactPage = () => {
             </a>
             <div className="flex items-center gap-3 text-black font-semibold">
               <MapPin className="w-5 h-5" />
-              <span>New Orleans, Louisiana</span>
+              <span>9836 Lyon Ave, Laurel, MD 20723</span>
             </div>
           </div>
         </div>
@@ -214,7 +214,7 @@ const ContactPage = () => {
                   </div>
                   <div>
                     <p className="text-sm text-white/50">Location</p>
-                    <p className="text-xl font-semibold text-white">New Orleans, Louisiana</p>
+                    <p className="text-xl font-semibold text-white">9836 Lyon Ave, Laurel, MD 20723</p>
                   </div>
                 </motion.div>
 

@@ -57,8 +57,10 @@ const HomePage = () => {
           "url": "https://msylimoservice.com",
           "address": {
             "@type": "PostalAddress",
-            "addressLocality": "New Orleans",
-            "addressRegion": "LA",
+            "streetAddress": "9836 Lyon Ave",
+            "addressLocality": "Laurel",
+            "addressRegion": "MD",
+            "postalCode": "20723",
             "addressCountry": "US"
           },
           "areaServed": ["New Orleans", "Kenner", "Metairie", "Gretna", "Greater New Orleans Area", "Louisiana"],
