@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { MapPin, Plane, Loader2 } from "lucide-react";
-import { providerLabel, suggest } from "@/lib/placesAutocomplete";
+import { Building2, Hotel, Landmark, Loader2, MapPin, Plane, TrainFront } from "lucide-react";
+import { hasGooglePlaces, prefetchGooglePlaces, providerLabel, suggest } from "@/lib/placesAutocomplete";
 
 // Address autocomplete for the pickup / drop-off fields. Suggestions come from
 // Google Maps Places when REACT_APP_GOOGLE_MAPS_API_KEY is configured, and
@@ -17,6 +17,14 @@ const QUICK_PICKS = [
 
 // Bias results toward the New Orleans metro area.
 const BIAS = { lat: 29.95, lng: -90.08 };
+
+
+// Google Maps-style icons per place type.
+const ICONS = { airport: Plane, hotel: Hotel, landmark: Landmark, transit: TrainFront, city: Building2, address: MapPin };
+const SuggestionIcon = ({ item, size, className }) => {
+  const Icon = item.isAirport ? Plane : ICONS[item.kind] || MapPin;
+  return <Icon size={size} className={className} />;
+};
 
 const labelOf = (item) => (item.secondary ? `${item.main}, ${item.secondary}` : item.main);
 
@@ -65,14 +73,15 @@ const AddressAutocomplete = ({
     const q = e.target.value;
     onChange(q);
     if (timerRef.current) clearTimeout(timerRef.current);
-    if (q.trim().length < 3) {
+    // Google answers usefully from two characters; Photon needs three.
+    if (q.trim().length < (hasGooglePlaces() ? 2 : 3)) {
       setItems([]);
       setLoading(false);
       setOpen(true);
       return;
     }
     setOpen(true);
-    timerRef.current = setTimeout(() => fetchSuggestions(q.trim()), 250);
+    timerRef.current = setTimeout(() => fetchSuggestions(q.trim()), 120);
   };
 
   const select = (item) => {
@@ -110,7 +119,10 @@ const AddressAutocomplete = ({
         autoComplete="off"
         value={value}
         onChange={handleInput}
-        onFocus={() => setOpen(true)}
+        onFocus={() => {
+          prefetchGooglePlaces();
+          setOpen(true);
+        }}
         onBlur={() => setOpen(false)}
         onKeyDown={onKeyDown}
       />
@@ -150,11 +162,7 @@ const AddressAutocomplete = ({
                       i === highlight ? "bg-amber-500/20 text-white" : "text-white/90"
                     }`}
                   >
-                    {item.isAirport ? (
-                      <Plane size={15} className="mt-0.5 shrink-0 text-amber-400" />
-                    ) : (
-                      <MapPin size={15} className="mt-0.5 shrink-0 text-amber-400" />
-                    )}
+                    <SuggestionIcon item={item} size={15} className="mt-0.5 shrink-0 text-amber-400" />
                     <span className="leading-snug">
                       {item.main}
                       {item.secondary && <span className="block text-xs text-white/50">{item.secondary}</span>}
