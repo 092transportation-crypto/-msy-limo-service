@@ -85,8 +85,12 @@ export async function googleSuggestions(input, { signal } = {}) {
   const places = await loadGooglePlaces();
   if (signal && signal.aborted) return [];
 
-  if (places.AutocompleteSuggestion && places.AutocompleteSuggestion.fetchAutocompletePredictions) {
-    const { suggestions } = await places.AutocompleteSuggestion.fetchAutocompletePredictions({
+  // Places API (New). The static method is `fetchAutocompleteSuggestions`
+  // (older betas exposed `fetchAutocompletePredictions`).
+  const AS = places.AutocompleteSuggestion;
+  const fetchNew = AS && (AS.fetchAutocompleteSuggestions || AS.fetchAutocompletePredictions);
+  if (fetchNew) {
+    const { suggestions } = await fetchNew.call(AS, {
       input,
       includedRegionCodes: ["us"],
       locationBias: DMV_BOUNDS,
@@ -115,10 +119,15 @@ export async function googleSuggestions(input, { signal } = {}) {
         componentRestrictions: { country: "us" },
         bounds: new g.LatLngBounds({ lat: DMV_BOUNDS.south, lng: DMV_BOUNDS.west }, { lat: DMV_BOUNDS.north, lng: DMV_BOUNDS.east }),
       },
-      (res, status) => resolve(status === "OK" && res ? res : [])
+      (res, status) => resolve({ res, status })
     );
   });
-  return predictions.map((p) => ({
+  if (predictions.status !== "OK" && predictions.status !== "ZERO_RESULTS") {
+    // e.g. REQUEST_DENIED when the legacy Places API isn't enabled for the key —
+    // let suggest() fall back to Photon instead of showing nothing.
+    throw new Error(`Google Places legacy autocomplete: ${predictions.status}`);
+  }
+  return (predictions.res || []).map((p) => ({
     main: (p.structured_formatting && p.structured_formatting.main_text) || p.description,
     secondary: (p.structured_formatting && p.structured_formatting.secondary_text) || "",
     address: p.description,
