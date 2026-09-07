@@ -1,26 +1,26 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { MapPin, Plane, Loader2 } from "lucide-react";
+import { hasGooglePlaces, newSessionToken, providerLabel, resolveSelection, suggest } from "@/lib/placesAutocomplete";
 
-// Address autocomplete backed by Photon (photon.komoot.io) — free, no API key,
-// OpenStreetMap data. Results are biased toward the New Orleans metro area.
-// Renders only the input + label + dropdown; the caller supplies the input and
-// label classes so it matches the surrounding form exactly.
+// Address autocomplete for the pickup / drop-off fields. Suggestions come from
+// Google Maps Places when REACT_APP_GOOGLE_MAPS_API_KEY is configured, and
+// from the free Photon geocoder otherwise (see lib/placesAutocomplete).
+// Selecting a suggestion fills the formatted address (onChange) and reports
+// its coordinates (onSelect({ address, lat, lng, placeId })). Typing again
+// clears the coordinates. Renders only the input + label + dropdown; the
+// caller supplies the classes so it matches the surrounding form exactly.
 
 const QUICK_PICKS = [
-  "Louis Armstrong New Orleans International Airport (MSY), Kenner, LA",
-  "Port of New Orleans Cruise Terminal, New Orleans, LA",
-  "French Quarter, New Orleans, LA",
+  { main: "Louis Armstrong New Orleans International Airport (MSY)", secondary: "Kenner, LA", lat: 29.9934, lng: -90.258, isAirport: true, source: "local" },
+  { main: "Port of New Orleans Cruise Terminal", secondary: "New Orleans, LA", lat: 29.942, lng: -90.062, isAirport: false, source: "local" },
+  { main: "French Quarter", secondary: "New Orleans, LA", lat: 29.9584, lng: -90.0644, isAirport: false, source: "local" },
 ];
 
-const formatSuggestion = (feature) => {
-  const p = feature.properties || {};
-  const street = [p.housenumber, p.street].filter(Boolean).join(" ");
-  const seen = new Set();
-  return [p.name, street, p.district, p.city, p.state, p.postcode]
-    .filter((part) => part && !seen.has(part) && seen.add(part))
-    .join(", ");
-};
+// Bias results toward the New Orleans metro area.
+const BIAS = { lat: 29.95, lng: -90.08 };
+
+const labelOf = (item) => (item.secondary ? `${item.main}, ${item.secondary}` : item.main);
 
 const AddressAutocomplete = ({
   id,
@@ -28,6 +28,7 @@ const AddressAutocomplete = ({
   label,
   value,
   onChange,
+  onSelect,
   inputClassName,
   labelClassName,
 }) => {
@@ -37,6 +38,7 @@ const AddressAutocomplete = ({
   const [highlight, setHighlight] = useState(-1);
   const abortRef = useRef(null);
   const timerRef = useRef(null);
+  const sessionRef = useRef(undefined);
 
   useEffect(() => () => {
     if (abortRef.current) abortRef.current.abort();
@@ -48,19 +50,12 @@ const AddressAutocomplete = ({
     const ctrl = new AbortController();
     abortRef.current = ctrl;
     setLoading(true);
-    fetch(
-      `https://photon.komoot.io/api/?q=${encodeURIComponent(q)}&limit=6&lat=29.95&lon=-90.08&lang=en`,
-      { signal: ctrl.signal }
-    )
-      .then((r) => (r.ok ? r.json() : Promise.reject(new Error("bad response"))))
-      .then((data) => {
+    if (hasGooglePlaces() && !sessionRef.current) sessionRef.current = newSessionToken();
+    suggest(q, { bias: BIAS, signal: ctrl.signal, sessionToken: sessionRef.current })
+      .then((results) => {
+        if (ctrl.signal.aborted) return;
         const seen = new Set();
-        const labels = (data.features || [])
-          .filter((f) => (f.properties || {}).countrycode === "US")
-          .map(formatSuggestion)
-          .filter((s) => s && !seen.has(s) && seen.add(s))
-          .slice(0, 6);
-        setItems(labels);
+        setItems(results.filter((s) => { const k = labelOf(s); return k && !seen.has(k) && seen.add(k); }).slice(0, 6));
         setHighlight(-1);
         setLoading(false);
       })
@@ -74,6 +69,7 @@ const AddressAutocomplete = ({
   const handleInput = (e) => {
     const q = e.target.value;
     onChange(q);
+    if (onSelect) onSelect(null);
     if (timerRef.current) clearTimeout(timerRef.current);
     if (q.trim().length < 3) {
       setItems([]);
@@ -85,10 +81,18 @@ const AddressAutocomplete = ({
     timerRef.current = setTimeout(() => fetchSuggestions(q.trim()), 250);
   };
 
-  const select = (text) => {
-    onChange(text);
+  const select = async (item) => {
+    onChange(labelOf(item));
     setItems([]);
     setOpen(false);
+    try {
+      const picked = await resolveSelection(item, sessionRef.current);
+      sessionRef.current = undefined;
+      if (picked.address) onChange(picked.address);
+      if (onSelect) onSelect(picked);
+    } catch {
+      if (onSelect) onSelect({ address: labelOf(item), lat: item.lat ?? null, lng: item.lng ?? null, placeId: item.placeId || null, source: item.source });
+    }
   };
 
   const showPicks = value.trim().length === 0;
@@ -147,7 +151,7 @@ const AddressAutocomplete = ({
             )}
             <ul className="max-h-64 overflow-y-auto overscroll-contain">
               {visible.map((item, i) => (
-                <li key={item}>
+                <li key={`${item.placeId || ""}${labelOf(item)}`}>
                   <button
                     type="button"
                     onMouseDown={(e) => {
@@ -160,19 +164,22 @@ const AddressAutocomplete = ({
                       i === highlight ? "bg-amber-500/20 text-white" : "text-white/90"
                     }`}
                   >
-                    {showPicks ? (
+                    {item.isAirport ? (
                       <Plane size={15} className="mt-0.5 shrink-0 text-amber-400" />
                     ) : (
                       <MapPin size={15} className="mt-0.5 shrink-0 text-amber-400" />
                     )}
-                    <span className="leading-snug">{item}</span>
+                    <span className="leading-snug">
+                      {item.main}
+                      {item.secondary && <span className="block text-xs text-white/50">{item.secondary}</span>}
+                    </span>
                   </button>
                 </li>
               ))}
             </ul>
             {!showPicks && (
               <div className="border-t border-white/10 px-4 py-1.5 text-right text-[10px] text-white/30">
-                Suggestions © OpenStreetMap
+                {providerLabel()}
               </div>
             )}
           </motion.div>

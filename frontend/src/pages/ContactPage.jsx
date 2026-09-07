@@ -14,6 +14,7 @@ const contactFaqSchema = buildFaqSchema([
 ]);
 import { toast } from "sonner";
 import { sanitizePhone, isValidPhone } from "@/lib/phone";
+import AddressAutocomplete from "@/components/AddressAutocomplete";
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -40,6 +41,10 @@ const ContactPage = () => {
     email: "",
     pickupLocation: "",
     dropoffLocation: "",
+    pickupLat: null,
+    pickupLng: null,
+    dropoffLat: null,
+    dropoffLng: null,
     date: "",
     passengers: ""
   };
@@ -329,27 +334,33 @@ const ContactPage = () => {
                   <div className="grid md:grid-cols-2 gap-4">
                     <div>
                       <label className="block text-white/70 text-sm mb-2">Pickup Location *</label>
-                      <input
-                        type="text"
-                        name="pickupLocation"
-                        value={formData.pickupLocation}
-                        onChange={handleChange}
-                        required
-                        placeholder="Address or Airport"
-                        className="w-full px-4 py-3 bg-gray-900 border border-amber-500/20 rounded-xl text-white placeholder-white/30 focus:border-amber-500 focus:outline-none transition-colors"
-                      />
+                      <div className="relative">
+                        <AddressAutocomplete
+                          id="contact-pickup"
+                          testId="contact-pickup-input"
+                          label="Pickup Location"
+                          value={formData.pickupLocation}
+                          onChange={(v) => setFormData((f) => ({ ...f, pickupLocation: v }))}
+                          onSelect={(p) => setFormData((f) => ({ ...f, pickupLat: p ? p.lat : null, pickupLng: p ? p.lng : null }))}
+                          inputClassName="w-full px-4 py-3 bg-gray-900 border border-amber-500/20 rounded-xl text-white placeholder-white/30 focus:border-amber-500 focus:outline-none transition-colors"
+                          labelClassName="sr-only"
+                        />
+                      </div>
                     </div>
                     <div>
                       <label className="block text-white/70 text-sm mb-2">Drop-off Location *</label>
-                      <input
-                        type="text"
-                        name="dropoffLocation"
-                        value={formData.dropoffLocation}
-                        onChange={handleChange}
-                        required
-                        placeholder="Address or Airport"
-                        className="w-full px-4 py-3 bg-gray-900 border border-amber-500/20 rounded-xl text-white placeholder-white/30 focus:border-amber-500 focus:outline-none transition-colors"
-                      />
+                      <div className="relative">
+                        <AddressAutocomplete
+                          id="contact-dropoff"
+                          testId="contact-dropoff-input"
+                          label="Drop-off Location"
+                          value={formData.dropoffLocation}
+                          onChange={(v) => setFormData((f) => ({ ...f, dropoffLocation: v }))}
+                          onSelect={(p) => setFormData((f) => ({ ...f, dropoffLat: p ? p.lat : null, dropoffLng: p ? p.lng : null }))}
+                          inputClassName="w-full px-4 py-3 bg-gray-900 border border-amber-500/20 rounded-xl text-white placeholder-white/30 focus:border-amber-500 focus:outline-none transition-colors"
+                          labelClassName="sr-only"
+                        />
+                      </div>
                     </div>
                   </div>
 
