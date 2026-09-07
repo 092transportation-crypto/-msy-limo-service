@@ -173,7 +173,7 @@ const AddressAutocomplete = ({
             </ul>
             {!showPicks && (
               <div className="border-t border-white/10 px-4 py-1.5 text-right text-[10px] text-white/30">
-                {providerLabel()}
+                {providerLabel(items)}
               </div>
             )}
           </motion.div>

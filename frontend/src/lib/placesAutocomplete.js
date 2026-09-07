@@ -182,6 +182,10 @@ export async function suggest(input, opts = {}) {
   return photonSuggestions(input, opts);
 }
 
-export function providerLabel() {
+/** Attribution for the suggestions actually on screen (Google results must
+ * carry "Powered by Google"; OpenStreetMap results must credit OSM). */
+export function providerLabel(items = []) {
+  if (items.some((i) => i && i.source === "google")) return "Powered by Google";
+  if (items.some((i) => i && i.source === "photon")) return "© OpenStreetMap contributors";
   return hasGooglePlaces() ? "Powered by Google" : "© OpenStreetMap contributors";
 }
