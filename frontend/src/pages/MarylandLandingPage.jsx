@@ -169,12 +169,12 @@ function buildBlocks(page) {
   return { stats, intro, highlights, destinations, sections, vehicles, faqs, related };
 }
 
-const MarylandLandingPage = ({ slug }) => {
-  const page = findMarylandPage(slug);
+const MarylandLandingPage = ({ slug, page: pageProp }) => {
+  const page = pageProp || findMarylandPage(slug);
 
   useEffect(() => {
     window.scrollTo(0, 0);
-  }, [slug]);
+  }, [slug, pageProp]);
 
   if (!page) return null;
 

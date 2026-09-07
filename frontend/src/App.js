@@ -24,6 +24,7 @@ const BlogsPage = lazy(() => import("@/pages/BlogsPage"));
 const BlogPostPage = lazy(() => import("@/pages/BlogPostPage"));
 const RouteLandingPage = lazy(() => import("@/pages/RouteLandingPage"));
 const MarylandLandingPage = lazy(() => import("@/pages/MarylandLandingPage"));
+const EventRoute = lazy(() => import("@/pages/EventRoute"));
 const VenueLandingPage = lazy(() => import("@/pages/VenueLandingPage"));
 
 // MSY airport route landing pages (content lives in src/data/routesData.js)
@@ -127,6 +128,7 @@ function App() {
             ))}
             <Route path="/book" element={<BookingPage />} />
             <Route path="/booking" element={<BookingPage />} />
+            <Route path="/:slug" element={<EventRoute />} />
             <Route path="*" element={<HomePage />} />
           </Routes>
         </Suspense>
