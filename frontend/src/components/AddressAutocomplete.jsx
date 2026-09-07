@@ -1,20 +1,18 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { MapPin, Plane, Loader2 } from "lucide-react";
-import { hasGooglePlaces, newSessionToken, providerLabel, resolveSelection, suggest } from "@/lib/placesAutocomplete";
+import { providerLabel, suggest } from "@/lib/placesAutocomplete";
 
 // Address autocomplete for the pickup / drop-off fields. Suggestions come from
 // Google Maps Places when REACT_APP_GOOGLE_MAPS_API_KEY is configured, and
 // from the free Photon geocoder otherwise (see lib/placesAutocomplete).
-// Selecting a suggestion fills the formatted address (onChange) and reports
-// its coordinates (onSelect({ address, lat, lng, placeId })). Typing again
-// clears the coordinates. Renders only the input + label + dropdown; the
+// Selecting a suggestion fills the formatted address via onChange. Renders only the input + label + dropdown; the
 // caller supplies the classes so it matches the surrounding form exactly.
 
 const QUICK_PICKS = [
-  { main: "Louis Armstrong New Orleans International Airport (MSY)", secondary: "Kenner, LA", lat: 29.9934, lng: -90.258, isAirport: true, source: "local" },
-  { main: "Port of New Orleans Cruise Terminal", secondary: "New Orleans, LA", lat: 29.942, lng: -90.062, isAirport: false, source: "local" },
-  { main: "French Quarter", secondary: "New Orleans, LA", lat: 29.9584, lng: -90.0644, isAirport: false, source: "local" },
+  { main: "Louis Armstrong New Orleans International Airport (MSY)", secondary: "Kenner, LA", isAirport: true, source: "local" },
+  { main: "Port of New Orleans Cruise Terminal", secondary: "New Orleans, LA", isAirport: false, source: "local" },
+  { main: "French Quarter", secondary: "New Orleans, LA", isAirport: false, source: "local" },
 ];
 
 // Bias results toward the New Orleans metro area.
@@ -28,7 +26,6 @@ const AddressAutocomplete = ({
   label,
   value,
   onChange,
-  onSelect,
   inputClassName,
   labelClassName,
 }) => {
@@ -38,7 +35,6 @@ const AddressAutocomplete = ({
   const [highlight, setHighlight] = useState(-1);
   const abortRef = useRef(null);
   const timerRef = useRef(null);
-  const sessionRef = useRef(undefined);
 
   useEffect(() => () => {
     if (abortRef.current) abortRef.current.abort();
@@ -50,8 +46,7 @@ const AddressAutocomplete = ({
     const ctrl = new AbortController();
     abortRef.current = ctrl;
     setLoading(true);
-    if (hasGooglePlaces() && !sessionRef.current) sessionRef.current = newSessionToken();
-    suggest(q, { bias: BIAS, signal: ctrl.signal, sessionToken: sessionRef.current })
+    suggest(q, { bias: BIAS, signal: ctrl.signal })
       .then((results) => {
         if (ctrl.signal.aborted) return;
         const seen = new Set();
@@ -69,7 +64,6 @@ const AddressAutocomplete = ({
   const handleInput = (e) => {
     const q = e.target.value;
     onChange(q);
-    if (onSelect) onSelect(null);
     if (timerRef.current) clearTimeout(timerRef.current);
     if (q.trim().length < 3) {
       setItems([]);
@@ -81,18 +75,10 @@ const AddressAutocomplete = ({
     timerRef.current = setTimeout(() => fetchSuggestions(q.trim()), 250);
   };
 
-  const select = async (item) => {
-    onChange(labelOf(item));
+  const select = (item) => {
+    onChange(item.address || labelOf(item));
     setItems([]);
     setOpen(false);
-    try {
-      const picked = await resolveSelection(item, sessionRef.current);
-      sessionRef.current = undefined;
-      if (picked.address) onChange(picked.address);
-      if (onSelect) onSelect(picked);
-    } catch {
-      if (onSelect) onSelect({ address: labelOf(item), lat: item.lat ?? null, lng: item.lng ?? null, placeId: item.placeId || null, source: item.source });
-    }
   };
 
   const showPicks = value.trim().length === 0;

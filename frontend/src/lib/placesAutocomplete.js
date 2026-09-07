@@ -1,5 +1,5 @@
 /*
- * Address suggestions + coordinates for the pickup / drop-off fields.
+ * Address suggestions for the pickup / drop-off fields.
  *
  * Primary source: Google Maps Places Autocomplete (Places API New, with the
  * legacy AutocompleteService as a fallback for older keys). It is enabled by
@@ -9,10 +9,10 @@
  * HTTP referrers.
  *
  * Fallback when no key is configured: the free Photon geocoder (OpenStreetMap
- * data), which also returns coordinates — so lat/lng capture works either way.
+ * data), so the dropdown always works.
  *
- * Every suggestion is { main, secondary, lat, lng, placeId?, source } and
- * selecting one resolves to { address, lat, lng, placeId, source }.
+ * Every suggestion is { main, secondary, address, source }; `address` is the
+ * full text that goes into the field when the suggestion is picked.
  */
 
 export const GOOGLE_MAPS_API_KEY = (process.env.REACT_APP_GOOGLE_MAPS_API_KEY || "").trim();
@@ -55,16 +55,8 @@ export function loadGooglePlaces() {
   return loader;
 }
 
-export function newSessionToken() {
-  try {
-    return new window.google.maps.places.AutocompleteSessionToken();
-  } catch {
-    return undefined;
-  }
-}
-
 /** Google predictions for the typed text, biased toward the service area. */
-export async function googleSuggestions(input, { bias, sessionToken, signal } = {}) {
+export async function googleSuggestions(input, { bias, signal } = {}) {
   const places = await loadGooglePlaces();
   if (signal && signal.aborted) return [];
   const center = bias ? { lat: bias.lat, lng: bias.lng } : undefined;
@@ -72,7 +64,6 @@ export async function googleSuggestions(input, { bias, sessionToken, signal } = 
   if (places.AutocompleteSuggestion && places.AutocompleteSuggestion.fetchAutocompletePredictions) {
     const { suggestions } = await places.AutocompleteSuggestion.fetchAutocompletePredictions({
       input,
-      sessionToken,
       includedRegionCodes: ["us"],
       ...(center ? { locationBias: { center, radius: 150000 } } : {}),
     });
@@ -82,8 +73,7 @@ export async function googleSuggestions(input, { bias, sessionToken, signal } = 
       .map((p) => ({
         main: p.mainText ? p.mainText.toString() : p.text.toString(),
         secondary: p.secondaryText ? p.secondaryText.toString() : "",
-        placeId: p.placeId,
-        prediction: p,
+        address: p.text.toString(),
         source: "google",
       }));
   }
@@ -94,7 +84,6 @@ export async function googleSuggestions(input, { bias, sessionToken, signal } = 
     service.getPlacePredictions(
       {
         input,
-        sessionToken,
         componentRestrictions: { country: "us" },
         ...(center ? { location: new window.google.maps.LatLng(center.lat, center.lng), radius: 150000 } : {}),
       },
@@ -104,50 +93,12 @@ export async function googleSuggestions(input, { bias, sessionToken, signal } = 
   return predictions.map((p) => ({
     main: (p.structured_formatting && p.structured_formatting.main_text) || p.description,
     secondary: (p.structured_formatting && p.structured_formatting.secondary_text) || "",
-    placeId: p.place_id,
+    address: p.description,
     source: "google",
   }));
 }
 
-/** Resolves a Google suggestion to its formatted address and coordinates. */
-export async function googlePlaceDetails(item, sessionToken) {
-  const places = await loadGooglePlaces();
-  if (item.prediction && typeof item.prediction.toPlace === "function") {
-    const place = item.prediction.toPlace();
-    await place.fetchFields({ fields: ["formattedAddress", "location", "displayName"] });
-    const loc = place.location;
-    return {
-      address: place.formattedAddress || [item.main, item.secondary].filter(Boolean).join(", "),
-      lat: loc ? Number(typeof loc.lat === "function" ? loc.lat() : loc.lat) : null,
-      lng: loc ? Number(typeof loc.lng === "function" ? loc.lng() : loc.lng) : null,
-      placeId: item.placeId,
-      name: place.displayName || item.main,
-      source: "google",
-    };
-  }
-  const service = new places.PlacesService(document.createElement("div"));
-  return new Promise((resolve) => {
-    service.getDetails(
-      { placeId: item.placeId, sessionToken, fields: ["formatted_address", "geometry", "name"] },
-      (place, status) => {
-        if (status !== "OK" || !place) {
-          return resolve({ address: [item.main, item.secondary].filter(Boolean).join(", "), lat: null, lng: null, placeId: item.placeId, name: item.main, source: "google" });
-        }
-        const loc = place.geometry && place.geometry.location;
-        resolve({
-          address: place.formatted_address || [item.main, item.secondary].filter(Boolean).join(", "),
-          lat: loc ? loc.lat() : null,
-          lng: loc ? loc.lng() : null,
-          placeId: item.placeId,
-          name: place.name || item.main,
-          source: "google",
-        });
-      }
-    );
-  });
-}
-
-/** Photon (OpenStreetMap) suggestions with coordinates — no key required. */
+/** Photon (OpenStreetMap) suggestions — no key required. */
 export async function photonSuggestions(input, { bias, signal, limit = 6 } = {}) {
   const url =
     "https://photon.komoot.io/api/?q=" +
@@ -167,14 +118,8 @@ export async function photonSuggestions(input, { bias, signal, limit = 6 } = {})
       const parts = [];
       if (p.name && street) parts.push(street);
       [p.district, p.city || p.county, p.state, p.postcode].forEach((x) => x && !parts.includes(x) && parts.push(x));
-      const coords = (f.geometry && f.geometry.coordinates) || [];
-      return {
-        main,
-        secondary: parts.join(", "),
-        lat: typeof coords[1] === "number" ? coords[1] : null,
-        lng: typeof coords[0] === "number" ? coords[0] : null,
-        source: "photon",
-      };
+      const secondary = parts.join(", ");
+      return { main, secondary, address: secondary ? `${main}, ${secondary}` : main, source: "photon" };
     })
     .filter(Boolean);
 }
@@ -190,19 +135,6 @@ export async function suggest(input, opts = {}) {
     }
   }
   return photonSuggestions(input, opts);
-}
-
-/** Resolves a chosen suggestion to { address, lat, lng, placeId, source }. */
-export async function resolveSelection(item, sessionToken) {
-  if (item.source === "google") return googlePlaceDetails(item, sessionToken);
-  return {
-    address: item.secondary ? `${item.main}, ${item.secondary}` : item.main,
-    lat: item.lat ?? null,
-    lng: item.lng ?? null,
-    placeId: item.placeId || null,
-    name: item.main,
-    source: item.source || "local",
-  };
 }
 
 export function providerLabel() {

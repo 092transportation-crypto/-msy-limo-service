@@ -26,14 +26,6 @@ const maskEmail = (addr = '') =>
   addr.replace(/^([^@]{0,2})[^@]*(@.*)$/, '$1***$2') || '(empty)';
 
 const usd = (v) => `$${Number(v || 0).toFixed(2)}`;
-const coord = (v) => {
-  if (v === null || v === undefined || v === '') return null;
-  const n = Number(v);
-  return Number.isFinite(n) ? n : null;
-};
-const coordText = (lat, lng) =>
-  lat != null && lng != null ? `${lat.toFixed(5)}, ${lng.toFixed(5)} (https://www.google.com/maps?q=${lat},${lng})` : '';
-
 const CUSTOM_QUOTE_TEXT = 'Custom quote requested — no instant price calculated';
 
 /**
@@ -144,10 +136,6 @@ module.exports = async (req, res) => {
     smsConsent: body.smsConsent ?? body.sms_consent ? 'Yes' : 'No',
     pickupLocation: field(body.pickupLocation || body.pickup_location, 300),
     dropoffLocation: field(body.dropoffLocation || body.dropoff_location, 300),
-    pickupLat: coord(body.pickupLat ?? body.pickup_lat),
-    pickupLng: coord(body.pickupLng ?? body.pickup_lng),
-    dropoffLat: coord(body.dropoffLat ?? body.dropoff_lat),
-    dropoffLng: coord(body.dropoffLng ?? body.dropoff_lng),
     date: field(body.date, 40),
     time: field(body.time, 40),
     passengers: field(body.passengers, 10),
@@ -188,9 +176,7 @@ module.exports = async (req, res) => {
       ${inquiry.flightNumber ? row('Flight Number', inquiry.flightNumber) : ''}
       ${pricing.mode === 'instant' ? '' : row('Vehicle Preference', inquiry.vehiclePreference)}
       ${row('Pickup Location', inquiry.pickupLocation)}
-      ${inquiry.pickupLat != null ? row('Pickup Coordinates', coordText(inquiry.pickupLat, inquiry.pickupLng)) : ''}
       ${row('Drop-off Location', inquiry.dropoffLocation)}
-      ${inquiry.dropoffLat != null ? row('Drop-off Coordinates', coordText(inquiry.dropoffLat, inquiry.dropoffLng)) : ''}
       ${row('Date', inquiry.date)}
       ${row('Time', inquiry.time)}
       ${row('Passengers', inquiry.passengers)}
@@ -218,9 +204,7 @@ module.exports = async (req, res) => {
     ...(inquiry.flightNumber ? [`Flight Number:    ${inquiry.flightNumber}`] : []),
     ...(pricing.mode === 'instant' ? [] : [`Vehicle:          ${inquiry.vehiclePreference || '—'}`]),
     `Pickup Location:  ${inquiry.pickupLocation || '—'}`,
-    ...(inquiry.pickupLat != null ? [`Pickup Coords:    ${coordText(inquiry.pickupLat, inquiry.pickupLng)}`] : []),
     `Drop-off:         ${inquiry.dropoffLocation || '—'}`,
-    ...(inquiry.dropoffLat != null ? [`Drop-off Coords:  ${coordText(inquiry.dropoffLat, inquiry.dropoffLng)}`] : []),
     `Date:             ${inquiry.date || '—'}`,
     `Time:             ${inquiry.time || '—'}`,
     `Passengers:       ${inquiry.passengers || '—'}`,

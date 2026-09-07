@@ -41,10 +41,6 @@ const ContactPage = () => {
     email: "",
     pickupLocation: "",
     dropoffLocation: "",
-    pickupLat: null,
-    pickupLng: null,
-    dropoffLat: null,
-    dropoffLng: null,
     date: "",
     passengers: ""
   };
@@ -341,7 +337,6 @@ const ContactPage = () => {
                           label="Pickup Location"
                           value={formData.pickupLocation}
                           onChange={(v) => setFormData((f) => ({ ...f, pickupLocation: v }))}
-                          onSelect={(p) => setFormData((f) => ({ ...f, pickupLat: p ? p.lat : null, pickupLng: p ? p.lng : null }))}
                           inputClassName="w-full px-4 py-3 bg-gray-900 border border-amber-500/20 rounded-xl text-white placeholder-white/30 focus:border-amber-500 focus:outline-none transition-colors"
                           labelClassName="sr-only"
                         />
@@ -356,7 +351,6 @@ const ContactPage = () => {
                           label="Drop-off Location"
                           value={formData.dropoffLocation}
                           onChange={(v) => setFormData((f) => ({ ...f, dropoffLocation: v }))}
-                          onSelect={(p) => setFormData((f) => ({ ...f, dropoffLat: p ? p.lat : null, dropoffLng: p ? p.lng : null }))}
                           inputClassName="w-full px-4 py-3 bg-gray-900 border border-amber-500/20 rounded-xl text-white placeholder-white/30 focus:border-amber-500 focus:outline-none transition-colors"
                           labelClassName="sr-only"
                         />

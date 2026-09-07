@@ -1,7 +1,6 @@
 /**
  * Address autocomplete: typing fetches suggestions (Photon fallback when no
- * Google Maps key is configured), picking one fills the formatted address and
- * reports its coordinates through onSelect.
+ * Google Maps key is configured), picking one fills the formatted address.
  */
 import React from "react";
 import { render, screen, fireEvent, act, waitFor } from "@testing-library/react";
@@ -17,20 +16,18 @@ afterEach(() => {
   jest.useRealTimers();
 });
 
-test("selecting a suggestion fills the address and captures lat/lng", async () => {
+test("selecting a suggestion fills the address", async () => {
   const onChange = jest.fn();
-  const onSelect = jest.fn();
   let value = "";
   const Wrapper = () => {
     const [v, setV] = React.useState("");
     value = v;
-    return <div className="relative"><AddressAutocomplete id="pickup" testId="pickup" label="Pickup Location" value={v} inputClassName="" labelClassName="" onChange={(x) => { setV(x); onChange(x); }} onSelect={onSelect} /></div>;
+    return <div className="relative"><AddressAutocomplete id="pickup" testId="pickup" label="Pickup Location" value={v} inputClassName="" labelClassName="" onChange={(x) => { setV(x); onChange(x); }} /></div>;
   };
   render(<Wrapper />);
   const input = screen.getByTestId("pickup");
   fireEvent.focus(input);
   fireEvent.change(input, { target: { value: "100 Main" } });
-  expect(onSelect).toHaveBeenCalledWith(null);
   await act(async () => {
     jest.advanceTimersByTime(300);
   });
@@ -41,7 +38,6 @@ test("selecting a suggestion fills the address and captures lat/lng", async () =
     fireEvent.pointerDown(option.closest("li, button"));
     fireEvent.mouseDown(option.closest("li, button"));
   });
-  await waitFor(() => expect(onSelect).toHaveBeenLastCalledWith(expect.objectContaining({ lat: 39.1754, lng: -76.6682, source: "photon" })));
-  expect(onChange).toHaveBeenLastCalledWith(expect.stringContaining("Test Plaza"));
+  await waitFor(() => expect(onChange).toHaveBeenLastCalledWith(expect.stringContaining("Test Plaza")));
   expect(value).toContain("Test Plaza");
 });
