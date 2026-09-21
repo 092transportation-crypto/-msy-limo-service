@@ -5,15 +5,23 @@ import DOMPurify from "dompurify";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import SEO, { buildFaqSchema } from "@/components/SEO";
-import { seoBlogPosts } from "@/data/blogPostsData";
+import { seoBlogPosts as datedPosts } from "@/data/blogPostsData";
+import { GUIDES } from "@/data/guides";
+
+// Guides live at /<slug>; data-driven posts at /blog/<slug>. Guides lead the list.
+const postPath = (p) => (GUIDES.includes(p) ? `/${p.slug}` : `/blog/${p.slug}`);
+const seoBlogPosts = [...GUIDES, ...datedPosts];
 import { Calendar, Clock, ArrowRight, User, Tag, Share2, Facebook, Twitter, Linkedin, Link2, Check } from "lucide-react";
 
-const blogFaqSchema = buildFaqSchema([
+const BLOG_FAQS = ensureFiveFaqs([
   { q: "What topics does the MSY Limo blog cover?", a: "MSY airport transportation guides, car service vs. rideshare comparisons, corporate travel tips, and local New Orleans travel advice — from the French Quarter to the Northshore." },
   { q: "How do I book a ride after reading a guide?", a: "Book online through our reservation system or call (877) 609-1919 — dispatch answers 24/7 and every quote is a flat rate confirmed before you ride." },
   { q: "Do you publish route-specific pricing information?", a: "Our route pages and guides explain flat-rate pricing by vehicle class. For an exact quote on any trip, call (877) 609-1919 with your pickup and drop-off details." },
-]);
+], { slug: "blogs" });
+const blogFaqSchema = buildFaqSchema(BLOG_FAQS);
 import { toast } from "sonner";
+import PageFaq from "@/components/PageFaq";
+import { ensureFiveFaqs } from "@/lib/faqExtras";
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -88,7 +96,7 @@ const blogPosts = [
     slug: "ultimate-guide-msy-airport-transportation",
     title: "The Ultimate Guide to MSY Airport Transportation in 2026",
     excerpt: "Everything you need to know about getting to and from Louis Armstrong New Orleans International Airport in style. From flight tracking to luggage assistance, discover why luxury limo service is the best choice.",
-    image: "/images/stock/u-1436491865332.jpg",
+    image: "/images/stock/u-1436491865332.webp",
     category: "Airport",
     author: "MSY Limo Team",
     date: "February 15, 2026",
@@ -129,7 +137,7 @@ const blogPosts = [
     slug: "top-10-reasons-hire-wedding-limo-new-orleans",
     title: "Top 10 Reasons to Hire a Wedding Limo in New Orleans",
     excerpt: "Your wedding day deserves the best. Discover why couples across Louisiana choose professional limo service for their special day and how it can make your celebration unforgettable.",
-    image: "/images/stock/u-1519741497674.jpg",
+    image: "/images/stock/u-1519741497674.webp",
     category: "Weddings",
     author: "MSY Limo Team",
     date: "February 12, 2026",
@@ -170,7 +178,7 @@ const blogPosts = [
     slug: "saints-game-day-transportation-guide",
     title: "Your Complete Guide to Saints Game Day Transportation",
     excerpt: "Who Dat Nation! Learn how to get to the Caesars Superdome stress-free. Skip the parking nightmare and arrive at the game ready to cheer for the black and gold.",
-    image: "/images/stock/u-1706092647576.jpg",
+    image: "/images/stock/u-1706092647576.webp",
     category: "Sports",
     author: "MSY Limo Team",
     date: "February 10, 2026",
@@ -205,7 +213,7 @@ const blogPosts = [
     slug: "cruise-port-new-orleans-everything-you-need-know",
     title: "Cruise Port New Orleans: Everything You Need to Know",
     excerpt: "Planning a cruise from New Orleans? From the Julia Street Terminal to Caribbean destinations, here's your complete guide to cruise port transportation.",
-    image: "/images/stock/u-1710615209322.jpg",
+    image: "/images/stock/u-1710615209322.webp",
     category: "Cruise",
     author: "MSY Limo Team",
     date: "February 8, 2026",
@@ -245,7 +253,7 @@ const blogPosts = [
     slug: "corporate-transportation-new-orleans-business-travel",
     title: "Corporate Transportation in New Orleans: A Business Travel Guide",
     excerpt: "Make the right impression with executive transportation. Learn how professional car service can enhance your business meetings and corporate events in the Big Easy.",
-    image: "/images/stock/u-1560472354.jpg",
+    image: "/images/stock/u-1560472354.webp",
     category: "Corporate",
     author: "MSY Limo Team",
     date: "February 5, 2026",
@@ -282,7 +290,7 @@ const blogPosts = [
     slug: "french-quarter-nightlife-safe-transportation",
     title: "French Quarter Nightlife: How to Get Home Safely",
     excerpt: "Bourbon Street calls! But after a night of jazz, cocktails, and celebration, getting home safely is essential. Here's your guide to responsible nightlife transportation.",
-    image: "/images/stock/u-1568454537842.jpg",
+    image: "/images/stock/u-1568454537842.webp",
     category: "Nightlife",
     author: "MSY Limo Team",
     date: "February 3, 2026",
@@ -319,7 +327,7 @@ const blogPosts = [
     slug: "mardi-gras-transportation-survival-guide",
     title: "Mardi Gras Transportation: Your Survival Guide",
     excerpt: "Laissez les bons temps rouler! Mardi Gras is the ultimate New Orleans experience, but navigating the city during Carnival season requires planning. Here's how to do it right.",
-    image: "/images/stock/u-1580974852861.jpg",
+    image: "/images/stock/u-1580974852861.webp",
     category: "Events",
     author: "MSY Limo Team",
     date: "January 30, 2026",
@@ -365,7 +373,7 @@ const blogPosts = [
     slug: "jazz-fest-transportation-tips",
     title: "Jazz Fest Transportation Tips: Getting to the Fair Grounds",
     excerpt: "Jazz Fest is a New Orleans tradition. With hundreds of thousands of music lovers converging on the Fair Grounds, smart transportation planning is essential.",
-    image: "/images/stock/u-1514525253161.jpg",
+    image: "/images/stock/u-1514525253161.webp",
     category: "Events",
     author: "MSY Limo Team",
     date: "January 25, 2026",
@@ -404,7 +412,7 @@ const blogPosts = [
     slug: "luxury-fleet-guide-which-vehicle-right-for-you",
     title: "Luxury Fleet Guide: Which Vehicle is Right for You?",
     excerpt: "From executive sedans to spacious SUVs, choosing the right vehicle for your needs matters. Here's our complete guide to our luxury fleet.",
-    image: "/images/stock/u-1549317661.jpg",
+    image: "/images/stock/u-1549317661.webp",
     category: "Fleet",
     author: "MSY Limo Team",
     date: "January 20, 2026",
@@ -456,7 +464,7 @@ const blogPosts = [
     slug: "new-orleans-best-kept-secrets-locals-guide",
     title: "New Orleans' Best Kept Secrets: A Local's Guide",
     excerpt: "Beyond Bourbon Street lies the real New Orleans. Discover the hidden gems that locals love and how to explore them with a private chauffeur.",
-    image: "/images/stock/u-1568454537842.jpg",
+    image: "/images/stock/u-1568454537842.webp",
     category: "Travel",
     author: "MSY Limo Team",
     date: "January 15, 2026",
@@ -490,7 +498,7 @@ const blogPosts = [
     slug: "business-etiquette-car-service",
     title: "Business Etiquette: Making the Most of Your Car Service",
     excerpt: "Professional transportation is about more than just getting from A to B. Learn the unwritten rules of business travel etiquette.",
-    image: "/images/stock/u-1560472354.jpg",
+    image: "/images/stock/u-1560472354.webp",
     category: "Corporate",
     author: "MSY Limo Team",
     date: "January 10, 2026",
@@ -531,7 +539,7 @@ const blogPosts = [
     slug: "planning-perfect-date-night-new-orleans",
     title: "Planning the Perfect Date Night in New Orleans",
     excerpt: "Romance is in the air in the Big Easy. From fine dining to live jazz, here's how to plan an unforgettable date night with luxury transportation.",
-    image: "/images/stock/u-1517457373958.jpg",
+    image: "/images/stock/u-1517457373958.webp",
     category: "Romance",
     author: "MSY Limo Team",
     date: "January 5, 2026",
@@ -664,7 +672,7 @@ const BlogsPage = () => {
                   whileHover={{ y: -8 }}
                   className="bg-gray-900/50 border border-amber-500/20 rounded-xl overflow-hidden hover:border-amber-500/40 transition-all"
                 >
-                  <Link to={`/blog/${post.slug}`}>
+                  <Link to={postPath(post)}>
                     <div className="aspect-video overflow-hidden">
                       <img
                         src={post.image}
@@ -684,7 +692,7 @@ const BlogsPage = () => {
                     <h3 className="text-lg font-semibold text-white mb-2 line-clamp-2">{post.title}</h3>
                     <p className="text-white/60 text-sm line-clamp-2 mb-4">{post.excerpt}</p>
                     <Link
-                      to={`/blog/${post.slug}`}
+                      to={postPath(post)}
                       className="text-amber-400 text-sm font-medium inline-flex items-center gap-1 hover:gap-2 transition-all"
                     >
                       Read Full Guide <ArrowRight className="w-4 h-4" />
@@ -906,6 +914,7 @@ const BlogsPage = () => {
         </div>
       </motion.section>
 
+      <PageFaq faqs={BLOG_FAQS} />
       <Footer />
     </div>
   );

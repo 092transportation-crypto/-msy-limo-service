@@ -5,13 +5,16 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import SEO, { buildFaqSchema } from "@/components/SEO";
 import { Trophy, Clock, CheckCircle, Phone, ArrowRight, MapPin, Users, Car, Calendar, Star } from "lucide-react";
+import PageFaq from "@/components/PageFaq";
+import { ensureFiveFaqs } from "@/lib/faqExtras";
 
-const saintsFaqSchema = buildFaqSchema([
+const SAINTS_FAQS = ensureFiveFaqs([
   { q: "Do you provide transportation to Saints games at the Superdome?", a: "Yes — door-to-door game day service from anywhere in Greater New Orleans with drop-off near the Caesars Superdome entrance and a scheduled post-game pickup." },
   { q: "Can you drop our group at a tailgate spot?", a: "Absolutely. We deliver groups to Champions Square or your preferred tailgate location hours before kickoff, with SUVs and Sprinter vans for larger crews." },
   { q: "How do post-game pickups work?", a: "Your chauffeur stages at a pre-agreed pickup point and monitors the game clock, so you're rolling shortly after the final whistle instead of sitting in garage traffic." },
   { q: "Do you offer season packages for Saints home games?", a: "Yes — season ticket holders can set up recurring game-day bookings at discounted rates. Call (877) 609-1919 to arrange your season schedule." },
-]);
+], { slug: "saints" });
+const saintsFaqSchema = buildFaqSchema(SAINTS_FAQS);
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -155,7 +158,7 @@ const SaintsPage = () => {
               className="hidden lg:block"
             >
               <motion.img 
-                src="/images/stock/u-1706092647576.jpg" 
+                src="/images/stock/u-1706092647576.webp" 
                 alt="New Orleans Saints game day limo transportation Superdome" 
                 className="rounded-2xl shadow-2xl shadow-amber-500/10 border border-amber-500/20"
                 whileHover={{ scale: 1.03 }}
@@ -267,7 +270,7 @@ const SaintsPage = () => {
               transition={{ duration: 0.6, delay: 0.2 }}
             >
               <motion.img 
-                src="/images/stock/u-1767584413129.jpg" 
+                src="/images/stock/u-1767584413129.webp" 
                 alt="Football stadium New Orleans Saints game transportation" 
                 className="rounded-2xl shadow-2xl shadow-amber-500/10 border border-amber-500/20"
                 whileHover={{ scale: 1.03 }}
@@ -408,6 +411,7 @@ const SaintsPage = () => {
         </div>
       </motion.section>
 
+      <PageFaq faqs={SAINTS_FAQS} />
       <Footer />
     </div>
   );

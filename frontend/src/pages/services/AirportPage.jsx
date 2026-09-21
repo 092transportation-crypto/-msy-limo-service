@@ -1,18 +1,20 @@
 import { useEffect } from "react";
-import { setPageSeo } from "@/lib/seo";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import SEO, { buildFaqSchema } from "@/components/SEO";
 import { Plane, Clock, CheckCircle, Phone, ArrowRight } from "lucide-react";
+import PageFaq from "@/components/PageFaq";
+import { ensureFiveFaqs } from "@/lib/faqExtras";
 
-const airportFaqSchema = buildFaqSchema([
+const AIRPORT_FAQS = ensureFiveFaqs([
   { q: "Which airports does MSY Limo Service cover?", a: "We serve MSY (Louis Armstrong New Orleans International) and NEW (Lakefront Airport). Every transfer includes real-time flight tracking and complimentary wait time." },
   { q: "How much wait time is included with an airport pickup?", a: "45 minutes of complimentary wait time on domestic arrivals, 60 minutes on international arrivals, and 15 minutes for departures — we track your flight so delays never cost you extra." },
   { q: "Where does my chauffeur meet me at MSY?", a: "Standard pickups meet you at the arrivals curb; with meet-and-greet service, your chauffeur waits inside baggage claim with a personalized sign and helps with luggage." },
   { q: "Do you offer flat rates for MSY airport car service?", a: "Yes — every airport transfer is a flat rate quoted by vehicle class and confirmed at booking, with no surge pricing at any hour or event. Call (877) 609-1919 for a quote." },
-]);
+], { slug: "airport" });
+const airportFaqSchema = buildFaqSchema(AIRPORT_FAQS);
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -30,11 +32,6 @@ const itemVariants = {
 const AirportPage = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
-    setPageSeo({
-      title: "Airport Transportation New Orleans | MSY Limo Service",
-      description: "Airport transportation in New Orleans to & from MSY Louis Armstrong Airport. Licensed chauffeurs, real-time flight tracking & free wait time. Book 24/7. (877) 609-1919.",
-      path: "/services/airport-transportation",
-    });
   }, []);
 
   const airports = [
@@ -55,7 +52,7 @@ const AirportPage = () => {
     <div className="min-h-screen bg-black">
       <SEO
         title="MSY Airport Transportation | New Orleans Airport Limo"
-        description="MSY airport car service with flight tracking, meet & greet and flat rates. New Orleans airport limo transfers 24/7. Book now or call (877) 609-1919."
+        description="MSY airport car service with flight tracking, meet & greet and flat rates. New Orleans airport limo transfers 24/7. Call (877) 609-1919."
         path="/services/airport-transportation"
         schema={[airportFaqSchema]}
       />
@@ -120,7 +117,7 @@ const AirportPage = () => {
               className="hidden lg:block"
             >
               <motion.img 
-                src="/images/stock/u-1436491865332.jpg" 
+                src="/images/stock/u-1436491865332.webp" 
                 alt="MSY Limo Service airport transportation New Orleans MSY airport" 
                 className="rounded-2xl shadow-2xl shadow-amber-500/10 border border-amber-500/20"
                 whileHover={{ scale: 1.03 }}
@@ -325,6 +322,7 @@ const AirportPage = () => {
         </div>
       </motion.section>
 
+      <PageFaq faqs={AIRPORT_FAQS} />
       <Footer />
     </div>
   );

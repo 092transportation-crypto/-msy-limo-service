@@ -6,7 +6,7 @@ const fleet = [
   {
     id: 1,
     name: "Mercedes-Benz E-Class 2023+ or similar",
-    image: "/images/mercedes-e-class.jpg",
+    image: "/images/mercedes-e-class.webp",
     passengers: 3,
     luggage: 2,
     category: "Business Sedan",
@@ -15,7 +15,7 @@ const fleet = [
   {
     id: 2,
     name: "BMW 7 Series / Mercedes S-Class 2023+ or similar",
-    image: "/images/bmw-7-series.jpg",
+    image: "/images/bmw-7-series.webp",
     passengers: 3,
     luggage: 2,
     category: "First Class Sedan",
@@ -24,7 +24,7 @@ const fleet = [
   {
     id: 3,
     name: "Lincoln Nautilus 2023+ or similar",
-    image: "/images/lincoln-nautilus.jpg",
+    image: "/images/lincoln-nautilus.webp",
     passengers: 3,
     luggage: 4,
     category: "Midsize SUV",
@@ -33,7 +33,7 @@ const fleet = [
   {
     id: 4,
     name: "Chevrolet Suburban 2023+ or similar",
-    image: "/images/chevy-suburban.jpg",
+    image: "/images/chevy-suburban.webp",
     passengers: 5,
     luggage: 5,
     category: "Luxury SUV",
@@ -42,7 +42,7 @@ const fleet = [
   {
     id: 5,
     name: "Cadillac Escalade 2023+ or similar",
-    image: "/images/cadillac-escalade.jpg",
+    image: "/images/cadillac-escalade.webp",
     passengers: 6,
     luggage: 5,
     category: "Premium SUV",
@@ -51,7 +51,7 @@ const fleet = [
   {
     id: 6,
     name: "Mercedes Sprinter 2023+ or similar",
-    image: "/images/sprinter-shuttle-seats.jpg",
+    image: "/images/sprinter-shuttle-seats.webp",
     passengers: 13,
     luggage: 13,
     category: "Sprinter Shuttle",
@@ -60,7 +60,7 @@ const fleet = [
   {
     id: 7,
     name: "Mercedes Sprinter 2023+ or similar",
-    image: "/images/mercedes-sprinter.jpg",
+    image: "/images/mercedes-sprinter.webp",
     passengers: 13,
     luggage: 13,
     category: "Sprinter Executive",
@@ -69,7 +69,7 @@ const fleet = [
   {
     id: 8,
     name: "Mercedes Sprinter Limo 2023+ or similar",
-    image: "/images/limousine.jpg",
+    image: "/images/limousine.webp",
     passengers: 13,
     luggage: 13,
     category: "Sprinter Limo",

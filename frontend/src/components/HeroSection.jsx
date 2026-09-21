@@ -14,7 +14,7 @@ const HeroSection = () => {
           playsInline
           preload="metadata"
           className="w-full h-full object-cover opacity-20"
-          poster="/images/stock/p-8344926.jpg"
+          poster="/images/stock/p-8344926.webp"
         >
           <source src="https://videos.pexels.com/video-files/8344926/8344926-uhd_2560_1440_25fps.mp4" type="video/mp4" />
         </video>

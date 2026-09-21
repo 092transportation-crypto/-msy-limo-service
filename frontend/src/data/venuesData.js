@@ -1,5 +1,6 @@
 // Content for the concert & event venue landing pages.
 // Each entry drives one page at /<slug> via VenueLandingPage.
+import { ensureFiveFaqs } from "@/lib/faqExtras";
 
 export const venues = [
   {
@@ -22,7 +23,7 @@ export const venues = [
       "Post-show pickup coordinated by text with your chauffeur",
       "Group-friendly Escalades and Sprinter vans up to 13 passengers",
       "Hourly charters for pre-show dinner and after-parties",
-      "Licensed & Insured Louisiana Carrier",
+      "Licensed & Insured Carrier",
     ],
     venuesTitle: "New Orleans Venues We Serve Every Week",
     venues: [
@@ -64,7 +65,7 @@ export const venues = [
     whyParagraphs: [
       "Event-night pricing is where rideshare hurts the most. When 15,000 people leave the Smoothie King Center at the same moment, surge multipliers hit their peak and pickup pins scatter across the CBD. Your flat rate with us is locked at booking — a Saturday-night arena show costs exactly what we quoted on Tuesday.",
       "There's also the matter of the night itself. A chauffeured vehicle means everyone in your party can enjoy the pre-show cocktails and the champagne toast without a designated driver. Your chauffeur handles the venue traffic loops, the police detours, and the staging lots, and you step out at the door — then step back in when it's over.",
-      "As a Licensed & Insured Louisiana Carrier with background-checked, professionally trained chauffeurs, we run event transportation year-round: regular-season Saints Sundays, jazz brunch matinees, festival weekends, and every arena tour that comes through the city. Book a one-way transfer, a round trip with post-show pickup, or an hourly charter that keeps the vehicle with you from dinner through the after-party.",
+      "As a Licensed & Insured Carrier with background-checked, professionally trained chauffeurs, we run event transportation year-round: regular-season Saints Sundays, jazz brunch matinees, festival weekends, and every arena tour that comes through the city. Book a one-way transfer, a round trip with post-show pickup, or an hourly charter that keeps the vehicle with you from dinner through the after-party.",
     ],
     faqs: [
       {
@@ -109,7 +110,7 @@ export const venues = [
       "Coordinated post-show pickup via your chauffeur's direct number",
       "Escalades and Sprinter vans for concert groups up to 13",
       "Hotel, restaurant, and MSY airport pickups available",
-      "Licensed & Insured Louisiana Carrier",
+      "Licensed & Insured Carrier",
     ],
     venuesTitle: "How Event Night Works With a Chauffeur",
     venues: [
@@ -147,7 +148,7 @@ export const venues = [
     whyTitle: "Skip the Arena Parking Entirely",
     whyParagraphs: [
       "Arena parking is the worst part of every Smoothie King Center event: garages charge premium event rates, fill early, and empty onto gridlocked one-way streets all at once. A reserved chauffeur turns that entire experience into two short walks — one to the door, one back to the car.",
-      "For groups, the math gets even better. A Sprinter van carrying twelve friends costs less per person than a pair of surge-priced rideshares, keeps everyone together, and turns the ride itself into part of the night. As a Licensed & Insured Louisiana Carrier, we're also the option companies trust for client entertainment and suite nights.",
+      "For groups, the math gets even better. A Sprinter van carrying twelve friends costs less per person than a pair of surge-priced rideshares, keeps everyone together, and turns the ride itself into part of the night. As a Licensed & Insured Carrier, we're also the option companies trust for client entertainment and suite nights.",
     ],
     faqs: [
       {
@@ -192,7 +193,7 @@ export const venues = [
       "Post-game pickup coordinated by text, no rideshare scrum",
       "Sprinter vans keep tailgate groups of up to 13 together",
       "Champions Square and pre-game restaurant stops included on request",
-      "Licensed & Insured Louisiana Carrier",
+      "Licensed & Insured Carrier",
     ],
     venuesTitle: "Superdome Events We Cover",
     venues: [
@@ -276,7 +277,7 @@ export const venues = [
       "Post-show pickup at a fixed point — no rideshare pin chaos",
       "Hourly charters for dinner + show + Frenchmen Street nights",
       "Gospel Brunch runs with direct MSY airport connections",
-      "Licensed & Insured Louisiana Carrier",
+      "Licensed & Insured Carrier",
     ],
     venuesTitle: "Nights We Handle at House of Blues",
     venues: [
@@ -314,7 +315,7 @@ export const venues = [
     whyTitle: "Why a Chauffeur Beats Driving to the Quarter",
     whyParagraphs: [
       "The French Quarter was laid out three centuries before the automobile, and it shows. Garages near Decatur charge steep event rates and fill early; street parking is functionally nonexistent; and after the show you'd face a long walk back through late-night crowds. A chauffeured car removes every one of those problems for a flat rate you lock in at booking.",
-      "Our chauffeurs work the Quarter daily. They know which blocks are barricaded for second lines and festivals, where NOPD allows passenger loading on Decatur, and how to time a pickup so you're not standing on the curb. As a Licensed & Insured Louisiana Carrier with professionally trained chauffeurs, we're the ride locals book for the nights that matter.",
+      "Our chauffeurs work the Quarter daily. They know which blocks are barricaded for second lines and festivals, where NOPD allows passenger loading on Decatur, and how to time a pickup so you're not standing on the curb. As a Licensed & Insured Carrier with professionally trained chauffeurs, we're the ride locals book for the nights that matter.",
     ],
     faqs: [
       {
@@ -340,5 +341,10 @@ export const venues = [
     ],
   },
 ];
+
+// Every page carries five FAQs (visible block + FAQPage schema).
+venues.forEach((p) => {
+  p.faqs = ensureFiveFaqs(p.faqs, { slug: p.slug });
+});
 
 export const getVenueBySlug = (slug) => venues.find((v) => v.slug === slug);

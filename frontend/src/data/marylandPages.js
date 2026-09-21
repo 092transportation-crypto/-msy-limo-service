@@ -1,5 +1,7 @@
 // Maryland SEO landing pages — city, route and service pages.
 // Generated content; each entry drives one page at /<slug>.
+import { ensureFiveFaqs } from "@/lib/faqExtras";
+import { MARYLAND_BATCH3 } from "@/data/marylandPagesBatch3";
 
 export const MARYLAND_PAGES = [
   {
@@ -8,7 +10,7 @@ export const MARYLAND_PAGES = [
     "name": "Rockville",
     "badge": "Maryland Limo Service",
     "h1": "Rockville Limo Service",
-    "metaTitle": "Rockville Limo Service | Chauffeured Car Service Rockville MD",
+    "metaTitle": "Rockville Limo Service | Car Service Rockville, MD",
     "metaDescription": "Chauffeured limo & car service in Rockville, Maryland. BWI, DCA & Dulles airport transfers, weddings, corporate & events. Flat rates. Call (877) 609-1919.",
     "stats": [
       {
@@ -114,7 +116,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Do you provide wedding and group transportation in Rockville?",
-        "a": "Yes. Sprinter vans seat up to 14 and stretch limousines up to 8; we coordinate multiple vehicles for larger parties at Glenview Mansion and venues across Montgomery County."
+        "a": "Yes. Sprinter vans seat up to 13 and stretch limousines up to 8; we coordinate multiple vehicles for larger parties at Glenview Mansion and venues across Montgomery County."
       },
       {
         "q": "Is service available around the clock in Rockville?",
@@ -275,7 +277,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Do you provide wedding and group transportation in Bethesda?",
-        "a": "Yes. Sprinter vans seat up to 14 and stretch limousines up to 8; we coordinate multiple vehicles for larger parties at the Music Center at Strathmore and venues across Montgomery County."
+        "a": "Yes. Sprinter vans seat up to 13 and stretch limousines up to 8; we coordinate multiple vehicles for larger parties at the Music Center at Strathmore and venues across Montgomery County."
       },
       {
         "q": "Is service available around the clock in Bethesda?",
@@ -436,7 +438,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Do you provide wedding and group transportation in Gaithersburg?",
-        "a": "Yes. Sprinter vans seat up to 14 and stretch limousines up to 8; we coordinate multiple vehicles for larger parties at Kentlands Mansion and venues across Montgomery County."
+        "a": "Yes. Sprinter vans seat up to 13 and stretch limousines up to 8; we coordinate multiple vehicles for larger parties at Kentlands Mansion and venues across Montgomery County."
       },
       {
         "q": "Is service available around the clock in Gaithersburg?",
@@ -492,7 +494,7 @@ export const MARYLAND_PAGES = [
     "badge": "Maryland Limo Service",
     "h1": "Silver Spring Limo Service",
     "metaTitle": "Silver Spring Limo Service",
-    "metaDescription": "Chauffeured limo & car service in Silver Spring, Maryland. BWI, DCA & Dulles airport transfers, weddings, corporate & events. Flat. Call (877) 609-1919.",
+    "metaDescription": "Chauffeured limo & car service in Silver Spring, Maryland. BWI, DCA & Dulles airport transfers, weddings, corporate & events. Flat rates. Call (877) 609-1919.",
     "stats": [
       {
         "label": "BWI",
@@ -597,7 +599,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Do you provide wedding and group transportation in Silver Spring?",
-        "a": "Yes. Sprinter vans seat up to 14 and stretch limousines up to 8; we coordinate multiple vehicles for larger parties at The Fillmore Silver Spring and venues across Montgomery County."
+        "a": "Yes. Sprinter vans seat up to 13 and stretch limousines up to 8; we coordinate multiple vehicles for larger parties at The Fillmore Silver Spring and venues across Montgomery County."
       },
       {
         "q": "Is service available around the clock in Silver Spring?",
@@ -758,7 +760,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Do you provide wedding and group transportation in Bowie?",
-        "a": "Yes. Sprinter vans seat up to 14 and stretch limousines up to 8; we coordinate multiple vehicles for larger parties at the Comfort Inn Conference Center Bowie and venues across Prince George's County."
+        "a": "Yes. Sprinter vans seat up to 13 and stretch limousines up to 8; we coordinate multiple vehicles for larger parties at the Comfort Inn Conference Center Bowie and venues across Prince George's County."
       },
       {
         "q": "Is service available around the clock in Bowie?",
@@ -919,7 +921,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Do you provide wedding and group transportation in Laurel?",
-        "a": "Yes. Sprinter vans seat up to 14 and stretch limousines up to 8; we coordinate multiple vehicles for larger parties at Montpelier Mansion and venues across Prince George's, Howard and Anne Arundel counties."
+        "a": "Yes. Sprinter vans seat up to 13 and stretch limousines up to 8; we coordinate multiple vehicles for larger parties at Montpelier Mansion and venues across Prince George's, Howard and Anne Arundel counties."
       },
       {
         "q": "Is service available around the clock in Laurel?",
@@ -974,7 +976,7 @@ export const MARYLAND_PAGES = [
     "name": "Greenbelt",
     "badge": "Maryland Limo Service",
     "h1": "Greenbelt Limo Service",
-    "metaTitle": "Greenbelt Limo Service | Chauffeured Car Service Greenbelt MD",
+    "metaTitle": "Greenbelt Limo Service | Car Service Greenbelt, MD",
     "metaDescription": "Chauffeured limo & car service in Greenbelt, Maryland. BWI, DCA & Dulles airport transfers, weddings, corporate & events. Flat rates. Call (877) 609-1919.",
     "stats": [
       {
@@ -1080,7 +1082,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Do you provide wedding and group transportation in Greenbelt?",
-        "a": "Yes. Sprinter vans seat up to 14 and stretch limousines up to 8; we coordinate multiple vehicles for larger parties at the Greenbelt Marriott and venues across Prince George's County."
+        "a": "Yes. Sprinter vans seat up to 13 and stretch limousines up to 8; we coordinate multiple vehicles for larger parties at the Greenbelt Marriott and venues across Prince George's County."
       },
       {
         "q": "Is service available around the clock in Greenbelt?",
@@ -1241,7 +1243,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Do you provide wedding and group transportation in Waldorf?",
-        "a": "Yes. Sprinter vans seat up to 14 and stretch limousines up to 8; we coordinate multiple vehicles for larger parties at the Capital Clubhouse and venues across Charles County."
+        "a": "Yes. Sprinter vans seat up to 13 and stretch limousines up to 8; we coordinate multiple vehicles for larger parties at the Capital Clubhouse and venues across Charles County."
       },
       {
         "q": "Is service available around the clock in Waldorf?",
@@ -1296,7 +1298,7 @@ export const MARYLAND_PAGES = [
     "name": "Frederick",
     "badge": "Maryland Limo Service",
     "h1": "Frederick Limo Service",
-    "metaTitle": "Frederick Limo Service | Chauffeured Car Service Frederick MD",
+    "metaTitle": "Frederick Limo Service | Car Service Frederick, MD",
     "metaDescription": "Chauffeured limo & car service in Frederick, Maryland. BWI, DCA & Dulles airport transfers, weddings, corporate & events. Flat rates. Call (877) 609-1919.",
     "stats": [
       {
@@ -1402,7 +1404,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Do you provide wedding and group transportation in Frederick?",
-        "a": "Yes. Sprinter vans seat up to 14 and stretch limousines up to 8; we coordinate multiple vehicles for larger parties at Ceresville Mansion and venues across Frederick County."
+        "a": "Yes. Sprinter vans seat up to 13 and stretch limousines up to 8; we coordinate multiple vehicles for larger parties at Ceresville Mansion and venues across Frederick County."
       },
       {
         "q": "Is service available around the clock in Frederick?",
@@ -1563,7 +1565,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Do you provide wedding and group transportation in Odenton?",
-        "a": "Yes. Sprinter vans seat up to 14 and stretch limousines up to 8; we coordinate multiple vehicles for larger parties at the Odenton Town Center pavilion and venues across Anne Arundel County."
+        "a": "Yes. Sprinter vans seat up to 13 and stretch limousines up to 8; we coordinate multiple vehicles for larger parties at the Odenton Town Center pavilion and venues across Anne Arundel County."
       },
       {
         "q": "Is service available around the clock in Odenton?",
@@ -1593,7 +1595,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "label": "Cape St. Claire Limo Service",
-        "to": "/capstone-limo-service"
+        "to": "/cape-st-claire-limo-service"
       },
       {
         "label": "Gibson Island Limo Service",
@@ -1724,7 +1726,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Do you provide wedding and group transportation in Severna Park?",
-        "a": "Yes. Sprinter vans seat up to 14 and stretch limousines up to 8; we coordinate multiple vehicles for larger parties at Chartwell Golf & Country Club and venues across Anne Arundel County."
+        "a": "Yes. Sprinter vans seat up to 13 and stretch limousines up to 8; we coordinate multiple vehicles for larger parties at Chartwell Golf & Country Club and venues across Anne Arundel County."
       },
       {
         "q": "Is service available around the clock in Severna Park?",
@@ -1754,7 +1756,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "label": "Cape St. Claire Limo Service",
-        "to": "/capstone-limo-service"
+        "to": "/cape-st-claire-limo-service"
       },
       {
         "label": "Gibson Island Limo Service",
@@ -1885,7 +1887,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Do you provide wedding and group transportation in Crofton?",
-        "a": "Yes. Sprinter vans seat up to 14 and stretch limousines up to 8; we coordinate multiple vehicles for larger parties at Crofton Country Club and venues across Anne Arundel County."
+        "a": "Yes. Sprinter vans seat up to 13 and stretch limousines up to 8; we coordinate multiple vehicles for larger parties at Crofton Country Club and venues across Anne Arundel County."
       },
       {
         "q": "Is service available around the clock in Crofton?",
@@ -1915,7 +1917,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "label": "Cape St. Claire Limo Service",
-        "to": "/capstone-limo-service"
+        "to": "/cape-st-claire-limo-service"
       },
       {
         "label": "Gibson Island Limo Service",
@@ -1940,7 +1942,7 @@ export const MARYLAND_PAGES = [
     "name": "Hyattsville",
     "badge": "Maryland Limo Service",
     "h1": "Hyattsville Limo Service",
-    "metaTitle": "Hyattsville Limo Service | Chauffeured Car Service Hyattsville MD",
+    "metaTitle": "Hyattsville Limo Service | Car Service Hyattsville, MD",
     "metaDescription": "Chauffeured limo & car service in Hyattsville, Maryland. BWI, DCA & Dulles airport transfers, weddings, corporate & events. Flat rates. Call (877) 609-1919.",
     "stats": [
       {
@@ -2046,7 +2048,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Do you provide wedding and group transportation in Hyattsville?",
-        "a": "Yes. Sprinter vans seat up to 14 and stretch limousines up to 8; we coordinate multiple vehicles for larger parties at the Pyramid Atlantic Art Center and venues across Prince George's County."
+        "a": "Yes. Sprinter vans seat up to 13 and stretch limousines up to 8; we coordinate multiple vehicles for larger parties at the Pyramid Atlantic Art Center and venues across Prince George's County."
       },
       {
         "q": "Is service available around the clock in Hyattsville?",
@@ -2101,7 +2103,7 @@ export const MARYLAND_PAGES = [
     "name": "Germantown",
     "badge": "Maryland Limo Service",
     "h1": "Germantown Limo Service",
-    "metaTitle": "Germantown Limo Service | Chauffeured Car Service Germantown MD",
+    "metaTitle": "Germantown Limo Service | Car Service Germantown, MD",
     "metaDescription": "Chauffeured limo & car service in Germantown, Maryland. BWI, DCA & Dulles airport transfers, weddings, corporate & events. Flat rates. Call (877) 609-1919.",
     "stats": [
       {
@@ -2207,7 +2209,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Do you provide wedding and group transportation in Germantown?",
-        "a": "Yes. Sprinter vans seat up to 14 and stretch limousines up to 8; we coordinate multiple vehicles for larger parties at the BlackRock Center for the Arts and venues across Montgomery County."
+        "a": "Yes. Sprinter vans seat up to 13 and stretch limousines up to 8; we coordinate multiple vehicles for larger parties at the BlackRock Center for the Arts and venues across Montgomery County."
       },
       {
         "q": "Is service available around the clock in Germantown?",
@@ -2262,7 +2264,7 @@ export const MARYLAND_PAGES = [
     "name": "Glen Burnie",
     "badge": "Maryland Limo Service",
     "h1": "Glen Burnie Limo Service",
-    "metaTitle": "Glen Burnie Limo Service | Chauffeured Car Service Glen Burnie MD",
+    "metaTitle": "Glen Burnie Limo Service | Car Service Glen Burnie, MD",
     "metaDescription": "Chauffeured limo & car service in Glen Burnie, Maryland. BWI, DCA & Dulles airport transfers, weddings, corporate & events. Flat rates. Call (877) 609-1919.",
     "stats": [
       {
@@ -2368,7 +2370,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Do you provide wedding and group transportation in Glen Burnie?",
-        "a": "Yes. Sprinter vans seat up to 14 and stretch limousines up to 8; we coordinate multiple vehicles for larger parties at the Kurtz's Beach waterfront pavilion in Pasadena and venues across Anne Arundel County."
+        "a": "Yes. Sprinter vans seat up to 13 and stretch limousines up to 8; we coordinate multiple vehicles for larger parties at the Kurtz's Beach waterfront pavilion in Pasadena and venues across Anne Arundel County."
       },
       {
         "q": "Is service available around the clock in Glen Burnie?",
@@ -2398,7 +2400,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "label": "Cape St. Claire Limo Service",
-        "to": "/capstone-limo-service"
+        "to": "/cape-st-claire-limo-service"
       },
       {
         "label": "Gibson Island Limo Service",
@@ -2529,7 +2531,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Do you provide wedding and group transportation in Arnold?",
-        "a": "Yes. Sprinter vans seat up to 14 and stretch limousines up to 8; we coordinate multiple vehicles for larger parties at Bay Hills Golf Club and venues across Anne Arundel County."
+        "a": "Yes. Sprinter vans seat up to 13 and stretch limousines up to 8; we coordinate multiple vehicles for larger parties at Bay Hills Golf Club and venues across Anne Arundel County."
       },
       {
         "q": "Is service available around the clock in Arnold?",
@@ -2559,7 +2561,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "label": "Cape St. Claire Limo Service",
-        "to": "/capstone-limo-service"
+        "to": "/cape-st-claire-limo-service"
       },
       {
         "label": "Gibson Island Limo Service",
@@ -2690,7 +2692,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Do you provide wedding and group transportation in Riva?",
-        "a": "Yes. Sprinter vans seat up to 14 and stretch limousines up to 8; we coordinate multiple vehicles for larger parties at the South River Colony clubhouse and venues across Anne Arundel County."
+        "a": "Yes. Sprinter vans seat up to 13 and stretch limousines up to 8; we coordinate multiple vehicles for larger parties at the South River Colony clubhouse and venues across Anne Arundel County."
       },
       {
         "q": "Is service available around the clock in Riva?",
@@ -2720,7 +2722,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "label": "Cape St. Claire Limo Service",
-        "to": "/capstone-limo-service"
+        "to": "/cape-st-claire-limo-service"
       },
       {
         "label": "Gibson Island Limo Service",
@@ -2740,12 +2742,12 @@ export const MARYLAND_PAGES = [
     }
   },
   {
-    "slug": "capstone-limo-service",
+    "slug": "cape-st-claire-limo-service",
     "type": "city",
     "name": "Cape St. Claire",
     "badge": "Maryland Limo Service",
     "h1": "Cape St. Claire Limo Service",
-    "metaTitle": "Cape St. Claire Limo Service",
+    "metaTitle": "Cape St. Claire Limo Service | Car Service Cape St. Claire, MD",
     "metaDescription": "Chauffeured limo & car service in Cape St. Claire, Maryland. BWI, DCA & Dulles airport transfers, weddings, corporate & events. Flat. Call (877) 609-1919.",
     "stats": [
       {
@@ -2851,7 +2853,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Do you provide wedding and group transportation in Cape St. Claire?",
-        "a": "Yes. Sprinter vans seat up to 14 and stretch limousines up to 8; we coordinate multiple vehicles for larger parties at Cape St. Claire Beach and venues across Anne Arundel County."
+        "a": "Yes. Sprinter vans seat up to 13 and stretch limousines up to 8; we coordinate multiple vehicles for larger parties at Cape St. Claire Beach and venues across Anne Arundel County."
       },
       {
         "q": "Is service available around the clock in Cape St. Claire?",
@@ -2906,7 +2908,7 @@ export const MARYLAND_PAGES = [
     "name": "Clarksville",
     "badge": "Maryland Limo Service",
     "h1": "Clarksville Limo Service",
-    "metaTitle": "Clarksville Limo Service | Chauffeured Car Service Clarksville MD",
+    "metaTitle": "Clarksville Limo Service | Car Service Clarksville, MD",
     "metaDescription": "Chauffeured limo & car service in Clarksville, Maryland. BWI, DCA & Dulles airport transfers, weddings, corporate & events. Flat rates. Call (877) 609-1919.",
     "stats": [
       {
@@ -3012,7 +3014,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Do you provide wedding and group transportation in Clarksville?",
-        "a": "Yes. Sprinter vans seat up to 14 and stretch limousines up to 8; we coordinate multiple vehicles for larger parties at Cattail Creek Country Club and venues across Howard County."
+        "a": "Yes. Sprinter vans seat up to 13 and stretch limousines up to 8; we coordinate multiple vehicles for larger parties at Cattail Creek Country Club and venues across Howard County."
       },
       {
         "q": "Is service available around the clock in Clarksville?",
@@ -3173,7 +3175,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Do you provide wedding and group transportation in Towson?",
-        "a": "Yes. Sprinter vans seat up to 14 and stretch limousines up to 8; we coordinate multiple vehicles for larger parties at the Hampton National Historic Site and venues across Baltimore County."
+        "a": "Yes. Sprinter vans seat up to 13 and stretch limousines up to 8; we coordinate multiple vehicles for larger parties at the Hampton National Historic Site and venues across Baltimore County."
       },
       {
         "q": "Is service available around the clock in Towson?",
@@ -3334,7 +3336,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Do you provide wedding and group transportation in Timonium?",
-        "a": "Yes. Sprinter vans seat up to 14 and stretch limousines up to 8; we coordinate multiple vehicles for larger parties at Oregon Ridge Park and venues across Baltimore County."
+        "a": "Yes. Sprinter vans seat up to 13 and stretch limousines up to 8; we coordinate multiple vehicles for larger parties at Oregon Ridge Park and venues across Baltimore County."
       },
       {
         "q": "Is service available around the clock in Timonium?",
@@ -3389,7 +3391,7 @@ export const MARYLAND_PAGES = [
     "name": "Lutherville",
     "badge": "Maryland Limo Service",
     "h1": "Lutherville Limo Service",
-    "metaTitle": "Lutherville Limo Service | Chauffeured Car Service Lutherville MD",
+    "metaTitle": "Lutherville Limo Service | Car Service Lutherville, MD",
     "metaDescription": "Chauffeured limo & car service in Lutherville, Maryland. BWI, DCA & Dulles airport transfers, weddings, corporate & events. Flat rates. Call (877) 609-1919.",
     "stats": [
       {
@@ -3495,7 +3497,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Do you provide wedding and group transportation in Lutherville?",
-        "a": "Yes. Sprinter vans seat up to 14 and stretch limousines up to 8; we coordinate multiple vehicles for larger parties at the Historic Lutherville Colonial Hall and venues across Baltimore County."
+        "a": "Yes. Sprinter vans seat up to 13 and stretch limousines up to 8; we coordinate multiple vehicles for larger parties at the Historic Lutherville Colonial Hall and venues across Baltimore County."
       },
       {
         "q": "Is service available around the clock in Lutherville?",
@@ -3656,7 +3658,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Do you provide wedding and group transportation in Phoenix?",
-        "a": "Yes. Sprinter vans seat up to 14 and stretch limousines up to 8; we coordinate multiple vehicles for larger parties at Ladew Topiary Gardens and venues across Baltimore County."
+        "a": "Yes. Sprinter vans seat up to 13 and stretch limousines up to 8; we coordinate multiple vehicles for larger parties at Ladew Topiary Gardens and venues across Baltimore County."
       },
       {
         "q": "Is service available around the clock in Phoenix?",
@@ -3817,7 +3819,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Do you provide wedding and group transportation in North Bethesda?",
-        "a": "Yes. Sprinter vans seat up to 14 and stretch limousines up to 8; we coordinate multiple vehicles for larger parties at the Bethesda North Marriott Hotel & Conference Center and venues across Montgomery County."
+        "a": "Yes. Sprinter vans seat up to 13 and stretch limousines up to 8; we coordinate multiple vehicles for larger parties at the Bethesda North Marriott Hotel & Conference Center and venues across Montgomery County."
       },
       {
         "q": "Is service available around the clock in North Bethesda?",
@@ -3978,7 +3980,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Do you provide wedding and group transportation in North Potomac?",
-        "a": "Yes. Sprinter vans seat up to 14 and stretch limousines up to 8; we coordinate multiple vehicles for larger parties at the Potomac estate venues along Travilah Road and venues across Montgomery County."
+        "a": "Yes. Sprinter vans seat up to 13 and stretch limousines up to 8; we coordinate multiple vehicles for larger parties at the Potomac estate venues along Travilah Road and venues across Montgomery County."
       },
       {
         "q": "Is service available around the clock in North Potomac?",
@@ -4139,7 +4141,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Do you provide wedding and group transportation in Gibson Island?",
-        "a": "Yes. Sprinter vans seat up to 14 and stretch limousines up to 8; we coordinate multiple vehicles for larger parties at the Gibson Island Club and venues across Anne Arundel County."
+        "a": "Yes. Sprinter vans seat up to 13 and stretch limousines up to 8; we coordinate multiple vehicles for larger parties at the Gibson Island Club and venues across Anne Arundel County."
       },
       {
         "q": "Is service available around the clock in Gibson Island?",
@@ -4173,7 +4175,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "label": "Cape St. Claire Limo Service",
-        "to": "/capstone-limo-service"
+        "to": "/cape-st-claire-limo-service"
       },
       {
         "label": "Navy-Marine Corps Memorial Stadium Transportation",
@@ -4300,7 +4302,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Do you provide wedding and group transportation in Stevensville?",
-        "a": "Yes. Sprinter vans seat up to 14 and stretch limousines up to 8; we coordinate multiple vehicles for larger parties at the Chesapeake Bay Beach Club and venues across Queen Anne's County."
+        "a": "Yes. Sprinter vans seat up to 13 and stretch limousines up to 8; we coordinate multiple vehicles for larger parties at the Chesapeake Bay Beach Club and venues across Queen Anne's County."
       },
       {
         "q": "Is service available around the clock in Stevensville?",
@@ -4355,7 +4357,7 @@ export const MARYLAND_PAGES = [
     "name": "Chevy Chase",
     "badge": "Maryland Limo Service",
     "h1": "Chevy Chase Limo Service",
-    "metaTitle": "Chevy Chase Limo Service | Chauffeured Car Service Chevy Chase MD",
+    "metaTitle": "Chevy Chase Limo Service | Car Service Chevy Chase, MD",
     "metaDescription": "Chauffeured limo & car service in Chevy Chase, Maryland. BWI, DCA & Dulles airport transfers, weddings, corporate & events. Flat rates. Call (877) 609-1919.",
     "stats": [
       {
@@ -4461,7 +4463,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Do you provide wedding and group transportation in Chevy Chase?",
-        "a": "Yes. Sprinter vans seat up to 14 and stretch limousines up to 8; we coordinate multiple vehicles for larger parties at the Chevy Chase Club and venues across Montgomery County."
+        "a": "Yes. Sprinter vans seat up to 13 and stretch limousines up to 8; we coordinate multiple vehicles for larger parties at the Chevy Chase Club and venues across Montgomery County."
       },
       {
         "q": "Is service available around the clock in Chevy Chase?",
@@ -4511,12 +4513,12 @@ export const MARYLAND_PAGES = [
     }
   },
   {
-    "slug": "snopesville-limo-service",
+    "slug": "sykesville-limo-service",
     "type": "city",
     "name": "Sykesville",
     "badge": "Maryland Limo Service",
     "h1": "Sykesville Limo Service",
-    "metaTitle": "Sykesville Limo Service | Chauffeured Car Service Sykesville MD",
+    "metaTitle": "Sykesville Limo Service | Car Service Sykesville, MD",
     "metaDescription": "Chauffeured limo & car service in Sykesville, Maryland. BWI, DCA & Dulles airport transfers, weddings, corporate & events. Flat rates. Call (877) 609-1919.",
     "stats": [
       {
@@ -4622,7 +4624,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Do you provide wedding and group transportation in Sykesville?",
-        "a": "Yes. Sprinter vans seat up to 14 and stretch limousines up to 8; we coordinate multiple vehicles for larger parties at the Sykesville Main Street event spaces and venues across Carroll County."
+        "a": "Yes. Sprinter vans seat up to 13 and stretch limousines up to 8; we coordinate multiple vehicles for larger parties at the Sykesville Main Street event spaces and venues across Carroll County."
       },
       {
         "q": "Is service available around the clock in Sykesville?",
@@ -4737,7 +4739,7 @@ export const MARYLAND_PAGES = [
         "h2": "Why Book a Private Car Instead of Rideshare?",
         "paragraphs": [
           "On the BWI–Washington DC corridor, rideshare pricing surges when demand is highest and long trips get declined. A reserved chauffeur costs a known amount, arrives early and is committed to your trip. Every vehicle is detailed daily and driven by a trained, background-checked chauffeur.",
-          "Choose a Mercedes-Benz E-Class or BMW 7 Series for one or two travelers, a Cadillac Escalade or Chevrolet Suburban for six with luggage, or a Mercedes Sprinter van for groups of up to 14."
+          "Choose a Mercedes-Benz E-Class or BMW 7 Series for one or two travelers, a Cadillac Escalade or Chevrolet Suburban for six with luggage, or a Mercedes Sprinter van for groups of up to 13."
         ]
       }
     ],
@@ -4798,7 +4800,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you handle groups on this route?",
-        "a": "Yes. Escalade and Suburban SUVs seat six and Mercedes Sprinter vans seat up to 14; we coordinate multiple vehicles for larger groups."
+        "a": "Yes. Escalade and Suburban SUVs seat six and Mercedes Sprinter vans seat up to 13; we coordinate multiple vehicles for larger groups."
       }
     ],
     "related": [
@@ -4905,7 +4907,7 @@ export const MARYLAND_PAGES = [
         "h2": "Why Book a Private Car Instead of Rideshare?",
         "paragraphs": [
           "On the BWI–Annapolis corridor, rideshare pricing surges when demand is highest and long trips get declined. A reserved chauffeur costs a known amount, arrives early and is committed to your trip. Every vehicle is detailed daily and driven by a trained, background-checked chauffeur.",
-          "Choose a Mercedes-Benz E-Class or BMW 7 Series for one or two travelers, a Cadillac Escalade or Chevrolet Suburban for six with luggage, or a Mercedes Sprinter van for groups of up to 14."
+          "Choose a Mercedes-Benz E-Class or BMW 7 Series for one or two travelers, a Cadillac Escalade or Chevrolet Suburban for six with luggage, or a Mercedes Sprinter van for groups of up to 13."
         ]
       }
     ],
@@ -4966,7 +4968,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you handle groups on this route?",
-        "a": "Yes. Escalade and Suburban SUVs seat six and Mercedes Sprinter vans seat up to 14; we coordinate multiple vehicles for larger groups."
+        "a": "Yes. Escalade and Suburban SUVs seat six and Mercedes Sprinter vans seat up to 13; we coordinate multiple vehicles for larger groups."
       }
     ],
     "related": [
@@ -5073,7 +5075,7 @@ export const MARYLAND_PAGES = [
         "h2": "Why Book a Private Car Instead of Rideshare?",
         "paragraphs": [
           "On the BWI–Ocean City corridor, rideshare pricing surges when demand is highest and long trips get declined. A reserved chauffeur costs a known amount, arrives early and is committed to your trip. Every vehicle is detailed daily and driven by a trained, background-checked chauffeur.",
-          "Choose a Mercedes-Benz E-Class or BMW 7 Series for one or two travelers, a Cadillac Escalade or Chevrolet Suburban for six with luggage, or a Mercedes Sprinter van for groups of up to 14."
+          "Choose a Mercedes-Benz E-Class or BMW 7 Series for one or two travelers, a Cadillac Escalade or Chevrolet Suburban for six with luggage, or a Mercedes Sprinter van for groups of up to 13."
         ]
       }
     ],
@@ -5134,7 +5136,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you handle groups on this route?",
-        "a": "Yes. Escalade and Suburban SUVs seat six and Mercedes Sprinter vans seat up to 14; we coordinate multiple vehicles for larger groups."
+        "a": "Yes. Escalade and Suburban SUVs seat six and Mercedes Sprinter vans seat up to 13; we coordinate multiple vehicles for larger groups."
       }
     ],
     "related": [
@@ -5241,7 +5243,7 @@ export const MARYLAND_PAGES = [
         "h2": "Why Book a Private Car Instead of Rideshare?",
         "paragraphs": [
           "On the BWI–Rockville corridor, rideshare pricing surges when demand is highest and long trips get declined. A reserved chauffeur costs a known amount, arrives early and is committed to your trip. Every vehicle is detailed daily and driven by a trained, background-checked chauffeur.",
-          "Choose a Mercedes-Benz E-Class or BMW 7 Series for one or two travelers, a Cadillac Escalade or Chevrolet Suburban for six with luggage, or a Mercedes Sprinter van for groups of up to 14. In Rockville, our chauffeurs know King Farm, Twinbrook and Fallsgrove as well as they know the highway."
+          "Choose a Mercedes-Benz E-Class or BMW 7 Series for one or two travelers, a Cadillac Escalade or Chevrolet Suburban for six with luggage, or a Mercedes Sprinter van for groups of up to 13. In Rockville, our chauffeurs know King Farm, Twinbrook and Fallsgrove as well as they know the highway."
         ]
       }
     ],
@@ -5302,7 +5304,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you handle groups on this route?",
-        "a": "Yes. Escalade and Suburban SUVs seat six and Mercedes Sprinter vans seat up to 14; we coordinate multiple vehicles for larger groups."
+        "a": "Yes. Escalade and Suburban SUVs seat six and Mercedes Sprinter vans seat up to 13; we coordinate multiple vehicles for larger groups."
       }
     ],
     "related": [
@@ -5413,7 +5415,7 @@ export const MARYLAND_PAGES = [
         "h2": "Why Book a Private Car Instead of Rideshare?",
         "paragraphs": [
           "On the BWI–Bethesda corridor, rideshare pricing surges when demand is highest and long trips get declined. A reserved chauffeur costs a known amount, arrives early and is committed to your trip. Every vehicle is detailed daily and driven by a trained, background-checked chauffeur.",
-          "Choose a Mercedes-Benz E-Class or BMW 7 Series for one or two travelers, a Cadillac Escalade or Chevrolet Suburban for six with luggage, or a Mercedes Sprinter van for groups of up to 14. In Bethesda, our chauffeurs know Downtown Bethesda, Bethesda Row and the Woodmont Triangle as well as they know the highway."
+          "Choose a Mercedes-Benz E-Class or BMW 7 Series for one or two travelers, a Cadillac Escalade or Chevrolet Suburban for six with luggage, or a Mercedes Sprinter van for groups of up to 13. In Bethesda, our chauffeurs know Downtown Bethesda, Bethesda Row and the Woodmont Triangle as well as they know the highway."
         ]
       }
     ],
@@ -5474,7 +5476,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you handle groups on this route?",
-        "a": "Yes. Escalade and Suburban SUVs seat six and Mercedes Sprinter vans seat up to 14; we coordinate multiple vehicles for larger groups."
+        "a": "Yes. Escalade and Suburban SUVs seat six and Mercedes Sprinter vans seat up to 13; we coordinate multiple vehicles for larger groups."
       }
     ],
     "related": [
@@ -5585,7 +5587,7 @@ export const MARYLAND_PAGES = [
         "h2": "Why Book a Private Car Instead of Rideshare?",
         "paragraphs": [
           "On the BWI–Frederick corridor, rideshare pricing surges when demand is highest and long trips get declined. A reserved chauffeur costs a known amount, arrives early and is committed to your trip. Every vehicle is detailed daily and driven by a trained, background-checked chauffeur.",
-          "Choose a Mercedes-Benz E-Class or BMW 7 Series for one or two travelers, a Cadillac Escalade or Chevrolet Suburban for six with luggage, or a Mercedes Sprinter van for groups of up to 14. In Frederick, our chauffeurs know Downtown Frederick's historic district, Baker Park and Ballenger Creek as well as they know the highway."
+          "Choose a Mercedes-Benz E-Class or BMW 7 Series for one or two travelers, a Cadillac Escalade or Chevrolet Suburban for six with luggage, or a Mercedes Sprinter van for groups of up to 13. In Frederick, our chauffeurs know Downtown Frederick's historic district, Baker Park and Ballenger Creek as well as they know the highway."
         ]
       }
     ],
@@ -5646,7 +5648,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you handle groups on this route?",
-        "a": "Yes. Escalade and Suburban SUVs seat six and Mercedes Sprinter vans seat up to 14; we coordinate multiple vehicles for larger groups."
+        "a": "Yes. Escalade and Suburban SUVs seat six and Mercedes Sprinter vans seat up to 13; we coordinate multiple vehicles for larger groups."
       }
     ],
     "related": [
@@ -5753,7 +5755,7 @@ export const MARYLAND_PAGES = [
         "h2": "Why Book a Private Car Instead of Rideshare?",
         "paragraphs": [
           "On the DCA–Bethesda corridor, rideshare pricing surges when demand is highest and long trips get declined. A reserved chauffeur costs a known amount, arrives early and is committed to your trip. Every vehicle is detailed daily and driven by a trained, background-checked chauffeur.",
-          "Choose a Mercedes-Benz E-Class or BMW 7 Series for one or two travelers, a Cadillac Escalade or Chevrolet Suburban for six with luggage, or a Mercedes Sprinter van for groups of up to 14. In Bethesda, our chauffeurs know Downtown Bethesda, Bethesda Row and the Woodmont Triangle as well as they know the highway."
+          "Choose a Mercedes-Benz E-Class or BMW 7 Series for one or two travelers, a Cadillac Escalade or Chevrolet Suburban for six with luggage, or a Mercedes Sprinter van for groups of up to 13. In Bethesda, our chauffeurs know Downtown Bethesda, Bethesda Row and the Woodmont Triangle as well as they know the highway."
         ]
       }
     ],
@@ -5814,7 +5816,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you handle groups on this route?",
-        "a": "Yes. Escalade and Suburban SUVs seat six and Mercedes Sprinter vans seat up to 14; we coordinate multiple vehicles for larger groups."
+        "a": "Yes. Escalade and Suburban SUVs seat six and Mercedes Sprinter vans seat up to 13; we coordinate multiple vehicles for larger groups."
       }
     ],
     "related": [
@@ -5921,7 +5923,7 @@ export const MARYLAND_PAGES = [
         "h2": "Why Book a Private Car Instead of Rideshare?",
         "paragraphs": [
           "On the DCA–Rockville corridor, rideshare pricing surges when demand is highest and long trips get declined. A reserved chauffeur costs a known amount, arrives early and is committed to your trip. Every vehicle is detailed daily and driven by a trained, background-checked chauffeur.",
-          "Choose a Mercedes-Benz E-Class or BMW 7 Series for one or two travelers, a Cadillac Escalade or Chevrolet Suburban for six with luggage, or a Mercedes Sprinter van for groups of up to 14. In Rockville, our chauffeurs know King Farm, Twinbrook and Fallsgrove as well as they know the highway."
+          "Choose a Mercedes-Benz E-Class or BMW 7 Series for one or two travelers, a Cadillac Escalade or Chevrolet Suburban for six with luggage, or a Mercedes Sprinter van for groups of up to 13. In Rockville, our chauffeurs know King Farm, Twinbrook and Fallsgrove as well as they know the highway."
         ]
       }
     ],
@@ -5982,7 +5984,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you handle groups on this route?",
-        "a": "Yes. Escalade and Suburban SUVs seat six and Mercedes Sprinter vans seat up to 14; we coordinate multiple vehicles for larger groups."
+        "a": "Yes. Escalade and Suburban SUVs seat six and Mercedes Sprinter vans seat up to 13; we coordinate multiple vehicles for larger groups."
       }
     ],
     "related": [
@@ -6089,7 +6091,7 @@ export const MARYLAND_PAGES = [
         "h2": "Why Book a Private Car Instead of Rideshare?",
         "paragraphs": [
           "On the IAD–Rockville corridor, rideshare pricing surges when demand is highest and long trips get declined. A reserved chauffeur costs a known amount, arrives early and is committed to your trip. Every vehicle is detailed daily and driven by a trained, background-checked chauffeur.",
-          "Choose a Mercedes-Benz E-Class or BMW 7 Series for one or two travelers, a Cadillac Escalade or Chevrolet Suburban for six with luggage, or a Mercedes Sprinter van for groups of up to 14. In Rockville, our chauffeurs know King Farm, Twinbrook and Fallsgrove as well as they know the highway."
+          "Choose a Mercedes-Benz E-Class or BMW 7 Series for one or two travelers, a Cadillac Escalade or Chevrolet Suburban for six with luggage, or a Mercedes Sprinter van for groups of up to 13. In Rockville, our chauffeurs know King Farm, Twinbrook and Fallsgrove as well as they know the highway."
         ]
       }
     ],
@@ -6150,7 +6152,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you handle groups on this route?",
-        "a": "Yes. Escalade and Suburban SUVs seat six and Mercedes Sprinter vans seat up to 14; we coordinate multiple vehicles for larger groups."
+        "a": "Yes. Escalade and Suburban SUVs seat six and Mercedes Sprinter vans seat up to 13; we coordinate multiple vehicles for larger groups."
       }
     ],
     "related": [
@@ -6257,7 +6259,7 @@ export const MARYLAND_PAGES = [
         "h2": "Why Book a Private Car Instead of Rideshare?",
         "paragraphs": [
           "On the IAD–Bethesda corridor, rideshare pricing surges when demand is highest and long trips get declined. A reserved chauffeur costs a known amount, arrives early and is committed to your trip. Every vehicle is detailed daily and driven by a trained, background-checked chauffeur.",
-          "Choose a Mercedes-Benz E-Class or BMW 7 Series for one or two travelers, a Cadillac Escalade or Chevrolet Suburban for six with luggage, or a Mercedes Sprinter van for groups of up to 14. In Bethesda, our chauffeurs know Downtown Bethesda, Bethesda Row and the Woodmont Triangle as well as they know the highway."
+          "Choose a Mercedes-Benz E-Class or BMW 7 Series for one or two travelers, a Cadillac Escalade or Chevrolet Suburban for six with luggage, or a Mercedes Sprinter van for groups of up to 13. In Bethesda, our chauffeurs know Downtown Bethesda, Bethesda Row and the Woodmont Triangle as well as they know the highway."
         ]
       }
     ],
@@ -6318,7 +6320,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you handle groups on this route?",
-        "a": "Yes. Escalade and Suburban SUVs seat six and Mercedes Sprinter vans seat up to 14; we coordinate multiple vehicles for larger groups."
+        "a": "Yes. Escalade and Suburban SUVs seat six and Mercedes Sprinter vans seat up to 13; we coordinate multiple vehicles for larger groups."
       }
     ],
     "related": [
@@ -6365,7 +6367,7 @@ export const MARYLAND_PAGES = [
     "name": "Baltimore to Washington DC",
     "badge": "Maryland Routes",
     "h1": "Baltimore to Washington, DC Car Service",
-    "metaTitle": "Baltimore to Washington DC Car Service | Flat Rate | MSY Limo",
+    "metaTitle": "Baltimore to Washington DC Car Service | Flat Rate",
     "metaDescription": "Private chauffeured transfer from Baltimore to Washington, DC — 40 miles, 55–75 minutes. Flat rates, flight tracking, meet & greet, 24/7. Call (877) 609-1919.",
     "stats": [
       {
@@ -6425,7 +6427,7 @@ export const MARYLAND_PAGES = [
         "h2": "Why Book a Private Car Instead of Rideshare?",
         "paragraphs": [
           "On the Baltimore–Washington DC corridor, rideshare pricing surges when demand is highest and long trips get declined. A reserved chauffeur costs a known amount, arrives early and is committed to your trip. Every vehicle is detailed daily and driven by a trained, background-checked chauffeur.",
-          "Choose a Mercedes-Benz E-Class or BMW 7 Series for one or two travelers, a Cadillac Escalade or Chevrolet Suburban for six with luggage, or a Mercedes Sprinter van for groups of up to 14."
+          "Choose a Mercedes-Benz E-Class or BMW 7 Series for one or two travelers, a Cadillac Escalade or Chevrolet Suburban for six with luggage, or a Mercedes Sprinter van for groups of up to 13."
         ]
       }
     ],
@@ -6486,7 +6488,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you handle groups on this route?",
-        "a": "Yes. Escalade and Suburban SUVs seat six and Mercedes Sprinter vans seat up to 14; we coordinate multiple vehicles for larger groups."
+        "a": "Yes. Escalade and Suburban SUVs seat six and Mercedes Sprinter vans seat up to 13; we coordinate multiple vehicles for larger groups."
       }
     ],
     "related": [
@@ -6593,7 +6595,7 @@ export const MARYLAND_PAGES = [
         "h2": "Why Book a Private Car Instead of Rideshare?",
         "paragraphs": [
           "On the Baltimore–Annapolis corridor, rideshare pricing surges when demand is highest and long trips get declined. A reserved chauffeur costs a known amount, arrives early and is committed to your trip. Every vehicle is detailed daily and driven by a trained, background-checked chauffeur.",
-          "Choose a Mercedes-Benz E-Class or BMW 7 Series for one or two travelers, a Cadillac Escalade or Chevrolet Suburban for six with luggage, or a Mercedes Sprinter van for groups of up to 14."
+          "Choose a Mercedes-Benz E-Class or BMW 7 Series for one or two travelers, a Cadillac Escalade or Chevrolet Suburban for six with luggage, or a Mercedes Sprinter van for groups of up to 13."
         ]
       }
     ],
@@ -6654,7 +6656,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you handle groups on this route?",
-        "a": "Yes. Escalade and Suburban SUVs seat six and Mercedes Sprinter vans seat up to 14; we coordinate multiple vehicles for larger groups."
+        "a": "Yes. Escalade and Suburban SUVs seat six and Mercedes Sprinter vans seat up to 13; we coordinate multiple vehicles for larger groups."
       }
     ],
     "related": [
@@ -6761,7 +6763,7 @@ export const MARYLAND_PAGES = [
         "h2": "Why Book a Private Car Instead of Rideshare?",
         "paragraphs": [
           "On the Baltimore–Bethesda corridor, rideshare pricing surges when demand is highest and long trips get declined. A reserved chauffeur costs a known amount, arrives early and is committed to your trip. Every vehicle is detailed daily and driven by a trained, background-checked chauffeur.",
-          "Choose a Mercedes-Benz E-Class or BMW 7 Series for one or two travelers, a Cadillac Escalade or Chevrolet Suburban for six with luggage, or a Mercedes Sprinter van for groups of up to 14. In Bethesda, our chauffeurs know Downtown Bethesda, Bethesda Row and the Woodmont Triangle as well as they know the highway."
+          "Choose a Mercedes-Benz E-Class or BMW 7 Series for one or two travelers, a Cadillac Escalade or Chevrolet Suburban for six with luggage, or a Mercedes Sprinter van for groups of up to 13. In Bethesda, our chauffeurs know Downtown Bethesda, Bethesda Row and the Woodmont Triangle as well as they know the highway."
         ]
       }
     ],
@@ -6822,7 +6824,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you handle groups on this route?",
-        "a": "Yes. Escalade and Suburban SUVs seat six and Mercedes Sprinter vans seat up to 14; we coordinate multiple vehicles for larger groups."
+        "a": "Yes. Escalade and Suburban SUVs seat six and Mercedes Sprinter vans seat up to 13; we coordinate multiple vehicles for larger groups."
       }
     ],
     "related": [
@@ -6891,7 +6893,7 @@ export const MARYLAND_PAGES = [
     ],
     "highlights": [
       "Flat-rate or hourly pricing confirmed at booking",
-      "Sedans, SUVs, 14-passenger Sprinter vans and stretch limousines",
+      "Sedans, SUVs, 13-passenger Sprinter vans and stretch limousines",
       "Chauffeurs who know Belmont Manor in Elkridge and the Elkridge Furnace Inn",
       "Itinerary confirmed the day before",
       "24/7 dispatch",
@@ -7041,7 +7043,7 @@ export const MARYLAND_PAGES = [
     "name": "Maryland Corporate Car Service",
     "badge": "Maryland Services",
     "h1": "Maryland Corporate Car Service",
-    "metaTitle": "Maryland Corporate Car Service | Chauffeured | MSY Limo Service",
+    "metaTitle": "Maryland Corporate Car Service | MSY Limo Service",
     "metaDescription": "Maryland Corporate Car Service — professional chauffeurs, sedans, SUVs, Sprinter vans & stretch limos across Baltimore and beyond. Flat rates confirmed at boo",
     "stats": [
       {
@@ -7063,7 +7065,7 @@ export const MARYLAND_PAGES = [
     ],
     "highlights": [
       "Flat-rate or hourly pricing confirmed at booking",
-      "Sedans, SUVs, 14-passenger Sprinter vans and stretch limousines",
+      "Sedans, SUVs, 13-passenger Sprinter vans and stretch limousines",
       "Chauffeurs who know NIH and Walter Reed in Bethesda and Fort Meade and the NSA",
       "Itinerary confirmed the day before",
       "24/7 dispatch",
@@ -7235,7 +7237,7 @@ export const MARYLAND_PAGES = [
     ],
     "highlights": [
       "Flat-rate or hourly pricing confirmed at booking",
-      "Sedans, SUVs, 14-passenger Sprinter vans and stretch limousines",
+      "Sedans, SUVs, 13-passenger Sprinter vans and stretch limousines",
       "Chauffeurs who know Martin's West and Martin's Valley Mansion and Turf Valley Resort",
       "Itinerary confirmed the day before",
       "24/7 dispatch",
@@ -7385,7 +7387,7 @@ export const MARYLAND_PAGES = [
     "name": "Maryland Concert Transportation",
     "badge": "Maryland Services",
     "h1": "Maryland Concert Transportation",
-    "metaTitle": "Maryland Concert Transportation | Chauffeured | MSY Limo Service",
+    "metaTitle": "Maryland Concert Transportation | MSY Limo Service",
     "metaDescription": "Maryland Concert Transportation — professional chauffeurs, sedans, SUVs, Sprinter vans & stretch limos across Columbia and beyond. Flat rates confirmed at boo",
     "stats": [
       {
@@ -7407,7 +7409,7 @@ export const MARYLAND_PAGES = [
     ],
     "highlights": [
       "Flat-rate or hourly pricing confirmed at booking",
-      "Sedans, SUVs, 14-passenger Sprinter vans and stretch limousines",
+      "Sedans, SUVs, 13-passenger Sprinter vans and stretch limousines",
       "Chauffeurs who know Merriweather Post Pavilion in Columbia and CFG Bank Arena in Baltimore",
       "Itinerary confirmed the day before",
       "24/7 dispatch",
@@ -7579,7 +7581,7 @@ export const MARYLAND_PAGES = [
     ],
     "highlights": [
       "Flat-rate or hourly pricing confirmed at booking",
-      "Sedans, SUVs, 14-passenger Sprinter vans and stretch limousines",
+      "Sedans, SUVs, 13-passenger Sprinter vans and stretch limousines",
       "Chauffeurs who know Linganore Winecellars in Mount Airy and Black Ankle Vineyards",
       "Itinerary confirmed the day before",
       "24/7 dispatch",
@@ -7729,7 +7731,7 @@ export const MARYLAND_PAGES = [
     "name": "Philadelphia Airport Car Service",
     "badge": "Maryland Services",
     "h1": "Philadelphia Airport Car Service",
-    "metaTitle": "Philadelphia Airport Car Service | Chauffeured | MSY Limo Service",
+    "metaTitle": "Philadelphia Airport Car Service | MSY Limo Service",
     "metaDescription": "Philadelphia Airport Car Service — professional chauffeurs, sedans, SUVs, Sprinter vans & stretch limos across Baltimore and beyond. Flat rates confirmed at b",
     "stats": [
       {
@@ -7751,7 +7753,7 @@ export const MARYLAND_PAGES = [
     ],
     "highlights": [
       "Flat-rate or hourly pricing confirmed at booking",
-      "Sedans, SUVs, 14-passenger Sprinter vans and stretch limousines",
+      "Sedans, SUVs, 13-passenger Sprinter vans and stretch limousines",
       "Meet and greet in the PHL baggage hall",
       "Itinerary confirmed the day before",
       "24/7 dispatch",
@@ -7902,7 +7904,7 @@ export const MARYLAND_PAGES = [
     "name": "Merriweather",
     "badge": "Maryland Events",
     "h1": "Merriweather Post Pavilion Transportation & Limo Service",
-    "metaTitle": "Merriweather Post Pavilion Transportation | Limo & Car Service",
+    "metaTitle": "Merriweather Post Pavilion Limo & Car Service",
     "metaDescription": "Chauffeured transportation to Merriweather Post Pavilion in Columbia – door drop-off, staged pickup, flat rates. Sedans, SUVs, Sprinters. Call (877) 609-1919.",
     "stats": [
       {
@@ -7931,7 +7933,7 @@ export const MARYLAND_PAGES = [
       "Flat-rate pricing confirmed before you ride",
       "Entrance drop-off at Merriweather Post Pavilion and a quiet pre-set pickup point",
       "Hourly wait service available",
-      "Sedans, SUVs, 14-passenger Sprinter vans and stretch limousines",
+      "Sedans, SUVs, 13-passenger Sprinter vans and stretch limousines",
       "Dinner and hotel stops on the same reservation",
       "Maryland PSC Carrier No. 6325"
     ],
@@ -8008,7 +8010,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you carry a group to Merriweather Post Pavilion?",
-        "a": "Yes. Cadillac Escalade and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 14 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
+        "a": "Yes. Cadillac Escalade and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 13 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
       },
       {
         "q": "What about parking at Merriweather Post Pavilion?",
@@ -8089,7 +8091,7 @@ export const MARYLAND_PAGES = [
     "name": "CFG Bank Arena",
     "badge": "Maryland Events",
     "h1": "CFG Bank Arena Transportation & Limo Service",
-    "metaTitle": "CFG Bank Arena Transportation | Limo & Car Service | MSY Limo",
+    "metaTitle": "CFG Bank Arena Transportation | Limo & Car Service",
     "metaDescription": "Chauffeured transportation to CFG Bank Arena in Baltimore — door drop-off, staged pickup, flat rates. Sedans, SUVs, Sprinters & limos. Call (877) 609-1919.",
     "stats": [
       {
@@ -8118,7 +8120,7 @@ export const MARYLAND_PAGES = [
       "Flat-rate pricing confirmed before you ride",
       "Entrance drop-off at CFG Bank Arena and a quiet pre-set pickup point",
       "Hourly wait service available",
-      "Sedans, SUVs, 14-passenger Sprinter vans and stretch limousines",
+      "Sedans, SUVs, 13-passenger Sprinter vans and stretch limousines",
       "Dinner and hotel stops on the same reservation",
       "Maryland PSC Carrier No. 6325"
     ],
@@ -8195,7 +8197,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you carry a group to CFG Bank Arena?",
-        "a": "Yes. Cadillac Escalade and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 14 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
+        "a": "Yes. Cadillac Escalade and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 13 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
       },
       {
         "q": "What about parking at CFG Bank Arena?",
@@ -8276,7 +8278,7 @@ export const MARYLAND_PAGES = [
     "name": "Capital One Arena",
     "badge": "Maryland Events",
     "h1": "Capital One Arena Transportation & Limo Service",
-    "metaTitle": "Capital One Arena Transportation | Limo & Car Service | MSY Limo",
+    "metaTitle": "Capital One Arena Transportation | Limo & Car Service",
     "metaDescription": "Chauffeured transportation to Capital One Arena in Washington, DC – door drop-off, staged pickup, flat rates. Sedans, SUVs, Sprinters &. Call (877) 609-1919.",
     "stats": [
       {
@@ -8305,7 +8307,7 @@ export const MARYLAND_PAGES = [
       "Flat-rate pricing confirmed before you ride",
       "Entrance drop-off at Capital One Arena and a quiet pre-set pickup point",
       "Hourly wait service available",
-      "Sedans, SUVs, 14-passenger Sprinter vans and stretch limousines",
+      "Sedans, SUVs, 13-passenger Sprinter vans and stretch limousines",
       "Dinner and hotel stops on the same reservation",
       "Maryland PSC Carrier No. 6325"
     ],
@@ -8382,7 +8384,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you carry a group to Capital One Arena?",
-        "a": "Yes. Cadillac Escalade and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 14 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
+        "a": "Yes. Cadillac Escalade and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 13 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
       },
       {
         "q": "What about parking at Capital One Arena?",
@@ -8463,7 +8465,7 @@ export const MARYLAND_PAGES = [
     "name": "M&T Bank Stadium",
     "badge": "Maryland Events",
     "h1": "M&T Bank Stadium Transportation & Limo Service",
-    "metaTitle": "M&T Bank Stadium Transportation | Limo & Car Service | MSY Limo",
+    "metaTitle": "M&T Bank Stadium Transportation | Limo & Car Service",
     "metaDescription": "Chauffeured transportation to M&T Bank Stadium in Baltimore — door drop-off, staged pickup, flat rates. Sedans, SUVs, Sprinters & limos. Call (877) 609-1919.",
     "stats": [
       {
@@ -8492,7 +8494,7 @@ export const MARYLAND_PAGES = [
       "Flat-rate pricing confirmed before you ride",
       "Entrance drop-off at M&T Bank Stadium and a quiet pre-set pickup point",
       "Hourly wait service available",
-      "Sedans, SUVs, 14-passenger Sprinter vans and stretch limousines",
+      "Sedans, SUVs, 13-passenger Sprinter vans and stretch limousines",
       "Dinner and hotel stops on the same reservation",
       "Maryland PSC Carrier No. 6325"
     ],
@@ -8569,7 +8571,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you carry a group to M&T Bank Stadium?",
-        "a": "Yes. Cadillac Escalade and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 14 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
+        "a": "Yes. Cadillac Escalade and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 13 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
       },
       {
         "q": "What about parking at M&T Bank Stadium?",
@@ -8679,7 +8681,7 @@ export const MARYLAND_PAGES = [
       "Flat-rate pricing confirmed before you ride",
       "Entrance drop-off at Pimlico Race Course and a quiet pre-set pickup point",
       "Hourly wait service available",
-      "Sedans, SUVs, 14-passenger Sprinter vans and stretch limousines",
+      "Sedans, SUVs, 13-passenger Sprinter vans and stretch limousines",
       "Dinner and hotel stops on the same reservation",
       "Maryland PSC Carrier No. 6325"
     ],
@@ -8756,7 +8758,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you carry a group to Pimlico Race Course?",
-        "a": "Yes. Cadillac Escalade and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 14 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
+        "a": "Yes. Cadillac Escalade and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 13 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
       },
       {
         "q": "What about parking at Pimlico Race Course?",
@@ -8866,7 +8868,7 @@ export const MARYLAND_PAGES = [
       "Flat-rate pricing confirmed before you ride",
       "Entrance drop-off at the Maryland State Fair and a quiet pre-set pickup point",
       "Hourly wait service available",
-      "Sedans, SUVs, 14-passenger Sprinter vans and stretch limousines",
+      "Sedans, SUVs, 13-passenger Sprinter vans and stretch limousines",
       "Dinner and hotel stops on the same reservation",
       "Maryland PSC Carrier No. 6325"
     ],
@@ -8943,7 +8945,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you carry a group to the Maryland State Fair?",
-        "a": "Yes. Cadillac Escalade and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 14 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
+        "a": "Yes. Cadillac Escalade and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 13 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
       },
       {
         "q": "What about parking at the Maryland State Fair?",
@@ -9024,7 +9026,7 @@ export const MARYLAND_PAGES = [
     "name": "Camden Yards",
     "badge": "Maryland Events",
     "h1": "Oriole Park at Camden Yards Transportation & Limo Service",
-    "metaTitle": "Oriole Park at Camden Yards Transportation | Limo & Car Service",
+    "metaTitle": "Camden Yards Transportation | Limo & Car Service",
     "metaDescription": "Chauffeured transportation to Oriole Park at Camden Yards in Baltimore – door drop-off, staged pickup, flat rates. Sedans, SUVs. Call (877) 609-1919.",
     "stats": [
       {
@@ -9053,7 +9055,7 @@ export const MARYLAND_PAGES = [
       "Flat-rate pricing confirmed before you ride",
       "Entrance drop-off at Oriole Park at Camden Yards and a quiet pre-set pickup point",
       "Hourly wait service available",
-      "Sedans, SUVs, 14-passenger Sprinter vans and stretch limousines",
+      "Sedans, SUVs, 13-passenger Sprinter vans and stretch limousines",
       "Dinner and hotel stops on the same reservation",
       "Maryland PSC Carrier No. 6325"
     ],
@@ -9130,7 +9132,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you carry a group to Oriole Park at Camden Yards?",
-        "a": "Yes. Cadillac Escalade and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 14 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
+        "a": "Yes. Cadillac Escalade and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 13 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
       },
       {
         "q": "What about parking at Oriole Park at Camden Yards?",
@@ -9240,7 +9242,7 @@ export const MARYLAND_PAGES = [
       "Flat-rate pricing confirmed before you ride",
       "Entrance drop-off at the University of Maryland and a quiet pre-set pickup point",
       "Hourly wait service available",
-      "Sedans, SUVs, 14-passenger Sprinter vans and stretch limousines",
+      "Sedans, SUVs, 13-passenger Sprinter vans and stretch limousines",
       "Dinner and hotel stops on the same reservation",
       "Maryland PSC Carrier No. 6325"
     ],
@@ -9317,7 +9319,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you carry a group to the University of Maryland?",
-        "a": "Yes. Cadillac Escalade and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 14 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
+        "a": "Yes. Cadillac Escalade and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 13 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
       },
       {
         "q": "What about parking at the University of Maryland?",
@@ -9398,7 +9400,7 @@ export const MARYLAND_PAGES = [
     "name": "Navy-Marine Corps Stadium",
     "badge": "Maryland Events",
     "h1": "Navy-Marine Corps Memorial Stadium Transportation & Limo Service",
-    "metaTitle": "Navy-Marine Corps Memorial Stadium Transportation | Limo & Car Service",
+    "metaTitle": "Navy-Marine Corps Stadium Limo & Car Service",
     "metaDescription": "Chauffeured transportation to Navy-Marine Corps Memorial Stadium in Annapolis – door drop-off, staged pickup, flat rates. Sedans, SUVs. Call (877) 609-1919.",
     "stats": [
       {
@@ -9427,7 +9429,7 @@ export const MARYLAND_PAGES = [
       "Flat-rate pricing confirmed before you ride",
       "Entrance drop-off at Navy-Marine Corps Memorial Stadium and a quiet pre-set pickup point",
       "Hourly wait service available",
-      "Sedans, SUVs, 14-passenger Sprinter vans and stretch limousines",
+      "Sedans, SUVs, 13-passenger Sprinter vans and stretch limousines",
       "Dinner and hotel stops on the same reservation",
       "Maryland PSC Carrier No. 6325"
     ],
@@ -9504,7 +9506,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you carry a group to Navy-Marine Corps Memorial Stadium?",
-        "a": "Yes. Cadillac Escalade and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 14 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
+        "a": "Yes. Cadillac Escalade and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 13 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
       },
       {
         "q": "What about parking at Navy-Marine Corps Memorial Stadium?",
@@ -9585,7 +9587,7 @@ export const MARYLAND_PAGES = [
     "name": "National Harbor",
     "badge": "Maryland Events",
     "h1": "National Harbor Transportation & Limo Service",
-    "metaTitle": "National Harbor Transportation | Limo & Car Service | MSY Limo",
+    "metaTitle": "National Harbor Transportation | Limo & Car Service",
     "metaDescription": "Chauffeured transportation to National Harbor in Oxon Hill — door drop-off, staged pickup, flat rates. Sedans, SUVs, Sprinters & limos. Call (877) 609-1919.",
     "stats": [
       {
@@ -9614,7 +9616,7 @@ export const MARYLAND_PAGES = [
       "Flat-rate pricing confirmed before you ride",
       "Entrance drop-off at National Harbor and a quiet pre-set pickup point",
       "Hourly wait service available",
-      "Sedans, SUVs, 14-passenger Sprinter vans and stretch limousines",
+      "Sedans, SUVs, 13-passenger Sprinter vans and stretch limousines",
       "Dinner and hotel stops on the same reservation",
       "Maryland PSC Carrier No. 6325"
     ],
@@ -9691,7 +9693,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you carry a group to National Harbor?",
-        "a": "Yes. Cadillac Escalade and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 14 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
+        "a": "Yes. Cadillac Escalade and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 13 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
       },
       {
         "q": "What about parking at National Harbor?",
@@ -9801,7 +9803,7 @@ export const MARYLAND_PAGES = [
       "Flat-rate pricing confirmed before you ride",
       "Entrance drop-off at Chesapeake Bay Events and a quiet pre-set pickup point",
       "Hourly wait service available",
-      "Sedans, SUVs, 14-passenger Sprinter vans and stretch limousines",
+      "Sedans, SUVs, 13-passenger Sprinter vans and stretch limousines",
       "Dinner and hotel stops on the same reservation",
       "Maryland PSC Carrier No. 6325"
     ],
@@ -9878,7 +9880,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you carry a group to Chesapeake Bay Events?",
-        "a": "Yes. Cadillac Escalade and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 14 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
+        "a": "Yes. Cadillac Escalade and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 13 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
       },
       {
         "q": "What about parking at Chesapeake Bay Events?",
@@ -9988,7 +9990,7 @@ export const MARYLAND_PAGES = [
       "Flat-rate pricing confirmed before you ride",
       "Entrance drop-off at the Annapolis Boat Shows and a quiet pre-set pickup point",
       "Hourly wait service available",
-      "Sedans, SUVs, 14-passenger Sprinter vans and stretch limousines",
+      "Sedans, SUVs, 13-passenger Sprinter vans and stretch limousines",
       "Dinner and hotel stops on the same reservation",
       "Maryland PSC Carrier No. 6325"
     ],
@@ -10065,7 +10067,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you carry a group to the Annapolis Boat Shows?",
-        "a": "Yes. Cadillac Escalade and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 14 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
+        "a": "Yes. Cadillac Escalade and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 13 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
       },
       {
         "q": "What about parking at the Annapolis Boat Shows?",
@@ -10146,7 +10148,7 @@ export const MARYLAND_PAGES = [
     "name": "Maryland Renaissance Festival",
     "badge": "Maryland Events",
     "h1": "Maryland Renaissance Festival Transportation & Limo Service",
-    "metaTitle": "Maryland Renaissance Festival Transportation | Limo & Car Service",
+    "metaTitle": "Maryland Renaissance Festival Limo & Car Service",
     "metaDescription": "Chauffeured transportation to Maryland Renaissance Festival in Crownsville – door drop-off, staged pickup, flat rates. Sedans, SUVs. Call (877) 609-1919.",
     "stats": [
       {
@@ -10175,7 +10177,7 @@ export const MARYLAND_PAGES = [
       "Flat-rate pricing confirmed before you ride",
       "Entrance drop-off at the Maryland Renaissance Festival and a quiet pre-set pickup point",
       "Hourly wait service available",
-      "Sedans, SUVs, 14-passenger Sprinter vans and stretch limousines",
+      "Sedans, SUVs, 13-passenger Sprinter vans and stretch limousines",
       "Dinner and hotel stops on the same reservation",
       "Maryland PSC Carrier No. 6325"
     ],
@@ -10252,7 +10254,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you carry a group to the Maryland Renaissance Festival?",
-        "a": "Yes. Cadillac Escalade and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 14 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
+        "a": "Yes. Cadillac Escalade and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 13 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
       },
       {
         "q": "What about parking at the Maryland Renaissance Festival?",
@@ -10333,7 +10335,7 @@ export const MARYLAND_PAGES = [
     "name": "Preakness Stakes",
     "badge": "Maryland Events",
     "h1": "Preakness Stakes Transportation & Limo Service",
-    "metaTitle": "Preakness Stakes Transportation | Limo & Car Service | MSY Limo",
+    "metaTitle": "Preakness Stakes Transportation | Limo & Car Service",
     "metaDescription": "Chauffeured transportation to Preakness Stakes in Baltimore and Laurel – door drop-off, staged pickup, flat rates. Sedans, SUVs. Call (877) 609-1919.",
     "stats": [
       {
@@ -10362,7 +10364,7 @@ export const MARYLAND_PAGES = [
       "Flat-rate pricing confirmed before you ride",
       "Entrance drop-off at the Preakness Stakes and a quiet pre-set pickup point",
       "Hourly wait service available",
-      "Sedans, SUVs, 14-passenger Sprinter vans and stretch limousines",
+      "Sedans, SUVs, 13-passenger Sprinter vans and stretch limousines",
       "Dinner and hotel stops on the same reservation",
       "Maryland PSC Carrier No. 6325"
     ],
@@ -10439,7 +10441,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you carry a group to the Preakness Stakes?",
-        "a": "Yes. Cadillac Escalade and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 14 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
+        "a": "Yes. Cadillac Escalade and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 13 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
       },
       {
         "q": "What about parking at the Preakness Stakes?",
@@ -10513,8 +10515,897 @@ export const MARYLAND_PAGES = [
         "blurb": "A frequent add-on before or after the event — dinner, hotel pickup or a late-night stop on the way home."
       }
     ]
-  }
+  },
+  {
+    "slug": "maryland-corporate-transportation",
+    "type": "service",
+    "name": "Maryland Corporate Transportation",
+    "badge": "Maryland Services",
+    "h1": "Maryland Corporate Transportation for Visiting Groups",
+    "metaTitle": "Maryland Corporate Transportation | Groups | MSY Limo",
+    "metaDescription": "Maryland corporate transportation for conference groups, delegations and incentive travel: Sprinter shuttles, hourly charters, one invoice. Call (877) 609-1919.",
+    "stats": [
+      {
+        "label": "Coverage",
+        "value": "Baltimore · National Harbor · DC"
+      },
+      {
+        "label": "Group size",
+        "value": "1 to 14 per vehicle"
+      },
+      {
+        "label": "Pricing",
+        "value": "Flat rate or hourly"
+      },
+      {
+        "label": "Billing",
+        "value": "One invoice per event"
+      }
+    ],
+    "intro": [
+      "MSY Limo Service's Maryland fleet builds corporate transportation programs for companies bringing people into the region: conference delegations at the Baltimore Convention Center, incentive groups at the Gaylord National in National Harbor, sales kickoffs in Bethesda and site visits along the Fort Meade and Columbia technology corridor. Your planner sends a manifest and an agenda; we return a transportation plan with vehicles, chauffeurs and staging points already assigned.",
+      "Every program runs on flat rates confirmed in advance, real-time flight tracking for arriving attendees at BWI, Dulles and Reagan, and a single itemized invoice at the end. Sedans and SUVs handle executives and speakers; 13-passenger Mercedes Sprinter vans move breakout groups, dine-arounds and off-site team events without a head count going missing."
+    ],
+    "highlights": [
+      "Arrival manifests matched to vehicles at BWI, Dulles and Reagan",
+      "Meet and greet with company or event signage at baggage claim",
+      "Sprinter shuttle loops for conference hotels and off-site dinners",
+      "Hourly charters that keep one chauffeur with a team all day",
+      "One itemized invoice per event, with flat rates agreed in advance",
+      "Maryland PSC Carrier No. 6325, 24/7 dispatch during your program"
+    ],
+    "destinationsTitle": "Venues and Conference Hotels We Serve",
+    "destinations": [
+      {
+        "name": "Baltimore Convention Center and Inner Harbor hotels",
+        "blurb": "Pratt Street staging for large arrivals, with shuttle loops to Harbor East and Fells Point dinners."
+      },
+      {
+        "name": "Gaylord National Resort at National Harbor",
+        "blurb": "Incentive groups and association meetings, with runs to DC monuments and the airports on one account."
+      },
+      {
+        "name": "Bethesda North Marriott and Bethesda offices",
+        "blurb": "Montgomery County meetings, NIH visits and biotech site tours with hourly charters."
+      },
+      {
+        "name": "Columbia, Merriweather District and Fort Meade corridor",
+        "blurb": "Defense and technology site visits from BWI-area hotels, minutes from our Laurel base."
+      },
+      {
+        "name": "Annapolis and Naval Academy events",
+        "blurb": "Board retreats, sailing outings and legislative-session meetings at the State House."
+      },
+      {
+        "name": "Downtown Washington and Capitol Hill",
+        "blurb": "Hotel-to-Hill shuttles for advocacy days and fly-ins, planned around controlled drop-off zones."
+      }
+    ],
+    "sections": [
+      {
+        "h2": "Built for Conference and Incentive Travel",
+        "paragraphs": [
+          "A visiting group rarely moves as one unit. Speakers fly in a day early, the sales team lands across three flights, and the executive host arrives last. We stage a vehicle for each arrival, track every flight and hold 45 minutes of complimentary wait time on domestic flights and 60 on international, so nobody stands at a BWI baggage carousel wondering who to call. Attendees are greeted with your company or event name on the sign.",
+          "Once the program starts, Sprinter vans handle the group movements: convention center to hotel, hotel to the evening dine-around, a Saturday excursion to Annapolis or a Chesapeake sailing outing. Hourly charters keep an Escalade or BMW 7 Series with your leadership team for a day of site visits. Call (877) 609-1919 with your agenda and we will map it out."
+        ]
+      },
+      {
+        "h2": "Why Planners Choose One Provider Over Rideshare",
+        "paragraphs": [
+          "Rideshare works for one person and one bag. It breaks down when twelve people need to leave a reception together, when surge pricing doubles a fare during a convention load-in, or when a planner is handed thirty receipts in different names after the event. A reserved program means one dispatcher, one phone number and one invoice broken out by date, passenger and route.",
+          "It also means accountability. Every chauffeur is background-checked, every vehicle is commercially insured under Maryland PSC Carrier No. 6325, and dispatch stays on the line throughout your program. Compare our local executive service at Maryland corporate car service, or read the corporate transportation overview for account details."
+        ]
+      },
+      {
+        "h2": "Rates, Cancellation and Booking",
+        "paragraphs": [
+          "Transfers between airports, hotels and venues are priced flat by vehicle class. Shuttle loops and full-day programs are priced hourly with a minimum, and both are confirmed in writing before the first pickup. There is no surge pricing during conventions, holiday weeks or bad weather.",
+          "Sedan and SUV bookings can be cancelled free up to 3 hours before pickup; Sprinter vans and special-event programs require 12 hours. Group programs are best confirmed two to four weeks ahead, earlier for spring and fall convention season at the Baltimore Convention Center and National Harbor."
+        ]
+      }
+    ],
+    "vehicles": [
+      {
+        "name": "Mercedes-Benz E-Class",
+        "cls": "Business sedan",
+        "seats": 3,
+        "best": "speakers and solo executives"
+      },
+      {
+        "name": "BMW 7 Series",
+        "cls": "First-class sedan",
+        "seats": 3,
+        "best": "C-suite hosts and VIP guests"
+      },
+      {
+        "name": "Cadillac Escalade",
+        "cls": "Premium SUV",
+        "seats": 6,
+        "best": "leadership teams of up to six"
+      },
+      {
+        "name": "Chevrolet Suburban",
+        "cls": "Luxury SUV",
+        "seats": 6,
+        "best": "sales teams with sample cases"
+      },
+      {
+        "name": "Mercedes Sprinter van",
+        "cls": "Executive van",
+        "seats": 14,
+        "best": "conference groups and dine-arounds"
+      },
+      {
+        "name": "Stretch limousine",
+        "cls": "Limousine",
+        "seats": 8,
+        "best": "award dinners and client entertaining"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "How do you handle a group arriving on many different flights?",
+        "a": "Send us the arrival manifest. We assign a vehicle to each flight at BWI, Dulles or Reagan, track every arrival in real time, meet attendees at baggage claim with event signage and consolidate everything on one invoice."
+      },
+      {
+        "q": "Can you run a shuttle between our conference hotel and an off-site dinner?",
+        "a": "Yes. One or more Mercedes Sprinter vans run a timed loop on an hourly rate, with a chauffeur stationed at the hotel door and dispatch coordinating pickups after the event."
+      },
+      {
+        "q": "Do you offer corporate accounts with monthly billing?",
+        "a": "We do. Accounts include negotiated flat rates, priority dispatch during busy weeks and a single itemized invoice by date, passenger and route. Call (877) 609-1919 to set one up before your event."
+      },
+      {
+        "q": "What areas does Maryland corporate transportation cover?",
+        "a": "Baltimore, National Harbor, Bethesda, Columbia and the Fort Meade corridor, Annapolis and downtown Washington, plus Northern Virginia and Delaware on request."
+      },
+      {
+        "q": "What is the cancellation policy for group programs?",
+        "a": "Sedans and SUVs can be cancelled free up to 3 hours before pickup. Sprinter vans, limousines and special-event programs require 12 hours' notice."
+      }
+    ],
+    "related": [
+      {
+        "label": "Maryland Corporate Car Service",
+        "to": "/maryland-corporate-car-service"
+      },
+      {
+        "label": "Corporate Transportation",
+        "to": "/services/corporate-transportation"
+      },
+      {
+        "label": "Washington DC Airport Transfers",
+        "to": "/washington-dc-airport-transfers"
+      },
+      {
+        "label": "National Harbor Transportation",
+        "to": "/national-harbor-transportation"
+      }
+    ],
+    "schema": {
+      "areaServed": [
+        "Maryland",
+        "Baltimore",
+        "National Harbor",
+        "Washington DC"
+      ],
+      "serviceType": "Corporate transportation"
+    }
+  },
+  {
+    "slug": "bwi-to-annapolis-car-service",
+    "type": "route",
+    "name": "BWI to Annapolis Car Service",
+    "badge": "Maryland Routes",
+    "h1": "BWI to Annapolis Car Service for Visitors",
+    "metaTitle": "BWI to Annapolis Car Service | Visitors | MSY Limo",
+    "metaDescription": "BWI to Annapolis car service for Naval Academy visits, boat shows and sailing weekends. 30–45 minutes, flat rate, flight tracking. Call (877) 609-1919.",
+    "stats": [
+      {
+        "label": "Distance",
+        "value": "≈ 27–30 miles"
+      },
+      {
+        "label": "Drive time",
+        "value": "30–45 minutes"
+      },
+      {
+        "label": "Route",
+        "value": "MD-32 to I-97 south"
+      },
+      {
+        "label": "Wait time",
+        "value": "45 min domestic · 60 international"
+      }
+    ],
+    "intro": [
+      "Annapolis is the trip most visitors to Maryland are actually here for: a Naval Academy tour, a Commissioning Week ceremony, the October boat shows or a sailing weekend on the Chesapeake. MSY Limo Service's Maryland fleet meets you at BWI's lower-level baggage claim with a name sign and delivers you to a Main Street inn, the Academy's Visitor Center gate or a marina in Eastport on a flat rate confirmed before you fly.",
+      "The drive is 27 to 30 miles down MD-32 and I-97 to US-50 and Rowe Boulevard, usually 30 to 45 minutes. Your chauffeur tracks the flight, knows which downtown streets are closed for a parade or the boat show, and will happily point out where to eat crab cakes on the way in."
+    ],
+    "highlights": [
+      "Meet and greet inside BWI baggage claim with a name sign",
+      "Flat rate confirmed at booking, no surge on Commissioning Week or boat show weekends",
+      "Drop-off at Main Street inns, Eastport marinas and the Naval Academy gates",
+      "Real-time flight tracking with 45 to 60 minutes of complimentary wait time",
+      "Suburbans and Sprinters for sailing gear, sea bags and family luggage",
+      "Maryland PSC Carrier No. 6325, 24/7 dispatch"
+    ],
+    "destinationsTitle": "Where Visitors Ask Us to Drop Them in Annapolis",
+    "destinations": [
+      {
+        "name": "Naval Academy Visitor Center at Gate 1",
+        "blurb": "Guided tours, Midshipmen families and Commissioning Week guests; we know the ID requirements and the closest legal drop-off."
+      },
+      {
+        "name": "Annapolis City Dock and Main Street",
+        "blurb": "The Annapolis Waterfront Hotel, the Historic Inns and the boutique inns on Main Street and Duke of Gloucester."
+      },
+      {
+        "name": "Eastport marinas and the Annapolis Yacht Club",
+        "blurb": "Charter sailing weekends and regattas, with room for sea bags and foul-weather gear."
+      },
+      {
+        "name": "The Graduate Annapolis and West Street hotels",
+        "blurb": "Walkable to Church Circle and the State House, popular with legislative-session visitors."
+      },
+      {
+        "name": "Navy-Marine Corps Memorial Stadium",
+        "blurb": "Fall football Saturdays and the Annapolis boat show shuttle lots."
+      },
+      {
+        "name": "Kent Island and the Bay Bridge",
+        "blurb": "Continue across the bridge to Chesapeake Bay Beach Club or an Eastern Shore inn on the same reservation."
+      }
+    ],
+    "sections": [
+      {
+        "h2": "Planning a Visit Around Annapolis Events",
+        "paragraphs": [
+          "Annapolis has a calendar that moves the traffic. Commissioning Week in late May fills every room and closes streets near the Academy. The Sailboat and Powerboat Shows in October turn City Dock into a floating showroom, and Navy home games send tailgaters to the stadium lots on fall Saturdays. Summer Fridays add Bay Bridge beach traffic on US-50.",
+          "None of that changes your price. A BWI to Annapolis car service is quoted flat by vehicle class, and your chauffeur plans the approach in advance, using Rowe Boulevard, West Street or the Route 2 side depending on what is closed. Call (877) 609-1919 with your dates and we will tell you what to expect that weekend."
+        ]
+      },
+      {
+        "h2": "Visitors Without a Rental Car",
+        "paragraphs": [
+          "Downtown Annapolis is a walking town with tight colonial streets and scarce parking, so most visitors are better off without a rental. A chauffeured transfer from BWI gets you to the inn; from there, water taxis, the free Circulator trolley and your own feet cover the historic district.",
+          "When you want to go farther, book an hourly charter for a Chesapeake Bay Beach Club dinner on Kent Island, a Naval Academy football Saturday or a St. Michaels day trip on the Eastern Shore, then a return transfer to BWI on your departure day with flight tracking and a chauffeur who knows how early to leave."
+        ]
+      },
+      {
+        "h2": "How This Page Differs From Our Standard BWI to Annapolis Route",
+        "paragraphs": [
+          "Our BWI to Annapolis route page covers the corridor for everyone, including commuters and legislators. This page is written for out-of-town guests: Academy families, boat show attendees, sailors and wedding guests who need help with hotel drop-offs, gate logistics and multi-day plans.",
+          "Sedan and SUV transfers can be cancelled free up to 3 hours before pickup; Sprinter vans and special events require 12 hours. International arrivals at BWI's Concourse E receive 60 minutes of complimentary wait time, domestic arrivals 45."
+        ]
+      }
+    ],
+    "vehicles": [
+      {
+        "name": "Mercedes-Benz E-Class",
+        "cls": "Business sedan",
+        "seats": 3,
+        "best": "couples on a weekend getaway"
+      },
+      {
+        "name": "BMW 7 Series",
+        "cls": "First-class sedan",
+        "seats": 3,
+        "best": "boat show client entertaining"
+      },
+      {
+        "name": "Cadillac Escalade",
+        "cls": "Premium SUV",
+        "seats": 6,
+        "best": "Academy families with luggage"
+      },
+      {
+        "name": "Chevrolet Suburban",
+        "cls": "Luxury SUV",
+        "seats": 6,
+        "best": "sailing crews with sea bags"
+      },
+      {
+        "name": "Mercedes Sprinter van",
+        "cls": "Executive van",
+        "seats": 14,
+        "best": "reunion groups and wedding guests"
+      },
+      {
+        "name": "Stretch limousine",
+        "cls": "Limousine",
+        "seats": 8,
+        "best": "Commissioning Week celebrations"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "How much does a car service from BWI to Annapolis cost?",
+        "a": "Rates are flat by vehicle class and confirmed at booking, with no surge on Commissioning Week or boat show weekends. Call (877) 609-1919 or request a quote online with your hotel address."
+      },
+      {
+        "q": "Can the chauffeur drop us at the Naval Academy Visitor Center?",
+        "a": "Yes. We use the closest legal drop-off to Gate 1 on King George Street. Adults need a government-issued photo ID to enter the Yard, and vehicle access is restricted, so a chauffeured drop-off is the simplest way in."
+      },
+      {
+        "q": "How long is the drive from BWI to downtown Annapolis?",
+        "a": "Usually 30 to 45 minutes for the 27 to 30 miles via MD-32 and I-97 to US-50. Allow extra during Commissioning Week, boat show weekends and summer Friday Bay Bridge traffic."
+      },
+      {
+        "q": "Do you have room for sailing gear and multiple suitcases?",
+        "a": "A Chevrolet Suburban or Cadillac Escalade carries six passengers with sea bags and luggage; a Mercedes Sprinter takes up to 13 for a charter crew or reunion group."
+      },
+      {
+        "q": "Can you continue past Annapolis to Kent Island or the Eastern Shore?",
+        "a": "Yes. Chesapeake Bay Beach Club, Stevensville and St. Michaels are regular extensions of this route, quoted as a single flat rate from BWI."
+      }
+    ],
+    "related": [
+      {
+        "label": "BWI to Annapolis Route",
+        "to": "/bwi-to-annapolis"
+      },
+      {
+        "label": "Annapolis Boat Show Transportation",
+        "to": "/annapolis-boat-show-transportation"
+      },
+      {
+        "label": "Navy-Marine Corps Stadium Transportation",
+        "to": "/navy-marine-corps-stadium-transportation"
+      },
+      {
+        "label": "Baltimore to Annapolis",
+        "to": "/baltimore-to-annapolis"
+      }
+    ],
+    "schema": {
+      "areaServed": [
+        "Annapolis",
+        "BWI Airport",
+        "Anne Arundel County"
+      ],
+      "serviceType": "Airport car service"
+    }
+  },
+  {
+    "slug": "washington-dc-airport-transfers",
+    "type": "route",
+    "name": "Washington DC Airport Transfers",
+    "badge": "DC Airport Routes",
+    "h1": "Washington DC Airport Transfers and Hotel Car Service",
+    "metaTitle": "Washington DC Airport Transfers | BWI, DCA, IAD | MSY Limo",
+    "metaDescription": "Washington DC airport transfers from BWI, Reagan and Dulles to downtown, Georgetown and National Harbor hotels. Flat rates, flight tracking. (877) 609-1919.",
+    "stats": [
+      {
+        "label": "Reagan to downtown",
+        "value": "≈ 4 mi · 10–20 min"
+      },
+      {
+        "label": "Dulles to downtown",
+        "value": "≈ 26 mi · 40–60 min"
+      },
+      {
+        "label": "BWI to downtown",
+        "value": "≈ 32 mi · 45–70 min"
+      },
+      {
+        "label": "Wait time",
+        "value": "45 min domestic · 60 international"
+      }
+    ],
+    "intro": [
+      "Three airports serve the capital, and visitors rarely get to choose which one their fare lands them at. MSY Limo Service's DMV fleet covers all of them with the same standard: a chauffeur inside baggage claim holding a name sign, a flat rate confirmed before you fly and a drop-off at the hotel door, whether that is on Pennsylvania Avenue, in Georgetown, near the convention center or across the river at National Harbor.",
+      "Reagan National is about 4 miles from the National Mall, a 10 to 20 minute ride. Dulles is roughly 26 miles out via the Dulles Toll Road and I-66, 40 to 60 minutes with customs and the AeroTrain to clear first. BWI is about 32 miles up the Baltimore-Washington Parkway, 45 to 70 minutes depending on the hour. We track every flight and stage the car accordingly."
+    ],
+    "highlights": [
+      "One provider for Reagan, Dulles and BWI arrivals and departures",
+      "Meet and greet at baggage claim with a name sign",
+      "Hotel-district drop-offs: downtown, Georgetown, Capitol Hill, National Harbor",
+      "Group arrivals coordinated across all three airports on one reservation",
+      "Flat rates with no surge during state visits, inaugurations or conventions",
+      "Maryland PSC Carrier No. 6325, 24/7 dispatch"
+    ],
+    "destinationsTitle": "Hotel Districts We Deliver To",
+    "destinations": [
+      {
+        "name": "Pennsylvania Avenue and downtown",
+        "blurb": "The grand hotels near the White House and the business hotels along K Street and Farragut Square."
+      },
+      {
+        "name": "Mount Vernon Square convention hotels",
+        "blurb": "Walter E. Washington Convention Center headquarters hotels for association meetings and trade shows."
+      },
+      {
+        "name": "Georgetown",
+        "blurb": "Narrow streets, cobblestones and a nightly valet line; we know the hotel entrances and the M Street timing."
+      },
+      {
+        "name": "Capitol Hill and Navy Yard",
+        "blurb": "Hill fly-ins, Nationals games and the Wharf, with staging planned around controlled drop-off zones."
+      },
+      {
+        "name": "National Harbor",
+        "blurb": "The Gaylord, MGM and waterfront hotels across the Potomac in Maryland, a favorite for conference and leisure visitors."
+      },
+      {
+        "name": "Bethesda, Arlington and Tysons",
+        "blurb": "Maryland and Virginia hotel clusters for NIH, Pentagon and corporate visitors."
+      }
+    ],
+    "sections": [
+      {
+        "h2": "Which Airport Are You Landing At?",
+        "paragraphs": [
+          "Reagan is the easiest arrival in the region: collect bags, walk out and your chauffeur is at the curb or waiting in the terminal, then a short ride across the 14th Street Bridge. Dulles is the international gateway; after customs and the AeroTrain, your chauffeur meets you in the arrivals hall with 60 minutes of complimentary wait time already built in. BWI is the Southwest hub and often the cheapest fare; the lower-level arrivals curb is where we meet domestic flights.",
+          "If you are unsure which airport suits your trip, our Dulles airport car service page walks through international arrivals, and the BWI to Washington DC route page covers the Parkway run in detail. Either way, the vehicle, the chauffeur standard and the flat-rate pricing are the same."
+        ]
+      },
+      {
+        "h2": "Group Arrivals and Conference Hotels",
+        "paragraphs": [
+          "Conference groups, wedding guests and touring parties rarely land together. Send us the list of flights and we assign a vehicle to each, from a Mercedes-Benz E-Class for a keynote speaker to a 13-passenger Sprinter for a delegation landing on the same Dulles flight. Every arrival is tracked, every passenger is met with a name or event sign, and the whole program lands on one invoice.",
+          "Departures work the same way in reverse. We schedule pickups from the hotel using live traffic and TSA guidance, earlier on Monday mornings and during motorcade season, so nobody is sprinting through Dulles's mid-field concourses. Call (877) 609-1919 with your manifest and we will build the schedule."
+        ]
+      },
+      {
+        "h2": "Flat Rates, Wait Time and Cancellation",
+        "paragraphs": [
+          "Every transfer is priced flat by vehicle class and confirmed at booking. Tolls and gratuity are disclosed up front, and the rate does not change if a state visit closes downtown or a storm delays your flight. Domestic arrivals include 45 minutes of complimentary wait time; international arrivals at Dulles and BWI include 60.",
+          "Sedan and SUV transfers can be cancelled free up to 3 hours before pickup; Sprinter vans and special-event bookings require 12 hours. MSY Limo Service operates as Maryland PSC Carrier No. 6325 from 9836 Lyon Ave in Laurel, between BWI and the District."
+        ]
+      }
+    ],
+    "vehicles": [
+      {
+        "name": "Mercedes-Benz E-Class",
+        "cls": "Business sedan",
+        "seats": 3,
+        "best": "solo visitors and couples to downtown hotels"
+      },
+      {
+        "name": "BMW 7 Series",
+        "cls": "First-class sedan",
+        "seats": 3,
+        "best": "diplomats, executives and keynote speakers"
+      },
+      {
+        "name": "Cadillac Escalade",
+        "cls": "Premium SUV",
+        "seats": 6,
+        "best": "families with luggage to National Harbor"
+      },
+      {
+        "name": "Chevrolet Suburban",
+        "cls": "Luxury SUV",
+        "seats": 6,
+        "best": "conference attendees with display cases"
+      },
+      {
+        "name": "Mercedes Sprinter van",
+        "cls": "Executive van",
+        "seats": 14,
+        "best": "delegations and tour groups landing together"
+      },
+      {
+        "name": "Stretch limousine",
+        "cls": "Limousine",
+        "seats": 8,
+        "best": "anniversary and celebration arrivals"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Which Washington airport is closest to downtown hotels?",
+        "a": "Reagan National, about 4 miles and 10 to 20 minutes from the National Mall. Dulles is roughly 26 miles and 40 to 60 minutes; BWI is about 32 miles and 45 to 70 minutes on the Parkway."
+      },
+      {
+        "q": "Where will my chauffeur meet me at each airport?",
+        "a": "At Reagan, in the terminal or at the curb; at Dulles, in the main terminal arrivals hall after customs and the AeroTrain; at BWI, on the lower-level baggage claim or the Concourse E international hall. Meet and greet with a name sign is available at all three."
+      },
+      {
+        "q": "How much is a car service from Dulles or Reagan to a DC hotel?",
+        "a": "Rates are flat by vehicle class and confirmed at booking with tolls and gratuity disclosed. Call (877) 609-1919 or request a quote online with your hotel and flight details."
+      },
+      {
+        "q": "Can you coordinate a group arriving at different airports?",
+        "a": "Yes. One reservation can cover flights into Reagan, Dulles and BWI, with a vehicle assigned to each arrival and the whole program on a single invoice."
+      },
+      {
+        "q": "What happens if my international flight is delayed at Dulles?",
+        "a": "We track the flight and adjust the pickup automatically. International arrivals include 60 minutes of complimentary wait time to allow for customs and the AeroTrain."
+      }
+    ],
+    "related": [
+      {
+        "label": "BWI to Washington DC",
+        "to": "/bwi-to-washington-dc"
+      },
+      {
+        "label": "Dulles Airport Car Service",
+        "to": "/iad-dulles-airport-car-service"
+      },
+      {
+        "label": "Airport Transportation",
+        "to": "/services/airport-transportation"
+      },
+      {
+        "label": "National Harbor Transportation",
+        "to": "/national-harbor-transportation"
+      }
+    ],
+    "schema": {
+      "areaServed": [
+        "Washington DC",
+        "Reagan National Airport",
+        "Dulles International Airport",
+        "BWI Airport",
+        "National Harbor"
+      ],
+      "serviceType": "Airport car service"
+    }
+  },
+  {
+    "slug": "maryland-wedding-transportation",
+    "type": "service",
+    "name": "Maryland Wedding Transportation",
+    "badge": "Maryland Services",
+    "h1": "Maryland Wedding Transportation for Destination Weddings",
+    "metaTitle": "Maryland Wedding Transportation | Guest Shuttles | MSY Limo",
+    "metaDescription": "Maryland wedding transportation for destination weddings: airport pickups, hotel-block shuttles and waterfront venue logistics. Call (877) 609-1919.",
+    "stats": [
+      {
+        "label": "Coverage",
+        "value": "Eastern Shore · Annapolis · Baltimore"
+      },
+      {
+        "label": "Guest shuttles",
+        "value": "13-passenger Sprinters"
+      },
+      {
+        "label": "Airports",
+        "value": "BWI · DCA · IAD arrivals"
+      },
+      {
+        "label": "Pricing",
+        "value": "Flat rate or hourly"
+      }
+    ],
+    "intro": [
+      "A destination wedding in Maryland means most of the guest list is landing at BWI, Reagan or Dulles without a car and trusting the couple to move them for three days. MSY Limo Service's Maryland fleet plans the whole weekend: Friday airport arrivals to the hotel block, a welcome-party run, Saturday shuttle loops to the venue and back, and Sunday brunch and departure transfers, all under one reservation and one point of contact.",
+      "We work the venues visitors fall in love with: Chesapeake Bay Beach Club and the Kent Island inns on the Eastern Shore, the Annapolis waterfront and its historic inns, Baltimore's Mount Vernon mansions and Fells Point, and the resort ballrooms at National Harbor. Our wedding limo page covers the couple's own vehicles; this page is about getting everyone else there."
+    ],
+    "highlights": [
+      "Airport pickups at BWI, Reagan and Dulles matched to your guest list",
+      "Timed hotel-block shuttle loops with a published pickup schedule",
+      "Late loop after the reception so no guest is stranded at a waterfront venue",
+      "Video walk-throughs of the exact vehicles for couples planning from afar",
+      "Written contract with backup-vehicle plan and Maryland PSC Carrier No. 6325",
+      "Stretch limousine or S-Class getaway car for the couple on the same booking"
+    ],
+    "destinationsTitle": "Destination Venues and Hotel Blocks We Serve",
+    "destinations": [
+      {
+        "name": "Chesapeake Bay Beach Club, Stevensville",
+        "blurb": "Sunset ceremonies under the Bay Bridge; we stage early for summer Saturday bridge traffic from Annapolis hotel blocks."
+      },
+      {
+        "name": "Kent Island and Eastern Shore inns",
+        "blurb": "Waterfront estates and St. Michaels inns, with Sprinter shuttles running from Annapolis or Kent Narrows hotels."
+      },
+      {
+        "name": "Annapolis waterfront and historic inns",
+        "blurb": "City Dock, Eastport and the Historic Inns, with a limousine getaway down Main Street."
+      },
+      {
+        "name": "Baltimore's Mount Vernon and Fells Point venues",
+        "blurb": "Historic mansions and harbor-side halls minutes from Inner Harbor hotel blocks."
+      },
+      {
+        "name": "National Harbor resort weddings",
+        "blurb": "Ballroom weddings with guests arriving from Reagan in 20 minutes and Dulles in about an hour."
+      },
+      {
+        "name": "Howard County estate venues",
+        "blurb": "Belmont Manor and Elkridge venues close to BWI-area hotels and our Laurel base."
+      }
+    ],
+    "sections": [
+      {
+        "h2": "The Destination Wedding Weekend, Leg by Leg",
+        "paragraphs": [
+          "Friday is arrivals. We match your guest list to flights at BWI, Reagan and Dulles, meet each party at baggage claim with a sign bearing your names, and deliver them to the hotel block with 45 to 60 minutes of complimentary wait time absorbing delays. Later, a Sprinter runs the group to the welcome party and back.",
+          "Saturday is the shuttle loop: a published schedule between the hotel and the venue before the ceremony, vehicles standing by during the reception, and a late loop after the last dance. Sunday covers the farewell brunch and a wave of departure transfers timed to each flight. The couple's own car, a stretch limousine or Mercedes-Benz S-Class, rides on the same reservation."
+        ]
+      },
+      {
+        "h2": "Choosing a Maryland Limo Partner From Out of State",
+        "paragraphs": [
+          "Couples planning from Boston, Atlanta or overseas cannot walk our lot, so we bring the lot to them: a video walk-through of the exact vehicles, a written contract listing every pickup time, address and vehicle, the total price including gratuity and tolls, and a backup-vehicle plan in writing. Ask any company you consider for the same, and for their Maryland PSC carrier number; ours is 6325.",
+          "Then talk to a human. Call (877) 609-1919 with your venue, hotel block and guest count, and we will return a leg-by-leg itinerary with vehicle recommendations, usually the same day. Peak May through October Saturdays book three to six months out, and Sprinters and limousines go first."
+        ]
+      },
+      {
+        "h2": "Rates, Cancellation and What Guests See",
+        "paragraphs": [
+          "Airport transfers are flat rates by vehicle class. Shuttle loops and standby time are priced hourly with a minimum, and the full program is confirmed in writing. Wedding, limousine and Sprinter bookings can be cancelled free up to 12 hours before pickup; sedan and SUV airport transfers up to 3 hours.",
+          "Guests see a chauffeur at the hotel door, a clean vehicle, a schedule they can trust and a name sign at the airport. What they do not see is the hour you would otherwise spend fielding texts from a cousin at a rideshare lot. Our Maryland wedding limo page and the Chesapeake Bay events page cover venue-specific details."
+        ]
+      }
+    ],
+    "vehicles": [
+      {
+        "name": "Mercedes-Benz E-Class",
+        "cls": "Business sedan",
+        "seats": 3,
+        "best": "parents and grandparents from the hotel block"
+      },
+      {
+        "name": "BMW 7 Series",
+        "cls": "First-class sedan",
+        "seats": 3,
+        "best": "the couple's arrival or departure transfer"
+      },
+      {
+        "name": "Cadillac Escalade",
+        "cls": "Premium SUV",
+        "seats": 6,
+        "best": "families with children and luggage"
+      },
+      {
+        "name": "Chevrolet Suburban",
+        "cls": "Luxury SUV",
+        "seats": 6,
+        "best": "bridal party with gowns and garment bags"
+      },
+      {
+        "name": "Mercedes Sprinter van",
+        "cls": "Executive van",
+        "seats": 14,
+        "best": "hotel-block guest shuttle loops"
+      },
+      {
+        "name": "Stretch limousine",
+        "cls": "Limousine",
+        "seats": 8,
+        "best": "the couple's getaway and wedding-party photos"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Can you handle guest arrivals at three different airports?",
+        "a": "Yes. We assign vehicles to each flight at BWI, Reagan and Dulles, track arrivals in real time and deliver guests to the hotel block under one wedding reservation with one invoice."
+      },
+      {
+        "q": "How many Sprinter loops do we need for 120 guests?",
+        "a": "Typically two 13-passenger Sprinters running staggered loops over about 90 minutes before the ceremony, then a late loop after the reception. We size the loop to your hotel-to-venue drive time and share a schedule for your wedding website."
+      },
+      {
+        "q": "Can we see the vehicles before booking from out of state?",
+        "a": "Yes. We send a current video walk-through of the exact vehicles assigned to your wedding, along with a written contract and backup-vehicle plan. Call (877) 609-1919 to request one."
+      },
+      {
+        "q": "What is the cancellation policy for wedding transportation?",
+        "a": "Wedding, limousine and Sprinter bookings can be cancelled free up to 12 hours before pickup; sedan and SUV airport transfers up to 3 hours."
+      },
+      {
+        "q": "Do you serve Eastern Shore venues like Chesapeake Bay Beach Club?",
+        "a": "Regularly. We run shuttles from Annapolis and Kent Narrows hotel blocks across the Bay Bridge and stage early on summer Saturdays when beach traffic builds."
+      }
+    ],
+    "related": [
+      {
+        "label": "Maryland Wedding Limo",
+        "to": "/maryland-wedding-limo"
+      },
+      {
+        "label": "Wedding Limo Service",
+        "to": "/services/wedding-limo"
+      },
+      {
+        "label": "Chesapeake Bay Events Transportation",
+        "to": "/chesapeake-bay-events-transportation"
+      },
+      {
+        "label": "BWI to Annapolis Car Service",
+        "to": "/bwi-to-annapolis-car-service"
+      }
+    ],
+    "schema": {
+      "areaServed": [
+        "Maryland",
+        "Annapolis",
+        "Eastern Shore",
+        "Baltimore",
+        "National Harbor"
+      ],
+      "serviceType": "Wedding transportation"
+    }
+  },
+  {
+    "slug": "iad-dulles-airport-car-service",
+    "type": "route",
+    "name": "Dulles Airport Car Service",
+    "badge": "DC Airport Routes",
+    "h1": "IAD Dulles Airport Car Service",
+    "metaTitle": "Dulles Airport Car Service (IAD) | Flat Rate | MSY Limo",
+    "metaDescription": "Dulles airport car service: meet and greet after customs, 60 min free wait time, flat rates to DC, Northern Virginia and Maryland. Call (877) 609-1919.",
+    "stats": [
+      {
+        "label": "Dulles to downtown DC",
+        "value": "≈ 26 mi · 40–60 min"
+      },
+      {
+        "label": "Dulles to Reagan",
+        "value": "≈ 30 mi · 45 min"
+      },
+      {
+        "label": "International wait time",
+        "value": "60 min complimentary"
+      },
+      {
+        "label": "Coverage",
+        "value": "DC · Northern Virginia · Maryland"
+      }
+    ],
+    "intro": [
+      "Washington Dulles is where the region's international visitors arrive, and it is the airport that rewards a plan. After landing at a mid-field concourse you clear customs, ride the AeroTrain to the main terminal and collect bags before you see daylight. MSY Limo Service's DMV fleet meets you in the arrivals hall with a name sign, 60 minutes of complimentary wait time already built in for the customs line, and a flat rate to your hotel confirmed before you left home.",
+      "From Dulles it is about 26 miles and 40 to 60 minutes to downtown Washington via the Dulles Toll Road and I-66, roughly 30 miles and 45 minutes to Reagan National for a connection, and a similar run to Bethesda, Rockville or National Harbor on the Maryland side. Tysons, Reston and Arlington hotels are closer still."
+    ],
+    "highlights": [
+      "Meet and greet in the Dulles arrivals hall after customs and the AeroTrain",
+      "60 minutes of complimentary wait time on international arrivals, 45 on domestic",
+      "Flat rates to DC, Northern Virginia and Maryland hotels with tolls disclosed",
+      "Chauffeurs who track the flight and the customs backlog, not just the landing time",
+      "Sedans, SUVs and 13-passenger Sprinters for tour groups and delegations",
+      "Maryland PSC Carrier No. 6325, 24/7 dispatch"
+    ],
+    "destinationsTitle": "Popular Drop-Offs From Dulles",
+    "destinations": [
+      {
+        "name": "Downtown Washington hotels",
+        "blurb": "Pennsylvania Avenue, the convention center district and Georgetown, 40 to 60 minutes via I-66."
+      },
+      {
+        "name": "Tysons, Reston and Herndon",
+        "blurb": "Corporate campuses and conference hotels along the Dulles corridor, often under 30 minutes."
+      },
+      {
+        "name": "Arlington, Crystal City and the Pentagon",
+        "blurb": "Defense and government visitors, with Reagan National connections on the same run."
+      },
+      {
+        "name": "Bethesda and Rockville",
+        "blurb": "NIH, Walter Reed and Montgomery County biotech visitors crossing the American Legion Bridge."
+      },
+      {
+        "name": "National Harbor",
+        "blurb": "The Gaylord and MGM on the Maryland waterfront, about an hour on the Beltway."
+      },
+      {
+        "name": "Silver Spring, Columbia and Baltimore",
+        "blurb": "Onward Maryland destinations quoted as one flat rate from the Dulles curb."
+      }
+    ],
+    "sections": [
+      {
+        "h2": "Arriving at Dulles for the First Time",
+        "paragraphs": [
+          "Dulles is large by design. International flights park at Concourses A and B or the mid-field C and D gates; passengers walk or ride the AeroTrain to the main terminal, clear immigration and customs, then exit into the arrivals hall on the baggage-claim level. Budget 45 to 90 minutes from touchdown to the curb on a busy evening. Your chauffeur monitors the flight and the customs flow, so the car appears when you do, not an hour earlier.",
+          "Domestic arrivals are simpler: bags on the lower level, chauffeur at the carousel or curb, 45 minutes of complimentary wait time. Either way, a Dulles airport car service removes the two hardest parts of a first visit, the taxi queue and the Toll Road merge onto I-66. Call (877) 609-1919 with your flight number and we take it from there."
+        ]
+      },
+      {
+        "h2": "Dulles vs. Reagan for Visitors",
+        "paragraphs": [
+          "Reagan National is about 4 miles from the National Mall, but a federal perimeter rule keeps most long-haul and all overseas flights at Dulles. If you are flying from Europe, Asia, the Middle East or the West Coast, Dulles is usually your airport. The trade-off is distance, and that is exactly what a reserved chauffeur solves.",
+          "Connecting between the two airports is a 30-mile, 45-minute transfer we run daily. For a full comparison of all three airports and the hotel districts each serves best, see our Washington DC airport transfers page."
+        ]
+      },
+      {
+        "h2": "Rates, Groups and Cancellation",
+        "paragraphs": [
+          "Transfers are priced flat by vehicle class with Dulles Toll Road charges and gratuity disclosed up front. There is no surge pricing during summits, inaugurations or weather delays. Tour groups and delegations landing together ride in a 13-passenger Mercedes Sprinter; families choose an Escalade or Suburban for luggage; executives prefer the BMW 7 Series or Mercedes-Benz S-Class.",
+          "Sedan and SUV transfers can be cancelled free up to 3 hours before pickup; Sprinter vans, limousines and special events require 12 hours. MSY Limo Service is Maryland PSC Carrier No. 6325, based at 9836 Lyon Ave in Laurel, and serves Dulles, Reagan and BWI around the clock."
+        ]
+      }
+    ],
+    "vehicles": [
+      {
+        "name": "Mercedes-Benz E-Class",
+        "cls": "Business sedan",
+        "seats": 3,
+        "best": "solo international arrivals"
+      },
+      {
+        "name": "BMW 7 Series",
+        "cls": "First-class sedan",
+        "seats": 3,
+        "best": "diplomats and executives"
+      },
+      {
+        "name": "Cadillac Escalade",
+        "cls": "Premium SUV",
+        "seats": 6,
+        "best": "families with international luggage"
+      },
+      {
+        "name": "Chevrolet Suburban",
+        "cls": "Luxury SUV",
+        "seats": 6,
+        "best": "long-haul travelers with extra bags"
+      },
+      {
+        "name": "Mercedes Sprinter van",
+        "cls": "Executive van",
+        "seats": 14,
+        "best": "tour groups and delegations"
+      },
+      {
+        "name": "Stretch limousine",
+        "cls": "Limousine",
+        "seats": 8,
+        "best": "honeymoon and celebration arrivals"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Where does my chauffeur meet me at Dulles after an international flight?",
+        "a": "In the main terminal arrivals hall on the baggage-claim level, after you clear customs and ride the AeroTrain, holding a sign with your name. International pickups include 60 minutes of complimentary wait time."
+      },
+      {
+        "q": "How long does it take to get from Dulles to downtown Washington?",
+        "a": "About 26 miles and 40 to 60 minutes via the Dulles Toll Road and I-66, longer in the evening rush. Tysons and Reston hotels are often under 30 minutes."
+      },
+      {
+        "q": "How much is a car service from Dulles to a DC hotel?",
+        "a": "Rates are flat by vehicle class with tolls and gratuity disclosed, and they never surge. Call (877) 609-1919 or request an online quote with your hotel and flight details."
+      },
+      {
+        "q": "Can you take us from Dulles to Maryland destinations like Bethesda or National Harbor?",
+        "a": "Yes. Bethesda, Rockville, Silver Spring, National Harbor, Columbia and Baltimore are all quoted as one flat rate from the Dulles curb."
+      },
+      {
+        "q": "Do you transfer passengers between Dulles and Reagan?",
+        "a": "Daily. The airport-to-airport run is about 30 miles and 45 minutes; we time it to your connecting flight and track both legs."
+      }
+    ],
+    "related": [
+      {
+        "label": "IAD to Bethesda",
+        "to": "/iad-to-bethesda"
+      },
+      {
+        "label": "IAD to Rockville",
+        "to": "/iad-to-rockville"
+      },
+      {
+        "label": "Washington DC Airport Transfers",
+        "to": "/washington-dc-airport-transfers"
+      },
+      {
+        "label": "Airport Transportation",
+        "to": "/services/airport-transportation"
+      }
+    ],
+    "schema": {
+      "areaServed": [
+        "Dulles International Airport",
+        "Washington DC",
+        "Northern Virginia",
+        "Montgomery County MD",
+        "National Harbor"
+      ],
+      "serviceType": "Airport car service"
+    }
+  },
+  // Batch 3 (2026-09-21, Louisiana pages) lives in its own file.
+  ...MARYLAND_BATCH3,
 ];
+
+// Every page carries five FAQs (visible block + FAQPage schema).
+MARYLAND_PAGES.forEach((p) => {
+  p.faqs = ensureFiveFaqs(p.faqs, { slug: p.slug });
+});
 
 export const MARYLAND_SLUGS = MARYLAND_PAGES.map((p) => p.slug);
 export const findMarylandPage = (slug) => MARYLAND_PAGES.find((p) => p.slug === slug);

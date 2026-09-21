@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import { setPageSeo } from "@/lib/seo";
 import { motion } from "framer-motion";
 import Navigation from "@/components/Navigation";
 import HeroSection from "@/components/HeroSection";
@@ -25,11 +24,6 @@ const HomePage = () => {
 
   useEffect(() => {
     setIsLoaded(true);
-    setPageSeo({
-      title: "MSY Limo Service | Luxury Transportation New Orleans",
-      description: "MSY Limo Service offers luxury airport transfers, corporate limos & chauffeur services in New Orleans & Louisiana. Book 24/7. (877) 609-1919",
-      path: "/",
-    });
   }, []);
 
   return (
@@ -51,7 +45,7 @@ const HomePage = () => {
           "@context": "https://schema.org",
           "@type": "LocalBusiness",
           "name": "MSY Limo Service",
-          "image": "https://msylimoservice.com/wp-content/uploads/2024/08/Sulari-3.png",
+          "image": "https://msylimoservice.com/images/msy-logo.png",
           "telephone": "+1-877-609-1919",
           "email": "info@msylimoservice.com",
           "url": "https://msylimoservice.com",

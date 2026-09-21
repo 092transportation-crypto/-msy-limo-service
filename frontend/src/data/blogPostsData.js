@@ -1,4 +1,5 @@
 // Standalone SEO blog posts served at /blog/<slug> via BlogPostPage.
+import { ensureFiveFaqs } from "@/lib/faqExtras";
 
 export const seoBlogPosts = [
   {
@@ -13,7 +14,7 @@ export const seoBlogPosts = [
     readTime: "8 min read",
     excerpt:
       "Surge pricing, cancelled pickups, and the rideshare lot shuffle — or a chauffeur waiting with your name on a sign. Here's an honest 2026 comparison of Uber and private car service at MSY.",
-    image: "/images/stock/u-1436491865332.jpg",
+    image: "/images/stock/u-1436491865332.webp",
     content: `
       <p>Every traveler landing at Louis Armstrong New Orleans International Airport faces the same decision at baggage claim: open the rideshare app, or walk to a reserved car that's already waiting. Both get you to the city. But in 2026, the differences between Uber and a professional MSY airport car service are bigger than most travelers realize — and the "cheaper" option isn't always the one you'd guess.</p>
 
@@ -29,7 +30,7 @@ export const seoBlogPosts = [
       <p>If your flight is delayed two hours, Uber doesn't care — you simply request a car when you finally land, at whatever the price is at that moment. A professional car service absorbs the delay for you. At MSY Limo Service, every airport pickup includes real-time flight tracking plus 45 minutes of complimentary wait time on domestic arrivals and 60 minutes on international ones. The chauffeur adjusts automatically; you never send a panicked "my flight is late" message.</p>
 
       <h2>Vehicles and Drivers: Whatever's Nearby vs. a Standard</h2>
-      <p>Rideshare quality is a lottery — you might get a spotless SUV or a compact with 180,000 miles and someone's gym bag in the trunk. With a licensed car service, the vehicle is part of the product: late-model Mercedes-Benz sedans, Cadillac Escalades, and Sprinter vans, detailed daily, driven by background-checked, professionally trained chauffeurs. MSY Limo Service operates as a Licensed & Insured Louisiana Carrier, meaning commercial insurance covers every mile of your trip — a meaningful difference from a personal policy with a rideshare endorsement.</p>
+      <p>Rideshare quality is a lottery — you might get a spotless SUV or a compact with 180,000 miles and someone's gym bag in the trunk. With a licensed car service, the vehicle is part of the product: late-model Mercedes-Benz sedans, Cadillac Escalades, and Sprinter vans, detailed daily, driven by background-checked, professionally trained chauffeurs. MSY Limo Service operates as a Licensed & Insured Carrier, meaning commercial insurance covers every mile of your trip — a meaningful difference from a personal policy with a rideshare endorsement.</p>
 
       <h2>When Uber Makes Sense</h2>
       <p>Honesty matters: for a solo traveler with a backpack, no schedule pressure, and a short off-peak hop, rideshare is often the economical choice. If you land at 2 p.m. on a slow Wednesday and you're headed ten minutes away, the app will serve you fine.</p>
@@ -81,12 +82,12 @@ export const seoBlogPosts = [
     readTime: "7 min read",
     excerpt:
       "Licensing, flight tracking, flat rates, fleet age, chauffeur vetting — the practical checklist for picking a black car service at Louis Armstrong International that won't let you down.",
-    image: "/images/stock/u-1549317661.jpg",
+    image: "/images/stock/u-1549317661.webp",
     content: `
       <p>Search "black car service New Orleans airport" and you'll find dozens of companies promising luxury. Some run immaculate fleets with professional chauffeurs; others are a single aging sedan and a forwarded phone line. When your flight lands at MSY at midnight or your biggest client arrives for a site visit, the difference matters enormously. Here's how to evaluate an airport car service before you hand over a reservation.</p>
 
       <h2>1. Verify Licensing and Insurance First</h2>
-      <p>This is the non-negotiable. A legitimate operator is a licensed commercial carrier in Louisiana, carrying commercial livery insurance on every vehicle — not a personal auto policy. Ask directly: "Are you a licensed and insured Louisiana carrier?" A professional company answers instantly, because they've invested in being one. MSY Limo Service operates as a Licensed & Insured Louisiana Carrier, and we consider the question a compliment.</p>
+      <p>This is the non-negotiable. A legitimate operator is a licensed commercial carrier in Louisiana, carrying commercial livery insurance on every vehicle — not a personal auto policy. Ask directly: "Are you a licensed and insured Louisiana carrier?" A professional company answers instantly, because they've invested in being one. MSY Limo Service operates as a Licensed & Insured Carrier, and we consider the question a compliment.</p>
 
       <h2>2. Ask How They Handle Flight Delays</h2>
       <p>Any company can be on time for an on-time flight. The test is what happens when your 7 p.m. arrival becomes a 10:40 p.m. arrival. The right answer includes three things: real-time flight tracking by flight number, automatic pickup adjustment with no action needed from you, and defined complimentary wait time (ours is 45 minutes domestic, 60 international). If a company charges waiting fees from the original scheduled time, keep looking.</p>
@@ -107,7 +108,7 @@ export const seoBlogPosts = [
       <p>Ignore the star average; read the stories. You're looking for repeated mentions of punctuality, clean vehicles, and graceful handling of problems — a delayed flight, a changed pickup, a last-minute vehicle upgrade. One-off complaints happen to everyone; patterns are the truth.</p>
 
       <h2>What This Looks Like in Practice</h2>
-      <p>At MSY Limo Service, this checklist is simply our operating manual: Licensed & Insured Louisiana Carrier status, flight tracking with generous wait time on every airport transfer, flat rates confirmed in writing, a late-model Mercedes and Cadillac fleet, background-checked professional chauffeurs, and a dispatch desk that answers around the clock. We serve MSY, the Port of New Orleans cruise terminals, and every parish from the Northshore to Baton Rouge.</p>
+      <p>At MSY Limo Service, this checklist is simply our operating manual: Licensed & Insured Carrier status, flight tracking with generous wait time on every airport transfer, flat rates confirmed in writing, a late-model Mercedes and Cadillac fleet, background-checked professional chauffeurs, and a dispatch desk that answers around the clock. We serve MSY, the Port of New Orleans cruise terminals, and every parish from the Northshore to Baton Rouge.</p>
       <p>Landing soon? Book online or call <a href="tel:+18776091919">(877) 609-1919</a> — and ask us every question on this list. We like clients who do their homework.</p>
     `,
     faqs: [
@@ -141,13 +142,13 @@ export const seoBlogPosts = [
     readTime: "9 min read",
     excerpt:
       "Car service, taxi, rideshare, airport bus, hotel shuttle — a complete, honest guide to every way of getting from Louis Armstrong International into New Orleans, with real travel times and trade-offs.",
-    image: "/images/stock/u-1568454537842.jpg",
+    image: "/images/stock/u-1568454537842.webp",
     content: `
       <p>Louis Armstrong New Orleans International Airport sits in Kenner, about 14 miles west of downtown New Orleans. That's close enough that every transportation option is on the table — and far enough that picking the wrong one can burn an hour and a chunk of your vacation budget. Here's the complete, honest guide to every way into the city, updated for 2026.</p>
 
       <h2>Option 1: Private Car Service</h2>
       <p><strong>Time to downtown: 20–30 minutes. Best for: guaranteed pickups, groups, business travel, early/late flights.</strong></p>
-      <p>A reserved chauffeur tracks your flight, meets you at the curb or baggage claim, loads your luggage, and drives you directly to your hotel for a flat rate confirmed at booking. It's the most expensive option on paper and frequently the best value in practice — especially for two or more travelers, since the rate is per vehicle, not per person. Booking with a Licensed & Insured Louisiana Carrier like MSY Limo Service also means commercial insurance, professional chauffeurs, and a 24/7 dispatch desk behind every trip. Reserve ahead at <a href="tel:+18776091919">(877) 609-1919</a>.</p>
+      <p>A reserved chauffeur tracks your flight, meets you at the curb or baggage claim, loads your luggage, and drives you directly to your hotel for a flat rate confirmed at booking. It's the most expensive option on paper and frequently the best value in practice — especially for two or more travelers, since the rate is per vehicle, not per person. Booking with a Licensed & Insured Carrier like MSY Limo Service also means commercial insurance, professional chauffeurs, and a 24/7 dispatch desk behind every trip. Reserve ahead at <a href="tel:+18776091919">(877) 609-1919</a>.</p>
 
       <h2>Option 2: Taxi</h2>
       <p><strong>Time: 20–30 minutes. Best for: walk-up convenience without an app.</strong></p>
@@ -211,7 +212,7 @@ export const seoBlogPosts = [
     readTime: "6 min read",
     excerpt:
       "No meters, no surge, no surprises — how flat-rate pricing works on the airport-to-Quarter run, what's actually included, and when each vehicle class makes sense.",
-    image: "/images/stock/u-1517457373958.jpg",
+    image: "/images/stock/u-1517457373958.webp",
     content: `
       <p>The 15-mile trip from Louis Armstrong International to the French Quarter is the most traveled route in New Orleans tourism — and the one where pricing games hurt travelers most. Meter anxiety in a cab, surge roulette on an app, "plus fees" quotes that grow by drop-off. Flat-rate car service exists to end all of that. Here's exactly how it works.</p>
 
@@ -280,7 +281,7 @@ export const seoBlogPosts = [
     readTime: "7 min read",
     excerpt:
       "From client meet-and-greets to multi-stop roadshows and monthly consolidated billing — how New Orleans companies use corporate car service at MSY to make business travel run on rails.",
-    image: "/images/stock/u-1560472354.jpg",
+    image: "/images/stock/u-1560472354.webp",
     content: `
       <p>Business travel through Louis Armstrong International runs on a simple equation: time is billable, impressions compound, and logistics should be invisible. A corporate car service turns airport transportation from a variable your travelers manage into infrastructure your company controls. Here's how New Orleans businesses — and the companies that visit them — put it to work.</p>
 
@@ -305,7 +306,7 @@ export const seoBlogPosts = [
       <p>Companies that move people through MSY more than occasionally set up a corporate account, which turns every future booking into a thirty-second email or text. Accounts include priority dispatch during peak weeks, consolidated monthly invoicing with cost-center coding, saved traveler profiles and preferences, and a direct line to our team — no hold music at 6 a.m. There's no fee to establish one; call <a href="tel:+18776091919">(877) 609-1919</a> and we'll have it running the same day.</p>
 
       <h2>The Compliance Question Your Travel Policy Should Ask</h2>
-      <p>Duty-of-care policies increasingly require that employee ground transportation be commercially licensed and insured. Rideshare's patchwork of personal policies makes compliance officers nervous for good reason. MSY Limo Service operates as a Licensed & Insured Louisiana Carrier with background-checked, professionally trained chauffeurs and commercial coverage on every vehicle — documentation available for your vendor file on request.</p>
+      <p>Duty-of-care policies increasingly require that employee ground transportation be commercially licensed and insured. Rideshare's patchwork of personal policies makes compliance officers nervous for good reason. MSY Limo Service operates as a Licensed & Insured Carrier with background-checked, professionally trained chauffeurs and commercial coverage on every vehicle — documentation available for your vendor file on request.</p>
 
       <h2>Getting Started</h2>
       <p>Start with a single trip: your next arriving client, your next 6 a.m. departure. Judge the vehicle, the chauffeur, the punctuality, and the receipt. If it runs the way business travel should, set up the account. Book online or call <a href="tel:+18776091919">(877) 609-1919</a> — our dispatch desk answers 24/7, which is exactly the standard you should hold us to.</p>
@@ -325,7 +326,7 @@ export const seoBlogPosts = [
       },
       {
         q: "Are your chauffeurs and vehicles compliant with corporate travel policies?",
-        a: "We operate as a Licensed & Insured Louisiana Carrier with commercial insurance and background-checked professional chauffeurs. Compliance documentation is available for your vendor records on request.",
+        a: "We operate as a Licensed & Insured Carrier with commercial insurance and background-checked professional chauffeurs. Compliance documentation is available for your vendor records on request.",
       },
     ],
   },
@@ -341,7 +342,7 @@ export const seoBlogPosts = [
     readTime: "8 min read",
     excerpt:
       "From the moment you book to the moment your luggage reaches the hotel door — exactly what happens on a chauffeured transfer from Louis Armstrong International into New Orleans, step by step.",
-    image: "/images/stock/u-1503376780353.jpg",
+    image: "/images/stock/u-1503376780353.webp",
     content: `
       <p>If you've never used a chauffeured car service, the process can feel like a black box: you book something online, and then... what? Who's waiting where? What happens if the flight is late? This guide walks through a chauffeured transfer from Louis Armstrong New Orleans International Airport into the city from start to finish, so your first ride feels like your tenth.</p>
 
@@ -372,7 +373,7 @@ export const seoBlogPosts = [
       <p>Rates are flat, quoted by vehicle class, and confirmed in writing before you fly — see our <a href="/blog/new-orleans-airport-limo-cost-2026">2026 airport limo cost breakdown</a> for the full pricing picture. Because the rate is per vehicle rather than per person, couples and groups routinely find the chauffeured option costs less per seat than surge-hour rideshare, in a nicer vehicle, with a guaranteed pickup.</p>
 
       <h2>Ready to Land Like a Local?</h2>
-      <p>MSY Limo Service is a Licensed & Insured Louisiana Carrier with professional chauffeurs, a late-model fleet, and a dispatch desk that answers 24/7. Book your MSY-to-New-Orleans transfer online in about a minute, or call <a href="tel:+18776091919">(877) 609-1919</a> — and step off your flight knowing the hardest part of your travel day is already handled.</p>
+      <p>MSY Limo Service is a Licensed & Insured Carrier with professional chauffeurs, a late-model fleet, and a dispatch desk that answers 24/7. Book your MSY-to-New-Orleans transfer online in about a minute, or call <a href="tel:+18776091919">(877) 609-1919</a> — and step off your flight knowing the hardest part of your travel day is already handled.</p>
     `,
     faqs: [
       {
@@ -405,7 +406,7 @@ export const seoBlogPosts = [
     readTime: "8 min read",
     excerpt:
       "How airport limo pricing actually works in New Orleans — what drives your quote, what a flat rate includes, the fees reputable companies never charge, and when a limo beats rideshare on price.",
-    image: "/images/stock/u-1511527844068.jpg",
+    image: "/images/stock/u-1511527844068.webp",
     content: `
       <p>"How much is a limo from the New Orleans airport?" is the most common question our dispatch desk hears — and the most common question travelers type into Google before booking. The honest answer is that it depends on three things: your vehicle, your destination, and the company you choose. Here's how airport limo pricing actually works in 2026, so you can read any quote like a professional.</p>
 
@@ -485,7 +486,7 @@ export const seoBlogPosts = [
     readTime: "7 min read",
     excerpt:
       "A name sign at the bottom of the escalator, hands-free baggage claim, and a chauffeur who walks you straight to the car — everything to know about meet-and-greet service at Louis Armstrong International.",
-    image: "/images/stock/u-1556388158.jpg",
+    image: "/images/stock/u-1556388158.webp",
     content: `
       <p>Of everything a chauffeured car service offers, meet-and-greet is the option that turns an airport pickup into an arrival. Instead of walking out to a curb, you come down the escalator at Louis Armstrong International and see a professional in a suit holding a sign with your name on it. Here's exactly how the service works at MSY, what it costs relative to standard pickup, and who gets the most out of it.</p>
 
@@ -526,7 +527,7 @@ export const seoBlogPosts = [
       </ol>
 
       <h2>Booking It</h2>
-      <p>Add meet-and-greet to any MSY transfer when you book online, or call <a href="tel:+18776091919">(877) 609-1919</a> and tell dispatch you'd like an inside pickup. Provide the flight number, the name for the sign, and any special requests — a company logo board for client arrivals, or a discreet unmarked greeting if you prefer. MSY Limo Service is a Licensed & Insured Louisiana Carrier, our chauffeurs are background-checked professionals, and our dispatch desk answers 24/7. The next time you ride the escalator down at MSY, someone can be standing at the bottom of it, holding your name.</p>
+      <p>Add meet-and-greet to any MSY transfer when you book online, or call <a href="tel:+18776091919">(877) 609-1919</a> and tell dispatch you'd like an inside pickup. Provide the flight number, the name for the sign, and any special requests — a company logo board for client arrivals, or a discreet unmarked greeting if you prefer. MSY Limo Service is a Licensed & Insured Carrier, our chauffeurs are background-checked professionals, and our dispatch desk answers 24/7. The next time you ride the escalator down at MSY, someone can be standing at the bottom of it, holding your name.</p>
     `,
     faqs: [
       {
@@ -559,7 +560,7 @@ export const seoBlogPosts = [
     readTime: "8 min read",
     excerpt:
       "Forget the marketing — the best car service at Louis Armstrong International is decided by six measurable standards. Here's the 2026 scorecard, the red flags, and how to test any company before you book.",
-    image: "/images/stock/u-1493238792000.jpg",
+    image: "/images/stock/u-1493238792000.webp",
     content: `
       <p>Every car service in New Orleans claims to be the best. The websites show the same black SUVs, the same promises of luxury, the same five-star badges. But "best" at an airport isn't a vibe — it's a set of measurable standards, and in 2026 the gap between companies that meet them and companies that market them has never been wider. Here's the scorecard that separates the real operators at Louis Armstrong International, and how to apply it before you hand over a reservation.</p>
 
@@ -567,7 +568,7 @@ export const seoBlogPosts = [
       <p>Anyone can meet a 2 p.m. arrival on a clear Tuesday. The best car service is measured by the 11:40 p.m. arrival that was supposed to land at 8, the 4:30 a.m. departure pickup, and the Mardi Gras Saturday when half the city is barricaded. The infrastructure behind that reliability is specific: real-time flight tracking on every airport trip, dispatch staffed around the clock, and complimentary wait time defined in writing — at MSY Limo Service, 45 minutes on domestic arrivals and 60 on international. If a company can't articulate how it handles a delayed flight, it handles them badly.</p>
 
       <h2>Standard 2: They're Licensed, Insured, and Glad You Asked</h2>
-      <p>The floor for "best" is legal. A legitimate operator holds Louisiana commercial carrier authority and carries commercial livery insurance on every vehicle — not a personal auto policy stretched over a side business. This is the difference that matters most on the day you hope never comes: commercial coverage protects every passenger on every mile. Ask the question directly. Professionals answer instantly; pretenders change the subject. MSY Limo Service operates as a Licensed & Insured Louisiana Carrier and will happily put documentation in front of you.</p>
+      <p>The floor for "best" is legal. A legitimate operator holds Louisiana commercial carrier authority and carries commercial livery insurance on every vehicle — not a personal auto policy stretched over a side business. This is the difference that matters most on the day you hope never comes: commercial coverage protects every passenger on every mile. Ask the question directly. Professionals answer instantly; pretenders change the subject. MSY Limo Service operates as a Licensed & Insured Carrier and will happily put documentation in front of you.</p>
 
       <h2>Standard 3: The Price Is Flat, Written, and Final</h2>
       <p>The best companies quote one all-in number by vehicle class, confirm it in writing, and never revisit it — not for traffic, not for demand, not for a detour around a closed street. Surge pricing, "traffic surcharges," and gratuity that materializes at drop-off are how lesser operators advertise one price and charge another. Our full <a href="/blog/new-orleans-airport-limo-cost-2026">2026 cost guide</a> breaks down what a legitimate flat rate includes and the fee games to refuse.</p>
@@ -594,7 +595,7 @@ export const seoBlogPosts = [
       <p>You don't have to take any company's word — including ours. Book a single transfer and grade it: Was the quote written and final? Did the chauffeur arrive early, track your flight, and load your bags without being asked? Was the vehicle the one promised, detailed and current-generation? Did a human answer when you called with a question? A company that passes a one-trip audit will pass on the morning your board member lands, and one that stumbles on an easy Tuesday told you everything cheaply.</p>
 
       <h2>How MSY Limo Service Scores</h2>
-      <p>We built the company against this exact scorecard: Licensed & Insured Louisiana Carrier status, flight tracking with generous written wait time on every transfer, flat rates confirmed before you ride, a named late-model fleet of Mercedes sedans, Escalades, and Sprinters, background-checked professional chauffeurs, and a dispatch desk that answers around the clock — serving MSY, the cruise terminals, and every parish from the Northshore to Baton Rouge. Judge us by the standard, not the slogan: book online or call <a href="tel:+18776091919">(877) 609-1919</a>, ask every hard question in this guide, and then let the pickup speak for itself.</p>
+      <p>We built the company against this exact scorecard: Licensed & Insured Carrier status, flight tracking with generous written wait time on every transfer, flat rates confirmed before you ride, a named late-model fleet of Mercedes sedans, Escalades, and Sprinters, background-checked professional chauffeurs, and a dispatch desk that answers around the clock — serving MSY, the cruise terminals, and every parish from the Northshore to Baton Rouge. Judge us by the standard, not the slogan: book online or call <a href="tel:+18776091919">(877) 609-1919</a>, ask every hard question in this guide, and then let the pickup speak for itself.</p>
     `,
     faqs: [
       {
@@ -631,7 +632,7 @@ export const seoBlogPosts = [
     readTime: "9 min read",
     excerpt:
       "Where business actually happens in New Orleans, the festival calendar that wrecks unplanned itineraries, and the ground-transportation playbook that keeps a work trip running on schedule.",
-    image: "/images/stock/u-1486406146926.jpg",
+    image: "/images/stock/u-1486406146926.webp",
     content: `
       <p>New Orleans is a serious business city wearing a festival costume. Beneath the beads and brass bands sit a top-tier convention center, a dense downtown office market, the country's busiest river port complex, and a medical corridor that draws executives year-round. Doing business here well means understanding both layers — because the same calendar that makes this city wonderful will quietly destroy an unplanned itinerary. Here's the working guide.</p>
 
@@ -657,7 +658,7 @@ export const seoBlogPosts = [
       <p>No American city makes client dinners easier. The Warehouse District and French Quarter concentrate nationally known restaurants within a few blocks; a chauffeured evening — pickup at the hotel, dinner, a jazz set on Frenchmen Street, everyone delivered back safely — turns a line-item dinner into the meeting your client remembers. Book the vehicle for the evening and the logistics disappear.</p>
 
       <h2>The Expense-Report and Compliance Angle</h2>
-      <p>Two quiet advantages of chauffeured ground transportation for corporate travel: the paperwork and the policy. Flat-rate trips produce one clean receipt per leg — no surge screenshots, no explaining a 2.7x multiplier to accounting. And duty-of-care policies increasingly require commercially licensed and insured ground transportation for employees; a Licensed & Insured Louisiana Carrier with background-checked chauffeurs checks the box rideshare can't. Companies moving people through New Orleans regularly should set up a corporate account — priority dispatch, consolidated monthly invoicing with cost-center coding, and saved traveler profiles turn every future booking into a thirty-second email. Our <a href="/blog/corporate-car-service-msy-airport">corporate car service playbook</a> covers the details.</p>
+      <p>Two quiet advantages of chauffeured ground transportation for corporate travel: the paperwork and the policy. Flat-rate trips produce one clean receipt per leg — no surge screenshots, no explaining a 2.7x multiplier to accounting. And duty-of-care policies increasingly require commercially licensed and insured ground transportation for employees; a Licensed & Insured Carrier with background-checked chauffeurs checks the box rideshare can't. Companies moving people through New Orleans regularly should set up a corporate account — priority dispatch, consolidated monthly invoicing with cost-center coding, and saved traveler profiles turn every future booking into a thirty-second email. Our <a href="/blog/corporate-car-service-msy-airport">corporate car service playbook</a> covers the details.</p>
 
       <h2>The One-Page Playbook</h2>
       <ol>
@@ -700,7 +701,7 @@ export const seoBlogPosts = [
     readTime: "7 min read",
     excerpt:
       "The 6 a.m. departure out of MSY is won or lost the night before. Here's exactly how pre-dawn airport pickups work, when to leave from every corner of the metro, and why a reserved chauffeur is the only ride that's guaranteed to show at 4 a.m.",
-    image: "/images/stock/u-1490430657723.jpg",
+    image: "/images/stock/u-1490430657723.webp",
     content: `
       <p>Every seasoned New Orleans traveler knows the feeling: the alarm goes off at 3:45 a.m., the house is dark, and somewhere between the coffee maker and the front door lives a single question — is the ride actually coming? For a 6 a.m. departure out of Louis Armstrong International, that question is the whole ballgame. Miss the pickup and you've missed the flight; there's no later option that fixes a morning connection through Atlanta or Dallas. Here's how the pre-dawn run to MSY really works, and how to make it bulletproof.</p>
 
@@ -769,7 +770,7 @@ export const seoBlogPosts = [
     readTime: "9 min read",
     excerpt:
       "Everything that changed and everything that matters for getting to and from Louis Armstrong International in 2026 — every transportation option compared honestly, with real times, real costs, and the local knowledge that saves trips.",
-    image: "/images/stock/u-1556388158.jpg",
+    image: "/images/stock/u-1556388158.webp",
     content: `
       <p>Louis Armstrong New Orleans International Airport sits in Kenner, about 14 miles west of downtown — close enough that ground transportation feels like an afterthought, far enough that choosing badly costs real time and money. This 2026 guide covers every way to make the trip, what each actually costs, and the local wrinkles — festival closures, bridge fog, convention surges — that the booking apps won't warn you about.</p>
 
@@ -833,7 +834,7 @@ export const seoBlogPosts = [
     readTime: "8 min read",
     excerpt:
       "The Fair Grounds has no parking, the streets around it close, and surge pricing peaks exactly when the last set ends. Here's the complete transportation playbook for Jazz Fest — from MSY arrival to the final ride home.",
-    image: "/images/stock/u-1514320291840.jpg",
+    image: "/images/stock/u-1514320291840.webp",
     content: `
       <p>The New Orleans Jazz & Heritage Festival is the city at its absolute best: two spring weekends, a dozen stages, and half a million people converging on the Fair Grounds Race Course in Mid-City. It is also, by design, a transportation puzzle — the Fair Grounds has essentially no public parking, the surrounding streets restrict traffic, and every on-demand ride in the city surges at exactly 7 p.m. when the headliners finish. Solve the transportation and you've solved Jazz Fest. Here's the playbook.</p>
 
@@ -899,7 +900,7 @@ export const seoBlogPosts = [
     readTime: "8 min read",
     excerpt:
       "MSY's modern terminal is one of the easiest in the South — if you know its rhythms. Ten field-tested tips covering security, festival-season crowds, weather, and the ride on both ends.",
-    image: "/images/stock/u-1449824913935.jpg",
+    image: "/images/stock/u-1449824913935.webp",
     content: `
       <p>Louis Armstrong New Orleans International is a genuinely pleasant airport — the modern terminal that opened in 2019 replaced decades of cramped concourses with bright halls, good local food, and live music. But MSY has its own rhythms, shaped by festival season, afternoon thunderstorms, and a city that does everything in waves. These ten tips are what frequent New Orleans flyers actually do differently.</p>
 
@@ -967,7 +968,7 @@ export const seoBlogPosts = [
     readTime: "9 min read",
     excerpt:
       "New Orleans rewards travelers who match the ride to the trip — streetcar for the charm, feet for the Quarter, and a private car for the moments that matter. The complete visitor's guide.",
-    image: "/images/stock/u-1492684223066.jpg",
+    image: "/images/stock/u-1492684223066.webp",
     content: `
       <p>New Orleans is a city best experienced at street level — but getting between those streets takes a little local knowledge. The transportation network here is charming, quirky, and uneven: world-famous streetcars that are slower than walking pace, a compact core you can cross on foot, and a highway-only airport connection. This guide matches each way of getting around to the trips it actually serves well.</p>
 
@@ -1036,7 +1037,7 @@ export const seoBlogPosts = [
     readTime: "8 min read",
     excerpt:
       "Fifteen highway miles separate your gate from your first beignet. Every option for the MSY-to-French-Quarter run, compared honestly — and how to time it right.",
-    image: "/images/stock/u-1519741497674.jpg",
+    image: "/images/stock/u-1519741497674.webp",
     content: `
       <p>The trip from Louis Armstrong International to the French Quarter is the classic New Orleans arrival: about 15 miles east on I-10, then an exit into a neighborhood that predates the highway by two centuries. On a clear midday run it takes 25 minutes; at rush hour, in rain, or on a festival Friday it can stretch well past 45. Here is every way to make the trip, compared honestly.</p>
 
@@ -1105,7 +1106,7 @@ export const seoBlogPosts = [
     readTime: "9 min read",
     excerpt:
       "Mardi Gras redraws the city's map daily — parade routes close, the Quarter seals, and rideshare surges triple. How locals and smart visitors actually move during Carnival.",
-    image: "/images/stock/u-1514525253161.jpg",
+    image: "/images/stock/u-1514525253161.webp",
     content: `
       <p>Mardi Gras is the best time to be in New Orleans and the hardest time to move through it. For the final two weeks of Carnival, parade routes close major corridors for hours at a stretch, the French Quarter effectively seals to vehicles, and a million extra people compete for every ride in town. The visitors who enjoy it most are the ones who understand one thing early: during Carnival, transportation is something you plan, not something you summon.</p>
 
@@ -1173,7 +1174,7 @@ export const seoBlogPosts = [
     readTime: "8 min read",
     excerpt:
       "Embarkation day runs on a deadline the ship enforces. How to get from MSY to the cruise terminals — luggage, timing, groups, and the return trip — without cutting it close.",
-    image: "/images/stock/u-1580974852861.jpg",
+    image: "/images/stock/u-1580974852861.webp",
     content: `
       <p>New Orleans is one of the country's great cruise home ports — ships depart year-round for the Caribbean from terminals right on the downtown riverfront. That geography is a gift: the port sits about 16 miles from MSY, minutes from the French Quarter, close enough to build a vacation around. But embarkation day runs on a deadline that the ship, not you, enforces. Here is how to handle the transfer properly in both directions.</p>
 
@@ -1237,7 +1238,7 @@ export const seoBlogPosts = [
     readTime: "9 min read",
     excerpt:
       "The destination-by-destination price guide for MSY car service in 2026 — what the French Quarter, the Northshore, Baton Rouge, and the cruise port actually cost, plus vehicle pricing and a worked family example.",
-    image: "/images/stock/u-1449965408869.jpg",
+    image: "/images/stock/u-1449965408869.webp",
     content: `
       <p>We've already written about how airport limo pricing works — the factors, the fee traps, the anatomy of a flat rate. This is the other article, the one people actually search the night before they book: what does it cost to get from Louis Armstrong International to where I'm going? Below are honest 2026 market ranges by destination, vehicle-class pricing, a worked example for a real family trip, and the tipping etiquette nobody explains. Ranges set expectations; for your exact number, MSY Limo Service quotes flat rates in about a minute at <a href="tel:+18776091919">(877) 609-1919</a>.</p>
 
@@ -1321,7 +1322,7 @@ export const seoBlogPosts = [
     readTime: "9 min read",
     excerpt:
       "Forget the generic options list — the right way from MSY into New Orleans depends on who you are and when you land. A scenario-by-scenario playbook, plus the timing windows that change every answer.",
-    image: "/images/stock/u-1486406146926.jpg",
+    image: "/images/stock/u-1486406146926.webp",
     content: `
       <p>Every guide to Louis Armstrong International transportation — including <a href="/blog/new-orleans-airport-transportation-guide">our own menu of the six options</a> — lists the same choices: car service, taxi, rideshare, shuttle, bus, rental. Useful, but it answers the wrong question. Nobody books "an option"; they book a specific trip, on a specific day, with specific people and luggage. So this guide is organized the way the decision actually happens: by traveler. Find yourself below, and the answer follows.</p>
 
@@ -1390,7 +1391,7 @@ export const seoBlogPosts = [
     readTime: "9 min read",
     excerpt:
       "From the moment you book to the moment your chauffeur closes the door — the operational guide to how MSY car service actually works: reservations, pickup mechanics, delays, vehicles, and the mistakes to skip.",
-    image: "/images/stock/u-1503376780353.jpg",
+    image: "/images/stock/u-1503376780353.webp",
     content: `
       <p>Plenty has been written — by us included — about <a href="/blog/best-car-service-msy-airport-2026">how to choose a car service</a> at Louis Armstrong International. This guide answers the next question: how does it actually work? What happens between clicking "reserve" and stepping out of the car at your hotel — the booking mechanics, the pickup choreography, the delay handling, and the small decisions that separate a flawless transfer from an average one. Consider it the owner's manual for MSY car service in 2026.</p>
 
@@ -1428,7 +1429,7 @@ export const seoBlogPosts = [
       </ul>
 
       <h2>The Short Version</h2>
-      <p>Give the flight number, size the vehicle honestly, book both legs, and let a Licensed &amp; Insured Louisiana Carrier do the rest — flight-tracked, flat-rated, with a professional chauffeur at both ends. That's the whole manual. MSY Limo Service runs it every day: reserve online in about a minute or call <a href="tel:+18776091919">(877) 609-1919</a>, 24/7.</p>
+      <p>Give the flight number, size the vehicle honestly, book both legs, and let a Licensed &amp; Insured Carrier do the rest — flight-tracked, flat-rated, with a professional chauffeur at both ends. That's the whole manual. MSY Limo Service runs it every day: reserve online in about a minute or call <a href="tel:+18776091919">(877) 609-1919</a>, 24/7.</p>
     `,
     faqs: [
       {
@@ -1465,7 +1466,7 @@ export const seoBlogPosts = [
     readTime: "8 min read",
     excerpt:
       "The Quarter is the easiest destination to name and the trickiest to actually reach — narrow one-ways, pedestrian blocks, and hotel curbs the size of a parking space. The street-level logistics guide.",
-    image: "/images/stock/u-1511527844068.jpg",
+    image: "/images/stock/u-1511527844068.webp",
     content: `
       <p>We've compared the <a href="/blog/msy-to-french-quarter-guide">transportation options to the Quarter</a> and made the case for <a href="/blog/msy-to-french-quarter-flat-rate">flat-rate service</a> elsewhere. This guide covers what neither does: the street-level logistics of actually arriving. Because the French Quarter is the easiest destination in America to name and one of the trickiest to physically reach — a 300-year-old grid of narrow one-ways, pedestrianized blocks, and hotel entrances the size of a parking space. Here's how the last half mile really works, and how to plan around it.</p>
 
@@ -1528,12 +1529,12 @@ export const seoBlogPosts = [
     readTime: "9 min read",
     excerpt:
       "Beyond the airport run — how chauffeured service works across New Orleans occasions: weddings, bachelor weekends, corporate days, festival seasons, vehicle classes, hourly pricing, and the booking calendar that rules them all.",
-    image: "/images/stock/u-1514320291840.jpg",
+    image: "/images/stock/u-1514320291840.webp",
     content: `
       <p>Most of what's written about New Orleans car service — most of what we've written — centers on the airport. Fair enough; it's the busiest run. But the city generates occasion travel like nowhere else in America: weddings by the hundreds, bachelor and bachelorette weekends every Friday, festival seasons that swallow whole months, galas, proms, and corporate entertaining year-round. This is the guide to all of it — what chauffeured service looks like beyond the MSY curb, what it costs, and how the city's calendar should shape your booking.</p>
 
       <h2>What "Limo Service" Means Here in 2026</h2>
-      <p>The modern fleet is chauffeured luxury vehicles, not mirrored ceilings: Mercedes-Benz sedans for couples and executives, Cadillac Escalades seating six, and Mercedes Sprinters carrying up to 13 — the workhorse of New Orleans group life. What makes it "limo service" is the operating standard: background-checked professional chauffeurs, commercial insurance on every mile as a Licensed &amp; Insured Louisiana Carrier, vehicles detailed daily, and rates quoted flat, in writing, before you commit.</p>
+      <p>The modern fleet is chauffeured luxury vehicles, not mirrored ceilings: Mercedes-Benz sedans for couples and executives, Cadillac Escalades seating six, and Mercedes Sprinters carrying up to 13 — the workhorse of New Orleans group life. What makes it "limo service" is the operating standard: background-checked professional chauffeurs, commercial insurance on every mile as a Licensed &amp; Insured Carrier, vehicles detailed daily, and rates quoted flat, in writing, before you commit.</p>
 
       <h2>The Two Ways Everything Is Priced</h2>
       <p>Transfers — airport runs, hotel-to-venue, point A to B — price flat by vehicle class and distance. Occasions price hourly, because the car stays with you: roughly $85–$115 per hour for a sedan, $115–$150 for an SUV, and more for Sprinters, generally with two-to-three-hour minimums. The hourly model is the unlock for New Orleans specifically, where a proper evening might touch a Garden District dinner, a Frenchmen Street set, and a Quarter nightcap — one committed car turns that itinerary from a rideshare relay into a smooth loop.</p>
@@ -1591,7 +1592,325 @@ export const seoBlogPosts = [
       },
     ],
   },
+  {
+    slug: "top-5-reasons-hire-chauffeur-bwi-airport-transfers",
+    title: "Top 5 Reasons to Hire a Chauffeur for BWI Airport Transfers",
+    metaTitle: "5 Reasons to Hire a Chauffeur for BWI Airport Transfers",
+    metaDescription:
+      "Five concierge-style reasons to hire a chauffeur for BWI airport transfers: name sign, flat rates, luggage help and local knowledge. Call (877) 609-1919.",
+    category: "Airport",
+    author: "MSY Limo Team",
+    date: "September 10, 2026",
+    readTime: "5 min read",
+    excerpt:
+      "Conventioneers, cruise passengers and visiting families all land at BWI with the same question: how do we get to the hotel? Here are the five reasons a hotel concierge would tell you to reserve a chauffeur.",
+    image: "/images/stock/u-1687634365981.webp",
+    content: `
+      <p>Every week, MSY Limo Service's Maryland fleet meets visitors at BWI Marshall who have never set foot in Baltimore before: conventioneers bound for the Baltimore Convention Center, cruise passengers with a sailing time at the Port of Baltimore, and families with an Annapolis or Washington itinerary and far too many bags. If a hotel concierge were standing at baggage claim, here is how they would explain why a reserved chauffeur beats every other way out of the airport.</p>
+
+      <h2>The Five Reasons, as a Concierge Would Explain Them</h2>
+
+      <h3>1. Your name on a sign, not a pin on a map</h3>
+      <p>BWI's arrivals are on the lower level, and rideshare pickups happen well beyond the curb. With meet-and-greet service, your chauffeur waits inside baggage claim holding a sign with your name, helps with your luggage and walks you to a car that is already parked. After a long flight into an unfamiliar airport, that is the first moment the trip starts to feel like a vacation.</p>
+
+      <h3>2. No rental-car counter, no parking garages</h3>
+      <p>Most visitors do not need a car in Baltimore or Washington. Inner Harbor hotels are walkable, the Convention Center is steps from Pratt Street, and downtown DC parking is expensive and scarce. Skip the shuttle to the rental lot and the deposit hold. Let a chauffeur take you straight to your hotel door, then book <a href="/services/hourly-charter">hourly service</a> on the days you actually want to roam.</p>
+
+      <h3>3. One fixed price for the expense report</h3>
+      <p>Flat rates are confirmed when you book, by vehicle class, with no surge on convention days or holiday weekends. The finance team gets a single tidy receipt instead of a question about why the ride from the airport doubled. For groups, a Cadillac Escalade or Mercedes Sprinter often costs less per person than three separate cars.</p>
+
+      <h3>4. Luggage is part of the plan</h3>
+      <p>Cruise passengers heading to the Port of Baltimore terminal, about fifteen minutes from BWI, rarely travel light. A Chevrolet Suburban swallows four large suitcases and carry-ons with room to spare, and your chauffeur loads and unloads every piece. Read more in our guide to <a href="/services/cruise-transportation">cruise transportation</a>.</p>
+
+      <h3>5. Local knowledge you cannot download</h3>
+      <p>Which Inner Harbor entrance is closest to your hotel lobby, whether the Baltimore-Washington Parkway or I-95 is moving this hour, and how early you need to leave Annapolis on a Navy football Saturday. Our chauffeurs drive these roads daily and answer questions the way a good concierge does.</p>
+
+      <h2>Where Visitors Go From BWI</h2>
+      <p>The three most common transfers we run for out-of-town guests are BWI to the Inner Harbor and Convention Center hotels, <a href="/bwi-to-annapolis-car-service">BWI to Annapolis</a> (27 to 30 miles, 30 to 45 minutes via I-97) and <a href="/bwi-to-washington-dc">BWI to downtown Washington</a> (about 32 miles, 45 to 70 minutes on the BW Parkway). National Harbor, Bethesda and the Eastern Shore are regular runs too. If you are flying into Dulles or Reagan instead, our <a href="/washington-dc-airport-transfers">Washington DC airport transfers</a> page covers all three airports.</p>
+
+      <h2>Wait Time, Flight Tracking and Cancellations</h2>
+      <p>Every BWI pickup includes real-time flight tracking, 45 minutes of complimentary wait time on domestic arrivals and 60 minutes on international. Sedan and SUV reservations can be cancelled free up to three hours before pickup. We operate 24/7 as Maryland PSC Carrier No. 6325 from our Laurel base, a short hop from the airport.</p>
+
+      <h2>Reserve Your BWI Chauffeur</h2>
+      <p>Tell us your flight number, hotel and party size, and we will handle the rest. <a href="/booking">Book online</a> in about a minute or call <a href="tel:+18776091919">(877) 609-1919</a> any hour, and a chauffeur will be waiting when you land at BWI.</p>
+    `,
+    faqs: [
+      {
+        q: "Where does a chauffeur meet arriving passengers at BWI?",
+        a: "Domestic arrivals use BWI's lower-level baggage claim; international flights arrive at Concourse E. With meet-and-greet your chauffeur waits inside with a name sign, or curbside if you prefer a quick pickup.",
+      },
+      {
+        q: "How far is BWI from the Port of Baltimore cruise terminal?",
+        a: "About 15 minutes in normal traffic. We time cruise transfers to your embarkation window and load all luggage; Suburbans and Sprinters are the most popular vehicles for cruise groups.",
+      },
+      {
+        q: "Do I need to rent a car for a Baltimore or DC visit?",
+        a: "Usually not. Inner Harbor, Convention Center and downtown DC hotels are walkable or Metro-served, and an hourly chauffeur covers day trips to Annapolis or the Eastern Shore without parking headaches.",
+      },
+      {
+        q: "What does a chauffeur from BWI cost?",
+        a: "Rates are flat by vehicle class and confirmed at booking, with no surge on convention or holiday weekends. Call (877) 609-1919 or request a quote online for your exact hotel.",
+      },
+    ],
+  },
+  {
+    slug: "corporate-travel-executive-car-service-vs-rideshare-dc",
+    title: "Corporate Travel Guide: Why Executive Car Service Beats Rideshare in DC",
+    metaTitle: "Executive Car Service vs Rideshare in DC: Group Travel Guide",
+    metaDescription:
+      "Why executive car service beats rideshare in DC for delegations and conference groups: Sprinter shuttles, meet-and-greet, one invoice. Call (877) 609-1919.",
+    category: "Corporate",
+    author: "MSY Limo Team",
+    date: "September 10, 2026",
+    readTime: "5 min read",
+    excerpt:
+      "Delegations, association fly-ins and conference teams arrive in Washington with one schedule and a dozen flights. Here is why planners switch from rideshare to a reserved executive car service.",
+    image: "/images/stock/u-1702722710064.webp",
+    content: `
+      <p>Association meetings, trade delegations and conference groups arrive in Washington every week with a shared problem: twelve people, three airports, one schedule and a planner who is expected to make it all look effortless. MSY Limo Service's Maryland and DC fleet exists for exactly that traveler. Here is why an executive car service beats rideshare for visiting business groups, from the first landing to the last flight home.</p>
+
+      <h2>Rideshare Math Breaks Down for Groups</h2>
+      <p>A solo consultant hopping from Dupont Circle to K Street can use an app and be fine. A delegation of ten cannot. Ten people means three or four separate cars, three or four drivers to find, and no guarantee anyone arrives together. Surge pricing on a morning when Congress is in session and a convention is loading in at the Walter E. Washington Convention Center can double a fare quoted an hour earlier. One Mercedes Sprinter carrying up to 13 passengers arrives as a group, on one flat rate, with the chauffeur waiting at the door when the meeting lets out.</p>
+
+      <h2>Airport Meet-and-Greet for Arriving Teams</h2>
+      <p>Teams rarely land on one flight. We track every arrival at Dulles, Reagan and BWI, stage vehicles as each flight lands and meet passengers inside baggage claim with a name sign. Domestic arrivals include 45 minutes of complimentary wait time, international arrivals 60, so a customs line at Dulles never turns into a frantic text thread. Our <a href="/washington-dc-airport-transfers">Washington DC airport transfers</a> page details the hotel-district drop-offs we run most.</p>
+
+      <h2>Hotel-to-Capitol Hill Shuttles</h2>
+      <p>Advocacy days and fly-ins follow a rhythm: breakfast briefing at the hotel, a block of Hill meetings, lunch, more meetings, then a reception. Rather than herding people toward taxis at each break, a reserved shuttle loop keeps the day on schedule.</p>
+
+      <h3>Sprinter logistics that actually work</h3>
+      <p>Capitol Hill drop-off zones are tightly controlled, so we plan the staging points in advance, confirm them with your planner the day before and keep dispatch on the line. Two Sprinters can run a continuous loop between a Pennsylvania Avenue hotel and the House and Senate office buildings all morning.</p>
+
+      <h3>Hourly charters for a day of meetings</h3>
+      <p>For smaller groups, an <a href="/services/hourly-charter">hourly charter</a> in a Cadillac Escalade or BMW 7 Series keeps one chauffeur with you from the first appointment to the last, with luggage and briefing materials safely in the car between stops.</p>
+
+      <h2>One Invoice, Not Dozens of Receipts</h2>
+      <p>Event planners tell us this is the reason they switch. A rideshare week produces a pile of receipts in different names, with surge fares no one can explain to accounting. A corporate account with MSY Limo Service produces a single itemized invoice by date, passenger and route, with flat rates agreed in advance. Visit our <a href="/maryland-corporate-transportation">Maryland corporate transportation</a> page for group and conference programs, or read about <a href="/services/corporate-transportation">corporate accounts</a>.</p>
+
+      <h2>Evenings and Side Trips</h2>
+      <p>Groups in town for work still want to see the city. We run evening transfers to Georgetown dinners, games and concerts at <a href="/capital-one-arena-transportation">Capital One Arena</a>, and receptions at <a href="/national-harbor-transportation">National Harbor</a>, all on the same account. Cancellation is free up to three hours before a sedan or SUV pickup and twelve hours for Sprinters and special events.</p>
+
+      <h2>Plan Your Group's Washington Trip</h2>
+      <p>Send us your arrival manifest and meeting schedule and we will build the transportation plan around it. <a href="/booking">Request a quote online</a> or call <a href="tel:+18776091919">(877) 609-1919</a>, available 24/7 from our Laurel, Maryland base.</p>
+    `,
+    faqs: [
+      {
+        q: "Can one reservation cover a group arriving on different flights?",
+        a: "Yes. Send us the manifest and we assign a vehicle to each arrival at Dulles, Reagan or BWI, track every flight and consolidate the whole program on one invoice.",
+      },
+      {
+        q: "How many people fit in a Mercedes Sprinter for a Capitol Hill shuttle?",
+        a: "Up to 14 passengers with briefcases and bags. For larger fly-ins we run two or more Sprinters on a timed loop between the hotel and the House and Senate office buildings.",
+      },
+      {
+        q: "Do you offer corporate accounts for conference planners?",
+        a: "We do. Corporate accounts include negotiated flat rates, priority dispatch during busy weeks and a single itemized monthly invoice. Call (877) 609-1919 to set one up before your event.",
+      },
+      {
+        q: "What is the cancellation policy for group bookings?",
+        a: "Sedans and SUVs can be cancelled free up to 3 hours before pickup. Sprinter vans, limousines and special-event bookings require 12 hours' notice.",
+      },
+    ],
+  },
+  {
+    slug: "wedding-transportation-maryland-choose-right-limo-service",
+    title: "Wedding Transportation in Maryland: How to Choose the Right Limo Service",
+    metaTitle: "Wedding Transportation in Maryland: Choosing a Limo Service",
+    metaDescription:
+      "Planning a Maryland destination wedding from afar? How to choose wedding transportation and a limo service for guest shuttles and venues. Call (877) 609-1919.",
+    category: "Weddings",
+    author: "MSY Limo Team",
+    date: "September 10, 2026",
+    readTime: "5 min read",
+    excerpt:
+      "When most of the guest list is flying in, wedding transportation becomes infrastructure. A guide for couples choosing a Maryland limo partner from a distance.",
+    image: "/images/stock/u-1706092647576.webp",
+    content: `
+      <p>Maryland has quietly become a destination-wedding state. Couples who grew up here, or who fell for the Chesapeake on a single weekend, invite guests from Boston, Atlanta, Chicago and overseas to celebrate on the water. Those guests land at BWI, Dulles or Reagan without a car, check into a hotel block and rely on the couple to move them. Here is how MSY Limo Service's Maryland fleet helps couples planning from a distance choose the right limo partner.</p>
+
+      <h2>Why Out-of-Town Guests Change the Plan</h2>
+      <p>A local wedding can get away with guests driving themselves. A destination wedding cannot. When most of the guest list is flying in, transportation stops being a nice touch and becomes infrastructure: airport pickups on Friday, a shuttle loop on Saturday and a return run on Sunday. Planning it well is the difference between a relaxed weekend and a hotel lobby full of guests refreshing an app.</p>
+
+      <h2>Venues Visitors Fall For</h2>
+
+      <h3>Eastern Shore and Kent Island</h3>
+      <p>Chesapeake Bay Beach Club in Stevensville is the classic, with sunset ceremonies framed by the Bay Bridge. Guests staying in Annapolis cross the bridge in about 20 minutes, but summer Saturday beach traffic can stretch that, so we stage vehicles early. See our <a href="/stevensville-limo-service">Stevensville limo service</a> and <a href="/chesapeake-bay-events-transportation">Chesapeake Bay events</a> pages.</p>
+
+      <h3>Annapolis waterfront</h3>
+      <p>City Dock, Eastport and the Historic Inns of Annapolis give guests a walkable weekend. Airport arrivals run <a href="/bwi-to-annapolis-car-service">BWI to Annapolis</a> in 30 to 45 minutes, and a stretch limousine for eight handles the couple's getaway down Main Street.</p>
+
+      <h3>Baltimore's historic venues</h3>
+      <p>Mount Vernon mansions, Fells Point and the Inner Harbor hotels put a whole wedding weekend within a few blocks, with Sprinter shuttles covering the ceremony-to-reception leg.</p>
+
+      <h2>Hotel-Block Shuttles Guests Remember</h2>
+      <p>A 13-passenger Mercedes Sprinter running a timed loop between the hotel block and the venue is the most appreciated line on a destination wedding budget. We publish the pickup times for your wedding website, put a chauffeur at the hotel door and run a late loop after the last dance. Learn more on our <a href="/maryland-wedding-transportation">Maryland wedding transportation</a> page.</p>
+
+      <h2>How to Choose a Limo Partner From Afar</h2>
+      <ul>
+        <li><strong>Ask for a video walk-through</strong> of the exact vehicles, not stock photos. Our <a href="/fleet">fleet page</a> is the starting point; we send current footage on request.</li>
+        <li><strong>Get a written contract</strong> with every pickup time, address, vehicle and the total price, including gratuity and tolls.</li>
+        <li><strong>Confirm a backup vehicle plan</strong> in writing. Mechanical issues are rare, but a company with a real fleet can swap a vehicle within the hour.</li>
+        <li><strong>Verify licensing.</strong> We operate as Maryland PSC Carrier No. 6325 with commercial insurance on every mile.</li>
+        <li><strong>Check the cancellation policy.</strong> Ours is free up to 12 hours before pickup for limousines, Sprinters and wedding bookings.</li>
+      </ul>
+
+      <h2>Start Your Wedding Transportation Plan</h2>
+      <p>Share your venue, hotel block and guest count, and we will return a day-of itinerary with vehicle recommendations. <a href="/booking">Request a wedding quote</a> or call <a href="tel:+18776091919">(877) 609-1919</a>; peak spring and fall Saturdays book months ahead. Our <a href="/services/wedding-limo">wedding limo service</a> page has more detail on vehicles and packages.</p>
+    `,
+    faqs: [
+      {
+        q: "Can you pick up wedding guests at different airports?",
+        a: "Yes. We coordinate arrivals at BWI, Dulles and Reagan under one wedding reservation, track each flight and deliver guests to the hotel block with a name sign at baggage claim.",
+      },
+      {
+        q: "How does a hotel-block shuttle work on the wedding day?",
+        a: "A Sprinter van runs a timed loop between the hotel and venue before the ceremony, waits on site, and runs a late loop after the reception. We provide a schedule you can share with guests.",
+      },
+      {
+        q: "What should be in a wedding transportation contract?",
+        a: "Every pickup time and address, the exact vehicles, the chauffeur count, total price including gratuity and tolls, the backup-vehicle plan and the cancellation terms. Call (877) 609-1919 and we will draft one.",
+      },
+      {
+        q: "How far ahead should a destination couple book Maryland wedding transportation?",
+        a: "Three to six months for May through October Saturdays, when stretch limousines and Sprinters sell out first. Off-season weddings can often be arranged within a few weeks.",
+      },
+    ],
+  },
+  {
+    slug: "best-events-maryland-2026-get-there-in-style",
+    title: "A Guide to the Best Events in Maryland 2026 and How to Get There in Style",
+    metaTitle: "Best Events in Maryland 2026: A Visitor's Itinerary Guide",
+    metaDescription:
+      "The best events in Maryland 2026, from Preakness at Laurel Park to the Annapolis Boat Shows, paired with hotels and the right chauffeured car. (877) 609-1919.",
+    category: "Events",
+    author: "MSY Limo Team",
+    date: "September 10, 2026",
+    readTime: "5 min read",
+    excerpt:
+      "What is worth flying in for? A season-by-season itinerary of Maryland's 2026 events, each paired with a place to stay and the vehicle we would send.",
+    image: "/images/stock/u-1710615209322.webp",
+    content: `
+      <p>Visitors ask our chauffeurs the same question in different accents: what is worth flying in for? Maryland's 2026 calendar has a real answer for every season. This itinerary-style guide pairs each event with a place to stay and the vehicle MSY Limo Service's Maryland fleet would send, so you can plan the weekend from wherever you are reading this.</p>
+
+      <h2>Spring: Racing Silks and Dress Whites</h2>
+
+      <h3>Preakness Stakes, May</h3>
+      <p>The 2026 Preakness ran at Laurel Park while Pimlico is rebuilt, and the race returns to Pimlico in 2027. Laurel Park sits minutes from our base, so stay at a BWI-area or Columbia hotel and book a Cadillac Escalade for six or a Sprinter for a hospitality-tent group. Details on our <a href="/preakness-stakes-transportation">Preakness transportation</a> page.</p>
+
+      <h3>Commissioning Week, Annapolis, late May</h3>
+      <p>Naval Academy families fill every room in Annapolis. Reserve a Main Street or Eastport hotel early and let a chauffeur handle the Academy gate logistics; see <a href="/bwi-to-annapolis-car-service">BWI to Annapolis car service</a>.</p>
+
+      <h2>Summer: Harbor Nights and Ocean Air</h2>
+      <p>Artscape brings free art and music to Baltimore each summer, and the Orioles play at Camden Yards from April into September. An Inner Harbor hotel puts both within a short ride; a Mercedes-Benz E-Class sedan suits a couple, and we cover the <a href="/oriole-park-camden-yards-transportation">Camden Yards</a> run daily. In June the Ocean City Air Show roars over the boardwalk, and a Chevrolet Suburban makes the <a href="/bwi-to-ocean-city">BWI to Ocean City</a> transfer comfortable with beach luggage.</p>
+
+      <h2>Fall: Maryland's Busiest Season</h2>
+
+      <h3>Maryland State Fair, late August to early September</h3>
+      <p>Stay in Towson or Timonium and ride a Suburban to the fairgrounds; our <a href="/maryland-state-fair-transportation">State Fair transportation</a> page covers pickup points.</p>
+
+      <h3>Maryland Renaissance Festival, late August through October</h3>
+      <p>Crownsville's festival weekends pair well with an Annapolis hotel. A Sprinter van keeps a costumed group together on one flat rate; see <a href="/maryland-renaissance-festival-transportation">Renaissance Festival transportation</a>.</p>
+
+      <h3>Annapolis Boat Shows and Sunfest</h3>
+      <p>The Sailboat and Powerboat Shows take over City Dock in October, and Sunfest closes Ocean City's season in September. For the boat shows, book an Annapolis hotel far in advance and a BMW 7 Series for client entertaining; our <a href="/annapolis-boat-show-transportation">Boat Show transportation</a> page has more.</p>
+
+      <h3>Navy football and Ravens Sundays</h3>
+      <p>Navy-Marine Corps Memorial Stadium hosts fall Saturdays and M&amp;T Bank Stadium hosts the Ravens from September to January. Group tailgates ride best in a Sprinter; see <a href="/navy-marine-corps-stadium-transportation">Navy stadium transportation</a>.</p>
+
+      <h2>Winter: Lights on the Harbor</h2>
+      <p>Christmas Village at the Inner Harbor runs November into December, and Hampden's Miracle on 34th Street lights glow through the month. A stretch limousine tour of both is a favorite for visiting families staying downtown, and the Ravens keep M&amp;T Bank Stadium busy into January.</p>
+
+      <h2>Getting There in Style</h2>
+      <p>Every event above is served on flat rates with no surge, flight tracking on airport legs and 24/7 dispatch. Popular weekends sell out weeks ahead, especially Sprinters and limousines, so <a href="/booking">reserve online</a> or call <a href="tel:+18776091919">(877) 609-1919</a> once your hotel is booked. Our <a href="/services/special-events">special events</a> page explains hourly options for a full day out.</p>
+    `,
+    faqs: [
+      {
+        q: "Was the 2026 Preakness at Pimlico?",
+        a: "No. The 2026 running was held at Laurel Park while Pimlico Race Course is rebuilt; the race is scheduled to return to Pimlico in 2027. We serve both tracks from our Laurel base.",
+      },
+      {
+        q: "Which vehicle is best for a group going to a Maryland festival?",
+        a: "A Mercedes Sprinter for up to 13 keeps everyone together on one flat rate. Couples usually prefer an E-Class sedan; families with gear choose a Suburban or Escalade.",
+      },
+      {
+        q: "How early should visitors book event transportation?",
+        a: "Two to four weeks for most weekends and six or more for Preakness, Commissioning Week and the Annapolis Boat Shows. Call (877) 609-1919 as soon as your hotel is confirmed.",
+      },
+      {
+        q: "Can you combine an airport pickup with an event transfer?",
+        a: "Yes. One reservation can cover the BWI, Dulles or Reagan arrival, the event run and the return flight, with flight tracking and 45 to 60 minutes of complimentary wait time on arrivals.",
+      },
+    ],
+  },
+  {
+    slug: "flying-into-dulles-or-reagan-professional-car-service",
+    title: "Flying Into Dulles or Reagan? Here's Why You Need a Professional Car Service",
+    metaTitle: "Flying Into Dulles or Reagan? Why You Need a Car Service",
+    metaDescription:
+      "Flying into Dulles or Reagan for the first time? Customs, Metro, hotel drop-offs and why a professional car service is the easy arrival. (877) 609-1919.",
+    category: "Airport",
+    author: "MSY Limo Team",
+    date: "September 10, 2026",
+    readTime: "5 min read",
+    excerpt:
+      "Reagan sits almost inside the city; Dulles sits out in Virginia with customs and an AeroTrain between you and the curb. A first-timer's guide to both and to the easiest way in.",
+    image: "/images/stock/u-1739789750796.webp",
+    content: `
+      <p>First trip to the capital? The airport you chose shapes your first hour in Washington more than anything else. Reagan National sits practically inside the city; Dulles sits far out in Virginia horse country with customs, mid-field concourses and a train between you and the curb. MSY Limo Service's DMV fleet meets visitors at both every day. Here is how to decode them, and why a professional car service turns arrival into the easiest part of the trip.</p>
+
+      <h2>Dulles vs. Reagan: A First-Timer's Decoder</h2>
+
+      <h3>Washington Dulles (IAD)</h3>
+      <p>Dulles handles most of the region's international flights. After landing you clear customs, ride the AeroTrain from a mid-field concourse to the main terminal and collect bags. From there it is about 26 miles to downtown, typically 40 to 60 minutes via the Dulles Toll Road and I-66, longer in the evening rush. Plan on it; it is the price of the nonstop international flight.</p>
+
+      <h3>Reagan National (DCA)</h3>
+      <p>Reagan is about four miles from the National Mall, a 10 to 20 minute ride to most downtown hotels. A federal perimeter rule limits most nonstop flights to roughly 1,250 miles, so West Coast and overseas travelers usually cannot land here. If you can, it is the friendliest airport in the region.</p>
+
+      <h2>The Metro Reality</h2>
+      <p>Reagan has a Metro station on the Blue and Yellow lines, and Dulles has a Silver Line stop. Both work for a solo traveler with a backpack. With two suitcases, a stroller, jet lag and a transfer at L'Enfant Plaza, the math changes fast. Most visiting families and business groups we meet tried the train once and booked a car for the next trip.</p>
+
+      <h2>Why the Professional Car Is the Stress-Free Arrival</h2>
+      <p>Your chauffeur tracks the flight, waits in baggage claim with a name sign and already knows which hotel entrance to use. Dulles pickups include 60 minutes of complimentary wait time on international arrivals to absorb customs, 45 on domestic; Reagan pickups are staged so the car reaches the curb as you walk out. Flat rates are confirmed at booking with no surge, even when a motorcade closes half of downtown. See our <a href="/iad-dulles-airport-car-service">Dulles airport car service</a> and <a href="/washington-dc-airport-transfers">Washington DC airport transfers</a> pages for details.</p>
+
+      <h2>Hotel Drop-Offs We Run Most</h2>
+      <ul>
+        <li><strong>Pennsylvania Avenue and downtown:</strong> the grand hotels near the White House and the convention hotels around Mount Vernon Square.</li>
+        <li><strong>Georgetown:</strong> narrow streets and a nightly valet line; a sedan drops you at the door while an SUV handles a family's luggage.</li>
+        <li><strong>National Harbor:</strong> the resort and casino sit across the Potomac in Maryland; our <a href="/national-harbor-transportation">National Harbor page</a> covers the run from all three airports.</li>
+        <li><strong>Bethesda and Rockville:</strong> for NIH visitors and Maryland-side conferences, see <a href="/dca-to-bethesda">DCA to Bethesda</a> and <a href="/iad-to-bethesda">IAD to Bethesda</a>.</li>
+      </ul>
+
+      <h2>Groups and the Third Airport</h2>
+      <p>Teams often land split between Dulles, Reagan and BWI. One reservation covers all three, with a Mercedes Sprinter for up to 13 or multiple SUVs meeting each flight. Landing at BWI instead? Read our <a href="/blog/top-5-reasons-hire-chauffeur-bwi-airport-transfers">BWI chauffeur guide</a>.</p>
+
+      <h2>Book Your Arrival</h2>
+      <p>Give us your flight number and hotel, and we will handle the rest. <a href="/booking">Reserve online</a> or call <a href="tel:+18776091919">(877) 609-1919</a>, 24/7. MSY Limo Service operates as Maryland PSC Carrier No. 6325 from Laurel, Maryland, and cancellation is free up to three hours before a sedan or SUV pickup.</p>
+    `,
+    faqs: [
+      {
+        q: "Which is closer to downtown Washington, Dulles or Reagan?",
+        a: "Reagan National, at about 4 miles and 10 to 20 minutes. Dulles is roughly 26 miles out, usually 40 to 60 minutes via the Dulles Toll Road and I-66.",
+      },
+      {
+        q: "Where does the chauffeur wait for an international arrival at Dulles?",
+        a: "In the international arrivals hall of the main terminal, after you clear customs and the AeroTrain, holding a name sign. International pickups include 60 minutes of complimentary wait time.",
+      },
+      {
+        q: "Is a car service from Reagan worth it for such a short ride?",
+        a: "For visitors with luggage, a group or an early meeting, yes. The car is staged as you land, the rate is flat and you skip the taxi line and rideshare lot. Call (877) 609-1919 for a quote.",
+      },
+      {
+        q: "Can you drop us at a hotel in Virginia or Maryland instead of DC?",
+        a: "Yes. Arlington, Tysons, Bethesda, Rockville, National Harbor and the Baltimore area are all regular runs from both airports, on flat rates confirmed at booking.",
+      },
+    ],
+  },
 ];
+
+// Every page carries five FAQs (visible block + FAQPage schema).
+seoBlogPosts.forEach((p) => {
+  p.faqs = ensureFiveFaqs(p.faqs, { slug: p.slug });
+});
 
 export const getSeoBlogPostBySlug = (slug) =>
   seoBlogPosts.find((p) => p.slug === slug);

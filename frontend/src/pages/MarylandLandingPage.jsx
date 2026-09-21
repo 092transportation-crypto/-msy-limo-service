@@ -279,7 +279,7 @@ const MarylandLandingPage = ({ slug, page: pageProp }) => {
       <section className="py-16 bg-black">
         <div className="max-w-7xl mx-auto px-6 md:px-12">
           <h2 className="text-2xl font-medium mb-8 text-amber-400" style={serif}>
-            Related Maryland Service
+            Related Services &amp; Areas
           </h2>
           <div className="flex flex-wrap gap-3">{blocks.related}</div>
         </div>

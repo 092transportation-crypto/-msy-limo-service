@@ -5,23 +5,26 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import SEO, { buildFaqSchema } from "@/components/SEO";
 import { Users, Briefcase, Phone, ArrowRight, Star } from "lucide-react";
+import PageFaq from "@/components/PageFaq";
+import { ensureFiveFaqs } from "@/lib/faqExtras";
 
-const fleetFaqSchema = buildFaqSchema([
+const FLEET_FAQS = ensureFiveFaqs([
   { q: "What vehicles are in the MSY Limo fleet?", a: "Mercedes-Benz E-Class, BMW 7 Series and Mercedes S-Class sedans, Lincoln Nautilus, Chevrolet Suburban and Cadillac Escalade SUVs, plus Mercedes Sprinter shuttles, executive vans and limos seating up to 13 passengers — all late-model and meticulously maintained." },
   { q: "Which vehicle is best for an MSY airport transfer?", a: "Sedans suit 1–3 travelers with standard luggage; the Nautilus, Suburban and Escalade fit families and extra bags; the Sprinters handle groups up to 13. We'll recommend the right class when you book." },
   { q: "Do all vehicles include amenities?", a: "Yes — leather interiors, climate control, bottled water, phone charging, and Wi-Fi on equipped vehicles, with a professional chauffeur on every trip." },
   { q: "Are the vehicles commercially insured?", a: "Yes. MSY Limo Service is a Licensed & Insured Louisiana Carrier — every vehicle carries commercial livery insurance and is driven by a background-checked chauffeur." },
-]);
+], { slug: "fleet" });
+const fleetFaqSchema = buildFaqSchema(FLEET_FAQS);
 
 const fleet = [
-  { id: 1, name: "Mercedes-Benz E-Class 2023+ or similar", image: "/images/mercedes-e-class.jpg", passengers: 3, luggage: 2, category: "Business Sedan", desc: "Elegant business sedan for airport transfers and corporate travel.", features: ["Leather Interior", "WiFi", "Climate Control", "Professional"] },
-  { id: 2, name: "BMW 7 Series / Mercedes S-Class 2023+ or similar", image: "/images/bmw-7-series.jpg", passengers: 3, luggage: 2, category: "First Class Sedan", desc: "The pinnacle of luxury sedans for VIP travel.", features: ["Premium Leather", "Massage Seats", "Privacy Glass", "Mini Bar"] },
-  { id: 3, name: "Lincoln Nautilus 2023+ or similar", image: "/images/lincoln-nautilus.jpg", passengers: 3, luggage: 4, category: "Midsize SUV", desc: "The perfect balance of comfort and practicality with extra luggage room.", features: ["Extra Luggage Room", "Leather Interior", "Climate Control", "WiFi"] },
-  { id: 4, name: "Chevrolet Suburban 2023+ or similar", image: "/images/chevy-suburban.jpg", passengers: 5, luggage: 5, category: "Luxury SUV", desc: "Maximum space without compromising luxury — ideal for larger groups.", features: ["Spacious Interior", "Group Friendly", "Premium Sound", "USB Charging"] },
-  { id: 5, name: "Cadillac Escalade 2023+ or similar", image: "/images/cadillac-escalade.jpg", passengers: 6, luggage: 5, category: "Premium SUV", desc: "America's premier luxury SUV for families and groups.", features: ["Spacious Interior", "Premium Sound", "TV Screens", "USB Charging"] },
-  { id: 6, name: "Mercedes Sprinter 2023+ or similar", image: "/images/sprinter-shuttle-seats.jpg", passengers: 13, luggage: 13, category: "Sprinter Shuttle", desc: "Comfortable group shuttle for airport runs and events.", features: ["Group Seating", "Spacious Interior", "WiFi", "USB Ports"] },
-  { id: 7, name: "Mercedes Sprinter 2023+ or similar", image: "/images/mercedes-sprinter.jpg", passengers: 13, luggage: 13, category: "Sprinter Executive", desc: "Premium executive van with captain chairs and luxury amenities.", features: ["Captain Chairs", "Conference Setup", "WiFi", "USB Ports"] },
-  { id: 8, name: "Mercedes Sprinter Limo 2023+ or similar", image: "/images/limousine.jpg", passengers: 13, luggage: 13, category: "Sprinter Limo", desc: "The ultimate stretch limo experience for weddings and special occasions.", features: ["Limo Interior", "Mood Lighting", "Premium Sound", "Mini Bar"] },
+  { id: 1, name: "Mercedes-Benz E-Class 2023+ or similar", image: "/images/mercedes-e-class.webp", passengers: 3, luggage: 2, category: "Business Sedan", desc: "Elegant business sedan for airport transfers and corporate travel.", features: ["Leather Interior", "WiFi", "Climate Control", "Professional"] },
+  { id: 2, name: "BMW 7 Series / Mercedes S-Class 2023+ or similar", image: "/images/bmw-7-series.webp", passengers: 3, luggage: 2, category: "First Class Sedan", desc: "The pinnacle of luxury sedans for VIP travel.", features: ["Premium Leather", "Massage Seats", "Privacy Glass", "Mini Bar"] },
+  { id: 3, name: "Lincoln Nautilus 2023+ or similar", image: "/images/lincoln-nautilus.webp", passengers: 3, luggage: 4, category: "Midsize SUV", desc: "The perfect balance of comfort and practicality with extra luggage room.", features: ["Extra Luggage Room", "Leather Interior", "Climate Control", "WiFi"] },
+  { id: 4, name: "Chevrolet Suburban 2023+ or similar", image: "/images/chevy-suburban.webp", passengers: 5, luggage: 5, category: "Luxury SUV", desc: "Maximum space without compromising luxury — ideal for larger groups.", features: ["Spacious Interior", "Group Friendly", "Premium Sound", "USB Charging"] },
+  { id: 5, name: "Cadillac Escalade 2023+ or similar", image: "/images/cadillac-escalade.webp", passengers: 6, luggage: 5, category: "Premium SUV", desc: "America's premier luxury SUV for families and groups.", features: ["Spacious Interior", "Premium Sound", "TV Screens", "USB Charging"] },
+  { id: 6, name: "Mercedes Sprinter 2023+ or similar", image: "/images/sprinter-shuttle-seats.webp", passengers: 13, luggage: 13, category: "Sprinter Shuttle", desc: "Comfortable group shuttle for airport runs and events.", features: ["Group Seating", "Spacious Interior", "WiFi", "USB Ports"] },
+  { id: 7, name: "Mercedes Sprinter 2023+ or similar", image: "/images/mercedes-sprinter.webp", passengers: 13, luggage: 13, category: "Sprinter Executive", desc: "Premium executive van with captain chairs and luxury amenities.", features: ["Captain Chairs", "Conference Setup", "WiFi", "USB Ports"] },
+  { id: 8, name: "Mercedes Sprinter Limo 2023+ or similar", image: "/images/limousine.webp", passengers: 13, luggage: 13, category: "Sprinter Limo", desc: "The ultimate stretch limo experience for weddings and special occasions.", features: ["Limo Interior", "Mood Lighting", "Premium Sound", "Mini Bar"] },
 ];
 
 const containerVariants = {
@@ -192,6 +195,7 @@ const FleetPage = () => {
           </motion.div>
         </div>
       </motion.section>
+      <PageFaq faqs={FLEET_FAQS} />
       <Footer />
     </div>
   );

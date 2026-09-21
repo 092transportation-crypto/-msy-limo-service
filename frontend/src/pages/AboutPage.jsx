@@ -5,13 +5,16 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import SEO, { buildFaqSchema } from "@/components/SEO";
 import { Shield, Clock, Users, Award, Phone, ArrowRight } from "lucide-react";
+import PageFaq from "@/components/PageFaq";
+import { ensureFiveFaqs } from "@/lib/faqExtras";
 
-const aboutFaqSchema = buildFaqSchema([
+const ABOUT_FAQS = ensureFiveFaqs([
   { q: "Is MSY Limo Service licensed and insured?", a: "Yes — we operate as a Licensed & Insured Louisiana Carrier with commercial insurance on every vehicle and background-checked, professionally trained chauffeurs." },
   { q: "What areas does MSY Limo Service cover?", a: "The entire Greater New Orleans metro — downtown, the French Quarter, Metairie, Kenner, the West Bank, and the Northshore — plus long-distance service to Baton Rouge, Hammond, and the Gulf Coast." },
   { q: "What services do you offer?", a: "MSY airport transfers, corporate car service, wedding limousines, cruise port transfers, special events, Saints game day transportation, and hourly charters." },
   { q: "How can I reach MSY Limo Service?", a: "Call (877) 609-1919 any time — dispatch answers 24/7 — or book online through our reservation system." },
-]);
+], { slug: "about" });
+const aboutFaqSchema = buildFaqSchema(ABOUT_FAQS);
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -115,14 +118,14 @@ const AboutPage = () => {
               className="grid grid-cols-2 gap-4"
             >
               <motion.img 
-                src="/images/stock/u-1687634365981.jpg" 
+                src="/images/stock/u-1687634365981.webp" 
                 alt="Luxury sedan for New Orleans limo service" 
                 className="rounded-lg shadow-xl"
                 whileHover={{ scale: 1.05 }}
                 transition={{ duration: 0.3 }}
               />
               <motion.img 
-                src="/images/stock/u-1739789750796.jpg" 
+                src="/images/stock/u-1739789750796.webp" 
                 alt="Professional chauffeur in New Orleans" 
                 className="rounded-lg mt-8 shadow-xl"
                 whileHover={{ scale: 1.05 }}
@@ -258,6 +261,7 @@ const AboutPage = () => {
         </div>
       </section>
 
+      <PageFaq faqs={ABOUT_FAQS} />
       <Footer />
     </div>
   );

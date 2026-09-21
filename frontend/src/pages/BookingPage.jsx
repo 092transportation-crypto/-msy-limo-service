@@ -3,8 +3,17 @@ import { motion } from "framer-motion";
 import { BadgeDollarSign } from "lucide-react";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
-import SEO from "@/components/SEO";
+import SEO, { buildFaqSchema } from "@/components/SEO";
 import InquiryForm from "@/components/InquiryForm";
+import PageFaq from "@/components/PageFaq";
+const BOOKING_FAQS = [
+  { q: "Is my ride confirmed as soon as I submit the form?", a: "Submitting the form sends your request to dispatch. Your ride is confirmed once we reply with your flat rate and you approve it — you then receive a written confirmation." },
+  { q: "Do I need a credit card to request a quote?", a: "No. A card is needed only to confirm the reservation, and it is charged only after the reservation and the rate have been confirmed with you." },
+  { q: "How far in advance should I book?", a: "A day ahead is ideal, and much earlier for Mardi Gras, Jazz Fest, Saints home games and other event weekends. Same-day requests are welcome when a vehicle is available — for anything in the next few hours, calling (877) 609-1919 is fastest." },
+  { q: "What if my flight into MSY is delayed?", a: "Airport pickups are flight-tracked, so the pickup moves with your actual arrival. Airport pickups include 45 minutes of complimentary waiting time on domestic arrivals and 60 minutes on international arrivals." },
+  { q: "Can I change or cancel a reservation?", a: "Yes. Sedan and SUV reservations cancel free of charge up to 3 hours before pickup; Sprinter vans, limousines and special-event bookings up to 12 hours before pickup. Call (877) 609-1919 or reply to your confirmation email." },
+];
+
 
 const BookingPage = () => {
   useEffect(() => {
@@ -14,9 +23,10 @@ const BookingPage = () => {
   return (
     <div className="min-h-screen bg-black">
       <SEO
-        title="Book Your Ride | MSY Limo Service — New Orleans Airport Car Service"
+        title="Book Your Ride | MSY Limo Service New Orleans"
         description="Book your MSY airport transfer, corporate car service, or special event limo online. Request a ride in minutes or call (877) 609-1919 — available 24/7."
         path="/booking"
+        schema={[buildFaqSchema(BOOKING_FAQS)]}
       />
       <Navigation />
 
@@ -86,6 +96,7 @@ const BookingPage = () => {
         </div>
       </section>
 
+      <PageFaq faqs={BOOKING_FAQS} heading="Booking Questions" />
       <Footer />
     </div>
   );

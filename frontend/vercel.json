@@ -1,4 +1,9 @@
 {
+  "functions": {
+    "api/sitemap.js": {
+      "includeFiles": "public/sitemap-static.xml"
+    }
+  },
   "redirects": [
     {
       "source": "/:path((?!api/).*)",
@@ -10,6 +15,41 @@
       ],
       "destination": "https://msylimoservice.com/:path*",
       "permanent": true
+    },
+    {
+      "source": "/images/:name([^/]+)\\.(jpg|jpeg)",
+      "destination": "/images/:name.webp",
+      "permanent": true
+    },
+    {
+      "source": "/images/stock/:name([^/]+)\\.(jpg|jpeg)",
+      "destination": "/images/stock/:name.webp",
+      "permanent": true
+    },
+    {
+      "source": "/capstone-limo-service",
+      "destination": "/cape-st-claire-limo-service",
+      "permanent": true
+    },
+    {
+      "source": "/snopesville-limo-service",
+      "destination": "/sykesville-limo-service",
+      "permanent": true
+    },
+    {
+      "source": "/blogs",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/book",
+      "destination": "/booking",
+      "permanent": true
+    },
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "permanent": true
     }
   ],
   "rewrites": [
@@ -19,7 +59,7 @@
     },
     {
       "source": "/((?!api/).*)",
-      "destination": "/index.html"
+      "destination": "/shell.html"
     }
   ],
   "headers": [

@@ -2,6 +2,7 @@ import "@/App.css";
 import { useEffect, lazy, Suspense } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { MARYLAND_SLUGS } from "@/data/marylandPages";
+import { GUIDES } from "@/data/guides";
 import { Toaster } from "@/components/ui/sonner";
 import ChatWidget from "@/components/ChatWidget";
 import FloatingCallButton from "@/components/FloatingCallButton";
@@ -25,6 +26,7 @@ const BlogPostPage = lazy(() => import("@/pages/BlogPostPage"));
 const RouteLandingPage = lazy(() => import("@/pages/RouteLandingPage"));
 const MarylandLandingPage = lazy(() => import("@/pages/MarylandLandingPage"));
 const EventRoute = lazy(() => import("@/pages/EventRoute"));
+const ServiceAreasPage = lazy(() => import("@/pages/ServiceAreasPage"));
 const VenueLandingPage = lazy(() => import("@/pages/VenueLandingPage"));
 
 // MSY airport route landing pages (content lives in src/data/routesData.js)
@@ -114,6 +116,11 @@ function App() {
             <Route path="/blog" element={<BlogsPage />} />
             <Route path="/blogs" element={<BlogsPage />} />
             <Route path="/blog/:slug" element={<BlogPostPage />} />
+            <Route path="/service-areas" element={<ServiceAreasPage />} />
+            {/* Root-level guide articles (content lives in src/data/guides.js) */}
+            {GUIDES.map((g) => (
+              <Route key={g.slug} path={`/${g.slug}`} element={<BlogPostPage guideSlug={g.slug} />} />
+            ))}
             {/* MSY Airport Route Landing Pages */}
             {ROUTE_SLUGS.map((slug) => (
               <Route key={slug} path={`/${slug}`} element={<RouteLandingPage slug={slug} />} />

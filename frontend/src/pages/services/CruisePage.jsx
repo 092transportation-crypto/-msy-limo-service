@@ -5,13 +5,16 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import SEO, { buildFaqSchema } from "@/components/SEO";
 import { Ship, Clock, CheckCircle, Phone, ArrowRight, Anchor, MapPin, Calendar, Waves } from "lucide-react";
+import PageFaq from "@/components/PageFaq";
+import { ensureFiveFaqs } from "@/lib/faqExtras";
 
-const cruiseFaqSchema = buildFaqSchema([
+const CRUISE_FAQS = ensureFiveFaqs([
   { q: "How far is the New Orleans cruise terminal from MSY airport?", a: "The Port of New Orleans terminals are about 25 minutes from MSY in normal traffic. We time embarkation-day pickups around your ship's boarding window." },
   { q: "Do you drop off directly at the cruise terminal?", a: "Yes — direct curbside drop-off at the Julia Street and Erato Street terminals with luggage assistance, so you walk straight to check-in." },
   { q: "Can you pick us up after the cruise returns?", a: "Absolutely. We schedule post-cruise pickups around typical debarkation times and monitor ship arrival status, taking you to MSY, your hotel, or home." },
   { q: "Do you handle large cruise groups?", a: "Yes — Sprinter vans seat up to 13 passengers with luggage, and we coordinate multiple vehicles for family reunions and group cruises. Call (877) 609-1919 to arrange it." },
-]);
+], { slug: "cruise" });
+const cruiseFaqSchema = buildFaqSchema(CRUISE_FAQS);
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -150,7 +153,7 @@ const CruisePage = () => {
               className="hidden lg:block"
             >
               <motion.img 
-                src="/images/stock/u-1710615209322.jpg" 
+                src="/images/stock/u-1710615209322.webp" 
                 alt="New Orleans cruise ship transportation Port of New Orleans" 
                 className="rounded-2xl shadow-2xl shadow-amber-500/10 border border-amber-500/20"
                 whileHover={{ scale: 1.03 }}
@@ -335,7 +338,7 @@ const CruisePage = () => {
               transition={{ duration: 0.6, delay: 0.2 }}
             >
               <motion.img 
-                src="/images/stock/u-1702722710064.jpg" 
+                src="/images/stock/u-1702722710064.webp" 
                 alt="Luxury cruise ship Caribbean vacation from New Orleans" 
                 className="rounded-2xl shadow-2xl shadow-amber-500/10 border border-amber-500/20"
                 whileHover={{ scale: 1.03 }}
@@ -445,6 +448,7 @@ const CruisePage = () => {
         </div>
       </motion.section>
 
+      <PageFaq faqs={CRUISE_FAQS} />
       <Footer />
     </div>
   );

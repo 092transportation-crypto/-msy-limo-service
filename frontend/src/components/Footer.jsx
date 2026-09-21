@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import Logo from "@/components/Logo";
 import { Phone, Mail, MapPin, Clock, ArrowRight, Sparkles, Instagram, Facebook } from "lucide-react";
 import { motion } from "framer-motion";
+import SiteBreadcrumbs from "@/components/SiteBreadcrumbs";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -37,6 +38,7 @@ const Footer = () => {
 
   return (
     <footer className="bg-black text-white">
+      <SiteBreadcrumbs />
       {/* CTA Bar */}
       <motion.div 
         className="bg-gradient-to-r from-amber-600 via-amber-500 to-amber-600 py-6 md:py-8"
@@ -221,6 +223,8 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-white/50">
             <p>&copy; {currentYear} MSY Limo Service. All rights reserved.</p>
             <div className="flex items-center gap-6">
+              <Link to="/service-areas" className="hover:text-amber-400 transition-colors">Service Areas</Link>
+              <Link to="/blog" className="hover:text-amber-400 transition-colors">Blog</Link>
               <Link to="/faq" className="hover:text-amber-400 transition-colors">FAQ</Link>
               <Link to="/contact" className="hover:text-amber-400 transition-colors">Contact</Link>
               <a href="https://www.google.com/maps/place/New+Orleans,+LA" target="_blank" rel="noopener noreferrer" className="hover:text-amber-400 transition-colors">Find Us</a>

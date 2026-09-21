@@ -5,13 +5,16 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import SEO, { buildFaqSchema } from "@/components/SEO";
 import { Clock, CheckCircle, Phone, ArrowRight, MapPin, Wine } from "lucide-react";
+import PageFaq from "@/components/PageFaq";
+import { ensureFiveFaqs } from "@/lib/faqExtras";
 
-const hourlyFaqSchema = buildFaqSchema([
+const HOURLY_FAQS = ensureFiveFaqs([
   { q: "What is the minimum booking for hourly charter?", a: "Hourly charters start at a 3-hour minimum with a dedicated chauffeur and unlimited stops within our service area." },
   { q: "What are hourly charters used for?", a: "Plantation and city tours, shopping days, multi-stop business schedules, medical appointments, and any itinerary where you want the vehicle to stay with you." },
   { q: "Can I change the itinerary during the charter?", a: "Yes — your chauffeur is at your disposal for the booked time, and route changes on the fly are part of the service." },
   { q: "Which vehicles are available by the hour?", a: "Every vehicle in our fleet: executive sedans, Cadillac Escalade SUVs, Mercedes Sprinter vans, and stretch limousines. Call (877) 609-1919 for hourly rates." },
-]);
+], { slug: "hourly" });
+const hourlyFaqSchema = buildFaqSchema(HOURLY_FAQS);
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -119,7 +122,7 @@ const HourlyPage = () => {
               className="hidden lg:block"
             >
               <motion.img 
-                src="/images/stock/u-1739789750796.jpg" 
+                src="/images/stock/u-1739789750796.webp" 
                 alt="Hourly chauffeur service New Orleans" 
                 className="rounded-2xl shadow-2xl shadow-amber-500/10 border border-amber-500/20"
                 whileHover={{ scale: 1.03 }}
@@ -264,6 +267,7 @@ const HourlyPage = () => {
         </div>
       </section>
 
+      <PageFaq faqs={HOURLY_FAQS} />
       <Footer />
     </div>
   );

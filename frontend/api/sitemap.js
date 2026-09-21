@@ -23,16 +23,26 @@ async function staticSitemap(req) {
   return EMPTY;
 }
 
+// Event pages come from another deployment: never let a slow or broken feed
+// delay or corrupt the sitemap (Search Console reports "could not be read" on
+// timeouts and on invalid <lastmod>/<loc> values).
+const SLUG_RE = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
+const DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
+
 async function eventEntries() {
   try {
-    const r = await fetch(`${PLATFORM_URL}/api/event-pages/public?site=${SITE_KEY}`);
+    const r = await fetch(`${PLATFORM_URL}/api/event-pages/public?site=${SITE_KEY}`, {
+      signal: AbortSignal.timeout(2500),
+    });
     if (!r.ok) return "";
     const data = await r.json();
     return (data.pages || [])
-      .map(
-        (p) =>
-          `  <url>\n    <loc>${ORIGIN}/${p.slug}</loc>\n    <lastmod>${String(p.updated_at || "").slice(0, 10)}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>0.8</priority>\n  </url>\n`
-      )
+      .filter((p) => p && SLUG_RE.test(String(p.slug || "")))
+      .map((p) => {
+        const date = String(p.updated_at || "").slice(0, 10);
+        const lastmod = DATE_RE.test(date) ? `    <lastmod>${date}</lastmod>\n` : "";
+        return `  <url>\n    <loc>${ORIGIN}/${p.slug}</loc>\n${lastmod}    <changefreq>weekly</changefreq>\n    <priority>0.8</priority>\n  </url>\n`;
+      })
       .join("");
   } catch {
     return "";
@@ -40,8 +50,17 @@ async function eventEntries() {
 }
 
 module.exports = async (req, res) => {
-  const [base, events] = await Promise.all([staticSitemap(req), eventEntries()]);
-  const xml = base.includes("</urlset>") ? base.replace("</urlset>", `${events}</urlset>`) : EMPTY;
+  let xml = EMPTY;
+  try {
+    const [base, events] = await Promise.all([staticSitemap(req), eventEntries()]);
+    const known = new Set([...base.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1]));
+    // Drop event slugs that already exist as static pages — duplicate <loc>s are invalid.
+    const fresh = events
+      .split(/(?<=<\/url>\n)/)
+      .filter((u) => u && !known.has((u.match(/<loc>([^<]+)<\/loc>/) || [])[1]))
+      .join("");
+    if (base.includes("</urlset>")) xml = base.replace("</urlset>", `${fresh}</urlset>`);
+  } catch {}
   res.setHeader("Content-Type", "application/xml; charset=utf-8");
   res.setHeader("Cache-Control", "public, s-maxage=300, stale-while-revalidate=3600");
   res.status(200).send(xml);

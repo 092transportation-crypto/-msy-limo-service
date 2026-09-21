@@ -1,5 +1,6 @@
 // Content for the MSY airport route landing pages.
 // Each entry drives one page at /<slug> via RouteLandingPage.
+import { ensureFiveFaqs } from "@/lib/faqExtras";
 
 export const routes = [
   {
@@ -23,7 +24,7 @@ export const routes = [
       "45 minutes of complimentary wait time for domestic arrivals",
       "Meet & greet inside baggage claim available",
       "Late-model luxury sedans, SUVs & Sprinter vans",
-      "Licensed & Insured Louisiana Carrier",
+      "Licensed & Insured Carrier",
     ],
     destinationsTitle: "Popular Downtown Drop-Off Points",
     destinations: [
@@ -37,7 +38,7 @@ export const routes = [
     whyTitle: "Why Book a Private Car Instead of a Taxi or Rideshare?",
     whyParagraphs: [
       "Taxis from MSY charge per-person rates downtown, and rideshare pricing surges exactly when you need it most — conventions, festivals, and Friday evening arrivals. A reserved black car costs a known, flat amount the moment you book. Your chauffeur is assigned in advance, tracks your inbound flight, and is already positioned at the airport when you clear the jet bridge.",
-      "Every vehicle in our fleet is detailed daily and driven by a professionally trained, background-checked chauffeur. As a Licensed & Insured Louisiana Carrier, we meet the state's commercial transportation requirements — something no casual rideshare driver can offer. For arrivals after midnight or pre-dawn departures out of MSY, our dispatch runs 24/7.",
+      "Every vehicle in our fleet is detailed daily and driven by a professionally trained, background-checked chauffeur. As a Licensed & Insured Carrier, we meet the state's commercial transportation requirements — something no casual rideshare driver can offer. For arrivals after midnight or pre-dawn departures out of MSY, our dispatch runs 24/7.",
     ],
     faqs: [
       {
@@ -83,7 +84,7 @@ export const routes = [
       "Flight tracking and complimentary wait time included",
       "Meet & greet with name sign available at baggage claim",
       "Champagne-ready stretch and SUV options for celebrations",
-      "Licensed & Insured Louisiana Carrier",
+      "Licensed & Insured Carrier",
     ],
     destinationsTitle: "French Quarter Destinations We Serve Daily",
     destinations: [
@@ -97,7 +98,7 @@ export const routes = [
     whyTitle: "The Smart Way to Reach the Quarter",
     whyParagraphs: [
       "Rideshare drop-offs in the French Quarter routinely end a block or more from the hotel because casual drivers won't navigate the narrow one-ways — and during festival season, entire streets close without notice. Our chauffeurs work the Quarter every single day. They know which blocks are barricaded, where each hotel's loading zone sits, and how to time an arrival so you step from climate-controlled comfort straight into your lobby.",
-      "You also know your price before you fly. Flat-rate billing means a Saturday-night arrival during French Quarter Fest costs the same as a Tuesday morning in August. As a Licensed & Insured Louisiana Carrier with professionally trained chauffeurs, we're the option visitors rebook year after year.",
+      "You also know your price before you fly. Flat-rate billing means a Saturday-night arrival during French Quarter Fest costs the same as a Tuesday morning in August. As a Licensed & Insured Carrier with professionally trained chauffeurs, we're the option visitors rebook year after year.",
     ],
     faqs: [
       {
@@ -143,7 +144,7 @@ export const routes = [
       "Executive sedans ideal for Causeway corridor business travel",
       "Child car seats available on request",
       "Flat rates lower than most surge-hour rideshares",
-      "Licensed & Insured Louisiana Carrier",
+      "Licensed & Insured Carrier",
     ],
     destinationsTitle: "Where We Take Metairie Travelers",
     destinations: [
@@ -157,7 +158,7 @@ export const routes = [
     whyTitle: "Why Metairie Travelers Book MSY Limo",
     whyParagraphs: [
       "On a short route, reliability matters more than anything. A rideshare cancellation at 4:45 a.m. can cost you a flight; our chauffeurs are scheduled, confirmed, and tracked by dispatch, and we build in buffer time as standard practice. You'll get a confirmation the evening before and a text when your vehicle is on the way.",
-      "We are a Licensed & Insured Louisiana Carrier with professionally trained chauffeurs — the same standard on a 15-minute Metairie run as on a statewide charter. Frequent flyers can set up a house account so every airport trip books in seconds with consolidated billing.",
+      "We are a Licensed & Insured Carrier with professionally trained chauffeurs — the same standard on a 15-minute Metairie run as on a statewide charter. Frequent flyers can set up a house account so every airport trip books in seconds with consolidated billing.",
     ],
     faqs: [
       {
@@ -203,7 +204,7 @@ export const routes = [
       "Work en route: quiet cabins, Wi-Fi & device charging",
       "LSU game-day and event transfers available",
       "Round-trip and multi-day itineraries welcome",
-      "Licensed & Insured Louisiana Carrier",
+      "Licensed & Insured Carrier",
     ],
     destinationsTitle: "Baton Rouge Destinations We Cover",
     destinations: [
@@ -217,7 +218,7 @@ export const routes = [
     whyTitle: "The Case for a Chauffeur on the Baton Rouge Run",
     whyParagraphs: [
       "Rideshare from MSY to Baton Rouge is a coin flip — many drivers reject 75-mile trips, and those who accept charge unpredictable long-distance premiums. A rental car adds pickup lines, drop fees, and Baton Rouge parking. Our flat rate is confirmed at booking, and the chauffeur, vehicle, and pickup time are locked in before your flight even boards.",
-      "Because we are a Licensed & Insured Louisiana Carrier, the trip is covered by commercial insurance across every parish line, and our chauffeurs are trained for exactly this kind of intercity work. Ride in an S-Class or Escalade, take your calls, and arrive in the capital ready to work — or ready for kickoff.",
+      "Because we are a Licensed & Insured Carrier, the trip is covered by commercial insurance across every parish line, and our chauffeurs are trained for exactly this kind of intercity work. Ride in an S-Class or Escalade, take your calls, and arrive in the capital ready to work — or ready for kickoff.",
     ],
     faqs: [
       {
@@ -263,7 +264,7 @@ export const routes = [
       "Pre-dawn departure pickups confirmed the night before",
       "Flight tracking with complimentary wait time",
       "Group vehicles for cruise and casino outings",
-      "Licensed & Insured Louisiana Carrier",
+      "Licensed & Insured Carrier",
     ],
     destinationsTitle: "Slidell Areas We Serve",
     destinations: [
@@ -277,7 +278,7 @@ export const routes = [
     whyTitle: "Why Slidell Riders Choose MSY Limo",
     whyParagraphs: [
       "Ask anyone in St. Tammany who has stood at the MSY rideshare lot watching drivers cancel: distance is the enemy of app-based rides. A reserved chauffeur removes the uncertainty entirely. We accept the trip when you book it — days or weeks ahead — and our 24/7 dispatch monitors every leg, so the ride home to Slidell is as guaranteed as the flight itself.",
-      "As a Licensed & Insured Louisiana Carrier, we hold commercial coverage across the causeway of parishes we serve, and every chauffeur is background-checked and professionally trained. It is the difference between hoping for a ride and having one.",
+      "As a Licensed & Insured Carrier, we hold commercial coverage across the causeway of parishes we serve, and every chauffeur is background-checked and professionally trained. It is the difference between hoping for a ride and having one.",
     ],
     faqs: [
       {
@@ -323,7 +324,7 @@ export const routes = [
       "Standing daily reservations for airport-area crews",
       "Luggage help from carousel to trunk to lobby",
       "Same luxury fleet and chauffeur standard on every trip",
-      "Licensed & Insured Louisiana Carrier",
+      "Licensed & Insured Carrier",
     ],
     destinationsTitle: "Kenner Stops We Know by Heart",
     destinations: [
@@ -337,7 +338,7 @@ export const routes = [
     whyTitle: "A Local Fleet for the Airport's Hometown",
     whyParagraphs: [
       "Because MSY sits inside Kenner, our vehicles are always close — which translates to fast pickups, realistic scheduling, and rescue rides when another plan falls through. Hotel shuttle never showed? Flight rebooked to the last departure? Our dispatch has solved that call more times than we can count, 24 hours a day.",
-      "Every Kenner trip, however short, rides in a detailed luxury vehicle with a professionally trained chauffeur behind the wheel. We are a Licensed & Insured Louisiana Carrier — fully credentialed for commercial airport work, which is exactly what a trip to or from MSY deserves. From a five-minute hotel run to a full-day charter that starts at the terminal, the standard never changes.",
+      "Every Kenner trip, however short, rides in a detailed luxury vehicle with a professionally trained chauffeur behind the wheel. We are a Licensed & Insured Carrier — fully credentialed for commercial airport work, which is exactly what a trip to or from MSY deserves. From a five-minute hotel run to a full-day charter that starts at the terminal, the standard never changes.",
     ],
     faqs: [
       {
@@ -383,7 +384,7 @@ export const routes = [
       "Executive sedans with Wi-Fi for Northshore business parks",
       "Wedding and event group transport across St. Tammany",
       "Round-trip bookings with guaranteed return pickups",
-      "Licensed & Insured Louisiana Carrier",
+      "Licensed & Insured Carrier",
     ],
     destinationsTitle: "Covington & Northshore Destinations",
     destinations: [
@@ -397,7 +398,7 @@ export const routes = [
     whyTitle: "Crossing the Lake the Comfortable Way",
     whyParagraphs: [
       "The Causeway is a beautiful drive when someone else is doing it. Fog closures, wind advisories, and rush-hour stacking make the bridge unpredictable, and our chauffeurs monitor Causeway conditions as part of every Northshore dispatch — rerouting via I-12 before a closure ever affects your schedule. Rideshares, by contrast, frequently decline Northshore returns, stranding travelers at both ends.",
-      "We accept the trip when you book it, run it in a commercially insured luxury vehicle, and back it with 24/7 dispatch. As a Licensed & Insured Louisiana Carrier, we've made the Northshore a core service area, not an occasional favor.",
+      "We accept the trip when you book it, run it in a commercially insured luxury vehicle, and back it with 24/7 dispatch. As a Licensed & Insured Carrier, we've made the Northshore a core service area, not an occasional favor.",
       "Covington travelers also use us well beyond the airport run: dinner reservations in the French Quarter with a guaranteed ride home across the lake, Saints and Pelicans games without Superdome parking, and hourly charters for wine dinners, galas, and client entertaining on either shore. One saved number covers every trip that matters.",
     ],
     faqs: [
@@ -444,7 +445,7 @@ export const routes = [
       "Old Mandeville, Beau Chêne & lakefront pickups daily",
       "Flight tracking with complimentary wait time",
       "SUVs & Sprinters for family and group travel",
-      "Licensed & Insured Louisiana Carrier",
+      "Licensed & Insured Carrier",
     ],
     destinationsTitle: "Mandeville Destinations We Serve",
     destinations: [
@@ -458,7 +459,7 @@ export const routes = [
     whyTitle: "Why Mandeville Rides Better With a Chauffeur",
     whyParagraphs: [
       "Every Northshore commuter knows the Causeway's moods — fog holds in winter, wind advisories, the evening stack at the toll plaza. Our dispatch tracks bridge status on every Mandeville run and reroutes through I-12 and Highway 59 when the lake isn't cooperating. You get the fastest safe route without touching a traffic app.",
-      "And unlike app-based rides, which regularly decline the return trip across the lake, a reservation with us is a commitment. Licensed & Insured Louisiana Carrier credentials, background-checked chauffeurs, and a 24/7 dispatch desk mean the ride happens — on time, in comfort, both directions, whether it's a Monday business flight or a holiday-weekend homecoming.",
+      "And unlike app-based rides, which regularly decline the return trip across the lake, a reservation with us is a commitment. Licensed & Insured Carrier credentials, background-checked chauffeurs, and a 24/7 dispatch desk mean the ride happens — on time, in comfort, both directions, whether it's a Monday business flight or a holiday-weekend homecoming.",
     ],
     faqs: [
       {
@@ -504,7 +505,7 @@ export const routes = [
       "Flat rates confirmed before you fly",
       "Executive sedans for Hammond's logistics corridor",
       "Group Sprinters for families and campus visits",
-      "Licensed & Insured Louisiana Carrier",
+      "Licensed & Insured Carrier",
     ],
     destinationsTitle: "Hammond Destinations We Serve",
     destinations: [
@@ -518,7 +519,7 @@ export const routes = [
     whyTitle: "The Reliable Link Between Hammond and MSY",
     whyParagraphs: [
       "Hammond's distance from the airport puts it squarely in rideshare no-man's-land: too far for many drivers to accept, too important a trip to leave to chance. A reserved chauffeur inverts the equation — the trip is committed the moment you book, whether that's tomorrow morning or the Saturday of graduation weekend, and our 24/7 dispatch monitors every pickup.",
-      "We carry commercial insurance as a Licensed & Insured Louisiana Carrier, our chauffeurs are background-checked professionals, and our vehicles are maintained to executive standard. For a university town that welcomes thousands of visiting families a year, that's the arrival experience Hammond deserves.",
+      "We carry commercial insurance as a Licensed & Insured Carrier, our chauffeurs are background-checked professionals, and our vehicles are maintained to executive standard. For a university town that welcomes thousands of visiting families a year, that's the arrival experience Hammond deserves.",
       "The route works both directions and beyond the airport, too. Hammond and Ponchatoula residents book us for cruise departures from the Port of New Orleans, concerts and games downtown, and group nights in the French Quarter with a guaranteed ride back up I-55 — no designated driver, no midnight rideshare roulette at the city's edge.",
     ],
     faqs: [
@@ -565,7 +566,7 @@ export const routes = [
       "Courthouse, government & legal-district transfers",
       "Gretna Fest and event transportation",
       "Flat rates with no surge pricing, ever",
-      "Licensed & Insured Louisiana Carrier",
+      "Licensed & Insured Carrier",
     ],
     destinationsTitle: "Gretna & West Bank Destinations",
     destinations: [
@@ -579,7 +580,7 @@ export const routes = [
     whyTitle: "West Bank Travel Without the Bridge Stress",
     whyParagraphs: [
       "River crossings punish bad timing. An accident on the Crescent City Connection or a slowdown on the Huey P. Long can double a West Bank trip, and airport shuttles simply don't serve Gretna addresses door-to-door. Our chauffeurs check both bridges before every pickup and choose in real time — local knowledge no navigation app fully replicates during a Friday rush.",
-      "Add commercial insurance, background-checked professional chauffeurs, and 24/7 dispatch, and the choice is simple. We are a Licensed & Insured Louisiana Carrier serving the West Bank every day of the year — book once for an airport run or a night out across the river, and see why Gretna neighbors keep our number saved.",
+      "Add commercial insurance, background-checked professional chauffeurs, and 24/7 dispatch, and the choice is simple. We are a Licensed & Insured Carrier serving the West Bank every day of the year — book once for an airport run or a night out across the river, and see why Gretna neighbors keep our number saved.",
     ],
     faqs: [
       {
@@ -625,7 +626,7 @@ export const routes = [
       "Flight tracking with complimentary wait time included",
       "Flat rates confirmed before you fly — no surge, ever",
       "Group Sprinters for casino trips and beach weekends",
-      "Licensed & Insured Louisiana Carrier",
+      "Licensed & Insured Carrier",
     ],
     destinationsTitle: "Biloxi & Gulf Coast Destinations We Serve",
     destinations: [
@@ -639,7 +640,7 @@ export const routes = [
     whyTitle: "Why Coast Travelers Book a Chauffeur From MSY",
     whyParagraphs: [
       "Rideshare across a state line is a gamble that gets worse after dark — drivers cancel long trips, and finding a return ride from Biloxi at midnight is its own adventure. A reserved chauffeur removes both problems: the trip is committed when you book, and round-trip reservations lock in your ride home before you ever leave. Many casino guests book the return for Sunday afternoon and treat the whole weekend as door-to-door.",
-      "As a Licensed & Insured Louisiana Carrier, we run this interstate route under commercial insurance with background-checked professional chauffeurs. Ride with a group in a Sprinter van and the per-person cost routinely beats driving once you count parking, fuel, and the value of arriving rested at the tables.",
+      "As a Licensed & Insured Carrier, we run this interstate route under commercial insurance with background-checked professional chauffeurs. Ride with a group in a Sprinter van and the per-person cost routinely beats driving once you count parking, fuel, and the value of arriving rested at the tables.",
     ],
     faqs: [
       {
@@ -685,7 +686,7 @@ export const routes = [
       "Child car seats available on request",
       "Flight tracking with complimentary wait time",
       "Round-trip bookings with checkout-day return pickups",
-      "Licensed & Insured Louisiana Carrier",
+      "Licensed & Insured Carrier",
     ],
     destinationsTitle: "Gulf Shores & Orange Beach Stops",
     destinations: [
@@ -699,7 +700,7 @@ export const routes = [
     whyTitle: "The Family Math on a Gulf Shores Transfer",
     whyParagraphs: [
       "Price a week of airport parking or a rental car that sits in a condo garage for six days, add the stress of a three-hour drive on each end of vacation, and a chauffeured transfer stops looking like a luxury and starts looking like arithmetic. One vehicle carries the whole family and all the gear, the flat rate is known before you fly, and both drives happen while you rest.",
-      "Rideshares essentially don't exist for this route — 200-mile cross-state trips get declined, and there's no reliable ride back. We commit to both legs at booking, run them under commercial insurance as a Licensed & Insured Louisiana Carrier, and put a background-checked professional chauffeur behind the wheel for every mile of I-10.",
+      "Rideshares essentially don't exist for this route — 200-mile cross-state trips get declined, and there's no reliable ride back. We commit to both legs at booking, run them under commercial insurance as a Licensed & Insured Carrier, and put a background-checked professional chauffeur behind the wheel for every mile of I-10.",
     ],
     faqs: [
       {
@@ -745,7 +746,7 @@ export const routes = [
       "Corporate service for Airbus, shipyards & downtown",
       "Work en route — Wi-Fi and quiet executive cabins",
       "Round trips and same-day returns available",
-      "Licensed & Insured Louisiana Carrier",
+      "Licensed & Insured Carrier",
     ],
     destinationsTitle: "Mobile Destinations We Cover",
     destinations: [
@@ -759,7 +760,7 @@ export const routes = [
     whyTitle: "The Smart Connection Between MSY and the Port City",
     whyParagraphs: [
       "Flights into MSY are frequently cheaper and more direct than routings into the regional airport — but only if the ground leg is solved. A rental adds return logistics and downtown parking; rideshares decline 145-mile interstate trips as a matter of routine. A reserved chauffeur makes the MSY option genuinely better: committed at booking, tracked in real time, and priced as one flat number you can put in a travel budget.",
-      "Every Mobile transfer runs under commercial insurance as a Licensed & Insured Louisiana Carrier with a background-checked professional at the wheel. For cruise groups, one Sprinter van moves the whole party and its luggage together — no caravan coordination on embarkation morning.",
+      "Every Mobile transfer runs under commercial insurance as a Licensed & Insured Carrier with a background-checked professional at the wheel. For cruise groups, one Sprinter van moves the whole party and its luggage together — no caravan coordination on embarkation morning.",
     ],
     faqs: [
       {
@@ -805,7 +806,7 @@ export const routes = [
       "UL Lafayette game days and campus visits",
       "Festival International & event weekend service",
       "Flat rates with Wi-Fi-equipped executive vehicles",
-      "Licensed & Insured Louisiana Carrier",
+      "Licensed & Insured Carrier",
     ],
     destinationsTitle: "Lafayette & Acadiana Destinations",
     destinations: [
@@ -819,7 +820,7 @@ export const routes = [
     whyTitle: "Two Hours of Basin Instead of Two Hours of Driving",
     whyParagraphs: [
       "The Atchafalaya Basin Bridge is beautiful and unforgiving — eighteen miles with no exits, where a fender-bender stalls the interstate for hours. Our chauffeurs check Basin conditions before every departure and route via US-190 when I-10 locks up, local judgment that turns a potential three-hour ordeal back into a two-hour ride. Rideshares rarely accept the trip at all; when they do, that judgment isn't part of the fare.",
-      "We run Lafayette transfers as a Licensed & Insured Louisiana Carrier — commercial insurance, background-checked chauffeurs, late-model vehicles — with corporate accounts available for energy companies moving people between Acadiana and MSY every week. One number, one flat rate, every trip.",
+      "We run Lafayette transfers as a Licensed & Insured Carrier — commercial insurance, background-checked chauffeurs, late-model vehicles — with corporate accounts available for energy companies moving people between Acadiana and MSY every week. One number, one flat rate, every trip.",
     ],
     faqs: [
       {
@@ -865,7 +866,7 @@ export const routes = [
       "L'Auberge and Golden Nugget casino drop-offs",
       "Team Sprinters and multi-arrival coordination",
       "Same-day returns and standby holds available",
-      "Licensed & Insured Louisiana Carrier",
+      "Licensed & Insured Carrier",
     ],
     destinationsTitle: "Lake Charles Destinations We Serve",
     destinations: [
@@ -879,7 +880,7 @@ export const routes = [
     whyTitle: "Why Energy Travelers Route Through MSY With Us",
     whyParagraphs: [
       "Connecting flights into the regional airport burn hours and frequently cost more than the nonstop into New Orleans. Pair the MSY nonstop with a chauffeured transfer and the total travel time is often a wash — except you spend the ground leg on a laptop instead of in a middle seat, and the schedule belongs to you rather than to a connection bank. For project teams, one Sprinter from MSY beats four rental cars on every line of the expense report.",
-      "We operate as a Licensed & Insured Louisiana Carrier with commercial coverage across every parish on the route, background-checked chauffeurs, and 24/7 dispatch that plant schedules can actually rely on — including turnaround-season crew moves and 4 a.m. pickups for the first flight out.",
+      "We operate as a Licensed & Insured Carrier with commercial coverage across every parish on the route, background-checked chauffeurs, and 24/7 dispatch that plant schedules can actually rely on — including turnaround-season crew moves and 4 a.m. pickups for the first flight out.",
     ],
     faqs: [
       {
@@ -925,7 +926,7 @@ export const routes = [
       "Wedding and event transfers to mansion venues",
       "The Blues Highway driven by a professional",
       "Round trips timed to your return flight from MSY",
-      "Licensed & Insured Louisiana Carrier",
+      "Licensed & Insured Carrier",
     ],
     destinationsTitle: "Natchez Destinations We Serve",
     destinations: [
@@ -939,7 +940,7 @@ export const routes = [
     whyTitle: "The Civilized Way to Reach the Bluffs",
     whyParagraphs: [
       "There is no easy flight to Natchez — every practical itinerary lands at a bigger airport and drives. MSY is usually the best of those options, with the most nonstops into the region, and a chauffeured transfer makes the ground leg part of the vacation instead of a chore. During Pilgrimage weeks, when the city fills and its narrow streets crowd with tours, arriving with a driver who has worked the season before is worth a great deal.",
-      "As a Licensed & Insured Louisiana Carrier we run the interstate and highway legs under commercial insurance with background-checked chauffeurs, and we'll keep the vehicle with you for the weekend on an hourly basis — mansion tours, dinner under the hill, and the ride back to MSY all on one reservation.",
+      "As a Licensed & Insured Carrier we run the interstate and highway legs under commercial insurance with background-checked chauffeurs, and we'll keep the vehicle with you for the weekend on an hourly basis — mansion tours, dinner under the hill, and the ride back to MSY all on one reservation.",
     ],
     faqs: [
       {
@@ -985,7 +986,7 @@ export const routes = [
       "Capitol, legal & banking district corporate service",
       "Often faster than connecting flights, gate to gate",
       "Jackson-to-MSY departures for nonstop flight access",
-      "Licensed & Insured Louisiana Carrier",
+      "Licensed & Insured Carrier",
     ],
     destinationsTitle: "Jackson Destinations We Serve",
     destinations: [
@@ -999,7 +1000,7 @@ export const routes = [
     whyTitle: "Drive Time That Works as Hard as You Do",
     whyParagraphs: [
       "Flying MSY-to-Jackson means a connection; driving yourself means three lost hours and a car to park downtown. The chauffeured middle path wins on both counts for most schedules: leave baggage claim in a working cabin, take the morning's calls across the pine belt, and step out at UMMC or the Capitol on time. Medical travelers tell us the same thing in different words — after a treatment day, not driving is the entire point.",
-      "We run the route as a Licensed & Insured Louisiana Carrier, with commercial insurance across the state line and 24/7 dispatch watching every leg. Standing weekly reservations and corporate accounts are available for firms working both capitals, and group Sprinters handle conference delegations and family travel with everyone in one vehicle.",
+      "We run the route as a Licensed & Insured Carrier, with commercial insurance across the state line and 24/7 dispatch watching every leg. Standing weekly reservations and corporate accounts are available for firms working both capitals, and group Sprinters handle conference delegations and family travel with everyone in one vehicle.",
     ],
     faqs: [
       {
@@ -1045,7 +1046,7 @@ export const routes = [
       "NAS Pensacola transfers with gate-procedure experience",
       "Family-sized SUVs & Sprinters with car seats on request",
       "Flat rates — often beats connecting-flight itineraries",
-      "Licensed & Insured Louisiana Carrier",
+      "Licensed & Insured Carrier",
     ],
     destinationsTitle: "Pensacola Destinations We Serve",
     destinations: [
@@ -1059,7 +1060,7 @@ export const routes = [
     whyTitle: "The Case for Driving the Coast — in the Back Seat",
     whyParagraphs: [
       "Rideshare will not reliably carry you 200 miles across two state lines, and rental math for a beach week — the fee, the fuel, the condo parking, the return-day scramble — rarely favors the rental. A reserved transfer is one flat number, both directions if you like, with the whole family and their luggage in one vehicle and a professional handling Mobile's tunnel traffic while you point out the Bay to the kids.",
-      "NAS graduations deserve a special word: they're among our favorite runs, and among the busiest. Families flying into MSY for a winging or boot-camp graduation should book the transfer when they book the hotel — vehicles for those weekends go early. As a Licensed & Insured Louisiana Carrier, we run every leg under commercial insurance with background-checked chauffeurs.",
+      "NAS graduations deserve a special word: they're among our favorite runs, and among the busiest. Families flying into MSY for a winging or boot-camp graduation should book the transfer when they book the hotel — vehicles for those weekends go early. As a Licensed & Insured Carrier, we run every leg under commercial insurance with background-checked chauffeurs.",
     ],
     faqs: [
       {
@@ -1105,7 +1106,7 @@ export const routes = [
       "Barksdale AFB transfers with gate experience",
       "Casino district drop-offs in Shreveport & Bossier",
       "Planned comfort stops on every long-haul leg",
-      "Licensed & Insured Louisiana Carrier",
+      "Licensed & Insured Carrier",
     ],
     destinationsTitle: "Shreveport-Bossier Destinations",
     destinations: [
@@ -1119,7 +1120,7 @@ export const routes = [
     whyTitle: "When the Long Way Is the Smart Way",
     whyParagraphs: [
       "There's no nonstop between New Orleans and Shreveport, so every flight itinerary connects — usually through Dallas, usually consuming four-plus hours gate to gate before airport time on either end. The chauffeured drive is honestly competitive on total time and wins outright on experience: no security line, no middle seat, laptop open the whole way, and the schedule is yours. For two or more travelers the flat rate splits favorably against airfares, too.",
-      "Every Shreveport run is driven by a background-checked professional under commercial insurance — we are a Licensed & Insured Louisiana Carrier — with dispatch monitoring the full route. Book round trips or hold the vehicle for a multi-day itinerary; the corridor is long, but the logistics are one phone call: (877) 609-1919.",
+      "Every Shreveport run is driven by a background-checked professional under commercial insurance — we are a Licensed & Insured Carrier — with dispatch monitoring the full route. Book round trips or hold the vehicle for a multi-day itinerary; the corridor is long, but the logistics are one phone call: (877) 609-1919.",
     ],
     faqs: [
       {
@@ -1165,7 +1166,7 @@ export const routes = [
       "Same-day returns with standby holds during hearings",
       "Executive sedans with Wi-Fi — work the whole ride",
       "Court, agency & convention transfers downtown",
-      "Licensed & Insured Louisiana Carrier",
+      "Licensed & Insured Carrier",
     ],
     destinationsTitle: "Downtown Baton Rouge Destinations",
     destinations: [
@@ -1179,7 +1180,7 @@ export const routes = [
     whyTitle: "Built for Session Weeks and Court Calendars",
     whyParagraphs: [
       "Anyone who has worked a legislative session knows the rhythm: hearings run long, schedules collapse, and the drive back to New Orleans lands at the worst hour of I-10 traffic. Our downtown service is designed around that rhythm — standby holds keep your chauffeur minutes away while committee business runs over, dispatch watches the interstate both directions, and the same flat rate applies whether you leave at 3 p.m. or 8 p.m.",
-      "Firms and associations working the Capitol regularly set up corporate accounts: priority booking during session, consolidated monthly invoicing by client or matter code, and one number that answers around the clock. Every trip runs under commercial insurance — we are a Licensed & Insured Louisiana Carrier — with background-checked professional chauffeurs who understand that in this district, punctuality is the product.",
+      "Firms and associations working the Capitol regularly set up corporate accounts: priority booking during session, consolidated monthly invoicing by client or matter code, and one number that answers around the clock. Every trip runs under commercial insurance — we are a Licensed & Insured Carrier — with background-checked professional chauffeurs who understand that in this district, punctuality is the product.",
     ],
     faqs: [
       {
@@ -1225,7 +1226,7 @@ export const routes = [
       "80–95 minutes terminal to terminal via I-10 & I-110",
       "Pre-dawn BTR and MSY departure pickups confirmed nightly",
       "Sedans, SUVs & Sprinters for crews and group connections",
-      "Licensed & Insured Louisiana Carrier",
+      "Licensed & Insured Carrier",
     ],
     destinationsTitle: "Where This Route Takes Travelers",
     destinations: [
@@ -1239,7 +1240,7 @@ export const routes = [
     whyTitle: "Why Airport-to-Airport Beats Every Alternative",
     whyParagraphs: [
       "Connecting between MSY and BTR on your own means a one-way rental with a drop fee, a shuttle that doesn't exist, or a rideshare request that long-distance drivers routinely decline. A reserved chauffeur solves the whole problem at booking: the trip is committed before you fly, the rate is flat regardless of traffic on the spillway, and the vehicle is dedicated to you — no stops, no shared van, no luggage limits.",
-      "Because we are a Licensed & Insured Louisiana Carrier, the transfer runs under commercial insurance for every mile between the two terminals, with a background-checked professional chauffeur who drives this corridor constantly. Tight connection? Tell us your inbound flight and outbound departure when you book, and dispatch builds the timing buffer for you — then watches both flights all day.",
+      "Because we are a Licensed & Insured Carrier, the transfer runs under commercial insurance for every mile between the two terminals, with a background-checked professional chauffeur who drives this corridor constantly. Tight connection? Tell us your inbound flight and outbound departure when you book, and dispatch builds the timing buffer for you — then watches both flights all day.",
     ],
     faqs: [
       {
@@ -1285,7 +1286,7 @@ export const routes = [
       "Room for gear — rods, coolers, duffels & tool cases",
       "Flight tracking with complimentary wait time included",
       "Pre-dawn pickups across Terrebonne confirmed nightly",
-      "Licensed & Insured Louisiana Carrier",
+      "Licensed & Insured Carrier",
     ],
     destinationsTitle: "Houma & Terrebonne Destinations We Serve",
     destinations: [
@@ -1299,7 +1300,7 @@ export const routes = [
     whyTitle: "Why Bayou Region Travelers Book a Chauffeur",
     whyParagraphs: [
       "Houma sits far enough from MSY that app-based rides become unreliable in both directions: drivers decline the outbound trip once they see the destination, and finding a car in Houma for the return leg is a genuine gamble. A reserved chauffeur removes the uncertainty — the trip is accepted when you book it, days or weeks ahead, and our 24/7 dispatch tracks every leg, which matters enormously when a crew change or a 6 a.m. departure is on the line.",
-      "As a Licensed & Insured Louisiana Carrier, we run the route under commercial insurance with background-checked, professionally trained chauffeurs. Energy companies moving personnel through MSY can set up corporate accounts with consolidated billing and standing crew-change schedules — one call, and every rotation books itself. Call (877) 609-1919 to arrange it.",
+      "As a Licensed & Insured Carrier, we run the route under commercial insurance with background-checked, professionally trained chauffeurs. Energy companies moving personnel through MSY can set up corporate accounts with consolidated billing and standing crew-change schedules — one call, and every rotation books itself. Call (877) 609-1919 to arrange it.",
       "The route also works far beyond the airport. Houma clients book us for cruise departures from the Port of New Orleans, Saints games and concerts downtown, and celebration nights in the French Quarter with a guaranteed ride back down the bayou — no designated driver, no midnight app roulette an hour from the city. One saved number covers every trip that matters.",
     ],
     faqs: [
@@ -1346,7 +1347,7 @@ export const routes = [
       "Shipyard, fabrication-yard & port transfers for industry visitors",
       "Flight tracking with complimentary wait time included",
       "Round trips and multi-day project itineraries welcome",
-      "Licensed & Insured Louisiana Carrier",
+      "Licensed & Insured Carrier",
     ],
     destinationsTitle: "Morgan City & St. Mary Parish Destinations",
     destinations: [
@@ -1360,7 +1361,7 @@ export const routes = [
     whyTitle: "The Reliable Link to the Working Coast",
     whyParagraphs: [
       "An 85-mile trip is exactly the distance where app-based rides fall apart — long enough that drivers decline it, far enough that a cancellation strands you completely. Our model inverts that: the reservation commits the vehicle and chauffeur when you book, dispatch monitors the trip around the clock, and the return leg from Morgan City is just as guaranteed as the ride out. For project teams flying in and out on schedules, that reliability is the whole product.",
-      "We run the route as a Licensed & Insured Louisiana Carrier with commercial insurance and background-checked professional chauffeurs. Companies with regular personnel movement through MSY — crew rotations, vendor visits, project mobilizations — can set up corporate accounts with standing schedules and consolidated invoicing. One number, (877) 609-1919, covers every trip down the bayou.",
+      "We run the route as a Licensed & Insured Carrier with commercial insurance and background-checked professional chauffeurs. Companies with regular personnel movement through MSY — crew rotations, vendor visits, project mobilizations — can set up corporate accounts with standing schedules and consolidated invoicing. One number, (877) 609-1919, covers every trip down the bayou.",
     ],
     faqs: [
       {
@@ -1406,7 +1407,7 @@ export const routes = [
       "Avery Island, Teche Country & festival transfers",
       "Flight tracking with complimentary wait time included",
       "Corporate service for the Port of Iberia & energy sector",
-      "Licensed & Insured Louisiana Carrier",
+      "Licensed & Insured Carrier",
     ],
     destinationsTitle: "New Iberia & Teche Country Destinations",
     destinations: [
@@ -1420,7 +1421,7 @@ export const routes = [
     whyTitle: "Two Hours Is Too Far to Gamble",
     whyParagraphs: [
       "At 120 miles, the MSY-to-New Iberia run is beyond what rideshare reliably serves: outbound requests get declined, and finding a car in Iberia Parish for the return trip is close to impossible. A reserved chauffeur solves both directions at booking — the trip is committed before you fly, the return is scheduled before you leave, and 24/7 dispatch watches every leg in between.",
-      "We operate as a Licensed & Insured Louisiana Carrier, which means commercial insurance covers all 120 miles and a background-checked professional is behind the wheel. Groups touring Avery Island and the Teche Country book Sprinter vans so everyone rides together; companies working the Port of Iberia set up accounts with consolidated billing. Either way, the rate is flat and the pickup is guaranteed — call (877) 609-1919 to book it.",
+      "We operate as a Licensed & Insured Carrier, which means commercial insurance covers all 120 miles and a background-checked professional is behind the wheel. Groups touring Avery Island and the Teche Country book Sprinter vans so everyone rides together; companies working the Port of Iberia set up accounts with consolidated billing. Either way, the rate is flat and the pickup is guaranteed — call (877) 609-1919 to book it.",
     ],
     faqs: [
       {
@@ -1466,7 +1467,7 @@ export const routes = [
       "Evangeline Downs racino transfers with scheduled returns",
       "Flight tracking with complimentary wait time included",
       "St. Landry Parish-wide coverage from Sunset to Washington",
-      "Licensed & Insured Louisiana Carrier",
+      "Licensed & Insured Carrier",
     ],
     destinationsTitle: "Opelousas & St. Landry Destinations",
     destinations: [
@@ -1480,7 +1481,7 @@ export const routes = [
     whyTitle: "Why St. Landry Travelers Reserve a Chauffeur",
     whyParagraphs: [
       "One hundred forty miles is simply outside rideshare's world — outbound requests die on the screen, and the return trip from Opelousas may as well not exist in the app. Our reservations work the opposite way: book days or weeks ahead, and the vehicle, chauffeur, and flat rate are committed regardless of demand, weather, or what festival weekend it happens to be. Dispatch runs 24/7 and confirms every early pickup the night before.",
-      "The trip itself is the upgrade. A late-model sedan or SUV with a professional, background-checked chauffeur turns two-plus hours of interstate into working time, nap time, or the first relaxed hours of a Louisiana visit. As a Licensed & Insured Louisiana Carrier we hold commercial insurance across every parish on the route — and for groups heading to a festival or a family reunion, a 13-passenger Sprinter keeps everyone together for less than a convoy of rentals. Call (877) 609-1919 and consider it handled.",
+      "The trip itself is the upgrade. A late-model sedan or SUV with a professional, background-checked chauffeur turns two-plus hours of interstate into working time, nap time, or the first relaxed hours of a Louisiana visit. As a Licensed & Insured Carrier we hold commercial insurance across every parish on the route — and for groups heading to a festival or a family reunion, a 13-passenger Sprinter keeps everyone together for less than a convoy of rentals. Call (877) 609-1919 and consider it handled.",
       "St. Landry travelers also use the route in reverse for more than flights: cruise departures from the Port of New Orleans, medical appointments in the city, and weekend trips to the Quarter all book with the same guaranteed pickup at an Opelousas doorstep and the same flat rate home.",
     ],
     faqs: [
@@ -1527,7 +1528,7 @@ export const routes = [
       "NSU move-in, game & graduation weekend service",
       "Work or rest the whole way in a luxury cabin",
       "Round trips and multi-day itineraries welcome",
-      "Licensed & Insured Louisiana Carrier",
+      "Licensed & Insured Carrier",
     ],
     destinationsTitle: "Natchitoches Destinations We Serve",
     destinations: [
@@ -1541,7 +1542,7 @@ export const routes = [
     whyTitle: "The Civilized Way to Cross the State",
     whyParagraphs: [
       "Getting to Natchitoches usually means choosing between a four-hour rental-car drive after a flight or a two-stop regional itinerary into Alexandria or Shreveport followed by a drive anyway. A chauffeured transfer from MSY collapses the choice: one nonstop flight into New Orleans, one vehicle, zero driving. For festival weekends, when parking in the historic district evaporates entirely, arriving with a chauffeur who drops you at the door is not a luxury — it's the only stress-free way in.",
-      "We run every long-distance trip as a Licensed & Insured Louisiana Carrier with commercial insurance across all 250 miles and a background-checked professional chauffeur who has driven I-49 in every season. Round trips book as a single reservation with both legs guaranteed, and multi-day itineraries — a festival weekend, a campus visit plus a Cane River day — quote as one flat package. Call (877) 609-1919 and let the miles be our problem.",
+      "We run every long-distance trip as a Licensed & Insured Carrier with commercial insurance across all 250 miles and a background-checked professional chauffeur who has driven I-49 in every season. Round trips book as a single reservation with both legs guaranteed, and multi-day itineraries — a festival weekend, a campus visit plus a Cane River day — quote as one flat package. Call (877) 609-1919 and let the miles be our problem.",
     ],
     faqs: [
       {
@@ -1587,7 +1588,7 @@ export const routes = [
       "Medical-travel service to Alexandria's regional hospitals",
       "Better flight options via MSY than regional connections",
       "Flight tracking with complimentary wait time included",
-      "Licensed & Insured Louisiana Carrier",
+      "Licensed & Insured Carrier",
     ],
     destinationsTitle: "Alexandria & Central Louisiana Destinations",
     destinations: [
@@ -1601,7 +1602,7 @@ export const routes = [
     whyTitle: "Why Central Louisiana Rides With Us",
     whyParagraphs: [
       "Flying into Alexandria usually means a connection through Dallas or Atlanta onto a regional jet with a thin schedule — and a delay anywhere in the chain unravels the whole day. The alternative our clients prefer: a nonstop into MSY's full flight board, then a guaranteed chauffeur for the I-49 leg. The math routinely wins on both time and cost, and it always wins on comfort. Rideshare is not a factor at this distance; a 200-mile trip exists only as a committed reservation.",
-      "We are a Licensed & Insured Louisiana Carrier, so commercial insurance rides along for all 200 miles with a background-checked professional chauffeur who makes this run in every season. Military families relocating to Fort Johnson book SUVs and Sprinters that actually fit a PCS move's luggage; hospitals and firms set up corporate accounts with consolidated billing. Whatever brings you to Cenla, call (877) 609-1919 and the road is handled.",
+      "We are a Licensed & Insured Carrier, so commercial insurance rides along for all 200 miles with a background-checked professional chauffeur who makes this run in every season. Military families relocating to Fort Johnson book SUVs and Sprinters that actually fit a PCS move's luggage; hospitals and firms set up corporate accounts with consolidated billing. Whatever brings you to Cenla, call (877) 609-1919 and the road is handled.",
     ],
     faqs: [
       {
@@ -1647,7 +1648,7 @@ export const routes = [
       "ULM move-in, game & graduation weekend transfers",
       "Winter duck-season trips with room for gear and dogs",
       "Flight tracking with complimentary wait time included",
-      "Licensed & Insured Louisiana Carrier",
+      "Licensed & Insured Carrier",
     ],
     destinationsTitle: "Monroe & Northeast Louisiana Destinations",
     destinations: [
@@ -1661,7 +1662,7 @@ export const routes = [
     whyTitle: "Why the Longest Route Rewards a Chauffeur Most",
     whyParagraphs: [
       "There is no rideshare version of a 270-mile trip, and the do-it-yourself version — landing after a long flight and then driving four hours of two-lane and interstate — is exactly how road-trip fatigue turns dangerous. A chauffeured transfer removes the risk and reclaims the time: four hours of rest or work instead of four hours of white lines, with a professional who drives this corridor in all weather behind the wheel.",
-      "As a Licensed & Insured Louisiana Carrier we run the route under commercial insurance end to end, with background-checked chauffeurs and late-model vehicles maintained for exactly this kind of distance. Families book round trips as one reservation; companies on the corridor set up accounts with consolidated billing; hunting parties book Sprinters that swallow waders, blinds, and kennels. Wherever in northeast Louisiana you're headed, call (877) 609-1919 and ride, don't drive.",
+      "As a Licensed & Insured Carrier we run the route under commercial insurance end to end, with background-checked chauffeurs and late-model vehicles maintained for exactly this kind of distance. Families book round trips as one reservation; companies on the corridor set up accounts with consolidated billing; hunting parties book Sprinters that swallow waders, blinds, and kennels. Wherever in northeast Louisiana you're headed, call (877) 609-1919 and ride, don't drive.",
     ],
     faqs: [
       {
@@ -1707,7 +1708,7 @@ export const routes = [
       "LNG corridor and industrial site mobilizations covered",
       "Casino resort stops at L'Auberge & Golden Nugget en route",
       "No one-way rental fees or drop charges — one flat rate",
-      "Licensed & Insured Louisiana Carrier",
+      "Licensed & Insured Carrier",
     ],
     destinationsTitle: "Where the LCH Route Takes Travelers",
     destinations: [
@@ -1721,7 +1722,7 @@ export const routes = [
     whyTitle: "The Sane Way to Connect Two Airports 210 Miles Apart",
     whyParagraphs: [
       "A broken itinerary is stressful enough without improvising ground transportation across half of Louisiana. The rental-car version of this trip means a counter line at MSY, a one-way drop fee at LCH, and three hours of interstate after a flight — and rideshare simply does not exist at this distance. A reserved chauffeur converts the whole mess into one confirmed handoff: we know your inbound flight, we know your outbound one, and dispatch watches both while you ride.",
-      "As a Licensed & Insured Louisiana Carrier, we run the corridor under commercial insurance with background-checked professional chauffeurs who know I-10's construction zones, the Atchafalaya Basin bridge, and the Lake Charles interchanges by heart. Energy companies moving crews between MSY and the LNG corridor can set standing schedules with consolidated billing. One call to (877) 609-1919 and the connection is guaranteed.",
+      "As a Licensed & Insured Carrier, we run the corridor under commercial insurance with background-checked professional chauffeurs who know I-10's construction zones, the Atchafalaya Basin bridge, and the Lake Charles interchanges by heart. Energy companies moving crews between MSY and the LNG corridor can set standing schedules with consolidated billing. One call to (877) 609-1919 and the connection is guaranteed.",
     ],
     faqs: [
       {
@@ -1767,7 +1768,7 @@ export const routes = [
       "Camp Shelby transfers for soldiers and contractors",
       "Better nonstop options via MSY than regional connections",
       "Flight tracking with complimentary wait time included",
-      "Licensed & Insured Louisiana Carrier",
+      "Licensed & Insured Carrier",
     ],
     destinationsTitle: "Hattiesburg & Pine Belt Destinations",
     destinations: [
@@ -1781,7 +1782,7 @@ export const routes = [
     whyTitle: "Why Pine Belt Travelers Route Through MSY",
     whyParagraphs: [
       "Regional flight schedules into the Pine Belt are thin and connection-dependent — one delay in Dallas or Charlotte and the whole day collapses. Flying nonstop into MSY and riding a guaranteed chauffeured leg up I-59 flips the risk: the big airport absorbs your delay with rebooking options, and the ground leg is committed to you no matter what time you finally land. We track the flight and wait; that's the job.",
-      "The route runs under commercial insurance as a Licensed & Insured Louisiana Carrier with professionally trained chauffeurs on both sides of the state line. Game-weekend groups book Sprinters so the tailgate rides together; parents book students' semester-break trips remotely and get text confirmations at every step. Wherever in the Pine Belt you're headed, call (877) 609-1919 and the drive is handled.",
+      "The route runs under commercial insurance as a Licensed & Insured Carrier with professionally trained chauffeurs on both sides of the state line. Game-weekend groups book Sprinters so the tailgate rides together; parents book students' semester-break trips remotely and get text confirmations at every step. Wherever in the Pine Belt you're headed, call (877) 609-1919 and the drive is handled.",
       "Hattiesburg riders also book the route for more than flights: cruise departures from the Port of New Orleans, Saints games and concerts at the Superdome, and New Orleans weekends that end with a guaranteed ride back up I-59 instead of a two-hour drive after a long day. Same flat rate, same committed pickup, both directions.",
     ],
     faqs: [
@@ -1808,5 +1809,10 @@ export const routes = [
     ],
   },
 ];
+
+// Every page carries five FAQs (visible block + FAQPage schema).
+routes.forEach((p) => {
+  p.faqs = ensureFiveFaqs(p.faqs, { slug: p.slug });
+});
 
 export const getRouteBySlug = (slug) => routes.find((r) => r.slug === slug);

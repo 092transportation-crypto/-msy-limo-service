@@ -6,15 +6,18 @@ import SEO, { buildFaqSchema } from "@/components/SEO";
 import { Phone, Mail, MapPin, Clock, Send, Calendar, User } from "lucide-react";
 import TrustSignals from "@/components/TrustSignals";
 
-const contactFaqSchema = buildFaqSchema([
+const CONTACT_FAQS = ensureFiveFaqs([
   { q: "How do I get a quote for MSY airport car service?", a: "Submit the quote form with your trip details, call (877) 609-1919, or email info@msylimoservice.com. Quotes are flat rates by vehicle class, confirmed before you ride." },
   { q: "How far in advance should I book?", a: "24–48 hours ahead is comfortable for standard transfers; book earlier for weddings, festival weekends, and large groups. Same-day requests are often possible — just call." },
   { q: "Do you answer after hours?", a: "Yes — our dispatch desk operates 24/7 for bookings, changes, and live trip support." },
   { q: "Can I book a round trip in one request?", a: "Yes, and we recommend it: booking your return at the same time locks in your departure pickup and guarantees vehicle availability." },
-]);
+], { slug: "contact" });
+const contactFaqSchema = buildFaqSchema(CONTACT_FAQS);
 import { toast } from "sonner";
 import { sanitizePhone, isValidPhone } from "@/lib/phone";
 import AddressAutocomplete from "@/components/AddressAutocomplete";
+import PageFaq from "@/components/PageFaq";
+import { ensureFiveFaqs } from "@/lib/faqExtras";
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -418,6 +421,7 @@ const ContactPage = () => {
         </div>
       </section>
 
+      <PageFaq faqs={CONTACT_FAQS} />
       <Footer />
     </div>
   );

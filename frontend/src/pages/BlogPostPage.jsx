@@ -6,11 +6,20 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import SEO, { buildFaqSchema } from "@/components/SEO";
 import { getSeoBlogPostBySlug, seoBlogPosts } from "@/data/blogPostsData";
+import { GUIDES } from "@/data/guides";
+
+// Blog posts live at /blog/<slug>; guides (data/guides.js) share this template at /<slug>.
+const postPath = (p) => (GUIDES.includes(p) ? `/${p.slug}` : `/blog/${p.slug}`);
+const isoDate = (d) => {
+  const t = new Date(`${d} 12:00`);
+  return Number.isNaN(t.getTime()) ? undefined : t.toISOString().slice(0, 10);
+};
 import { Calendar, Clock, User, Phone, ArrowRight, ArrowLeft } from "lucide-react";
 
-const BlogPostPage = () => {
-  const { slug } = useParams();
-  const post = getSeoBlogPostBySlug(slug);
+const BlogPostPage = ({ guideSlug }) => {
+  const params = useParams();
+  const slug = guideSlug || params.slug;
+  const post = guideSlug ? GUIDES.find((g) => g.slug === guideSlug) : getSeoBlogPostBySlug(slug);
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -25,26 +34,26 @@ const BlogPostPage = () => {
       headline: post.title,
       description: post.metaDescription,
       image: post.image,
-      datePublished: "2026-07-07",
+      datePublished: isoDate(post.date),
       author: { "@type": "Organization", name: "MSY Limo Service" },
       publisher: {
         "@type": "Organization",
         name: "MSY Limo Service",
         url: "https://msylimoservice.com",
       },
-      mainEntityOfPage: `https://msylimoservice.com/blog/${post.slug}`,
+      mainEntityOfPage: `https://msylimoservice.com${postPath(post)}`,
     },
     buildFaqSchema(post.faqs),
   ];
 
-  const otherPosts = seoBlogPosts.filter((p) => p.slug !== slug).slice(0, 3);
+  const otherPosts = [...(guideSlug ? GUIDES : []), ...seoBlogPosts].filter((p) => p.slug !== slug).slice(0, 3);
 
   return (
     <div className="min-h-screen bg-black">
       <SEO
         title={post.metaTitle}
         description={post.metaDescription}
-        path={`/blog/${post.slug}`}
+        path={postPath(post)}
         schema={schema}
       />
       <Navigation />
@@ -120,6 +129,24 @@ const BlogPostPage = () => {
         </div>
       </section>
 
+      {/* Related pages (guides carry curated internal links) */}
+      {post.relatedLinks && post.relatedLinks.length > 0 && (
+        <section className="py-10 bg-black" data-testid="post-related-links">
+          <div className="max-w-4xl mx-auto px-6 md:px-12">
+            <h2 className="text-2xl font-medium text-white mb-5">Related Pages</h2>
+            <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              {post.relatedLinks.map((l) => (
+                <li key={l.to}>
+                  <Link to={l.to} className="block border border-white/10 hover:border-amber-500 rounded-lg px-4 py-3 text-white/80 hover:text-amber-400 transition-colors">
+                    {l.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </section>
+      )}
+
       {/* FAQ */}
       <section className="py-12 bg-gray-900">
         <div className="max-w-4xl mx-auto px-6 md:px-12">
@@ -153,7 +180,7 @@ const BlogPostPage = () => {
             {otherPosts.map((p) => (
               <Link
                 key={p.slug}
-                to={`/blog/${p.slug}`}
+                to={postPath(p)}
                 className="bg-gray-900/50 border border-amber-500/10 rounded-xl p-5 hover:border-amber-500/40 transition-all group"
               >
                 <span className="text-amber-400 text-xs">{p.category}</span>
