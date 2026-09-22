@@ -1,5 +1,6 @@
 // Standalone SEO blog posts served at /blog/<slug> via BlogPostPage.
 import { ensureFiveFaqs } from "@/lib/faqExtras";
+import { BLOG_POSTS_BATCH2 } from "@/data/blogPostsBatch2";
 
 export const seoBlogPosts = [
   {
@@ -1906,6 +1907,8 @@ export const seoBlogPosts = [
     ],
   },
 ];
+
+seoBlogPosts.push(...BLOG_POSTS_BATCH2);
 
 // Every page carries five FAQs (visible block + FAQPage schema).
 seoBlogPosts.forEach((p) => {

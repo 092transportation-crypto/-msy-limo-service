@@ -6,6 +6,7 @@ import Footer from "@/components/Footer";
 import SEO, { buildFaqSchema } from "@/components/SEO";
 import { getRouteBySlug, routes } from "@/data/routesData";
 import { MapPin, Clock, Route as RouteIcon, CheckCircle, Phone, ArrowRight } from "lucide-react";
+import KeywordSection from "@/components/KeywordSection";
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -233,6 +234,8 @@ const RouteLandingPage = ({ slug }) => {
           </div>
         </div>
       </section>
+
+      <KeywordSection slug={route.slug} place={`MSY to ${route.city}`} kind="place" />
 
       {/* FAQ */}
       <section className="py-16 bg-black">

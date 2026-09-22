@@ -115,7 +115,7 @@ const FleetPage = () => {
                 <div className="h-48 bg-gradient-to-br from-gray-800 to-gray-900 overflow-hidden">
                   <motion.img
                     src={vehicle.image}
-                    alt={`${vehicle.name} luxury limo New Orleans`}
+                    alt={`${vehicle.name} — MSY airport car service and New Orleans black car service`}
                     className="w-full h-full object-cover"
                     loading="lazy"
                     whileHover={{ scale: 1.1 }}

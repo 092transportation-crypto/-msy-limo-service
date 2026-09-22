@@ -99,7 +99,7 @@ const FleetSection = () => {
           {fleet.map((vehicle) => (
             <div key={vehicle.id} className="bg-gray-900/50 backdrop-blur-sm border border-amber-500/20 rounded-2xl overflow-hidden group hover:border-amber-500/50 transition-all">
               <div className="relative h-48 overflow-hidden bg-gradient-to-br from-gray-800 to-gray-900">
-                <img src={vehicle.image} alt={`${vehicle.name} luxury limo New Orleans`} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+                <img src={vehicle.image} alt={`${vehicle.name} — MSY airport car service and New Orleans black car service`} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
                 <div className="absolute top-4 left-4">
                   <span className="px-3 py-1 bg-gradient-to-r from-amber-500 to-amber-600 text-black text-xs font-bold rounded-lg">{vehicle.category}</span>
                 </div>

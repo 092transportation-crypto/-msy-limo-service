@@ -6,6 +6,7 @@ import Footer from "@/components/Footer";
 import SEO, { buildFaqSchema } from "@/components/SEO";
 import { findMarylandPage } from "@/data/marylandPages";
 import { MapPin, Clock, Route as RouteIcon, CheckCircle, Phone, ArrowRight, Users } from "lucide-react";
+import KeywordSection from "@/components/KeywordSection";
 
 const SITE_URL = "https://msylimoservice.com";
 const STAT_ICONS = [MapPin, Clock, RouteIcon, CheckCircle];
@@ -264,6 +265,8 @@ const MarylandLandingPage = ({ slug, page: pageProp }) => {
           </Link>
         </div>
       </section>
+
+      <KeywordSection slug={page.slug} place={page.name} kind={page.type === "event" ? "event" : "place"} />
 
       {/* FAQ */}
       <section className="py-16 bg-gray-900">

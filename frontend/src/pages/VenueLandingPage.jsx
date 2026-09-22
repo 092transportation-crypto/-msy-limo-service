@@ -6,6 +6,7 @@ import Footer from "@/components/Footer";
 import SEO, { buildFaqSchema } from "@/components/SEO";
 import { getVenueBySlug, venues } from "@/data/venuesData";
 import { MapPin, Music, CheckCircle, Phone, ArrowRight } from "lucide-react";
+import KeywordSection from "@/components/KeywordSection";
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -246,6 +247,8 @@ const VenueLandingPage = ({ slug }) => {
           </div>
         </div>
       </section>
+
+      <KeywordSection slug={venue.slug} place={venue.shortName || venue.h1} kind="event" />
 
       {/* FAQ */}
       <section className="py-16 bg-black">
