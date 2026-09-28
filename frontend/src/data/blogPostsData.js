@@ -16,7 +16,7 @@ export const seoBlogPosts = [
     readTime: "8 min read",
     excerpt:
       "Surge pricing, cancelled pickups, and the rideshare lot shuffle — or a chauffeur waiting with your name on a sign. Here's an honest 2026 comparison of Uber and private car service at MSY.",
-    image: "/images/stock/u-1436491865332.webp",
+    image: "/images/blog/scenario-doorman.webp",
     content: `
       <p>Every traveler landing at Louis Armstrong New Orleans International Airport faces the same decision at baggage claim: open the rideshare app, or walk to a reserved car that's already waiting. Both get you to the city. But in 2026, the differences between Uber and a professional MSY airport car service are bigger than most travelers realize — and the "cheaper" option isn't always the one you'd guess.</p>
 
@@ -84,7 +84,7 @@ export const seoBlogPosts = [
     readTime: "7 min read",
     excerpt:
       "Licensing, flight tracking, flat rates, fleet age, chauffeur vetting — the practical checklist for picking a black car service at Louis Armstrong International that won't let you down.",
-    image: "/images/stock/u-1549317661.webp",
+    image: "/images/limousine.webp",
     content: `
       <p>Search "black car service New Orleans airport" and you'll find dozens of companies promising luxury. Some run immaculate fleets with professional chauffeurs; others are a single aging sedan and a forwarded phone line. When your flight lands at MSY at midnight or your biggest client arrives for a site visit, the difference matters enormously. Here's how to evaluate an airport car service before you hand over a reservation.</p>
 
@@ -144,7 +144,7 @@ export const seoBlogPosts = [
     readTime: "9 min read",
     excerpt:
       "Car service, taxi, rideshare, airport bus, hotel shuttle — a complete, honest guide to every way of getting from Louis Armstrong International into New Orleans, with real travel times and trade-offs.",
-    image: "/images/stock/u-1568454537842.webp",
+    image: "/images/stock/u-1769787301187.webp",
     content: `
       <p>Louis Armstrong New Orleans International Airport sits in Kenner, about 14 miles west of downtown New Orleans. That's close enough that every transportation option is on the table — and far enough that picking the wrong one can burn an hour and a chunk of your vacation budget. Here's the complete, honest guide to every way into the city, updated for 2026.</p>
 
@@ -214,7 +214,7 @@ export const seoBlogPosts = [
     readTime: "6 min read",
     excerpt:
       "No meters, no surge, no surprises — how flat-rate pricing works on the airport-to-Quarter run, what's actually included, and when each vehicle class makes sense.",
-    image: "/images/stock/u-1517457373958.webp",
+    image: "/images/blog/landmark-nola-1.webp",
     content: `
       <p>The 15-mile trip from Louis Armstrong International to the French Quarter is the most traveled route in New Orleans tourism — and the one where pricing games hurt travelers most. Meter anxiety in a cab, surge roulette on an app, "plus fees" quotes that grow by drop-off. Flat-rate car service exists to end all of that. Here's exactly how it works.</p>
 
@@ -283,7 +283,7 @@ export const seoBlogPosts = [
     readTime: "7 min read",
     excerpt:
       "From client meet-and-greets to multi-stop roadshows and monthly consolidated billing — how New Orleans companies use corporate car service at MSY to make business travel run on rails.",
-    image: "/images/stock/u-1560472354.webp",
+    image: "/images/stock/u-1486406146926.webp",
     content: `
       <p>Business travel through Louis Armstrong International runs on a simple equation: time is billable, impressions compound, and logistics should be invisible. A corporate car service turns airport transportation from a variable your travelers manage into infrastructure your company controls. Here's how New Orleans businesses — and the companies that visit them — put it to work.</p>
 
@@ -344,7 +344,7 @@ export const seoBlogPosts = [
     readTime: "8 min read",
     excerpt:
       "From the moment you book to the moment your luggage reaches the hotel door — exactly what happens on a chauffeured transfer from Louis Armstrong International into New Orleans, step by step.",
-    image: "/images/stock/u-1503376780353.webp",
+    image: "/images/stock/u-1436491865332.webp",
     content: `
       <p>If you've never used a chauffeured car service, the process can feel like a black box: you book something online, and then... what? Who's waiting where? What happens if the flight is late? This guide walks through a chauffeured transfer from Louis Armstrong New Orleans International Airport into the city from start to finish, so your first ride feels like your tenth.</p>
 
@@ -408,7 +408,7 @@ export const seoBlogPosts = [
     readTime: "8 min read",
     excerpt:
       "How airport limo pricing actually works in New Orleans — what drives your quote, what a flat rate includes, the fees reputable companies never charge, and when a limo beats rideshare on price.",
-    image: "/images/stock/u-1511527844068.webp",
+    image: "/images/blog/scenario-doorman.webp",
     content: `
       <p>"How much is a limo from the New Orleans airport?" is the most common question our dispatch desk hears — and the most common question travelers type into Google before booking. The honest answer is that it depends on three things: your vehicle, your destination, and the company you choose. Here's how airport limo pricing actually works in 2026, so you can read any quote like a professional.</p>
 
@@ -488,7 +488,7 @@ export const seoBlogPosts = [
     readTime: "7 min read",
     excerpt:
       "A name sign at the bottom of the escalator, hands-free baggage claim, and a chauffeur who walks you straight to the car — everything to know about meet-and-greet service at Louis Armstrong International.",
-    image: "/images/stock/u-1556388158.webp",
+    image: "/images/blog/scenario-doorman.webp",
     content: `
       <p>Of everything a chauffeured car service offers, meet-and-greet is the option that turns an airport pickup into an arrival. Instead of walking out to a curb, you come down the escalator at Louis Armstrong International and see a professional in a suit holding a sign with your name on it. Here's exactly how the service works at MSY, what it costs relative to standard pickup, and who gets the most out of it.</p>
 
@@ -562,7 +562,7 @@ export const seoBlogPosts = [
     readTime: "8 min read",
     excerpt:
       "Forget the marketing — the best car service at Louis Armstrong International is decided by six measurable standards. Here's the 2026 scorecard, the red flags, and how to test any company before you book.",
-    image: "/images/stock/u-1493238792000.webp",
+    image: "/images/stock/u-1490430657723.webp",
     content: `
       <p>Every car service in New Orleans claims to be the best. The websites show the same black SUVs, the same promises of luxury, the same five-star badges. But "best" at an airport isn't a vibe — it's a set of measurable standards, and in 2026 the gap between companies that meet them and companies that market them has never been wider. Here's the scorecard that separates the real operators at Louis Armstrong International, and how to apply it before you hand over a reservation.</p>
 
@@ -634,7 +634,7 @@ export const seoBlogPosts = [
     readTime: "9 min read",
     excerpt:
       "Where business actually happens in New Orleans, the festival calendar that wrecks unplanned itineraries, and the ground-transportation playbook that keeps a work trip running on schedule.",
-    image: "/images/stock/u-1486406146926.webp",
+    image: "/images/blog/scenario-corporate-2.webp",
     content: `
       <p>New Orleans is a serious business city wearing a festival costume. Beneath the beads and brass bands sit a top-tier convention center, a dense downtown office market, the country's busiest river port complex, and a medical corridor that draws executives year-round. Doing business here well means understanding both layers — because the same calendar that makes this city wonderful will quietly destroy an unplanned itinerary. Here's the working guide.</p>
 
@@ -703,7 +703,7 @@ export const seoBlogPosts = [
     readTime: "7 min read",
     excerpt:
       "The 6 a.m. departure out of MSY is won or lost the night before. Here's exactly how pre-dawn airport pickups work, when to leave from every corner of the metro, and why a reserved chauffeur is the only ride that's guaranteed to show at 4 a.m.",
-    image: "/images/stock/u-1490430657723.webp",
+    image: "/images/stock/u-1556388158.webp",
     content: `
       <p>Every seasoned New Orleans traveler knows the feeling: the alarm goes off at 3:45 a.m., the house is dark, and somewhere between the coffee maker and the front door lives a single question — is the ride actually coming? For a 6 a.m. departure out of Louis Armstrong International, that question is the whole ballgame. Miss the pickup and you've missed the flight; there's no later option that fixes a morning connection through Atlanta or Dallas. Here's how the pre-dawn run to MSY really works, and how to make it bulletproof.</p>
 
@@ -772,7 +772,7 @@ export const seoBlogPosts = [
     readTime: "9 min read",
     excerpt:
       "Everything that changed and everything that matters for getting to and from Louis Armstrong International in 2026 — every transportation option compared honestly, with real times, real costs, and the local knowledge that saves trips.",
-    image: "/images/stock/u-1556388158.webp",
+    image: "/images/blog/airport-dropoff.webp",
     content: `
       <p>Louis Armstrong New Orleans International Airport sits in Kenner, about 14 miles west of downtown — close enough that ground transportation feels like an afterthought, far enough that choosing badly costs real time and money. This 2026 guide covers every way to make the trip, what each actually costs, and the local wrinkles — festival closures, bridge fog, convention surges — that the booking apps won't warn you about.</p>
 
@@ -836,7 +836,7 @@ export const seoBlogPosts = [
     readTime: "8 min read",
     excerpt:
       "The Fair Grounds has no parking, the streets around it close, and surge pricing peaks exactly when the last set ends. Here's the complete transportation playbook for Jazz Fest — from MSY arrival to the final ride home.",
-    image: "/images/stock/u-1514320291840.webp",
+    image: "/images/stock/u-1514525253161.webp",
     content: `
       <p>The New Orleans Jazz & Heritage Festival is the city at its absolute best: two spring weekends, a dozen stages, and half a million people converging on the Fair Grounds Race Course in Mid-City. It is also, by design, a transportation puzzle — the Fair Grounds has essentially no public parking, the surrounding streets restrict traffic, and every on-demand ride in the city surges at exactly 7 p.m. when the headliners finish. Solve the transportation and you've solved Jazz Fest. Here's the playbook.</p>
 
@@ -902,7 +902,7 @@ export const seoBlogPosts = [
     readTime: "8 min read",
     excerpt:
       "MSY's modern terminal is one of the easiest in the South — if you know its rhythms. Ten field-tested tips covering security, festival-season crowds, weather, and the ride on both ends.",
-    image: "/images/stock/u-1449824913935.webp",
+    image: "/images/blog/airport-terminal-glass.webp",
     content: `
       <p>Louis Armstrong New Orleans International is a genuinely pleasant airport — the modern terminal that opened in 2019 replaced decades of cramped concourses with bright halls, good local food, and live music. But MSY has its own rhythms, shaped by festival season, afternoon thunderstorms, and a city that does everything in waves. These ten tips are what frequent New Orleans flyers actually do differently.</p>
 
@@ -970,7 +970,7 @@ export const seoBlogPosts = [
     readTime: "9 min read",
     excerpt:
       "New Orleans rewards travelers who match the ride to the trip — streetcar for the charm, feet for the Quarter, and a private car for the moments that matter. The complete visitor's guide.",
-    image: "/images/stock/u-1492684223066.webp",
+    image: "/images/blog/landmark-nola-1.webp",
     content: `
       <p>New Orleans is a city best experienced at street level — but getting between those streets takes a little local knowledge. The transportation network here is charming, quirky, and uneven: world-famous streetcars that are slower than walking pace, a compact core you can cross on foot, and a highway-only airport connection. This guide matches each way of getting around to the trips it actually serves well.</p>
 
@@ -1039,7 +1039,7 @@ export const seoBlogPosts = [
     readTime: "8 min read",
     excerpt:
       "Fifteen highway miles separate your gate from your first beignet. Every option for the MSY-to-French-Quarter run, compared honestly — and how to time it right.",
-    image: "/images/stock/u-1519741497674.webp",
+    image: "/images/blog/landmark-nola-2.webp",
     content: `
       <p>The trip from Louis Armstrong International to the French Quarter is the classic New Orleans arrival: about 15 miles east on I-10, then an exit into a neighborhood that predates the highway by two centuries. On a clear midday run it takes 25 minutes; at rush hour, in rain, or on a festival Friday it can stretch well past 45. Here is every way to make the trip, compared honestly.</p>
 
@@ -1108,7 +1108,7 @@ export const seoBlogPosts = [
     readTime: "9 min read",
     excerpt:
       "Mardi Gras redraws the city's map daily — parade routes close, the Quarter seals, and rideshare surges triple. How locals and smart visitors actually move during Carnival.",
-    image: "/images/stock/u-1514525253161.webp",
+    image: "/images/blog/landmark-nola-2.webp",
     content: `
       <p>Mardi Gras is the best time to be in New Orleans and the hardest time to move through it. For the final two weeks of Carnival, parade routes close major corridors for hours at a stretch, the French Quarter effectively seals to vehicles, and a million extra people compete for every ride in town. The visitors who enjoy it most are the ones who understand one thing early: during Carnival, transportation is something you plan, not something you summon.</p>
 
@@ -1176,7 +1176,7 @@ export const seoBlogPosts = [
     readTime: "8 min read",
     excerpt:
       "Embarkation day runs on a deadline the ship enforces. How to get from MSY to the cruise terminals — luggage, timing, groups, and the return trip — without cutting it close.",
-    image: "/images/stock/u-1580974852861.webp",
+    image: "/images/stock/u-1687634365981.webp",
     content: `
       <p>New Orleans is one of the country's great cruise home ports — ships depart year-round for the Caribbean from terminals right on the downtown riverfront. That geography is a gift: the port sits about 16 miles from MSY, minutes from the French Quarter, close enough to build a vacation around. But embarkation day runs on a deadline that the ship, not you, enforces. Here is how to handle the transfer properly in both directions.</p>
 
@@ -1240,7 +1240,7 @@ export const seoBlogPosts = [
     readTime: "9 min read",
     excerpt:
       "The destination-by-destination price guide for MSY car service in 2026 — what the French Quarter, the Northshore, Baton Rouge, and the cruise port actually cost, plus vehicle pricing and a worked family example.",
-    image: "/images/stock/u-1449965408869.webp",
+    image: "/images/stock/u-1706092647576.webp",
     content: `
       <p>We've already written about how airport limo pricing works — the factors, the fee traps, the anatomy of a flat rate. This is the other article, the one people actually search the night before they book: what does it cost to get from Louis Armstrong International to where I'm going? Below are honest 2026 market ranges by destination, vehicle-class pricing, a worked example for a real family trip, and the tipping etiquette nobody explains. Ranges set expectations; for your exact number, MSY Limo Service quotes flat rates in about a minute at <a href="tel:+18776091919">(877) 609-1919</a>.</p>
 
@@ -1324,7 +1324,7 @@ export const seoBlogPosts = [
     readTime: "9 min read",
     excerpt:
       "Forget the generic options list — the right way from MSY into New Orleans depends on who you are and when you land. A scenario-by-scenario playbook, plus the timing windows that change every answer.",
-    image: "/images/stock/u-1486406146926.webp",
+    image: "/images/blog/airport-terminal-glass.webp",
     content: `
       <p>Every guide to Louis Armstrong International transportation — including <a href="/blog/new-orleans-airport-transportation-guide">our own menu of the six options</a> — lists the same choices: car service, taxi, rideshare, shuttle, bus, rental. Useful, but it answers the wrong question. Nobody books "an option"; they book a specific trip, on a specific day, with specific people and luggage. So this guide is organized the way the decision actually happens: by traveler. Find yourself below, and the answer follows.</p>
 
@@ -1393,7 +1393,7 @@ export const seoBlogPosts = [
     readTime: "9 min read",
     excerpt:
       "From the moment you book to the moment your chauffeur closes the door — the operational guide to how MSY car service actually works: reservations, pickup mechanics, delays, vehicles, and the mistakes to skip.",
-    image: "/images/stock/u-1503376780353.webp",
+    image: "/images/blog/scenario-airport-pickup-1.webp",
     content: `
       <p>Plenty has been written — by us included — about <a href="/blog/best-car-service-msy-airport-2026">how to choose a car service</a> at Louis Armstrong International. This guide answers the next question: how does it actually work? What happens between clicking "reserve" and stepping out of the car at your hotel — the booking mechanics, the pickup choreography, the delay handling, and the small decisions that separate a flawless transfer from an average one. Consider it the owner's manual for MSY car service in 2026.</p>
 
@@ -1468,7 +1468,7 @@ export const seoBlogPosts = [
     readTime: "8 min read",
     excerpt:
       "The Quarter is the easiest destination to name and the trickiest to actually reach — narrow one-ways, pedestrian blocks, and hotel curbs the size of a parking space. The street-level logistics guide.",
-    image: "/images/stock/u-1511527844068.webp",
+    image: "/images/blog/landmark-nola-streetcar-1.webp",
     content: `
       <p>We've compared the <a href="/blog/msy-to-french-quarter-guide">transportation options to the Quarter</a> and made the case for <a href="/blog/msy-to-french-quarter-flat-rate">flat-rate service</a> elsewhere. This guide covers what neither does: the street-level logistics of actually arriving. Because the French Quarter is the easiest destination in America to name and one of the trickiest to physically reach — a 300-year-old grid of narrow one-ways, pedestrianized blocks, and hotel entrances the size of a parking space. Here's how the last half mile really works, and how to plan around it.</p>
 
@@ -1531,7 +1531,7 @@ export const seoBlogPosts = [
     readTime: "9 min read",
     excerpt:
       "Beyond the airport run — how chauffeured service works across New Orleans occasions: weddings, bachelor weekends, corporate days, festival seasons, vehicle classes, hourly pricing, and the booking calendar that rules them all.",
-    image: "/images/stock/u-1514320291840.webp",
+    image: "/images/stock/u-1519741497674.webp",
     content: `
       <p>Most of what's written about New Orleans car service — most of what we've written — centers on the airport. Fair enough; it's the busiest run. But the city generates occasion travel like nowhere else in America: weddings by the hundreds, bachelor and bachelorette weekends every Friday, festival seasons that swallow whole months, galas, proms, and corporate entertaining year-round. This is the guide to all of it — what chauffeured service looks like beyond the MSY curb, what it costs, and how the city's calendar should shape your booking.</p>
 
@@ -1606,7 +1606,7 @@ export const seoBlogPosts = [
     readTime: "5 min read",
     excerpt:
       "Conventioneers, cruise passengers and visiting families all land at BWI with the same question: how do we get to the hotel? Here are the five reasons a hotel concierge would tell you to reserve a chauffeur.",
-    image: "/images/stock/u-1687634365981.webp",
+    image: "/images/blog/scenario-airport-pickup-2.webp",
     content: `
       <p>Every week, MSY Limo Service's Maryland fleet meets visitors at BWI Marshall who have never set foot in Baltimore before: conventioneers bound for the Baltimore Convention Center, cruise passengers with a sailing time at the Port of Baltimore, and families with an Annapolis or Washington itinerary and far too many bags. If a hotel concierge were standing at baggage claim, here is how they would explain why a reserved chauffeur beats every other way out of the airport.</p>
 
@@ -1667,7 +1667,7 @@ export const seoBlogPosts = [
     readTime: "5 min read",
     excerpt:
       "Delegations, association fly-ins and conference teams arrive in Washington with one schedule and a dozen flights. Here is why planners switch from rideshare to a reserved executive car service.",
-    image: "/images/stock/u-1702722710064.webp",
+    image: "/images/blog/scenario-corporate-1.webp",
     content: `
       <p>Association meetings, trade delegations and conference groups arrive in Washington every week with a shared problem: twelve people, three airports, one schedule and a planner who is expected to make it all look effortless. MSY Limo Service's Maryland and DC fleet exists for exactly that traveler. Here is why an executive car service beats rideshare for visiting business groups, from the first landing to the last flight home.</p>
 
@@ -1726,7 +1726,7 @@ export const seoBlogPosts = [
     readTime: "5 min read",
     excerpt:
       "When most of the guest list is flying in, wedding transportation becomes infrastructure. A guide for couples choosing a Maryland limo partner from a distance.",
-    image: "/images/stock/u-1706092647576.webp",
+    image: "/images/blog/scenario-wedding-1.webp",
     content: `
       <p>Maryland has quietly become a destination-wedding state. Couples who grew up here, or who fell for the Chesapeake on a single weekend, invite guests from Boston, Atlanta, Chicago and overseas to celebrate on the water. Those guests land at BWI, Dulles or Reagan without a car, check into a hotel block and rely on the couple to move them. Here is how MSY Limo Service's Maryland fleet helps couples planning from a distance choose the right limo partner.</p>
 
@@ -1790,7 +1790,7 @@ export const seoBlogPosts = [
     readTime: "5 min read",
     excerpt:
       "What is worth flying in for? A season-by-season itinerary of Maryland's 2026 events, each paired with a place to stay and the vehicle we would send.",
-    image: "/images/stock/u-1710615209322.webp",
+    image: "/images/stock/u-1492684223066.webp",
     content: `
       <p>Visitors ask our chauffeurs the same question in different accents: what is worth flying in for? Maryland's 2026 calendar has a real answer for every season. This itinerary-style guide pairs each event with a place to stay and the vehicle MSY Limo Service's Maryland fleet would send, so you can plan the weekend from wherever you are reading this.</p>
 
@@ -1856,7 +1856,7 @@ export const seoBlogPosts = [
     readTime: "5 min read",
     excerpt:
       "Reagan sits almost inside the city; Dulles sits out in Virginia with customs and an AeroTrain between you and the curb. A first-timer's guide to both and to the easiest way in.",
-    image: "/images/stock/u-1739789750796.webp",
+    image: "/images/stock/u-1436491865332.webp",
     content: `
       <p>First trip to the capital? The airport you chose shapes your first hour in Washington more than anything else. Reagan National sits practically inside the city; Dulles sits far out in Virginia horse country with customs, mid-field concourses and a train between you and the curb. MSY Limo Service's DMV fleet meets visitors at both every day. Here is how to decode them, and why a professional car service turns arrival into the easiest part of the trip.</p>
 

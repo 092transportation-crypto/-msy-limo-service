@@ -14,7 +14,7 @@ export const BLOG_POSTS_BATCH3 = [
     readTime: "9 min read",
     excerpt:
       "Booking, pickup, fleet options, pricing structure, and what a flat rate actually includes — the complete guide to limo service at Louis Armstrong New Orleans International Airport.",
-    image: "/images/stock/u-1503376780353.webp",
+    image: "/images/stock/u-1580974852861.webp",
     content: `
       <p class="lead">Louis Armstrong New Orleans International Airport (MSY) sits in Kenner, about 14 miles west of the French Quarter, and welcomes travelers arriving for everything from a weekend of Bourbon Street to a week-long convention at the Morial Center. A limo service — really, a chauffeured car service that includes sedans, SUVs, Sprinter vans, and true stretch limousines — is the difference between an arrival that starts with a plan and one that starts with a scramble. This guide covers how MSY limo service actually works, from booking to drop-off.</p>
 
@@ -91,7 +91,7 @@ export const BLOG_POSTS_BATCH3 = [
     readTime: "8 min read",
     excerpt:
       "Book too early and nothing changes; book too late during festival season and your vehicle class sells out. Here's exactly when to reserve MSY airport car service for every kind of trip.",
-    image: "/images/stock/u-1514320291840.webp",
+    image: "/images/stock/u-1514525253161.webp",
     content: `
       <p class="lead">"How early should I book?" is one of the most common questions our MSY dispatch desk hears, and the honest answer depends entirely on the week you're flying. A quiet Tuesday in June and the Saturday of Jazz Fest are two completely different booking problems. Here's a practical, week-by-week guide to timing your reservation right.</p>
 
@@ -170,7 +170,7 @@ export const BLOG_POSTS_BATCH3 = [
     readTime: "8 min read",
     excerpt:
       "Base fare versus flat rate, surge multipliers versus certainty, per-person versus per-vehicle — the real cost math between a limo and Uber at MSY, worked through honestly.",
-    image: "/images/stock/u-1436491865332.webp",
+    image: "/images/blog/scenario-doorman.webp",
     content: `
       <p class="lead">Comparing an airport limo to Uber on price sounds simple until you actually do the math for a specific trip, on a specific day, with a specific number of people. The honest answer is that neither option is "always cheaper" — but the factors that decide it are predictable, and once you know them, you can call your own trip correctly every time.</p>
 
@@ -254,7 +254,7 @@ export const BLOG_POSTS_BATCH3 = [
     readTime: "9 min read",
     excerpt:
       "From choosing the right vehicle to timing around a second-line parade, here's a complete planning guide to wedding limo service across New Orleans and Louisiana.",
-    image: "/images/stock/u-1519741497674.webp",
+    image: "/images/blog/scenario-wedding-3.webp",
     content: `
       <p class="lead">A Louisiana wedding carries traditions most couples elsewhere never have to plan around — a second-line parade through the French Quarter or Garden District, a citywide event calendar that can close streets with little notice, and venues ranging from antebellum plantation homes to Uptown mansions. Wedding limo service here has to account for all of it. This guide walks through the full planning process, from first inquiry to the getaway car.</p>
 
@@ -337,7 +337,7 @@ export const BLOG_POSTS_BATCH3 = [
     readTime: "8 min read",
     excerpt:
       "Client pickups, roadshows, convention logistics, and consolidated billing — how New Orleans companies use corporate car service to make business travel run smoothly.",
-    image: "/images/stock/u-1560472354.webp",
+    image: "/images/blog/scenario-corporate-rain.webp",
     content: `
       <p class="lead">New Orleans runs a genuine business economy underneath its tourism reputation — energy companies, maritime and port logistics, healthcare, hospitality management, and a steady calendar of national conventions at the Ernest N. Morial Convention Center. Corporate car service is the infrastructure that keeps all of it moving on schedule. Here's how businesses actually use it, from a single client pickup to a full convention deployment.</p>
 
@@ -426,7 +426,7 @@ export const BLOG_POSTS_BATCH3 = [
     readTime: "7 min read",
     excerpt:
       "A shared shuttle van and a private limo both leave from the same curb at MSY, but the experience in between is completely different. Here's an honest comparison.",
-    image: "/images/stock/u-1687634365981.webp",
+    image: "/images/stock/u-1769787301187.webp",
     content: `
       <p class="lead">At first glance, an airport shuttle and a private limo look similar — both are vans or cars leaving MSY with your name on the manifest. In practice, they solve different problems for different travelers. This is a practical, honest comparison of what each option actually gets you.</p>
 
@@ -516,7 +516,7 @@ export const BLOG_POSTS_BATCH3 = [
     readTime: "8 min read",
     excerpt:
       "From gathering trip details to choosing the right vehicle and confirming your flat rate — a clear, step-by-step guide to booking a luxury chauffeur in New Orleans.",
-    image: "/images/stock/u-1493238792000.webp",
+    image: "/images/stock/u-1490430657723.webp",
     content: `
       <p class="lead">Booking a chauffeur for the first time can feel like it should be more complicated than it is. In reality, the whole process takes about a minute of preparation and a minute to book, whether you're reserving an MSY airport transfer, a night on the town, or transportation for a full event. Here's exactly how it works, step by step.</p>
 
@@ -617,7 +617,7 @@ export const BLOG_POSTS_BATCH3 = [
     readTime: "8 min read",
     excerpt:
       "Bachelor parties, wedding groups, convention teams, family reunions — here's how to size the right vehicle, split the cost fairly, and coordinate a group transfer in New Orleans.",
-    image: "/images/mercedes-sprinter.webp",
+    image: "/images/blog/fleet-sprinter-1.webp",
     content: `
       <p class="lead">Group transportation in New Orleans has a specific shape most trips don't: bachelor and bachelorette parties heading to Bourbon Street, wedding parties moving between venues, convention teams arriving on staggered flights, and family reunions trying to keep everyone together instead of scattered across three separate cars. Here's how to pick the right vehicle and structure the booking so the whole group actually rides together.</p>
 
@@ -702,7 +702,7 @@ export const BLOG_POSTS_BATCH3 = [
     readTime: "8 min read",
     excerpt:
       "Small habits that make a big difference — the practical tips frequent New Orleans travelers use to make every MSY airport transfer smoother, faster, and less stressful.",
-    image: "/images/stock/u-1449824913935.webp",
+    image: "/images/stock/u-1556388158.webp",
     content: `
       <p class="lead">Frequent MSY travelers develop small habits that make a real difference on transfer day — not secrets, exactly, just details that don't occur to someone flying through Louis Armstrong New Orleans International for the first time. Here's what they know.</p>
 
@@ -797,7 +797,7 @@ export const BLOG_POSTS_BATCH3 = [
     readTime: "7 min read",
     excerpt:
       "A traditional taxi and a black car service both get you where you're going, but the experience, pricing structure, and reliability differ in ways that matter for the right trip.",
-    image: "/images/stock/u-1549317661.webp",
+    image: "/images/blog/scenario-doorman.webp",
     content: `
       <p class="lead">Taxis have operated in New Orleans for generations, queuing outside MSY's baggage claim and idling at hotel stands throughout the city. A black car service is a newer model built around reservation rather than walk-up availability. Both are legitimate ways to get around — the honest comparison is about which structure actually fits your trip.</p>
 

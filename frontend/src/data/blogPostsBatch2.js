@@ -13,7 +13,7 @@ export const BLOG_POSTS_BATCH2 = [
     readTime: "6 min read",
     excerpt:
       "Landing at MSY is the easy part. Here is exactly what happens between the jet bridge and your reserved vehicle, and how a professional car service handles each step.",
-    image: "/images/limousine.webp",
+    image: "/images/blog/scenario-airport-pickup-1.webp",
     content: `
       <p class="lead">Louis Armstrong New Orleans International, in Kenner just off I-10, moved into its current terminal a few years back — a single main building with baggage claim and ground transportation on the lower level. The layout is straightforward once you know it, and the real variable is timing, which is exactly where a reserved car service earns its keep.</p>
 
@@ -60,7 +60,7 @@ export const BLOG_POSTS_BATCH2 = [
     readTime: "7 min read",
     excerpt:
       "New Orleans weddings have a planning wrinkle most cities do not — second lines and parade calendars. Here is the timeline that keeps transportation simple anyway.",
-    image: "/images/limousine.webp",
+    image: "/images/blog/scenario-wedding-2.webp",
     content: `
       <p class="lead">Wedding transportation is easy to leave until the final weeks and hard to fix once you have, especially in New Orleans where French Quarter street closures, second-line routes and the citywide event calendar can all affect a wedding-day route. This timeline runs from the first inquiry through the getaway car.</p>
 
@@ -110,7 +110,7 @@ export const BLOG_POSTS_BATCH2 = [
     readTime: "6 min read",
     excerpt:
       "Moving a convention group between hotels, the Convention Center and MSY is a logistics problem with a lot of moving parts. Here is how professional car service handles it.",
-    image: "/images/limousine.webp",
+    image: "/images/blog/scenario-corporate-2.webp",
     content: `
       <p class="lead">A convention at the Ernest N. Morial Convention Center brings a different transportation challenge than a single reserved ride: dozens or hundreds of attendees moving between CBD and French Quarter hotels, the Convention Center itself, and MSY, often on a tight schedule tied to session times. Here is how a professional car service structures that.</p>
 
@@ -157,7 +157,7 @@ export const BLOG_POSTS_BATCH2 = [
     readTime: "6 min read",
     excerpt:
       "Three ways to get a ride in New Orleans, three different trade-offs. Here is an honest look at where each one wins, without pretending the others do not have a place.",
-    image: "/images/limousine.webp",
+    image: "/images/stock/u-1769787301187.webp",
     content: `
       <p class="lead">New Orleans travelers have three real choices for ground transportation: a traditional taxi, a rideshare app, and a reserved black car service. They are not interchangeable — each is built for a different kind of trip, and picking the wrong one is usually what makes people unhappy with the result.</p>
 
