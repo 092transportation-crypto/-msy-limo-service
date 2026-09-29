@@ -3,6 +3,7 @@ import { ensureFiveFaqs } from "@/lib/faqExtras";
 import { BLOG_POSTS_BATCH2 } from "@/data/blogPostsBatch2";
 import { BLOG_POSTS_BATCH3 } from "@/data/blogPostsBatch3";
 import { BLOG_POSTS_BATCH4 } from "@/data/blogPostsBatch4";
+import { BLOG_POSTS_BATCH5 } from "@/data/blogPostsBatch5";
 
 export const seoBlogPosts = [
   {
@@ -1913,6 +1914,7 @@ export const seoBlogPosts = [
 seoBlogPosts.push(...BLOG_POSTS_BATCH2);
 seoBlogPosts.push(...BLOG_POSTS_BATCH3);
 seoBlogPosts.push(...BLOG_POSTS_BATCH4);
+seoBlogPosts.push(...BLOG_POSTS_BATCH5);
 
 // Every page carries five FAQs (visible block + FAQPage schema).
 seoBlogPosts.forEach((p) => {
