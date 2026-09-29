@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import SEO, { buildFaqSchema } from "@/components/SEO";
@@ -106,28 +106,13 @@ const FAQPage = () => {
                     <ChevronDown className="w-5 h-5 text-amber-500 flex-shrink-0" />
                   </motion.div>
                 </motion.button>
-                <AnimatePresence>
-                  {openIndex === index && (
-                    <motion.div
-                      initial={{ height: 0, opacity: 0 }}
-                      animate={{ height: "auto", opacity: 1 }}
-                      exit={{ height: 0, opacity: 0 }}
-                      transition={{ duration: 0.3, ease: "easeInOut" }}
-                      className="overflow-hidden"
-                    >
-                      <div className="px-6 pb-6">
-                        <motion.p 
-                          initial={{ y: -10, opacity: 0 }}
-                          animate={{ y: 0, opacity: 1 }}
-                          transition={{ duration: 0.3, delay: 0.1 }}
-                          className="text-white/70 leading-relaxed"
-                        >
-                          {faq.a}
-                        </motion.p>
-                      </div>
-                    </motion.div>
-                  )}
-                </AnimatePresence>
+                <div className={openIndex === index ? 'overflow-hidden transition-all duration-300' : 'overflow-hidden max-h-0 transition-all duration-300'}>
+                  <div className="px-6 pb-6">
+                    <p className="text-white/70 leading-relaxed">
+                      {faq.a}
+                    </p>
+                  </div>
+                </div>
               </motion.div>
             ))}
           </motion.div>
