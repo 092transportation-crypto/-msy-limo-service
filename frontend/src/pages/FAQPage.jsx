@@ -199,7 +199,7 @@ const FAQPage = () => {
             {[
               { to: "/services/airport-transportation", title: "Airport Service" },
               { to: "/fleet", title: "Our Fleet" },
-              { to: "/services/wedding-transportation", title: "Weddings" },
+              { to: "/services/wedding-limo", title: "Weddings" },
               { to: "/contact", title: "Contact Us" },
             ].map((item) => (
               <motion.div key={item.to} variants={itemVariants} whileHover={{ y: -5 }}>

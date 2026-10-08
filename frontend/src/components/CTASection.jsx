@@ -77,7 +77,7 @@ const CTASection = () => {
           >
             <Link to="/services/airport-transportation" className="text-white/50 hover:text-amber-400 transition-colors">Airport Transfers</Link>
             <Link to="/services/corporate-transportation" className="text-white/50 hover:text-amber-400 transition-colors">Corporate Travel</Link>
-            <Link to="/services/wedding-transportation" className="text-white/50 hover:text-amber-400 transition-colors">Wedding Limos</Link>
+            <Link to="/services/wedding-limo" className="text-white/50 hover:text-amber-400 transition-colors">Wedding Limos</Link>
             <Link to="/fleet" className="text-white/50 hover:text-amber-400 transition-colors">Our Fleet</Link>
             <Link to="/faq" className="text-white/50 hover:text-amber-400 transition-colors">FAQ</Link>
           </motion.div>

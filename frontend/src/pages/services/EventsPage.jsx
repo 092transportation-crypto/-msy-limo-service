@@ -271,7 +271,7 @@ const EventsPage = () => {
             className="grid md:grid-cols-4 gap-6"
           >
             {[
-              { to: "/services/wedding-transportation", title: "Wedding Limo", desc: "Elegant wedding transportation" },
+              { to: "/services/wedding-limo", title: "Wedding Limo", desc: "Elegant wedding transportation" },
               { to: "/services/hourly-charter", title: "Hourly Charter", desc: "Flexible by-the-hour service" },
               { to: "/fleet", title: "Our Fleet", desc: "View our luxury vehicles" },
               { to: "/contact", title: "Get a Quote", desc: "Contact us for pricing" },

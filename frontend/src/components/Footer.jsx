@@ -10,7 +10,7 @@ const Footer = () => {
   const services = [
     { name: "Airport Transportation", href: "/services/airport-transportation" },
     { name: "Corporate Transportation", href: "/services/corporate-transportation" },
-    { name: "Wedding Limo Service", href: "/services/wedding-transportation" },
+    { name: "Wedding Limo Service", href: "/services/wedding-limo" },
     { name: "Special Events", href: "/services/special-events" },
     { name: "Hourly Charter", href: "/services/hourly-charter" },
   ];
