@@ -44,8 +44,8 @@ const AboutPage = () => {
   return (
     <div className="min-h-screen bg-black">
       <SEO
-        title="About MSY Limo | New Orleans Chauffeur Service"
-        description="MSY Limo Service — a Licensed & Insured Louisiana Carrier providing MSY airport car service and luxury chauffeur transportation across New Orleans."
+        title="About MSY Limo Service | Licensed & Insured Carrier"
+        description="MSY Limo Service is a Licensed & Insured Louisiana Carrier providing MSY airport car service and chauffeured transportation. Call (877) 609-1919."
         path="/about"
         schema={[aboutFaqSchema]}
       />

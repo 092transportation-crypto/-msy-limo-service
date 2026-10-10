@@ -52,8 +52,8 @@ const CorporatePage = () => {
   return (
     <div className="min-h-screen bg-black">
       <SEO
-        title="Corporate Car Service New Orleans | MSY Chauffeur"
-        description="Executive MSY chauffeur service for business travel — corporate accounts, client meet & greet at MSY airport, roadshows & monthly billing. (877) 609-1919."
+        title="Corporate Car Service New Orleans | Executive Chauffeur"
+        description="Executive corporate car service for New Orleans business travel — client meet & greet at MSY, roadshows & monthly billing. Call (877) 609-1919."
         path="/services/corporate-transportation"
         schema={[corporateFaqSchema]}
       />

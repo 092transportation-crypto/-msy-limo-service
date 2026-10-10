@@ -340,6 +340,316 @@ export const venues = [
       },
     ],
   },
+  {
+    slug: "tulane-university-transportation",
+    shortName: "Tulane University",
+    badge: "UNIVERSITY TRANSPORTATION",
+    h1: "Tulane University Car Service & Transportation",
+    metaTitle: "Tulane University Car Service | Uptown Car Service",
+    metaDescription:
+      "Private car service for Tulane University — move-in, parents weekend, Yulman Stadium game days & graduation. Flat rates. Call (877) 609-1919.",
+    stats: ["6823 St. Charles Avenue", "Uptown New Orleans", "Move-in to graduation coverage"],
+    intro: [
+      "Tulane University sits on St. Charles Avenue in the heart of Uptown New Orleans, a campus that fills with parents, incoming students, and alumni several times a year in ways that overwhelm the streetcar line and the campus's limited visitor parking. Our private car service covers the full academic calendar — move-in day, parents weekend, Yulman Stadium football Saturdays, and graduation — with a flat rate and a chauffeur who knows exactly which campus gate to use.",
+      "MSY is roughly 20 to 25 minutes from campus in normal traffic, but move-in weekend and graduation both bring citywide congestion that stretches that drive significantly. We track your flight and plan the pickup around the day's specific traffic pattern rather than a generic estimate, so a loaded SUV full of dorm essentials doesn't sit in gridlock on Claiborne Avenue.",
+      "Families flying in from out of state are our most frequent Tulane booking: an airport pickup straight to the dorm on move-in day, a parents-weekend hotel-to-campus shuttle, or a graduation weekend that needs to coordinate multiple arriving flights and a ceremony start time that won't wait.",
+    ],
+    highlights: [
+      "Flat-rate pricing for airport-to-campus and hotel-to-campus transfers",
+      "Chauffeurs who know Tulane's gates, loading zones, and move-in traffic patterns",
+      "SUVs and Sprinter vans sized for dorm move-in loads",
+      "Yulman Stadium game-day drop-off and post-game pickup",
+      "Graduation weekend scheduling for multiple arriving family members",
+      "Licensed & Insured Carrier",
+    ],
+    venuesTitle: "Tulane Occasions We Cover",
+    venues: [
+      {
+        name: "Move-In Day",
+        blurb: "Airport-to-dorm transfers sized for a car full of boxes, with a chauffeur who knows which residence hall gate to use.",
+      },
+      {
+        name: "Parents Weekend",
+        blurb: "Hotel-to-campus shuttles timed around campus events, so families aren't hunting for visitor parking.",
+      },
+      {
+        name: "Yulman Stadium Game Days",
+        blurb: "Green Wave football drop-off and post-game pickup without the on-campus parking scramble.",
+      },
+      {
+        name: "Graduation Weekend",
+        blurb: "Coordinated pickups for multiple family flights landing the same weekend, timed to the ceremony schedule.",
+      },
+      {
+        name: "Loyola University (Next Door)",
+        blurb: "Families visiting both campuses — Tulane and neighboring Loyola — in the same trip, covered on one booking.",
+        link: "/loyola-university-transportation",
+      },
+      {
+        name: "Audubon Park & St. Charles Avenue",
+        blurb: "A scenic streetcar-line drop-off for visitors who want a walk through the park before or after campus.",
+      },
+    ],
+    whyTitle: "Why Families Book a Chauffeur for Campus Weekends",
+    whyParagraphs: [
+      "Move-in day and graduation weekend both flood Uptown's narrow residential streets with cars, and campus visitor parking disappears within the first hour. A chauffeur who already knows which loading zone to use and when campus security opens which gate saves real time compared to circling St. Charles Avenue in a rental car.",
+      "For graduation and parents weekends with family flying in from multiple cities, coordinating several pickups against one ceremony time is exactly the kind of logistics a dispatcher handles well — and as a Licensed & Insured Carrier, we run multiple vehicles on a synchronized schedule when a family needs it.",
+    ],
+    faqs: [
+      {
+        q: "How far is Tulane University from MSY airport?",
+        a: "About 20 to 25 minutes in normal traffic via I-10 and Carrollton Avenue or Claiborne Avenue. Move-in and graduation weekends run longer due to citywide congestion, which we plan for in advance.",
+      },
+      {
+        q: "Can you handle a car full of move-in boxes and furniture?",
+        a: "Yes. Our Cadillac Escalade SUVs and Mercedes Sprinter vans are the popular choice for move-in day loads, with room for luggage, boxes, and dorm furniture.",
+      },
+      {
+        q: "Do you serve Yulman Stadium on football game days?",
+        a: "Yes, with drop-off near the stadium and a coordinated post-game pickup point agreed with your chauffeur by text.",
+      },
+      {
+        q: "Can you coordinate pickups for multiple family members flying in for graduation?",
+        a: "Yes. Tell us each flight when you book and we'll run synchronized pickups so everyone reaches the ceremony on time.",
+      },
+      {
+        q: "How much does a car service to Tulane from MSY cost?",
+        a: "A flat rate by vehicle class, confirmed before you book, with no surge pricing even on move-in or graduation weekends. Call (877) 609-1919 for an exact quote.",
+      },
+    ],
+  },
+  {
+    slug: "loyola-university-transportation",
+    shortName: "Loyola University",
+    badge: "UNIVERSITY TRANSPORTATION",
+    h1: "Loyola University New Orleans Car Service",
+    metaTitle: "Loyola University New Orleans Car Service | MSY Limo",
+    metaDescription:
+      "Private car service for Loyola University New Orleans — move-in, family weekend & graduation on St. Charles Avenue. Call (877) 609-1919.",
+    stats: ["6363 St. Charles Avenue", "Uptown New Orleans", "Move-in to graduation coverage"],
+    intro: [
+      "Loyola University New Orleans sits directly beside Tulane on St. Charles Avenue, a Jesuit university whose move-in days, family weekends, and Holy Cross-field graduation ceremonies bring the same wave of visiting families to the same stretch of Uptown. Our chauffeurs cover Loyola on the same flat-rate, flight-tracked standard as every other address we serve.",
+      "Because Loyola and Tulane share a campus border, families with students at both schools — or visiting one while touring the other — regularly book us for a single trip that covers both stops. The drive from MSY runs 20 to 25 minutes in normal traffic via I-10 and Carrollton or Claiborne Avenue, longer during move-in and graduation congestion.",
+      "We serve the Danna Center and main quad for event drop-offs, the historic Marquette Hall entrance on St. Charles Avenue, and the residential halls that fill with boxes and furniture on move-in weekend.",
+    ],
+    highlights: [
+      "Flat-rate airport-to-campus and hotel-to-campus transfers",
+      "Chauffeurs familiar with Loyola's St. Charles Avenue entrances and loading zones",
+      "SUVs and Sprinter vans for move-in day loads",
+      "Family weekend hotel shuttles timed to campus event schedules",
+      "Graduation weekend coordination for multiple arriving flights",
+      "Licensed & Insured Carrier",
+    ],
+    venuesTitle: "Loyola Occasions We Cover",
+    venues: [
+      {
+        name: "Move-In Day",
+        blurb: "Airport-to-residence-hall transfers with room for boxes, furniture, and everything a dorm room needs.",
+      },
+      {
+        name: "Family Weekend",
+        blurb: "Hotel-to-campus shuttles so visiting families aren't fighting for scarce St. Charles Avenue parking.",
+      },
+      {
+        name: "Graduation at the Humanities Quad",
+        blurb: "Coordinated arrivals for family flying in from multiple cities, timed to the ceremony start.",
+      },
+      {
+        name: "Tulane University (Next Door)",
+        blurb: "One booking covers both campuses for families with students or tours at each school.",
+        link: "/tulane-university-transportation",
+      },
+      {
+        name: "Audubon Park & St. Charles Streetcar Line",
+        blurb: "A scenic stop along the historic streetcar route for visitors exploring Uptown.",
+      },
+      {
+        name: "Downtown New Orleans",
+        blurb: "A direct ride for family dinners or an evening out after a campus visit.",
+      },
+    ],
+    whyTitle: "Why Book Ahead for Uptown Campus Weekends",
+    whyParagraphs: [
+      "St. Charles Avenue's visitor parking vanishes fast on move-in and graduation days, and the historic streetcar line, while charming, isn't built for hauling move-in boxes. A reserved chauffeur who knows exactly which Loyola entrance to use saves real time over circling the block in an unfamiliar rental car.",
+      "As a Licensed & Insured Carrier, we run coordinated, multi-flight pickups for graduation and family weekends routinely, and we're just as comfortable with a single move-in trip as we are running several vehicles for a large extended family.",
+    ],
+    faqs: [
+      {
+        q: "How far is Loyola University from MSY airport?",
+        a: "About 20 to 25 minutes in normal traffic, longer during move-in or graduation weekend congestion, which we plan the pickup time around.",
+      },
+      {
+        q: "Can you cover both Loyola and Tulane in one trip?",
+        a: "Yes — since the campuses border each other on St. Charles Avenue, many families book a single vehicle to visit both in one outing.",
+      },
+      {
+        q: "Do you handle move-in day loads of boxes and furniture?",
+        a: "Yes. Our Cadillac Escalade SUVs and Mercedes Sprinter vans are popular move-in day choices for exactly that reason.",
+      },
+      {
+        q: "Can you coordinate multiple family flights for graduation?",
+        a: "Yes. Tell us each flight when you book and we'll schedule synchronized pickups so the whole family reaches the ceremony together.",
+      },
+      {
+        q: "What does a car service to Loyola from MSY cost?",
+        a: "A flat rate by vehicle class, confirmed before you book, with no surge pricing on move-in or graduation weekends. Call (877) 609-1919 for an exact quote.",
+      },
+    ],
+  },
+  {
+    slug: "city-park-nola-transportation",
+    shortName: "City Park",
+    badge: "PARKS & MUSEUMS",
+    h1: "City Park & NOMA Car Service",
+    metaTitle: "City Park & NOMA Car Service New Orleans | MSY Limo",
+    metaDescription:
+      "Private car service to New Orleans City Park, NOMA & the Besthoff Sculpture Garden. Weddings, events & family outings. Call (877) 609-1919.",
+    stats: ["1 Palm Drive", "Mid-City New Orleans", "1,300-acre park"],
+    intro: [
+      "New Orleans City Park is larger than Central Park and holds the New Orleans Museum of Art, the free Sydney and Walda Besthoff Sculpture Garden, Morning Call coffee stand, Big Lake, and the live oaks of the Dueling Oaks grove — a genuinely full day of things to do spread across 1,300 acres that are not easy to navigate without a vehicle. Our chauffeurs handle the drop-offs, waits, and pickups across the park's sprawling layout so your day isn't spent walking between distant lots.",
+      "City Park also hosts weddings and private events in its historic Pavilion of the Two Sisters and the NOMA sculpture garden, drawing couples who want the grounds' live oaks and lagoons as a backdrop. We regularly handle wedding party transportation, guest shuttles, and guest pickups timed to a ceremony and reception schedule split across different corners of the park.",
+      "The park sits in Mid-City, about 15 to 20 minutes from MSY and a similarly short ride from the French Quarter, making it an easy half-day addition to almost any New Orleans itinerary, whether that's a museum morning, a family picnic, or a holiday visit during Celebration in the Oaks.",
+    ],
+    highlights: [
+      "Door-to-door drop-off across City Park's 1,300-acre layout",
+      "Wedding and event transportation to the Pavilion of the Two Sisters",
+      "NOMA and Besthoff Sculpture Garden visits timed to your schedule",
+      "Seasonal Celebration in the Oaks light-tour transportation",
+      "SUVs and Sprinter vans for family outings and group tours",
+      "Licensed & Insured Carrier",
+    ],
+    venuesTitle: "City Park Highlights We Serve",
+    venues: [
+      {
+        name: "New Orleans Museum of Art (NOMA)",
+        blurb: "The city's premier art museum, with door-front drop-off instead of a long walk from park overflow lots.",
+      },
+      {
+        name: "Besthoff Sculpture Garden",
+        blurb: "The free outdoor sculpture garden beside NOMA, a popular stop paired with a museum visit.",
+      },
+      {
+        name: "Pavilion of the Two Sisters",
+        blurb: "A historic event venue inside the park, with wedding and reception transportation coordinated around your timeline.",
+      },
+      {
+        name: "Big Lake & the Dueling Oaks",
+        blurb: "Scenic park grounds for photography and family outings, a short walk from convenient drop points.",
+      },
+      {
+        name: "Morning Call & City Putt",
+        blurb: "The historic coffee stand and mini-golf course, popular family-day stops within the park.",
+      },
+      {
+        name: "Celebration in the Oaks",
+        blurb: "Seasonal holiday light displays each winter, with timed pickup after the evening drive-through or walking tour.",
+      },
+    ],
+    whyTitle: "Why a Chauffeur Makes Sense for City Park",
+    whyParagraphs: [
+      "City Park's attractions are spread across a property larger than many small towns, and its parking lots fill quickly on weekends, festival days, and throughout the Celebration in the Oaks season. A chauffeur who drops you at the entrance closest to your actual destination — rather than wherever a lot happens to have space — saves real walking time, especially with kids or an evening event outfit.",
+      "For weddings at the Pavilion of the Two Sisters, coordinating a wedding party, guest shuttle, and photography stops around the park's lagoons is exactly the kind of multi-stop logistics a dedicated chauffeur handles well. As a Licensed & Insured Carrier, we run everything from a single museum drop-off to a full wedding-day schedule on the same flat-rate basis.",
+    ],
+    faqs: [
+      {
+        q: "How far is City Park from MSY airport?",
+        a: "About 15 to 20 minutes in normal traffic, making it an easy stop on an arrival or departure day.",
+      },
+      {
+        q: "Can you handle wedding transportation to the Pavilion of the Two Sisters?",
+        a: "Yes. We coordinate wedding party transportation, guest shuttles, and photography-stop timing throughout the park on a flat-rate or hourly basis.",
+      },
+      {
+        q: "Do you provide transportation for Celebration in the Oaks?",
+        a: "Yes, every holiday season, with pickup timed to your drive-through or walking visit and no parking hassle in the park's busiest month.",
+      },
+      {
+        q: "Can you drop us at NOMA and the sculpture garden separately?",
+        a: "Yes. Since both sit close together but the park is large, we can plan drop-off and pickup points that minimize walking for your specific visit.",
+      },
+      {
+        q: "What does transportation to City Park cost?",
+        a: "A flat rate by vehicle class and pickup address, confirmed before you book, or hourly service if your visit includes multiple park stops. Call (877) 609-1919 for a quote.",
+      },
+    ],
+  },
+  {
+    slug: "national-wwii-museum-transportation",
+    shortName: "National WWII Museum",
+    badge: "MUSEUMS & LANDMARKS",
+    h1: "National WWII Museum Car Service",
+    metaTitle: "National WWII Museum Car Service | New Orleans Limo",
+    metaDescription:
+      "Private car service to the National WWII Museum in New Orleans. Hotel pickups, group tours & MSY airport transfers. Call (877) 609-1919.",
+    stats: ["945 Magazine Street", "Warehouse District", "Full-day visit typical"],
+    intro: [
+      "The National WWII Museum anchors the Warehouse District on Magazine Street and ranks among the most-visited museums in the country, drawing visitors who often spend a full day moving between its multiple pavilions, the Boeing Center, and the BB's Stage Door Canteen dinner show. Our chauffeurs handle the drop-off, the wait, and the pickup so a packed museum day doesn't end with a tired walk to a distant parking garage.",
+      "The museum sits a short ride from both the French Quarter and most downtown hotels, and visitors frequently pair it with lunch or dinner in the Warehouse District's restaurant row before or after their visit. From MSY, the drive is roughly 20 to 25 minutes, making it an easy first or last stop on an arrival or departure day for history-minded travelers.",
+      "We regularly carry veterans' groups, school trips, and family multi-generational visits, along with cruise passengers adding a museum morning before an afternoon Port of New Orleans departure just blocks away.",
+    ],
+    highlights: [
+      "Door-front drop-off on Magazine Street, no distant parking garage walk",
+      "Timed pickup coordinated with museum closing or dinner-show schedules",
+      "Convenient pairing with Port of New Orleans cruise departures nearby",
+      "Group and multi-generational family vehicles up to 13 passengers",
+      "Flight tracking for MSY arrivals heading straight to the museum",
+      "Licensed & Insured Carrier",
+    ],
+    venuesTitle: "National WWII Museum Visits We Support",
+    venues: [
+      {
+        name: "Main Campus & Boeing Center",
+        blurb: "The museum's core pavilions and the Road to Berlin and Road to Tokyo exhibits, a full-day visit for most guests.",
+      },
+      {
+        name: "BB's Stage Door Canteen",
+        blurb: "The museum's dinner-and-show experience, with pickup timed to the evening performance schedule.",
+      },
+      {
+        name: "Warehouse District Dining",
+        blurb: "Restaurant row just outside the museum doors, an easy add-on before or after your visit.",
+      },
+      {
+        name: "Port of New Orleans Cruise Terminal",
+        blurb: "A short ride away, popular for cruise passengers fitting in a museum morning before boarding.",
+      },
+      {
+        name: "Veterans & School Group Tours",
+        blurb: "Coordinated multi-vehicle transportation for larger groups visiting together.",
+      },
+      {
+        name: "French Quarter Hotels",
+        blurb: "Direct hotel-to-museum pickups, a few minutes from most Quarter accommodations.",
+      },
+    ],
+    whyTitle: "Why Book a Chauffeur for a Museum Day",
+    whyParagraphs: [
+      "The National WWII Museum is large enough that a full visit genuinely takes most of a day, and the surrounding Warehouse District parking garages fill fast on weekends and during conventions downtown. A chauffeured drop-off at the door, with a pickup timed to closing time or your dinner-show reservation, removes the only real friction point in an otherwise excellent day.",
+      "For veterans' groups and multi-generational families, coordinating one or more vehicles on a synchronized schedule is exactly the kind of planning a dedicated chauffeur service handles well. As a Licensed & Insured Carrier, we quote one flat rate for the visit, whether that's a simple round trip or an hourly booking that adds lunch and a second stop.",
+    ],
+    faqs: [
+      {
+        q: "How far is the National WWII Museum from MSY airport?",
+        a: "About 20 to 25 minutes in normal traffic, making it an easy stop on an arrival or departure day for history-minded travelers.",
+      },
+      {
+        q: "Can you time a pickup around the BB's Stage Door Canteen show?",
+        a: "Yes. Tell us your show time when you book and we'll schedule pickup after the performance ends.",
+      },
+      {
+        q: "Do you handle veterans' groups or school tours?",
+        a: "Yes. We coordinate single or multi-vehicle transportation for groups, sized to the party and timed to the tour schedule.",
+      },
+      {
+        q: "Can you combine the museum with a cruise departure?",
+        a: "Yes — it's a popular pairing. We can plan a museum morning followed by a drop-off at the Port of New Orleans cruise terminal nearby.",
+      },
+      {
+        q: "What does transportation to the museum cost?",
+        a: "A flat rate by vehicle class and pickup address, confirmed before you book, or hourly service for a day that includes other stops. Call (877) 609-1919 for a quote.",
+      },
+    ],
+  },
 ];
 
 // Every page carries five FAQs (visible block + FAQPage schema).
@@ -348,3 +658,4 @@ venues.forEach((p) => {
 });
 
 export const getVenueBySlug = (slug) => venues.find((v) => v.slug === slug);
+export const VENUE_SLUGS = venues.map((v) => v.slug);

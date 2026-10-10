@@ -52,8 +52,8 @@ const WeddingPage = () => {
   return (
     <div className="min-h-screen bg-black">
       <SEO
-        title="Wedding Limo New Orleans | MSY Limo Service"
-        description="Elegant wedding limo service in New Orleans — stretch limos, luxury sedans & guest shuttles with champagne toast and red carpet. Call (877) 609-1919."
+        title="New Orleans Wedding Limo Service | Stretch Limos & Sprinters"
+        description="New Orleans wedding limo service — stretch limos, sedans & Sprinter guest shuttles with champagne toast and red carpet. Call (877) 609-1919 to book."
         path="/services/wedding-limo"
         schema={[weddingFaqSchema]}
       />

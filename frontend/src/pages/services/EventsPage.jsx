@@ -52,8 +52,8 @@ const EventsPage = () => {
   return (
     <div className="min-h-screen bg-black">
       <SEO
-        title="Special Event Limo New Orleans | MSY Limo Service"
-        description="Limo service for proms, concerts, galas & nights out in New Orleans. Flat rates, late-night pickups & pro chauffeurs. Call (877) 609-1919."
+        title="New Orleans Special Event Limo | Proms, Concerts & Galas"
+        description="Special event limo service for proms, concerts, galas and nights out in New Orleans. Flat rates, late-night pickups. Call (877) 609-1919 to reserve."
         path="/services/special-events"
         schema={[eventsFaqSchema]}
       />

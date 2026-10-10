@@ -85,8 +85,8 @@ const CruisePage = () => {
   return (
     <div className="min-h-screen bg-black">
       <SEO
-        title="New Orleans Cruise Port Car Service | MSY Limo"
-        description="Cruise terminal transfers from MSY airport, hotels & homes to the Port of New Orleans. Luggage help, flat rates, group vans. Call (877) 609-1919."
+        title="New Orleans Cruise Port Car Service | MSY to the Terminal"
+        description="Cruise terminal transfers from MSY airport, hotels & homes to the Port of New Orleans. Luggage help, flat rates, group vans. Call (877) 609-1919 to book."
         path="/services/cruise-transportation"
         schema={[cruiseFaqSchema]}
       />

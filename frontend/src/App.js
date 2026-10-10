@@ -2,6 +2,8 @@ import "@/App.css";
 import { useEffect, lazy, Suspense } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { MARYLAND_SLUGS } from "@/data/marylandPages";
+import { ROUTE_SLUGS } from "@/data/routesData";
+import { VENUE_SLUGS } from "@/data/venuesData";
 import { GUIDES } from "@/data/guides";
 import { Toaster } from "@/components/ui/sonner";
 import ChatWidget from "@/components/ChatWidget";
@@ -29,47 +31,8 @@ const EventRoute = lazy(() => import("@/pages/EventRoute"));
 const ServiceAreasPage = lazy(() => import("@/pages/ServiceAreasPage"));
 const VenueLandingPage = lazy(() => import("@/pages/VenueLandingPage"));
 
-// MSY airport route landing pages (content lives in src/data/routesData.js)
-const ROUTE_SLUGS = [
-  "msy-to-new-orleans-downtown",
-  "msy-to-french-quarter",
-  "msy-to-metairie",
-  "msy-to-baton-rouge",
-  "msy-to-slidell",
-  "msy-to-kenner",
-  "msy-to-covington",
-  "msy-to-mandeville",
-  "msy-to-hammond",
-  "msy-to-gretna",
-  "msy-to-biloxi",
-  "msy-to-gulf-shores",
-  "msy-to-mobile-al",
-  "msy-to-lafayette",
-  "msy-to-lake-charles",
-  "msy-to-natchez",
-  "msy-to-jackson-ms",
-  "msy-to-pensacola",
-  "msy-to-shreveport",
-  "msy-to-baton-rouge-downtown",
-  "msy-to-baton-rouge-airport",
-  "msy-to-houma",
-  "msy-to-morgan-city",
-  "msy-to-new-iberia",
-  "msy-to-opelousas",
-  "msy-to-natchitoches",
-  "msy-to-alexandria-la",
-  "msy-to-monroe-la",
-  "msy-to-lake-charles-airport",
-  "msy-to-hattiesburg-ms",
-];
-
-// Concert & event venue landing pages (content lives in src/data/venuesData.js)
-const VENUE_SLUGS = [
-  "concert-transportation",
-  "smoothie-king-center-transportation",
-  "caesars-superdome-transportation",
-  "house-of-blues-new-orleans-transportation",
-];
+// MSY airport route landing pages (content + slugs live in src/data/routesData.js)
+// Concert & event venue landing pages (content + slugs live in src/data/venuesData.js)
 
 // Minimal loading spinner
 const PageLoader = () => (

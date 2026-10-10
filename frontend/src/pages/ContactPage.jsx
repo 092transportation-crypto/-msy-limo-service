@@ -93,8 +93,8 @@ const ContactPage = () => {
   return (
     <div className="min-h-screen bg-black">
       <SEO
-        title="Contact MSY Limo | Book MSY Airport Car Service"
-        description="Book your MSY airport car service or New Orleans airport limo — instant quotes by phone at (877) 609-1919 or through our online form, 24/7."
+        title="Contact MSY Limo Service | Get an Instant Quote"
+        description="Book MSY airport car service or New Orleans limo — get an instant quote by phone at (877) 609-1919 or through our online form, available 24/7."
         path="/contact"
         schema={[contactFaqSchema]}
       />

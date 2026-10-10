@@ -46,8 +46,8 @@ const FleetPage = () => {
   return (
     <div className="min-h-screen bg-black">
       <SEO
-        title="Luxury Fleet | MSY Airport Car Service Vehicles"
-        description="Explore the MSY Limo fleet — Mercedes sedans, Cadillac Escalade SUVs & Sprinter vans for New Orleans airport limo service. Call (877) 609-1919."
+        title="Our Luxury Fleet | Sedans, SUVs & Sprinter Vans"
+        description="See the MSY Limo fleet — Mercedes sedans, Cadillac Escalade SUVs & Sprinter vans for New Orleans airport and event transportation. Call (877) 609-1919."
         path="/fleet"
         schema={[fleetFaqSchema]}
       />

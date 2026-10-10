@@ -20,8 +20,8 @@ export const MARYLAND_BATCH4 = [
     name: "MSY Airport Meet and Greet",
     badge: "MSY Airport Services",
     h1: "MSY Airport Meet and Greet Car Service",
-    metaTitle: "MSY Airport Meet and Greet | Chauffeur Inside Baggage Claim",
-    metaDescription: "Meet and greet car service at MSY: a chauffeur inside baggage claim with a name sign, flight tracking and complimentary wait time. Book at (877) 609-1919.",
+    metaTitle: "MSY Meet and Greet Service | Chauffeur at Baggage Claim",
+    metaDescription: "MSY meet and greet car service — your chauffeur waits inside baggage claim with a name sign, flight tracking and complimentary wait time. Call (877) 609-1919.",
     stats: [
       { label: "Where we meet", value: "Inside baggage claim, name sign" },
       { label: "Flight tracking", value: "Every pickup" },
@@ -482,8 +482,8 @@ export const MARYLAND_BATCH4 = [
     name: "Wedding Limo Service",
     badge: "New Orleans Weddings",
     h1: "New Orleans Wedding Limo Service",
-    metaTitle: "New Orleans Wedding Limo Service | Chauffeured Wedding Cars",
-    metaDescription: "Wedding limo and car service in New Orleans: stretch limousines, Sprinter vans for the wedding party, guest shuttles and getaway cars. Reserve at (877) 609-19.",
+    metaTitle: "New Orleans Wedding Limo Service | Book Your Date",
+    metaDescription: "New Orleans wedding limo and car service — stretch limousines, Sprinter guest shuttles and getaway cars. Reserve your wedding date at (877) 609-1919.",
     stats: [
       { label: "Fleet", value: "Limousines · Sprinters · Sedans · SUVs" },
       { label: "Coverage", value: "New Orleans · Northshore · River Road" },
@@ -939,8 +939,8 @@ export const MARYLAND_BATCH4 = [
     name: "Bourbon Street Transportation",
     badge: "French Quarter Nights",
     h1: "Bourbon Street Transportation",
-    metaTitle: "Bourbon Street Transportation | MSY Limo Service",
-    metaDescription: "Chauffeured transportation to and from Bourbon Street: drop-off at the accessible edge of the Quarter, set pickup corners. Call (877) 609-1919.",
+    metaTitle: "Bourbon Street Transportation | Safe Night Out Car Service",
+    metaDescription: "Chauffeured transportation to and from Bourbon Street, with drop-off at the accessible edge of the Quarter and a set pickup corner. Call (877) 609-1919.",
     stats: [
       { label: "Pickups", value: "Cross streets and Canal, Royal or Dauphine" },
       { label: "Pedestrian hours", value: "Evenings, with barricades" },
@@ -1016,8 +1016,8 @@ export const MARYLAND_BATCH4 = [
     name: "French Quarter",
     badge: "New Orleans Neighborhood Limo Service",
     h1: "French Quarter Limo Service",
-    metaTitle: "French Quarter Limo Service | MSY Limo Service",
-    metaDescription: "Chauffeured limo and car service in the French Quarter: hotel pickups on the right block, MSY transfers, dinners and late-night rides. Call (877) 609-1919.",
+    metaTitle: "French Quarter Limo Service | Hotel Pickups Done Right",
+    metaDescription: "Chauffeured limo and car service in the French Quarter — hotel pickups on the right block, MSY transfers, dinners and late-night rides. Call (877) 609-1919.",
     stats: [
       { label: "MSY Airport", value: "≈ 15 mi · 25–35 minutes" },
       { label: "Streets", value: "One-way grid, evening pedestrian blocks" },

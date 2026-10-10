@@ -88,8 +88,8 @@ const SaintsPage = () => {
   return (
     <div className="min-h-screen bg-black">
       <SEO
-        title="Saints Game Day Limo | Superdome Car Service"
-        description="Saints game day limo & car service to the Caesars Superdome — tailgate drop-offs, post-game pickups & group vehicles. Book at (877) 609-1919."
+        title="Saints Game Day Limo | Caesars Superdome Car Service"
+        description="Saints game day limo to the Caesars Superdome — tailgate drop-offs, post-game pickups & group vans up to 13. Call (877) 609-1919 to book your ride."
         path="/services/saints-game-day"
         schema={[saintsFaqSchema]}
       />

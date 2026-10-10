@@ -7,9 +7,9 @@ export const routes = [
     slug: "msy-to-new-orleans-downtown",
     city: "Downtown New Orleans",
     h1: "MSY Airport to Downtown New Orleans Car Service",
-    metaTitle: "MSY to Downtown New Orleans Car Service | MSY Limo",
+    metaTitle: "MSY to Downtown New Orleans Car Service | Flat Rates",
     metaDescription:
-      "Private MSY airport car service to downtown New Orleans hotels, the CBD & Convention Center. Flat rates, flight tracking, 24/7. Call (877) 609-1919.",
+      "Private car service from MSY to downtown New Orleans hotels, the CBD & Convention Center — flat rates, flight tracking, 24/7. Call (877) 609-1919 to book.",
     distance: "≈ 14 miles",
     time: "20–30 minutes",
     routeVia: "via I-10 East",
@@ -67,9 +67,9 @@ export const routes = [
     slug: "msy-to-french-quarter",
     city: "French Quarter",
     h1: "MSY Airport to French Quarter Car Service",
-    metaTitle: "MSY to French Quarter Car Service & Limo | Flat Rate",
+    metaTitle: "MSY to French Quarter Car Service | Door-to-Door 24/7",
     metaDescription:
-      "Flat-rate luxury car service from MSY airport to the French Quarter. Hotel drop-offs on narrow streets handled right. Book 24/7 at (877) 609-1919.",
+      "Flat-rate luxury car service from MSY to the French Quarter, with hotel drop-offs handled right on the Quarter's narrow streets. Call (877) 609-1919 to book.",
     distance: "≈ 15 miles",
     time: "25–35 minutes",
     routeVia: "via I-10 East & Orleans Avenue",
@@ -1808,6 +1808,366 @@ export const routes = [
       },
     ],
   },
+  {
+    slug: "msy-to-harvey",
+    city: "Harvey",
+    h1: "MSY Airport to Harvey, LA Car Service",
+    metaTitle: "MSY to Harvey LA Car Service | Westbank Airport Transfer",
+    metaDescription:
+      "Private car service from MSY airport to Harvey, LA on the Westbank. Flat rates, flight tracking, 24/7 chauffeurs. Book online or call (877) 609-1919.",
+    distance: "≈ 16 miles",
+    time: "25–30 minutes",
+    routeVia: "via the Huey P. Long Bridge & Westbank Expressway",
+    intro: [
+      "Harvey anchors the eastern end of the Westbank Expressway, a short river crossing from the airport but a corridor that casual rideshare drivers often misjudge. Our chauffeurs cross the Huey P. Long Bridge or the Crescent City Connection daily and know exactly which approach saves time at any hour, so your Harvey pickup or drop-off runs on schedule instead of guesswork.",
+      "Louis Armstrong International sits on the East Bank in Kenner, so reaching Harvey means choosing between the Huey P. Long Bridge upriver or crossing into New Orleans and taking the Crescent City Connection south. Both routes run 25 to 30 minutes under normal conditions; your chauffeur picks the faster one in real time rather than defaulting to whichever a map app suggests.",
+      "We serve the Lapalco Boulevard corridor, the Walmart and retail strip along the Westbank Expressway, Timberlane and the residential streets off Manhattan Boulevard, and the industrial yards and marine terminals along the river that bring crew changes and offshore workers through Harvey at every hour.",
+    ],
+    highlights: [
+      "Flat-rate pricing from any Harvey address, confirmed before you book",
+      "Chauffeurs who choose between the Huey P. Long Bridge and Crescent City Connection based on real-time traffic",
+      "Flight tracking with 45 minutes complimentary wait on domestic arrivals, 60 on international",
+      "Overnight and pre-dawn pickups for offshore crew changes and early flights",
+      "SUVs and Sprinter vans for families and groups with luggage or gear",
+      "Licensed & Insured Carrier, 24/7 dispatch",
+    ],
+    destinationsTitle: "Harvey & Westbank Destinations We Serve",
+    destinations: [
+      { name: "Lapalco Boulevard retail corridor", blurb: "Shopping centers and offices along one of the Westbank's busiest commercial strips." },
+      { name: "Timberlane neighborhoods", blurb: "Residential pickups off Manhattan Boulevard for families and commuters alike." },
+      { name: "Harvey Canal marine terminals", blurb: "Crew change and offshore worker transfers timed around shift schedules, day or night." },
+      { name: "Gretna & Westbank Expressway", blurb: "A short hop to neighboring Gretna for dinners, errands, or connecting trips." },
+      { name: "Oakwood Center area", blurb: "Retail and medical offices near the Westbank Expressway interchange." },
+      { name: "Downtown New Orleans & the French Quarter", blurb: "A straightforward ride across the river for nights out or business meetings." },
+    ],
+    whyTitle: "Why Book a Chauffeur Across the River?",
+    whyParagraphs: [
+      "Rideshare drivers unfamiliar with the Westbank often choose the wrong bridge for the time of day, adding 15 minutes or more to a trip that should be quick. Our chauffeurs cross both the Huey P. Long Bridge and the Crescent City Connection constantly and adjust before they ever reach the ramp, not after they're stuck in the wrong lane.",
+      "A flat rate confirmed at booking also means a Friday rush-hour crossing costs the same as a quiet Tuesday morning. As a Licensed & Insured Carrier with background-checked chauffeurs, we run this crossing around the clock for offshore crew changes, early flights, and late arrivals alike.",
+    ],
+    faqs: [
+      {
+        q: "How long does it take to get from MSY to Harvey?",
+        a: "Typically 25 to 30 minutes via the Huey P. Long Bridge or the Crescent City Connection, depending on which crossing is faster at the time of your trip. Your chauffeur checks conditions before picking the route.",
+      },
+      {
+        q: "Which bridge do you use to reach the Westbank?",
+        a: "Whichever is fastest at the time — the Huey P. Long Bridge upriver or the Crescent City Connection through downtown. We don't default to one route; we check live conditions before every pickup.",
+      },
+      {
+        q: "Do you handle offshore crew change pickups in Harvey?",
+        a: "Yes, regularly. We run early-morning and overnight transfers for crew heading to or from marine terminals along the Harvey Canal, sized to the group and gear.",
+      },
+      {
+        q: "How much does a car service from MSY to Harvey cost?",
+        a: "It's a flat rate by vehicle class, confirmed before you book, with no surge pricing regardless of bridge traffic. Call (877) 609-1919 for an exact quote.",
+      },
+      {
+        q: "Can you pick up from Harvey for a return trip to the airport?",
+        a: "Yes. We run both directions with the same flat-rate pricing, flight tracking on the inbound leg, and a chauffeur who times your pickup against your flight and the bridge traffic.",
+      },
+    ],
+  },
+  {
+    slug: "msy-to-marrero",
+    city: "Marrero",
+    h1: "MSY Airport to Marrero, LA Car Service",
+    metaTitle: "MSY to Marrero LA Car Service | Westbank Car Service",
+    metaDescription:
+      "Chauffeured car service from MSY airport to Marrero, LA. Flat rates, flight tracking, Barataria Blvd pickups. Call (877) 609-1919 to book.",
+    distance: "≈ 19 miles",
+    time: "30–35 minutes",
+    routeVia: "via the Huey P. Long Bridge & Barataria Boulevard",
+    intro: [
+      "Marrero sits further down the Westbank than its river-crossing neighbors, stretching along Barataria Boulevard toward the Jean Lafitte wetlands. For residents and visitors flying out of MSY, that extra distance makes a reserved chauffeur even more valuable — a missed shuttle or a long rideshare wait costs real time on a trip that's already the longest Westbank run we cover routinely.",
+      "The drive from MSY crosses the Huey P. Long Bridge and follows the Westbank Expressway and Barataria Boulevard into Marrero, usually 30 to 35 minutes depending on the time of day. Our chauffeurs watch both the bridge and the Expressway for backups and adjust the approach rather than sitting in a slow lane.",
+      "We regularly serve the Estelle and Woodmere neighborhoods, the Lapalco Boulevard retail corridor as it continues west, and the gateway communities near the Barataria Preserve for visitors headed out to the swamp tours and nature trails that draw travelers to this part of Jefferson Parish.",
+    ],
+    highlights: [
+      "Flat-rate pricing confirmed before you book, regardless of bridge traffic",
+      "Chauffeurs experienced with the full Westbank Expressway and Barataria Boulevard corridor",
+      "45 minutes of complimentary wait time on domestic arrivals, 60 on international",
+      "Early and late pickups for swamp tour departures and flights alike",
+      "SUVs and Sprinter vans for groups heading to Jean Lafitte National Park",
+      "Licensed & Insured Carrier, 24/7 dispatch",
+    ],
+    destinationsTitle: "Marrero & Barataria Destinations",
+    destinations: [
+      { name: "Barataria Boulevard corridor", blurb: "The main commercial spine through Marrero, with offices, retail, and medical stops." },
+      { name: "Jean Lafitte National Historical Park", blurb: "Gateway drop-offs for visitors headed to the Barataria Preserve's trails and swamp tours." },
+      { name: "Estelle & Woodmere neighborhoods", blurb: "Residential pickups across Marrero's family neighborhoods." },
+      { name: "Lapalco Boulevard retail strip", blurb: "Shopping and errands along the Westbank's busiest commercial corridor." },
+      { name: "Gretna & Harvey", blurb: "Quick connections to neighboring Westbank communities for dinners or appointments." },
+      { name: "Downtown New Orleans", blurb: "A direct run across the river for business travel or an evening out." },
+    ],
+    whyTitle: "Why Marrero Travelers Book Ahead",
+    whyParagraphs: [
+      "Marrero is far enough down the Westbank that a casual rideshare driver may not know the fastest way in, especially once Barataria Boulevard traffic builds in the afternoon. Our chauffeurs drive this corridor regularly and know when to stay on the Expressway and when to cut over early.",
+      "A fixed rate, agreed before the chauffeur leaves, removes the guesswork that comes with a longer suburban trip. As a Licensed & Insured Carrier, we run early-morning swamp tour transfers and late-night airport arrivals on the same predictable terms.",
+    ],
+    faqs: [
+      {
+        q: "How far is Marrero from MSY airport?",
+        a: "About 19 miles, usually a 30 to 35 minute drive via the Huey P. Long Bridge, the Westbank Expressway, and Barataria Boulevard, depending on traffic.",
+      },
+      {
+        q: "Can you drop us at Jean Lafitte National Park for a swamp tour?",
+        a: "Yes. We regularly handle gateway drop-offs and pickups for visitors heading to the Barataria Preserve, timed to your tour departure.",
+      },
+      {
+        q: "Is Marrero service priced differently than closer Westbank towns?",
+        a: "The flat rate reflects the slightly longer distance, but it's still confirmed before you book with no surge pricing. Call (877) 609-1919 for an exact quote.",
+      },
+      {
+        q: "Do you pick up early for morning swamp tours or flights?",
+        a: "Yes, any hour. Early-morning Marrero pickups for tours and flights are routine, and dispatch runs 24/7.",
+      },
+      {
+        q: "Can you handle a group heading to the Barataria wetlands?",
+        a: "Yes. Our Cadillac Escalade SUVs and Mercedes Sprinter vans comfortably carry groups and gear for a day in the wetlands.",
+      },
+    ],
+  },
+  {
+    slug: "msy-to-destrehan",
+    city: "Destrehan",
+    h1: "MSY Airport to Destrehan, LA Car Service",
+    metaTitle: "MSY to Destrehan LA Car Service | Plantation Transfers",
+    metaDescription:
+      "Private car service from MSY to Destrehan, LA, including Destrehan Plantation tours. Flat rates, flight tracking, 24/7. Call (877) 609-1919.",
+    distance: "≈ 23 miles",
+    time: "25–35 minutes",
+    routeVia: "via I-10 West & LA-48 (River Road)",
+    intro: [
+      "Destrehan sits on the River Road just upriver from Kenner, home to Destrehan Plantation — one of the oldest plantation homes in the Lower Mississippi Valley and a regular stop for history-minded visitors flying into MSY. Our chauffeurs make the run from the terminal in well under 40 minutes, so a plantation tour can realistically bookend a single morning or afternoon.",
+      "The drive follows I-10 West to the LA-48 exit, then River Road along the natural levee into Destrehan. Traffic on I-10 through Kenner and the River Parishes interchange is the only real variable; your chauffeur watches it before pickup and adjusts the timing so you're not rushed at either end.",
+      "Beyond the plantation, we serve St. Charles Parish's industrial corridor — the refineries and chemical plants that employ much of the parish — along with residential pickups in Destrehan's riverside neighborhoods and connections onward to LaPlace and Luling.",
+    ],
+    highlights: [
+      "Under 40 minutes door to door from MSY via I-10 and River Road",
+      "Timed arrivals for Destrehan Plantation tour schedules",
+      "Flat-rate pricing confirmed before you book",
+      "Flight tracking with complimentary wait time on every airport pickup",
+      "Shift-friendly pickups for St. Charles Parish industrial and refinery workers",
+      "Licensed & Insured Carrier, 24/7 dispatch",
+    ],
+    destinationsTitle: "Destrehan & River Parish Destinations",
+    destinations: [
+      { name: "Destrehan Plantation", blurb: "Guided tours of the 1787 manor house, timed drop-off and pickup around your tour slot." },
+      { name: "River Road refineries & plants", blurb: "Shift-change and contractor transfers across St. Charles Parish's industrial corridor." },
+      { name: "Ormond Plantation area", blurb: "Nearby historic sites and event venues along the River Road corridor." },
+      { name: "LaPlace", blurb: "A short continuation west for visitors combining multiple River Parishes stops." },
+      { name: "Luling & the Hale Boggs Bridge", blurb: "Connections across the river for travelers continuing toward the West Bank." },
+      { name: "Kenner & MSY hotels", blurb: "Return transfers for visitors staying near the airport before an early flight." },
+    ],
+    whyTitle: "Why Fly Into MSY for the River Parishes?",
+    whyParagraphs: [
+      "Destrehan is close enough to MSY that visitors often combine a plantation tour with same-day arrival or departure, something that's much harder to coordinate with a rental car and an unfamiliar River Road exit. Our chauffeurs know exactly which LA-48 exit serves which plantation and time the drive around your tour's start.",
+      "For parish residents, the value is different but just as real: a fixed-rate ride to the airport means no asking a neighbor for a ride at 4 a.m. for an early flight. As a Licensed & Insured Carrier, we run Destrehan pickups on the same flat-rate, flight-tracked standard as every other address we serve.",
+    ],
+    faqs: [
+      {
+        q: "How long is the drive from MSY to Destrehan Plantation?",
+        a: "About 25 to 35 minutes via I-10 West and River Road, depending on traffic through the Kenner and River Parishes interchange area.",
+      },
+      {
+        q: "Can you time our pickup to a plantation tour schedule?",
+        a: "Yes. Tell us your tour time when you book and we'll back-time the pickup from MSY or your hotel so you arrive a few minutes early rather than rushed.",
+      },
+      {
+        q: "Do you serve refinery and plant workers in Destrehan?",
+        a: "Yes, regularly. We run shift-change and contractor transfers across the St. Charles Parish industrial corridor at any hour.",
+      },
+      {
+        q: "What does an MSY to Destrehan transfer cost?",
+        a: "A flat rate by vehicle class, confirmed before you book, with no surge pricing in either direction. Call (877) 609-1919 for an exact quote.",
+      },
+      {
+        q: "Can you combine Destrehan with other River Road plantations?",
+        a: "Yes — many visitors book hourly, as-directed service to cover multiple River Road stops in one day. Ask about our hourly charter when you call.",
+      },
+    ],
+  },
+  {
+    slug: "msy-to-laplace",
+    city: "LaPlace",
+    h1: "MSY Airport to LaPlace, LA Car Service",
+    metaTitle: "MSY to LaPlace LA Car Service | River Parishes Transfer",
+    metaDescription:
+      "Chauffeured car service from MSY airport to LaPlace, LA in St. John the Baptist Parish. Flat rates, flight tracking, 24/7. Call (877) 609-1919.",
+    distance: "≈ 28 miles",
+    time: "30–35 minutes",
+    routeVia: "via I-10 West",
+    intro: [
+      "LaPlace sits a straight shot up I-10 from the airport, the commercial hub of St. John the Baptist Parish and home to the region's andouille sausage tradition, several major industrial employers, and a growing residential base for people who work in New Orleans but prefer River Parishes living. MSY is the clear airport of choice here, and the drive is one of our most direct.",
+      "From the terminal, the route is almost entirely I-10 West — no bridge crossing, no downtown traffic, just a straightforward run that typically takes 30 to 35 minutes. The only real variable is the stretch through Kenner and the I-10/I-55 interchange, which our chauffeurs watch before confirming your pickup time.",
+      "We serve the retail corridor along Main Street and Belle Terre Boulevard, the industrial employers that anchor the parish's economy, and residential neighborhoods throughout LaPlace, Reserve, and Garyville for travelers who'd rather book a reserved ride than ask a coworker for an airport favor.",
+    ],
+    highlights: [
+      "Direct I-10 route — no bridge crossing, no downtown detour",
+      "30 to 35 minute drive time in normal conditions",
+      "Flat-rate pricing confirmed before you book",
+      "Flight tracking with complimentary wait time on airport pickups",
+      "Shift-friendly scheduling for industrial and plant employees",
+      "Licensed & Insured Carrier, 24/7 dispatch",
+    ],
+    destinationsTitle: "LaPlace & St. John Parish Destinations",
+    destinations: [
+      { name: "Belle Terre Boulevard retail corridor", blurb: "Shopping, dining, and office stops along LaPlace's main commercial strip." },
+      { name: "St. John the Baptist Parish industrial corridor", blurb: "Shift-change transfers for the plants and plants' contractors along the river." },
+      { name: "Reserve & Garyville", blurb: "Neighboring St. John Parish communities covered on the same flat-rate basis." },
+      { name: "Andouille Festival grounds", blurb: "Seasonal event transportation when LaPlace's signature festival draws regional crowds." },
+      { name: "Destrehan & the River Road plantations", blurb: "A short continuation east for visitors touring multiple River Parishes sites." },
+      { name: "Kenner & MSY-area hotels", blurb: "Return transfers for travelers overnighting near the airport before an early flight." },
+    ],
+    whyTitle: "Why LaPlace Chooses MSY",
+    whyParagraphs: [
+      "With no regional commercial airport nearby, LaPlace residents fly out of MSY almost by default — the question is how to get there reliably. A reserved chauffeur removes the pre-dawn-favor problem entirely: one flat rate, booked in advance, with a chauffeur who shows up on your schedule rather than theirs.",
+      "For visitors coming the other direction — contractors, industrial consultants, andouille festival attendees — a straight I-10 ride from a nonstop-heavy airport like MSY beats routing through a smaller regional field. As a Licensed & Insured Carrier, we run this corridor daily in both directions.",
+    ],
+    faqs: [
+      {
+        q: "How far is LaPlace from MSY airport?",
+        a: "About 28 miles, typically a 30 to 35 minute drive straight up I-10 West with no bridge crossing involved.",
+      },
+      {
+        q: "Do you serve industrial plant workers in LaPlace?",
+        a: "Yes, regularly, including early-morning and overnight shift-change transfers for contractors and employees along the parish's industrial corridor.",
+      },
+      {
+        q: "Is there a faster way to the airport than driving yourself?",
+        a: "A reserved chauffeur removes the parking, the pre-dawn favor-asking, and the uncertainty of rideshare availability at odd hours — the drive time is the same, but the reliability isn't.",
+      },
+      {
+        q: "What does an MSY to LaPlace transfer cost?",
+        a: "A flat rate by vehicle class, confirmed before you book, with no surge pricing in either direction. Call (877) 609-1919 for an exact quote.",
+      },
+      {
+        q: "Can you handle group transportation for the Andouille Festival?",
+        a: "Yes. Sprinter vans and SUVs are available for festival groups, with flat rates confirmed ahead of the event weekend.",
+      },
+    ],
+  },
+  {
+    slug: "msy-to-chalmette",
+    city: "Chalmette",
+    h1: "MSY Airport to Chalmette, LA Car Service",
+    metaTitle: "MSY to Chalmette LA Car Service | St. Bernard Parish",
+    metaDescription:
+      "Private car service from MSY airport to Chalmette, LA and St. Bernard Parish. Flat rates, flight tracking, 24/7 chauffeurs. Call (877) 609-1919.",
+    distance: "≈ 26 miles",
+    time: "35–45 minutes",
+    routeVia: "via I-10 East & Judge Perez Drive, or St. Claude Avenue",
+    intro: [
+      "Chalmette is the seat of St. Bernard Parish, just downriver from the French Quarter and home to the Chalmette Battlefield, where the Battle of New Orleans was fought in 1815 and which is preserved today as part of Jean Lafitte National Historical Park. It's a short trip from the city but routinely overlooked by rideshare drivers who don't know the parish well.",
+      "From MSY, the route runs east on I-10 through New Orleans and then down into St. Bernard Parish via Judge Perez Drive, or along the more local St. Claude Avenue through the Lower Ninth Ward. The drive typically takes 35 to 45 minutes, with downtown New Orleans traffic the main variable your chauffeur plans around.",
+      "We serve the Chalmette Battlefield and its visitor center, the parish government and court complex, the Paris Road retail corridor, and residential neighborhoods throughout Chalmette, Arabi, and Meraux — a parish that rebuilt block by block after Hurricane Katrina and that we're proud to serve on the same terms as every other part of greater New Orleans.",
+    ],
+    highlights: [
+      "Flat-rate pricing from any St. Bernard Parish address",
+      "Chauffeurs who know Judge Perez Drive and St. Claude Avenue equally well",
+      "Flight tracking with complimentary wait time on every airport pickup",
+      "Timed drop-offs for Chalmette Battlefield tours and ranger programs",
+      "SUVs and Sprinter vans for family and group travel",
+      "Licensed & Insured Carrier, 24/7 dispatch",
+    ],
+    destinationsTitle: "Chalmette & St. Bernard Parish Destinations",
+    destinations: [
+      { name: "Chalmette Battlefield & National Cemetery", blurb: "Jean Lafitte National Historical Park's 1815 battle site, with ranger-led programs and walking trails." },
+      { name: "St. Bernard Parish Government Complex", blurb: "Courthouse and administrative pickups for parish business and jury duty." },
+      { name: "Paris Road retail corridor", blurb: "Shopping and dining stops along Chalmette's main commercial strip." },
+      { name: "Arabi & the Lower Ninth Ward", blurb: "Neighboring communities along St. Claude Avenue, served on the same flat-rate basis." },
+      { name: "Meraux & Violet", blurb: "Residential St. Bernard Parish neighborhoods further downriver." },
+      { name: "Downtown New Orleans & the French Quarter", blurb: "A direct ride upriver for dinners, work, or a night out." },
+    ],
+    whyTitle: "Why St. Bernard Parish Travelers Book Ahead",
+    whyParagraphs: [
+      "Chalmette is close to the city but far enough from the typical visitor map that rideshare availability can be thin, especially late at night. A reserved chauffeur means your ride is committed to you from the moment you book, not dependent on who happens to be nearby when you request one.",
+      "History-minded visitors also appreciate having a chauffeur who knows the Chalmette Battlefield's layout and ranger program schedule, so a tour doesn't turn into a rushed afternoon. As a Licensed & Insured Carrier, we quote one flat rate for the full MSY-to-Chalmette run, regardless of which route the traffic favors that day.",
+    ],
+    faqs: [
+      {
+        q: "How long does it take to get from MSY to Chalmette?",
+        a: "Typically 35 to 45 minutes via I-10 East and Judge Perez Drive or St. Claude Avenue, depending on traffic through downtown New Orleans.",
+      },
+      {
+        q: "Can you time a pickup around a Chalmette Battlefield tour?",
+        a: "Yes. Tell us your tour or ranger program time when you book and we'll plan the pickup so you arrive with time to spare.",
+      },
+      {
+        q: "Do you serve all of St. Bernard Parish, or just Chalmette proper?",
+        a: "All of it — Chalmette, Arabi, Meraux, Violet, and the rest of the parish, all at a flat rate confirmed before you book.",
+      },
+      {
+        q: "What does an MSY to Chalmette transfer cost?",
+        a: "A flat rate by vehicle class, confirmed before you book, with no surge pricing regardless of downtown traffic. Call (877) 609-1919 for an exact quote.",
+      },
+      {
+        q: "Is it easy to get a ride from Chalmette late at night?",
+        a: "With us, yes — dispatch runs 24/7 and your reservation is committed in advance, unlike rideshare availability, which can be thin in St. Bernard Parish late at night.",
+      },
+    ],
+  },
+  {
+    slug: "msy-to-abita-springs",
+    city: "Abita Springs",
+    h1: "MSY Airport to Abita Springs, LA Car Service",
+    metaTitle: "MSY to Abita Springs LA Car Service | Northshore Transfer",
+    metaDescription:
+      "Chauffeured car service from MSY airport to Abita Springs, LA across the Causeway. Flat rates, flight tracking, 24/7. Call (877) 609-1919.",
+    distance: "≈ 47 miles",
+    time: "50–60 minutes",
+    routeVia: "via I-10 East & the Lake Pontchartrain Causeway",
+    intro: [
+      "Abita Springs is the small, spring-fed Northshore town best known for the Abita Brewing Company and its small-town square, tucked between Covington and Mandeville in St. Tammany Parish. It's far enough from MSY that the drive deserves real planning, and close enough that our chauffeurs make the run routinely.",
+      "The fastest path crosses the 24-mile Lake Pontchartrain Causeway — the longest bridge over water in the world — which our chauffeurs cross daily and know well in every weather condition the lake can produce. From the Causeway's north shore landing, it's a short run through Mandeville and Covington into Abita Springs, usually 50 to 60 minutes total from the airport.",
+      "We serve the historic town square and the Abita Brewing Company's visitor center and tours, along with the wooded residential streets that make Abita Springs a favorite for Northshore families who still want an easy connection to MSY for flights.",
+    ],
+    highlights: [
+      "Causeway crossing handled by chauffeurs who drive it daily",
+      "Flat-rate pricing confirmed before you book, regardless of Causeway traffic or tolls",
+      "Flight tracking with complimentary wait time on airport pickups",
+      "Brewery tour and town square drop-offs timed to your plans",
+      "SUVs and Sprinter vans for groups visiting the brewery",
+      "Licensed & Insured Carrier, 24/7 dispatch",
+    ],
+    destinationsTitle: "Abita Springs & Northshore Destinations",
+    destinations: [
+      { name: "Abita Brewing Company", blurb: "Louisiana's oldest craft brewery, with tours and a tasting room a short walk from the town square." },
+      { name: "Abita Springs Town Square", blurb: "The green space and historic pavilion at the heart of this small Northshore town." },
+      { name: "Covington", blurb: "A short continuation north for the Columbia Street historic district and antique shops." },
+      { name: "Mandeville & the lakefront", blurb: "Quick connections to Mandeville's lakefront parks and the Trailhead." },
+      { name: "Abita Mystery House", blurb: "The folk-art roadside museum that's become a Northshore landmark in its own right." },
+      { name: "MSY airport hotels", blurb: "Return transfers for visitors flying out after a Northshore weekend." },
+    ],
+    whyTitle: "Why Book a Chauffeur for the Causeway Crossing",
+    whyParagraphs: [
+      "The Lake Pontchartrain Causeway can close or slow dramatically in fog or high wind, and it's a long, exposed drive for anyone unfamiliar with it. Our chauffeurs cross it constantly, know the current conditions before you ever leave the terminal, and plan around closures rather than finding out about them mid-bridge.",
+      "A flat rate confirmed at booking also means the 24-mile crossing and the Causeway toll are already baked into your price — no surprise fee when you land. As a Licensed & Insured Carrier, we run this Northshore route year-round, including brewery tour groups and families visiting Abita Springs for a weekend away from the city.",
+    ],
+    faqs: [
+      {
+        q: "How long does it take to get from MSY to Abita Springs?",
+        a: "Usually 50 to 60 minutes, most of it spent crossing the 24-mile Lake Pontchartrain Causeway before a short run through Mandeville and Covington into town.",
+      },
+      {
+        q: "Is the Causeway toll included in the price?",
+        a: "Yes. Your flat rate is all-inclusive, confirmed before you book, with no added toll or surge fee on top.",
+      },
+      {
+        q: "Can you take us on a brewery tour at Abita Brewing Company?",
+        a: "Yes. We regularly handle tour and tasting-room transfers, and can book an hourly charter if you want to combine the brewery with other Northshore stops.",
+      },
+      {
+        q: "What happens if the Causeway closes for weather?",
+        a: "Your chauffeur monitors conditions and plans an alternate route over the Twin Span if needed, at no change to your confirmed flat rate.",
+      },
+      {
+        q: "What does an MSY to Abita Springs transfer cost?",
+        a: "A flat rate by vehicle class, confirmed before you book and inclusive of the Causeway toll, with no surge pricing. Call (877) 609-1919 for an exact quote.",
+      },
+    ],
+  },
 ];
 
 // Every page carries five FAQs (visible block + FAQPage schema).
@@ -1816,3 +2176,4 @@ routes.forEach((p) => {
 });
 
 export const getRouteBySlug = (slug) => routes.find((r) => r.slug === slug);
+export const ROUTE_SLUGS = routes.map((r) => r.slug);

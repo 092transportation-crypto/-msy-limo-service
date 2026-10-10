@@ -19,8 +19,8 @@ export const MARYLAND_BATCH3 = [
     name: "Metairie",
     badge: "Jefferson Parish Limo Service",
     h1: "Metairie Limo Service",
-    metaTitle: "Metairie Limo Service | Car Service Metairie, LA",
-    metaDescription: "Chauffeured car and limo service in Metairie, LA. MSY airport transfers minutes away, corporate travel, weddings and nights out. Call (877) 609-1919.",
+    metaTitle: "Metairie Limo Service | MSY Airport Minutes Away",
+    metaDescription: "Chauffeured limo and car service in Metairie, LA — MSY airport transfers minutes away, corporate travel, weddings and nights out. Call (877) 609-1919 to book.",
     stats: [
       { label: "MSY Airport", value: "≈ 9 mi · 15–20 minutes" },
       { label: "Parish", value: "Jefferson" },
@@ -89,8 +89,8 @@ export const MARYLAND_BATCH3 = [
     name: "Kenner",
     badge: "Jefferson Parish Limo Service",
     h1: "Kenner Limo Service",
-    metaTitle: "Kenner Limo Service | MSY Airport Car Service Kenner",
-    metaDescription: "Kenner, LA limo and car service at the doorstep of MSY airport. Hotel pickups, early flights, Pontchartrain Center events. Book online or call (877) 609-1919.",
+    metaTitle: "Kenner Limo Service | Car Service at the MSY Doorstep",
+    metaDescription: "Kenner, LA limo and car service right at the MSY airport doorstep — hotel pickups, early flights, Pontchartrain Center events. Call (877) 609-1919 to book.",
     stats: [
       { label: "MSY Airport", value: "2–5 mi · 5–15 minutes" },
       { label: "Parish", value: "Jefferson" },

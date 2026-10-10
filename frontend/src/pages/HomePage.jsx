@@ -34,8 +34,8 @@ const HomePage = () => {
       className="min-h-screen bg-black"
     >
       <SEO
-        title="MSY Airport Car Service | New Orleans Airport Limo"
-        description="MSY airport car service & New Orleans airport limo. Luxury chauffeur transfers, flat rates, flight tracking, 24/7. Licensed & insured. Call (877) 609-1919."
+        title="MSY Airport Car Service & New Orleans Limo | Book 24/7"
+        description="MSY airport car service & New Orleans limo with flat rates, no surge and real-time flight tracking. Licensed & insured. Book online or call (877) 609-1919."
         path="/"
         schema={[homeFaqSchema]}
       />

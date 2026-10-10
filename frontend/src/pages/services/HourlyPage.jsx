@@ -52,8 +52,8 @@ const HourlyPage = () => {
   return (
     <div className="min-h-screen bg-black">
       <SEO
-        title="Hourly Limo Charter New Orleans | MSY Limo Service"
-        description="Hourly chauffeur charter in New Orleans — tours, multi-stop days & events with a dedicated luxury vehicle. 3-hour minimum. Call (877) 609-1919."
+        title="Hourly Limo Charter New Orleans | As-Directed Chauffeur"
+        description="Hourly as-directed chauffeur charter in New Orleans for tours, multi-stop days & events, with a dedicated vehicle. Call (877) 609-1919 to book."
         path="/services/hourly-charter"
         schema={[hourlyFaqSchema]}
       />

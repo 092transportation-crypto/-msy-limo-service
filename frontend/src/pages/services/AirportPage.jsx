@@ -51,8 +51,8 @@ const AirportPage = () => {
   return (
     <div className="min-h-screen bg-black">
       <SEO
-        title="MSY Airport Transportation | New Orleans Airport Limo"
-        description="MSY airport car service with flight tracking, meet & greet and flat rates. New Orleans airport limo transfers 24/7. Call (877) 609-1919."
+        title="MSY Airport Transportation | Flat-Rate Car Service 24/7"
+        description="MSY airport transportation with real-time flight tracking, meet & greet and flat rates — never any surge pricing. Book online or call (877) 609-1919."
         path="/services/airport-transportation"
         schema={[airportFaqSchema]}
       />
