@@ -99,7 +99,7 @@ export const MARYLAND_BATCH4 = [
     badge: "MSY Airport Services",
     h1: "MSY Airport Corporate Car Service",
     metaTitle: "MSY Airport Corporate Car Service | Executive Chauffeurs",
-    metaDescription: "Corporate car service at MSY airport for executives, clients and teams. Flight tracking, corporate accounts with monthly invoicing, 24/7 dispatch. (877) 609-1.",
+    metaDescription: "Corporate car service at MSY airport for executives, clients and teams. Flight tracking, monthly invoicing, 24/7 dispatch. Call (877) 609-1919.",
     stats: [
       { label: "Billing", value: "Corporate accounts · monthly invoicing" },
       { label: "Flight tracking", value: "Every pickup" },
@@ -330,7 +330,7 @@ export const MARYLAND_BATCH4 = [
     badge: "MSY Airport Services",
     h1: "MSY Airport Arrival Pickup Car Service",
     metaTitle: "MSY Airport Arrival Pickup | Where Your Chauffeur Meets You",
-    metaDescription: "How arrival pickup works at MSY: flight tracking, the commercial pickup area outside baggage claim, meet and greet and 45/60 minutes of wait time. (877) 609-1.",
+    metaDescription: "How arrival pickup works at MSY: flight tracking, the pickup area outside baggage claim, meet and greet, 45/60 min wait time. Call (877) 609-1919.",
     stats: [
       { label: "Pickup point", value: "Commercial area outside baggage claim" },
       { label: "Complimentary wait", value: "45 min domestic · 60 min international" },
@@ -547,6 +547,7 @@ export const MARYLAND_BATCH4 = [
       { label: "Garden District Limo Service", to: "/garden-district-limo-service" },
       { label: "French Quarter Limo Service", to: "/french-quarter-limo-service" },
       { label: "Bachelorette Party Transportation", to: "/new-orleans-bachelorette-party-transportation" },
+      { label: "Sprinter Van Rental with Driver", to: "/sprinter-van-rental-with-driver-new-orleans" },
       { label: "Wedding Transportation Timeline", to: "/blog/new-orleans-wedding-transportation-timeline" },
       { label: "Special Events", to: "/services/special-events" },
       { label: "Book a Ride", to: "/booking" },
@@ -713,7 +714,7 @@ export const MARYLAND_BATCH4 = [
     badge: "New Orleans Proms",
     h1: "New Orleans Prom Limo Service",
     metaTitle: "New Orleans Prom Limo Service | MSY Limo Service",
-    metaDescription: "Prom limo service in New Orleans and Metairie: stretch limousines and Sprinter vans, licensed chauffeurs, parent-approved itineraries. Reserve early at (877).",
+    metaDescription: "Prom limo service in New Orleans and Metairie: stretch limos and Sprinter vans, licensed chauffeurs, parent-approved itineraries. Call (877) 609-1919.",
     stats: [
       { label: "Fleet", value: "Stretch limousine · Sprinter van · Escalade" },
       { label: "Coverage", value: "New Orleans · Metairie · Westbank · Northshore" },
@@ -853,6 +854,7 @@ export const MARYLAND_BATCH4 = [
       { label: "New Orleans Prom Limo Service", to: "/new-orleans-prom-limo-service" },
       { label: "Saints Game Day Service", to: "/services/saints-game-day" },
       { label: "Concert Transportation", to: "/concert-transportation" },
+      { label: "Sprinter Van Rental with Driver", to: "/sprinter-van-rental-with-driver-new-orleans" },
       { label: "Hourly Charter", to: "/services/hourly-charter" },
       { label: "Book a Ride", to: "/booking" },
     ],
@@ -1412,6 +1414,7 @@ export const MARYLAND_BATCH4 = [
       { label: "Lakeview New Orleans Limo Service", to: "/lakeview-new-orleans-limo-service" },
       { label: "Treme Limo Service", to: "/treme-limo-service" },
       { label: "Uptown New Orleans Limo Service", to: "/uptown-new-orleans-limo-service" },
+      { label: "Gentilly Limo Service", to: "/gentilly-limo-service" },
       { label: "Jazz Fest Transportation Guide", to: "/blog/new-orleans-jazz-fest-transportation" },
       { label: "Airport Transportation", to: "/services/airport-transportation" },
       { label: "Book a Ride", to: "/booking" },
@@ -1544,6 +1547,7 @@ export const MARYLAND_BATCH4 = [
     ],
     related: [
       { label: "Gretna and Westbank Limo Service", to: "/gretna-westbank-limo-service" },
+      { label: "Belle Chasse Limo Service", to: "/belle-chasse-limo-service" },
       { label: "MSY to Gretna", to: "/msy-to-gretna" },
       { label: "French Quarter Limo Service", to: "/french-quarter-limo-service" },
       { label: "New Orleans Wedding Limo Service", to: "/new-orleans-wedding-limo-service" },

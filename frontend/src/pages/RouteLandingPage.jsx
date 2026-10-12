@@ -286,6 +286,12 @@ const RouteLandingPage = ({ slug }) => {
             Also Serving These MSY Routes
           </h2>
           <div className="flex flex-wrap gap-3">
+            <Link
+              to="/services/airport-transportation"
+              className="px-4 py-2 bg-amber-500 text-black rounded-lg text-sm font-semibold hover:bg-amber-400 transition-colors"
+            >
+              All MSY Airport Transportation
+            </Link>
             {otherRoutes.map((r) => (
               <Link
                 key={r.slug}

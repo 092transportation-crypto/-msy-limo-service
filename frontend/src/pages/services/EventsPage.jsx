@@ -288,6 +288,32 @@ const EventsPage = () => {
       </section>
 
       <PageFaq faqs={EVENTS_FAQS} />
+
+      {/* Related event & venue pages */}
+      <section className="py-16 bg-gray-900">
+        <div className="max-w-7xl mx-auto px-6 md:px-12">
+          <h2 className="text-2xl font-medium mb-8 text-amber-400" style={{ fontFamily: "'Playfair Display', serif" }}>
+            Events, By Occasion & Venue
+          </h2>
+          <div className="flex flex-wrap gap-3">
+            {[
+              { to: "/new-orleans-prom-limo-service", label: "Prom Limo Service" },
+              { to: "/new-orleans-bachelorette-party-transportation", label: "Bachelorette Party" },
+              { to: "/new-orleans-quinceanera-limo-service", label: "Quinceañera" },
+              { to: "/mardi-gras-parade-transportation", label: "Mardi Gras" },
+              { to: "/jazz-fest-fair-grounds-transportation", label: "Jazz Fest" },
+              { to: "/caesars-superdome-transportation", label: "Caesars Superdome" },
+              { to: "/smoothie-king-center-transportation", label: "Smoothie King Center" },
+              { to: "/house-of-blues-new-orleans-transportation", label: "House of Blues" },
+            ].map((l) => (
+              <Link key={l.to} to={l.to} className="px-4 py-2 bg-amber-500/10 border border-amber-500/30 rounded-lg text-sm text-amber-400 font-medium hover:bg-amber-500/20 transition-colors">
+                {l.label}
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <Footer />
     </div>
   );

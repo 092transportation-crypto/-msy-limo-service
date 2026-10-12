@@ -268,6 +268,30 @@ const HourlyPage = () => {
       </section>
 
       <PageFaq faqs={HOURLY_FAQS} />
+
+      {/* Related hourly & touring pages */}
+      <section className="py-16 bg-gray-900">
+        <div className="max-w-7xl mx-auto px-6 md:px-12">
+          <h2 className="text-2xl font-medium mb-8 text-amber-400" style={{ fontFamily: "'Playfair Display', serif" }}>
+            Hourly Charter, By Itinerary
+          </h2>
+          <div className="flex flex-wrap gap-3">
+            {[
+              { to: "/new-orleans-party-bus-transportation", label: "Party Bus Transportation" },
+              { to: "/new-orleans-graduation-limo-service", label: "Graduation Limo Service" },
+              { to: "/city-park-nola-transportation", label: "City Park" },
+              { to: "/national-wwii-museum-transportation", label: "National WWII Museum" },
+              { to: "/tulane-university-transportation", label: "Tulane University" },
+              { to: "/services/wedding-limo", label: "Wedding Limo" },
+            ].map((l) => (
+              <Link key={l.to} to={l.to} className="px-4 py-2 bg-amber-500/10 border border-amber-500/30 rounded-lg text-sm text-amber-400 font-medium hover:bg-amber-500/20 transition-colors">
+                {l.label}
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <Footer />
     </div>
   );

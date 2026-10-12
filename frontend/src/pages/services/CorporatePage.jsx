@@ -286,6 +286,29 @@ const CorporatePage = () => {
       </section>
 
       <PageFaq faqs={CORPORATE_FAQS} />
+
+      {/* Related corporate & CBD pages */}
+      <section className="py-16 bg-gray-900">
+        <div className="max-w-7xl mx-auto px-6 md:px-12">
+          <h2 className="text-2xl font-medium mb-8 text-amber-400" style={{ fontFamily: "'Playfair Display', serif" }}>
+            Corporate Travel, By Need
+          </h2>
+          <div className="flex flex-wrap gap-3">
+            {[
+              { to: "/new-orleans-corporate-car-service", label: "New Orleans Corporate Car Service" },
+              { to: "/new-orleans-black-car-service", label: "Black Car Service" },
+              { to: "/warehouse-district-cbd-limo-service", label: "CBD / Warehouse District" },
+              { to: "/msy-airport-corporate-car-service", label: "MSY Airport Corporate Transfers" },
+              { to: "/services/hourly-charter", label: "Hourly Charter" },
+            ].map((l) => (
+              <Link key={l.to} to={l.to} className="px-4 py-2 bg-amber-500/10 border border-amber-500/30 rounded-lg text-sm text-amber-400 font-medium hover:bg-amber-500/20 transition-colors">
+                {l.label}
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <Footer />
     </div>
   );

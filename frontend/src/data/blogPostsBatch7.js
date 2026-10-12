@@ -13,7 +13,7 @@ export const BLOG_POSTS_BATCH7 = [
     title: "What a New Orleans Wedding Limo Really Costs: 2026 Pricing Guide",
     metaTitle: "New Orleans Wedding Limo Cost Guide 2026 | MSY Limo",
     metaDescription:
-      "What a New Orleans wedding limo package actually costs in 2026 — sedan, stretch limo and Sprinter guest shuttle pricing, plus how to budget by guest count",
+      "What a New Orleans wedding limo package actually costs in 2026 — sedan, stretch limo and Sprinter guest shuttle pricing, plus how to budget by guest count.",
     category: "Weddings",
     author: "MSY Limo Team",
     date: "October 9, 2026",
@@ -72,7 +72,7 @@ export const BLOG_POSTS_BATCH7 = [
     title: "How Far Ahead Should You Book Mardi Gras and Jazz Fest Transportation?",
     metaTitle: "Mardi Gras & Jazz Fest Transportation Lead Times | MSY Limo",
     metaDescription:
-      "How far ahead to book transportation for Mardi Gras, Jazz Fest, Essence Fest and Saints playoff weekends — before the Sprinter vans and limos sell out",
+      "How far ahead to book transportation for Mardi Gras, Jazz Fest, Essence Fest and Saints playoff weekends — before the Sprinter vans and limos sell out.",
     category: "Travel",
     author: "MSY Limo Team",
     date: "October 9, 2026",

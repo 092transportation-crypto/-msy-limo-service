@@ -323,6 +323,31 @@ const AirportPage = () => {
       </motion.section>
 
       <PageFaq faqs={AIRPORT_FAQS} />
+
+      {/* Related airport service & route pages */}
+      <section className="py-16 bg-gray-900">
+        <div className="max-w-7xl mx-auto px-6 md:px-12">
+          <h2 className="text-2xl font-medium mb-8 text-amber-400" style={{ fontFamily: "'Playfair Display', serif" }}>
+            Airport Service, By Trip Type
+          </h2>
+          <div className="flex flex-wrap gap-3">
+            {[
+              { to: "/msy-airport-meet-and-greet", label: "Meet & Greet Service" },
+              { to: "/msy-airport-arrival-pickup", label: "Arrival Pickup" },
+              { to: "/msy-airport-departure-drop-off", label: "Departure Drop-Off" },
+              { to: "/msy-airport-hotel-transfers", label: "Hotel Transfers" },
+              { to: "/msy-to-new-orleans-downtown", label: "MSY to Downtown" },
+              { to: "/msy-to-french-quarter", label: "MSY to French Quarter" },
+              { to: "/services/corporate-transportation", label: "Corporate Travel" },
+            ].map((l) => (
+              <Link key={l.to} to={l.to} className="px-4 py-2 bg-amber-500/10 border border-amber-500/30 rounded-lg text-sm text-amber-400 font-medium hover:bg-amber-500/20 transition-colors">
+                {l.label}
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <Footer />
     </div>
   );

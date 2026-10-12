@@ -8,7 +8,7 @@ export const BLOG_POSTS_BATCH4 = [
     title: "Mardi Gras Parade Route Transportation: Best Pickup and Drop-off Spots",
     metaTitle: "Mardi Gras Parade Route Transportation Guide | MSY Limo",
     metaDescription:
-      "Where to be picked up and dropped off along St. Charles Avenue and the Uptown route during Mardi Gras — a chauffeur's route-by-route logistics guide. (877) 609-1919.",
+      "Where to be picked up and dropped off along St. Charles Avenue during Mardi Gras — a chauffeur's route-by-route logistics guide. Call (877) 609-1919.",
     category: "Events",
     author: "MSY Limo Team",
     date: "September 28, 2026",
@@ -773,7 +773,7 @@ export const BLOG_POSTS_BATCH4 = [
     title: "A Visiting Client's Guide to New Orleans' Central Business District",
     metaTitle: "Visiting Client's CBD Transportation Guide | New Orleans",
     metaDescription:
-      "A neighborhood guide to New Orleans' Central Business District for visiting clients and executives — hotels, office access, and chauffeured transportation. (877) 609-1919.",
+      "A guide to New Orleans' CBD for visiting clients and executives — hotels, office access and chauffeured transportation. Call (877) 609-1919.",
     category: "Corporate",
     author: "MSY Limo Team",
     date: "September 28, 2026",
@@ -827,7 +827,7 @@ export const BLOG_POSTS_BATCH4 = [
     title: "MSY's Terminal Layout in 2026: Pickup Zones and What Changed",
     metaTitle: "MSY Terminal Layout 2026 | Pickup Zones Guide",
     metaDescription:
-      "A current guide to Louis Armstrong International's terminal layout — baggage claim, curbside pickup zones, meet-and-greet staging, and rental cars. (877) 609-1919.",
+      "A guide to MSY's terminal layout — baggage claim, curbside pickup zones, meet-and-greet staging and rental cars. Call (877) 609-1919.",
     category: "Airport",
     author: "MSY Limo Team",
     date: "September 28, 2026",

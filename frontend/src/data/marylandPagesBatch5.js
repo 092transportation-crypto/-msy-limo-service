@@ -214,6 +214,7 @@ export const MARYLAND_BATCH5 = [
       { label: "MSY to Destrehan", to: "/msy-to-destrehan" },
       { label: "MSY to LaPlace", to: "/msy-to-laplace" },
       { label: "Kenner Limo Service", to: "/kenner-limo-service" },
+      { label: "River Road Plantation Tour Transportation", to: "/river-road-plantation-tour-transportation" },
       { label: "Hourly Charter", to: "/services/hourly-charter" },
       { label: "Corporate Transportation", to: "/services/corporate-transportation" },
       { label: "Book a Ride", to: "/booking" },
@@ -704,5 +705,668 @@ export const MARYLAND_BATCH5 = [
       { label: "Book a Ride", to: "/booking" },
     ],
     schema: { areaServed: ["New Orleans, LA", "Metairie, LA", "Kenner, LA"], serviceType: "Special event transportation" },
+  },
+  // ───────── Batch 6 (2026-10-12): new keyword gaps — neighborhoods,
+  // suburbs, venues, festivals and vehicle-type pages not yet covered. ─────────
+  {
+    slug: "gentilly-limo-service",
+    type: "city",
+    name: "Gentilly",
+    badge: "New Orleans Neighborhoods",
+    h1: "Gentilly Limo Service",
+    metaTitle: "Gentilly Limo Service | New Orleans Car Service",
+    metaDescription: "Chauffeured limo and car service in Gentilly, New Orleans — UNO, Dillard University, MSY transfers and corporate travel. Call (877) 609-1919.",
+    stats: [
+      { label: "MSY Airport", value: "≈ 15 mi · 20–30 minutes" },
+      { label: "Neighborhood", value: "Gentilly, Orleans Parish" },
+      { label: "Pricing", value: "Flat rate or hourly" },
+      { label: "Dispatch", value: "24 / 7" },
+    ],
+    intro: [
+      "Gentilly spreads across the high ground between Bayou St. John and the London Avenue Canal, a neighborhood of live oaks, mid-century brick homes and two universities that most visitors to New Orleans never see — and residents wouldn't trade for the French Quarter. MSY Limo Service runs chauffeured sedans, SUVs, Sprinter vans and stretch limousines through Gentilly Terrace, Pontchartrain Park and the Fillmore every day of the week.",
+      "The University of New Orleans sits on the lakefront end of the neighborhood, with Dillard University anchoring the Gentilly Boulevard corridor closer to Bayou St. John — commencement weekends, move-in days and campus events are a regular part of our Gentilly schedule, alongside the quieter business of getting residents to MSY on time.",
+      "Elysian Fields Avenue and Gentilly Boulevard are the two corridors most of our Gentilly pickups run along, and our chauffeurs know which one is faster depending on the hour and whether there's a Saints game pulling traffic toward the Superdome.",
+    ],
+    highlights: [
+      "Flat-rate pricing confirmed before you ride — no surge, no meter",
+      "Regular service to both UNO and Dillard University",
+      "45 minutes of complimentary wait time on domestic MSY arrivals, 60 on international",
+      "Chauffeurs who know Gentilly Terrace, Pontchartrain Park and the Fillmore by street",
+      "Mercedes and BMW sedans, Cadillac and Chevrolet SUVs, Sprinter vans and stretch limos",
+      "Licensed, insured and background-checked chauffeurs",
+    ],
+    sections: [
+      {
+        h2: "Where we pick up in Gentilly",
+        paragraphs: [
+          "We cover Gentilly Terrace's curving, tree-lined streets, Pontchartrain Park's golf-course-adjacent blocks, the Fillmore near the fairgrounds, and the Milneburg area toward the lakefront. If it has an address off Gentilly Boulevard, Elysian Fields Avenue or Franklin Avenue, a chauffeur can be there on time.",
+          "University of New Orleans and Dillard University both see steady traffic from us — move-in weekends, graduation ceremonies, guest-speaker visits and the ordinary daily trips faculty and visiting families book around campus schedules.",
+        ],
+      },
+      {
+        h2: "Gentilly to MSY and back",
+        paragraphs: [
+          "Most Gentilly airport runs head out via Interstate 610 to I-10 West, a straightforward 20 to 30 minute drive that stretches on Saints game days or during Jazz Fest at the nearby Fair Grounds. Your chauffeur plans around both before picking a route.",
+          "Every airport pickup includes real-time flight tracking, so a delayed arrival doesn't change anything on your end — the pickup window simply shifts with the flight.",
+        ],
+      },
+      {
+        h2: "Campus events and everyday travel",
+        paragraphs: [
+          "Beyond the two universities, Gentilly residents book us for corporate travel downtown, nights out in the French Quarter or Uptown, and the Jazz Fest week crowds that fill the neighborhood's edge along the Fair Grounds. Hourly service means one chauffeur stays with you through a day with several stops rather than booking separate rides for each leg.",
+        ],
+      },
+    ],
+    vehicles: vehicles(),
+    faqs: [
+      { q: "Do you serve UNO and Dillard University?", a: "Yes, regularly — move-in days, graduation weekends, guest-speaker visits and ordinary campus travel are all part of our standard Gentilly service." },
+      { q: "How long is the drive from Gentilly to MSY?", a: "Typically 20 to 30 minutes via I-610 and I-10 West. Allow extra time on Saints game days or during Jazz Fest week." },
+      { q: "Is pricing flat-rate or hourly in Gentilly?", a: "Either — airport transfers are quoted as a flat rate, and campus or multi-stop days can be booked hourly. Call (877) 609-1919 for an exact quote." },
+      { q: "What is the cancellation policy?", a: "Sedan and SUV reservations cancel free of charge up to 3 hours before pickup. Sprinter vans and stretch limousines need 12 hours." },
+      { q: "Do you track flights for Gentilly pickups?", a: "Yes. Every airport pickup includes real-time flight tracking plus complimentary wait time — 45 minutes domestic, 60 minutes international." },
+    ],
+    related: [
+      { label: "City Park & NOMA Transportation", to: "/city-park-nola-transportation" },
+      { label: "Mid-City New Orleans Limo Service", to: "/mid-city-new-orleans-limo-service" },
+      { label: "Faubourg St. John Limo Service", to: "/faubourg-st-john-limo-service" },
+      { label: "Jazz Fest & Fair Grounds Transportation", to: "/jazz-fest-fair-grounds-transportation" },
+      { label: "Airport Transportation", to: "/services/airport-transportation" },
+      { label: "Book a Ride", to: "/booking" },
+    ],
+    schema: { areaServed: ["Gentilly, New Orleans, LA", "Orleans Parish"], serviceType: "Limousine and car service" },
+  },
+  {
+    slug: "belle-chasse-limo-service",
+    type: "city",
+    name: "Belle Chasse",
+    badge: "Plaquemines Parish Limo Service",
+    h1: "Belle Chasse Limo Service",
+    metaTitle: "Belle Chasse Limo Service | Plaquemines Parish Car Service",
+    metaDescription: "Chauffeured limo and car service in Belle Chasse, LA — NAS JRB New Orleans, MSY airport transfers, corporate and event transportation. (877) 609-1919.",
+    stats: [
+      { label: "MSY Airport", value: "≈ 28 mi · 40–50 minutes" },
+      { label: "Parish", value: "Plaquemines" },
+      { label: "Pricing", value: "Flat rate or hourly" },
+      { label: "Dispatch", value: "24 / 7" },
+    ],
+    intro: [
+      "Belle Chasse is the gateway to Plaquemines Parish, a Westbank community built around Louisiana Highway 23 and best known to many travelers as the home of Naval Air Station Joint Reserve Base New Orleans. MSY Limo Service runs chauffeured sedans, SUVs and Sprinter vans across Belle Chasse every day, with chauffeurs who use the Belle Chasse Tunnel under the Intracoastal Waterway as routinely as any other crossing.",
+      "Military families, base personnel and visiting contractors make up a steady share of our Belle Chasse bookings, alongside residents heading to MSY for business or vacation travel. The trip across the river adds a step most New Orleans suburbs don't have, and we plan every pickup around it rather than treating it as an afterthought.",
+      "Beyond the base, Belle Chasse's stretch of Highway 23 connects to Woodland Plantation and the orange groves further south — a quieter, more rural slice of greater New Orleans that still gets the same flat-rate, flight-tracked service as a downtown hotel pickup.",
+    ],
+    highlights: [
+      "Flat-rate pricing confirmed before you book — no bridge or tunnel surcharge",
+      "Routine pickups and drop-offs for NAS JRB New Orleans personnel and visitors",
+      "45 minutes of complimentary wait on domestic MSY arrivals, 60 on international",
+      "Chauffeurs experienced with the Belle Chasse Tunnel and Highway 23 corridor",
+      "Sprinter vans and SUVs for families, groups and relocating service members",
+      "Licensed & Insured Carrier with background-checked chauffeurs",
+    ],
+    sections: [
+      {
+        h2: "Where we pick up in Belle Chasse",
+        paragraphs: [
+          "We cover the Highway 23 corridor from the Belle Chasse Tunnel south through the main residential and retail district, including pickups at or near Naval Air Station JRB New Orleans' gates with advance coordination for base access.",
+          "Further south toward Woodland Plantation and the river communities, we run the same flat-rate service — distance from the tunnel is the only variable in the quote, not a reason to turn down the trip.",
+        ],
+      },
+      {
+        h2: "Belle Chasse to MSY and back",
+        paragraphs: [
+          "The drive north from Belle Chasse crosses the Belle Chasse Tunnel, continues through Algiers, and crosses the Crescent City Connection or Huey P. Long Bridge before reaching I-10 toward MSY — a 40 to 50 minute trip under normal conditions that we plan around tunnel traffic and bridge conditions in real time.",
+          "Flight tracking means a delayed arrival never costs you anything extra. Your chauffeur adjusts the pickup automatically and the wait-time clock starts when you land, not when a schedule assumed you would.",
+        ],
+      },
+      {
+        h2: "Military moves and base travel",
+        paragraphs: [
+          "Permanent change of station moves, family visits and leave travel are a regular part of our Belle Chasse business, and we're used to the extra documentation and gate procedures that come with base pickups. For contractors and visiting officials, corporate accounts with monthly invoicing keep expense reporting simple.",
+        ],
+      },
+    ],
+    vehicles: vehicles(),
+    faqs: [
+      { q: "Can you pick up on Naval Air Station JRB New Orleans?", a: "Yes, with advance notice so we can coordinate gate access and any required identification for the chauffeur and vehicle." },
+      { q: "How long is the drive from Belle Chasse to MSY?", a: "Typically 40 to 50 minutes via the Belle Chasse Tunnel, Algiers and the river crossing to I-10. Your chauffeur checks tunnel and bridge conditions before departure." },
+      { q: "Do you offer service further south in Plaquemines Parish?", a: "Yes — Woodland Plantation and the river communities south of Belle Chasse are quoted the same flat-rate way, based on distance." },
+      { q: "Is there a surcharge for the tunnel or bridge crossing?", a: "No. Your quote is a flat rate confirmed before you book, with no bridge, tunnel or toll surcharge added afterward." },
+      { q: "What is the cancellation policy?", a: "Sedan and SUV reservations cancel free of charge up to 3 hours before pickup; Sprinter vans and special-event bookings need 12 hours." },
+    ],
+    related: [
+      { label: "Algiers Limo Service", to: "/algiers-limo-service" },
+      { label: "Gretna and Westbank Limo Service", to: "/gretna-westbank-limo-service" },
+      { label: "Harvey Limo Service", to: "/harvey-la-limo-service" },
+      { label: "Corporate Transportation", to: "/services/corporate-transportation" },
+      { label: "Airport Transportation", to: "/services/airport-transportation" },
+      { label: "Book a Ride", to: "/booking" },
+    ],
+    schema: { areaServed: ["Belle Chasse, LA", "Plaquemines Parish"], serviceType: "Limousine and car service" },
+  },
+  {
+    slug: "luling-la-limo-service",
+    type: "city",
+    name: "Luling",
+    badge: "River Parishes Limo Service",
+    h1: "Luling, LA Limo Service",
+    metaTitle: "Luling LA Limo Service | River Parishes Car Service",
+    metaDescription: "Chauffeured limo and car service in Luling, LA — Hale Boggs Bridge, refinery and plant travel, MSY airport transfers. Call (877) 609-1919.",
+    stats: [
+      { label: "MSY Airport", value: "≈ 22 mi · 30–40 minutes" },
+      { label: "Parish", value: "St. Charles" },
+      { label: "Pricing", value: "Flat rate or hourly" },
+      { label: "Dispatch", value: "24 / 7" },
+    ],
+    intro: [
+      "Luling anchors the west end of St. Charles Parish, where the Hale Boggs Memorial Bridge carries Interstate 310 across the Mississippi River and the parish's refineries and chemical plants run around the clock. MSY Limo Service sends chauffeured sedans, SUVs and Sprinter vans through Luling for plant shift changes, contractor travel and MSY airport transfers on the same flat-rate standard as any New Orleans pickup.",
+      "Plant turnarounds and outage season bring waves of visiting contractors through Luling on tight schedules, and we build dispatch around those shift patterns rather than asking crews to work around a fixed pickup window. Day or night, a chauffeur is positioned before the gate opens.",
+      "Away from the industrial corridor, Luling residents book us for the same MSY runs and occasional nights out in New Orleans that any River Parishes community needs, with the Bonnet Carré Spillway and neighboring Destrehan close enough that one chauffeur easily covers both in a single day.",
+    ],
+    highlights: [
+      "Flat-rate or hourly pricing confirmed before you book",
+      "Experience with plant shift changes, turnarounds and contractor crew travel",
+      "45 minutes of complimentary wait on domestic MSY arrivals, 60 on international",
+      "Chauffeurs who know I-310, the Hale Boggs Bridge and River Road well",
+      "Sprinter vans for crew groups and contractor teams",
+      "Licensed, insured and background-checked chauffeurs",
+    ],
+    sections: [
+      {
+        h2: "Where we pick up in Luling",
+        paragraphs: [
+          "We cover the River Road corridor through Luling, the residential streets off Highway 90 near the Bonnet Carré Spillway, and the plant and refinery gates that bring in contractor and crew traffic at every hour.",
+          "Turnaround and outage season means dozens of crew members moving on the same tight schedule — we scale up with multiple vehicles and Sprinter vans rather than asking a plant coordinator to stagger pickups around one car.",
+        ],
+      },
+      {
+        h2: "Luling to MSY and back",
+        paragraphs: [
+          "Most trips run via I-310 across the Hale Boggs Bridge to I-10 East, a 30 to 40 minute drive to MSY under normal traffic. Chauffeurs watch for bridge congestion and plant shift-change traffic on Highway 90 before locking in the route.",
+          "Every airport pickup includes real-time flight tracking, so a delayed flight simply shifts the pickup window rather than costing you a second booking.",
+        ],
+      },
+      {
+        h2: "Industrial crew travel and corporate accounts",
+        paragraphs: [
+          "Refineries and chemical plants along the Luling corridor keep standing accounts with us for contractor transport during turnarounds, visiting engineer travel and routine airport runs for out-of-town staff, all billed through monthly invoicing rather than per-trip paperwork.",
+        ],
+      },
+    ],
+    vehicles: vehicles(),
+    faqs: [
+      { q: "Can you handle plant turnaround and shift-change pickups?", a: "Yes — we regularly scale up with multiple vehicles and Sprinter vans for crew groups during turnarounds and outages, built around the plant's actual shift schedule." },
+      { q: "How long is the drive from Luling to MSY?", a: "Typically 30 to 40 minutes via I-310 and I-10 East. Your chauffeur checks Hale Boggs Bridge traffic before departure." },
+      { q: "Do you offer corporate accounts for contractor crews?", a: "Yes, with monthly invoicing for plants and contractors that move crews through Luling regularly." },
+      { q: "What is the cancellation policy?", a: "Sedan and SUV reservations cancel free of charge up to 3 hours before pickup; Sprinter van and group bookings need 12 hours." },
+      { q: "Do you serve nearby Destrehan and the Bonnet Carré Spillway area?", a: "Yes — Destrehan is a few minutes away and gets the same flat-rate, flight-tracked service." },
+    ],
+    related: [
+      { label: "Destrehan Limo Service", to: "/destrehan-la-limo-service" },
+      { label: "LaPlace Limo Service", to: "/laplace-la-limo-service" },
+      { label: "MSY to Baton Rouge", to: "/msy-to-baton-rouge" },
+      { label: "Corporate Transportation", to: "/services/corporate-transportation" },
+      { label: "Airport Transportation", to: "/services/airport-transportation" },
+      { label: "Book a Ride", to: "/booking" },
+    ],
+    schema: { areaServed: ["Luling, LA", "St. Charles Parish"], serviceType: "Limousine and car service" },
+  },
+  // ───────────────────────── Venues & Institutions ─────────────────────────
+  {
+    slug: "audubon-zoo-aquarium-transportation",
+    type: "event",
+    name: "Audubon Zoo & Aquarium Transportation",
+    badge: "New Orleans Attractions",
+    h1: "Audubon Zoo & Aquarium Transportation",
+    metaTitle: "Audubon Zoo & Aquarium Transportation | New Orleans",
+    metaDescription: "Chauffeured transportation to the Audubon Zoo and Aquarium of the Americas — family-friendly, flat rates, flight tracking. Call (877) 609-1919.",
+    stats: [
+      { label: "Audubon Zoo", value: "6500 Magazine St., Uptown" },
+      { label: "Aquarium", value: "Woldenberg Park, Downtown" },
+      { label: "Pricing", value: "Flat rate or hourly" },
+      { label: "Availability", value: "24 / 7" },
+    ],
+    intro: [
+      "The Audubon Zoo on Magazine Street and the Audubon Aquarium of the Americas on the downtown riverfront are two stops on the same Audubon Nature Institute ticket, connected by the John James Audubon riverboat when the river cooperates and by a short drive the rest of the time. MSY Limo Service handles the drive: airport arrivals heading straight to either attraction, and families splitting a day between both without losing an hour to parking.",
+      "Strollers, car seats and a full day's worth of zoo and aquarium gear travel easily in our SUVs and Sprinter vans, and a chauffeur who's already handled the Magazine Street and Convention Center traffic around both attractions knows exactly where to stage for a quick pickup when tired kids are ready to leave.",
+      "We also run grandparent and extended-family groups who fly into MSY for exactly this kind of day — one flat rate from the airport to the zoo, a wait while the group explores, and a ride back to the hotel, booked as a single hourly reservation rather than three separate trips.",
+    ],
+    highlights: [
+      "Flat-rate or hourly pricing confirmed before you book",
+      "Room for strollers, car seats and a full day of gear in our SUVs and Sprinter vans",
+      "Direct MSY-to-attraction transfers with real-time flight tracking",
+      "Comfortable waiting between the Zoo and Aquarium for same-day visits",
+      "Family-friendly chauffeurs experienced with young children",
+      "Licensed & Insured Carrier",
+    ],
+    sections: [
+      {
+        h2: "Getting to the Audubon Zoo",
+        paragraphs: [
+          "The Audubon Zoo sits on Magazine Street in Uptown, with limited on-site parking that fills fast on weekends and during school holidays. A chauffeured drop-off at the entrance skips that search entirely, and your vehicle can be booked hourly to wait through the visit or scheduled to return at a set pickup time.",
+        ],
+      },
+      {
+        h2: "Getting to the Aquarium of the Americas",
+        paragraphs: [
+          "The Aquarium sits in Woldenberg Park on the downtown riverfront, a short walk from the French Quarter and an easy add-on to a convention or hotel stay. We handle drop-offs and pickups curbside, including coordination around Convention Center traffic during large events.",
+        ],
+      },
+      {
+        h2: "Combining both attractions in one day",
+        paragraphs: [
+          "Families who want to see both the Zoo and the Aquarium in a single visit often take the John James Audubon riverboat one direction and ride with us the other, or book an hourly chauffeur who holds the vehicle between stops rather than booking three separate one-way trips. We help plan the logistics either way.",
+        ],
+      },
+    ],
+    vehicles: vehicles(),
+    faqs: [
+      { q: "Can you take us straight from MSY to the Zoo or Aquarium?", a: "Yes. Flight tracking means your chauffeur is positioned and ready regardless of arrival delays, with complimentary wait time built in." },
+      { q: "Do you have car seats for young children?", a: "Child car seats are available on request — let us know the ages when you book." },
+      { q: "Can the vehicle wait while we visit both attractions?", a: "Yes, hourly booking keeps your chauffeur and vehicle with you between the Zoo and Aquarium rather than booking separate one-way rides." },
+      { q: "Is parking included or do we need our own?", a: "Our service replaces parking entirely — your chauffeur handles drop-off and pickup at each entrance." },
+      { q: "What is the cancellation policy?", a: "Sedan and SUV reservations cancel free of charge up to 3 hours before pickup; Sprinter van and group bookings need 12 hours." },
+    ],
+    related: [
+      { label: "City Park & NOMA Transportation", to: "/city-park-nola-transportation" },
+      { label: "National WWII Museum Transportation", to: "/national-wwii-museum-transportation" },
+      { label: "Garden District Limo Service", to: "/garden-district-limo-service" },
+      { label: "Hourly Charter", to: "/services/hourly-charter" },
+      { label: "Airport Transportation", to: "/services/airport-transportation" },
+      { label: "Book a Ride", to: "/booking" },
+    ],
+    schema: { areaServed: ["Uptown New Orleans, LA", "Downtown New Orleans, LA"], serviceType: "Event and attraction transportation" },
+  },
+  {
+    slug: "xavier-university-transportation",
+    type: "event",
+    name: "Xavier University Transportation",
+    badge: "New Orleans Universities",
+    h1: "Xavier University of Louisiana Transportation",
+    metaTitle: "Xavier University Transportation | New Orleans Limo",
+    metaDescription: "Chauffeured car service for Xavier University of Louisiana — move-in, graduation, guest visits, MSY transfers. Call (877) 609-1919.",
+    stats: [
+      { label: "Campus", value: "1 Drexel Dr., New Orleans" },
+      { label: "MSY Airport", value: "≈ 13 mi · 20–25 minutes" },
+      { label: "Pricing", value: "Flat rate or hourly" },
+      { label: "Availability", value: "24 / 7" },
+    ],
+    intro: [
+      "Xavier University of Louisiana, the nation's only historically Black Catholic university, sits near the Carrollton and Gert Town area a short drive from downtown New Orleans. MSY Limo Service runs chauffeured sedans, SUVs and Sprinter vans for Xavier families, faculty and visiting guests all year, from the chaos of move-in weekend to the formality of commencement.",
+      "Convocation Center events, White Coat ceremonies for Xavier's well-known pre-med and pharmacy programs, and Founder's Day draw families flying into MSY from across the country — we coordinate flight-tracked pickups so nobody's standing at baggage claim wondering if the car is coming.",
+      "Outside of campus milestones, Xavier faculty and administrators book us for conference travel and airport runs on corporate accounts, the same flat-rate, no-surge standard whether it's a single sedan or a Sprinter van for a visiting delegation.",
+    ],
+    highlights: [
+      "Flat-rate or hourly pricing confirmed before you book",
+      "Move-in weekend, graduation and Founder's Day coverage",
+      "45 minutes of complimentary wait on domestic MSY arrivals, 60 on international",
+      "Sprinter vans for family groups and visiting delegations",
+      "Corporate accounts with monthly invoicing for faculty and staff travel",
+      "Licensed, insured and background-checked chauffeurs",
+    ],
+    sections: [
+      {
+        h2: "Campus pickups and move-in weekend",
+        paragraphs: [
+          "Xavier's campus access and parking get tight fast during move-in and graduation weekends, and a chauffeured drop-off avoids the circling entirely. We coordinate pickup points with students and families ahead of time so the vehicle is exactly where it needs to be.",
+        ],
+      },
+      {
+        h2: "Xavier to MSY and back",
+        paragraphs: [
+          "The drive to MSY typically runs 20 to 25 minutes via South Carrollton Avenue and I-10 West, with your chauffeur adjusting for move-in or graduation weekend traffic around the surrounding neighborhoods.",
+          "Every pickup is flight-tracked, so family flying in for a ceremony never has to coordinate pickup timing manually — the car adjusts to the actual landing time automatically.",
+        ],
+      },
+      {
+        h2: "Faculty, staff and visiting delegation travel",
+        paragraphs: [
+          "Conference travel, accreditation visits and guest-speaker transportation are a regular part of our Xavier business, billed through corporate accounts that keep expense reporting simple for the university's departments.",
+        ],
+      },
+    ],
+    vehicles: vehicles(),
+    faqs: [
+      { q: "Do you handle Xavier move-in weekend traffic?", a: "Yes — we coordinate pickup points and timing in advance so families and students avoid circling for campus parking." },
+      { q: "How long is the drive from Xavier to MSY?", a: "Typically 20 to 25 minutes via South Carrollton Avenue and I-10 West, longer during move-in or graduation weekends." },
+      { q: "Can you handle a visiting delegation or multiple family members?", a: "Yes. Sprinter vans and multiple vehicles are available for groups, coordinated as a single booking." },
+      { q: "Do you offer corporate accounts for university departments?", a: "Yes, with monthly invoicing for faculty, staff and department travel." },
+      { q: "What is the cancellation policy?", a: "Sedan and SUV reservations cancel free of charge up to 3 hours before pickup; Sprinter van bookings need 12 hours." },
+    ],
+    related: [
+      { label: "Tulane University Transportation", to: "/tulane-university-transportation" },
+      { label: "Loyola University Transportation", to: "/loyola-university-transportation" },
+      { label: "Carrollton & Riverbend Limo Service", to: "/carrollton-riverbend-limo-service" },
+      { label: "Corporate Transportation", to: "/services/corporate-transportation" },
+      { label: "Airport Transportation", to: "/services/airport-transportation" },
+      { label: "Book a Ride", to: "/booking" },
+    ],
+    schema: { areaServed: ["New Orleans, LA"], serviceType: "Event and campus transportation" },
+  },
+  // ───────────────────────── Festivals & Tours ─────────────────────────
+  {
+    slug: "french-quarter-festival-transportation",
+    type: "event",
+    name: "French Quarter Festival Transportation",
+    badge: "New Orleans Festivals",
+    h1: "French Quarter Festival Transportation",
+    metaTitle: "French Quarter Festival Transportation | MSY Limo",
+    metaDescription: "Chauffeured transportation for French Quarter Festival — hotel and MSY transfers that skip the street closures. Call (877) 609-1919.",
+    stats: [
+      { label: "When", value: "Mid-April, 4 days" },
+      { label: "Where", value: "French Quarter, multiple stages" },
+      { label: "Pricing", value: "Flat rate or hourly" },
+      { label: "Availability", value: "24 / 7" },
+    ],
+    intro: [
+      "French Quarter Festival turns dozens of Quarter blocks into free outdoor stages every mid-April, packing Jackson Square, the French Market and the riverfront with the largest showcase of Louisiana musicians anywhere — and closing streets to vehicle traffic in the process. MSY Limo Service plans around those closures rather than fighting them, staging drop-offs and pickups at the nearest open point to your stage or hotel.",
+      "Visitors flying into MSY specifically for the festival get flight-tracked pickups straight to a French Quarter hotel, with a chauffeur who already knows which blocks will be pedestrian-only by the time you land and which route avoids them.",
+      "Because stages and schedules shift block by block through the day, we typically book festival transportation hourly rather than as fixed point-to-point trips — your chauffeur stays reachable and adjusts the pickup point as your plans move from one stage to the next.",
+    ],
+    highlights: [
+      "Flat-rate or hourly pricing confirmed before you book",
+      "Pickup and drop-off points planned around festival street closures",
+      "45 minutes of complimentary wait on domestic MSY arrivals, 60 on international",
+      "Hourly, as-directed service that adjusts as your festival day moves",
+      "Sprinter vans for groups attending together",
+      "Licensed & Insured Carrier",
+    ],
+    sections: [
+      {
+        h2: "Navigating French Quarter Festival street closures",
+        paragraphs: [
+          "Decatur Street, parts of the French Market and several Quarter cross-streets close to vehicles for the festival's duration, which changes the normal hotel and restaurant pickup points you might expect. We track the published closure map each year and brief chauffeurs before the festival opens.",
+        ],
+      },
+      {
+        h2: "MSY arrivals timed to the festival",
+        paragraphs: [
+          "Visitors flying in for the festival weekend get the same flight-tracked pickup as any MSY arrival, with a chauffeur who routes around festival traffic on the way into the Quarter rather than discovering the closures mid-drive.",
+        ],
+      },
+      {
+        h2: "Why hourly service works best for festival days",
+        paragraphs: [
+          "A festival day rarely goes exactly to plan — a favorite act runs long, a pop-up second line forms, a group splits up and regroups. Hourly, as-directed booking means your chauffeur is reachable throughout the day rather than locked into a single pickup time that the festival itself may not respect.",
+        ],
+      },
+    ],
+    vehicles: vehicles(),
+    faqs: [
+      { q: "Can you get us to our hotel despite the street closures?", a: "Yes — we plan drop-off points at the nearest open street to your hotel and adjust each year as the closure map changes." },
+      { q: "Should we book hourly or a fixed pickup time?", a: "Hourly is almost always the better fit for festival days, since schedules and stages shift block by block." },
+      { q: "Do you track flights for festival-weekend arrivals?", a: "Yes, every MSY pickup includes real-time flight tracking and complimentary wait time." },
+      { q: "Can you handle a group attending together?", a: "Yes. Sprinter vans and multiple vehicles are available, coordinated as one booking." },
+      { q: "What does festival transportation cost?", a: "It's quoted hourly or flat-rate depending on your plans, confirmed before you book. Call (877) 609-1919 for an exact quote." },
+    ],
+    related: [
+      { label: "French Quarter Limo Service", to: "/french-quarter-limo-service" },
+      { label: "Bourbon Street Transportation", to: "/bourbon-street-transportation" },
+      { label: "Jazz Fest & Fair Grounds Transportation", to: "/jazz-fest-fair-grounds-transportation" },
+      { label: "Hourly Charter", to: "/services/hourly-charter" },
+      { label: "Airport Transportation", to: "/services/airport-transportation" },
+      { label: "Book a Ride", to: "/booking" },
+    ],
+    schema: { areaServed: ["French Quarter, New Orleans, LA"], serviceType: "Festival transportation" },
+  },
+  {
+    slug: "essence-festival-transportation",
+    type: "event",
+    name: "Essence Festival Transportation",
+    badge: "New Orleans Festivals",
+    h1: "Essence Festival of Culture Transportation",
+    metaTitle: "Essence Festival Transportation | New Orleans Limo",
+    metaDescription: "Chauffeured transportation for Essence Festival — Caesars Superdome and Convention Center transfers, flat rates. Call (877) 609-1919.",
+    stats: [
+      { label: "When", value: "July 4th weekend" },
+      { label: "Where", value: "Caesars Superdome & Convention Center" },
+      { label: "Pricing", value: "Flat rate or hourly" },
+      { label: "Availability", value: "24 / 7" },
+    ],
+    intro: [
+      "Essence Festival of Culture fills Fourth of July weekend with daytime panels and empowerment sessions at the Ernest N. Morial Convention Center and headline concerts at Caesars Superdome after dark — one of the largest celebrations of Black culture and music in the country, and one of the busiest weekends of the year for New Orleans hotels, restaurants and traffic. MSY Limo Service runs flat-rate, flight-tracked transportation all weekend between MSY, Downtown hotels, the Convention Center and the Superdome.",
+      "Rideshare pricing surges hardest exactly when festival crowds move between the Convention Center and the Superdome each evening — our rate is agreed before you book and doesn't move regardless of how many people are trying to get a ride at the same moment.",
+      "Groups flying in together often book a Sprinter van for the whole weekend, with one chauffeur handling every Convention Center and Superdome transfer rather than coordinating separate rideshares for a group that wants to move together.",
+    ],
+    highlights: [
+      "Flat-rate pricing confirmed before you book — no festival-weekend surge",
+      "Direct transfers between Convention Center sessions and Superdome concerts",
+      "45 minutes of complimentary wait on domestic MSY arrivals, 60 on international",
+      "Sprinter vans for groups staying and moving together all weekend",
+      "Chauffeurs experienced with Essence weekend traffic patterns",
+      "Licensed & Insured Carrier",
+    ],
+    sections: [
+      {
+        h2: "Convention Center to Superdome, every evening",
+        paragraphs: [
+          "The daily shift from Convention Center programming to Superdome concerts is Essence weekend's signature traffic surge, with thousands of attendees moving the same direction at once. A reserved vehicle timed to your schedule skips the worst of it.",
+        ],
+      },
+      {
+        h2: "MSY arrivals during the busiest weekend of the summer",
+        paragraphs: [
+          "Flights into MSY run at capacity all festival weekend, and hotel check-in lines back up to match. Flight tracking means your pickup adjusts automatically to delays without a second phone call, and a Sprinter van can collect a whole traveling group in one trip.",
+        ],
+      },
+      {
+        h2: "Booking a vehicle for the whole weekend",
+        paragraphs: [
+          "Many groups book one vehicle and chauffeur for the entire Essence weekend rather than per-trip rides — it simplifies planning, keeps the group together, and avoids re-booking during the weekend's highest-demand hours.",
+        ],
+      },
+    ],
+    vehicles: vehicles(),
+    faqs: [
+      { q: "Do you serve both the Convention Center and the Superdome?", a: "Yes — direct transfers between both venues are a core part of our Essence weekend service." },
+      { q: "Is pricing higher during Essence Festival weekend?", a: "No. Your rate is a flat quote confirmed before you book and does not surge, unlike rideshare pricing during the same weekend." },
+      { q: "Can we book one vehicle for the whole weekend?", a: "Yes, many groups do exactly that — one chauffeur and vehicle for every transfer across the weekend." },
+      { q: "How far ahead should we book for Essence Festival?", a: "As early as possible — it's one of the highest-demand weekends of the year for New Orleans transportation." },
+      { q: "What is the cancellation policy?", a: "Sedan and SUV reservations cancel free of charge up to 3 hours before pickup; Sprinter van and weekend bookings need 12 hours." },
+    ],
+    related: [
+      { label: "Caesars Superdome Transportation", to: "/caesars-superdome-transportation" },
+      { label: "New Orleans Convention Center Transportation", to: "/new-orleans-convention-center-transportation" },
+      { label: "Warehouse District / CBD Limo Service", to: "/warehouse-district-cbd-limo-service" },
+      { label: "Special Events", to: "/services/special-events" },
+      { label: "Airport Transportation", to: "/services/airport-transportation" },
+      { label: "Book a Ride", to: "/booking" },
+    ],
+    schema: { areaServed: ["New Orleans, LA"], serviceType: "Festival transportation" },
+  },
+  {
+    slug: "river-road-plantation-tour-transportation",
+    type: "event",
+    name: "River Road Plantation Tour Transportation",
+    badge: "Louisiana Tours",
+    h1: "River Road Plantation Tour Transportation",
+    metaTitle: "River Road Plantation Tour Transportation | MSY Limo",
+    metaDescription: "Chauffeured tours to Oak Alley, Whitney and Laura Plantation along River Road — flat rates, no driving. Call (877) 609-1919.",
+    stats: [
+      { label: "Distance", value: "≈ 45–60 miles from MSY" },
+      { label: "Drive time", value: "50–70 minutes one-way" },
+      { label: "Pricing", value: "Hourly, by the tour" },
+      { label: "Availability", value: "24 / 7" },
+    ],
+    intro: [
+      "The plantations along Louisiana's River Road — Oak Alley's quarter-mile oak canopy, Whitney Plantation's unflinching history, Laura Plantation's Creole architecture and Houmas House's gardens — sit far enough from New Orleans that a tour is really a half-day drive, and close enough together that visiting two in one trip is routine. MSY Limo Service drives that stretch of River Road regularly, so nobody in your group has to choose between seeing the sites and staying alert behind the wheel.",
+      "We book these as hourly, as-directed charters rather than fixed round-trips, because tour lengths vary by plantation and nobody wants to watch the clock while touring a historic site. Your chauffeur waits during the tour and is ready the moment you're done, whether that's 90 minutes or three hours.",
+      "Groups flying into MSY specifically for a plantation day get a flight-tracked pickup straight from the airport, a flat-quoted drive out River Road, and a return either to the airport for a same-day departure or to a downtown hotel for the night.",
+    ],
+    highlights: [
+      "Hourly, as-directed charter — the vehicle waits while you tour",
+      "Comfortable sedans, SUVs and Sprinter vans for the River Road drive",
+      "Direct MSY-to-plantation transfers with flight tracking",
+      "Experienced with Oak Alley, Whitney, Laura and Houmas House logistics",
+      "No driving on unfamiliar two-lane river roads after a long travel day",
+      "Licensed & Insured Carrier",
+    ],
+    sections: [
+      {
+        h2: "Which plantations we drive to",
+        paragraphs: [
+          "Oak Alley and Laura Plantation sit close together in Vacherie; Whitney Plantation is just across the river in Wallace; Houmas House is further upriver near Darrow. Most groups choose one or two for a half-day, though a full-day combination is possible with an early start.",
+        ],
+      },
+      {
+        h2: "Booking the drive as hourly charter",
+        paragraphs: [
+          "Because tour lengths and guided-tour start times vary by site, we quote plantation trips hourly rather than as a flat round-trip. Your chauffeur confirms the plan with you — which plantations, approximate tour lengths, and any lunch stop along the way — before the day begins, then adjusts in real time.",
+          "Round-trip from a downtown hotel or MSY, the drive itself runs 50 to 70 minutes each way depending on the destination, so budgeting a half-day for one plantation or a full day for two is the usual plan.",
+        ],
+      },
+      {
+        h2: "Groups, photography and special requests",
+        paragraphs: [
+          "Sprinter vans comfortably carry larger family or friend groups touring together, and we're used to brief stops for photos along the oak allées or riverbank that a self-driven tour often skips to stay on schedule.",
+        ],
+      },
+    ],
+    vehicles: vehicles(),
+    faqs: [
+      { q: "Which plantations can you drive us to?", a: "Oak Alley, Whitney Plantation, Laura Plantation and Houmas House are all regular destinations; we can also discuss other River Road sites on request." },
+      { q: "Is this booked hourly or as a flat round-trip?", a: "Hourly, as-directed charter — your vehicle and chauffeur wait during the tour and are ready whenever you finish." },
+      { q: "Can we visit two plantations in one day?", a: "Yes, Oak Alley and Laura Plantation in particular are close enough together for a single day with an early start." },
+      { q: "Can you pick us up directly from MSY for a plantation day?", a: "Yes. Flight tracking means your chauffeur is ready regardless of arrival time, then drives straight out River Road." },
+      { q: "What does a plantation tour charter cost?", a: "It's quoted hourly based on vehicle choice and planned duration, confirmed before you book. Call (877) 609-1919 for an exact quote." },
+    ],
+    related: [
+      { label: "MSY to Baton Rouge", to: "/msy-to-baton-rouge" },
+      { label: "Destrehan Limo Service", to: "/destrehan-la-limo-service" },
+      { label: "LaPlace Limo Service", to: "/laplace-la-limo-service" },
+      { label: "Hourly Charter", to: "/services/hourly-charter" },
+      { label: "Airport Transportation", to: "/services/airport-transportation" },
+      { label: "Book a Ride", to: "/booking" },
+    ],
+    schema: { areaServed: ["St. James Parish, LA", "St. John the Baptist Parish, LA", "Ascension Parish, LA"], serviceType: "Tour transportation" },
+  },
+  {
+    slug: "swamp-tour-transportation",
+    type: "event",
+    name: "Swamp Tour Transportation",
+    badge: "Louisiana Tours",
+    h1: "Swamp Tour Transportation",
+    metaTitle: "Swamp Tour Transportation | New Orleans Car Service",
+    metaDescription: "Chauffeured transportation to Honey Island and Jean Lafitte swamp tours from New Orleans and MSY. Flat rates. Call (877) 609-1919.",
+    stats: [
+      { label: "Honey Island", value: "≈ 45 min from New Orleans" },
+      { label: "Jean Lafitte", value: "≈ 30 min from New Orleans" },
+      { label: "Pricing", value: "Hourly, by the tour" },
+      { label: "Availability", value: "24 / 7" },
+    ],
+    intro: [
+      "A swamp tour is one of the few New Orleans-area excursions that genuinely leaves the city behind — cypress canopies, alligators, and a boat captain's running commentary replacing streetcars and brass bands for a few hours. MSY Limo Service drives visitors to both major swamp-tour regions: Honey Island Swamp near Slidell on the Northshore, and the Jean Lafitte area swamps on the Westbank near Marrero and Barataria.",
+      "Tour boats run on their own schedule and don't wait for a late car, so we build in buffer time on the drive out and track the group's return closely enough that a chauffeur is at the dock, not circling the parking lot, when the boat comes back in.",
+      "Because the tour itself and any pre- or post-tour stop vary trip to trip, swamp tours are booked hourly rather than as a flat round-trip — your chauffeur waits at the dock and is ready the moment your group is back on dry land.",
+    ],
+    highlights: [
+      "Hourly, as-directed charter — the vehicle waits at the dock",
+      "Service to both Honey Island (Northshore) and Jean Lafitte area (Westbank) tours",
+      "Buffer time built into the drive so you're never late for boat departure",
+      "Comfortable SUVs and Sprinter vans for groups",
+      "Direct MSY pickups for visitors heading straight to a tour",
+      "Licensed & Insured Carrier",
+    ],
+    sections: [
+      {
+        h2: "Honey Island Swamp, near Slidell",
+        paragraphs: [
+          "Honey Island Swamp sits roughly 45 minutes from New Orleans via I-10 East across the Twin Span and into the Northshore, one of the larger relatively undisturbed swamps in the country. We time the drive to arrive with a comfortable margin before boat departure, not a rushed one.",
+        ],
+      },
+      {
+        h2: "Jean Lafitte area swamps, near Barataria",
+        paragraphs: [
+          "The Jean Lafitte National Historical Park's Barataria Preserve and nearby tour operators near Marrero and Westwego sit closer to the city, typically a 30-minute drive via the Westbank Expressway — a shorter trip that pairs well with a Westbank lunch stop before or after.",
+        ],
+      },
+      {
+        h2: "Booking the day around the boat schedule",
+        paragraphs: [
+          "Tour operators run fixed boat departure times, so we confirm your reservation time before the day and plan the drive, and any stop along the way, around it rather than the other way around. Hourly booking means the same vehicle and chauffeur handle the whole day, including the wait at the dock.",
+        ],
+      },
+    ],
+    vehicles: vehicles(),
+    faqs: [
+      { q: "Which swamp tours can you drive us to?", a: "Honey Island Swamp near Slidell and the Jean Lafitte area tours near Marrero and Westwego are our two regular destinations." },
+      { q: "Does the vehicle wait during the boat tour?", a: "Yes — swamp tours are booked hourly, and your chauffeur waits at the dock for your return." },
+      { q: "Can you pick us up directly from MSY?", a: "Yes, with flight tracking so your chauffeur adjusts to your actual arrival time before heading to the tour." },
+      { q: "How far in advance should we book the boat tour itself?", a: "We recommend booking your swamp tour operator's boat slot first, then scheduling transportation around that confirmed departure time." },
+      { q: "What does swamp tour transportation cost?", a: "It's quoted hourly based on vehicle choice and distance, confirmed before you book. Call (877) 609-1919 for an exact quote." },
+    ],
+    related: [
+      { label: "Slidell Limo Service", to: "/slidell-limo-service" },
+      { label: "Westwego Limo Service", to: "/westwego-la-limo-service" },
+      { label: "Marrero Limo Service", to: "/marrero-la-limo-service" },
+      { label: "Hourly Charter", to: "/services/hourly-charter" },
+      { label: "Airport Transportation", to: "/services/airport-transportation" },
+      { label: "Book a Ride", to: "/booking" },
+    ],
+    schema: { areaServed: ["Slidell, LA", "Jefferson Parish, LA", "St. Tammany Parish, LA"], serviceType: "Tour transportation" },
+  },
+  // ───────────────────────── Vehicle Type ─────────────────────────
+  {
+    slug: "sprinter-van-rental-with-driver-new-orleans",
+    type: "service",
+    name: "Sprinter Van Rental with Driver",
+    badge: "New Orleans Fleet",
+    h1: "Sprinter Van Rental with Driver in New Orleans",
+    metaTitle: "Sprinter Van Rental with Driver | New Orleans",
+    metaDescription: "Mercedes Sprinter van rental with a professional driver in New Orleans — groups, weddings, conventions, MSY transfers. Call (877) 609-1919.",
+    stats: [
+      { label: "Capacity", value: "Up to 14 passengers" },
+      { label: "Luggage", value: "Rear cargo area, no roof rack needed" },
+      { label: "Pricing", value: "Flat rate or hourly" },
+      { label: "Availability", value: "24 / 7" },
+    ],
+    intro: [
+      "A Mercedes Sprinter van with a professional chauffeur covers the gap between a sedan and a party bus: enough seats and luggage room for a wedding party, a convention delegation, or a family reunion flying into MSY together, without renting a vehicle nobody in the group is licensed — or willing — to drive in unfamiliar traffic.",
+      "Our Sprinter vans seat up to 14 passengers with genuine rear cargo space for luggage, golf bags or convention materials, driven by the same licensed, background-checked chauffeurs who handle our sedans and limousines. The group travels together, on one reservation, with one flat-rate or hourly quote.",
+      "Wedding parties use Sprinter vans to move the whole bridal party and groomsmen between getting-ready locations, ceremony and reception without splitting into separate cars; convention groups use them for consistent hotel-to-venue shuttles all week; families flying in together use them to clear MSY baggage claim once and head straight to the hotel as a group.",
+    ],
+    highlights: [
+      "Seats up to 14 passengers with real cargo room for luggage",
+      "Flat-rate airport transfers or hourly, as-directed charter",
+      "Professional chauffeur included — nobody in your group has to drive",
+      "Ideal for wedding parties, conventions, reunions and group MSY arrivals",
+      "45 minutes of complimentary wait on domestic MSY arrivals, 60 on international",
+      "Licensed & Insured Carrier",
+    ],
+    sections: [
+      {
+        h2: "Who books a Sprinter van",
+        paragraphs: [
+          "Wedding parties, corporate teams attending a convention together, multi-generational family trips and any group of 7 to 14 landing at MSY on the same flight are our most common Sprinter van bookings. It's the vehicle that keeps a group together instead of splitting across two or three sedans.",
+        ],
+      },
+      {
+        h2: "Airport transfers vs. hourly charter",
+        paragraphs: [
+          "A straight MSY-to-hotel transfer is quoted as a flat rate, confirmed before you book. A wedding day, a convention week, or a multi-stop touring day is better booked hourly, with the van and chauffeur staying with your group between stops rather than re-booking each leg separately.",
+        ],
+      },
+      {
+        h2: "What's included",
+        paragraphs: [
+          "Every Sprinter van booking comes with a professionally trained, background-checked chauffeur, a commercially insured vehicle, and the same flat-rate-before-you-ride pricing standard as our sedans and SUVs — no hidden mileage charges or fuel surcharges added after the fact.",
+        ],
+      },
+    ],
+    vehicles: vehicles(),
+    faqs: [
+      { q: "How many passengers fit in a Sprinter van?", a: "Up to 14, with rear cargo space for luggage, golf bags or convention materials in addition to seating." },
+      { q: "Is the driver included, or do we drive it ourselves?", a: "A professional, background-checked chauffeur is always included — this is chauffeured transportation, not a self-drive rental." },
+      { q: "Can we book it for a full wedding day or convention week?", a: "Yes, hourly and multi-day bookings are common for weddings, conventions and touring groups." },
+      { q: "Can you pick our group up directly from MSY?", a: "Yes, with flight tracking and complimentary wait time, just like our sedan and SUV airport transfers." },
+      { q: "What is the cancellation policy?", a: "Sprinter van reservations cancel free of charge up to 12 hours before pickup." },
+    ],
+    related: [
+      { label: "New Orleans Party Bus Transportation", to: "/new-orleans-party-bus-transportation" },
+      { label: "New Orleans Wedding Limo Service", to: "/new-orleans-wedding-limo-service" },
+      { label: "New Orleans Convention Center Transportation", to: "/new-orleans-convention-center-transportation" },
+      { label: "Hourly Charter", to: "/services/hourly-charter" },
+      { label: "Airport Transportation", to: "/services/airport-transportation" },
+      { label: "Book a Ride", to: "/booking" },
+    ],
+    schema: { areaServed: ["New Orleans, LA", "Greater New Orleans Area"], serviceType: "Group and van transportation" },
   },
 ];

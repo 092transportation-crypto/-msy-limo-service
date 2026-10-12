@@ -56,7 +56,7 @@ export const BLOG_POSTS_BATCH5 = [
     title: "Frenchmen Street at Night: Live-Music Transportation Without the Parking Hunt",
     metaTitle: "Frenchmen Street Night Transportation | New Orleans",
     metaDescription:
-      "A chauffeur guide to Frenchmen Street's live-music clubs in New Orleans — where to be dropped off, when to be picked up, and why parking is not worth the hassle",
+      "A chauffeur guide to Frenchmen Street's live-music clubs — where to be dropped off, when to be picked up, and why parking isn't worth it.",
     category: "Travel",
     author: "MSY Limo Team",
     date: "September 29, 2026",
@@ -152,7 +152,7 @@ export const BLOG_POSTS_BATCH5 = [
   {
     slug: "french-quarter-festival-transportation-guide",
     title: "French Quarter Festival Transportation: Getting In and Out Without the Gridlock",
-    metaTitle: "French Quarter Festival Transportation | MSY Limo",
+    metaTitle: "French Quarter Fest: Beating the Gridlock | MSY Limo",
     metaDescription:
       "A chauffeur's guide to French Quarter Festival transportation — stage locations, street closures, and the best drop-off strategy for the free New Orleans event.",
     category: "Events",
@@ -358,7 +358,7 @@ export const BLOG_POSTS_BATCH5 = [
     title: "New Year's Eve on Bourbon Street: A Car Service Planning Guide",
     metaTitle: "New Year's Eve Bourbon Street Car Service | MSY Limo",
     metaDescription:
-      "Planning New Year's Eve car service in the French Quarter — Bourbon Street closures, the Fleur de Lis Drop, and how pickup timing really works this year in NOLA",
+      "Planning New Year's Eve car service in the French Quarter — Bourbon Street closures, the Fleur de Lis Drop, and how pickup timing works this year.",
     category: "Events",
     author: "MSY Limo Team",
     date: "September 29, 2026",

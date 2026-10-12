@@ -1924,7 +1924,7 @@ seoBlogPosts.push({
   title: "New Orleans Wedding Transportation: The Complete Venue-by-Venue Guide",
   metaTitle: "New Orleans Wedding Transportation Guide | Venues & Vehicles",
   metaDescription:
-    "A venue-by-venue guide to wedding transportation in New Orleans — French Quarter, Garden District, Uptown, Northshore & River Road plantations. Real vehicles, real logistics.",
+    "A venue-by-venue guide to New Orleans wedding transportation — French Quarter, Garden District, Uptown & Northshore. Real vehicles, real logistics.",
   category: "Weddings",
   author: "MSY Limo Team",
   date: "September 30, 2026",

@@ -269,6 +269,30 @@ const WeddingPage = () => {
       </section>
 
       <PageFaq faqs={WEDDING_FAQS} />
+
+      {/* Related wedding & celebration pages */}
+      <section className="py-16 bg-gray-900">
+        <div className="max-w-7xl mx-auto px-6 md:px-12">
+          <h2 className="text-2xl font-medium mb-8 text-amber-400" style={{ fontFamily: "'Playfair Display', serif" }}>
+            Weddings & Celebrations
+          </h2>
+          <div className="flex flex-wrap gap-3">
+            {[
+              { to: "/new-orleans-wedding-limo-service", label: "New Orleans Wedding Limo Service" },
+              { to: "/second-line-wedding-parade-transportation", label: "Second Line Wedding Parade" },
+              { to: "/garden-district-limo-service", label: "Garden District" },
+              { to: "/french-quarter-limo-service", label: "French Quarter" },
+              { to: "/new-orleans-anniversary-limo-service", label: "Anniversary Limo Service" },
+              { to: "/services/special-events", label: "Special Events" },
+            ].map((l) => (
+              <Link key={l.to} to={l.to} className="px-4 py-2 bg-amber-500/10 border border-amber-500/30 rounded-lg text-sm text-amber-400 font-medium hover:bg-amber-500/20 transition-colors">
+                {l.label}
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <Footer />
     </div>
   );

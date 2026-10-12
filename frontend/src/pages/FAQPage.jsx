@@ -40,8 +40,8 @@ const FAQPage = () => {
   return (
     <div className="min-h-screen bg-black">
       <SEO
-        title="FAQ | MSY Airport Car Service Questions Answered"
-        description="Answers about MSY airport car service — booking, fleet, wait times, cancellations & corporate accounts. Still have questions? Call (877) 609-1919."
+        title="Frequently Asked Questions | MSY Limo Service"
+        description="Booking, fleet, wait times, cancellations & corporate accounts — answered. Still have questions? Call (877) 609-1919."
         path="/faq"
         schema={[buildFaqSchema(faqData)]}
       />

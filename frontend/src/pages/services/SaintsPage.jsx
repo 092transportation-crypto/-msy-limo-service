@@ -412,6 +412,29 @@ const SaintsPage = () => {
       </motion.section>
 
       <PageFaq faqs={SAINTS_FAQS} />
+
+      {/* Related game-day & venue pages */}
+      <section className="py-16 bg-gray-900">
+        <div className="max-w-7xl mx-auto px-6 md:px-12">
+          <h2 className="text-2xl font-medium mb-8 text-amber-400" style={{ fontFamily: "'Playfair Display', serif" }}>
+            Superdome & Game-Day Pages
+          </h2>
+          <div className="flex flex-wrap gap-3">
+            {[
+              { to: "/caesars-superdome-transportation", label: "Caesars Superdome Transportation" },
+              { to: "/smoothie-king-center-transportation", label: "Smoothie King Center" },
+              { to: "/warehouse-district-cbd-limo-service", label: "Warehouse District Tailgating" },
+              { to: "/services/special-events", label: "Special Events" },
+              { to: "/services/hourly-charter", label: "Hourly Charter" },
+            ].map((l) => (
+              <Link key={l.to} to={l.to} className="px-4 py-2 bg-amber-500/10 border border-amber-500/30 rounded-lg text-sm text-amber-400 font-medium hover:bg-amber-500/20 transition-colors">
+                {l.label}
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <Footer />
     </div>
   );

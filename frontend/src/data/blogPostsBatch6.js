@@ -12,7 +12,7 @@ export const BLOG_POSTS_BATCH6 = [
     title: "The New Orleans Restaurant Tour: A Chauffeur's Guide to Eating Your Way Across the City",
     metaTitle: "New Orleans Restaurant Tour Chauffeur Guide | MSY Limo",
     metaDescription:
-      "Plan a multi-restaurant New Orleans food tour the easy way with our chauffeur's guide to reservation timing, neighborhoods, and parking-free dining logistics",
+      "Plan a multi-restaurant New Orleans food tour the easy way with our chauffeur's guide to reservation timing, neighborhoods, and parking-free dining logistics.",
     category: "Travel",
     author: "MSY Limo Team",
     date: "October 4, 2026",
@@ -72,7 +72,7 @@ export const BLOG_POSTS_BATCH6 = [
     title: "Visiting New Orleans' Historic Cemeteries: A Respectful Chauffeur Guide to St. Louis Cemetery",
     metaTitle: "St. Louis Cemetery Tour Transportation Guide | MSY Limo",
     metaDescription:
-      "A chauffeur's guide to visiting New Orleans' historic above-ground cemeteries respectfully, covering access rules, guided-tour timing, and parking realities",
+      "A chauffeur's guide to visiting New Orleans' historic above-ground cemeteries respectfully, covering access rules, guided-tour timing, and parking realities.",
     category: "Travel",
     author: "MSY Limo Team",
     date: "October 4, 2026",
