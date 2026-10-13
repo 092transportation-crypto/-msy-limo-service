@@ -23,8 +23,7 @@ const fleet = [
   { id: 4, name: "Chevrolet Suburban 2023+ or similar", image: "/images/chevy-suburban.webp", passengers: 5, luggage: 5, category: "Luxury SUV", desc: "Maximum space without compromising luxury — ideal for larger groups.", features: ["Spacious Interior", "Group Friendly", "Premium Sound", "USB Charging"] },
   { id: 5, name: "Cadillac Escalade 2023+ or similar", image: "/images/cadillac-escalade.webp", passengers: 6, luggage: 5, category: "Premium SUV", desc: "America's premier luxury SUV for families and groups.", features: ["Spacious Interior", "Premium Sound", "TV Screens", "USB Charging"] },
   { id: 6, name: "Mercedes Sprinter 2023+ or similar", image: "/images/sprinter-shuttle-seats.webp", passengers: 13, luggage: 13, category: "Sprinter Shuttle", desc: "Comfortable group shuttle for airport runs and events.", features: ["Group Seating", "Spacious Interior", "WiFi", "USB Ports"] },
-  { id: 7, name: "Mercedes Sprinter 2023+ or similar", image: "/images/mercedes-sprinter.webp", passengers: 13, luggage: 13, category: "Sprinter Executive", desc: "Premium executive van with captain chairs and luxury amenities.", features: ["Captain Chairs", "Conference Setup", "WiFi", "USB Ports"] },
-  { id: 8, name: "Mercedes Sprinter Limo 2023+ or similar", image: "/images/limousine.webp", passengers: 13, luggage: 13, category: "Sprinter Limo", desc: "The ultimate stretch limo experience for weddings and special occasions.", features: ["Limo Interior", "Mood Lighting", "Premium Sound", "Mini Bar"] },
+  { id: 7, name: "Mercedes Sprinter 2023+ or similar", image: "/images/mercedes-sprinter.webp", passengers: 13, luggage: 13, category: "Sprinter Executive", desc: "Premium executive van with captain chairs and luxury amenities. Also the ultimate stretch limo experience for weddings and special occasions.", features: ["Captain Chairs", "Conference Setup", "Mood Lighting", "Mini Bar"] },
 ];
 
 const containerVariants = {

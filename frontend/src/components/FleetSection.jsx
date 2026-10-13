@@ -64,16 +64,7 @@ const fleet = [
     passengers: 13,
     luggage: 13,
     category: "Sprinter Executive",
-    features: ["Captain Chairs", "Conference Setup", "WiFi", "USB Ports"]
-  },
-  {
-    id: 8,
-    name: "Mercedes Sprinter Limo 2023+ or similar",
-    image: "/images/limousine.webp",
-    passengers: 13,
-    luggage: 13,
-    category: "Sprinter Limo",
-    features: ["Limo Interior", "Mood Lighting", "Premium Sound", "Mini Bar"]
+    features: ["Captain Chairs", "Conference Setup", "Mood Lighting", "Mini Bar"]
   }
 ];
 

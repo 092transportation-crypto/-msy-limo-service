@@ -668,8 +668,8 @@ export const GUIDES = [
         <li><strong>Lincoln Nautilus SUV</strong> — seats up to 3 with extra luggage room, useful for a family bringing blankets, thermoses and camera gear for a multi-stop night.</li>
         <li><strong>Chevrolet Suburban</strong> — seats up to 5. A natural fit for an extended family group doing both a drive-through display and a walkable stop like National Harbor in the same evening.</li>
         <li><strong>Cadillac Escalade</strong> — seats up to 6, with premium sound and rear screens, a popular choice for a grandparents-and-grandkids outing where keeping the kids entertained between stops matters.</li>
-        <li><strong>Mercedes Sprinter shuttle or executive van</strong> — seats up to 13. The right call for an office holiday party, a church or school group, or an extended family reunion touring two or three displays together in one vehicle instead of splitting into several cars that inevitably get separated in the dark.</li>
-        <li><strong>Mercedes Sprinter limousine</strong> — seats up to 13 with limo-style interior, mood lighting and a mini bar, for a group that wants the evening itself to feel like part of the celebration, not just the transportation to it.</li>
+        <li><strong>Mercedes Sprinter shuttle</strong> — seats up to 13. The right call for an office holiday party, a church or school group, or an extended family reunion touring two or three displays together in one vehicle instead of splitting into several cars that inevitably get separated in the dark.</li>
+        <li><strong>Mercedes Sprinter executive van</strong> — seats up to 13 with a limo-style interior, mood lighting and a mini bar, for a group that wants the evening itself to feel like part of the celebration, not just the transportation to it.</li>
       </ul>
       <p>See the complete lineup, including photos and specifications, on our <a href="/fleet">fleet page</a>.</p>
 
@@ -727,7 +727,7 @@ export const GUIDES = [
       },
       {
         q: "What vehicle should we book for a family holiday lights tour versus a large group?",
-        a: "A couple or small family touring a single drive-through display is well served by a Mercedes-Benz E-Class sedan or Lincoln Nautilus SUV. A larger extended family or group doing a drive-through plus a walkable stop fits comfortably in a Chevrolet Suburban or Cadillac Escalade. An office party, school group or large family reunion touring multiple displays together typically books a Mercedes Sprinter shuttle, executive van or Sprinter limousine, which seats up to 13.",
+        a: "A couple or small family touring a single drive-through display is well served by a Mercedes-Benz E-Class sedan or Lincoln Nautilus SUV. A larger extended family or group doing a drive-through plus a walkable stop fits comfortably in a Chevrolet Suburban or Cadillac Escalade. An office party, school group or large family reunion touring multiple displays together typically books a Mercedes Sprinter shuttle or executive van, which seats up to 13.",
       },
       {
         q: "What is your cancellation policy if weather affects a holiday lights tour?",
