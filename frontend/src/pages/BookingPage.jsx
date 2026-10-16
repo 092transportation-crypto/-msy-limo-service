@@ -4,6 +4,7 @@ import { BadgeDollarSign } from "lucide-react";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import SEO, { buildFaqSchema } from "@/components/SEO";
+import { LOCAL_BUSINESS_SCHEMA } from "@/lib/localBusinessSchema";
 import InquiryForm from "@/components/InquiryForm";
 import PageFaq from "@/components/PageFaq";
 const BOOKING_FAQS = [
@@ -26,7 +27,7 @@ const BookingPage = () => {
         title="Book Your Ride | MSY Limo Service New Orleans"
         description="Book your MSY airport transfer, corporate car service, or special event limo online. Request a ride in minutes or call (877) 609-1919 — available 24/7."
         path="/booking"
-        schema={[buildFaqSchema(BOOKING_FAQS)]}
+        schema={[LOCAL_BUSINESS_SCHEMA, buildFaqSchema(BOOKING_FAQS)]}
       />
       <Navigation />
 

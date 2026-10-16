@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import SEO, { buildFaqSchema } from "@/components/SEO";
+import { LOCAL_BUSINESS_SCHEMA } from "@/lib/localBusinessSchema";
 import { routes } from "@/data/routesData";
 import { venues } from "@/data/venuesData";
 import { MARYLAND_PAGES } from "@/data/marylandPages";
@@ -46,7 +47,7 @@ const ServiceAreasPage = () => (
       title="Service Areas | New Orleans & Louisiana Car Service"
       description="Every city, MSY airport route, venue and service MSY Limo Service covers across New Orleans and Louisiana. Flat rates, 24/7. Call (877) 609-1919."
       path="/service-areas"
-      schema={[buildFaqSchema(FAQS)]}
+      schema={[LOCAL_BUSINESS_SCHEMA, buildFaqSchema(FAQS)]}
     />
     <Navigation />
     <main>

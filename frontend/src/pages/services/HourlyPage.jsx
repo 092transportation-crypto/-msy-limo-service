@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import SEO, { buildFaqSchema } from "@/components/SEO";
+import { LOCAL_BUSINESS_SCHEMA } from "@/lib/localBusinessSchema";
 import { Clock, CheckCircle, Phone, ArrowRight, MapPin, Wine } from "lucide-react";
 import PageFaq from "@/components/PageFaq";
 import { ensureFiveFaqs } from "@/lib/faqExtras";
@@ -55,7 +56,7 @@ const HourlyPage = () => {
         title="Hourly Limo Charter New Orleans | As-Directed Chauffeur"
         description="Hourly as-directed chauffeur charter in New Orleans for tours, multi-stop days & events, with a dedicated vehicle. Call (877) 609-1919 to book."
         path="/services/hourly-charter"
-        schema={[hourlyFaqSchema]}
+        schema={[LOCAL_BUSINESS_SCHEMA, hourlyFaqSchema]}
       />
       <Navigation />
       

@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import SEO, { buildFaqSchema } from "@/components/SEO";
+import { LOCAL_BUSINESS_SCHEMA } from "@/lib/localBusinessSchema";
 import { Heart, CheckCircle, Phone, ArrowRight, Sparkles, Users } from "lucide-react";
 import PageFaq from "@/components/PageFaq";
 import { ensureFiveFaqs } from "@/lib/faqExtras";
@@ -55,7 +56,7 @@ const WeddingPage = () => {
         title="New Orleans Wedding Limo Service | Stretch Limos & Sprinters"
         description="New Orleans wedding limo service — stretch limos, sedans & Sprinter guest shuttles with champagne toast and red carpet. Call (877) 609-1919 to book."
         path="/services/wedding-limo"
-        schema={[weddingFaqSchema]}
+        schema={[LOCAL_BUSINESS_SCHEMA, weddingFaqSchema]}
       />
       <Navigation />
       

@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import SEO, { buildFaqSchema } from "@/components/SEO";
+import { LOCAL_BUSINESS_SCHEMA } from "@/lib/localBusinessSchema";
 import { Briefcase, CheckCircle, Phone, ArrowRight, Users, Shield } from "lucide-react";
 import PageFaq from "@/components/PageFaq";
 import { ensureFiveFaqs } from "@/lib/faqExtras";
@@ -55,7 +56,7 @@ const CorporatePage = () => {
         title="Corporate Car Service New Orleans | Executive Chauffeur"
         description="Executive corporate car service for New Orleans business travel — client meet & greet at MSY, roadshows & monthly billing. Call (877) 609-1919."
         path="/services/corporate-transportation"
-        schema={[corporateFaqSchema]}
+        schema={[LOCAL_BUSINESS_SCHEMA, corporateFaqSchema]}
       />
       <Navigation />
       

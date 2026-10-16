@@ -4,6 +4,7 @@ import { ensureFiveFaqs } from "@/lib/faqExtras";
 import { MARYLAND_BATCH3 } from "@/data/marylandPagesBatch3";
 import { MARYLAND_BATCH4 } from "@/data/marylandPagesBatch4";
 import { MARYLAND_BATCH5 } from "@/data/marylandPagesBatch5";
+import { MARYLAND_BATCH6 } from "@/data/marylandPagesBatch6";
 
 export const MARYLAND_PAGES = [
   {
@@ -11404,6 +11405,7 @@ export const MARYLAND_PAGES = [
   ...MARYLAND_BATCH3,
   ...MARYLAND_BATCH4,
   ...MARYLAND_BATCH5,
+  ...MARYLAND_BATCH6,
 ];
 
 // Every page carries five FAQs (visible block + FAQPage schema).

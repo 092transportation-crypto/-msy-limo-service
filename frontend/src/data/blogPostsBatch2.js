@@ -31,6 +31,12 @@ export const BLOG_POSTS_BATCH2 = [
 
       <h2>What to Tell Dispatch When You Book</h2>
       <p>Give us your flight number, airline, and whether you want curbside or meet and greet. We track the flight from there. If your plans change — an earlier connection, a rebooked flight — call and we will adjust the pickup without starting the reservation over.</p>
+
+      <h2>International Arrivals: Customs and Baggage Add Time</h2>
+      <p>Travelers flying in from abroad clear customs and collect checked bags before reaching the public arrivals area, a process that can run anywhere from a few minutes to well over an hour depending on the flight and the time of day. That is exactly why international pickups include a longer 60-minute complimentary wait window rather than the standard 45 — your chauffeur is already positioned and simply waits for you to clear that extra step.</p>
+
+      <h2>Connecting Flights and Multi-Leg Itineraries</h2>
+      <p>If your trip to MSY involves a connection, share both flight numbers when you book. We track the arriving leg specifically, so a tight or missed connection that pushes your actual arrival later than originally planned is reflected automatically, rather than leaving your chauffeur watching the wrong flight number on a board.</p>
     `,
     faqs: [
       { q: "Where exactly will my chauffeur be waiting at MSY?", a: "At the designated pickup area outside baggage claim for curbside service, or inside baggage claim holding a name sign if you add meet and greet." },
@@ -81,6 +87,9 @@ export const BLOG_POSTS_BATCH2 = [
 
       <h2>Changes and Cancellations</h2>
       <p>Wedding and multi-vehicle special-event bookings can be cancelled at no charge up to 12 hours before the scheduled pickup time. If your timeline shifts closer to the date, call and dispatch will confirm whether it changes the rate before re-confirming.</p>
+
+      <h2>Day-Of: What Your Chauffeur Actually Needs</h2>
+      <p>On the wedding day itself, your chauffeur works from the timeline your planner confirmed, but the small details matter most: the exact door to use at a venue with multiple entrances, where the photographer wants the car staged for arrival shots, and who to call if the ceremony runs long. Sharing the planner's or day-of coordinator's cell number with us ahead of time means any last-minute adjustment happens between professionals, not as a scramble between the couple and the car.</p>
     `,
     faqs: [
       { q: "How far ahead should we book New Orleans wedding transportation?", a: "As early as you can once the date and venue are set — 9 to 12 months out is ideal for peak Saturdays, since Sprinter vans, limousines and multi-vehicle bookings sell out first." },
@@ -128,6 +137,12 @@ export const BLOG_POSTS_BATCH2 = [
 
       <h2>Billing for Groups</h2>
       <p>Corporate and event accounts receive consolidated invoicing, which is particularly useful for a convention where costs may need to be split across sponsors, the event budget, or individual attendee reimbursement — a single itemized invoice makes that reconciliation far simpler than dozens of individual receipts.</p>
+
+      <h2>Handling Off-Site Functions and Evening Receptions</h2>
+      <p>Most multi-day conventions include at least one off-site reception, sponsor dinner or offsite tour away from the Convention Center itself, often at a venue in the Warehouse District or French Quarter. These events usually need their own transportation block separate from the daytime shuttle loop, timed to the function's start and end rather than the day's session schedule, and we plan them as their own line item in the overall event transportation plan.</p>
+
+      <h2>A Single Point of Contact Simplifies Everything</h2>
+      <p>The planners who have the smoothest convention week are the ones who give dispatch one point of contact for the whole event rather than routing every change through different attendees. When a session runs long or an off-site dinner moves up an hour, one phone call updates the whole transportation plan instead of several separate, possibly conflicting requests.</p>
     `,
     faqs: [
       { q: "How do you handle transportation for a group across multiple hotels?", a: "A shuttle loop with fixed pickup times between the hotel cluster and the Convention Center is usually the most efficient structure, run in Sprinter vans." },
@@ -175,6 +190,9 @@ export const BLOG_POSTS_BATCH2 = [
 
       <h2>When a Black Car Service Is the Better Call</h2>
       <p>For an MSY airport departure where being late is not an option, a wedding or event with a schedule to keep, a late-night return from Bourbon Street where safety and reliability matter most, or any trip during Mardi Gras or Jazz Fest when demand spikes citywide, a confirmed reservation removes the one variable rideshare and taxis cannot promise: certainty.</p>
+
+      <h2>Groups Change the Math</h2>
+      <p>For a party of one or two, rideshare or a taxi is often the most economical choice on an ordinary day. For three or more people with luggage, that math flips — a black car's flat per-vehicle rate frequently costs less in total than stacking multiple rideshare trips or paying a taxi's per-person add-on, while also keeping the whole group together instead of splitting across separate cars.</p>
     `,
     faqs: [
       { q: "Is black car service always more expensive than rideshare in New Orleans?", a: "Not necessarily — rideshare pricing moves with demand, so during Mardi Gras, Jazz Fest or a Saints game the gap narrows or reverses. A confirmed flat rate is known in advance either way." },

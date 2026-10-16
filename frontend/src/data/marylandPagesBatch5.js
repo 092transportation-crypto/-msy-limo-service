@@ -78,6 +78,8 @@ export const MARYLAND_BATCH5 = [
       { label: "Marrero Limo Service", to: "/marrero-la-limo-service" },
       { label: "Gretna and Westbank Limo Service", to: "/gretna-westbank-limo-service" },
       { label: "Algiers Limo Service", to: "/algiers-limo-service" },
+      { label: "Avondale Limo Service", to: "/avondale-la-limo-service" },
+      { label: "Waggaman Limo Service", to: "/waggaman-la-limo-service" },
       { label: "Airport Transportation", to: "/services/airport-transportation" },
       { label: "Corporate Transportation", to: "/services/corporate-transportation" },
       { label: "Book a Ride", to: "/booking" },
@@ -131,6 +133,7 @@ export const MARYLAND_BATCH5 = [
         paragraphs: [
           "The Barataria Preserve draws visitors year-round for boardwalk trails and ranger-led swamp tours, and Marrero is the closest town to the entrance. Many visitors pair a morning at the preserve with an afternoon flight out of MSY, which we coordinate as a single booking.",
           "For Marrero residents, the value is a predictable, flat-rate ride to the airport that doesn't depend on a neighbor's schedule or rideshare availability during the Westbank's less-served hours.",
+        "Marrero's residential character also means many of our bookings here are everyday trips rather than special occasions — a ride to a medical appointment, a family visit, or a reliable car when a household vehicle is in the shop — all quoted the same flat-rate way as an MSY airport transfer.",
         ],
       },
     ],
@@ -199,6 +202,7 @@ export const MARYLAND_BATCH5 = [
         paragraphs: [
           "The route runs I-10 West to LA-48, with the Kenner and River Parishes interchange the main traffic variable. Your chauffeur checks conditions before pickup and adjusts the timing accordingly.",
           "For visitors continuing west, LaPlace and the rest of the River Parishes are a short extension, and for Westbank connections, the Hale Boggs Bridge in Luling is nearby.",
+        "Destrehan's location along River Road also puts it within easy reach of the Bonnet Carre Spillway and the rest of St. Charles Parish's industrial corridor, and we run both leisure and plant-related business travel through here on the same flat-rate, flight-tracked basis, with the same chauffeurs handling both kinds of trips interchangeably throughout the week and the same flat-rate promise either way, confirmed before the vehicle is ever dispatched to your pickup address.",
         ],
       },
     ],
@@ -214,6 +218,8 @@ export const MARYLAND_BATCH5 = [
       { label: "MSY to Destrehan", to: "/msy-to-destrehan" },
       { label: "MSY to LaPlace", to: "/msy-to-laplace" },
       { label: "Kenner Limo Service", to: "/kenner-limo-service" },
+      { label: "Norco Limo Service", to: "/norco-la-limo-service" },
+      { label: "St. Rose Limo Service", to: "/st-rose-la-limo-service" },
       { label: "River Road Plantation Tour Transportation", to: "/river-road-plantation-tour-transportation" },
       { label: "Hourly Charter", to: "/services/hourly-charter" },
       { label: "Corporate Transportation", to: "/services/corporate-transportation" },
@@ -268,6 +274,7 @@ export const MARYLAND_BATCH5 = [
         paragraphs: [
           "With no regional commercial airport nearby, LaPlace residents fly out of MSY by default. A reserved chauffeur removes the pre-dawn-favor problem of an early flight — one flat rate, booked in advance, with a chauffeur on your schedule rather than someone else's.",
           "For industrial contractors and consultants coming into the parish, routing through MSY's much larger nonstop schedule beats connecting through a smaller regional field, with a straight I-10 ride on the other end.",
+        "LaPlace's Andouille Festival each October is one of the busiest weekends of the year for this part of St. John Parish, and out-of-town family flying in for it should expect to book well ahead, since both vehicles and hotel rooms in the area tighten up fast that weekend and availability can disappear entirely in the final week before the festival opens, particularly for Sprinter vans carrying larger extended families who want to travel together rather than split across several separate cars that weekend.",
         ],
       },
     ],
@@ -283,6 +290,7 @@ export const MARYLAND_BATCH5 = [
       { label: "MSY to LaPlace", to: "/msy-to-laplace" },
       { label: "MSY to Destrehan", to: "/msy-to-destrehan" },
       { label: "Kenner Limo Service", to: "/kenner-limo-service" },
+      { label: "Reserve Limo Service", to: "/reserve-la-limo-service" },
       { label: "Corporate Transportation", to: "/services/corporate-transportation" },
       { label: "Hourly Charter", to: "/services/hourly-charter" },
       { label: "Book a Ride", to: "/booking" },
@@ -335,6 +343,7 @@ export const MARYLAND_BATCH5 = [
         h2: "A parish rebuilt, and well served",
         paragraphs: [
           "St. Bernard Parish rebuilt block by block after Hurricane Katrina, and rideshare availability here can still be thinner than in the city proper, especially late at night. A reserved chauffeur is committed to your trip the moment you book it, not dependent on who happens to be nearby.",
+        "Chalmette's Battle of New Orleans battlefield and national cemetery also draw a steady stream of history-minded visitors flying into MSY, and we treat a Chalmette Battlefield visit as a natural add-on to an airport transfer rather than a separate trip requiring its own booking, since the detour adds only a few minutes to the drive in from the terminal and costs nothing extra beyond the standard flat rate for the trip, with your chauffeur handling the extra stop as a routine part of the booking.",
         ],
       },
     ],
@@ -348,6 +357,8 @@ export const MARYLAND_BATCH5 = [
     ],
     related: [
       { label: "MSY to Chalmette", to: "/msy-to-chalmette" },
+      { label: "Arabi Limo Service", to: "/arabi-la-limo-service" },
+      { label: "Violet Limo Service", to: "/violet-la-limo-service" },
       { label: "Algiers Limo Service", to: "/algiers-limo-service" },
       { label: "Treme Limo Service", to: "/treme-limo-service" },
       { label: "French Quarter Limo Service", to: "/french-quarter-limo-service" },
@@ -403,6 +414,7 @@ export const MARYLAND_BATCH5 = [
         paragraphs: [
           "Westwego is a short hop from Marrero and the Jean Lafitte National Historical Park entrance, and we run swamp tour transfers on the same flat-rate basis as any other trip.",
           "For an evening in the French Quarter or downtown, the ride across the river is short once you're across the bridge, with the chauffeur handling the return at a time you set.",
+        "Westwego's riverfront farmers market and its role as a Westbank gateway also mean a fair number of our bookings here continue on to neighboring Marrero, Harvey or Gretna the same day, and we're glad to quote the whole loop as a single reservation rather than charging separately for each leg, which keeps a multi-stop Westbank day simpler to plan and pay for than booking three separate rideshare trips across the same afternoon, each with its own fare, its own wait, and its own small chance of a cancellation at the worst possible moment.",
         ],
       },
     ],
@@ -471,6 +483,7 @@ export const MARYLAND_BATCH5 = [
         h2: "Dinners, nights out and the streetcar line",
         paragraphs: [
           "Oak Street's restaurant row and the Riverbend's small plates spots are some of Uptown's best-kept dining secrets, but parking disappears fast on weekend nights. A chauffeured drop-off at the door, with a pickup timed to your reservation, removes the only real friction point in an Uptown dinner.",
+        "The Carrollton Riverbend's streetcar barn and the bend in the Mississippi River that gives the neighborhood its name also make it a popular stop for visitors tracing the full length of the St. Charles Avenue line, and we're happy to build a car service day around that kind of sightseeing rather than a single point-to-point trip.",
         ],
       },
     ],
@@ -538,6 +551,7 @@ export const MARYLAND_BATCH5 = [
         h2: "Dinners along Esplanade and beyond",
         paragraphs: [
           "The restaurant scene along Esplanade Avenue and nearby Mid-City has grown steadily, and a chauffeured evening removes the only real complication: parking on a street that fills up fast once the sun goes down.",
+        "Faubourg St. John's bayou-front homes and its proximity to City Park also make it a quieter, more residential alternative to the French Quarter for visitors who still want to be a short ride from downtown, and we treat pickups here with the same promptness as any CBD hotel, regardless of how quiet the street itself happens to be.",
         ],
       },
     ],
@@ -754,6 +768,7 @@ export const MARYLAND_BATCH5 = [
         h2: "Campus events and everyday travel",
         paragraphs: [
           "Beyond the two universities, Gentilly residents book us for corporate travel downtown, nights out in the French Quarter or Uptown, and the Jazz Fest week crowds that fill the neighborhood's edge along the Fair Grounds. Hourly service means one chauffeur stays with you through a day with several stops rather than booking separate rides for each leg.",
+        "Gentilly's proximity to the University of New Orleans and the lakefront also means a steady mix of student family travel and lakefront leisure trips, and we run both on the same flat-rate, flight-tracked basis as every other MSY pickup in the neighborhood.",
         ],
       },
     ],
@@ -888,6 +903,7 @@ export const MARYLAND_BATCH5 = [
         h2: "Industrial crew travel and corporate accounts",
         paragraphs: [
           "Refineries and chemical plants along the Luling corridor keep standing accounts with us for contractor transport during turnarounds, visiting engineer travel and routine airport runs for out-of-town staff, all billed through monthly invoicing rather than per-trip paperwork.",
+        "Luling's location at the foot of the Hale Boggs Bridge also makes it a natural stop for River Parishes plantation tours heading further upriver, and we regularly combine a Luling pickup with a continuing trip toward Vacherie or Donaldsonville as a single hourly booking rather than a simple one-way transfer, which works out more economically for a full day of sightseeing along the river.",
         ],
       },
     ],
@@ -954,6 +970,7 @@ export const MARYLAND_BATCH5 = [
         h2: "Combining both attractions in one day",
         paragraphs: [
           "Families who want to see both the Zoo and the Aquarium in a single visit often take the John James Audubon riverboat one direction and ride with us the other, or book an hourly chauffeur who holds the vehicle between stops rather than booking three separate one-way trips. We help plan the logistics either way.",
+        "Families visiting both the zoo and the Aquarium of the Americas downtown on the same trip also book us for the connecting leg between the two, since parking at each separately and driving between them yourself often takes longer than simply staying with the same chauffeur for the whole day, especially with young children, strollers and the inevitable bag of souvenirs in tow by the end of the day.",
         ],
       },
     ],
@@ -1020,6 +1037,7 @@ export const MARYLAND_BATCH5 = [
         h2: "Faculty, staff and visiting delegation travel",
         paragraphs: [
           "Conference travel, accreditation visits and guest-speaker transportation are a regular part of our Xavier business, billed through corporate accounts that keep expense reporting simple for the university's departments.",
+        "Xavier's Gold Rush Weekend and its homecoming events each fall also bring a wave of alumni and family flying into MSY specifically for the occasion, and we coordinate multi-flight pickups across the arrival window so a visiting family isn't split between several separate cars. Commencement at the university draws a similar pattern of out-of-town relatives arriving on a tight schedule ahead of the ceremony, and a Sprinter van is a popular choice for extended families who want to travel together from the airport straight to campus rather than renting multiple cars for the weekend and navigating unfamiliar campus parking on commencement morning, when every visitor lot around campus fills within the first hour and overflow parking can mean a long, uncomfortable walk in formal graduation attire under the New Orleans spring sun, which a direct chauffeured drop-off avoids entirely, dropping each family right at the quad instead of a distant overflow lot.",
         ],
       },
     ],
@@ -1086,6 +1104,7 @@ export const MARYLAND_BATCH5 = [
         h2: "Why hourly service works best for festival days",
         paragraphs: [
           "A festival day rarely goes exactly to plan — a favorite act runs long, a pop-up second line forms, a group splits up and regroups. Hourly, as-directed booking means your chauffeur is reachable throughout the day rather than locked into a single pickup time that the festival itself may not respect.",
+        "French Quarter Festival's free admission and its spread across dozens of stages throughout the Quarter also mean heavier pedestrian traffic than almost any other event on the city calendar, and our chauffeurs plan drop-off points on the Quarter's perimeter accordingly rather than attempting to push a vehicle into the festival footprint itself. Because the festival runs over several days each April, many out-of-town visitors book transportation for the full weekend rather than a single day, and we're glad to quote that as one standing arrangement instead of a fresh booking every morning, which also locks in the same flat rate for the whole weekend regardless of which day draws the biggest crowds or which stages book the most popular acts that particular year, since the lineup changes annually.",
         ],
       },
     ],
@@ -1151,6 +1170,7 @@ export const MARYLAND_BATCH5 = [
         h2: "Booking a vehicle for the whole weekend",
         paragraphs: [
           "Many groups book one vehicle and chauffeur for the entire Essence weekend rather than per-trip rides — it simplifies planning, keeps the group together, and avoids re-booking during the weekend's highest-demand hours.",
+        "Essence Festival's combination of daytime Convention Center programming and nighttime Superdome concerts also means many attendees need two very different pickup points on the same day, and we plan both legs as one coordinated booking rather than treating the convention sessions and the concert as separate trips. Because the festival falls during the hottest, busiest weekend of the New Orleans summer, hotel and vehicle availability both tighten well in advance, so we recommend booking as soon as your travel dates are set rather than waiting until the week of the event, when the best vehicle classes are often already committed to other festival bookings and only the least convenient pickup times remain open for travelers who waited too long to reserve their preferred vehicle class.",
         ],
       },
     ],
@@ -1217,6 +1237,7 @@ export const MARYLAND_BATCH5 = [
         h2: "Groups, photography and special requests",
         paragraphs: [
           "Sprinter vans comfortably carry larger family or friend groups touring together, and we're used to brief stops for photos along the oak allées or riverbank that a self-driven tour often skips to stay on schedule.",
+        "A full River Road day typically covers two or three plantation properties spread across St. Charles and St. James parishes, and booking it as hourly, as-directed charter lets the vehicle wait at each stop for however long a tour actually runs rather than rushing a group back to a fixed pickup time.",
         ],
       },
     ],
@@ -1282,6 +1303,7 @@ export const MARYLAND_BATCH5 = [
         h2: "Booking the day around the boat schedule",
         paragraphs: [
           "Tour operators run fixed boat departure times, so we confirm your reservation time before the day and plan the drive, and any stop along the way, around it rather than the other way around. Hourly booking means the same vehicle and chauffeur handle the whole day, including the wait at the dock.",
+        "Swamp tour operators run on their own boat schedules rather than a fixed clock, and we coordinate pickup times directly against the tour's actual departure and return rather than a generic estimate, which matters most for operators whose tours can run long when wildlife sightings are good that day. Most tours sit well outside the city proper, so we also build real drive time into the schedule rather than treating it as a quick hop, which keeps a swamp tour day from running into an evening flight or dinner reservation.",
         ],
       },
     ],
@@ -1309,7 +1331,7 @@ export const MARYLAND_BATCH5 = [
     type: "service",
     name: "Sprinter Van Rental with Driver",
     badge: "New Orleans Fleet",
-    h1: "Sprinter Van Rental with Driver in New Orleans",
+    h1: "Sprinter Van Rental with Driver: New Orleans Group Transportation",
     metaTitle: "Sprinter Van Rental with Driver | New Orleans",
     metaDescription: "Mercedes Sprinter van rental with a professional driver in New Orleans — groups, weddings, conventions, MSY transfers. Call (877) 609-1919.",
     stats: [
@@ -1348,6 +1370,7 @@ export const MARYLAND_BATCH5 = [
         h2: "What's included",
         paragraphs: [
           "Every Sprinter van booking comes with a professionally trained, background-checked chauffeur, a commercially insured vehicle, and the same flat-rate-before-you-ride pricing standard as our sedans and SUVs — no hidden mileage charges or fuel surcharges added after the fact.",
+        "Corporate groups and wedding parties booking a Sprinter van for a full day also appreciate that the same chauffeur stays with the vehicle from the first pickup to the last drop-off, which means no re-briefing a new driver at each stop the way a self-driven rental would require. Unlike a traditional rental van, every trip includes a licensed, background-checked driver and commercial insurance, so nobody in the group needs to worry about navigating an unfamiliar city or carrying the liability of driving a 14-passenger vehicle themselves through unfamiliar New Orleans traffic, one-way streets, tight event parking, and a schedule that leaves no margin for a wrong turn or a missed exit on an unfamiliar interstate while everyone else in the vehicle is counting on getting there on time.",
         ],
       },
     ],

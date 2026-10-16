@@ -5,6 +5,7 @@ import DOMPurify from "dompurify";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import SEO, { buildFaqSchema } from "@/components/SEO";
+import { LOCAL_BUSINESS_SCHEMA } from "@/lib/localBusinessSchema";
 import { getSeoBlogPostBySlug, seoBlogPosts } from "@/data/blogPostsData";
 import { GUIDES } from "@/data/guides";
 
@@ -28,6 +29,7 @@ const BlogPostPage = ({ guideSlug }) => {
   if (!post) return <Navigate to="/blog" replace />;
 
   const schema = [
+    LOCAL_BUSINESS_SCHEMA,
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",

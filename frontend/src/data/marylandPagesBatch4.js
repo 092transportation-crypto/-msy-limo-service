@@ -1466,6 +1466,7 @@ export const MARYLAND_BATCH4 = [
         h2: "Occasions, game days and chauffeur service by the hour",
         paragraphs: [
           "Lakeview's proms, graduations, weddings and anniversaries use the stretch limousine and the Sprinter van, with the price agreed in advance. For Saints and Pelicans games, a chauffeur drops at the Superdome or the arena and returns at the final whistle so nobody drives home in game traffic. Hourly service covers a dinner at West End, a stop in the Quarter and the ride home, and the Causeway to Mandeville and Covington is a short flat-rate run for Northshore dinners and events.",
+        "Lakeview's rebuilt post-Katrina housing stock and its proximity to the lakefront levee trail also make it a popular choice for families relocating to New Orleans, and we regularly handle the airport-to-new-home transfer during a move, before a household's own vehicles have even arrived.",
         ],
       },
     ],

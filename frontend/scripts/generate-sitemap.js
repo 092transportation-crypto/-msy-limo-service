@@ -70,7 +70,7 @@ for (const slug of slugsFromFile("venuesData.js")) add(`/${slug}`, { priority: "
 
 // New Orleans / MSY-area city, neighborhood, service & event landing pages
 // (base marylandPages.js array + its Louisiana batch files).
-for (const file of ["marylandPages.js", "marylandPagesBatch3.js", "marylandPagesBatch4.js", "marylandPagesBatch5.js"]) {
+for (const file of ["marylandPages.js", "marylandPagesBatch3.js", "marylandPagesBatch4.js", "marylandPagesBatch5.js", "marylandPagesBatch6.js"]) {
   for (const slug of slugsFromFile(file)) add(`/${slug}`, { priority: "0.8" });
 }
 

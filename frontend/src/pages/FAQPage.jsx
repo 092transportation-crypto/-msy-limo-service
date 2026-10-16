@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import SEO, { buildFaqSchema } from "@/components/SEO";
+import { LOCAL_BUSINESS_SCHEMA } from "@/lib/localBusinessSchema";
 import { ChevronDown, Phone, HelpCircle, MessageCircle } from "lucide-react";
 
 const faqData = [
@@ -43,7 +44,7 @@ const FAQPage = () => {
         title="Frequently Asked Questions | MSY Limo Service"
         description="Booking, fleet, wait times, cancellations & corporate accounts — answered. Still have questions? Call (877) 609-1919."
         path="/faq"
-        schema={[buildFaqSchema(faqData)]}
+        schema={[LOCAL_BUSINESS_SCHEMA, buildFaqSchema(faqData)]}
       />
       <Navigation />
       

@@ -1,0 +1,1058 @@
+// Batch 6 (2026-10-16): 15 new Louisiana city/parish pages — River Parishes,
+// Jefferson Parish river towns and Westbank communities, St. Bernard Parish,
+// the Northshore and Tangipahoa/Ascension/Livingston Parishes, and Grand Isle.
+// Same entry shape as MARYLAND_PAGES (the name is historical — these are
+// Louisiana pages). Picked to fill real gaps left after Batches 3–5: none of
+// these places had a dedicated landing page before this batch.
+const VEHICLES = [
+  { name: "Mercedes-Benz E-Class", cls: "Business sedan", seats: 3, best: "solo executives and couples" },
+  { name: "BMW 7 Series", cls: "First-class sedan", seats: 3, best: "VIP and executive travel" },
+  { name: "Cadillac Escalade", cls: "Premium SUV", seats: 6, best: "families and small groups with luggage" },
+  { name: "Chevrolet Suburban", cls: "Luxury SUV", seats: 6, best: "airport runs with beach or golf luggage" },
+  { name: "Mercedes Sprinter van", cls: "Executive van", seats: 14, best: "wedding parties, corporate teams and groups" },
+  { name: "Stretch limousine", cls: "Limousine", seats: 8, best: "proms, weddings and celebrations" },
+];
+
+const vehicles = () => VEHICLES.map((v) => ({ ...v }));
+
+export const MARYLAND_BATCH6 = [
+  // ───────────────────────── River Parishes & Jefferson Parish towns ─────────────────────────
+  {
+    slug: "st-rose-la-limo-service",
+    type: "city",
+    name: "St. Rose",
+    badge: "St. Charles Parish Limo Service",
+    h1: "St. Rose Limo Service",
+    metaTitle: "St. Rose LA Limo Service | Car Service Near MSY Airport",
+    metaDescription: "Chauffeured limo and car service in St. Rose, LA — the closest St. Charles Parish town to MSY. Flat rates, flight tracking. Call (877) 609-1919.",
+    stats: [
+      { label: "MSY Airport", value: "≈ 10 mi · 15 minutes" },
+      { label: "Parish", value: "St. Charles" },
+      { label: "Pricing", value: "Flat rate or hourly" },
+      { label: "Dispatch", value: "24 / 7" },
+    ],
+    intro: [
+      "St. Rose sits just one interstate exit past Kenner, which makes it one of the closest St. Charles Parish communities to Louis Armstrong New Orleans International Airport. MSY Limo Service sends chauffeured sedans, SUVs, Sprinter vans and stretch limousines to the subdivisions off Ormond Boulevard, the River Oaks and Providence Estates neighborhoods, and the retail corridor near the Fashion Outlets of New Orleans.",
+      "The airport is about 10 miles away, usually a 15-minute drive on I-10, which means St. Rose residents often beat downtown New Orleans travelers to the terminal even though they live further from the French Quarter. That short, predictable drive is exactly why a flat-rate, flight-tracked pickup matters here — there is no excuse for a late car on a trip this short.",
+      "Beyond the airport, St. Rose clients use us for shift workers commuting to the Norco and Good Hope refineries, shopping trips to the outlet mall, and nights out in the CBD or French Quarter that end well after the Westbank Expressway and I-10 interchange has quieted down.",
+    ],
+    highlights: [
+      "Flat-rate or hourly pricing confirmed before you book",
+      "Flight tracking on every MSY pickup, with 45 minutes of complimentary wait on domestic arrivals and 60 on international",
+      "Chauffeurs who know the Ormond Boulevard subdivisions and the outlet mall loading areas",
+      "Optional meet and greet inside the terminal",
+      "Child car seats available on request",
+      "Licensed, background-checked chauffeurs and commercially insured vehicles",
+    ],
+    sections: [
+      {
+        h2: "Where we pick up in St. Rose",
+        paragraphs: [
+          "We cover the Ormond Boulevard corridor, River Oaks, Providence Estates and Fountainbleu Estates, along with the Fashion Outlets of New Orleans and the office and warehouse parks near the I-10 interchange. Gated subdivisions are no trouble — add the gate code or guard-house entrance when you book and your chauffeur will already have it.",
+          "Refinery and plant workers commuting toward Norco, Good Hope or the Mississippi River industrial corridor book us for shift transportation when a personal vehicle is in the shop or a route needs a predictable, insured driver.",
+        ],
+      },
+      {
+        h2: "St. Rose to MSY and back",
+        paragraphs: [
+          "The drive to MSY is almost entirely on I-10, so there is rarely a reason to detour — the trip stays close to 15 minutes outside of the heaviest rush-hour windows. Even then, a chauffeur who drives this stretch daily knows when to leave a few minutes earlier rather than guess.",
+          "On your return, we track your flight rather than the printed schedule. An early landing or a delay both adjust the pickup automatically, and the complimentary wait clock starts only once your aircraft is on the ground.",
+        ],
+      },
+      {
+        h2: "Outlet shopping and nights in the city",
+        paragraphs: [
+          "The Fashion Outlets of New Orleans sits right off the interstate, and we pick up shoppers curbside rather than making them track down a car in a crowded lot during holiday season. For an evening in the French Quarter or the Warehouse District, the drive in is short, but parking at the other end is not — a chauffeur drops you at the door and returns on your schedule.",
+        ],
+      },
+    ],
+    vehicles: vehicles(),
+    faqs: [
+      { q: "How far is St. Rose from MSY?", a: "About 10 miles, usually a 15-minute drive on I-10 outside of rush hour. It's one of the shortest airport runs in our St. Charles Parish service area." },
+      { q: "Can you handle shift transportation for refinery workers near St. Rose?", a: "Yes. We regularly run scheduled pickups for shift workers commuting toward the Norco and Good Hope plants, with flat rates for recurring trips." },
+      { q: "Do you serve the Fashion Outlets of New Orleans?", a: "Yes. We pick up and drop off curbside at the outlet mall, which is useful during busy holiday shopping weekends when parking fills up fast." },
+      { q: "What is the cancellation policy?", a: "Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup. Sprinter vans, limousines and special-event bookings need 12 hours." },
+      { q: "Do you offer hourly service in St. Rose?", a: "Yes. Hourly bookings keep the vehicle and chauffeur with you for shopping, errands, meetings or a night out, with as many stops as the time allows." },
+    ],
+    related: [
+      { label: "MSY to Destrehan", to: "/msy-to-destrehan" },
+      { label: "Destrehan Limo Service", to: "/destrehan-la-limo-service" },
+      { label: "Kenner Limo Service", to: "/kenner-limo-service" },
+      { label: "Metairie Limo Service", to: "/metairie-limo-service" },
+      { label: "Norco Limo Service", to: "/norco-la-limo-service" },
+      { label: "Airport Transportation", to: "/services/airport-transportation" },
+      { label: "Corporate Transportation", to: "/services/corporate-transportation" },
+      { label: "Book a Ride", to: "/booking" },
+    ],
+    schema: { areaServed: ["St. Rose, LA", "St. Charles Parish"], serviceType: "Limousine and car service" },
+  },
+  {
+    slug: "norco-la-limo-service",
+    type: "city",
+    name: "Norco",
+    badge: "St. Charles Parish Limo Service",
+    h1: "Norco Limo Service",
+    metaTitle: "Norco LA Limo Service | Car Service Near MSY Airport",
+    metaDescription: "Chauffeured limo and car service in Norco, LA — flat-rate MSY airport transfers, refinery shift transportation, weddings. Call (877) 609-1919.",
+    stats: [
+      { label: "MSY Airport", value: "≈ 17 mi · 25–30 minutes" },
+      { label: "Parish", value: "St. Charles" },
+      { label: "Pricing", value: "Flat rate or hourly" },
+      { label: "Dispatch", value: "24 / 7" },
+    ],
+    intro: [
+      "Norco grew up around the Shell and Motiva refineries on the Mississippi River, and that industrial footprint still shapes how the town moves people today — shift changes, contractor travel and plant visitors all need a driver who shows up exactly when promised. MSY Limo Service sends chauffeured sedans, SUVs and Sprinter vans to the Diamond neighborhood, the River Road corridor and the subdivisions off Apple Street.",
+      "Louis Armstrong New Orleans International Airport is about 17 miles away, typically a 25- to 30-minute drive via I-10 and LA-48. That makes Norco a comfortable, predictable airport run even though it sits further from the city than the East Jefferson suburbs.",
+      "Outside of plant travel, Norco residents use us for weddings at River Road venues, trips into New Orleans for a game or a show, and the occasional visit to the Bonnet Carre Spillway area just across the parish line.",
+    ],
+    highlights: [
+      "Flat-rate or hourly pricing confirmed before you book",
+      "Flight tracking on every MSY pickup, with 45 minutes of complimentary wait on domestic arrivals and 60 on international",
+      "Experience coordinating refinery and plant-site shift and contractor transportation",
+      "Optional meet and greet inside the terminal",
+      "Child car seats available on request",
+      "Licensed, background-checked chauffeurs and commercially insured vehicles",
+    ],
+    sections: [
+      {
+        h2: "Where we pick up in Norco",
+        paragraphs: [
+          "We cover the Diamond community, the River Road corridor, Apple Street and the residential streets near Norco Elementary, along with contractor lodging and plant gate pickups for workers who need a reliable ride rather than a personal vehicle left in a dusty lot for a two-week rotation.",
+          "Give us a street address, a plant gate name, or a River Road landmark and your chauffeur will find it — Norco's grid is simple, but gate access and badge procedures vary by site, so tell us which gate you use when you book.",
+        ],
+      },
+      {
+        h2: "Norco to MSY and back",
+        paragraphs: [
+          "Most trips run east on LA-48 to I-10, then straight into the airport exit. The drive is consistent outside of shift-change traffic near the plant entrances, and a chauffeur who works this corridor daily knows when to leave a cushion.",
+          "Returning flights are tracked in real time rather than against the printed schedule, so an early or delayed landing never costs you a missed pickup.",
+        ],
+      },
+      {
+        h2: "Shift transportation and River Road weddings",
+        paragraphs: [
+          "Plants along this stretch of river regularly need scheduled transportation for contractors and visiting staff between hotels, the airport and the gate. We run these as recurring flat-rate trips rather than one-off bookings. For weddings at River Road plantation venues near Norco, a Sprinter van or stretch limousine keeps the wedding party together for a day with a fixed schedule.",
+        ],
+      },
+    ],
+    vehicles: vehicles(),
+    faqs: [
+      { q: "How far is Norco from MSY airport?", a: "About 17 miles, usually a 25- to 30-minute drive via I-10 and LA-48." },
+      { q: "Can you provide scheduled transportation for refinery contractors and shift workers?", a: "Yes. We run recurring, flat-rate trips between hotels, the airport and plant gates for contractors and visiting staff — tell dispatch your schedule and gate requirements and we will set up a standing arrangement." },
+      { q: "Do you serve River Road wedding venues near Norco?", a: "Yes. Sprinter vans and stretch limousines keep a wedding party together for the day, with a fixed schedule built around your ceremony and reception times." },
+      { q: "What is the cancellation policy?", a: "Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup. Sprinter vans, limousines and special-event bookings need 12 hours." },
+      { q: "Can you pick up at a specific plant gate?", a: "Yes. Tell us the gate name or number when you book, and your chauffeur will confirm badge or sign-in procedures ahead of time so there is no delay at the gate." },
+    ],
+    related: [
+      { label: "MSY to Destrehan", to: "/msy-to-destrehan" },
+      { label: "Destrehan Limo Service", to: "/destrehan-la-limo-service" },
+      { label: "St. Rose Limo Service", to: "/st-rose-la-limo-service" },
+      { label: "River Road Plantation Tour Transportation", to: "/river-road-plantation-tour-transportation" },
+      { label: "Luling Limo Service", to: "/luling-la-limo-service" },
+      { label: "Corporate Transportation", to: "/services/corporate-transportation" },
+      { label: "Wedding Limo Service", to: "/services/wedding-limo" },
+      { label: "Book a Ride", to: "/booking" },
+    ],
+    schema: { areaServed: ["Norco, LA", "St. Charles Parish"], serviceType: "Limousine and car service" },
+  },
+  {
+    slug: "reserve-la-limo-service",
+    type: "city",
+    name: "Reserve",
+    badge: "St. John the Baptist Parish Limo Service",
+    h1: "Reserve Limo Service",
+    metaTitle: "Reserve LA Limo Service | St. John Parish Car Service",
+    metaDescription: "Chauffeured limo and car service in Reserve, LA — flat-rate MSY airport transfers for St. John the Baptist Parish. Call (877) 609-1919 to book.",
+    stats: [
+      { label: "MSY Airport", value: "≈ 29 mi · 35–40 minutes" },
+      { label: "Parish", value: "St. John the Baptist" },
+      { label: "Pricing", value: "Flat rate or hourly" },
+      { label: "Dispatch", value: "24 / 7" },
+    ],
+    intro: [
+      "Reserve sits on the east bank of St. John the Baptist Parish, between Laplace and Gramercy, in a stretch of River Parishes communities we already run daily between MSY and Baton Rouge. MSY Limo Service sends chauffeured sedans, SUVs and Sprinter vans to Reserve's residential streets, the Fifth Ward and the businesses along Highway 44 and Airline Highway.",
+      "Louis Armstrong New Orleans International Airport is about 29 miles east, typically a 35- to 40-minute drive via I-10. Because Reserve sits along our existing Laplace and Destrehan routes, scheduling a reliable, flat-rate pickup here is routine rather than a special arrangement.",
+      "Residents book us for early flights out of MSY, visiting family flying in for andouille and sausage festival weekends in neighboring Laplace, and the occasional day trip toward Baton Rouge or back into New Orleans.",
+      "Reserve's riverfront also includes a handful of historic plantation sites that draw visitors touring the River Road corridor, and we regularly combine a Reserve pickup with stops further down the river for guests who want a single chauffeur for the whole day rather than switching cars at every stop.",
+    ],
+    highlights: [
+      "Flat-rate or hourly pricing confirmed before you book",
+      "Flight tracking on every MSY pickup, with 45 minutes of complimentary wait on domestic arrivals and 60 on international",
+      "Chauffeurs who run the River Parishes corridor every day, not occasionally",
+      "Optional meet and greet inside the terminal",
+      "Child car seats available on request",
+      "Licensed, background-checked chauffeurs and commercially insured vehicles",
+    ],
+    sections: [
+      {
+        h2: "Where we pick up in Reserve",
+        paragraphs: [
+          "We cover the Fifth Ward, the residential streets off Highway 44, and the businesses and industrial sites along Airline Highway and the river. Give us a house number or a business name and your chauffeur will be there a few minutes early.",
+        ],
+      },
+      {
+        h2: "Reserve to MSY and back",
+        paragraphs: [
+          "The drive runs east on I-10 and follows the same corridor we already use for Laplace and Destrehan pickups, so our chauffeurs know the traffic patterns at both ends — including when the river bridge crossings nearby back up during plant shift changes.",
+          "Flights are tracked from the moment you book, so a delay or an early landing adjusts your pickup automatically rather than leaving you waiting at the curb or rushing your chauffeur unnecessarily.",
+        ],
+      },
+      {
+        h2: "River Parishes festivals and family visits",
+        paragraphs: [
+          "Reserve sits minutes from the Louisiana Andouille Festival grounds in Laplace and within easy reach of River Road plantation tours, so out-of-town family flying in for a festival weekend or a reunion is one of our most common Reserve bookings. We coordinate pickups across multiple arriving flights so nobody is left waiting at baggage claim.",
+          "Reserve is also home to several sugar and petrochemical plants along the river, and we run scheduled transportation for contractors and visiting staff who need a dependable car between a hotel, the plant gate and MSY rather than a rental sitting idle in a gravel lot for a two-week rotation.",
+        ],
+      },
+    ],
+    vehicles: vehicles(),
+    faqs: [
+      { q: "How far is Reserve from MSY airport?", a: "About 29 miles, usually a 35- to 40-minute drive via I-10." },
+      { q: "Do you serve the whole River Parishes area, or just Reserve?", a: "We run this corridor daily — Reserve, Laplace, Destrehan, Luling, Norco and St. Rose are all regular pickups, often on the same day as each other." },
+      { q: "Can you coordinate pickups for family flying in for a River Parishes festival?", a: "Yes. Give us every flight number and we will plan pickups across the arrival window so no one is stranded at baggage claim waiting on a single car." },
+      { q: "What is the cancellation policy?", a: "Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup. Sprinter vans, limousines and special-event bookings need 12 hours." },
+      { q: "Do you offer hourly service in Reserve?", a: "Yes. Hourly bookings keep the vehicle and chauffeur with you for errands, visits or a day trip, with as many stops as the time allows." },
+    ],
+    related: [
+      { label: "Laplace Limo Service", to: "/laplace-la-limo-service" },
+      { label: "MSY to Laplace", to: "/msy-to-laplace" },
+      { label: "Destrehan Limo Service", to: "/destrehan-la-limo-service" },
+      { label: "Luling Limo Service", to: "/luling-la-limo-service" },
+      { label: "River Road Plantation Tour Transportation", to: "/river-road-plantation-tour-transportation" },
+      { label: "Baton Rouge Limo Service", to: "/baton-rouge-limo-service" },
+      { label: "Airport Transportation", to: "/services/airport-transportation" },
+      { label: "Book a Ride", to: "/booking" },
+    ],
+    schema: { areaServed: ["Reserve, LA", "St. John the Baptist Parish"], serviceType: "Limousine and car service" },
+  },
+  // ───────────────────────── Jefferson Parish Westbank & river towns ─────────────────────────
+  {
+    slug: "avondale-la-limo-service",
+    type: "city",
+    name: "Avondale",
+    badge: "Jefferson Parish Westbank Limo Service",
+    h1: "Avondale Limo Service",
+    metaTitle: "Avondale LA Limo Service | Westbank Car Service Near MSY",
+    metaDescription: "Chauffeured limo and car service in Avondale, LA — flat-rate MSY airport transfers on the Westbank, corporate and event travel. Call (877) 609-1919.",
+    stats: [
+      { label: "MSY Airport", value: "≈ 14 mi · 20–25 minutes" },
+      { label: "Parish", value: "Jefferson (Westbank)" },
+      { label: "Pricing", value: "Flat rate or hourly" },
+      { label: "Dispatch", value: "24 / 7" },
+    ],
+    intro: [
+      "Avondale is best known for the shipyard that built Navy vessels for decades and is now being redeveloped into a mixed-use riverfront site, and that same working-river character shapes the town today. MSY Limo Service sends chauffeured sedans, SUVs and Sprinter vans to the residential streets off Highway 90, the Westbank Expressway corridor and the businesses tied to the redevelopment project.",
+      "Louis Armstrong New Orleans International Airport is about 14 miles away, usually a 20- to 25-minute drive crossing the river via the Huey P. Long Bridge or looping through the Crescent City Connection, depending on which route is running faster that day.",
+      "Beyond the airport, Avondale clients use us for contractor and construction-site travel tied to the shipyard redevelopment, trips into the CBD and French Quarter, and family occasions where a flat-rate Sprinter van beats coordinating several separate cars.",
+    ],
+    highlights: [
+      "Flat-rate or hourly pricing confirmed before you book",
+      "Flight tracking on every MSY pickup, with 45 minutes of complimentary wait on domestic arrivals and 60 on international",
+      "Chauffeurs who choose between the Huey P. Long Bridge and the Crescent City Connection based on real traffic",
+      "Optional meet and greet inside the terminal",
+      "Child car seats available on request",
+      "Licensed, background-checked chauffeurs and commercially insured vehicles",
+    ],
+    sections: [
+      {
+        h2: "Where we pick up in Avondale",
+        paragraphs: [
+          "We cover the neighborhoods off Highway 90 and the Westbank Expressway, the streets near the old shipyard site, and the business park and contractor lodging tied to the ongoing riverfront redevelopment. A gate code or site badge requirement is no problem — just tell us when you book.",
+        ],
+      },
+      {
+        h2: "Avondale to MSY and back",
+        paragraphs: [
+          "Crossing the river is the one variable on this route: the Huey P. Long Bridge is usually the faster path to I-10 and the airport, but during an incident or heavy truck traffic our chauffeurs switch to the Crescent City Connection and loop through the CBD instead. Either way, your rate is flat regardless of which bridge gets used.",
+          "Returning flights are flight-tracked rather than scheduled against the printed arrival time, so a delay never turns into a missed pickup.",
+        ],
+      },
+      {
+        h2: "Shipyard redevelopment and Westbank business travel",
+        paragraphs: [
+          "The former Avondale Shipyard site is now home to film production, logistics and other commercial tenants, and we coordinate recurring transportation for staff and visiting executives moving between the site, hotels and MSY. For Westbank residents heading into downtown New Orleans for an evening, we drop you at the door and skip the bridge-crossing parking hunt.",
+          "Visiting production crews and corporate teams working on-site often need several vehicles moving on the same schedule rather than separate bookings, and we coordinate multi-vehicle pickups as one reservation so everyone arrives together and the client gets a single, predictable invoice.",
+        ],
+      },
+    ],
+    vehicles: vehicles(),
+    faqs: [
+      { q: "How far is Avondale from MSY airport?", a: "About 14 miles, usually a 20- to 25-minute drive, crossing the river via the Huey P. Long Bridge or the Crescent City Connection depending on traffic." },
+      { q: "Can you provide transportation for the Avondale shipyard redevelopment site?", a: "Yes. We run recurring staff and visitor transportation between the site, area hotels and MSY, priced as a flat rate per trip or booked hourly for a full workday." },
+      { q: "Which bridge do you use to reach MSY from Avondale?", a: "Whichever is faster that day — usually the Huey P. Long Bridge, with the Crescent City Connection as the backup route. Your rate does not change based on the route." },
+      { q: "What is the cancellation policy?", a: "Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup. Sprinter vans, limousines and special-event bookings need 12 hours." },
+      { q: "Do you offer hourly service in Avondale?", a: "Yes. Hourly bookings keep the vehicle and chauffeur with you for meetings, errands or an evening out, with as many stops as the time allows." },
+    ],
+    related: [
+      { label: "Bridge City Limo Service", to: "/bridge-city-la-limo-service" },
+      { label: "Waggaman Limo Service", to: "/waggaman-la-limo-service" },
+      { label: "Gretna and Westbank Limo Service", to: "/gretna-westbank-limo-service" },
+      { label: "Harvey Limo Service", to: "/harvey-la-limo-service" },
+      { label: "Westwego Limo Service", to: "/westwego-la-limo-service" },
+      { label: "Corporate Transportation", to: "/services/corporate-transportation" },
+      { label: "Airport Transportation", to: "/services/airport-transportation" },
+      { label: "Book a Ride", to: "/booking" },
+    ],
+    schema: { areaServed: ["Avondale, LA", "Jefferson Parish"], serviceType: "Limousine and car service" },
+  },
+  {
+    slug: "bridge-city-la-limo-service",
+    type: "city",
+    name: "Bridge City",
+    badge: "Jefferson Parish Westbank Limo Service",
+    h1: "Bridge City Limo Service",
+    metaTitle: "Bridge City LA Limo Service | Westbank Car Service",
+    metaDescription: "Chauffeured limo and car service in Bridge City, LA — flat-rate MSY airport transfers, Gumbo Festival travel, weddings. Call (877) 609-1919.",
+    stats: [
+      { label: "MSY Airport", value: "≈ 15 mi · 20–25 minutes" },
+      { label: "Parish", value: "Jefferson (Westbank)" },
+      { label: "Pricing", value: "Flat rate or hourly" },
+      { label: "Dispatch", value: "24 / 7" },
+    ],
+    intro: [
+      "Bridge City is the small Westbank community between Avondale and Waggaman that hosts the annual Gumbo Festival every October, and that small-town, close-knit character carries through to how residents get around. MSY Limo Service sends chauffeured sedans, SUVs and Sprinter vans to Bridge City's residential streets and the businesses along Highway 90.",
+      "Louis Armstrong New Orleans International Airport is about 15 miles away, usually a 20- to 25-minute drive across the Huey P. Long Bridge and onto I-10. It is a short enough trip that a flat, confirmed rate matters more than haggling over a meter.",
+      "Festival weekends bring out-of-town family into Bridge City every fall, and we handle the airport pickups that go with it, along with the everyday business of weddings, corporate travel and nights out in New Orleans.",
+      "Daily life in Bridge City also means regular trips across the Huey P. Long Bridge for work, school events and medical appointments on the east bank, and residents frequently book us when a second vehicle is unavailable or when carrying a larger group makes a personal car impractical for the trip.",
+    ],
+    highlights: [
+      "Flat-rate or hourly pricing confirmed before you book",
+      "Flight tracking on every MSY pickup, with 45 minutes of complimentary wait on domestic arrivals and 60 on international",
+      "Extra vehicles available for Gumbo Festival weekend family travel",
+      "Optional meet and greet inside the terminal",
+      "Child car seats available on request",
+      "Licensed, background-checked chauffeurs and commercially insured vehicles",
+    ],
+    sections: [
+      {
+        h2: "Where we pick up in Bridge City",
+        paragraphs: [
+          "We cover the neighborhoods along Highway 90 and the side streets that make up this close-knit Westbank community. It is a small enough town that our chauffeurs typically know it block by block rather than needing turn-by-turn directions.",
+        ],
+      },
+      {
+        h2: "Bridge City to MSY and back",
+        paragraphs: [
+          "The route crosses the Huey P. Long Bridge to reach I-10 and the airport, usually taking 20 to 25 minutes outside of rush hour. We watch your flight rather than the schedule, so an early or delayed landing adjusts your pickup automatically.",
+        ],
+      },
+      {
+        h2: "Gumbo Festival and family gatherings",
+        paragraphs: [
+          "The Bridge City Gumbo Festival each October draws family back into town, and we coordinate multi-flight airport pickups so relatives arriving on different schedules all get collected without anyone standing around baggage claim. A Sprinter van is a popular choice for larger extended-family groups heading straight from MSY to the festival grounds.",
+          "Because the festival closes streets and fills the small downtown area with vendors and crowds, we also plan drop-off points a short walk from the gate rather than trying to push a vehicle into the thick of it, which keeps the ride predictable even on the festival's busiest afternoon.",
+        ],
+      },
+    ],
+    vehicles: vehicles(),
+    faqs: [
+      { q: "How far is Bridge City from MSY airport?", a: "About 15 miles, usually a 20- to 25-minute drive across the Huey P. Long Bridge to I-10." },
+      { q: "Can you handle multiple airport pickups for Gumbo Festival weekend?", a: "Yes. Give us every flight number and we will plan pickups across the arrival window, including a Sprinter van for larger family groups, so relatives landing on different flights all get collected without a long wait at baggage claim." },
+      { q: "Do you serve the whole Bridge City area?", a: "Yes, including the Highway 90 corridor and the residential side streets throughout the community, as well as pickups right at the Gumbo Festival grounds during the October event." },
+      { q: "What is the cancellation policy?", a: "Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup. Sprinter vans, limousines and special-event bookings need 12 hours." },
+      { q: "Do you offer hourly service in Bridge City?", a: "Yes. Hourly bookings keep the vehicle and chauffeur with you for errands, visits or an evening out, with as many stops as the time allows." },
+    ],
+    related: [
+      { label: "Avondale Limo Service", to: "/avondale-la-limo-service" },
+      { label: "Waggaman Limo Service", to: "/waggaman-la-limo-service" },
+      { label: "Gretna and Westbank Limo Service", to: "/gretna-westbank-limo-service" },
+      { label: "Harvey Limo Service", to: "/harvey-la-limo-service" },
+      { label: "Westwego Limo Service", to: "/westwego-la-limo-service" },
+      { label: "Wedding Limo Service", to: "/services/wedding-limo" },
+      { label: "Airport Transportation", to: "/services/airport-transportation" },
+      { label: "Book a Ride", to: "/booking" },
+    ],
+    schema: { areaServed: ["Bridge City, LA", "Jefferson Parish"], serviceType: "Limousine and car service" },
+  },
+  {
+    slug: "waggaman-la-limo-service",
+    type: "city",
+    name: "Waggaman",
+    badge: "Jefferson Parish Westbank Limo Service",
+    h1: "Waggaman Limo Service",
+    metaTitle: "Waggaman LA Limo Service | Westbank Car Service Near MSY",
+    metaDescription: "Chauffeured limo and car service in Waggaman, LA — flat-rate MSY airport transfers, corporate and event travel on the Westbank. (877) 609-1919.",
+    stats: [
+      { label: "MSY Airport", value: "≈ 16 mi · 20–25 minutes" },
+      { label: "Parish", value: "Jefferson (Westbank)" },
+      { label: "Pricing", value: "Flat rate or hourly" },
+      { label: "Dispatch", value: "24 / 7" },
+    ],
+    intro: [
+      "Waggaman sits on the far western edge of Jefferson Parish's Westbank, past Avondale and Bridge City, and has grown steadily as newer subdivisions have filled in along the Westbank Expressway. MSY Limo Service sends chauffeured sedans, SUVs and Sprinter vans throughout Waggaman's residential streets and the retail corridor near the expressway.",
+      "Louis Armstrong New Orleans International Airport is about 16 miles away, usually a 20- to 25-minute drive via the Huey P. Long Bridge to I-10. It is a longer haul than a Metairie or Kenner pickup, which is exactly why a flat rate confirmed before you book matters — there should be no surprise at the end of a slightly longer ride.",
+      "Waggaman clients book us for early MSY departures, weddings and family events where a Sprinter van keeps everyone together, and the occasional trip into the CBD or French Quarter for a night that does not need to end with a long drive home.",
+      "As one of the newer growth areas on the Westbank, Waggaman also sees steady demand from families relocating into the area who need airport transportation during a move, before a new vehicle is registered or while a household is still settling in.",
+    ],
+    highlights: [
+      "Flat-rate or hourly pricing confirmed before you book",
+      "Flight tracking on every MSY pickup, with 45 minutes of complimentary wait on domestic arrivals and 60 on international",
+      "Chauffeurs experienced with the Westbank Expressway corridor and newer Waggaman subdivisions",
+      "Optional meet and greet inside the terminal",
+      "Child car seats available on request",
+      "Licensed, background-checked chauffeurs and commercially insured vehicles",
+    ],
+    sections: [
+      {
+        h2: "Where we pick up in Waggaman",
+        paragraphs: [
+          "We cover the subdivisions along the Westbank Expressway corridor and the newer residential streets that have filled in on Waggaman's western edge, along with the retail and business park development near the expressway.",
+        ],
+      },
+      {
+        h2: "Waggaman to MSY and back",
+        paragraphs: [
+          "The drive crosses the Huey P. Long Bridge to reach I-10, typically 20 to 25 minutes outside of rush hour. Because it is a slightly longer Westbank run, we build in extra cushion for an early flight rather than cutting it close.",
+          "Return flights are tracked in real time, so a delay or an early landing adjusts your pickup automatically without a call from you.",
+        ],
+      },
+      {
+        h2: "Weddings, events and nights in the city",
+        paragraphs: [
+          "For weddings and family celebrations, a Sprinter van or stretch limousine keeps the group together for the whole day rather than coordinating several separate cars. For an evening in downtown New Orleans or the French Quarter, we handle the longer Westbank drive both ways so nobody has to navigate the bridge home after a late night.",
+          "We also see steady demand from Waggaman commuters working along the Westbank Expressway's retail and logistics corridor who book occasional rides when a vehicle is unavailable, and from residents heading out to nearby Westwego and Avondale for errands, appointments or a family visit.",
+        ],
+      },
+    ],
+    vehicles: vehicles(),
+    faqs: [
+      { q: "How far is Waggaman from MSY airport?", a: "About 16 miles, usually a 20- to 25-minute drive via the Huey P. Long Bridge to I-10." },
+      { q: "Is the rate different because Waggaman is further from the airport?", a: "The rate reflects the distance and is confirmed before you book, but there is no surge pricing or meter — you know the total cost in advance either way." },
+      { q: "Can you pick up at a gated Waggaman subdivision?", a: "Yes. Add the gate code or guard-house entrance when you book and your chauffeur will have it in advance." },
+      { q: "What is the cancellation policy?", a: "Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup. Sprinter vans, limousines and special-event bookings need 12 hours." },
+      { q: "Do you offer hourly service in Waggaman?", a: "Yes. Hourly bookings keep the vehicle and chauffeur with you for meetings, errands or an evening out, with as many stops as the time allows." },
+    ],
+    related: [
+      { label: "Avondale Limo Service", to: "/avondale-la-limo-service" },
+      { label: "Bridge City Limo Service", to: "/bridge-city-la-limo-service" },
+      { label: "Gretna and Westbank Limo Service", to: "/gretna-westbank-limo-service" },
+      { label: "Westwego Limo Service", to: "/westwego-la-limo-service" },
+      { label: "Marrero Limo Service", to: "/marrero-la-limo-service" },
+      { label: "Wedding Limo Service", to: "/services/wedding-limo" },
+      { label: "Airport Transportation", to: "/services/airport-transportation" },
+      { label: "Book a Ride", to: "/booking" },
+    ],
+    schema: { areaServed: ["Waggaman, LA", "Jefferson Parish"], serviceType: "Limousine and car service" },
+  },
+  {
+    slug: "river-ridge-la-limo-service",
+    type: "city",
+    name: "River Ridge",
+    badge: "Jefferson Parish Limo Service",
+    h1: "River Ridge Limo Service",
+    metaTitle: "River Ridge LA Limo Service | Car Service Minutes from MSY",
+    metaDescription: "Chauffeured limo and car service in River Ridge, LA — one of the closest Jefferson Parish communities to MSY airport. Call (877) 609-1919.",
+    stats: [
+      { label: "MSY Airport", value: "≈ 7 mi · 12–15 minutes" },
+      { label: "Parish", value: "Jefferson" },
+      { label: "Pricing", value: "Flat rate or hourly" },
+      { label: "Dispatch", value: "24 / 7" },
+    ],
+    intro: [
+      "River Ridge is an unincorporated Jefferson Parish community tucked along the Mississippi River between Harahan and Kenner, and it is one of the shortest airport runs anywhere in our service area. MSY Limo Service sends chauffeured sedans, SUVs and Sprinter vans to River Ridge's riverside streets, the neighborhoods near Ochsner's Elmwood medical campus, and the homes along Jefferson Highway.",
+      "Louis Armstrong New Orleans International Airport is about 7 miles away, usually a 12- to 15-minute drive on I-10 or Jefferson Highway. For a trip this short, the value is less about saving time and more about never having to think about it — the car is simply there.",
+      "River Ridge residents book us for frequent business travelers who want a dependable car rather than a different rideshare driver every week, medical campus visitors and patients heading to Ochsner facilities, and family trips where a Sprinter van handles the luggage better than a sedan.",
+      "Because the community sits almost exactly between Harahan and Kenner, we treat River Ridge as part of the same tight airport corridor as both neighbors, which means a chauffeur can often serve two or three nearby River Ridge pickups back to back on a single busy travel morning.",
+    ],
+    highlights: [
+      "Flat-rate or hourly pricing confirmed before you book",
+      "Flight tracking on every MSY pickup, with 45 minutes of complimentary wait on domestic arrivals and 60 on international",
+      "One of the shortest, most predictable airport runs in our service area",
+      "Optional meet and greet inside the terminal",
+      "Child car seats available on request",
+      "Licensed, background-checked chauffeurs and commercially insured vehicles",
+    ],
+    sections: [
+      {
+        h2: "Where we pick up in River Ridge",
+        paragraphs: [
+          "We cover the riverside streets along Jefferson Highway, the neighborhoods near the Ochsner Elmwood medical campus, and the residential blocks between Harahan and Kenner. It is a compact community, and our chauffeurs typically arrive a few minutes ahead of schedule rather than scrambling to find an address.",
+        ],
+      },
+      {
+        h2: "River Ridge to MSY and back",
+        paragraphs: [
+          "The drive is short enough that there is little room for excuses — 12 to 15 minutes via I-10 or Jefferson Highway in normal conditions. We still track every flight in real time, so even a quick trip never turns into a missed pickup over a delay.",
+        ],
+      },
+      {
+        h2: "Medical campus visits and frequent business travel",
+        paragraphs: [
+          "Patients, visiting physicians and families heading to Ochsner's Elmwood campus book us for predictable, comfortable transportation that does not add stress to an already difficult day. Frequent business flyers from River Ridge often set up a standing arrangement so the same reliable service meets them at MSY every time, rather than relying on whichever driver the app happens to assign.",
+          "River Ridge sits close enough to both Metairie and Kenner that residents also use us for restaurant nights, Saints and Pelicans game days downtown, and weekend errands where having one dependable, insured chauffeur beats juggling several different rideshare drivers in one afternoon.",
+        ],
+      },
+    ],
+    vehicles: vehicles(),
+    faqs: [
+      { q: "How far is River Ridge from MSY airport?", a: "About 7 miles, usually a 12- to 15-minute drive via I-10 or Jefferson Highway." },
+      { q: "Can you set up recurring transportation for frequent MSY travelers?", a: "Yes. Many River Ridge clients book a standing arrangement so the same reliable service meets them at the airport on every trip rather than booking fresh each time." },
+      { q: "Do you serve Ochsner's Elmwood medical campus?", a: "Yes. We regularly transport patients, visiting physicians and family members to and from the Elmwood campus and nearby medical facilities." },
+      { q: "What is the cancellation policy?", a: "Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup. Sprinter vans, limousines and special-event bookings need 12 hours." },
+      { q: "Do you offer hourly service in River Ridge?", a: "Yes. Hourly bookings keep the vehicle and chauffeur with you for meetings, medical appointments or errands, with as many stops as the time allows." },
+    ],
+    related: [
+      { label: "Harahan Limo Service", to: "/harahan-la-limo-service" },
+      { label: "Kenner Limo Service", to: "/kenner-limo-service" },
+      { label: "Metairie Limo Service", to: "/metairie-limo-service" },
+      { label: "MSY to Kenner", to: "/msy-to-kenner" },
+      { label: "MSY to Metairie", to: "/msy-to-metairie" },
+      { label: "Corporate Transportation", to: "/services/corporate-transportation" },
+      { label: "Airport Transportation", to: "/services/airport-transportation" },
+      { label: "Book a Ride", to: "/booking" },
+    ],
+    schema: { areaServed: ["River Ridge, LA", "Jefferson Parish"], serviceType: "Limousine and car service" },
+  },
+  {
+    slug: "harahan-la-limo-service",
+    type: "city",
+    name: "Harahan",
+    badge: "Jefferson Parish Limo Service",
+    h1: "Harahan Limo Service",
+    metaTitle: "Harahan LA Limo Service | Car Service Minutes from MSY",
+    metaDescription: "Chauffeured limo and car service in Harahan, LA — one of the closest Jefferson Parish cities to MSY airport. Flat rates, 24/7. (877) 609-1919.",
+    stats: [
+      { label: "MSY Airport", value: "≈ 8 mi · 12–15 minutes" },
+      { label: "Parish", value: "Jefferson" },
+      { label: "Pricing", value: "Flat rate or hourly" },
+      { label: "Dispatch", value: "24 / 7" },
+    ],
+    intro: [
+      "Harahan is a small, established city along the Mississippi River between River Ridge and Kenner, and it sits close enough to MSY that an airport run is one of the easiest trips we offer. MSY Limo Service sends chauffeured sedans, SUVs and Sprinter vans to Harahan's residential neighborhoods, the Hickory Ridge subdivision, and the businesses along Jefferson Highway and Hickory Avenue.",
+      "Louis Armstrong New Orleans International Airport is about 8 miles away, typically a 12- to 15-minute drive. Short trips are exactly where a flat rate pays off — there is no reason a 15-minute ride should come with any uncertainty about the price.",
+      "Harahan residents book us for routine business travel, family trips where luggage and car seats both need to fit comfortably, and weekend plans into New Orleans that end better with a chauffeur than a designated driver.",
+      "Harahan's small size and tight-knit neighborhoods also mean our chauffeurs quickly become familiar faces to repeat clients, which matters to residents who would rather call a service they already trust than start over with an unfamiliar rideshare driver every time they fly.",
+    ],
+    highlights: [
+      "Flat-rate or hourly pricing confirmed before you book",
+      "Flight tracking on every MSY pickup, with 45 minutes of complimentary wait on domestic arrivals and 60 on international",
+      "Chauffeurs who know Hickory Ridge and the Jefferson Highway corridor well",
+      "Optional meet and greet inside the terminal",
+      "Child car seats available on request",
+      "Licensed, background-checked chauffeurs and commercially insured vehicles",
+    ],
+    sections: [
+      {
+        h2: "Where we pick up in Harahan",
+        paragraphs: [
+          "We cover the Hickory Ridge subdivision, the neighborhoods off Jefferson Highway and Hickory Avenue, and the residential streets throughout this compact riverside city. Harahan is small enough that a specific address is usually all a chauffeur needs.",
+        ],
+      },
+      {
+        h2: "Harahan to MSY and back",
+        paragraphs: [
+          "The drive to MSY runs along Jefferson Highway or a short hop to I-10, usually 12 to 15 minutes. Because the trip is so short, timing the pickup correctly matters more than route choice — we back-time your pickup from your actual flight and airline check-in guidance.",
+          "On arrival, your flight is tracked in real time, with 45 minutes of complimentary wait on domestic flights and 60 on international ones.",
+        ],
+      },
+      {
+        h2: "Everyday business and family travel",
+        paragraphs: [
+          "For routine business trips, a dependable, flat-rate car removes one more variable from a travel day. For families, our SUVs and Sprinter vans handle car seats, strollers and luggage without the packing puzzle a sedan forces on a group of four or more.",
+          "Harahan's location along the river also puts it within easy reach of Metairie's Causeway Boulevard office corridor and the Elmwood business park, and several local companies book us for client airport pickups so a visiting executive's first impression of the trip is a waiting chauffeur, not a rideshare queue.",
+        ],
+      },
+    ],
+    vehicles: vehicles(),
+    faqs: [
+      { q: "How far is Harahan from MSY airport?", a: "About 8 miles, usually a 12- to 15-minute drive via Jefferson Highway or I-10." },
+      { q: "Can you provide a car seat for a family trip from Harahan?", a: "Yes. Infant, convertible and booster seats are available on request — tell us the child's age when you book." },
+      { q: "Is the rate the same no matter what time I fly out of MSY?", a: "Yes. Your flat rate is confirmed before you book and does not change for early morning, late night or holiday travel." },
+      { q: "What is the cancellation policy?", a: "Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup. Sprinter vans, limousines and special-event bookings need 12 hours." },
+      { q: "Do you offer hourly service in Harahan?", a: "Yes. Hourly bookings keep the vehicle and chauffeur with you for meetings, errands or an evening out, with as many stops as the time allows." },
+    ],
+    related: [
+      { label: "River Ridge Limo Service", to: "/river-ridge-la-limo-service" },
+      { label: "Kenner Limo Service", to: "/kenner-limo-service" },
+      { label: "Metairie Limo Service", to: "/metairie-limo-service" },
+      { label: "MSY to Kenner", to: "/msy-to-kenner" },
+      { label: "MSY to Metairie", to: "/msy-to-metairie" },
+      { label: "Corporate Transportation", to: "/services/corporate-transportation" },
+      { label: "Airport Transportation", to: "/services/airport-transportation" },
+      { label: "Book a Ride", to: "/booking" },
+    ],
+    schema: { areaServed: ["Harahan, LA", "Jefferson Parish"], serviceType: "Limousine and car service" },
+  },
+  // ───────────────────────── St. Bernard Parish ─────────────────────────
+  {
+    slug: "arabi-la-limo-service",
+    type: "city",
+    name: "Arabi",
+    badge: "St. Bernard Parish Limo Service",
+    h1: "Arabi Limo Service",
+    metaTitle: "Arabi LA Limo Service | St. Bernard Parish Car Service",
+    metaDescription: "Chauffeured limo and car service in Arabi, LA — flat-rate MSY airport transfers for St. Bernard Parish, minutes from downtown. (877) 609-1919.",
+    stats: [
+      { label: "MSY Airport", value: "≈ 20 mi · 30–35 minutes" },
+      { label: "Parish", value: "St. Bernard" },
+      { label: "Pricing", value: "Flat rate or hourly" },
+      { label: "Dispatch", value: "24 / 7" },
+    ],
+    intro: [
+      "Arabi sits immediately downriver from New Orleans's Ninth Ward, the first town in St. Bernard Parish and historically one of the oldest river communities in the region. MSY Limo Service sends chauffeured sedans, SUVs and Sprinter vans to Arabi's residential streets, the businesses along St. Claude Avenue, and the homes near the Domino Sugar refinery.",
+      "Louis Armstrong New Orleans International Airport is about 20 miles away, usually a 30- to 35-minute drive via I-10 and the Industrial Canal crossing. Because Arabi sits so close to downtown New Orleans, residents often split their trips between a quick hop into the French Quarter and the longer airport run, and we price both as a confirmed flat rate.",
+      "Arabi clients use us for MSY departures, weddings and events in the French Quarter or the Lower Ninth Ward's historic venues, and family gatherings where St. Bernard Parish's close-knit community means several relatives flying in on the same weekend.",
+      "Being the gateway between the Ninth Ward and the rest of St. Bernard Parish, Arabi also sees residents who regularly split their travel between downtown New Orleans destinations and parish destinations further out toward Chalmette and Violet, all of which we run on the same flat-rate basis.",
+    ],
+    highlights: [
+      "Flat-rate or hourly pricing confirmed before you book",
+      "Flight tracking on every MSY pickup, with 45 minutes of complimentary wait on domestic arrivals and 60 on international",
+      "Chauffeurs who know the St. Claude Avenue corridor and the Industrial Canal crossings",
+      "Optional meet and greet inside the terminal",
+      "Child car seats available on request",
+      "Licensed, background-checked chauffeurs and commercially insured vehicles",
+    ],
+    sections: [
+      {
+        h2: "Where we pick up in Arabi",
+        paragraphs: [
+          "We cover the residential streets throughout Arabi, the St. Claude Avenue business corridor, and the homes near the historic Domino Sugar refinery. It is a small, walkable town, and our chauffeurs typically know it without needing turn-by-turn directions.",
+        ],
+      },
+      {
+        h2: "Arabi to MSY and back",
+        paragraphs: [
+          "The drive to MSY runs through downtown New Orleans and out I-10, crossing the Industrial Canal near the Ninth Ward. During rush hour or a downtown event, that crossing can slow down, so our chauffeurs build in a cushion rather than cutting your pickup close.",
+          "Every arriving flight is tracked in real time, so a delay or an early landing adjusts your pickup automatically.",
+        ],
+      },
+      {
+        h2: "Family gatherings and St. Bernard Parish events",
+        paragraphs: [
+          "St. Bernard Parish's close-knit families often mean several relatives flying into MSY on the same weekend for a wedding, reunion or holiday gathering. We coordinate pickups across multiple flights so nobody waits long at baggage claim, and a Sprinter van moves a larger family group in one vehicle rather than several separate cars.",
+          "Arabi's small-town streets and historic homes also make it a popular stop for visitors touring the lower river neighborhoods, and we're happy to combine an Arabi pickup with a stop in the Lower Ninth Ward or downtown New Orleans as part of the same hourly booking.",
+        ],
+      },
+    ],
+    vehicles: vehicles(),
+    faqs: [
+      { q: "How far is Arabi from MSY airport?", a: "About 20 miles, usually a 30- to 35-minute drive via I-10 and the Industrial Canal crossing." },
+      { q: "Can you coordinate pickups for a family flying in from different flights?", a: "Yes. Give us every flight number and we will plan pickups across the arrival window so everyone is collected without a long wait at baggage claim." },
+      { q: "Do you serve weddings and events near Arabi?", a: "Yes, including French Quarter and Lower Ninth Ward venues. A Sprinter van or stretch limousine keeps the wedding party together for the day." },
+      { q: "What is the cancellation policy?", a: "Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup. Sprinter vans, limousines and special-event bookings need 12 hours." },
+      { q: "Do you offer hourly service in Arabi?", a: "Yes. Hourly bookings keep the vehicle and chauffeur with you for events, visits or errands, with as many stops as the time allows." },
+    ],
+    related: [
+      { label: "Violet Limo Service", to: "/violet-la-limo-service" },
+      { label: "Chalmette Limo Service", to: "/chalmette-la-limo-service" },
+      { label: "MSY to Chalmette", to: "/msy-to-chalmette" },
+      { label: "French Quarter Limo Service", to: "/french-quarter-limo-service" },
+      { label: "Treme Limo Service", to: "/treme-limo-service" },
+      { label: "Wedding Limo Service", to: "/services/wedding-limo" },
+      { label: "Airport Transportation", to: "/services/airport-transportation" },
+      { label: "Book a Ride", to: "/booking" },
+    ],
+    schema: { areaServed: ["Arabi, LA", "St. Bernard Parish"], serviceType: "Limousine and car service" },
+  },
+  {
+    slug: "violet-la-limo-service",
+    type: "city",
+    name: "Violet",
+    badge: "St. Bernard Parish Limo Service",
+    h1: "Violet Limo Service",
+    metaTitle: "Violet LA Limo Service | St. Bernard Parish Car Service",
+    metaDescription: "Chauffeured limo and car service in Violet, LA — flat-rate MSY airport transfers for St. Bernard Parish. Flight tracking, 24/7. (877) 609-1919.",
+    stats: [
+      { label: "MSY Airport", value: "≈ 27 mi · 40–45 minutes" },
+      { label: "Parish", value: "St. Bernard" },
+      { label: "Pricing", value: "Flat rate or hourly" },
+      { label: "Dispatch", value: "24 / 7" },
+    ],
+    intro: [
+      "Violet sits east of Chalmette along St. Bernard Highway, in the stretch of St. Bernard Parish anchored by the Port of St. Bernard and the parish's working riverfront. MSY Limo Service sends chauffeured sedans, SUVs and Sprinter vans to Violet's residential neighborhoods and the businesses along St. Bernard Highway.",
+      "Louis Armstrong New Orleans International Airport is about 27 miles away, usually a 40- to 45-minute drive via Chalmette and I-10. It is one of the longer airport runs in our St. Bernard Parish coverage, which makes a flat, confirmed rate and a flight-tracked pickup especially worthwhile — nobody wants a surprise at the end of a 40-minute ride.",
+      "Violet residents book us for MSY departures that need a comfortable cushion, port and maritime industry travel tied to the Port of St. Bernard, and family events where a Sprinter van beats a caravan of separate cars.",
+      "Violet sits at the edge of marshland that transitions into the lower parish's wetlands, and visitors interested in exploring that stretch of St. Bernard Parish between errands or a work trip often add on an hourly booking rather than returning the vehicle right away.",
+    ],
+    highlights: [
+      "Flat-rate or hourly pricing confirmed before you book",
+      "Flight tracking on every MSY pickup, with 45 minutes of complimentary wait on domestic arrivals and 60 on international",
+      "Experience with Port of St. Bernard and maritime industry travel",
+      "Optional meet and greet inside the terminal",
+      "Child car seats available on request",
+      "Licensed, background-checked chauffeurs and commercially insured vehicles",
+    ],
+    sections: [
+      {
+        h2: "Where we pick up in Violet",
+        paragraphs: [
+          "We cover the residential streets along St. Bernard Highway and the neighborhoods near the Port of St. Bernard. Give us a house number or a business name and a chauffeur familiar with the parish will be there a few minutes early.",
+        ],
+      },
+      {
+        h2: "Violet to MSY and back",
+        paragraphs: [
+          "The drive runs west through Chalmette and downtown New Orleans before picking up I-10 toward MSY, typically 40 to 45 minutes. Because it is a longer trip, we recommend extra cushion for early flights, and your chauffeur will suggest a pickup time that accounts for real traffic rather than a best-case guess.",
+          "Returning flights are tracked in real time, with the complimentary wait clock starting only once your aircraft has actually landed.",
+        ],
+      },
+      {
+        h2: "Port and maritime industry travel",
+        paragraphs: [
+          "The Port of St. Bernard and the maritime businesses around Violet regularly need reliable transportation for visiting staff, surveyors and executives moving between the port, hotels and the airport. We run these as scheduled, flat-rate trips rather than one-off arrangements whenever a company needs it.",
+          "Violet residents also use us for everyday trips into Chalmette and downtown New Orleans, and for weddings and family celebrations where a Sprinter van or stretch limousine keeps the group together for a day that already involves a longer drive on both ends.",
+        ],
+      },
+    ],
+    vehicles: vehicles(),
+    faqs: [
+      { q: "How far is Violet from MSY airport?", a: "About 27 miles, usually a 40- to 45-minute drive through Chalmette and downtown New Orleans to I-10." },
+      { q: "Do you provide transportation for Port of St. Bernard business visitors?", a: "Yes. We run scheduled, flat-rate trips for visiting staff and executives moving between the port, area hotels and MSY." },
+      { q: "How early should I leave Violet for a flight?", a: "Given the drive length, we recommend extra cushion, especially for early flights — tell us your flight and we will suggest a pickup time that accounts for real traffic." },
+      { q: "What is the cancellation policy?", a: "Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup. Sprinter vans, limousines and special-event bookings need 12 hours." },
+      { q: "Do you offer hourly service in Violet?", a: "Yes. Hourly bookings keep the vehicle and chauffeur with you for business meetings, events or errands, with as many stops as the time allows." },
+    ],
+    related: [
+      { label: "Arabi Limo Service", to: "/arabi-la-limo-service" },
+      { label: "Chalmette Limo Service", to: "/chalmette-la-limo-service" },
+      { label: "MSY to Chalmette", to: "/msy-to-chalmette" },
+      { label: "New Orleans Corporate Car Service", to: "/new-orleans-corporate-car-service" },
+      { label: "Corporate Transportation", to: "/services/corporate-transportation" },
+      { label: "Airport Transportation", to: "/services/airport-transportation" },
+      { label: "Book a Ride", to: "/booking" },
+    ],
+    schema: { areaServed: ["Violet, LA", "St. Bernard Parish"], serviceType: "Limousine and car service" },
+  },
+  // ───────────────────────── Northshore & Tangipahoa/Ascension/Livingston ─────────────────────────
+  {
+    slug: "madisonville-la-limo-service",
+    type: "city",
+    name: "Madisonville",
+    badge: "St. Tammany Parish Limo Service",
+    h1: "Madisonville Limo Service",
+    metaTitle: "Madisonville LA Limo Service | Northshore Car Service",
+    metaDescription: "Chauffeured limo and car service in Madisonville, LA — Northshore MSY airport transfers, Wooden Boat Festival travel. (877) 609-1919.",
+    stats: [
+      { label: "MSY Airport", value: "≈ 45 mi · 55–65 minutes" },
+      { label: "Parish", value: "St. Tammany" },
+      { label: "Pricing", value: "Flat rate or hourly" },
+      { label: "Dispatch", value: "24 / 7" },
+    ],
+    intro: [
+      "Madisonville sits on the Tchefuncte River on the Northshore, a historic wooden-boat-building town that draws crowds every October for the Louisiana Wooden Boat Festival. MSY Limo Service sends chauffeured sedans, SUVs and Sprinter vans to Madisonville's riverside streets, the marina district and the homes tucked along Water Street and the river.",
+      "Louis Armstrong New Orleans International Airport is about 45 miles away, usually a 55- to 65-minute drive across the Lake Pontchartrain Causeway or around via I-10 and I-12. We quote both routes and let real traffic, not habit, decide which one your chauffeur takes that day.",
+      "Madisonville clients book us for weekend getaways, Wooden Boat Festival weekend arrivals, and weddings at the riverfront venues and historic properties the town is known for.",
+      "The town's small marina district also attracts boat owners and visitors who need a ride back to a vehicle left on the other side of the lake, and we treat these as straightforward point-to-point bookings rather than requiring a round trip every time.",
+    ],
+    highlights: [
+      "Flat-rate or hourly pricing confirmed before you book",
+      "Flight tracking on every MSY pickup, with 45 minutes of complimentary wait on domestic arrivals and 60 on international",
+      "Chauffeurs who choose between the Causeway and I-10/I-12 based on real traffic",
+      "Optional meet and greet inside the terminal",
+      "Child car seats available on request",
+      "Licensed, background-checked chauffeurs and commercially insured vehicles",
+    ],
+    sections: [
+      {
+        h2: "Where we pick up in Madisonville",
+        paragraphs: [
+          "We cover the riverside streets, the marina district and the historic homes along Water Street, as well as the newer neighborhoods that have grown up around the Tchefuncte River. Give us an address or a marina name and your chauffeur will find it.",
+        ],
+      },
+      {
+        h2: "Madisonville to MSY and back",
+        paragraphs: [
+          "The Lake Pontchartrain Causeway is usually the fastest path south, though a chauffeur may route through I-10 and I-12 instead during high winds, fog advisories or incidents on the bridge. Either way, the trip runs 55 to 65 minutes and your rate is confirmed before you book.",
+          "Returning flights are tracked in real time, so the complimentary wait clock starts only once your aircraft has actually landed, not against the printed schedule.",
+        ],
+      },
+      {
+        h2: "Wooden Boat Festival and riverfront weddings",
+        paragraphs: [
+          "The Louisiana Wooden Boat Festival each October fills Madisonville's riverfront with boats, vendors and crowds, and we handle both MSY arrivals for out-of-town visitors and local transportation around the closures that come with it. The same riverfront venues host weddings throughout the year, and a Sprinter van or stretch limousine keeps a wedding party together for a day built around a historic, walkable downtown.",
+          "Madisonville is also a short hop from Mandeville and Covington, so a trip that starts at a riverfront marina often continues on to a Northshore dinner or hotel, and we book the whole evening as one hourly reservation rather than three separate rides.",
+        ],
+      },
+    ],
+    vehicles: vehicles(),
+    faqs: [
+      { q: "How far is Madisonville from MSY airport?", a: "About 45 miles, usually a 55- to 65-minute drive across the Lake Pontchartrain Causeway or via I-10 and I-12." },
+      { q: "Do you provide transportation for the Louisiana Wooden Boat Festival?", a: "Yes. We handle MSY pickups for out-of-town visitors and local transportation around the festival weekend's street closures." },
+      { q: "Can you take us across the Causeway from Madisonville?", a: "Yes. The Causeway is our usual route to MSY, and we also run trips to Mandeville, Covington and the rest of the Northshore." },
+      { q: "What is the cancellation policy?", a: "Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup. Sprinter vans, limousines and special-event bookings need 12 hours." },
+      { q: "Do you serve riverfront weddings in Madisonville?", a: "Yes. Sprinter vans and stretch limousines keep a wedding party together for the day at Madisonville's riverfront and historic downtown venues." },
+    ],
+    related: [
+      { label: "Mandeville Limo Service", to: "/mandeville-limo-service" },
+      { label: "Covington Limo Service", to: "/covington-la-limo-service" },
+      { label: "MSY to Mandeville", to: "/msy-to-mandeville" },
+      { label: "MSY to Covington", to: "/msy-to-covington" },
+      { label: "Wedding Limo Service", to: "/services/wedding-limo" },
+      { label: "Airport Transportation", to: "/services/airport-transportation" },
+      { label: "Book a Ride", to: "/booking" },
+    ],
+    schema: { areaServed: ["Madisonville, LA", "St. Tammany Parish"], serviceType: "Limousine and car service" },
+  },
+  {
+    slug: "ponchatoula-la-limo-service",
+    type: "city",
+    name: "Ponchatoula",
+    badge: "Tangipahoa Parish Limo Service",
+    h1: "Ponchatoula Limo Service",
+    metaTitle: "Ponchatoula LA Limo Service | Car Service to MSY Airport",
+    metaDescription: "Chauffeured limo and car service in Ponchatoula, LA — Strawberry Festival travel, MSY airport transfers, flat rates. Call (877) 609-1919.",
+    stats: [
+      { label: "MSY Airport", value: "≈ 55 mi · 60–70 minutes" },
+      { label: "Parish", value: "Tangipahoa" },
+      { label: "Pricing", value: "Flat rate or hourly" },
+      { label: "Dispatch", value: "24 / 7" },
+    ],
+    intro: [
+      "Ponchatoula calls itself the Strawberry Capital of the World, and the historic antique district downtown and the annual Louisiana Strawberry Festival each April draw visitors well beyond Tangipahoa Parish. MSY Limo Service sends chauffeured sedans, SUVs and Sprinter vans to Ponchatoula's downtown district, the neighborhoods around Hood Road, and the homes near Manchac Swamp.",
+      "Louis Armstrong New Orleans International Airport is about 55 miles away, usually a 60- to 70-minute drive via I-55 and I-10. It is one of the longer trips in our network, which is exactly where a flat, confirmed rate and a chauffeur who tracks your actual flight protects you from a stressful, uncertain ride.",
+      "Ponchatoula clients book us for Strawberry Festival weekend visitors, antique-shopping day trips that end with an MSY departure, and the occasional swamp tour connection through nearby Manchac.",
+      "Ponchatoula also functions as a gateway between the Northshore and the Florida Parishes further east, and we regularly combine a Ponchatoula pickup with a continuing trip toward Hammond or back west toward MSY as a single hourly charter.",
+    ],
+    highlights: [
+      "Flat-rate or hourly pricing confirmed before you book",
+      "Flight tracking on every MSY pickup, with 45 minutes of complimentary wait on domestic arrivals and 60 on international",
+      "Extra vehicles available during Strawberry Festival weekend",
+      "Optional meet and greet inside the terminal",
+      "Child car seats available on request",
+      "Licensed, background-checked chauffeurs and commercially insured vehicles",
+    ],
+    sections: [
+      {
+        h2: "Where we pick up in Ponchatoula",
+        paragraphs: [
+          "We cover the historic downtown antique district, the neighborhoods around Hood Road, and the homes near Manchac Swamp on the edge of town. Give us an address or a well-known downtown landmark and your chauffeur will find it without trouble.",
+        ],
+      },
+      {
+        h2: "Ponchatoula to MSY and back",
+        paragraphs: [
+          "The drive runs south on I-55 to I-10, typically 60 to 70 minutes depending on traffic through the I-55/I-10 interchange near Laplace. Given the distance, we recommend a comfortable cushion for any flight with a hard deadline, and your chauffeur will suggest a pickup time built around real conditions rather than a best-case estimate.",
+        ],
+      },
+      {
+        h2: "Strawberry Festival weekend and antique-shopping day trips",
+        paragraphs: [
+          "The Louisiana Strawberry Festival each April brings heavy weekend traffic into downtown Ponchatoula, and we add vehicles and build extra time into pickups during that stretch. Day-trippers browsing the antique district often pair the visit with an MSY departure the same evening, and we coordinate both legs as one simple, flat-rate booking.",
+          "Ponchatoula also sits at the edge of the Manchac Swamp, and visitors combining a swamp tour with an MSY flight are a regular booking for us — we simply plan the pickup time around the tour operator's return schedule rather than a fixed clock.",
+        ],
+      },
+    ],
+    vehicles: vehicles(),
+    faqs: [
+      { q: "How far is Ponchatoula from MSY airport?", a: "About 55 miles, usually a 60- to 70-minute drive via I-55 and I-10, depending on traffic through the Manchac Swamp corridor and the I-55/I-10 interchange." },
+      { q: "Do you provide extra vehicles during the Strawberry Festival?", a: "Yes. We add vehicles and build extra time into pickups during the April festival weekend, when downtown traffic is heaviest." },
+      { q: "Can you combine antique shopping with an airport drop-off?", a: "Yes. Many visitors pair a day in the antique district with an MSY departure the same evening, and we book both legs as one simple reservation so there is only one flat rate to track." },
+      { q: "What is the cancellation policy?", a: "Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup. Sprinter vans, limousines and special-event bookings need 12 hours." },
+      { q: "Do you offer hourly service in Ponchatoula?", a: "Yes. Hourly bookings keep the vehicle and chauffeur with you for shopping, events or errands, with as many stops as the time allows." },
+    ],
+    related: [
+      { label: "Hammond Limo Service", to: "/hammond-la-limo-service" },
+      { label: "MSY to Hammond", to: "/msy-to-hammond" },
+      { label: "Mandeville Limo Service", to: "/mandeville-limo-service" },
+      { label: "Swamp Tour Transportation", to: "/swamp-tour-transportation" },
+      { label: "Hourly Charter", to: "/services/hourly-charter" },
+      { label: "Airport Transportation", to: "/services/airport-transportation" },
+      { label: "Book a Ride", to: "/booking" },
+    ],
+    schema: { areaServed: ["Ponchatoula, LA", "Tangipahoa Parish"], serviceType: "Limousine and car service" },
+  },
+  {
+    slug: "gonzales-la-limo-service",
+    type: "city",
+    name: "Gonzales",
+    badge: "Ascension Parish Limo Service",
+    h1: "Gonzales Limo Service",
+    metaTitle: "Gonzales LA Limo Service | Car Service to MSY Airport",
+    metaDescription: "Chauffeured limo and car service in Gonzales, LA — flat-rate MSY airport transfers, Jambalaya Festival and outlet shopping travel. (877) 609-1919.",
+    stats: [
+      { label: "MSY Airport", value: "≈ 58 mi · 60 minutes" },
+      { label: "Parish", value: "Ascension" },
+      { label: "Pricing", value: "Flat rate or hourly" },
+      { label: "Dispatch", value: "24 / 7" },
+    ],
+    intro: [
+      "Gonzales calls itself the Jambalaya Capital of the World and sits almost exactly halfway between New Orleans and Baton Rouge, making it a natural stop for both festival travel and corporate trips between the two metro areas. MSY Limo Service sends chauffeured sedans, SUVs and Sprinter vans to Gonzales's neighborhoods, the Tanger Outlets corridor, and the Lamar-Dixon Expo Center.",
+      "Louis Armstrong New Orleans International Airport is about 58 miles away, typically about an hour via I-10. Because Gonzales sits on a straight interstate shot to MSY, the drive is predictable even though it is one of the longer trips we run.",
+      "Gonzales clients book us for the Jambalaya Festival each spring, outlet shopping day trips that end with an MSY flight, and corporate travel tied to the industrial and petrochemical employers along the Ascension Parish river corridor.",
+      "Sitting at the midpoint of the New Orleans-to-Baton Rouge corridor also makes Gonzales a convenient staging point for travelers splitting time between both cities on the same trip, and we price that kind of multi-stop day as a single hourly reservation rather than two separate bookings.",
+    ],
+    highlights: [
+      "Flat-rate or hourly pricing confirmed before you book",
+      "Flight tracking on every MSY pickup, with 45 minutes of complimentary wait on domestic arrivals and 60 on international",
+      "Experience with Lamar-Dixon Expo Center events and the Jambalaya Festival",
+      "Optional meet and greet inside the terminal",
+      "Child car seats available on request",
+      "Licensed, background-checked chauffeurs and commercially insured vehicles",
+    ],
+    sections: [
+      {
+        h2: "Where we pick up in Gonzales",
+        paragraphs: [
+          "We cover the residential neighborhoods throughout Gonzales, the Tanger Outlets retail corridor, and the Lamar-Dixon Expo Center grounds used for the Jambalaya Festival and other large events throughout the year.",
+        ],
+      },
+      {
+        h2: "Gonzales to MSY and back",
+        paragraphs: [
+          "The drive is a straight shot down I-10, typically about an hour outside of heavy holiday or event traffic. A chauffeur who runs this corridor regularly knows when the stretch near Lafitte's bottleneck or the Bonnet Carre Spillway tends to slow down.",
+          "Returning flights are flight-tracked, so a delay or an early landing adjusts your pickup automatically rather than leaving you waiting curbside.",
+        ],
+      },
+      {
+        h2: "Jambalaya Festival, outlet shopping and corporate travel",
+        paragraphs: [
+          "The Jambalaya Festival each spring fills the Lamar-Dixon Expo Center and surrounding roads with visitors, and we plan extra time into pickups during that weekend. For industrial and petrochemical companies along the Ascension Parish river corridor, we run scheduled corporate transportation between local facilities, area hotels and MSY for visiting staff and executives.",
+          "The Tanger Outlets also draw shoppers from both the New Orleans and Baton Rouge sides of the interstate, and a day of shopping that ends with an MSY flight is easy to book as a single reservation with us rather than arranging separate transportation for each leg.",
+        ],
+      },
+    ],
+    vehicles: vehicles(),
+    faqs: [
+      { q: "How far is Gonzales from MSY airport?", a: "About 58 miles, typically about an hour via I-10, with the drive time staying fairly consistent outside of major holiday travel windows." },
+      { q: "Do you serve the Lamar-Dixon Expo Center and Jambalaya Festival?", a: "Yes. We handle both event transportation around the expo grounds and MSY pickups for visitors flying in for the festival." },
+      { q: "Can you provide corporate transportation for Ascension Parish industrial employers?", a: "Yes. We run scheduled trips between local facilities, area hotels and MSY for visiting staff and executives, priced as a flat rate per trip." },
+      { q: "What is the cancellation policy?", a: "Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup. Sprinter vans, limousines and special-event bookings need 12 hours." },
+      { q: "Do you offer hourly service in Gonzales?", a: "Yes. Hourly bookings keep the vehicle and chauffeur with you for shopping, meetings or events, with as many stops as the time allows." },
+    ],
+    related: [
+      { label: "Baton Rouge Limo Service", to: "/baton-rouge-limo-service" },
+      { label: "MSY to Baton Rouge", to: "/msy-to-baton-rouge" },
+      { label: "Denham Springs Limo Service", to: "/denham-springs-la-limo-service" },
+      { label: "Corporate Transportation", to: "/services/corporate-transportation" },
+      { label: "Hourly Charter", to: "/services/hourly-charter" },
+      { label: "Airport Transportation", to: "/services/airport-transportation" },
+      { label: "Book a Ride", to: "/booking" },
+    ],
+    schema: { areaServed: ["Gonzales, LA", "Ascension Parish"], serviceType: "Limousine and car service" },
+  },
+  {
+    slug: "denham-springs-la-limo-service",
+    type: "city",
+    name: "Denham Springs",
+    badge: "Livingston Parish Limo Service",
+    h1: "Denham Springs Limo Service",
+    metaTitle: "Denham Springs LA Limo Service | MSY Airport Car Service",
+    metaDescription: "Chauffeured limo and car service in Denham Springs, LA — flat-rate MSY airport transfers for Livingston Parish. Call (877) 609-1919 to book.",
+    stats: [
+      { label: "MSY Airport", value: "≈ 70 mi · 70–80 minutes" },
+      { label: "Parish", value: "Livingston" },
+      { label: "Pricing", value: "Flat rate or hourly" },
+      { label: "Dispatch", value: "24 / 7" },
+    ],
+    intro: [
+      "Denham Springs sits just east of Baton Rouge in Livingston Parish, known locally for its historic Antique District along the Amite River and a growing residential base that commutes toward both Baton Rouge and the New Orleans metro. MSY Limo Service sends chauffeured sedans, SUVs and Sprinter vans to Denham Springs's neighborhoods, the Antique District, and the newer subdivisions along Range Avenue.",
+      "Louis Armstrong New Orleans International Airport is about 70 miles away, typically a 70- to 80-minute drive via I-12 and I-10. It is the longest regular trip in our Louisiana landing-page network, and precisely where a flat, pre-confirmed rate and a flight-tracked pickup matter most — a ride this long should never come with any uncertainty.",
+      "Denham Springs clients book us for MSY departures that need a wide cushion, corporate travel tied to Baton Rouge-area employers, and weddings or family events where a Sprinter van handles a group better than several cars making the same long drive separately.",
+    ],
+    highlights: [
+      "Flat-rate or hourly pricing confirmed before you book",
+      "Flight tracking on every MSY pickup, with 45 minutes of complimentary wait on domestic arrivals and 60 on international",
+      "Built-in cushion on pickup times for one of our longest regular routes",
+      "Optional meet and greet inside the terminal",
+      "Child car seats available on request",
+      "Licensed, background-checked chauffeurs and commercially insured vehicles",
+    ],
+    sections: [
+      {
+        h2: "Where we pick up in Denham Springs",
+        paragraphs: [
+          "We cover the historic Antique District along the Amite River, the newer subdivisions off Range Avenue, and the residential neighborhoods throughout Denham Springs. Give us an address and your chauffeur will plan the long drive with real traffic in mind, not a best-case guess.",
+        ],
+      },
+      {
+        h2: "Denham Springs to MSY and back",
+        paragraphs: [
+          "The drive runs west on I-12 into Baton Rouge before picking up I-10 east toward MSY, typically 70 to 80 minutes. Given the distance, we recommend extra lead time for any flight with a hard deadline, and your chauffeur will suggest a pickup time built around current traffic rather than the shortest possible estimate.",
+          "Returning flights are tracked in real time, so a delay never turns a long trip into a missed pickup.",
+        ],
+      },
+      {
+        h2: "Corporate travel and family events",
+        paragraphs: [
+          "Denham Springs residents working for Baton Rouge-area employers use us for both local corporate travel and the longer MSY run when air travel is unavoidable. For weddings and family gatherings, a Sprinter van or stretch limousine keeps a larger group together for a trip this long rather than splitting everyone into separate cars.",
+          "The Denham Springs Antique District also draws weekend visitors from across the region, and out-of-town guests who fly into MSY for an antiquing weekend or a Livingston Parish event are a booking we handle the same way as any other long-distance transfer — a flat rate, confirmed before you travel.",
+        ],
+      },
+    ],
+    vehicles: vehicles(),
+    faqs: [
+      { q: "How far is Denham Springs from MSY airport?", a: "About 70 miles, typically a 70- to 80-minute drive via I-12 and I-10." },
+      { q: "Is this your longest regular route?", a: "It's among the longest in our Louisiana landing-page network, which is exactly why we build extra cushion into pickup times and confirm your flat rate before you book." },
+      { q: "Can you provide corporate transportation for Baton Rouge-area employers from Denham Springs?", a: "Yes. We run both local corporate trips and longer MSY transfers for Denham Springs-based business travelers." },
+      { q: "What is the cancellation policy?", a: "Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup. Sprinter vans, limousines and special-event bookings need 12 hours." },
+      { q: "Do you offer hourly service in Denham Springs?", a: "Yes. Hourly bookings keep the vehicle and chauffeur with you for meetings, events or errands, with as many stops as the time allows." },
+    ],
+    related: [
+      { label: "Baton Rouge Limo Service", to: "/baton-rouge-limo-service" },
+      { label: "MSY to Baton Rouge", to: "/msy-to-baton-rouge" },
+      { label: "Gonzales Limo Service", to: "/gonzales-la-limo-service" },
+      { label: "MSY to Baton Rouge Airport", to: "/msy-to-baton-rouge-airport" },
+      { label: "Corporate Transportation", to: "/services/corporate-transportation" },
+      { label: "Airport Transportation", to: "/services/airport-transportation" },
+      { label: "Book a Ride", to: "/booking" },
+    ],
+    schema: { areaServed: ["Denham Springs, LA", "Livingston Parish"], serviceType: "Limousine and car service" },
+  },
+  // ───────────────────────── Coastal Jefferson Parish ─────────────────────────
+  {
+    slug: "grand-isle-la-limo-service",
+    type: "city",
+    name: "Grand Isle",
+    badge: "Jefferson Parish Coastal Limo Service",
+    h1: "Grand Isle Limo Service",
+    metaTitle: "Grand Isle LA Limo Service | MSY Airport & Fishing Trip Car Service",
+    metaDescription: "Chauffeured limo and car service to Grand Isle, LA — Louisiana's only inhabited barrier island, MSY transfers for fishing trips. (877) 609-1919.",
+    stats: [
+      { label: "MSY Airport", value: "≈ 90 mi · ≈ 2 hours" },
+      { label: "Parish", value: "Jefferson (Coastal)" },
+      { label: "Pricing", value: "Flat rate or hourly" },
+      { label: "Dispatch", value: "24 / 7" },
+    ],
+    intro: [
+      "Grand Isle is Louisiana's only inhabited barrier island, a narrow strip of beach and marina reached by Highway 1 through Lafourche Parish, and home to the Grand Isle Tarpon Rodeo, one of the oldest fishing tournaments in the United States. MSY Limo Service sends chauffeured SUVs and Sprinter vans to Grand Isle's marinas, rental camps and the island's handful of hotels, a trip we treat as a planned charter rather than a quick quote.",
+      "Louis Armstrong New Orleans International Airport is about 90 miles away, roughly a two-hour drive down Highway 1 through Larose and Golden Meadow. It is the longest route in our network, and for good reason — this is a genuine coastal getaway, not a suburban hop, and we price and schedule it accordingly, usually as a reserved round trip rather than a same-day on-demand booking.",
+      "Fishing groups flying into MSY for the Tarpon Rodeo or a charter trip are our most common Grand Isle booking, along with beach weekends and the occasional wedding at one of the island's waterfront venues.",
+    ],
+    highlights: [
+      "Flat-rate pricing for the full MSY-to-island charter, confirmed before you book",
+      "SUVs and Sprinter vans built for rod cases, coolers and fishing gear",
+      "Flight tracking on every MSY pickup, with 45 minutes of complimentary wait on domestic arrivals and 60 on international",
+      "Round-trip scheduling recommended given the distance and limited local transportation options",
+      "Optional meet and greet inside the terminal",
+      "Licensed, background-checked chauffeurs and commercially insured vehicles",
+    ],
+    sections: [
+      {
+        h2: "Why book a reserved charter instead of a rideshare",
+        paragraphs: [
+          "Rideshare coverage thins out dramatically once you pass Golden Meadow, and a driver who accepts a trip to Grand Isle faces a long, unpaid drive back with little chance of a return fare. A reserved charter is accepted at booking, priced as a flat rate in both directions, and scheduled so your chauffeur is simply there — no waiting on an app that may not find a match at all.",
+        ],
+      },
+      {
+        h2: "Grand Isle to MSY and back",
+        paragraphs: [
+          "The drive follows Highway 1 south through Lafourche Parish — Larose, Golden Meadow and Leeville — before reaching the island. It is a scenic but genuinely long trip, roughly two hours each way, so we plan pickup times with real buffer for tide schedules, boat-launch timing and tournament check-ins rather than a simple mileage estimate.",
+          "For the return to MSY, we recommend locking in both legs at the same time your trip is booked, since same-day return availability for a drive this long is far less certain than a scheduled round trip.",
+        ],
+      },
+      {
+        h2: "Tarpon Rodeo, fishing charters and beach weekends",
+        paragraphs: [
+          "The Grand Isle Tarpon Rodeo each summer and the island's year-round charter fishing scene bring groups flying into MSY with rod cases, coolers and gear that need real cargo space — our SUVs and Sprinter vans are built for exactly that, not a sedan trunk. Beach weekends and waterfront weddings follow the same logic: book the full round trip in advance and let us handle the long drive both ways.",
+        ],
+      },
+    ],
+    vehicles: vehicles(),
+    faqs: [
+      { q: "How far is Grand Isle from MSY airport?", a: "About 90 miles, roughly a two-hour drive down Highway 1 through Larose and Golden Meadow." },
+      { q: "Should I book my Grand Isle trip as a round trip?", a: "We recommend it. Same-day return availability for a drive this long is far less certain than locking in both legs when you first book." },
+      { q: "Can you handle fishing gear for a Tarpon Rodeo trip?", a: "Yes. Our SUVs and Sprinter vans have real cargo room for rod cases, coolers and tackle — tell us your gear when you book so we send the right vehicle." },
+      { q: "Is rideshare a realistic option for Grand Isle?", a: "Not reliably. Coverage thins out well before the island, and drivers can be reluctant to accept a trip with such a long, unpaid return leg. A reserved charter is accepted and priced in advance instead." },
+      { q: "What is the cancellation policy?", a: "Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup. Sprinter vans and special-event or charter bookings need 12 hours." },
+    ],
+    related: [
+      { label: "Houma Limo Service", to: "/houma-limo-service" },
+      { label: "MSY to Houma", to: "/msy-to-houma" },
+      { label: "Swamp Tour Transportation", to: "/swamp-tour-transportation" },
+      { label: "Hourly Charter", to: "/services/hourly-charter" },
+      { label: "Airport Transportation", to: "/services/airport-transportation" },
+      { label: "Book a Ride", to: "/booking" },
+    ],
+    schema: { areaServed: ["Grand Isle, LA", "Jefferson Parish"], serviceType: "Limousine and car service" },
+  },
+];

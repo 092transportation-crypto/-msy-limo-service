@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import SEO, { buildFaqSchema } from "@/components/SEO";
+import { LOCAL_BUSINESS_SCHEMA } from "@/lib/localBusinessSchema";
 import { Shield, Clock, Users, Award, Phone, ArrowRight } from "lucide-react";
 import PageFaq from "@/components/PageFaq";
 import { ensureFiveFaqs } from "@/lib/faqExtras";
@@ -47,7 +48,7 @@ const AboutPage = () => {
         title="About MSY Limo Service | Licensed & Insured Carrier"
         description="MSY Limo Service is a Licensed & Insured Louisiana Carrier providing MSY airport car service and chauffeured transportation. Call (877) 609-1919."
         path="/about"
-        schema={[aboutFaqSchema]}
+        schema={[LOCAL_BUSINESS_SCHEMA, aboutFaqSchema]}
       />
       <Navigation />
       

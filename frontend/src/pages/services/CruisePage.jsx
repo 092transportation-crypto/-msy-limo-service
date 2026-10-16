@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import SEO, { buildFaqSchema } from "@/components/SEO";
+import { LOCAL_BUSINESS_SCHEMA } from "@/lib/localBusinessSchema";
 import { Ship, Clock, CheckCircle, Phone, ArrowRight, Anchor, MapPin, Calendar, Waves } from "lucide-react";
 import PageFaq from "@/components/PageFaq";
 import { ensureFiveFaqs } from "@/lib/faqExtras";
@@ -88,7 +89,7 @@ const CruisePage = () => {
         title="New Orleans Cruise Port Car Service | MSY to the Terminal"
         description="Cruise terminal transfers from MSY airport, hotels & homes to the Port of New Orleans. Luggage help, flat rates, group vans. Call (877) 609-1919 to book."
         path="/services/cruise-transportation"
-        schema={[cruiseFaqSchema]}
+        schema={[LOCAL_BUSINESS_SCHEMA, cruiseFaqSchema]}
       />
       <Navigation />
       

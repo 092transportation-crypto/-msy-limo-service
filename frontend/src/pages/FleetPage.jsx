@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import SEO, { buildFaqSchema } from "@/components/SEO";
+import { LOCAL_BUSINESS_SCHEMA } from "@/lib/localBusinessSchema";
 import { Users, Briefcase, Phone, ArrowRight, Star } from "lucide-react";
 import PageFaq from "@/components/PageFaq";
 import { ensureFiveFaqs } from "@/lib/faqExtras";
@@ -48,7 +49,7 @@ const FleetPage = () => {
         title="Our Luxury Fleet | Sedans, SUVs & Sprinter Vans"
         description="See the MSY Limo fleet — Mercedes sedans, Cadillac Escalade SUVs & Sprinter vans for New Orleans airport and event transportation. Call (877) 609-1919."
         path="/fleet"
-        schema={[fleetFaqSchema]}
+        schema={[LOCAL_BUSINESS_SCHEMA, fleetFaqSchema]}
       />
       <Navigation />
       <section className="pt-28 bg-black text-white">

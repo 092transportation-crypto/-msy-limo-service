@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import SEO, { buildFaqSchema } from "@/components/SEO";
+import { LOCAL_BUSINESS_SCHEMA } from "@/lib/localBusinessSchema";
 import { Phone, Mail, MapPin, Clock, Send, Calendar, User } from "lucide-react";
 import TrustSignals from "@/components/TrustSignals";
 
@@ -96,7 +97,7 @@ const ContactPage = () => {
         title="Contact MSY Limo Service | Get an Instant Quote"
         description="Book MSY airport car service or New Orleans limo — get an instant quote by phone at (877) 609-1919 or through our online form, available 24/7."
         path="/contact"
-        schema={[contactFaqSchema]}
+        schema={[LOCAL_BUSINESS_SCHEMA, contactFaqSchema]}
       />
       <Navigation />
       

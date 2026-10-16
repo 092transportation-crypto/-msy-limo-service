@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import SEO, { buildFaqSchema } from "@/components/SEO";
+import { LOCAL_BUSINESS_SCHEMA } from "@/lib/localBusinessSchema";
 import { Trophy, Clock, CheckCircle, Phone, ArrowRight, MapPin, Users, Car, Calendar, Star } from "lucide-react";
 import PageFaq from "@/components/PageFaq";
 import { ensureFiveFaqs } from "@/lib/faqExtras";
@@ -91,7 +92,7 @@ const SaintsPage = () => {
         title="Saints Game Day Limo | Caesars Superdome Car Service"
         description="Saints game day limo to the Caesars Superdome — tailgate drop-offs, post-game pickups & group vans up to 13. Call (877) 609-1919 to book your ride."
         path="/services/saints-game-day"
-        schema={[saintsFaqSchema]}
+        schema={[LOCAL_BUSINESS_SCHEMA, saintsFaqSchema]}
       />
       <Navigation />
       

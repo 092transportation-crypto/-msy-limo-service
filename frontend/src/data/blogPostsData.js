@@ -1315,6 +1315,13 @@ export const seoBlogPosts = [
         a: "Fifteen to twenty percent of the fare is customary. Most travelers add gratuity at booking so the trip itself is completely cashless.",
       },
     ],
+    relatedLinks: [
+      { label: "Limo Cost From MSY to Lafayette, Baton Rouge & the Gulf Coast", to: "/msy-limo-cost-by-destination" },
+      { label: "Best Car Service From MSY: How to Choose", to: "/best-car-service-louis-armstrong-new-orleans-airport" },
+      { label: "Airport Transportation Service", to: "/services/airport-transportation" },
+      { label: "Our Fleet", to: "/fleet" },
+      { label: "Book a Ride", to: "/booking" },
+    ],
   },
   {
     slug: "msy-airport-to-new-orleans-transportation",

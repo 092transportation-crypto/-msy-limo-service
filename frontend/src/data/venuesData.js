@@ -149,6 +149,7 @@ export const venues = [
     whyParagraphs: [
       "Arena parking is the worst part of every Smoothie King Center event: garages charge premium event rates, fill early, and empty onto gridlocked one-way streets all at once. A reserved chauffeur turns that entire experience into two short walks — one to the door, one back to the car.",
       "For groups, the math gets even better. A Sprinter van carrying twelve friends costs less per person than a pair of surge-priced rideshares, keeps everyone together, and turns the ride itself into part of the night. As a Licensed & Insured Carrier, we're also the option companies trust for client entertainment and suite nights.",
+      "Season-ticket holders for the Pelicans are some of our most frequent repeat clients for exactly this reason — once the arena traffic pattern and the staging routine become familiar, the booking itself takes thirty seconds, and the same chauffeur often ends up handling the family's airport runs and other events around town too.",
     ],
     faqs: [
       {
@@ -394,6 +395,7 @@ export const venues = [
     whyParagraphs: [
       "Move-in day and graduation weekend both flood Uptown's narrow residential streets with cars, and campus visitor parking disappears within the first hour. A chauffeur who already knows which loading zone to use and when campus security opens which gate saves real time compared to circling St. Charles Avenue in a rental car.",
       "For graduation and parents weekends with family flying in from multiple cities, coordinating several pickups against one ceremony time is exactly the kind of logistics a dispatcher handles well — and as a Licensed & Insured Carrier, we run multiple vehicles on a synchronized schedule when a family needs it.",
+      "Out-of-town families also lean on us for the shoulder days around these big weekends — a dinner reservation in the Garden District the night before move-in, or a morning tour of campus and the Audubon Park area before a graduation ceremony — booked as a simple hourly charter rather than a separate rental car for a single weekend in town.",
     ],
     faqs: [
       {
@@ -431,6 +433,7 @@ export const venues = [
       "Loyola University New Orleans sits directly beside Tulane on St. Charles Avenue, a Jesuit university whose move-in days, family weekends, and Holy Cross-field graduation ceremonies bring the same wave of visiting families to the same stretch of Uptown. Our chauffeurs cover Loyola on the same flat-rate, flight-tracked standard as every other address we serve.",
       "Because Loyola and Tulane share a campus border, families with students at both schools — or visiting one while touring the other — regularly book us for a single trip that covers both stops. The drive from MSY runs 20 to 25 minutes in normal traffic via I-10 and Carrollton or Claiborne Avenue, longer during move-in and graduation congestion.",
       "We serve the Danna Center and main quad for event drop-offs, the historic Marquette Hall entrance on St. Charles Avenue, and the residential halls that fill with boxes and furniture on move-in weekend.",
+      "Loyola's smaller size compared with its neighbor means family weekends and graduation events often concentrate into tighter windows on the same handful of St. Charles Avenue blocks, which makes advance planning with a chauffeur who already knows the campus layout even more valuable than it would be at a larger school with more entrances to spread the traffic across.",
     ],
     highlights: [
       "Flat-rate airport-to-campus and hotel-to-campus transfers",
@@ -472,6 +475,7 @@ export const venues = [
     whyParagraphs: [
       "St. Charles Avenue's visitor parking vanishes fast on move-in and graduation days, and the historic streetcar line, while charming, isn't built for hauling move-in boxes. A reserved chauffeur who knows exactly which Loyola entrance to use saves real time over circling the block in an unfamiliar rental car.",
       "As a Licensed & Insured Carrier, we run coordinated, multi-flight pickups for graduation and family weekends routinely, and we're just as comfortable with a single move-in trip as we are running several vehicles for a large extended family.",
+      "Many Loyola families also combine a campus visit with a stop at Tulane next door, a walk through Audubon Park, or a dinner reservation in the Garden District, and booking all of it as one hourly charter means the same chauffeur who knows the campus entrances also handles the rest of the day without a second reservation.",
     ],
     faqs: [
       {
@@ -549,6 +553,7 @@ export const venues = [
     whyParagraphs: [
       "City Park's attractions are spread across a property larger than many small towns, and its parking lots fill quickly on weekends, festival days, and throughout the Celebration in the Oaks season. A chauffeur who drops you at the entrance closest to your actual destination — rather than wherever a lot happens to have space — saves real walking time, especially with kids or an evening event outfit.",
       "For weddings at the Pavilion of the Two Sisters, coordinating a wedding party, guest shuttle, and photography stops around the park's lagoons is exactly the kind of multi-stop logistics a dedicated chauffeur handles well. As a Licensed & Insured Carrier, we run everything from a single museum drop-off to a full wedding-day schedule on the same flat-rate basis.",
+      "Families visiting with young children also lean on hourly charter for exactly this reason — a morning at City Putt and the playground near Big Lake, followed by an afternoon at NOMA, covers ground that would otherwise mean repeatedly loading and unloading a car seat, instead handled as one continuous booking with the same chauffeur waiting at each stop.",
     ],
     faqs: [
       {
@@ -626,6 +631,7 @@ export const venues = [
     whyParagraphs: [
       "The National WWII Museum is large enough that a full visit genuinely takes most of a day, and the surrounding Warehouse District parking garages fill fast on weekends and during conventions downtown. A chauffeured drop-off at the door, with a pickup timed to closing time or your dinner-show reservation, removes the only real friction point in an otherwise excellent day.",
       "For veterans' groups and multi-generational families, coordinating one or more vehicles on a synchronized schedule is exactly the kind of planning a dedicated chauffeur service handles well. As a Licensed & Insured Carrier, we quote one flat rate for the visit, whether that's a simple round trip or an hourly booking that adds lunch and a second stop.",
+      "Cruise passengers in particular appreciate having a single chauffeur handle both legs of the day — a museum morning followed by a drop-off at the Port of New Orleans terminal with enough buffer before boarding — rather than booking a separate rideshare for each leg and hoping the timing lines up on embarkation day.",
     ],
     faqs: [
       {

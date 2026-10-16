@@ -5,6 +5,7 @@ import DOMPurify from "dompurify";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import SEO, { buildFaqSchema } from "@/components/SEO";
+import { LOCAL_BUSINESS_SCHEMA } from "@/lib/localBusinessSchema";
 import { seoBlogPosts as datedPosts } from "@/data/blogPostsData";
 import { GUIDES } from "@/data/guides";
 
@@ -596,7 +597,7 @@ const BlogsPage = () => {
         title="New Orleans Limo Blog | MSY Airport Travel Tips"
         description="Guides on MSY airport car service, New Orleans airport limo travel, corporate transportation & flat-rate transfers. Book 24/7 at (877) 609-1919."
         path="/blog"
-        schema={[blogFaqSchema]}
+        schema={[LOCAL_BUSINESS_SCHEMA, blogFaqSchema]}
       />
       <Navigation />
 

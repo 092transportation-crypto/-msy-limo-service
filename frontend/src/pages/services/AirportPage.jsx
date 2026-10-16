@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import SEO, { buildFaqSchema } from "@/components/SEO";
+import { LOCAL_BUSINESS_SCHEMA } from "@/lib/localBusinessSchema";
 import { Plane, Clock, CheckCircle, Phone, ArrowRight } from "lucide-react";
 import PageFaq from "@/components/PageFaq";
 import { ensureFiveFaqs } from "@/lib/faqExtras";
@@ -54,7 +55,7 @@ const AirportPage = () => {
         title="MSY Airport Transportation | Flat-Rate Car Service 24/7"
         description="MSY airport transportation with real-time flight tracking, meet & greet and flat rates — never any surge pricing. Book online or call (877) 609-1919."
         path="/services/airport-transportation"
-        schema={[airportFaqSchema]}
+        schema={[LOCAL_BUSINESS_SCHEMA, airportFaqSchema]}
       />
       <Navigation />
 

@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import SEO, { buildFaqSchema } from "@/components/SEO";
+import { LOCAL_BUSINESS_SCHEMA } from "@/lib/localBusinessSchema";
 import { PartyPopper, CheckCircle, Phone, ArrowRight, Music, GraduationCap, Star } from "lucide-react";
 import PageFaq from "@/components/PageFaq";
 import { ensureFiveFaqs } from "@/lib/faqExtras";
@@ -55,7 +56,7 @@ const EventsPage = () => {
         title="New Orleans Special Event Limo | Proms, Concerts & Galas"
         description="Special event limo service for proms, concerts, galas and nights out in New Orleans. Flat rates, late-night pickups. Call (877) 609-1919 to reserve."
         path="/services/special-events"
-        schema={[eventsFaqSchema]}
+        schema={[LOCAL_BUSINESS_SCHEMA, eventsFaqSchema]}
       />
       <Navigation />
       

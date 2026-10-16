@@ -271,6 +271,8 @@ export const GUIDES = [
       { label: "Why Hire a Chauffeur", to: "/why-hire-a-chauffeur" },
       { label: "French Quarter Transportation Guide", to: "/french-quarter-transportation-guide" },
       { label: "Northshore Transportation Guide", to: "/new-orleans-northshore-transportation-guide" },
+      { label: "Best Car Service From MSY: How to Choose", to: "/best-car-service-louis-armstrong-new-orleans-airport" },
+      { label: "How Early Should You Book MSY Transportation?", to: "/how-far-ahead-to-book-msy-car-service" },
       { label: "Airport Transportation Service", to: "/services/airport-transportation" },
       { label: "MSY to French Quarter", to: "/msy-to-french-quarter" },
       { label: "Cruise Transportation", to: "/services/cruise-transportation" },
@@ -451,6 +453,7 @@ export const GUIDES = [
       { label: "Garden District & Uptown Guide", to: "/garden-district-uptown-transportation-guide" },
       { label: "MSY Airport Transportation Guide", to: "/airport-transportation-guide" },
       { label: "Uber vs. Limo Service", to: "/uber-vs-limo-service" },
+      { label: "French Quarter Event Transportation for Planners", to: "/french-quarter-private-event-transportation" },
       { label: "MSY to French Quarter", to: "/msy-to-french-quarter" },
       { label: "House of Blues Transportation", to: "/house-of-blues-new-orleans-transportation" },
       { label: "Hourly Charter", to: "/services/hourly-charter" },
@@ -756,6 +759,294 @@ export const GUIDES = [
       { label: "Our Fleet", to: "/fleet" },
       { label: "Contact Us", to: "/contact" },
       { label: "Celebration in the Oaks (New Orleans)", to: "/blog/celebration-in-the-oaks-transportation-guide" },
+      { label: "Book a Ride", to: "/booking" },
+    ],
+  },
+  {
+    slug: "msy-limo-cost-by-destination",
+    title: "How Much Does a Limo Cost From MSY to Louisiana and the Gulf Coast? A Long-Distance Price Guide",
+    metaTitle: "Limo Cost From MSY to Lafayette, Baton Rouge & the Gulf Coast",
+    metaDescription:
+      "What a chauffeured car from MSY to Lafayette, Lake Charles, Houma, Natchez or the Gulf Coast actually costs in 2026, by destination. (877) 609-1919.",
+    category: "Pricing",
+    author: "MSY Limo Team",
+    date: "October 16, 2026",
+    readTime: "8 min read",
+    excerpt:
+      "City transfers and Northshore pricing are covered elsewhere. This guide prices the longer runs — Lafayette, Lake Charles, Houma, Natchez, Shreveport and the Gulf Coast — destination by destination.",
+    image: "/images/blog/scenario-airport-pickup-1.webp",
+    content: `
+      <p>Most MSY pricing guides stop at the Northshore and Baton Rouge. This one picks up where those leave off: the longer Louisiana and Gulf Coast runs that bring their own pricing logic because of the distance involved. Below are honest 2026 flat-rate ranges for a chauffeured luxury sedan, by destination, plus how SUV and Sprinter pricing scales on these longer trips. For the shorter city, Northshore and cruise-port ranges, see our <a href="/blog/how-much-does-msy-airport-limo-cost">MSY airport car service cost guide</a>; for your exact number, call <a href="tel:+18776091919">(877) 609-1919</a>.</p>
+
+      <h2>Why Long-Distance Pricing Works Differently</h2>
+      <p>Inside the metro, rideshare and chauffeured pricing sometimes land close together on a quiet day. Past about 50 miles, that comparison stops being useful. A rideshare driver who accepts a trip to Lafayette or Lake Charles faces a long, unpaid drive back to New Orleans, so pricing is unpredictable and acceptance is not guaranteed at all. A chauffeured flat rate is quoted once, confirmed before you book, and covers the vehicle, chauffeur, fuel, tolls and flight tracking in both directions if you reserve a round trip.</p>
+
+      <h2>Flat Rates by Destination</h2>
+      <p>These are representative 2026 sedan ranges for a one-way chauffeured transfer from MSY. Every quote is confirmed as an exact number before you book — treat these as planning ranges, not final prices.</p>
+      <ul>
+        <li><strong>Houma / Thibodaux</strong> (≈ 60 miles): roughly $160–$220.</li>
+        <li><strong>Lafayette</strong> (≈ 135 miles): roughly $280–$360.</li>
+        <li><strong>Hattiesburg, MS</strong> (≈ 110 miles): roughly $240–$320.</li>
+        <li><strong>Mobile, AL</strong> (≈ 145 miles): roughly $290–$370.</li>
+        <li><strong>Natchez, MS</strong> (≈ 180 miles): roughly $340–$420.</li>
+        <li><strong>Gulf Shores, AL</strong> (≈ 170 miles): roughly $320–$400.</li>
+        <li><strong>Lake Charles</strong> (≈ 200 miles): roughly $380–$480.</li>
+        <li><strong>Pensacola, FL</strong> (≈ 195 miles): roughly $370–$450.</li>
+        <li><strong>Jackson, MS</strong> (≈ 185 miles): roughly $350–$430.</li>
+        <li><strong>Shreveport</strong> (≈ 330 miles): roughly $550–$650.</li>
+      </ul>
+      <p>Alexandria, Natchitoches, Monroe and New Iberia fall inside this same range relative to their distance, and we quote all of them the same way — call with your exact pickup and drop-off and we confirm the number in about a minute.</p>
+
+      <h2>SUV and Sprinter Pricing on Long Runs</h2>
+      <p>A Cadillac Escalade or Chevrolet Suburban typically adds roughly $40–$80 over the equivalent sedan rate on these longer trips, which matters less than it sounds once you are moving four or more people with real luggage. A Mercedes Sprinter van scales further but still beats splitting a group of eight or more across two rideshare vehicles that may not even accept a trip this long in the first place.</p>
+
+      <h2>Round Trips and Why They're Worth Booking Together</h2>
+      <p>On a trip to Lafayette, Lake Charles or the Gulf Coast, we strongly recommend locking in both legs when you first book. Same-day return availability on a 150-plus-mile route is far less certain than a scheduled round trip, and booking both legs together locks your return at the same confirmed rate rather than leaving it to chance.</p>
+
+      <h2>What Changes the Price</h2>
+      <p>Distance is the main driver, but a few other factors shift the number: a late-night or pre-dawn pickup, a request for a specific vehicle class, and festival or game-day weekends when demand across the whole region is elevated. None of these trigger surge pricing the way an app might — they're simply reflected in the flat rate you're quoted before booking, with no surprises afterward.</p>
+
+      <h2>Getting Your Exact Quote</h2>
+      <p>Share your pickup address, drop-off address, date and preferred vehicle class, and we confirm a flat rate before you book — the same number whether you call at 2 p.m. on a Tuesday or during the busiest festival weekend of the year. Call <a href="tel:+18776091919">(877) 609-1919</a> or <a href="/booking">book online</a>.</p>
+    `,
+    faqs: [
+      { q: "Is the price different if I book a round trip instead of two one-way trips?", a: "The per-leg rate is the same, but booking both legs together locks in your return at a confirmed price rather than leaving same-day return availability to chance on a long route." },
+      { q: "Why is a long-distance chauffeured rate sometimes competitive with rideshare?", a: "Rideshare pricing on long one-way trips is unpredictable because drivers can decline a ride that leaves them far from home with no return fare. A flat rate is quoted once and honored regardless of distance or demand." },
+      { q: "Does the price change for a late-night pickup?", a: "It can be reflected in the flat rate you're quoted before booking, but there is never a surge multiplier added after the fact — the number we confirm is the number you pay." },
+      { q: "Can I get an exact quote instead of a range?", a: "Yes. Call (877) 609-1919 or use the online booking form with your exact pickup, drop-off, date and vehicle preference, and we confirm the flat rate in about a minute." },
+      { q: "What is the cancellation policy on a long-distance booking?", a: "Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup. Sprinter vans and special-event bookings require 12 hours." },
+    ],
+    relatedLinks: [
+      { label: "MSY Airport Car Service Cost Guide", to: "/blog/how-much-does-msy-airport-limo-cost" },
+      { label: "MSY to Lafayette", to: "/msy-to-lafayette" },
+      { label: "MSY to Lake Charles", to: "/msy-to-lake-charles" },
+      { label: "MSY to Houma", to: "/msy-to-houma" },
+      { label: "Lafayette Limo Service", to: "/lafayette-la-limo-service" },
+      { label: "Houma Limo Service", to: "/houma-limo-service" },
+      { label: "Airport Transportation", to: "/services/airport-transportation" },
+      { label: "Book a Ride", to: "/booking" },
+    ],
+  },
+  {
+    slug: "best-car-service-louis-armstrong-new-orleans-airport",
+    title: "Best Car Service From Louis Armstrong New Orleans International Airport (MSY): How to Choose",
+    metaTitle: "Best Car Service From Louis Armstrong New Orleans Airport (MSY)",
+    metaDescription:
+      "Choosing the best MSY car service: vehicle types, pickup zones, flight tracking and what separates a licensed carrier from the rest. (877) 609-1919.",
+    category: "Airport",
+    author: "MSY Limo Team",
+    date: "October 16, 2026",
+    readTime: "7 min read",
+    excerpt:
+      "Sedan, SUV, Sprinter van, shuttle or rideshare — a practical framework for choosing the right ground transportation from Louis Armstrong New Orleans International Airport, plus what to check before you book any of them.",
+    image: "/images/blog/airport-terminal-glass.webp",
+    content: `
+      <p>Louis Armstrong New Orleans International Airport's single main terminal opened in 2019, consolidating what used to be spread across several older concourses into one building with baggage claim and ground transportation on the same level. That makes choosing a ride simpler logistically, but the actual decision — which type of car service to book — still depends on your group, your luggage and how much certainty you need. Here is a practical way to choose.</p>
+
+      <h2>Start With What You're Actually Optimizing For</h2>
+      <p>Every traveler at MSY is really choosing between three things: price, certainty and comfort. Rideshare optimizes for price on a quiet day. A chauffeured car optimizes for certainty — a confirmed vehicle, a confirmed rate, a chauffeur who tracks your flight. A traditional shuttle optimizes for the lowest possible price at the cost of extra stops and a fixed schedule. Knowing which one matters most for your trip settles most of the decision before you compare a single quote.</p>
+
+      <h2>Vehicle Types at MSY, and Who Each One Fits</h2>
+      <ul>
+        <li><strong>Luxury sedan</strong> (Mercedes-Benz E-Class, BMW 7 Series): one to three passengers, standard luggage, the default choice for solo business travelers and couples.</li>
+        <li><strong>Premium SUV</strong> (Cadillac Escalade, Chevrolet Suburban): families and small groups up to six, with real room for golf bags, car seats or beach luggage.</li>
+        <li><strong>Sprinter van</strong> (up to 14 passengers): wedding parties, conventions and corporate groups who need to arrive together rather than splitting across several vehicles.</li>
+        <li><strong>Stretch limousine</strong>: celebrations — proms, anniversaries, bachelorette weekends — where the vehicle is part of the occasion.</li>
+        <li><strong>Shared shuttle</strong>: budget travelers with flexible timing and no urgency about extra stops.</li>
+        <li><strong>Rideshare</strong>: light, short, flexible trips without a hard deadline — see our full <a href="/uber-vs-limo-service">Uber vs. limo service breakdown</a> for the trip-by-trip version of this comparison.</li>
+      </ul>
+
+      <h2>What to Check Before Booking Any Car Service at MSY</h2>
+      <p>Whichever type you choose, a few questions separate a dependable service from a risky one. Is the company a licensed, commercially insured carrier, or an individual driver operating informally? Are chauffeurs background-checked? Is the rate flat and confirmed before you ride, or an estimate that can move? Does the service track your actual flight, or just the scheduled arrival time printed on your itinerary? MSY Limo Service answers yes to the first three and tracks every flight in real time, with 45 minutes of complimentary wait on domestic arrivals and 60 on international ones.</p>
+
+      <h2>Where Pickup Actually Happens</h2>
+      <p>MSY's terminal places ground transportation pickup on the same level as baggage claim, with clearly marked curbside zones for pre-arranged car services separate from the taxi and rideshare lanes. For a standard curbside pickup, your chauffeur calls or texts as you clear baggage claim and meets you at the designated zone. For meet-and-greet service, your chauffeur waits inside the terminal holding a sign with your name and helps with luggage from the carousel — worth considering for first-time visitors, international arrivals, or anyone traveling with young children or heavy bags.</p>
+
+      <h2>The Case for Booking Ahead Rather Than Deciding Curbside</h2>
+      <p>The biggest mistake travelers make at MSY is waiting until they land to decide. Curbside rideshare queues lengthen dramatically during conventions, Saints games and festival weekends, and shared shuttles can mean a 20-minute wait for a full van. A reserved car service eliminates that uncertainty entirely — your chauffeur is already positioned and tracking your flight before you've even landed.</p>
+
+      <h2>Booking Your MSY Car Service</h2>
+      <p>Tell us your flight number, passenger count and luggage, and we match you with the right vehicle at a confirmed flat rate. Call <a href="tel:+18776091919">(877) 609-1919</a> or <a href="/booking">book online</a>, available 24 hours a day.</p>
+    `,
+    faqs: [
+      { q: "What is the best car service option for a solo business traveler at MSY?", a: "A luxury sedan is the standard choice — enough room for one to three passengers and standard luggage, with a flat rate and flight tracking that a rideshare trip doesn't guarantee." },
+      { q: "Where exactly does a pre-arranged car service pick up at MSY?", a: "MSY's single terminal places ground transportation pickup on the same level as baggage claim, with curbside zones for pre-arranged services separate from taxi and rideshare lanes." },
+      { q: "Is meet-and-greet service worth it at MSY?", a: "It's especially useful for first-time visitors, international arrivals, or travelers with young children or heavy luggage — your chauffeur waits inside the terminal with a name sign and helps from the carousel." },
+      { q: "How do I know if a car service is actually licensed and insured?", a: "Ask directly. A legitimate carrier will confirm its licensing and commercial insurance without hesitation. MSY Limo Service operates as a Licensed & Insured Louisiana Carrier with background-checked chauffeurs." },
+      { q: "What happens if my flight is delayed and I've booked a car service?", a: "A real car service tracks your actual flight, not the printed schedule, so a delay simply shifts your pickup time with no extra charge within the complimentary wait window." },
+    ],
+    relatedLinks: [
+      { label: "Uber vs. Limo Service in New Orleans", to: "/uber-vs-limo-service" },
+      { label: "MSY Airport Transportation Guide", to: "/airport-transportation-guide" },
+      { label: "MSY Airport Meet and Greet Service", to: "/msy-airport-meet-and-greet" },
+      { label: "MSY Airport Arrival Pickup", to: "/msy-airport-arrival-pickup" },
+      { label: "Airport Transportation", to: "/services/airport-transportation" },
+      { label: "Our Fleet", to: "/fleet" },
+      { label: "Book a Ride", to: "/booking" },
+    ],
+  },
+  {
+    slug: "how-far-ahead-to-book-msy-car-service",
+    title: "How Early Should You Book MSY Airport Transportation? A Rule-of-Thumb Guide by Traveler Type",
+    metaTitle: "How Early to Book MSY Airport Transportation | By Traveler Type",
+    metaDescription:
+      "How far ahead to book MSY airport car service, broken down by traveler type — solo flyers, families, weddings and festival weekends. (877) 609-1919.",
+    category: "Guides",
+    author: "MSY Limo Team",
+    date: "October 16, 2026",
+    readTime: "6 min read",
+    excerpt:
+      "Our season-by-season booking calendar covers the festival dates. This guide answers the question differently: how far ahead should you personally book, based on who you are and what you're booking.",
+    image: "/images/stock/u-1517457373958.webp",
+    content: `
+      <p>There's already a month-by-month calendar on this site for when New Orleans's biggest events fill up vehicle availability. This guide answers a more personal version of the same question: given who you are and what you're booking, how much lead time do you actually need? Use whichever rule below matches your trip.</p>
+
+      <h2>The Baseline Rule: 24 to 48 Hours</h2>
+      <p>For a standard sedan or SUV airport transfer on an ordinary week, 24 to 48 hours of notice is comfortable. Vehicle availability for single sedans rarely runs out outside of major events, so this isn't about securing a reservation — it's simply enough time for us to confirm your flight details and match the right vehicle. Same-day bookings are often possible too; call and we'll tell you honestly whether we can make it work.</p>
+
+      <h2>Solo and Business Travelers: Book When You Book Your Flight</h2>
+      <p>If you fly often for work, the easiest approach is setting up a standing arrangement rather than booking fresh every trip. Many of our corporate clients give us a recurring schedule or simply call once they have a flight confirmation, which for most routine trips is still well ahead of the 24-hour baseline.</p>
+
+      <h2>Families and Groups: One to Two Weeks</h2>
+      <p>Traveling with car seats, strollers or a group large enough to need a Sprinter van benefits from a little more lead time — not because vehicles sell out on an ordinary week, but because it gives us time to confirm exactly what gear you need and make sure the right vehicle class, not just any vehicle, is reserved for you.</p>
+
+      <h2>Weddings and Multi-Vehicle Events: Two to Four Months</h2>
+      <p>A wedding is the one category where lead time genuinely affects vehicle availability, especially for Sprinter vans and stretch limousines on a Saturday in spring or fall wedding season. Booking two to four months ahead gives you first choice of vehicle class and lets us coordinate your chauffeur around a full day's schedule — ceremony, photos, reception, getaway car — rather than squeezing in a late request.</p>
+
+      <h2>Festival and Major Event Weekends: As Early As Possible</h2>
+      <p>Mardi Gras, Jazz Fest, French Quarter Fest, Essence Festival, Saints playoff games and major conventions compress enormous demand into just a few weekends a year. During these windows, vehicle classes — especially Sprinter vans and SUVs — can sell out weeks in advance, and airport transfers get booked up alongside local event transportation. If your trip touches one of these dates even peripherally, book the moment your travel dates are confirmed. Our <a href="/blog/how-far-ahead-book-mardi-gras-jazz-fest-transportation">Mardi Gras and Jazz Fest booking guide</a> goes deeper on these specific windows.</p>
+
+      <h2>The One Exception: Last-Minute Is Still Worth a Call</h2>
+      <p>None of these rules mean a late request is hopeless. Plans change, flights get rebooked, and same-day or next-day availability is often still there outside of the biggest weekends of the year. The rule of thumb is simple: the more your trip depends on a specific vehicle class, a specific date, or a citywide event, the earlier you should lock it in — and the more routine your trip is, the more flexibility you actually have.</p>
+
+      <h2>Book Your MSY Transportation</h2>
+      <p>Whether you're booking a day out or four months out, call <a href="tel:+18776091919">(877) 609-1919</a> or <a href="/booking">book online</a> and we'll confirm exactly what's available for your dates.</p>
+    `,
+    faqs: [
+      { q: "Can I book MSY car service the same day I need it?", a: "Often, yes, outside of major festival or event weekends. Call and we'll tell you honestly whether same-day availability works for your trip." },
+      { q: "How far ahead should I book for a wedding?", a: "Two to four months is ideal, especially for Sprinter vans and stretch limousines on a popular wedding weekend, since those vehicle classes have the least slack in availability." },
+      { q: "Does booking early get me a better rate?", a: "The flat rate is based on vehicle class and distance, not how far ahead you book, so there's no pricing penalty either way — early booking is about securing the vehicle you want, not the price." },
+      { q: "What if I need to change my reservation after booking early?", a: "Sedan and SUV reservations can be cancelled or changed free of charge up to 3 hours before pickup. Sprinter vans, limousines and special-event bookings require 12 hours." },
+      { q: "Is there a specific day of the week vehicles are hardest to book?", a: "It's driven far more by events than by the day of the week — a random Tuesday during Jazz Fest is harder to book than a random Saturday in a quiet month." },
+    ],
+    relatedLinks: [
+      { label: "Best Time to Book Airport Car Service for MSY", to: "/blog/best-time-to-book-airport-car-service" },
+      { label: "How Far Ahead Should You Book Mardi Gras and Jazz Fest Transportation?", to: "/blog/how-far-ahead-book-mardi-gras-jazz-fest-transportation" },
+      { label: "Wedding Limo Service", to: "/services/wedding-limo" },
+      { label: "Airport Transportation", to: "/services/airport-transportation" },
+      { label: "Our Fleet", to: "/fleet" },
+      { label: "Book a Ride", to: "/booking" },
+    ],
+  },
+  {
+    slug: "french-quarter-private-event-transportation",
+    title: "French Quarter Event Transportation: A Planner's Guide to Weddings, Second Lines and Private Parties",
+    metaTitle: "French Quarter Event Transportation | Weddings & Private Parties",
+    metaDescription:
+      "Planning wedding, second-line or private party transportation in the French Quarter — loading zones, timing and vehicle choice. (877) 609-1919.",
+    category: "Events",
+    author: "MSY Limo Team",
+    date: "October 16, 2026",
+    readTime: "7 min read",
+    excerpt:
+      "Our general French Quarter transportation guide covers visitors. This one is for planners: weddings, second-line send-offs and private parties, and the specific logistics each one needs.",
+    image: "/images/blog/landmark-nola-1.webp",
+    content: `
+      <p>Visitor transportation in the French Quarter is its own subject, covered in our <a href="/french-quarter-transportation-guide">French Quarter transportation guide</a>. Planning transportation for a private event there — a wedding, a second-line send-off, a corporate party — is a different problem with its own specific logistics, and that's what this guide covers.</p>
+
+      <h2>The Quarter's Basic Constraint: Streets Built for 1800s Traffic</h2>
+      <p>Every private event plan in the French Quarter starts from the same fact: the street grid predates the automobile, many blocks are one-way, and parts of Bourbon and Royal Streets close to vehicles nightly and during events. A planner who accounts for this upfront avoids the most common mistake — assuming a vehicle can simply pull up to the venue door the way it would anywhere else.</p>
+
+      <h2>Weddings: Staging, Not Just Scheduling</h2>
+      <p>A French Quarter wedding transportation plan needs a staging point, not just a pickup time. Many historic venues — courtyards, galleries, converted townhouses — sit on blocks where a stretch limousine simply cannot maneuver. We check your exact venue address in advance and tell you honestly whether a stretch limo, a Cadillac Escalade or a sedan is the right call, and we identify a realistic staging spot on a nearby accessible street for the getaway car rather than promising a curbside moment that the block can't deliver.</p>
+      <p>The second common mistake is treating hotel-block guest shuttles as an afterthought. If your wedding is pulling guests from multiple French Quarter hotels, a Sprinter van running a scheduled loop is usually more reliable than asking everyone to arrange their own ride to a venue with limited nearby parking.</p>
+
+      <h2>Second-Line Send-Offs: Plan Around the Parade, Not the Ceremony</h2>
+      <p>A second-line parade is now a standard part of many New Orleans weddings, and it changes the transportation plan more than any other single detail. The getaway vehicle shouldn't stage at the ceremony site — it should stage along or near the actual second-line route, timed to when the parade concludes, which is often later and at a different location entirely. We ask for your second-line route and timing specifically, separate from your ceremony schedule, so the right vehicle is waiting where the party actually ends up.</p>
+
+      <h2>Private Parties and Corporate Events: Loading Zones Over Convenience</h2>
+      <p>For a corporate party, milestone birthday or private event at a French Quarter restaurant, gallery or music venue, the planning question is less about the ceremony and more about guest flow: how many guests are arriving within what window, and where can vehicles realistically queue without blocking the block. For larger guest counts, staggering arrivals across a 30- to 45-minute window with a Sprinter van or two keeps the venue's entrance from backing up, which matters more in the Quarter than almost anywhere else in the city.</p>
+
+      <h2>Photography Sessions: Build in Real Wait Time</h2>
+      <p>Event planners booking photography transportation — bridal portraits, anniversary shoots — should book hourly, as-directed service rather than a fixed transfer. The Quarter's most photogenic blocks are often its most parking-restricted, and a session moves at the photographer's pace, not a schedule. An hourly chauffeur who knows the area can stage nearby without blocking foot traffic or the shot itself.</p>
+
+      <h2>A Short Checklist for Event Planners</h2>
+      <ul>
+        <li>Share the exact venue address early — vehicle class depends on what the block can actually accommodate.</li>
+        <li>For second lines, give us the parade route and expected end time separately from the ceremony schedule.</li>
+        <li>For guest shuttles, tell us every hotel in the room block so we can plan one coordinated loop.</li>
+        <li>For large guest counts, plan a staggered arrival window rather than one single rush.</li>
+        <li>Book well ahead for peak wedding season — see our <a href="/corporate-car-service-vs-rideshare">corporate transportation guide</a> and <a href="/services/wedding-limo">wedding transportation page</a> for vehicle options.</li>
+      </ul>
+
+      <h2>Plan Your French Quarter Event</h2>
+      <p>Share your venue, timing and guest count, and we'll build a transportation plan around what the Quarter's streets actually allow. Call <a href="tel:+18776091919">(877) 609-1919</a> or <a href="/booking">book online</a>.</p>
+    `,
+    faqs: [
+      { q: "Can a stretch limousine reach every French Quarter venue?", a: "No. Many historic blocks are too narrow or one-way for a full stretch limo. We check your exact venue address in advance and recommend a Cadillac Escalade or sedan when the street calls for it." },
+      { q: "How do you handle transportation for a second-line wedding send-off?", a: "We ask for your second-line route and expected end time separately from your ceremony schedule, since the getaway vehicle needs to stage near where the parade concludes, not at the ceremony site." },
+      { q: "What vehicle works best for French Quarter hotel-block wedding guests?", a: "A Sprinter van running a scheduled loop between hotels and the venue is usually more reliable than guests arranging individual rides to a venue with limited nearby parking." },
+      { q: "Is hourly service better than a fixed transfer for a photography session?", a: "Yes. Photography sessions move at the photographer's pace with unpredictable wait times at each stop, which hourly, as-directed charter handles far better than a fixed pickup-and-drop-off booking." },
+      { q: "How far ahead should we book French Quarter event transportation?", a: "At least two to four weeks for most private events, and considerably earlier during peak spring and fall wedding season or any weekend with a major festival." },
+    ],
+    relatedLinks: [
+      { label: "French Quarter Transportation Guide", to: "/french-quarter-transportation-guide" },
+      { label: "French Quarter Limo Service", to: "/french-quarter-limo-service" },
+      { label: "Second Line Wedding Parade Transportation", to: "/second-line-wedding-parade-transportation" },
+      { label: "Bourbon Street Transportation", to: "/bourbon-street-transportation" },
+      { label: "Wedding Limo Service", to: "/services/wedding-limo" },
+      { label: "Special Events", to: "/services/special-events" },
+      { label: "Book a Ride", to: "/booking" },
+    ],
+  },
+  {
+    slug: "sugar-bowl-new-years-superdome-transportation",
+    title: "Sugar Bowl and New Year's Bowl Season Transportation to the Caesars Superdome",
+    metaTitle: "Sugar Bowl Transportation Guide | Caesars Superdome Car Service",
+    metaDescription:
+      "Getting to the Allstate Sugar Bowl at the Caesars Superdome — MSY pickups, hotel shuttles and game-day logistics for New Year's bowl season. (877) 609-1919.",
+    category: "Events",
+    author: "MSY Limo Team",
+    date: "October 16, 2026",
+    readTime: "6 min read",
+    excerpt:
+      "The Allstate Sugar Bowl fills the Caesars Superdome and the hotels around it every New Year's season. Here's how out-of-town fans get from MSY to the game without the rideshare scramble.",
+    image: "/images/blog/scenario-group-shuttle.webp",
+    content: `
+      <p>The Allstate Sugar Bowl at the Caesars Superdome is one of the biggest annual dates on the New Orleans sports calendar, drawing two college football fan bases into downtown hotels for a New Year's weekend that overlaps with the city's own holiday crowds. If you're flying into MSY for the game, the transportation plan is worth thinking through before you land rather than after.</p>
+
+      <h2>Why Sugar Bowl Weekend Is Different From a Regular Saints Game</h2>
+      <p>A typical Saints or Pelicans game day brings local traffic into downtown for a few hours. Sugar Bowl weekend stacks two out-of-town fan bases into hotels across the CBD, Warehouse District and French Quarter for several days, on top of whatever New Year's Eve crowds are already downtown. Rideshare demand spikes accordingly, and availability near the Superdome on game day itself can be genuinely difficult, not just pricier.</p>
+
+      <h2>Flying Into MSY for the Game</h2>
+      <p>Out-of-town fans flying into Louis Armstrong New Orleans International Airport for Sugar Bowl weekend should expect a busy terminal, especially the day or two before the game. A reserved, flight-tracked pickup removes the single biggest risk of that kind of travel day — a packed arrivals curb with every rideshare and taxi line backed up at once. Our airport transfers include real-time flight tracking and complimentary wait time, so a delayed flight into a crowded terminal doesn't turn into a missed pickup.</p>
+
+      <h2>Getting From Your Hotel to the Superdome on Game Day</h2>
+      <p>Downtown hotels are within walking distance of the Caesars Superdome for most guests, but game-day street closures, heavy pedestrian traffic and winter weather make a short, reserved drop-off worth considering, especially for groups, families, or anyone who would rather not walk several blocks in late-December weather carrying tailgate gear. We drop you as close to your gate entrance as closures allow and arrange a pickup window for after the game, when leaving on foot through a dispersing crowd of 70,000-plus fans is its own challenge.</p>
+
+      <h2>Group and Tailgate Logistics</h2>
+      <p>Fan groups traveling together for the Sugar Bowl are one of our most common bookings this time of year. A Sprinter van keeps a tailgate group, a family, or a block of friends together for the full day — airport pickup, hotel, pregame activities and the game itself — rather than splitting across several separate rideshare trips that may not even be available at the same time during peak demand.</p>
+
+      <h2>New Year's Eve Overlap</h2>
+      <p>Because Sugar Bowl weekend regularly falls right around New Year's Eve, fans in town for the game often want Bourbon Street or French Quarter plans the same trip. Our <a href="/blog/new-years-eve-bourbon-street-car-service">New Year's Eve on Bourbon Street guide</a> covers that side of the weekend specifically, including how street closures around Bourbon Street affect pickup and drop-off.</p>
+
+      <h2>Booking Sugar Bowl Weekend Transportation</h2>
+      <p>Sugar Bowl weekend is one of the highest-demand stretches of the year for vehicles near the Superdome, so we recommend booking as soon as your travel dates are set — well before the week of the game itself. Share your flight details, hotel and game-day plan, and we'll build the whole weekend around it. Call <a href="tel:+18776091919">(877) 609-1919</a> or <a href="/booking">book online</a>.</p>
+    `,
+    faqs: [
+      { q: "How far is MSY from the Caesars Superdome?", a: "About 14 miles, typically a 20- to 30-minute drive via I-10, though Sugar Bowl weekend traffic and New Year's crowds can extend that, especially close to kickoff." },
+      { q: "Is rideshare hard to find near the Superdome during the Sugar Bowl?", a: "Availability can tighten significantly on game day itself, with two out-of-town fan bases and heavy holiday crowds downtown at the same time. A reserved pickup avoids depending on real-time availability." },
+      { q: "Can you drop us close to the Superdome on game day?", a: "Yes, as close as game-day closures allow, and we arrange a pickup window for afterward, which matters most when leaving on foot through a large dispersing crowd." },
+      { q: "Do you provide group transportation for Sugar Bowl tailgate groups?", a: "Yes. A Sprinter van is a popular choice for keeping a fan group together for the whole day, from airport pickup through pregame activities and the game itself." },
+      { q: "How early should we book Sugar Bowl weekend transportation?", a: "As soon as your travel dates are confirmed. It's one of the highest-demand weekends of the year for vehicles near the Superdome, and availability tightens well before game week." },
+    ],
+    relatedLinks: [
+      { label: "Caesars Superdome Transportation", to: "/caesars-superdome-transportation" },
+      { label: "New Year's Eve on Bourbon Street", to: "/blog/new-years-eve-bourbon-street-car-service" },
+      { label: "Saints Game Day Service", to: "/services/saints-game-day" },
+      { label: "Smoothie King Center Transportation", to: "/smoothie-king-center-transportation" },
+      { label: "Airport Transportation", to: "/services/airport-transportation" },
+      { label: "Our Fleet", to: "/fleet" },
       { label: "Book a Ride", to: "/booking" },
     ],
   },
