@@ -5,6 +5,7 @@ import { MARYLAND_BATCH3 } from "@/data/marylandPagesBatch3";
 import { MARYLAND_BATCH4 } from "@/data/marylandPagesBatch4";
 import { MARYLAND_BATCH5 } from "@/data/marylandPagesBatch5";
 import { MARYLAND_BATCH6 } from "@/data/marylandPagesBatch6";
+import { MARYLAND_BATCH7 } from "@/data/marylandPagesBatch7";
 
 export const MARYLAND_PAGES = [
   {
@@ -4882,27 +4883,27 @@ export const MARYLAND_PAGES = [
     "destinations": [
       {
         "name": "the United States Naval Academy gates",
-        "blurb": "Door-to-door drop-off with luggage handled — one of the most requested Annapolis stops on this route."
+        "blurb": "We stage near Gate 1 on Decatur Road rather than the more congested Gate 3, which matters most on Parents' Weekend and Commissioning Week when the Yard fills with families."
       },
       {
         "name": "the Maryland State House",
-        "blurb": "Door-to-door drop-off with luggage handled — one of the most requested Annapolis stops on this route."
+        "blurb": "Lawmakers and lobbyists get dropped on the correct side of State Circle for their committee room, avoiding the one-way loop that traps a driver unfamiliar with session-day closures."
       },
       {
         "name": "City Dock and Main Street",
-        "blurb": "Door-to-door drop-off with luggage handled — one of the most requested Annapolis stops on this route."
+        "blurb": "Main Street is pedestrian-heavy and loading-restricted most evenings, so we meet guests at the Dock Street turnaround rather than promising a curb spot that isn't there."
       },
       {
         "name": "Eastport and the Annapolis Yacht Club",
-        "blurb": "Door-to-door drop-off with luggage handled — one of the most requested Annapolis stops on this route."
+        "blurb": "The Eastport swing bridge over Spa Creek opens on a schedule during boating season, and we time the crossing so a club arrival isn't stuck waiting on the span."
       },
       {
         "name": "the Westin Annapolis and Graduate Annapolis",
-        "blurb": "Door-to-door drop-off with luggage handled — one of the most requested Annapolis stops on this route."
+        "blurb": "Both hotels sit off West Street with manageable porte-cochere access, making them reliable late-night pickup points after a Naval Academy event lets out."
       },
       {
         "name": "the Historic Inns of Annapolis",
-        "blurb": "Door-to-door drop-off with luggage handled — one of the most requested Annapolis stops on this route."
+        "blurb": "The three connected inns around Church Circle have narrow approach streets, so larger vehicles are met on Franklin Street rather than attempting the tight circle itself."
       }
     ],
     "sections": [
@@ -4911,6 +4912,13 @@ export const MARYLAND_PAGES = [
         "paragraphs": [
           "On the BWI–Annapolis corridor, rideshare pricing surges when demand is highest and long trips get declined. A reserved chauffeur costs a known amount, arrives early and is committed to your trip. Every vehicle is detailed daily and driven by a trained, background-checked chauffeur.",
           "Choose a Mercedes-Benz E-Class or BMW 7 Series for one or two travelers, a Cadillac Escalade or Chevrolet Suburban for six with luggage, or a Mercedes Sprinter van for groups of up to 13."
+        ]
+      },
+      {
+        "h2": "What Your Chauffeur Watches on This Route",
+        "paragraphs": [
+          "I-97 south of BWI runs through open stretches with few exits, so the real variable is the MD-450 and US-50 interchange where Annapolis-bound traffic merges with Eastern Shore beach traffic. On a summer Friday afternoon that merge alone can add fifteen minutes, which is why we build a buffer into pickup times rather than quoting the best-case drive.",
+          "Session days at the State House, Commissioning Week in late May and the boat shows in October are the three windows where Annapolis itself gets harder to move through, independent of the highway. Your chauffeur checks that calendar before confirming a pickup window, and for a wedding or event booking we recommend reserving two to four weeks ahead during those stretches so the vehicle class you want is still available."
         ]
       }
     ],
@@ -5562,27 +5570,27 @@ export const MARYLAND_PAGES = [
     "destinations": [
       {
         "name": "downtown Frederick and Carroll Creek",
-        "blurb": "Door-to-door drop-off with luggage handled — one of the most requested Frederick stops on this route."
+        "blurb": "Market Street's brick sidewalks and festival closures make a precise meeting point matter more than the exact address, so we confirm the nearest open corner before arrival."
       },
       {
         "name": "Fort Detrick's Nallin Farm gate",
-        "blurb": "Door-to-door drop-off with luggage handled — one of the most requested Frederick stops on this route."
+        "blurb": "Visitor and contractor traffic queues at the gate during shift changes, and a chauffeur who times the approach outside those windows saves a genuine wait."
       },
       {
         "name": "Frederick Health Hospital",
-        "blurb": "Door-to-door drop-off with luggage handled — one of the most requested Frederick stops on this route."
+        "blurb": "The hospital's circular drive gets backed up around visiting hours, so we use the emergency-adjacent lane for a faster patient or visitor drop-off when it's open to private vehicles."
       },
       {
         "name": "Hood College",
-        "blurb": "Door-to-door drop-off with luggage handled — one of the most requested Frederick stops on this route."
+        "blurb": "Move-in weekends and commencement fill the campus loop, and our chauffeurs know the Rosemont Avenue approach that avoids the worst of that congestion."
       },
       {
         "name": "the Riverside Research Park",
-        "blurb": "Door-to-door drop-off with luggage handled — one of the most requested Frederick stops on this route."
+        "blurb": "Spread across several office buildings off Monocacy Boulevard, the park rewards a driver who already knows which building number matches which entrance."
       },
       {
         "name": "Ceresville Mansion",
-        "blurb": "Door-to-door drop-off with luggage handled — one of the most requested Frederick stops on this route."
+        "blurb": "The mansion's gravel drive and tented reception area call for careful staging, which is part of why it's a regular wedding and event stop for our Frederick chauffeurs."
       }
     ],
     "sections": [
@@ -5591,6 +5599,13 @@ export const MARYLAND_PAGES = [
         "paragraphs": [
           "On the BWI–Frederick corridor, rideshare pricing surges when demand is highest and long trips get declined. A reserved chauffeur costs a known amount, arrives early and is committed to your trip. Every vehicle is detailed daily and driven by a trained, background-checked chauffeur.",
           "Choose a Mercedes-Benz E-Class or BMW 7 Series for one or two travelers, a Cadillac Escalade or Chevrolet Suburban for six with luggage, or a Mercedes Sprinter van for groups of up to 13. In Frederick, our chauffeurs know Downtown Frederick's historic district, Baker Park and Ballenger Creek as well as they know the highway."
+        ]
+      },
+      {
+        "h2": "What Your Chauffeur Watches on This Route",
+        "paragraphs": [
+          "Both options on this run have a weak point: I-695 can back up at the I-70 interchange west of Baltimore, while MD-32 narrows to two lanes through Sykesville with little room to recover from an incident. Your chauffeur checks both before choosing, rather than defaulting to whichever route is listed on a map app that morning.",
+          "Once on I-70, the Mount Airy grade and the I-270 interchange near Frederick are the two spots that slow a trip that otherwise runs at highway speed the rest of the way. Summer brings Frederick Keys baseball traffic and the week-long county fair downtown, both worth mentioning when you book if your pickup falls during either one."
         ]
       }
     ],
@@ -5730,27 +5745,27 @@ export const MARYLAND_PAGES = [
     "destinations": [
       {
         "name": "NIH and the Medical Center Metro",
-        "blurb": "Door-to-door drop-off with luggage handled — one of the most requested Bethesda stops on this route."
+        "blurb": "The campus spans dozens of numbered buildings behind a security perimeter, so we confirm your exact building and gate before the drive so the chauffeur isn't guessing at the checkpoint."
       },
       {
         "name": "Walter Reed",
-        "blurb": "Door-to-door drop-off with luggage handled — one of the most requested Bethesda stops on this route."
+        "blurb": "Visitor screening at the gate can take several minutes, which we factor into pickup timing so a patient appointment or family visit doesn't start late."
       },
       {
         "name": "Marriott International headquarters",
-        "blurb": "Door-to-door drop-off with luggage handled — one of the most requested Bethesda stops on this route."
+        "blurb": "The Bethesda headquarters campus has its own internal roads off Marinelli Road, and a chauffeur who already knows the visitor entrance saves a lap around the building."
       },
       {
         "name": "Bethesda Row",
-        "blurb": "Door-to-door drop-off with luggage handled — one of the most requested Bethesda stops on this route."
+        "blurb": "Weekend evenings bring heavy foot traffic and limited curb space along Woodmont and Bethesda Avenues, so we identify a realistic meeting corner rather than promising a door-front stop."
       },
       {
         "name": "the Hyatt Regency Bethesda",
-        "blurb": "Door-to-door drop-off with luggage handled — one of the most requested Bethesda stops on this route."
+        "blurb": "The hotel's connection to the Metro and the convention-adjacent crowds mean the porte-cochere fills quickly during conferences, so an early staged pickup avoids the queue."
       },
       {
         "name": "Congressional Country Club",
-        "blurb": "Door-to-door drop-off with luggage handled — one of the most requested Bethesda stops on this route."
+        "blurb": "Tournament weeks bring gate restrictions and member-only lanes, and our chauffeurs confirm the correct entrance for guests versus members before the day of the event."
       }
     ],
     "sections": [
@@ -5759,6 +5774,13 @@ export const MARYLAND_PAGES = [
         "paragraphs": [
           "On the DCA–Bethesda corridor, rideshare pricing surges when demand is highest and long trips get declined. A reserved chauffeur costs a known amount, arrives early and is committed to your trip. Every vehicle is detailed daily and driven by a trained, background-checked chauffeur.",
           "Choose a Mercedes-Benz E-Class or BMW 7 Series for one or two travelers, a Cadillac Escalade or Chevrolet Suburban for six with luggage, or a Mercedes Sprinter van for groups of up to 13. In Bethesda, our chauffeurs know Downtown Bethesda, Bethesda Row and the Woodmont Triangle as well as they know the highway."
+        ]
+      },
+      {
+        "h2": "What Your Chauffeur Watches on This Route",
+        "paragraphs": [
+          "The George Washington Parkway has no shoulder for most of its length, so a single stalled car near the 14th Street Bridge can hold up the whole corridor with no way around it. When that happens, the Clara Barton Parkway to River Road becomes the better option even though it's a slower road on paper, and your chauffeur makes that call in real time rather than sitting in a backup.",
+          "Both routes funnel into the Beltway's inner loop near the I-270 spur, which is the second pressure point on this run. Weekday evening rush between 4 and 6:30 is the worst window, and NIH shift changes add their own smaller surge around 7 a.m. and 3 p.m. — worth mentioning when you book if your pickup falls in either window."
         ]
       }
     ],
@@ -5898,27 +5920,27 @@ export const MARYLAND_PAGES = [
     "destinations": [
       {
         "name": "Rockville Town Square",
-        "blurb": "Door-to-door drop-off with luggage handled — one of the most requested Rockville stops on this route."
+        "blurb": "The square's parking garages and pedestrian plaza mean a curbside drop works better on Maryland Avenue than attempting the plaza itself."
       },
       {
         "name": "King Farm and Fallsgrove",
-        "blurb": "Door-to-door drop-off with luggage handled — one of the most requested Rockville stops on this route."
+        "blurb": "Both are deep residential grids off Key West Avenue, and a chauffeur working from the exact address avoids the dead-end streets that trip up a GPS-only driver."
       },
       {
         "name": "the Nuclear Regulatory Commission",
-        "blurb": "Door-to-door drop-off with luggage handled — one of the most requested Rockville stops on this route."
+        "blurb": "Federal security screening at the White Flint campus can add several minutes, which we build into arrival timing for visitors with a hard meeting start."
       },
       {
         "name": "Shady Grove Adventist Medical Center",
-        "blurb": "Door-to-door drop-off with luggage handled — one of the most requested Rockville stops on this route."
+        "blurb": "The emergency and main entrances sit on opposite sides of the campus, so confirming which one you need before pickup avoids a loop around the building."
       },
       {
         "name": "the Shady Grove Road biotech campuses",
-        "blurb": "Door-to-door drop-off with luggage handled — one of the most requested Rockville stops on this route."
+        "blurb": "The corridor's numbered research buildings look alike from the road, and chauffeurs who run this route daily know which driveway matches which company."
       },
       {
         "name": "Twinbrook and the Cambria Rockville",
-        "blurb": "Door-to-door drop-off with luggage handled — one of the most requested Rockville stops on this route."
+        "blurb": "Twinbrook's Metro-adjacent streets get tight during evening rush, and the Cambria's small porte-cochere is easiest to use outside the 5 to 6:30 p.m. window."
       }
     ],
     "sections": [
@@ -5927,6 +5949,13 @@ export const MARYLAND_PAGES = [
         "paragraphs": [
           "On the DCA–Rockville corridor, rideshare pricing surges when demand is highest and long trips get declined. A reserved chauffeur costs a known amount, arrives early and is committed to your trip. Every vehicle is detailed daily and driven by a trained, background-checked chauffeur.",
           "Choose a Mercedes-Benz E-Class or BMW 7 Series for one or two travelers, a Cadillac Escalade or Chevrolet Suburban for six with luggage, or a Mercedes Sprinter van for groups of up to 13. In Rockville, our chauffeurs know King Farm, Twinbrook and Fallsgrove as well as they know the highway."
+        ]
+      },
+      {
+        "h2": "What Your Chauffeur Watches on This Route",
+        "paragraphs": [
+          "The GW Parkway into the Beltway is the first chokepoint on this run, especially where it narrows approaching the Legion Bridge interchange. From there, I-270 generally moves well until the spur splits toward Rockville, where afternoon traffic backs up well before the Montrose Road exit.",
+          "A domestic arrival at DCA includes 45 minutes of complimentary wait time and an international arrival 60 minutes, so a delayed flight doesn't turn into a scramble. If your trip lands during the morning or evening commute, tell dispatch when you book — we'll build the extra cushion into the pickup window rather than asking you to wait at the curb."
         ]
       }
     ],
@@ -6066,27 +6095,27 @@ export const MARYLAND_PAGES = [
     "destinations": [
       {
         "name": "Rockville Town Square",
-        "blurb": "Door-to-door drop-off with luggage handled — one of the most requested Rockville stops on this route."
+        "blurb": "Weekend farmers market days close part of Maryland Avenue, and our chauffeurs reroute to a side-street pickup rather than idling in a closed lane."
       },
       {
         "name": "King Farm, Fallsgrove and Tower Oaks",
-        "blurb": "Door-to-door drop-off with luggage handled — one of the most requested Rockville stops on this route."
+        "blurb": "These three planned communities share similar street names off Key West Avenue, so we confirm the exact community and address before leaving Dulles rather than at the door."
       },
       {
         "name": "the Nuclear Regulatory Commission",
-        "blurb": "Door-to-door drop-off with luggage handled — one of the most requested Rockville stops on this route."
+        "blurb": "International visitors clearing a federal security check at White Flint benefit from the extra wait time built into a Dulles pickup, since the terminal-to-car walk already runs long for arriving flights with customs."
       },
       {
         "name": "the Shady Grove Road biotech corridor",
-        "blurb": "Door-to-door drop-off with luggage handled — one of the most requested Rockville stops on this route."
+        "blurb": "Many of these research campuses host international delegations flying through Dulles directly, and our chauffeurs coordinate building numbers in advance for groups arriving on the same flight."
       },
       {
         "name": "Adventist HealthCare Shady Grove",
-        "blurb": "Door-to-door drop-off with luggage handled — one of the most requested Rockville stops on this route."
+        "blurb": "The hospital's main entrance loop is often tightest around shift change, so a scheduled pickup outside that window moves faster than a same-day request."
       },
       {
         "name": "the Hilton and Cambria Rockville",
-        "blurb": "Door-to-door drop-off with luggage handled — one of the most requested Rockville stops on this route."
+        "blurb": "Both hotels draw international business travel connected through Dulles, and their compact porte-cocheres work best with a sedan rather than a larger vehicle at peak check-in times."
       }
     ],
     "sections": [
@@ -6095,6 +6124,13 @@ export const MARYLAND_PAGES = [
         "paragraphs": [
           "On the IAD–Rockville corridor, rideshare pricing surges when demand is highest and long trips get declined. A reserved chauffeur costs a known amount, arrives early and is committed to your trip. Every vehicle is detailed daily and driven by a trained, background-checked chauffeur.",
           "Choose a Mercedes-Benz E-Class or BMW 7 Series for one or two travelers, a Cadillac Escalade or Chevrolet Suburban for six with luggage, or a Mercedes Sprinter van for groups of up to 13. In Rockville, our chauffeurs know King Farm, Twinbrook and Fallsgrove as well as they know the highway."
+        ]
+      },
+      {
+        "h2": "What Your Chauffeur Watches on This Route",
+        "paragraphs": [
+          "This is the longest of our Rockville airport routes, and the American Legion Bridge is the one chokepoint that decides whether it runs 40 minutes or closer to 70. Weekday rush in both directions backs traffic up well before the Virginia approach, so a chauffeur working a Dulles pickup checks the bridge cameras before committing to a departure time.",
+          "International arrivals carry 60 minutes of complimentary wait time, which matters on this route because Dulles customs and baggage can run long for a wide-body arrival. We'd rather build that time in than have you standing curbside wondering where the car is."
         ]
       }
     ],
@@ -6402,27 +6438,27 @@ export const MARYLAND_PAGES = [
     "destinations": [
       {
         "name": "Capitol Hill",
-        "blurb": "Door-to-door drop-off with luggage handled — one of the most requested Washington DC stops on this route."
+        "blurb": "Security perimeters tighten during sessions and any national event, and our chauffeurs check the current closure map rather than assuming last week's drop-off point still works."
       },
       {
         "name": "the K Street business district",
-        "blurb": "Door-to-door drop-off with luggage handled — one of the most requested Washington DC stops on this route."
+        "blurb": "Loading zones along K Street are contested at all hours, so a driver who knows the side-street alternatives gets executives to the door faster than circling the block."
       },
       {
         "name": "Georgetown",
-        "blurb": "Door-to-door drop-off with luggage handled — one of the most requested Washington DC stops on this route."
+        "blurb": "M Street and Wisconsin Avenue see heavy weekend foot traffic and limited curb space, and our chauffeurs favor the side streets off the main corridor for a cleaner handoff."
       },
       {
         "name": "Union Station",
-        "blurb": "Door-to-door drop-off with luggage handled — one of the most requested Washington DC stops on this route."
+        "blurb": "The taxi and rideshare queue at the main entrance backs up around commuter trains, so we use the Amtrak-side approach for a quicker curbside stop."
       },
       {
         "name": "Navy Yard and Nationals Park",
-        "blurb": "Door-to-door drop-off with luggage handled — one of the most requested Washington DC stops on this route."
+        "blurb": "Game nights close streets around the stadium hours before first pitch, and a chauffeur who plans the approach early avoids being boxed out entirely."
       },
       {
         "name": "the Convention Center and Penn Quarter hotels",
-        "blurb": "Door-to-door drop-off with luggage handled — one of the most requested Washington DC stops on this route."
+        "blurb": "Large conventions fill every loading zone near the center, so we confirm which hotel entrance is actually reachable that week before promising a specific drop-off."
       }
     ],
     "sections": [
@@ -6431,6 +6467,13 @@ export const MARYLAND_PAGES = [
         "paragraphs": [
           "On the Baltimore–Washington DC corridor, rideshare pricing surges when demand is highest and long trips get declined. A reserved chauffeur costs a known amount, arrives early and is committed to your trip. Every vehicle is detailed daily and driven by a trained, background-checked chauffeur.",
           "Choose a Mercedes-Benz E-Class or BMW 7 Series for one or two travelers, a Cadillac Escalade or Chevrolet Suburban for six with luggage, or a Mercedes Sprinter van for groups of up to 13."
+        ]
+      },
+      {
+        "h2": "What Your Chauffeur Watches on This Route",
+        "paragraphs": [
+          "The Baltimore-Washington Parkway has no commercial traffic and a lower speed limit than I-95, which makes it the calmer option outside of rush hour; I-95 is faster when it's moving but slows hard at the Beltway interchange and again near New York Avenue entering the city. Your chauffeur picks between the two based on the time of day rather than habit.",
+          "Nationals and Capitals games, Capitol session days and any major demonstration on the Mall all change which streets are open downtown, sometimes with little notice. We check the day's conditions before pickup and build a realistic cushion into trips timed against a flight, a hearing or an event start."
         ]
       }
     ],
@@ -6570,27 +6613,27 @@ export const MARYLAND_PAGES = [
     "destinations": [
       {
         "name": "the Naval Academy",
-        "blurb": "Door-to-door drop-off with luggage handled — one of the most requested Annapolis stops on this route."
+        "blurb": "Game days and Commissioning Week fill every gate with family traffic, and our Baltimore chauffeurs know which entrance is actually open before leaving the Inner Harbor."
       },
       {
         "name": "the State House and Church Circle",
-        "blurb": "Door-to-door drop-off with luggage handled — one of the most requested Annapolis stops on this route."
+        "blurb": "The circle's one-way flow confuses drivers unfamiliar with it, so we approach from Francis Street for a cleaner drop near the legislative entrance."
       },
       {
         "name": "City Dock and Main Street",
-        "blurb": "Door-to-door drop-off with luggage handled — one of the most requested Annapolis stops on this route."
+        "blurb": "Weekend boat traffic and a pedestrian-heavy Main Street push our drop-off to the Dock Street turnaround rather than a promised but unreachable curb spot."
       },
       {
         "name": "Eastport and the yacht clubs",
-        "blurb": "Door-to-door drop-off with luggage handled — one of the most requested Annapolis stops on this route."
+        "blurb": "The Spa Creek drawbridge opens on a posted schedule in boating season, and we time the Compromise Street crossing so it doesn't add an unplanned wait."
       },
       {
         "name": "the Westin and Graduate Annapolis",
-        "blurb": "Door-to-door drop-off with luggage handled — one of the most requested Annapolis stops on this route."
+        "blurb": "Both sit off West Street with straightforward porte-cochere access, making them dependable pickup points even on a busy legislative session evening."
       },
       {
         "name": "Anne Arundel Medical Center",
-        "blurb": "Door-to-door drop-off with luggage handled — one of the most requested Annapolis stops on this route."
+        "blurb": "The main entrance and emergency entrance are on different sides of the Jennifer Road campus, so we confirm which one before the trip rather than guessing at the gate."
       }
     ],
     "sections": [
@@ -6599,6 +6642,13 @@ export const MARYLAND_PAGES = [
         "paragraphs": [
           "On the Baltimore–Annapolis corridor, rideshare pricing surges when demand is highest and long trips get declined. A reserved chauffeur costs a known amount, arrives early and is committed to your trip. Every vehicle is detailed daily and driven by a trained, background-checked chauffeur.",
           "Choose a Mercedes-Benz E-Class or BMW 7 Series for one or two travelers, a Cadillac Escalade or Chevrolet Suburban for six with luggage, or a Mercedes Sprinter van for groups of up to 13."
+        ]
+      },
+      {
+        "h2": "What Your Chauffeur Watches on This Route",
+        "paragraphs": [
+          "I-97 south is a straightforward run most of the day, with the one reliable slowdown at the MD-100 interchange where commuter traffic merges in from Arnold and Severna Park. Rowe Boulevard into downtown Annapolis is the other pinch point, especially on a legislative session afternoon when State House staff and visitors are moving at the same time.",
+          "Boat Show weekends in October and Commissioning Week in late May are the two stretches where Annapolis itself, not the highway, becomes the harder part of the trip. If your booking falls during either one, mention it when you call — we'll plan the pickup around the city's own traffic rather than just the drive down I-97."
         ]
       }
     ],
@@ -6738,27 +6788,27 @@ export const MARYLAND_PAGES = [
     "destinations": [
       {
         "name": "NIH and Walter Reed",
-        "blurb": "Door-to-door drop-off with luggage handled — one of the most requested Bethesda stops on this route."
+        "blurb": "Security screening at either gate takes longer than first-time visitors expect, and we build that margin into the pickup window for a Baltimore-to-Bethesda medical trip."
       },
       {
         "name": "Marriott International headquarters",
-        "blurb": "Door-to-door drop-off with luggage handled — one of the most requested Bethesda stops on this route."
+        "blurb": "The Marinelli Road campus has a dedicated visitor entrance that isn't obvious from the main road, and our chauffeurs use it rather than the employee approach."
       },
       {
         "name": "Bethesda Row",
-        "blurb": "Door-to-door drop-off with luggage handled — one of the most requested Bethesda stops on this route."
+        "blurb": "Weekend dinner crowds fill the curb along Woodmont and Bethesda Avenues, so a chauffeur working this route regularly knows the quieter side-street alternative."
       },
       {
         "name": "the Hyatt Regency and Bethesda Marriott",
-        "blurb": "Door-to-door drop-off with luggage handled — one of the most requested Bethesda stops on this route."
+        "blurb": "Both hotels see their porte-cochere fill up fast during conference check-in waves, so an early-staged pickup beats a same-day request on a busy convention day."
       },
       {
         "name": "Strathmore and North Bethesda",
-        "blurb": "Door-to-door drop-off with luggage handled — one of the most requested Bethesda stops on this route."
+        "blurb": "Concert nights at the Music Center fill the garage and the surrounding streets, and we time the arrival around the performance schedule rather than against it."
       },
       {
         "name": "Congressional Country Club",
-        "blurb": "Door-to-door drop-off with luggage handled — one of the most requested Bethesda stops on this route."
+        "blurb": "Tournament weeks route guest traffic through a separate gate from the member entrance, which we confirm in advance so a long-distance Baltimore pickup doesn't arrive at the wrong one."
       }
     ],
     "sections": [
@@ -6767,6 +6817,13 @@ export const MARYLAND_PAGES = [
         "paragraphs": [
           "On the Baltimore–Bethesda corridor, rideshare pricing surges when demand is highest and long trips get declined. A reserved chauffeur costs a known amount, arrives early and is committed to your trip. Every vehicle is detailed daily and driven by a trained, background-checked chauffeur.",
           "Choose a Mercedes-Benz E-Class or BMW 7 Series for one or two travelers, a Cadillac Escalade or Chevrolet Suburban for six with luggage, or a Mercedes Sprinter van for groups of up to 13. In Bethesda, our chauffeurs know Downtown Bethesda, Bethesda Row and the Woodmont Triangle as well as they know the highway."
+        ]
+      },
+      {
+        "h2": "What Your Chauffeur Watches on This Route",
+        "paragraphs": [
+          "This is the longest of our standard Baltimore routes, and the choice between I-95 and the ICC (MD-200) depends entirely on the hour. I-95 is faster when traffic is light but turns into a slow merge at the Beltway and College Park during rush; the ICC costs a toll but tends to move at a predictable pace even at peak times, so your chauffeur weighs both before departure rather than committing early.",
+          "Once past the Beltway, the I-270 spur into Bethesda is usually the final slow stretch, worst on weekday evenings. For medical trips to NIH or Walter Reed on a tight appointment time, we recommend booking with extra lead time so the pickup, not just the drive, has room to adjust."
         ]
       }
     ],
@@ -6906,40 +6963,49 @@ export const MARYLAND_PAGES = [
     "destinations": [
       {
         "name": "Belmont Manor in Elkridge",
-        "blurb": "A regular stop for our chauffeurs — we know the loading zone, the entrance and the timing."
+        "blurb": "The estate's long tree-lined drive and separate ceremony and reception lawns call for a getaway car staged well before the final toast, not after."
       },
       {
         "name": "the Elkridge Furnace Inn",
-        "blurb": "A regular stop for our chauffeurs — we know the loading zone, the entrance and the timing."
+        "blurb": "Riverside grounds and a gravel parking area mean our chauffeurs plan footing and turning room for a stretch limousine before the day, not on arrival."
       },
       {
         "name": "Chesapeake Bay Beach Club in Stevensville",
-        "blurb": "A regular stop for our chauffeurs — we know the loading zone, the entrance and the timing."
+        "blurb": "Crossing the Bay Bridge adds a variable worth planning around, so getting-ready pickups on the Eastern Shore side are timed against bridge traffic in both directions."
       },
       {
         "name": "the Historic Inns of Annapolis",
-        "blurb": "A regular stop for our chauffeurs — we know the loading zone, the entrance and the timing."
+        "blurb": "Church Circle's narrow approach streets mean larger vehicles stage a block away on Franklin Street rather than attempting the circle itself."
       },
       {
         "name": "Glenview Mansion in Rockville",
-        "blurb": "A regular stop for our chauffeurs — we know the loading zone, the entrance and the timing."
+        "blurb": "City-run and frequently booked back-to-back on weekends, the mansion rewards a chauffeur who already knows the turnaround time between one wedding's exit and the next arrival."
       },
       {
         "name": "Ceresville Mansion in Frederick",
-        "blurb": "A regular stop for our chauffeurs — we know the loading zone, the entrance and the timing."
+        "blurb": "A tented reception area shifts the usual pickup point season to season, so we confirm the current staging spot with the venue before each booking rather than relying on last year's."
       }
     ],
     "sections": [
       {
         "h2": "How the day runs",
         "paragraphs": [
-          "The plan follows getting-ready pickups, first-look transfers, the ceremony-to-reception move, guest shuttles from hotel blocks and the getaway car at the end of the night. Vehicles are staged early, dispatch tracks every leg and changes are handled by text — you never coordinate a driver from the back seat."
+          "The plan follows getting-ready pickups, first-look transfers, the ceremony-to-reception move, guest shuttles from hotel blocks and the getaway car at the end of the night. Vehicles are staged early, dispatch tracks every leg and changes are handled by text — you never coordinate a driver from the back seat.",
+          "A dedicated chauffeur stays with the wedding party rather than being dispatched fresh for each leg, which matters most when photography runs long or a ceremony starts late. We build slack into the schedule between stops rather than quoting a tight timeline that falls apart the moment one thing shifts."
         ]
       },
       {
         "h2": "Vehicles for the occasion",
         "paragraphs": [
-          "Mercedes-Benz E-Class and BMW 7 Series sedans for couples and executives; Cadillac Escalade and Chevrolet Suburban SUVs for six with luggage; Mercedes Sprinter vans for 14; stretch limousines for celebrations. Multiple vehicles coordinate under one reservation."
+          "Mercedes-Benz E-Class and BMW 7 Series sedans for couples and executives; Cadillac Escalade and Chevrolet Suburban SUVs for six with luggage; Mercedes Sprinter vans for 14; stretch limousines for celebrations. Multiple vehicles coordinate under one reservation.",
+          "Most wedding parties mix vehicle classes: a sedan for the couple, an SUV or Sprinter for the bridal party, and a guest shuttle loop for hotel blocks. We help you decide that mix on the planning call rather than defaulting to whatever's easiest for us to schedule."
+        ]
+      },
+      {
+        "h2": "Booking Lead Time and Cancellation",
+        "paragraphs": [
+          "Saturdays in the May-through-October peak, Commissioning Week in Annapolis and the October Eastern Shore rush book out first, so reserving two to four months ahead secures first choice of Sprinter vans and stretch limousines. A shorter engagement or an off-peak date can often be accommodated with a few weeks' notice.",
+          "Sprinter van and limousine wedding bookings can be cancelled free of charge up to 12 hours before the first pickup; sedan and SUV add-ons follow the standard 3-hour window. Call (877) 609-1919 to confirm or adjust a reservation at any hour."
         ]
       }
     ],
@@ -7078,40 +7144,49 @@ export const MARYLAND_PAGES = [
     "destinations": [
       {
         "name": "NIH and Walter Reed in Bethesda",
-        "blurb": "A regular stop for our chauffeurs — we know the loading zone, the entrance and the timing."
+        "blurb": "Security screening at either campus adds real time for a visiting executive, so we build that margin into pickup windows rather than quoting the drive time alone."
       },
       {
         "name": "Fort Meade and the NSA",
-        "blurb": "A regular stop for our chauffeurs — we know the loading zone, the entrance and the timing."
+        "blurb": "Badge and visitor-escort procedures at the gate are strict and schedule-sensitive, and our chauffeurs plan arrival around the specific appointment rather than a general time of day."
       },
       {
         "name": "Johns Hopkins and the University of Maryland Medical Center",
-        "blurb": "A regular stop for our chauffeurs — we know the loading zone, the entrance and the timing."
+        "blurb": "Both downtown Baltimore campuses have constrained loading areas during shift changes, so we favor off-peak staging for executives with a flexible arrival time."
       },
       {
         "name": "Northrop Grumman in Linthicum",
-        "blurb": "A regular stop for our chauffeurs — we know the loading zone, the entrance and the timing."
+        "blurb": "The Linthicum campus sits minutes from BWI, making it a frequent same-day pairing with an airport pickup for visiting program staff."
       },
       {
         "name": "Marriott International and Lockheed Martin in Bethesda",
-        "blurb": "A regular stop for our chauffeurs — we know the loading zone, the entrance and the timing."
+        "blurb": "Each company runs its own visitor check-in process, and we confirm which one applies before the trip so an executive isn't standing at the wrong desk."
       },
       {
         "name": "T. Rowe Price and Under Armour in Baltimore",
-        "blurb": "A regular stop for our chauffeurs — we know the loading zone, the entrance and the timing."
+        "blurb": "Both sit in the Inner Harbor and Locust Point areas where event-day closures are common, and our chauffeurs check the day's calendar before confirming a route."
       }
     ],
     "sections": [
       {
         "h2": "How the day runs",
         "paragraphs": [
-          "The plan follows airport meets for visiting executives, roadshow days with multiple stops, board dinners, conference shuttles and standing weekly commutes. Vehicles are staged early, dispatch tracks every leg and changes are handled by text — you never coordinate a driver from the back seat."
+          "The plan follows airport meets for visiting executives, roadshow days with multiple stops, board dinners, conference shuttles and standing weekly commutes. Vehicles are staged early, dispatch tracks every leg and changes are handled by text — you never coordinate a driver from the back seat.",
+          "For a multi-stop day, the same chauffeur and vehicle stay with your team rather than being rebooked between meetings, which keeps materials and bags secure in the car and avoids the fresh wait that comes with calling a new ride each time a meeting ends."
         ]
       },
       {
         "h2": "Vehicles for the occasion",
         "paragraphs": [
-          "Mercedes-Benz E-Class and BMW 7 Series sedans for couples and executives; Cadillac Escalade and Chevrolet Suburban SUVs for six with luggage; Mercedes Sprinter vans for 14; stretch limousines for celebrations. Multiple vehicles coordinate under one reservation."
+          "Mercedes-Benz E-Class and BMW 7 Series sedans for couples and executives; Cadillac Escalade and Chevrolet Suburban SUVs for six with luggage; Mercedes Sprinter vans for 14; stretch limousines for celebrations. Multiple vehicles coordinate under one reservation.",
+          "Delegations and conference groups typically mix sedans for principals with a Sprinter van for staff and materials, all tracked under one program rather than separate bookings."
+        ]
+      },
+      {
+        "h2": "Accounts, Invoicing and Cancellation",
+        "paragraphs": [
+          "Corporate accounts receive one consolidated monthly invoice broken out by date, passenger and route, rather than a stack of individual receipts. Rates are flat and agreed before the trip, with no surge pricing during conference season or bad weather.",
+          "Sedan and SUV bookings cancel free of charge up to 3 hours before pickup; Sprinter van and multi-vehicle programs require 12 hours. Call (877) 609-1919 to set up an account or adjust a standing booking."
         ]
       }
     ],
@@ -7250,40 +7325,49 @@ export const MARYLAND_PAGES = [
     "destinations": [
       {
         "name": "Martin's West and Martin's Valley Mansion",
-        "blurb": "A regular stop for our chauffeurs — we know the loading zone, the entrance and the timing."
+        "blurb": "Both banquet halls run several proms back-to-back on a Saturday night, and our chauffeurs plan arrival around the venue's own turnover schedule to avoid the busiest curb minutes."
       },
       {
         "name": "Turf Valley Resort",
-        "blurb": "A regular stop for our chauffeurs — we know the loading zone, the entrance and the timing."
+        "blurb": "The resort's sprawling grounds mean the correct entrance depends on which ballroom is booked, which we confirm with the venue ahead of the night."
       },
       {
         "name": "the BWI Airport Marriott",
-        "blurb": "A regular stop for our chauffeurs — we know the loading zone, the entrance and the timing."
+        "blurb": "Airport-adjacent traffic patterns differ from a typical hotel pickup, and our chauffeurs account for terminal-area congestion when timing a prom-night arrival here."
       },
       {
         "name": "the Baltimore Museum of Industry",
-        "blurb": "A regular stop for our chauffeurs — we know the loading zone, the entrance and the timing."
+        "blurb": "The waterfront setting has limited vehicle access right at the building, so stretch limousines stage on the adjacent lot rather than the building's own narrow drive."
       },
       {
         "name": "the Bethesda North Marriott",
-        "blurb": "A regular stop for our chauffeurs — we know the loading zone, the entrance and the timing."
+        "blurb": "Convention traffic can overlap with prom season on a given weekend, and we check the hotel's event calendar before confirming a pickup window."
       },
       {
         "name": "the Hotel at Arundel Preserve",
-        "blurb": "A regular stop for our chauffeurs — we know the loading zone, the entrance and the timing."
+        "blurb": "The hotel's shared retail-district parking gets busy on weekend evenings, so our chauffeurs use the hotel's dedicated guest entrance rather than the general lot."
       }
     ],
     "sections": [
       {
         "h2": "How the day runs",
         "paragraphs": [
-          "The plan follows the pre-prom photo stop, the ride to the venue, the after-party transfer and the safe ride home at the end of the night. Vehicles are staged early, dispatch tracks every leg and changes are handled by text — you never coordinate a driver from the back seat."
+          "The plan follows the pre-prom photo stop, the ride to the venue, the after-party transfer and the safe ride home at the end of the night. Vehicles are staged early, dispatch tracks every leg and changes are handled by text — you never coordinate a driver from the back seat.",
+          "Parents book this trip as much for the safe-ride-home piece as the glamour of arrival, and our chauffeurs treat the end-of-night pickup with the same priority as the first one — the car is there, on time, whether the after-party ran early or late."
         ]
       },
       {
         "h2": "Vehicles for the occasion",
         "paragraphs": [
-          "Mercedes-Benz E-Class and BMW 7 Series sedans for couples and executives; Cadillac Escalade and Chevrolet Suburban SUVs for six with luggage; Mercedes Sprinter vans for 14; stretch limousines for celebrations. Multiple vehicles coordinate under one reservation."
+          "Mercedes-Benz E-Class and BMW 7 Series sedans for couples and executives; Cadillac Escalade and Chevrolet Suburban SUVs for six with luggage; Mercedes Sprinter vans for 14; stretch limousines for celebrations. Multiple vehicles coordinate under one reservation.",
+          "Groups of friends splitting one vehicle most often choose a stretch limousine or Sprinter van rather than several separate sedans, which keeps the group together for photos and the full night rather than arriving in pieces."
+        ]
+      },
+      {
+        "h2": "Booking Lead Time and What's Included",
+        "paragraphs": [
+          "Saturday nights in the late-April through early-June prom window book out weeks ahead, and stretch limousines and Sprinter vans go first. Reserving as soon as the date and venue are set gives you the best chance at the specific vehicle you want.",
+          "Hourly bookings include an agreed block of time covering photos, the ride to the venue and the after-party stop, with the chauffeur waiting rather than being rescheduled between legs. Gratuity and any tolls are disclosed at booking, with no surprise charges added at drop-off."
         ]
       }
     ],
@@ -7422,40 +7506,49 @@ export const MARYLAND_PAGES = [
     "destinations": [
       {
         "name": "Merriweather Post Pavilion in Columbia",
-        "blurb": "A regular stop for our chauffeurs — we know the loading zone, the entrance and the timing."
+        "blurb": "Lawn-seat crowds leave en masse at the final encore, and our chauffeurs stage at a pre-arranged lot rather than the main exit everyone else is funneling toward."
       },
       {
         "name": "CFG Bank Arena in Baltimore",
-        "blurb": "A regular stop for our chauffeurs — we know the loading zone, the entrance and the timing."
+        "blurb": "Downtown event traffic around the arena is heaviest in the 30 minutes before doors, so an early-staged pickup beats trying to arrive right at showtime."
       },
       {
         "name": "Pier Six Pavilion at the Inner Harbor",
-        "blurb": "A regular stop for our chauffeurs — we know the loading zone, the entrance and the timing."
+        "blurb": "Harbor-area parking fills fast on concert nights, and a reserved chauffeur avoids the lot search entirely with a direct curb drop near the pavilion gate."
       },
       {
         "name": "Capital One Arena in Washington",
-        "blurb": "A regular stop for our chauffeurs — we know the loading zone, the entrance and the timing."
+        "blurb": "Chinatown's dense street grid and heavy post-event pedestrian flow make a pre-set meeting corner far more reliable than a curb address right at the arena."
       },
       {
         "name": "The Anthem at the Wharf",
-        "blurb": "A regular stop for our chauffeurs — we know the loading zone, the entrance and the timing."
+        "blurb": "The Wharf's waterfront layout means rideshare and private vehicles use different approach roads, and our chauffeurs know which one avoids the post-show backup."
       },
       {
         "name": "Wolf Trap in Vienna",
-        "blurb": "A regular stop for our chauffeurs — we know the loading zone, the entrance and the timing."
+        "blurb": "The venue's wooded grounds and limited lighting make a named meeting point safer and faster to find than a general lot after a late show."
       }
     ],
     "sections": [
       {
         "h2": "How the day runs",
         "paragraphs": [
-          "The plan follows the pickup from home or hotel, a pre-show dinner stop, curbside drop-off at the venue and a staged pickup at a set meeting point after the encore. Vehicles are staged early, dispatch tracks every leg and changes are handled by text — you never coordinate a driver from the back seat."
+          "The plan follows the pickup from home or hotel, a pre-show dinner stop, curbside drop-off at the venue and a staged pickup at a set meeting point after the encore. Vehicles are staged early, dispatch tracks every leg and changes are handled by text — you never coordinate a driver from the back seat.",
+          "Because a show's actual end time is never exact, we hold the chauffeur nearby rather than scheduling a fixed pickup minute, so an encore or opener running long doesn't leave your group waiting on a car that already left."
         ]
       },
       {
         "h2": "Vehicles for the occasion",
         "paragraphs": [
-          "Mercedes-Benz E-Class and BMW 7 Series sedans for couples and executives; Cadillac Escalade and Chevrolet Suburban SUVs for six with luggage; Mercedes Sprinter vans for 14; stretch limousines for celebrations. Multiple vehicles coordinate under one reservation."
+          "Mercedes-Benz E-Class and BMW 7 Series sedans for couples and executives; Cadillac Escalade and Chevrolet Suburban SUVs for six with luggage; Mercedes Sprinter vans for 14; stretch limousines for celebrations. Multiple vehicles coordinate under one reservation.",
+          "Groups heading to an arena show most often book a Sprinter van so everyone arrives and leaves together, rather than splitting into separate rideshare trips that scatter in the post-show crowd."
+        ]
+      },
+      {
+        "h2": "Booking and Tour Season Timing",
+        "paragraphs": [
+          "Major tour stops at CFG Bank Arena and Capital One Arena sell out vehicles as fast as they sell out tickets, so booking as soon as you have show tickets gives the best shot at the vehicle class you want. Merriweather's full summer season runs weekly, which means less urgency but still benefits from a few days' notice.",
+          "Sedan and SUV bookings cancel free of charge up to 3 hours before pickup; Sprinter vans and limousines require 12 hours. Call (877) 609-1919 with your show date and venue and we'll confirm availability."
         ]
       }
     ],
@@ -7594,40 +7687,49 @@ export const MARYLAND_PAGES = [
     "destinations": [
       {
         "name": "Linganore Winecellars in Mount Airy",
-        "blurb": "A regular stop for our chauffeurs — we know the loading zone, the entrance and the timing."
+        "blurb": "Summer concert weekends bring heavy crowds and a packed gravel lot, so our chauffeurs arrange a specific meeting point with the group rather than the general field."
       },
       {
         "name": "Black Ankle Vineyards",
-        "blurb": "A regular stop for our chauffeurs — we know the loading zone, the entrance and the timing."
+        "blurb": "The tasting room sits well back from the road down a long farm drive, and a chauffeur who's made the trip before saves a first-time guest the uncertainty of the approach."
       },
       {
         "name": "Boordy Vineyards in Hydes",
-        "blurb": "A regular stop for our chauffeurs — we know the loading zone, the entrance and the timing."
+        "blurb": "Boordy's event lawn hosts weddings and concerts alongside tastings, so we confirm which part of the property your group needs before the day."
       },
       {
         "name": "Elk Run Vineyards",
-        "blurb": "A regular stop for our chauffeurs — we know the loading zone, the entrance and the timing."
+        "blurb": "A smaller, less-signed country road approach means a chauffeur with local knowledge of Carroll County arrives without the wrong turns a map app sometimes suggests."
       },
       {
         "name": "Sugarloaf Mountain Vineyard in Dickerson",
-        "blurb": "A regular stop for our chauffeurs — we know the loading zone, the entrance and the timing."
+        "blurb": "The mountain-adjacent setting gets limited cell signal in spots, and our chauffeurs plan the return pickup time with the group in person before losing reception."
       },
       {
         "name": "Old Westminster Winery",
-        "blurb": "A regular stop for our chauffeurs — we know the loading zone, the entrance and the timing."
+        "blurb": "Weekend tasting-room traffic in Westminster's small downtown fills street parking quickly, so a reserved chauffeur skips the search entirely with a direct drop at the door."
       }
     ],
     "sections": [
       {
         "h2": "How the day runs",
         "paragraphs": [
-          "The plan follows a morning pickup, three or four tasting stops, a lunch reservation between vineyards and a relaxed ride home with the cases packed in the back. Vehicles are staged early, dispatch tracks every leg and changes are handled by text — you never coordinate a driver from the back seat."
+          "The plan follows a morning pickup, three or four tasting stops, a lunch reservation between vineyards and a relaxed ride home with the cases packed in the back. Vehicles are staged early, dispatch tracks every leg and changes are handled by text — you never coordinate a driver from the back seat.",
+          "The same chauffeur and vehicle stay with your group all day rather than being rebooked between vineyards, which also means a safe, sober ride home is built into the day from the first pickup rather than arranged as an afterthought."
         ]
       },
       {
         "h2": "Vehicles for the occasion",
         "paragraphs": [
-          "Mercedes-Benz E-Class and BMW 7 Series sedans for couples and executives; Cadillac Escalade and Chevrolet Suburban SUVs for six with luggage; Mercedes Sprinter vans for 14; stretch limousines for celebrations. Multiple vehicles coordinate under one reservation."
+          "Mercedes-Benz E-Class and BMW 7 Series sedans for couples and executives; Cadillac Escalade and Chevrolet Suburban SUVs for six with luggage; Mercedes Sprinter vans for 14; stretch limousines for celebrations. Multiple vehicles coordinate under one reservation.",
+          "An SUV or Sprinter van is the practical choice for a tasting group, since there's always room for a case or two of wine purchased along the way without crowding the back seat."
+        ]
+      },
+      {
+        "h2": "Booking and Seasonal Timing",
+        "paragraphs": [
+          "Harvest and crush season in September and October, along with spring release weekends, are the busiest stretches on the wine trail, and vehicles book out two to four weeks ahead during those windows. A quieter midweek tasting day can often be booked with less notice.",
+          "Hourly bookings run with a reasonable minimum and include unlimited stops within the booked time, so adding a fifth vineyard or an extra lunch stop doesn't require a new reservation. Call (877) 609-1919 to plan the day."
         ]
       }
     ],
@@ -7766,40 +7868,49 @@ export const MARYLAND_PAGES = [
     "destinations": [
       {
         "name": "Philadelphia International Airport's Terminals A through F",
-        "blurb": "A regular stop for our chauffeurs — we know the loading zone, the entrance and the timing."
+        "blurb": "International departures from Terminal A-West benefit most from the extra buffer we build in, since check-in and security lines there run longer than the domestic terminals."
       },
       {
         "name": "Center City and Rittenhouse Square",
-        "blurb": "A regular stop for our chauffeurs — we know the loading zone, the entrance and the timing."
+        "blurb": "Narrow one-way streets and limited hotel loading zones mean our chauffeurs confirm the exact entrance before arrival rather than guessing at a tight block."
       },
       {
         "name": "University City and Penn",
-        "blurb": "A regular stop for our chauffeurs — we know the loading zone, the entrance and the timing."
+        "blurb": "Move-in weekends and commencement fill the campus-adjacent streets, and a chauffeur who knows the area plans around it rather than being caught in it."
       },
       {
         "name": "King of Prussia",
-        "blurb": "A regular stop for our chauffeurs — we know the loading zone, the entrance and the timing."
+        "blurb": "The mall and surrounding office corridor sit off a complex highway interchange, and local knowledge of the exits saves real time over a GPS-only approach."
       },
       {
         "name": "the Navy Yard",
-        "blurb": "A regular stop for our chauffeurs — we know the loading zone, the entrance and the timing."
+        "blurb": "The business park's gated access points differ by employer, so we confirm the correct gate with corporate clients before the trip rather than at the curb."
       },
       {
         "name": "Wilmington and Newark, Delaware",
-        "blurb": "A regular stop for our chauffeurs — we know the loading zone, the entrance and the timing."
+        "blurb": "I-95 through Wilmington carries heavy commercial traffic at most hours, and our chauffeurs build that into the schedule for a PHL-bound trip starting in Delaware."
       }
     ],
     "sections": [
       {
         "h2": "How the day runs",
         "paragraphs": [
-          "The plan follows pre-dawn pickups for international departures, the I-95 run to Terminal A-West, meet and greet in the PHL baggage hall and same-day returns to Maryland. Vehicles are staged early, dispatch tracks every leg and changes are handled by text — you never coordinate a driver from the back seat."
+          "The plan follows pre-dawn pickups for international departures, the I-95 run to Terminal A-West, meet and greet in the PHL baggage hall and same-day returns to Maryland. Vehicles are staged early, dispatch tracks every leg and changes are handled by text — you never coordinate a driver from the back seat.",
+          "Return trips from PHL back into Maryland and Delaware are tracked the same way outbound departures are: your flight number is monitored in real time, so a delayed arrival doesn't leave you waiting curbside for a car that left on the original schedule."
         ]
       },
       {
         "h2": "Vehicles for the occasion",
         "paragraphs": [
-          "Mercedes-Benz E-Class and BMW 7 Series sedans for couples and executives; Cadillac Escalade and Chevrolet Suburban SUVs for six with luggage; Mercedes Sprinter vans for 14; stretch limousines for celebrations. Multiple vehicles coordinate under one reservation."
+          "Mercedes-Benz E-Class and BMW 7 Series sedans for couples and executives; Cadillac Escalade and Chevrolet Suburban SUVs for six with luggage; Mercedes Sprinter vans for 14; stretch limousines for celebrations. Multiple vehicles coordinate under one reservation.",
+          "Business travelers heading to a PHL red-eye most often choose a sedan for a quiet, direct run, while families and student move-in trips lean toward an SUV or Sprinter van for the extra luggage room."
+        ]
+      },
+      {
+        "h2": "Why the I-95 Corridor Needs a Planned Pickup",
+        "paragraphs": [
+          "The roughly two-hour run up I-95 from Baltimore to PHL passes through the Delaware Memorial Bridge approach and the Chester, Pennsylvania stretch, both common slowdown points on weekday mornings. A chauffeur who drives this corridor regularly knows which of the two is acting up on a given day and adjusts the departure time accordingly rather than quoting a flat two hours regardless of conditions.",
+          "For an early-morning international departure, we recommend a pickup time built backward from the airline's check-in guidance plus the I-95 buffer, not from the drive time alone. Sedan and SUV bookings cancel free of charge up to 3 hours before pickup, and Sprinter van and limousine bookings up to 12 hours — call (877) 609-1919 to confirm a reservation at any hour."
         ]
       }
     ],
@@ -11406,6 +11517,7 @@ export const MARYLAND_PAGES = [
   ...MARYLAND_BATCH4,
   ...MARYLAND_BATCH5,
   ...MARYLAND_BATCH6,
+  ...MARYLAND_BATCH7,
 ];
 
 // Every page carries five FAQs (visible block + FAQPage schema).

@@ -90,6 +90,8 @@ export const GUIDES = [
       { label: "MSY Airport Transportation Guide", to: "/airport-transportation-guide" },
       { label: "Corporate Car Service vs. Rideshare", to: "/corporate-car-service-vs-rideshare" },
       { label: "French Quarter Transportation Guide", to: "/french-quarter-transportation-guide" },
+      { label: "First Time in New Orleans Guide", to: "/first-time-new-orleans-visitor-guide" },
+      { label: "Avoiding Transportation Scams in New Orleans", to: "/avoiding-transportation-scams-new-orleans" },
       { label: "Airport Transportation Service", to: "/services/airport-transportation" },
       { label: "MSY to Baton Rouge", to: "/msy-to-baton-rouge" },
       { label: "Our Fleet", to: "/fleet" },
@@ -273,6 +275,7 @@ export const GUIDES = [
       { label: "Northshore Transportation Guide", to: "/new-orleans-northshore-transportation-guide" },
       { label: "Best Car Service From MSY: How to Choose", to: "/best-car-service-louis-armstrong-new-orleans-airport" },
       { label: "How Early Should You Book MSY Transportation?", to: "/how-far-ahead-to-book-msy-car-service" },
+      { label: "Park and Fly vs. Car Service for Residents", to: "/park-and-fly-vs-car-service-new-orleans-residents" },
       { label: "Airport Transportation Service", to: "/services/airport-transportation" },
       { label: "MSY to French Quarter", to: "/msy-to-french-quarter" },
       { label: "Cruise Transportation", to: "/services/cruise-transportation" },
@@ -369,6 +372,7 @@ export const GUIDES = [
       { label: "Corporate Transportation", to: "/services/corporate-transportation" },
       { label: "Hourly Charter", to: "/services/hourly-charter" },
       { label: "New Orleans Corporate Travel Guide", to: "/blog/new-orleans-corporate-travel-guide" },
+      { label: "Hollywood South Film Production Transportation", to: "/hollywood-south-film-production-transportation" },
       { label: "MSY to Downtown New Orleans", to: "/msy-to-new-orleans-downtown" },
       { label: "Book a Ride", to: "/booking" },
     ],
@@ -454,6 +458,8 @@ export const GUIDES = [
       { label: "MSY Airport Transportation Guide", to: "/airport-transportation-guide" },
       { label: "Uber vs. Limo Service", to: "/uber-vs-limo-service" },
       { label: "French Quarter Event Transportation for Planners", to: "/french-quarter-private-event-transportation" },
+      { label: "Southern Decadence Transportation Guide", to: "/southern-decadence-transportation-guide" },
+      { label: "First Time in New Orleans Guide", to: "/first-time-new-orleans-visitor-guide" },
       { label: "MSY to French Quarter", to: "/msy-to-french-quarter" },
       { label: "House of Blues Transportation", to: "/house-of-blues-new-orleans-transportation" },
       { label: "Hourly Charter", to: "/services/hourly-charter" },
@@ -1046,6 +1052,295 @@ export const GUIDES = [
       { label: "Saints Game Day Service", to: "/services/saints-game-day" },
       { label: "Smoothie King Center Transportation", to: "/smoothie-king-center-transportation" },
       { label: "Airport Transportation", to: "/services/airport-transportation" },
+      { label: "Our Fleet", to: "/fleet" },
+      { label: "Book a Ride", to: "/booking" },
+    ],
+  },
+  {
+    slug: "first-time-new-orleans-visitor-guide",
+    title: "First Time in New Orleans: A Visitor's Guide to Getting Around",
+    metaTitle: "First Time in New Orleans? A Visitor's Transportation Guide",
+    metaDescription:
+      "New to New Orleans? A first-timer's guide to the neighborhoods, how people actually get around, when to walk versus ride, and what to book before you land.",
+    category: "Guides",
+    author: "MSY Limo Team",
+    date: "October 17, 2026",
+    readTime: "7 min read",
+    excerpt:
+      "New Orleans rewards a little orientation before you land. Here's the city laid out plainly for a first-time visitor — the neighborhoods, the walking rules, and what's worth reserving in advance.",
+    image: "/images/blog/landmark-nola-2.webp",
+    content: `
+      <p>New Orleans doesn't work quite like most American cities, and a first-time visitor who arrives without a mental map tends to lose a day figuring out what the locals already know. This guide is the orientation: how the city is laid out, how people actually move through it, and what decisions are worth making before you land rather than after.</p>
+
+      <h2>The City Isn't on a Grid, and Locals Use River Directions</h2>
+      <p>New Orleans sits inside a bend of the Mississippi River, which means "north" and "south" are not how anyone here gives directions. Locals say "uptown" (upriver), "downtown" (downriver), "riverside" and "lakeside" (toward Lake Pontchartrain). It takes a day to adjust, and a chauffeur or a rideshare driver will understand you either way, but knowing the vocabulary helps when a hotel concierge or a local tells you which way to walk.</p>
+
+      <h2>The Neighborhoods, Briefly</h2>
+      <p>The <strong>French Quarter</strong> is the oldest neighborhood and the one most visitors picture: narrow colonial streets, Bourbon Street's nightlife, and Jackson Square. It's extremely walkable and mostly closed to easy vehicle access on its busiest blocks — see our <a href="/french-quarter-transportation-guide">French Quarter transportation guide</a> for the specifics. The <strong>Central Business District (CBD)</strong> and <strong>Warehouse District</strong> sit just upriver, home to most convention hotels, the Ernest N. Morial Convention Center and the National WWII Museum. Further upriver, the <strong>Garden District</strong> and <strong>Uptown</strong> hold the mansion-lined streets along St. Charles Avenue, Audubon Park and Tulane and Loyola — our <a href="/garden-district-uptown-transportation-guide">Garden District and Uptown guide</a> covers that stretch in detail. Downriver from the Quarter, the <strong>Marigny and Bywater</strong> hold Frenchmen Street's live music clubs and a quieter, more residential feel.</p>
+
+      <h2>When to Walk, When to Ride</h2>
+      <p>Inside the French Quarter, the CBD and the Warehouse District, walking is usually the fastest and most pleasant option — these neighborhoods are compact, flat and full of things worth seeing along the way. The historic St. Charles Avenue streetcar is a scenic, inexpensive way to get between downtown and Uptown, though it's slow and not built for a tight schedule. For anything with a deadline — an airport departure, a dinner reservation, a wedding, a show start time — or for moving between neighborhoods that aren't an easy walk, a reserved car or rideshare is the better call. Our <a href="/uber-vs-limo-service">Uber vs. limo service guide</a> breaks down exactly which kind of trip calls for which option.</p>
+
+      <h2>Most Visitors Don't Need a Rental Car</h2>
+      <p>If your trip stays mostly within the Quarter, downtown and Uptown, a rental car is often more burden than benefit: parking is scarce and often costly at hotels, many streets are narrow and one-way, and the places you'll actually want to go are walkable or a short ride away. A rental starts to make sense only if you're planning day trips to plantation country, the Northshore or further afield — see our <a href="/new-orleans-northshore-transportation-guide">Northshore transportation guide</a> for an example of that kind of trip.</p>
+
+      <h2>Book the Airport Transfer Before You Land</h2>
+      <p>Louis Armstrong New Orleans International Airport (MSY) sits in Kenner, about 30 minutes from downtown in light traffic. For a first visit, arriving to find a chauffeur already tracking your flight and waiting with your name removes one layer of unfamiliar-city stress at exactly the moment you have the least patience for it. Our <a href="/airport-transportation-guide">MSY airport transportation guide</a> walks through every ground transportation option if you'd rather compare them yourself.</p>
+
+      <h2>What Changes During Major Events</h2>
+      <p>New Orleans hosts Mardi Gras, Jazz Fest, French Quarter Fest, Essence Festival and Saints game days, and any one of them can reroute an entire part of the city with little warning. If your visit overlaps with a major event, build extra time into every plan involving a deadline, and consider reserving transportation for at least your airport runs rather than hoping a rideshare is nearby when the parade ends.</p>
+
+      <h2>A Few Practical Notes for First-Timers</h2>
+      <ul>
+        <li><strong>Hurricanes season runs June through November.</strong> It rarely disrupts a trip, but it's worth a glance at the forecast before you fly, especially late summer and early fall.</li>
+        <li><strong>Afternoon thunderstorms are routine in summer.</strong> They tend to pass quickly, but they can affect an outdoor plan or a pickup time.</li>
+        <li><strong>Tipping and cash for street performers and local culture</strong> are part of daily life here — carrying some small bills helps.</li>
+        <li><strong>The city is genuinely walkable, but streets can be uneven.</strong> Comfortable shoes matter more here than in most American tourist destinations.</li>
+      </ul>
+
+      <h2>Getting Started</h2>
+      <p>Book your airport transfer online or call <a href="tel:+18776091919">(877) 609-1919</a> — we can also help you think through the rest of your itinerary if you tell us roughly what you're planning to see.</p>
+    `,
+    faqs: [
+      { q: "Do I need a rental car for a first visit to New Orleans?", a: "Most first-time visitors don't, especially if your trip stays within the French Quarter, downtown and Uptown. Those areas are walkable or a short ride apart, and parking is scarce and often costly. A rental makes more sense for day trips to plantation country or the Northshore." },
+      { q: "How do New Orleans neighborhoods relate to each other?", a: "The French Quarter is the oldest and most central. The CBD and Warehouse District sit just upriver with most convention hotels. Further upriver are the Garden District and Uptown. Downriver from the Quarter are the Marigny and Bywater." },
+      { q: "Is New Orleans safe to walk around as a first-time visitor?", a: "The well-traveled parts of the French Quarter, CBD and Garden District are generally fine during the day and in busy evening hours. Use the same common sense you would in any city at night — stick to well-lit, populated streets and consider a reserved ride for late returns." },
+      { q: "Should I book an airport transfer in advance for my first trip?", a: "Yes, it removes one source of stress on an unfamiliar-city arrival. A flight-tracked, flat-rate pickup means someone is already waiting with your name rather than you navigating rideshare pickup logistics for the first time." },
+      { q: "What should I know about visiting during a major event like Mardi Gras or Jazz Fest?", a: "Street closures and crowding can affect any plan with a deadline. Build in extra time, and consider reserving at least your airport transfers in advance since vehicle availability tightens significantly during these windows." },
+    ],
+    relatedLinks: [
+      { label: "French Quarter Transportation Guide", to: "/french-quarter-transportation-guide" },
+      { label: "Garden District & Uptown Guide", to: "/garden-district-uptown-transportation-guide" },
+      { label: "MSY Airport Transportation Guide", to: "/airport-transportation-guide" },
+      { label: "Uber vs. Limo Service", to: "/uber-vs-limo-service" },
+      { label: "Why Hire a Chauffeur", to: "/why-hire-a-chauffeur" },
+      { label: "Northshore Transportation Guide", to: "/new-orleans-northshore-transportation-guide" },
+      { label: "Airport Transportation Service", to: "/services/airport-transportation" },
+      { label: "Book a Ride", to: "/booking" },
+    ],
+  },
+  {
+    slug: "southern-decadence-transportation-guide",
+    title: "Southern Decadence Weekend Transportation Guide",
+    metaTitle: "Southern Decadence Transportation Guide | French Quarter",
+    metaDescription:
+      "Getting around New Orleans during Southern Decadence — French Quarter closures, parade timing, hotel pickups and booking ahead. Call (877) 609-1919.",
+    category: "Events",
+    author: "MSY Limo Team",
+    date: "October 17, 2026",
+    readTime: "6 min read",
+    excerpt:
+      "Southern Decadence fills the French Quarter every Labor Day weekend. Here's how the crowds, the parade and the closures affect getting around, and what to book ahead.",
+    image: "/images/blog/landmark-nola-streetcar-2.webp",
+    content: `
+      <p>Southern Decadence is one of the largest annual gatherings in the French Quarter, drawing a huge LGBTQ+ crowd to New Orleans every Labor Day weekend for five days of parties, drag performances and a Sunday parade that winds through the Quarter's narrow streets. For visitors who haven't experienced it, the scale can be a surprise — this guide covers how it changes getting around and what's worth reserving ahead of time.</p>
+
+      <h2>What Southern Decadence Actually Is</h2>
+      <p>What began decades ago as a small going-away party has grown into one of the city's biggest annual events, filling French Quarter hotels, bars and guesthouses from Wednesday through Labor Day. The weekend builds toward the Southern Decadence Parade on Sunday afternoon, an unofficial but massive procession through the Quarter that draws crowds comparable to a Mardi Gras parade day in that part of the city.</p>
+
+      <h2>The Parade Changes Quarter Access for the Day</h2>
+      <p>On parade Sunday, the route and the crowds following it make much of the interior French Quarter effectively closed to vehicles for several hours. The exact route varies year to year and is typically announced only in the days before, so we check the current path and timing before confirming any pickup on that date rather than relying on a previous year's route. Our general <a href="/french-quarter-transportation-guide">French Quarter transportation guide</a> covers the neighborhood's everyday one-way streets and pedestrian zones, which are compounded further on parade day.</p>
+
+      <h2>Hotel Pickups During the Weekend</h2>
+      <p>French Quarter hotels see their busiest check-in and check-out stretch of the late-summer calendar during Southern Decadence, and loading zones that are already tight on an ordinary day get busier still. We confirm your hotel's exact entrance and the nearest workable meeting point before your trip, particularly for a property on a block affected by parade-day closures.</p>
+
+      <h2>Airport Arrivals Timed to the Weekend</h2>
+      <p>Most Southern Decadence visitors fly into MSY on Wednesday or Thursday ahead of the weekend's main events, which also happens to be before the heaviest crowds build downtown. A flight-tracked, flat-rate pickup from MSY removes the one variable that's otherwise hardest to plan around on a first visit to a Quarter this busy — our <a href="/airport-transportation-guide">MSY airport transportation guide</a> covers every ground transportation option if you want the full comparison.</p>
+
+      <h2>Late Nights and Getting Back to Your Hotel</h2>
+      <p>Southern Decadence runs late every night of the weekend, and the same general rules that apply to any big French Quarter night apply here with extra force: meet your ride on a perimeter street rather than expecting a car at a pedestrian-only block, and expect rideshare pricing to reflect the weekend's demand. A reserved vehicle with a set pickup time and place removes the end-of-night uncertainty, especially for a group that wants to leave together.</p>
+
+      <h2>Group Bookings for the Weekend</h2>
+      <p>Many Southern Decadence visitors travel in groups and book out a stretch of the weekend rather than a single ride — hourly, as-directed service covers multiple stops across a single night without re-booking between each one, and a Sprinter van keeps a larger group together rather than splitting across several rideshare trips during the weekend's highest-demand hours.</p>
+
+      <h2>Book Early</h2>
+      <p>Southern Decadence is one of the busiest late-summer weekends for vehicle availability in the Quarter, alongside Essence Festival and the lead-up to Mardi Gras season. We recommend reserving your airport transfer and any planned weekend transportation as soon as your travel dates are confirmed rather than waiting until the week of the event.</p>
+
+      <h2>Reserve Your Southern Decadence Transportation</h2>
+      <p>Call <a href="tel:+18776091919">(877) 609-1919</a> or <a href="/booking">book online</a> with your flight details and weekend plans, and we'll build the schedule around the parade route and your hotel's exact location.</p>
+    `,
+    faqs: [
+      { q: "When is Southern Decadence and how long does it run?", a: "It's held every Labor Day weekend, running from Wednesday through Labor Day, with the main parade on Sunday afternoon through the French Quarter." },
+      { q: "Does the Southern Decadence parade close French Quarter streets?", a: "Yes. The parade route and the crowds following it effectively close much of the interior Quarter to vehicles for several hours on Sunday. We check the current route before confirming any pickup that day." },
+      { q: "Can you pick me up at my French Quarter hotel during Southern Decadence?", a: "Usually yes, though it depends on the block and the day. We confirm the nearest workable meeting point for your specific hotel and date before the trip." },
+      { q: "How far ahead should I book transportation for the weekend?", a: "As soon as your travel dates are confirmed. Southern Decadence is one of the busiest late-summer weekends for vehicle availability in the Quarter." },
+      { q: "Can you handle a group for the whole weekend?", a: "Yes. Hourly, as-directed service covers multiple stops across a night, and Sprinter vans keep larger groups together rather than splitting across separate rideshare trips." },
+    ],
+    relatedLinks: [
+      { label: "French Quarter Transportation Guide", to: "/french-quarter-transportation-guide" },
+      { label: "French Quarter Event Transportation for Planners", to: "/french-quarter-private-event-transportation" },
+      { label: "MSY Airport Transportation Guide", to: "/airport-transportation-guide" },
+      { label: "Uber vs. Limo Service", to: "/uber-vs-limo-service" },
+      { label: "French Quarter Limo Service", to: "/french-quarter-limo-service" },
+      { label: "Hourly Charter", to: "/services/hourly-charter" },
+      { label: "Special Events", to: "/services/special-events" },
+      { label: "Book a Ride", to: "/booking" },
+    ],
+  },
+  {
+    slug: "avoiding-transportation-scams-new-orleans",
+    title: "Avoiding Unlicensed Cabs and Transportation Scams in New Orleans: A Visitor Safety Guide",
+    metaTitle: "Avoiding Taxi & Transportation Scams in New Orleans",
+    metaDescription:
+      "How to spot an unlicensed cab, avoid overcharging and verify a legitimate car service in New Orleans — what to check before you get in. Call (877) 609-1919.",
+    category: "Safety",
+    author: "MSY Limo Team",
+    date: "October 17, 2026",
+    readTime: "6 min read",
+    excerpt:
+      "Most rides in New Orleans are completely ordinary. A small minority aren't — here's how to tell a licensed car from an unlicensed one, and what to check before you get in anywhere.",
+    image: "/images/blog/scenario-doorman.webp",
+    content: `
+      <p>Every major tourist city has a small number of unlicensed drivers and overpriced operators working its airport and its busiest nightlife blocks, and New Orleans is no exception. The overwhelming majority of rides here — taxis, rideshare, pedicabs, horse-drawn carriages and chauffeured cars alike — are completely ordinary and safe. This guide is about the small minority that aren't, and the simple checks that protect you from them.</p>
+
+      <h2>Licensed Taxis vs. Unlicensed Operators</h2>
+      <p>Licensed New Orleans taxis display a visible permit and operate from staffed stands at the airport and recognized taxi lines downtown. An unlicensed operator — sometimes called a "gypsy cab" in other cities — typically approaches you directly rather than waiting in a regulated line, especially near the airport arrivals curb or outside busy French Quarter venues late at night. The simplest rule: a legitimate taxi doesn't need to solicit you. If a driver approaches you first and offers a ride before you've asked for one, treat that as a reason to decline, not a convenience.</p>
+
+      <h2>Confirm the Fare Before You Get In</h2>
+      <p>Legitimate taxis and car services quote or meter a fare you can verify. If a driver won't give you a clear number before the ride starts, or quotes a number that sounds unusually high for the distance, ask again or walk away. Our <a href="/airport-transportation-guide">MSY airport transportation guide</a> explains the full range of legitimate ground transportation options at the airport, including where the staffed taxi stand is located.</p>
+
+      <h2>Rideshare: Match the App, Not the Curb</h2>
+      <p>Rideshare scams usually work by a driver flagging down a waiting passenger and claiming to be their Uber or Lyft before the actual assigned driver arrives. Always verify the license plate, car model and driver name shown in the app match the vehicle in front of you before getting in — never accept a ride from someone simply because they say your name or claim to be your driver.</p>
+
+      <h2>Verifying a Chauffeured Car Service</h2>
+      <p>A legitimate chauffeured car service in Louisiana operates under a Louisiana Public Service Commission permit, which should be available on request, and should confirm your reservation details, vehicle class and chauffeur before arrival — not negotiate a fare at the curb. MSY Limo Service operates under Maryland PSC Carrier No. 6325 for our Maryland fleet and holds the appropriate Louisiana authority for our New Orleans operations, with every chauffeur licensed and background-checked. If a company can't produce clear licensing information when asked, that's worth treating as a red flag.</p>
+
+      <h2>Pedicabs, Carriages and Street Performers</h2>
+      <p>Pedicab and horse-drawn carriage rates in New Orleans should be agreed before the ride starts, not afterward — the same rule as any other transportation. A small number of operators try to renegotiate the price at the destination; agreeing on a number up front, in writing or verbally with a witness present, avoids that entirely.</p>
+
+      <h2>What to Do If You're Overcharged or Feel Unsafe</h2>
+      <p>If a driver demands more than the agreed fare, you have the right to ask for a receipt and the driver's permit number, and to report the incident to the city's Department of Safety and Permits or the ridesharing platform directly. If you ever feel unsafe in a vehicle, ask to be let out at the nearest well-lit, populated location rather than waiting until your original destination.</p>
+
+      <h2>The Simplest Protection: Book Ahead</h2>
+      <p>The easiest way to avoid nearly all of this is to reserve your transportation before you need it rather than negotiating with whoever approaches you at the curb. A flat rate confirmed at booking, a named chauffeur and a dispatch team you can call at any hour removes the uncertainty entirely — our <a href="/uber-vs-limo-service">Uber vs. limo service guide</a> can help you decide which kind of reserved trip fits a given leg of your visit.</p>
+
+      <h2>Book With Confidence</h2>
+      <p>Reserve online or call <a href="tel:+18776091919">(877) 609-1919</a> any hour. Your rate is confirmed before you ride, and dispatch can verify your chauffeur's name and vehicle in advance.</p>
+    `,
+    faqs: [
+      { q: "How do I know if a New Orleans taxi is licensed?", a: "Licensed taxis display a visible permit and typically operate from staffed stands at the airport or recognized taxi lines. An unlicensed driver often approaches you directly offering a ride before you've asked, which is a sign to decline." },
+      { q: "What should I do if a stranger says they're my Uber or Lyft driver?", a: "Always verify the license plate, car model and driver name shown in the app before getting in. Never get into a car just because the driver says your name or claims to be your rideshare." },
+      { q: "How can I verify a chauffeured car service is legitimate?", a: "A legitimate service operates under the appropriate state transportation authority, should confirm your reservation and vehicle details before arrival, and should be able to provide licensing information on request. Avoid any service that negotiates a fare at the curb rather than confirming one in advance." },
+      { q: "What if a driver tries to charge more than the agreed fare?", a: "You can ask for a receipt and the driver's permit number, and report the incident to the city's Department of Safety and Permits or to the rideshare platform. You are not obligated to pay more than what was agreed." },
+      { q: "Is New Orleans transportation generally safe for visitors?", a: "Yes — the overwhelming majority of taxis, rideshare, pedicabs and chauffeured services in New Orleans are completely ordinary and safe. A small number of bad actors exist, as in any major tourist city, and basic verification steps protect you from nearly all of them." },
+    ],
+    relatedLinks: [
+      { label: "MSY Airport Transportation Guide", to: "/airport-transportation-guide" },
+      { label: "Uber vs. Limo Service", to: "/uber-vs-limo-service" },
+      { label: "Why Hire a Chauffeur", to: "/why-hire-a-chauffeur" },
+      { label: "First Time in New Orleans Guide", to: "/first-time-new-orleans-visitor-guide" },
+      { label: "French Quarter Transportation Guide", to: "/french-quarter-transportation-guide" },
+      { label: "Airport Transportation Service", to: "/services/airport-transportation" },
+      { label: "About MSY Limo Service", to: "/about" },
+      { label: "Book a Ride", to: "/booking" },
+    ],
+  },
+  {
+    slug: "hollywood-south-film-production-transportation",
+    title: "Hollywood South: Film and TV Production Transportation in New Orleans",
+    metaTitle: "Film & TV Production Transportation in New Orleans",
+    metaDescription:
+      "Production transportation for film and TV shoots in New Orleans — cast and crew pickups, set moves, production office runs. Call (877) 609-1919.",
+    category: "Corporate Travel",
+    author: "MSY Limo Team",
+    date: "October 17, 2026",
+    readTime: "6 min read",
+    excerpt:
+      "New Orleans has been a major film and television production hub for over a decade. Here's what production transportation actually looks like here — crew calls, cast moves and set logistics.",
+    image: "/images/blog/fleet-sprinter-2.webp",
+    content: `
+      <p>Louisiana's film tax incentive program turned New Orleans into one of the busiest production markets in the country, earning the city its "Hollywood South" nickname well over a decade ago. Soundstages, practical locations across the French Quarter and Garden District, and a deep local crew base keep multiple productions running here most of the year. This guide covers what production transportation actually involves, for anyone coordinating cast, crew or a production office for a New Orleans shoot.</p>
+
+      <h2>Cast Pickups: Discretion First</h2>
+      <p>Transporting cast members — whether a lead actor arriving for a multi-week shoot or a visiting guest star for a single episode — runs on a different standard than a typical executive transfer. Discretion is the baseline expectation: chauffeurs are briefed not to discuss who they're transporting, routes avoid obvious paparazzi choke points when a production requests it, and arrival timing is coordinated directly with a production assistant or coordinator rather than a general airport pickup. See <a href="/why-hire-a-chauffeur">why hire a chauffeur</a> for more on the vetting and discretion a professional chauffeur brings to any sensitive trip.</p>
+
+      <h2>Crew Calls and the Daily Shuttle Pattern</h2>
+      <p>A production's daily schedule revolves around "crew call" — the time everyone needs to be on set — and early calls before sunrise are routine. Sprinter vans running scheduled shuttle loops between crew hotels, the production office and the set are the standard solution for moving department heads and key crew efficiently without everyone driving and parking separately near a tight location. We coordinate directly with a production's transportation coordinator or line producer on the call sheet's pickup times and locations, which can shift day to day as the shooting schedule changes.</p>
+
+      <h2>Location Moves and Set Logistics</h2>
+      <p>New Orleans location shoots happen everywhere from French Quarter courtyards to Garden District mansions to Westbank soundstages, and each location brings its own access constraints — narrow streets, limited parking for production vehicles, and residential neighborhoods where a large footprint needs to stay contained. A chauffeur working a multi-location shoot day needs the same local street knowledge described in our <a href="/french-quarter-transportation-guide">French Quarter transportation guide</a> and <a href="/garden-district-uptown-transportation-guide">Garden District and Uptown guide</a>, applied to a schedule that can change with little notice when a scene runs long.</p>
+
+      <h2>Production Office and Visiting Executive Runs</h2>
+      <p>Beyond the set itself, production offices regularly need transportation for visiting studio or network executives, casting directors flying in for a specific session, and location scouts touring potential sites across the city and the River Parishes. These trips function much like standard corporate transportation — see our <a href="/corporate-car-service-vs-rideshare">corporate car service vs. rideshare guide</a> — but with the added need for flexibility, since a scouting day's itinerary often changes as locations are added or dropped in real time.</p>
+
+      <h2>Airport Coordination for Out-of-Town Talent and Crew</h2>
+      <p>Many productions fly cast, key crew and visiting executives through MSY, often on a tight turnaround between projects. Flight tracking and flexible meet-and-greet service matter here more than usual, since a production's call sheet doesn't move just because someone's flight does — our <a href="/airport-transportation-guide">MSY airport transportation guide</a> covers the ground transportation landscape at the airport in more detail.</p>
+
+      <h2>Billing and Production Accounts</h2>
+      <p>Productions typically run under a studio or production company account with consolidated invoicing tied to a specific project code, which simplifies accounting across a shoot that might run weeks or months. We set up production accounts the same way we handle any corporate account, with a single point of contact for day-of schedule changes rather than individual crew members booking separately.</p>
+
+      <h2>Setting Up Production Transportation</h2>
+      <p>Call <a href="tel:+18776091919">(877) 609-1919</a> or use our <a href="/contact">contact page</a> to discuss a production's transportation needs — crew call patterns, cast discretion requirements, location logistics and billing can all be set up in one conversation with your production coordinator.</p>
+    `,
+    faqs: [
+      { q: "Do you provide discreet transportation for cast and crew?", a: "Yes. Chauffeurs working production bookings are briefed on discretion requirements, and routes and pickup timing are coordinated directly with a production coordinator rather than a general reservation." },
+      { q: "Can you run scheduled crew shuttles for an early call time?", a: "Yes. Sprinter vans running scheduled loops between crew hotels, the production office and the set are our standard solution for daily crew calls, and pickup times adjust as the call sheet changes." },
+      { q: "Do you work with productions shooting at multiple locations in one day?", a: "Yes. Our chauffeurs plan around the access constraints of French Quarter, Garden District and other New Orleans filming locations, and we build in flexibility for schedule changes during the shoot day." },
+      { q: "Can a production set up a billing account?", a: "Yes. We set up production accounts similarly to corporate accounts, with consolidated invoicing tied to a project code and one point of contact for schedule changes." },
+      { q: "Do you handle airport pickups for visiting cast or executives?", a: "Yes. We track flights in real time and offer flexible meet-and-greet service, which matters for productions coordinating tight turnarounds between a flight and a call time." },
+    ],
+    relatedLinks: [
+      { label: "Corporate Car Service vs. Rideshare", to: "/corporate-car-service-vs-rideshare" },
+      { label: "Why Hire a Chauffeur", to: "/why-hire-a-chauffeur" },
+      { label: "French Quarter Transportation Guide", to: "/french-quarter-transportation-guide" },
+      { label: "Garden District & Uptown Guide", to: "/garden-district-uptown-transportation-guide" },
+      { label: "MSY Airport Transportation Guide", to: "/airport-transportation-guide" },
+      { label: "Corporate Transportation", to: "/services/corporate-transportation" },
+      { label: "Our Fleet", to: "/fleet" },
+      { label: "Book a Ride", to: "/booking" },
+    ],
+  },
+  {
+    slug: "park-and-fly-vs-car-service-new-orleans-residents",
+    title: "Park and Fly vs. Car Service: A Cost and Hassle Guide for New Orleans Residents Who Travel Often",
+    metaTitle: "Park and Fly vs. Car Service for Frequent New Orleans Flyers",
+    metaDescription:
+      "For New Orleans-area residents who fly often: the real cost of MSY parking versus a reserved car service, broken down trip by trip. Call (877) 609-1919.",
+    category: "Comparisons",
+    author: "MSY Limo Team",
+    date: "October 17, 2026",
+    readTime: "6 min read",
+    excerpt:
+      "Most of our airport-transportation content is written for visitors. This one is for locals: if you fly out of MSY often, here's an honest comparison between parking your own car and booking a car service.",
+    image: "/images/blog/airport-terminal-glass.webp",
+    content: `
+      <p>Nearly everything we publish about MSY ground transportation is aimed at visitors landing in New Orleans. This guide is for the other side of that trip: residents of New Orleans, Metairie, the Northshore and the River Parishes who fly out of MSY regularly for work or personal travel, and who default to parking their own car at the airport without ever running the actual numbers against a reserved car service.</p>
+
+      <h2>What Airport Parking Actually Costs</h2>
+      <p>MSY offers parking garages close to the terminal and lower-cost economy lots served by shuttle, with daily rates that add up fast on anything longer than a short trip. A four- or five-day business trip in economy parking, or a week-long vacation in a garage, can run into real money — and that's before accounting for the shuttle wait on both ends, which adds time to a trip you're usually trying to make as fast as possible. Our <a href="/airport-transportation-guide">MSY airport transportation guide</a> covers the full range of ground transportation options at the airport if you want the complete picture.</p>
+
+      <h2>The Hidden Costs of Parking Your Own Car</h2>
+      <p>Beyond the daily rate, parking your own car at the airport carries costs that don't show up on the receipt: the wear of leaving a car sitting in a hot or humid garage for a week, the small but real risk of a dead battery or a break-in in an economy lot, and the time cost of the shuttle ride at both ends of a trip when you're already tired from travel. None of these are disasters, but they add friction to a trip a car service simply removes.</p>
+
+      <h2>Running the Comparison, Trip by Trip</h2>
+      <p>For a quick one- or two-day trip, airport parking is often the cheaper and simpler option, especially if your schedule is flexible and you're comfortable with the shuttle. The math shifts for longer trips: once you're comparing several days of a parking rate against a single flat-rate round trip with a chauffeur, a reserved car service frequently comes out ahead on pure cost, and it reliably comes out ahead on convenience — no shuttle, no walk from a remote lot, and a car waiting at the curb on your return with your flight already tracked.</p>
+
+      <h2>Standing Arrangements for Frequent Flyers</h2>
+      <p>If you fly out of MSY regularly for work, a standing arrangement with the same car service removes the decision entirely from each individual trip. Many of our corporate and frequent-traveler clients set up a recurring booking tied to their flight schedule rather than re-evaluating the parking-versus-car-service math every time — see our <a href="/corporate-car-service-vs-rideshare">corporate car service vs. rideshare guide</a> for how that works for business travelers specifically.</p>
+
+      <h2>When Parking Still Makes Sense</h2>
+      <p>If you're flying somewhere and need your car immediately upon return — heading straight from the airport to an appointment on the other side of town with your own vehicle, for instance — parking has an advantage a car service can't fully replace. The same is true if your trip is short enough that the parking cost barely registers. This isn't an argument that parking is always the wrong choice; it's an argument for actually running the comparison instead of defaulting to one option out of habit.</p>
+
+      <h2>What a Reserved Pickup Looks Like on Return</h2>
+      <p>On your return flight, your chauffeur tracks the flight number in real time, so a delay doesn't leave you standing at the curb waiting for a ride you booked for the original arrival time. Airport pickups include 45 minutes of complimentary wait time on domestic arrivals and 60 minutes on international, which covers the walk from the gate and baggage claim without you watching the clock.</p>
+
+      <h2>Try It for Your Next Trip</h2>
+      <p>If you've never run the numbers on your own travel pattern, book a single round trip and compare it honestly against what you'd have spent on parking. Call <a href="tel:+18776091919">(877) 609-1919</a> or <a href="/booking">book online</a>, and ask about a standing arrangement if you like what you find.</p>
+    `,
+    faqs: [
+      { q: "Is a car service actually cheaper than airport parking?", a: "It depends on trip length. For a quick one- or two-day trip, parking is often cheaper. For longer trips, the daily parking rate adds up fast, and a flat-rate round trip with a chauffeur frequently costs about the same or less while adding real convenience." },
+      { q: "What hidden costs come with parking at MSY?", a: "Shuttle wait time at both ends of your trip, the wear of leaving a car in a hot garage or lot for days, and a small risk of battery or security issues in a remote lot — none individually large, but they add up." },
+      { q: "Can I set up a standing car service arrangement if I fly often?", a: "Yes. Many frequent-traveler and corporate clients set up a recurring booking tied to their flight schedule rather than booking fresh each time." },
+      { q: "What happens if my return flight is delayed?", a: "Your chauffeur tracks your flight number in real time and adjusts the pickup automatically, with 45 minutes of complimentary wait time on domestic arrivals and 60 minutes on international." },
+      { q: "When does parking my own car still make more sense?", a: "When you need your car immediately after landing for something besides going home, or when the trip is short enough that the parking cost is minimal either way." },
+    ],
+    relatedLinks: [
+      { label: "MSY Airport Transportation Guide", to: "/airport-transportation-guide" },
+      { label: "Corporate Car Service vs. Rideshare", to: "/corporate-car-service-vs-rideshare" },
+      { label: "Uber vs. Limo Service", to: "/uber-vs-limo-service" },
+      { label: "How Far Ahead Should You Book MSY Transportation?", to: "/how-far-ahead-to-book-msy-car-service" },
+      { label: "Best Car Service From MSY: How to Choose", to: "/best-car-service-louis-armstrong-new-orleans-airport" },
+      { label: "Airport Transportation Service", to: "/services/airport-transportation" },
       { label: "Our Fleet", to: "/fleet" },
       { label: "Book a Ride", to: "/booking" },
     ],
