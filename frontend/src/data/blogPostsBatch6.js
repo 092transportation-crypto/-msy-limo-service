@@ -666,7 +666,7 @@ export const BLOG_POSTS_BATCH6 = [
   {
     slug: "traveling-with-pets-new-orleans-car-service-guide",
     title: "Traveling to New Orleans With Pets: What a Car Service Can (and Can't) Do",
-    metaTitle: "Traveling With Pets: New Orleans Car Service Guide | MSY Limo",
+    metaTitle: "Traveling With Pets: New Orleans Car Service | MSY Limo",
     metaDescription:
       "Bringing a pet to New Orleans? Here's what to know about pet-friendly car service, carrier requirements, fees, and booking both airport and in-town pet trips.",
     category: "Travel",

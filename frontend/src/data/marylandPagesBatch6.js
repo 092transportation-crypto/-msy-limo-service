@@ -999,7 +999,7 @@ export const MARYLAND_BATCH6 = [
     name: "Grand Isle",
     badge: "Jefferson Parish Coastal Limo Service",
     h1: "Grand Isle Limo Service",
-    metaTitle: "Grand Isle LA Limo Service | MSY Airport & Fishing Trip Car Service",
+    metaTitle: "Grand Isle LA Limo Service | MSY Airport & Fishing Trips",
     metaDescription: "Chauffeured limo and car service to Grand Isle, LA — Louisiana's only inhabited barrier island, MSY transfers for fishing trips. (877) 609-1919.",
     stats: [
       { label: "MSY Airport", value: "≈ 90 mi · ≈ 2 hours" },

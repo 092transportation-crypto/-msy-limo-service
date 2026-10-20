@@ -337,7 +337,7 @@ export const MARYLAND_PAGES = [
     "name": "Gaithersburg",
     "badge": "Maryland Limo Service",
     "h1": "Gaithersburg Limo Service",
-    "metaTitle": "Gaithersburg Limo Service",
+    "metaTitle": "Gaithersburg Limo Service | Car Service Gaithersburg, MD",
     "metaDescription": "Chauffeured limo & car service in Gaithersburg, Maryland. BWI, DCA & Dulles airport transfers, weddings, corporate & events. Flat rates. Call (877) 609-1919.",
     "stats": [
       {
@@ -498,7 +498,7 @@ export const MARYLAND_PAGES = [
     "name": "Silver Spring",
     "badge": "Maryland Limo Service",
     "h1": "Silver Spring Limo Service",
-    "metaTitle": "Silver Spring Limo Service",
+    "metaTitle": "Silver Spring Limo Service | Car Service Silver Spring, MD",
     "metaDescription": "Chauffeured limo & car service in Silver Spring, Maryland. BWI, DCA & Dulles airport transfers, weddings, corporate & events. Flat rates. Call (877) 609-1919.",
     "stats": [
       {
@@ -1625,7 +1625,7 @@ export const MARYLAND_PAGES = [
     "name": "Severna Park",
     "badge": "Maryland Limo Service",
     "h1": "Severna Park Limo Service",
-    "metaTitle": "Severna Park Limo Service",
+    "metaTitle": "Severna Park Limo Service | Car Service Severna Park, MD",
     "metaDescription": "Chauffeured limo & car service in Severna Park, Maryland. BWI, DCA & Dulles airport transfers, weddings, corporate & events. Flat rates. Call (877) 609-1919.",
     "stats": [
       {
@@ -2752,7 +2752,7 @@ export const MARYLAND_PAGES = [
     "name": "Cape St. Claire",
     "badge": "Maryland Limo Service",
     "h1": "Cape St. Claire Limo Service",
-    "metaTitle": "Cape St. Claire Limo Service | Car Service Cape St. Claire, MD",
+    "metaTitle": "Cape St. Claire Limo Service | Car Service, MD",
     "metaDescription": "Chauffeured limo & car service in Cape St. Claire, Maryland. BWI, DCA & Dulles airport transfers, weddings, corporate & events. Flat. Call (877) 609-1919.",
     "stats": [
       {
@@ -3718,7 +3718,7 @@ export const MARYLAND_PAGES = [
     "name": "North Bethesda",
     "badge": "Maryland Limo Service",
     "h1": "North Bethesda Limo Service",
-    "metaTitle": "North Bethesda Limo Service",
+    "metaTitle": "North Bethesda Limo Service | Car Service North Bethesda, MD",
     "metaDescription": "Chauffeured limo & car service in North Bethesda, Maryland. BWI, DCA & Dulles airport transfers, weddings, corporate & events. Flat. Call (877) 609-1919.",
     "stats": [
       {
@@ -3879,7 +3879,7 @@ export const MARYLAND_PAGES = [
     "name": "North Potomac",
     "badge": "Maryland Limo Service",
     "h1": "North Potomac Limo Service",
-    "metaTitle": "North Potomac Limo Service",
+    "metaTitle": "North Potomac Limo Service | Car Service North Potomac, MD",
     "metaDescription": "Chauffeured limo & car service in North Potomac, Maryland. BWI, DCA & Dulles airport transfers, weddings, corporate & events. Flat. Call (877) 609-1919.",
     "stats": [
       {
@@ -4208,7 +4208,7 @@ export const MARYLAND_PAGES = [
     "name": "Stevensville",
     "badge": "Maryland Limo Service",
     "h1": "Stevensville Limo Service",
-    "metaTitle": "Stevensville Limo Service",
+    "metaTitle": "Stevensville Limo Service | Car Service Stevensville, MD",
     "metaDescription": "Chauffeured limo & car service in Stevensville, Maryland. BWI, DCA & Dulles airport transfers, weddings, corporate & events. Flat rates. Call (877) 609-1919.",
     "stats": [
       {

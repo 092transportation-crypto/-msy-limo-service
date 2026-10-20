@@ -216,7 +216,7 @@ export const BLOG_POSTS_BATCH4 = [
   {
     slug: "private-chauffeur-french-quarter-garden-district-tour",
     title: "A Private Chauffeur Day: Touring the French Quarter and Garden District",
-    metaTitle: "Private Chauffeur City Tour | French Quarter & Garden District",
+    metaTitle: "Private Chauffeur Tour | French Quarter & Garden District",
     metaDescription:
       "A full-day chauffeured itinerary through the French Quarter and Garden District — pacing, stops, and how hourly charter makes it work. (877) 609-1919.",
     category: "Travel",

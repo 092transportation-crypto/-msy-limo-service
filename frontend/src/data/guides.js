@@ -638,7 +638,7 @@ export const GUIDES = [
     title: "Holiday Lights Limo Tours Guide: Maryland, DC & Northern Virginia",
     metaTitle: "Holiday Lights Limo Tours: Maryland, DC & Northern Virginia",
     metaDescription:
-      "A chauffeur's guide to touring holiday light displays around Maryland, DC and Northern Virginia — real venues, flat rates, fleet options, timing tips and a vendor checklist.",
+      "A chauffeur's guide to Maryland, DC and Northern Virginia holiday light tours — real venues, flat rates and timing tips. Call (877) 609-1919.",
     category: "Maryland Guides",
     author: "MSY Limo Team",
     date: "September 30, 2026",
@@ -771,7 +771,7 @@ export const GUIDES = [
   {
     slug: "msy-limo-cost-by-destination",
     title: "How Much Does a Limo Cost From MSY to Louisiana and the Gulf Coast? A Long-Distance Price Guide",
-    metaTitle: "Limo Cost From MSY to Lafayette, Baton Rouge & the Gulf Coast",
+    metaTitle: "Limo Cost From MSY to Lafayette & Baton Rouge",
     metaDescription:
       "What a chauffeured car from MSY to Lafayette, Lake Charles, Houma, Natchez or the Gulf Coast actually costs in 2026, by destination. (877) 609-1919.",
     category: "Pricing",
@@ -836,7 +836,7 @@ export const GUIDES = [
   {
     slug: "best-car-service-louis-armstrong-new-orleans-airport",
     title: "Best Car Service From Louis Armstrong New Orleans International Airport (MSY): How to Choose",
-    metaTitle: "Best Car Service From Louis Armstrong New Orleans Airport (MSY)",
+    metaTitle: "Best Car Service From Louis Armstrong Airport (MSY)",
     metaDescription:
       "Choosing the best MSY car service: vehicle types, pickup zones, flight tracking and what separates a licensed carrier from the rest. (877) 609-1919.",
     category: "Airport",
@@ -894,7 +894,7 @@ export const GUIDES = [
   {
     slug: "how-far-ahead-to-book-msy-car-service",
     title: "How Early Should You Book MSY Airport Transportation? A Rule-of-Thumb Guide by Traveler Type",
-    metaTitle: "How Early to Book MSY Airport Transportation | By Traveler Type",
+    metaTitle: "How Early to Book MSY Transportation | By Traveler Type",
     metaDescription:
       "How far ahead to book MSY airport car service, broken down by traveler type — solo flyers, families, weddings and festival weekends. (877) 609-1919.",
     category: "Guides",
@@ -947,7 +947,7 @@ export const GUIDES = [
   {
     slug: "french-quarter-private-event-transportation",
     title: "French Quarter Event Transportation: A Planner's Guide to Weddings, Second Lines and Private Parties",
-    metaTitle: "French Quarter Event Transportation | Weddings & Private Parties",
+    metaTitle: "French Quarter Event Transportation | Weddings & Parties",
     metaDescription:
       "Planning wedding, second-line or private party transportation in the French Quarter — loading zones, timing and vehicle choice. (877) 609-1919.",
     category: "Events",
@@ -1008,7 +1008,7 @@ export const GUIDES = [
   {
     slug: "sugar-bowl-new-years-superdome-transportation",
     title: "Sugar Bowl and New Year's Bowl Season Transportation to the Caesars Superdome",
-    metaTitle: "Sugar Bowl Transportation Guide | Caesars Superdome Car Service",
+    metaTitle: "Sugar Bowl Transportation | Caesars Superdome Car Service",
     metaDescription:
       "Getting to the Allstate Sugar Bowl at the Caesars Superdome — MSY pickups, hotel shuttles and game-day logistics for New Year's bowl season. (877) 609-1919.",
     category: "Events",

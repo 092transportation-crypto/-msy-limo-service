@@ -661,7 +661,7 @@ export const MARYLAND_BATCH7 = [
     name: "Folsom",
     badge: "St. Tammany Parish Limo Service",
     h1: "Folsom Limo Service",
-    metaTitle: "Folsom LA Limo Service | Northshore Horse Country Car Service",
+    metaTitle: "Folsom LA Limo Service | Northshore Horse Country",
     metaDescription: "Chauffeured limo and car service in Folsom, LA — Northshore horse country, MSY airport transfers and event transportation. Call (877) 609-1919.",
     stats: [
       { label: "MSY Airport", value: "≈ 52 mi · 65–75 minutes" },
