@@ -11,7 +11,6 @@ const ChatWidget = () => {
   ]);
   const [inputValue, setInputValue] = useState("");
   const [isLoading, setIsLoading] = useState(false);
-  const [sessionId] = useState(() => `chat-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`);
   const messagesEndRef = useRef(null);
   const inputRef = useRef(null);
 
@@ -33,20 +32,21 @@ const ChatWidget = () => {
     if (!inputValue.trim() || isLoading) return;
 
     const userMessage = inputValue.trim();
+    const nextMessages = [...messages, { role: "user", content: userMessage }];
     setInputValue("");
-    setMessages(prev => [...prev, { role: "user", content: userMessage }]);
+    setMessages(nextMessages);
     setIsLoading(true);
 
     try {
-      const API_URL = process.env.REACT_APP_BACKEND_URL;
-      const response = await fetch(`${API_URL}/api/chat`, {
+      // Same-origin serverless function — resend the full conversation
+      // history each turn (the backend is stateless).
+      const response = await fetch("/api/chat", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
         },
         body: JSON.stringify({
-          message: userMessage,
-          session_id: sessionId
+          messages: nextMessages.map(({ role, content }) => ({ role, content }))
         })
       });
 
@@ -55,11 +55,19 @@ const ChatWidget = () => {
       }
 
       const data = await response.json();
-      setMessages(prev => [...prev, { role: "assistant", content: data.response }]);
+      setMessages(prev => [...prev, { role: "assistant", content: data.reply }]);
+
+      if (data.leadCaptured) {
+        try {
+          sessionStorage.setItem("leadSubmitted", "1");
+        } catch (e) {
+          // sessionStorage unavailable (private mode, etc) — not fatal.
+        }
+      }
     } catch (error) {
-      setMessages(prev => [...prev, { 
-        role: "assistant", 
-        content: "I apologize, but I'm having trouble connecting right now. Please call us at (877) 609-1919 for immediate assistance." 
+      setMessages(prev => [...prev, {
+        role: "assistant",
+        content: "I apologize, but I'm having trouble connecting right now. Please call us at (877) 609-1919 for immediate assistance."
       }]);
     } finally {
       setIsLoading(false);

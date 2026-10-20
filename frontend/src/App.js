@@ -8,6 +8,8 @@ import { GUIDES } from "@/data/guides";
 import { Toaster } from "@/components/ui/sonner";
 import ChatWidget from "@/components/ChatWidget";
 import FloatingCallButton from "@/components/FloatingCallButton";
+import LeadCapturePopup from "@/components/LeadCapturePopup";
+import ExitIntentPopup from "@/components/ExitIntentPopup";
 
 // Lazy load pages for better performance
 const HomePage = lazy(() => import("@/pages/HomePage"));
@@ -106,6 +108,8 @@ function App() {
       <Toaster position="top-right" />
       <ChatWidget />
       <FloatingCallButton />
+      <LeadCapturePopup />
+      <ExitIntentPopup />
     </div>
   );
 }

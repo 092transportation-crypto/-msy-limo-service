@@ -1,3 +1,26 @@
+## Lead-Generation Environment Variables
+
+These power the chat widget (`api/chat.js`) and the lead-capture endpoint
+(`api/lead-capture.js`, used by the lead popup, the exit-intent popup, and
+the chat widget's `submit_booking_lead` tool). Set them in the Vercel
+project's environment variables (Production/Preview/Development as needed).
+All are optional in the sense that each feature degrades gracefully (no
+crash, no hang) when its variables are missing.
+
+| Variable | Required for | Notes |
+| --- | --- | --- |
+| `ANTHROPIC_API_KEY` | Chat widget | Without it, `/api/chat` returns a 200 with a friendly fallback reply (real phone number + link to the booking form) instead of calling Claude. |
+| `ANTHROPIC_CHAT_MODEL` | Chat widget (optional) | Defaults to `claude-haiku-5-5` if unset. |
+| `TWILIO_ACCOUNT_SID` | SMS lead alerts | All four Twilio vars below must be set together — if any is missing, `lib/sms.js` silently no-ops (logs and returns) instead of throwing. |
+| `TWILIO_AUTH_TOKEN` | SMS lead alerts | |
+| `TWILIO_FROM_NUMBER` | SMS lead alerts | The Twilio number the alert is sent **from**. |
+| `ALERT_PHONE_NUMBER` | SMS lead alerts | The dispatch/staff number that **receives** the alert text for every new lead. |
+| `LEAD_WEBHOOK_URL` | Lead webhook (CRM/Zapier/etc) | `lib/leadWebhook.js` POSTs a JSON lead payload here. No-op if unset. Bounded by a 6s timeout either way, so a slow/unreachable endpoint never hangs a request. |
+
+Run `npm run test:api` to smoke-test both endpoints (graceful fallback with
+no Anthropic key, 400s on invalid lead input, 201s — without hanging — with
+Twilio/webhook env vars unset or pointed at an unreachable host).
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
