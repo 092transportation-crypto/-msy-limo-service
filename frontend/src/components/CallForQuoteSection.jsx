@@ -34,7 +34,7 @@ const CallForQuoteSection = () => (
           Call for a Quote — (877) 609-1919
         </a>
         <Link
-          to="/book"
+          to="/booking"
           className="inline-flex items-center gap-2 text-amber-400 font-semibold hover:text-amber-300 transition-colors"
         >
           Or book online <ArrowRight className="w-4 h-4" />

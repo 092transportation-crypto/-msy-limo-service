@@ -78,7 +78,7 @@ const HeroSection = () => {
             transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
           >
             <Link
-              to="/book"
+              to="/booking"
               data-testid="hero-book-now"
               className="block w-full sm:max-w-md mx-auto text-center bg-gradient-to-r from-amber-500 to-amber-600 text-black py-5 md:py-6 px-8 rounded-2xl font-extrabold text-2xl md:text-3xl uppercase tracking-wide shadow-2xl shadow-amber-500/40 hover:from-amber-400 hover:to-amber-500 hover:shadow-amber-400/60 transition-all"
             >
