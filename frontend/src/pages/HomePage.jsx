@@ -58,7 +58,7 @@ const HomePage = () => {
             "addressCountry": "US"
           },
           "areaServed": ["New Orleans", "Kenner", "Metairie", "Gretna", "Greater New Orleans Area", "Louisiana"],
-          "priceRange": "$$$",
+          "priceRange": "$$",
           "openingHoursSpecification": {
             "@type": "OpeningHoursSpecification",
             "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],

@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import SEO, { buildFaqSchema } from "@/components/SEO";
+import { LOCAL_BUSINESS_SCHEMA } from "@/lib/localBusinessSchema";
 import { getVenueBySlug, venues } from "@/data/venuesData";
 import { MapPin, Music, CheckCircle, Phone, ArrowRight } from "lucide-react";
 import KeywordSection from "@/components/KeywordSection";
@@ -28,25 +29,13 @@ const VenueLandingPage = ({ slug }) => {
   if (!venue) return null;
 
   const schema = [
+    LOCAL_BUSINESS_SCHEMA,
     {
       "@context": "https://schema.org",
       "@type": "Service",
       name: venue.h1,
       serviceType: "Event transportation service",
-      provider: {
-        "@type": "LocalBusiness",
-        name: "MSY Limo Service",
-        telephone: "+1-877-609-1919",
-        url: "https://msylimoservice.com",
-        address: {
-          "@type": "PostalAddress",
-          streetAddress: "9836 Lyon Ave",
-          addressLocality: "Laurel",
-          addressRegion: "MD",
-          postalCode: "20723",
-          addressCountry: "US",
-        },
-      },
+      provider: { "@id": LOCAL_BUSINESS_SCHEMA["@id"] },
       areaServed: { "@type": "City", name: "New Orleans" },
       description: venue.metaDescription,
     },

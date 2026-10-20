@@ -1345,4 +1345,295 @@ export const GUIDES = [
       { label: "Book a Ride", to: "/booking" },
     ],
   },
+  {
+    slug: "msy-to-baton-rouge-limo-cost",
+    title: "How Much Does a Limo Cost From MSY to Baton Rouge?",
+    metaTitle: "MSY to Baton Rouge Limo Cost | 2026 Pricing Guide",
+    metaDescription:
+      "What a chauffeured car from MSY to Baton Rouge costs by vehicle class, why the rate is flat, and how it compares to a taxi or rideshare. (877) 609-1919.",
+    category: "Pricing",
+    author: "MSY Limo Team",
+    date: "October 19, 2026",
+    readTime: "6 min read",
+    excerpt:
+      "A straight answer on what a chauffeured transfer between MSY and Baton Rouge costs, broken down by vehicle class, and why that number doesn't change on a busy Friday.",
+    image: "/images/blog/airport-terminal-glass.webp",
+    content: `
+      <p>Baton Rouge has its own airport, but a large share of capital-region travelers fly out of MSY for the wider choice of nonstop and international routes, which makes the roughly 78-mile drive between the two cities one of the most common long-distance questions we get. Here's a straight answer on what that trip actually costs and what changes the number.</p>
+
+      <h2>What Drives the MSY to Baton Rouge Fare</h2>
+      <p>Three things set the price: vehicle class, the specific pickup and drop-off address, and whether you're booking a one-way transfer or a round trip. Distance and route don't vary much — the drive runs almost entirely on I-10 past Gonzales and LaPlace, crossing the Bonnet Carre Spillway before reaching Kenner — so the fare is quoted as a flat rate confirmed before you book rather than a meter that climbs with traffic.</p>
+      <p>Unlike a taxi or rideshare, that quote doesn't change if your flight lands during a Friday evening rush, if LSU has a home game that weekend, or if the Baton Rouge interstate backs up near the I-10/I-12 merge. The number you're quoted is the number on your card afterward.</p>
+
+      <h2>Vehicle Classes and What They Cost</h2>
+      <p>A Mercedes-Benz E-Class or similar business sedan is the most economical option for one or two travelers and their luggage. A Cadillac Escalade or Chevrolet Suburban SUV costs more but seats up to six with room for golf bags, sample cases or a family's luggage. A Mercedes Sprinter van is priced for groups of up to 13 — useful for an LSU game-day group, a wedding party, or a company sending a full team between the two cities on the same booking. A stretch limousine sits at the top of the range and is booked far less often for this particular route, mostly for celebrations rather than standard transfers.</p>
+      <p>Call <a href="tel:+18776091919">(877) 609-1919</a> or request a quote online with your exact pickup and drop-off addresses for the current flat rate in each class — we'd rather give you a real number than a wide range that doesn't tell you much.</p>
+
+      <h2>How That Compares to a Taxi or Rideshare</h2>
+      <p>A one-way trip of this length is exactly the kind of fare an on-demand rideshare driver may hesitate to accept, since it leaves them roughly 80 minutes from home with an uncertain return fare. That can mean a longer wait for a driver to accept the trip, a higher surge multiplier during peak demand, or a driver who cancels partway through the match. A reserved chauffeur accepts the trip when it's booked, at the rate agreed in advance, which matters most on a route this long.</p>
+      <p>Our <a href="/msy-limo-cost-by-destination">MSY limo cost by destination</a> guide breaks down pricing patterns across our whole service area if you're comparing several routes at once; this page is the detailed answer for Baton Rouge specifically.</p>
+
+      <h2>What's Included in the Rate</h2>
+      <p>Every MSY to Baton Rouge transfer includes real-time flight tracking, so a delayed arrival simply moves your pickup rather than leaving a car waiting — or leaving you waiting for one. Domestic arrivals include 45 minutes of complimentary wait time and international arrivals 60, both counted from the moment the aircraft actually lands. Gratuity and any tolls are disclosed as part of the quote, not added as a surprise afterward.</p>
+
+      <h2>Booking a Round Trip</h2>
+      <p>Many Baton Rouge travelers book both legs at once — an MSY departure and a return pickup from downtown, the LSU campus, or the State Capitol complex — which locks in the same flat rate for both directions and means one phone call handles the whole trip rather than two separate reservations.</p>
+
+      <h2>When to Book</h2>
+      <p>Because this is a long-distance transfer, we recommend booking at least a few days ahead when possible, and further out for LSU home game weekends or legislative session, when demand across the corridor picks up. Same-day bookings are accommodated when a vehicle is available, but an advance reservation gives you first choice of vehicle class.</p>
+
+      <p>For the full route details — stops, neighborhoods we serve on both ends, and local logistics — see our <a href="/baton-rouge-limo-service">Baton Rouge limo service</a> page, or our <a href="/baton-rouge-corporate-car-service">Baton Rouge corporate car service</a> page if you're booking for business travel.</p>
+    `,
+    faqs: [
+      { q: "How much does a limo cost from MSY to Baton Rouge?", a: "The exact rate depends on vehicle class and your specific addresses, quoted as a flat rate before you book. Call (877) 609-1919 or request a quote online for the current price in each vehicle class." },
+      { q: "Does the price change if my flight is delayed or it's a busy travel day?", a: "No. The rate is flat and confirmed before you book, and it doesn't change for traffic, flight delays, or high-demand weekends like LSU home games." },
+      { q: "Is it cheaper to take a rideshare instead?", a: "Not reliably. A trip this long is one rideshare drivers may be slower to accept or cancel on, and surge pricing can push the fare above a pre-confirmed flat rate during peak demand." },
+      { q: "Can I book a round trip at the same rate both ways?", a: "Yes. Booking both legs together locks in the same flat rate for the return trip and consolidates the reservation under one phone call." },
+      { q: "How far ahead should I book this route?", a: "A few days ahead is a safe default; book further out for LSU game weekends or legislative session, when demand on this corridor increases." },
+    ],
+    relatedLinks: [
+      { label: "Baton Rouge Limo Service", to: "/baton-rouge-limo-service" },
+      { label: "Baton Rouge Corporate Car Service", to: "/baton-rouge-corporate-car-service" },
+      { label: "Baton Rouge Prom Limo Service", to: "/baton-rouge-prom-limo-service" },
+      { label: "MSY Limo Cost by Destination", to: "/msy-limo-cost-by-destination" },
+      { label: "MSY to Baton Rouge Route", to: "/msy-to-baton-rouge" },
+      { label: "Airport Transportation Service", to: "/services/airport-transportation" },
+      { label: "Our Fleet", to: "/fleet" },
+      { label: "Book a Ride", to: "/booking" },
+    ],
+  },
+  {
+    slug: "best-time-to-book-new-orleans-airport-transportation",
+    title: "Best Time to Book Airport Transportation in New Orleans",
+    metaTitle: "Best Time to Book New Orleans Airport Transportation",
+    metaDescription:
+      "When New Orleans airport transportation books out, which weeks to reserve early, and why timing matters more than lead time alone. Call (877) 609-1919.",
+    category: "Planning",
+    author: "MSY Limo Team",
+    date: "October 19, 2026",
+    readTime: "6 min read",
+    excerpt:
+      "Lead time isn't the only thing that matters when booking an MSY transfer — New Orleans has a festival and event calendar that tightens availability well before the usual booking window closes.",
+    image: "/images/blog/airport-terminal-glass.webp",
+    content: `
+      <p>Our <a href="/how-far-ahead-to-book-msy-car-service">how far ahead to book</a> guide covers the standard lead-time question — how many hours or days before a trip you should reserve under ordinary circumstances. This guide answers a different question: which times of year actually require booking earlier than usual, and why New Orleans's event calendar matters as much as the clock.</p>
+
+      <h2>Why "Best Time" Isn't Just About Lead Time</h2>
+      <p>On an ordinary week, MSY car service has plenty of flexibility — a same-day or next-day booking is routine. What changes that picture isn't the calendar date so much as what's happening in the city that weekend. New Orleans runs on a festival and event schedule that pulls vehicles, chauffeurs and hotel rooms toward a handful of predictable peak weeks each year, and booking inside those weeks works very differently than booking in an ordinary month.</p>
+
+      <h2>The Weeks That Book Out First</h2>
+      <p>Mardi Gras season, which can run from early February into early March depending on the calendar year, is the single busiest stretch for ground transportation in New Orleans. Hotels fill, parade-route closures complicate pickups, and Sprinter vans and stretch limousines for parade-watching groups are reserved weeks in advance. Jazz Fest's two spring weekends bring a similar crunch concentrated around the Fair Grounds and nearby hotels. French Quarter Festival, Essence Festival, and Saints home games each create their own smaller surges.</p>
+      <p>Outside of festivals, the Sugar Bowl and other major January events, large citywide conventions at the Morial Convention Center, and peak wedding season from spring through fall (particularly October and November Saturdays) all tighten vehicle availability well before the trip itself.</p>
+
+      <h2>What "Booking Early" Actually Buys You</h2>
+      <p>During an ordinary week, booking early mainly buys you peace of mind. During a peak week, it buys you something more concrete: first choice of vehicle class. Sprinter vans and stretch limousines are a limited fleet, and they're the first vehicles to be fully booked during Mardi Gras, Jazz Fest and wedding season. A sedan or SUV transfer usually has more flexibility even close to a peak date, but a group vehicle for a parade-watching party or a wedding is the one to lock in first.</p>
+      <p>Pricing is the other reason early booking matters here, though perhaps not for the reason you'd expect: our rates are flat and don't surge for demand, so booking early doesn't get you a lower price — it gets you a guaranteed vehicle at the same flat rate that would otherwise sell out.</p>
+
+      <h2>How Far Ahead to Book, by Season</h2>
+      <ul>
+        <li><strong>Ordinary weeks:</strong> same-day or next-day booking is usually fine; a few days ahead is a safe default.</li>
+        <li><strong>Major conventions and the Sugar Bowl:</strong> one to two weeks ahead, earlier for Sprinter vans.</li>
+        <li><strong>Jazz Fest and French Quarter Festival:</strong> two to four weeks ahead, especially for group vehicles.</li>
+        <li><strong>Mardi Gras season:</strong> four to eight weeks ahead for parade weekends, earlier still for a Sprinter van or limousine on a peak Saturday.</li>
+        <li><strong>Peak wedding season Saturdays (May–October):</strong> two to three months ahead for the wedding party's own transportation.</li>
+      </ul>
+
+      <h2>A Simple Rule of Thumb</h2>
+      <p>If you already know your travel dates land on or near a major New Orleans event, book as soon as your dates are confirmed rather than waiting for the lead time you'd use on an ordinary trip. If you're not sure whether your dates overlap with something citywide, call <a href="tel:+18776091919">(877) 609-1919</a> and ask — we track the calendar and can tell you honestly whether your weekend needs an early reservation or not.</p>
+
+      <p>For the mechanics of booking itself — cancellation windows, how flight tracking works, and what happens if plans change — see our <a href="/how-far-ahead-to-book-msy-car-service">booking lead time guide</a>.</p>
+    `,
+    faqs: [
+      { q: "Is there really a difference between an ordinary week and a peak week for booking?", a: "Yes. On an ordinary week, same-day or next-day booking is usually fine. During Mardi Gras, Jazz Fest, major conventions or peak wedding season, Sprinter vans and stretch limousines can sell out weeks in advance." },
+      { q: "Does booking early get me a lower price?", a: "Not directly — our rates are flat and don't surge for demand. Booking early during a peak week gets you a guaranteed vehicle at that same flat rate rather than a lower price." },
+      { q: "How far ahead should I book for Mardi Gras?", a: "Four to eight weeks ahead for parade weekends is a safe target, earlier still if you need a Sprinter van or stretch limousine on a peak Saturday." },
+      { q: "What about Jazz Fest weekends specifically?", a: "Two to four weeks ahead is typical, especially for group vehicles serving the Fair Grounds area during the festival's two weekends." },
+      { q: "What if I'm not sure whether my travel dates overlap with a major event?", a: "Call (877) 609-1919 and ask. We track the New Orleans event calendar and can tell you honestly whether your dates need an early reservation." },
+    ],
+    relatedLinks: [
+      { label: "How Far Ahead Should You Book MSY Car Service?", to: "/how-far-ahead-to-book-msy-car-service" },
+      { label: "Airport Transportation Guide", to: "/airport-transportation-guide" },
+      { label: "MSY Airport Meet and Greet", to: "/msy-airport-meet-and-greet" },
+      { label: "Limo Service Near Jazz Fest and the Fair Grounds", to: "/limo-service-near-jazz-fest-fair-grounds" },
+      { label: "New Orleans Wedding Limo Service", to: "/new-orleans-wedding-limo-service" },
+      { label: "Airport Transportation Service", to: "/services/airport-transportation" },
+      { label: "Our Fleet", to: "/fleet" },
+      { label: "Book a Ride", to: "/booking" },
+    ],
+  },
+  {
+    slug: "why-you-should-never-take-uber-to-msy",
+    title: "Why You Should Never Take Uber to MSY (and What to Book Instead)",
+    metaTitle: "Why Not to Take Uber to MSY | Airport Ground Transport",
+    metaDescription:
+      "The practical reasons rideshare is a weaker choice for MSY airport trips than a reserved car — pricing, pickup logistics and reliability. (877) 609-1919.",
+    category: "Comparisons",
+    author: "MSY Limo Team",
+    date: "October 19, 2026",
+    readTime: "6 min read",
+    excerpt:
+      "This isn't a case against rideshare everywhere — it's a specific, factual look at why MSY airport trips in particular expose rideshare's weak points.",
+    image: "/images/blog/airport-terminal-glass.webp",
+    content: `
+      <p>The title is deliberately strong, and it deserves a fair caveat up front: rideshare is a perfectly reasonable choice for plenty of trips around New Orleans, and our own <a href="/uber-vs-limo-service">Uber vs. limo service guide</a> walks through exactly which ones. This guide is narrower and more specific — it's about the MSY airport trip in particular, where several of rideshare's structural weaknesses line up at once in a way they don't for a short ride across town.</p>
+
+      <h2>Surge Pricing Hits Airport Trips Hardest</h2>
+      <p>Airport demand is naturally concentrated — flights land in banks, not evenly spaced throughout the day — which is exactly the kind of demand spike that triggers rideshare surge pricing. A flight bank landing during a convention, a festival weekend, or simply a busy Friday evening can push a rideshare fare well above what it would cost on an ordinary Tuesday morning, and you won't know the multiplier until you open the app at the curb. A reserved car service quotes a flat rate before you fly, and that rate doesn't move regardless of how many flights land in the same hour.</p>
+
+      <h2>No Flight Tracking Means No Real Buffer</h2>
+      <p>A rideshare request is tied to when you open the app, not when your flight actually lands. If your flight is delayed, you're the one managing that — rebooking the pickup, watching the clock, hoping a driver is still available when you finally clear baggage claim. A reserved chauffeur tracks your actual flight number and adjusts the pickup automatically, with complimentary wait time built in (45 minutes domestic, 60 international) that starts counting from touchdown, not from a guess.</p>
+
+      <h2>The Pickup Walk Is Longer Than It Looks</h2>
+      <p>MSY's rideshare pickup area is a separate, often busy zone away from the terminal doors, and during a high-volume arrival bank it can mean a genuine wait simply to locate your specific car among a crowd of similar vehicles circling the same lot. A reserved car service meets you at a known commercial pickup area, or inside baggage claim with a name sign if you book meet and greet, which removes the matching problem entirely.</p>
+
+      <h2>Driver Availability Isn't Guaranteed</h2>
+      <p>An on-demand driver can decline or cancel a ride that doesn't suit them — a long trip, a low fare estimate, or simply bad timing with their shift. That's a reasonable business decision for an independent driver, but it means your airport pickup isn't actually guaranteed until a driver happens to accept it, which can be exactly the wrong moment to discover that. A reserved chauffeur is assigned to your trip when you book it, not when an app happens to match you with someone nearby.</p>
+
+      <h2>Group Travel Doesn't Scale</h2>
+      <p>A family or group with luggage, or a wedding party, doesn't fit cleanly into standard rideshare vehicle categories, and splitting a group across multiple rideshare cars means coordinating separate pickups, separate drivers and separate arrival times at the same destination. An SUV, Sprinter van or stretch limousine reserved in advance keeps a group together in one vehicle with one chauffeur and one confirmed arrival time.</p>
+
+      <h2>What to Book Instead</h2>
+      <p>For a standard airport transfer, a flat-rate sedan or SUV booking with flight tracking covers most trips. For a first-time visitor, an older relative or anyone who'd rather be found than do the finding, <a href="/msy-airport-meet-and-greet">meet and greet service</a> puts a chauffeur inside baggage claim with a name sign. For a group or wedding party, a Sprinter van or stretch limousine keeps everyone together.</p>
+      <p>None of this means rideshare is a bad choice everywhere in New Orleans — for a short trip across town with light luggage and a flexible schedule, it's often perfectly fine. It's specifically the airport trip, with its surge pricing, pickup logistics and lack of guaranteed availability, where a reserved car service solves problems rideshare simply isn't built to solve.</p>
+    `,
+    faqs: [
+      { q: "Is this guide saying Uber is bad for every New Orleans trip?", a: "No. Rideshare works well for plenty of short, flexible trips around the city — see our Uber vs. limo service guide for a trip-by-trip breakdown. This guide is specifically about the MSY airport trip." },
+      { q: "Why does surge pricing affect airport trips more than other trips?", a: "Flights land in concentrated banks rather than evenly throughout the day, which creates the kind of demand spikes that trigger rideshare surge pricing — and you won't know the multiplier until you open the app at the curb." },
+      { q: "What happens with rideshare if my flight is delayed?", a: "You manage it yourself — rebooking the pickup request and hoping a driver is available when you actually clear baggage claim. A reserved chauffeur tracks your flight number and adjusts automatically." },
+      { q: "Can a rideshare driver cancel my airport pickup?", a: "Yes, an on-demand driver can decline or cancel a ride that doesn't suit them. A reserved chauffeur is assigned to your trip at booking, not matched by an app in real time." },
+      { q: "What should I book instead for an MSY airport trip?", a: "A flat-rate sedan or SUV with flight tracking for a standard transfer, meet and greet service if you'd rather be met inside baggage claim, or a Sprinter van or stretch limousine for a group or wedding party." },
+    ],
+    relatedLinks: [
+      { label: "Uber vs. Limo Service in New Orleans", to: "/uber-vs-limo-service" },
+      { label: "MSY Airport Meet and Greet", to: "/msy-airport-meet-and-greet" },
+      { label: "Airport Transportation Guide", to: "/airport-transportation-guide" },
+      { label: "Avoiding Transportation Scams in New Orleans", to: "/avoiding-transportation-scams-new-orleans" },
+      { label: "Best Car Service From MSY: How to Choose", to: "/best-car-service-louis-armstrong-new-orleans-airport" },
+      { label: "Airport Transportation Service", to: "/services/airport-transportation" },
+      { label: "Our Fleet", to: "/fleet" },
+      { label: "Book a Ride", to: "/booking" },
+    ],
+  },
+  {
+    slug: "top-10-wedding-venues-near-new-orleans",
+    title: "Top 10 Wedding Venues Near New Orleans and How to Get There",
+    metaTitle: "Top 10 New Orleans Wedding Venues | Transportation Guide",
+    metaDescription:
+      "Ten real New Orleans-area wedding venues, what makes each one distinct, and how guests and wedding parties get there. Call (877) 609-1919.",
+    category: "Weddings",
+    author: "MSY Limo Team",
+    date: "October 19, 2026",
+    readTime: "7 min read",
+    excerpt:
+      "From a Warehouse District warehouse conversion to a lakefront yacht club, ten real New Orleans wedding venues and the transportation logistics each one calls for.",
+    image: "/images/blog/airport-terminal-glass.webp",
+    content: `
+      <p>New Orleans has one of the most distinctive wedding-venue landscapes in the country, from converted warehouses to century-old mansions to a lakefront yacht club. Here are ten real venues couples book regularly, along with the transportation logistics each one tends to involve.</p>
+
+      <h2>1. The Chicory (Warehouse District)</h2>
+      <p>A former coffee warehouse turned exposed-brick event space, The Chicory is a Warehouse District favorite for couples who want an industrial-chic backdrop close to downtown hotels. Guests typically arrive from CBD or Warehouse District hotel blocks, a short ride we cover regularly from our <a href="/warehouse-district-cbd-limo-service">Warehouse District and CBD limo service</a>.</p>
+
+      <h2>2. Race &amp; Religious (Lower Garden District)</h2>
+      <p>Named for the corner where it sits, this pair of adjoining historic buildings in the Lower Garden District gives couples both an indoor and courtyard option under one booking. Its position between the Garden District and downtown makes it an easy stop for guests coming from either direction.</p>
+
+      <h2>3. The Elms Mansion (St. Charles Avenue)</h2>
+      <p>A Greek Revival mansion on St. Charles Avenue, the Elms is one of the most requested traditional ballroom settings in the city. A ceremony here means planning around the St. Charles streetcar line, something our <a href="/garden-district-limo-service">Garden District limo service</a> chauffeurs account for as a matter of course.</p>
+
+      <h2>4. Il Mercato (Magazine Street)</h2>
+      <p>An open-air courtyard strung with lights on Magazine Street, Il Mercato suits a more casual, string-lights-and-greenery aesthetic. Its Uptown location puts it minutes from the hotel clusters near Tulane and Loyola.</p>
+
+      <h2>5. The Columns Hotel (St. Charles Avenue)</h2>
+      <p>A historic Uptown hotel with a wraparound porch and a well-known bar, the Columns hosts both ceremonies and receptions on St. Charles Avenue, with the same streetcar-line timing consideration as the Elms Mansion nearby.</p>
+
+      <h2>6. Audubon Tea Room (Audubon Park)</h2>
+      <p>Set inside Audubon Park along the Mississippi River, the Tea Room pairs a wedding with one of the city's most photographed green spaces. Parking is limited on event weekends, so a reserved drop-off at the venue door is worth more here than at most locations — see our <a href="/limo-service-near-audubon-zoo">Audubon Park and zoo transportation</a> page for the neighborhood's parking patterns.</p>
+
+      <h2>7. Pavilion of the Two Sisters (City Park)</h2>
+      <p>A lagoon-side pavilion in City Park, this venue is a popular choice for couples who want a second line to follow the ceremony — our <a href="/second-line-wedding-parade-transportation">second line wedding transportation</a> page covers exactly that combination.</p>
+
+      <h2>8. New Orleans Board of Trade (CBD)</h2>
+      <p>A soaring, historic trading-hall space near the edge of the French Quarter and CBD, the Board of Trade suits a larger formal reception. Its downtown location makes it an easy add-on to a wedding weekend that also includes French Quarter hotel stays.</p>
+
+      <h2>9. Southern Yacht Club (West End)</h2>
+      <p>Set on the lakefront at West End, the Southern Yacht Club gives couples a water view without leaving the city, typically for members or guests booking through a member. The drive from most New Orleans neighborhoods is straightforward, though guests unfamiliar with the lakefront area appreciate a reserved ride over navigating it themselves after dark.</p>
+
+      <h2>10. Marigny Opera House (Faubourg Marigny)</h2>
+      <p>A former church turned performance and event space in the Marigny, this venue gives a ceremony real architectural weight without the formality of a traditional ballroom. Its location near Frenchmen Street also makes it a natural pairing with a reception a few blocks away.</p>
+
+      <h2>Planning Transportation for Any of These Venues</h2>
+      <p>Whichever venue a couple chooses, the same questions apply: how many getting-ready stops, how many guests need a shuttle from a hotel block, and whether the ceremony and reception are at the same address or two different ones. We plan each of these as one itinerary with a dedicated chauffeur rather than treating the day as several unrelated bookings — see our <a href="/services/wedding-limo">wedding limo service</a> page for how that planning works, or call <a href="tel:+18776091919">(877) 609-1919</a> to talk through your specific venue.</p>
+    `,
+    faqs: [
+      { q: "Do you provide transportation to all ten of these venues?", a: "Yes. We regularly serve all of these venues and the neighborhoods around them, from the Warehouse District to City Park to the lakefront at West End." },
+      { q: "Which of these venues has the most challenging parking or access?", a: "Audubon Tea Room and Il Mercato both sit in areas with limited weekend parking, which is exactly where a reserved drop-off at the venue door saves the most hassle." },
+      { q: "Can you plan transportation for a venue with both a ceremony and reception at different addresses?", a: "Yes. We plan getting-ready, ceremony and reception legs as one itinerary with a dedicated chauffeur, regardless of how many addresses are involved." },
+      { q: "Do any of these venues work well with a second line?", a: "Pavilion of the Two Sisters in City Park is a popular choice for couples adding a second line, and Race & Religious and the Marigny Opera House are both close to common French Quarter and Marigny second line routes." },
+      { q: "How far ahead should we book transportation for one of these venues?", a: "Two to three months ahead for a spring or fall Saturday is a safe target, since Sprinter vans and stretch limousines book first during peak wedding season." },
+    ],
+    relatedLinks: [
+      { label: "Wedding Limo Service", to: "/services/wedding-limo" },
+      { label: "New Orleans Wedding Limo Service", to: "/new-orleans-wedding-limo-service" },
+      { label: "Second Line Wedding Parade Transportation", to: "/second-line-wedding-parade-transportation" },
+      { label: "Garden District Limo Service", to: "/garden-district-limo-service" },
+      { label: "Warehouse District and CBD Limo Service", to: "/warehouse-district-cbd-limo-service" },
+      { label: "Limo Service Near Audubon Zoo", to: "/limo-service-near-audubon-zoo" },
+      { label: "Our Fleet", to: "/fleet" },
+      { label: "Book a Ride", to: "/booking" },
+    ],
+  },
+  {
+    slug: "new-orleans-corporate-travel-setup-guide",
+    title: "Corporate Travel Guide for New Orleans: Setting Up Ground Transportation for Your Company",
+    metaTitle: "Corporate Travel Setup Guide for New Orleans Companies",
+    metaDescription:
+      "How to set up reliable ground transportation for New Orleans business travel: corporate accounts, standing bookings, and executive logistics. (877) 609-1919.",
+    category: "Corporate",
+    author: "MSY Limo Team",
+    date: "October 19, 2026",
+    readTime: "7 min read",
+    excerpt:
+      "Our broader corporate travel guide covers the city's business calendar. This one is the practical setup guide — how a company actually puts reliable ground transportation in place.",
+    image: "/images/blog/scenario-corporate-2.webp",
+    content: `
+      <p>Our <a href="/blog/new-orleans-corporate-travel-guide">New Orleans corporate travel guide</a> covers the bigger picture — where business actually happens in the city and the festival calendar that can disrupt an unplanned trip. This guide is narrower and more practical: it's for whoever at your company is actually responsible for setting up ground transportation, whether that's a single recurring executive transfer or a program covering a whole visiting team.</p>
+
+      <h2>Start With the Trip Pattern, Not the Budget</h2>
+      <p>The first useful question isn't "what should this cost" — it's "what does the actual travel pattern look like." A single executive flying in a few times a year needs something very different from a sales team that lands in waves for a quarterly event, which is different again from a standing weekly commute for a Baton Rouge-based employee flying through MSY. Map the pattern first, and the right account structure follows naturally.</p>
+
+      <h2>Corporate Accounts and What They Actually Change</h2>
+      <p>A corporate account isn't just a billing convenience, though that's part of it — a single itemized invoice by date, passenger and route beats reconciling a stack of individual receipts after every trip. The bigger operational change is priority dispatch and negotiated flat rates for your recurring routes, so a regular MSY transfer or a standing Causeway Boulevard office run doesn't need to be re-quoted and re-booked from scratch every time.</p>
+      <p>Setting one up is simple: call <a href="tel:+18776091919">(877) 609-1919</a> with your typical trip patterns — recurring routes, typical group sizes, and how you'd like to be invoiced — and we'll return account terms the same day in most cases.</p>
+
+      <h2>Where New Orleans Business Actually Clusters</h2>
+      <p>The Central Business District and Warehouse District hold the highest concentration of corporate meetings and the Morial Convention Center's trade shows. Metairie's Causeway Boulevard corridor is Jefferson Parish's own office hub, and a growing cluster of professional offices has formed around Covington's downtown on the Northshore. Visiting delegations tied to the capital-region government and LSU regularly route through MSY rather than Baton Rouge's own airport, which makes the MSY-to-Baton Rouge corridor a genuine corporate travel lane in its own right, not just a leisure drive.</p>
+
+      <h2>Executive Arrivals vs. Team Arrivals</h2>
+      <p>A single visiting executive is the simpler case: a flight-tracked sedan transfer, optionally with <a href="/msy-airport-meet-and-greet">meet and greet service</a> so a first-time visitor or VIP guest is met inside baggage claim rather than left to find a car. A visiting team or delegation is a different planning problem — send us the arrival manifest and we assign a vehicle to each flight, track every arrival, and consolidate the whole group onto one invoice rather than booking each traveler separately.</p>
+
+      <h2>Setting Policy Before the First Trip, Not After</h2>
+      <p>Companies that get the most out of a corporate transportation account tend to set a few things in writing before the first trip rather than improvising: who's authorized to book on the account, what vehicle class applies to which seniority level, and what the cancellation window is for a meeting that gets rescheduled (ours is 3 hours for sedans and SUVs, 12 hours for Sprinter vans and group bookings). None of this needs to be complicated — a short email on file with dispatch usually covers it.</p>
+
+      <h2>Vetting a Transportation Provider</h2>
+      <p>Whoever you choose, ask the same questions you'd ask any vendor handling your executives: are chauffeurs background-checked, are vehicles commercially insured, and what's the backup plan if a vehicle has a mechanical issue mid-program. A provider that can answer plainly and put the terms in writing is the one to build a standing relationship with.</p>
+
+      <p>For the city's broader business calendar and event-driven logistics, go back to our <a href="/blog/new-orleans-corporate-travel-guide">New Orleans corporate travel guide</a>. For same-day questions about setting up your own account, call <a href="tel:+18776091919">(877) 609-1919</a>.</p>
+    `,
+    faqs: [
+      { q: "How is this guide different from your other New Orleans corporate travel guide?", a: "The other guide covers the city's business districts and event calendar. This one is the practical setup guide — how to actually put a corporate account and travel policy in place." },
+      { q: "What's the real benefit of a corporate account beyond one invoice?", a: "Priority dispatch and negotiated flat rates for your recurring routes, so a regular trip doesn't need to be re-quoted and re-booked from scratch every time." },
+      { q: "How do you handle a visiting team arriving on different flights?", a: "Send us the arrival manifest and we assign a vehicle to each flight, track every arrival in real time, and consolidate the group onto one invoice." },
+      { q: "What should we set in writing before our first trip?", a: "Who's authorized to book on the account, which vehicle class applies to which seniority level, and the cancellation window for a rescheduled meeting." },
+      { q: "What should we ask any transportation provider before committing?", a: "Whether chauffeurs are background-checked, vehicles are commercially insured, and what the backup plan is if a vehicle has a mechanical issue mid-program." },
+    ],
+    relatedLinks: [
+      { label: "New Orleans Corporate Travel Guide", to: "/blog/new-orleans-corporate-travel-guide" },
+      { label: "Corporate Transportation Service", to: "/services/corporate-transportation" },
+      { label: "New Orleans Corporate Car Service", to: "/new-orleans-corporate-car-service" },
+      { label: "MSY Airport Corporate Car Service", to: "/msy-airport-corporate-car-service" },
+      { label: "Metairie Corporate Car Service", to: "/metairie-corporate-car-service" },
+      { label: "MSY Airport Meet and Greet", to: "/msy-airport-meet-and-greet" },
+      { label: "Our Fleet", to: "/fleet" },
+      { label: "Book a Ride", to: "/booking" },
+    ],
+  },
 ];

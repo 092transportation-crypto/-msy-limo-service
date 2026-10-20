@@ -71,6 +71,13 @@ export const MARYLAND_BATCH7 = [
           "Family celebrations at community halls and churches around Village de L'Est and Lake Forest book Sprinter vans and stretch limousines that keep a large extended family together for the day rather than splitting across several cars. For a night in the CBD or the French Quarter, the drive in from New Orleans East is straightforward, but the drive home at 2 a.m. is not something to leave to chance — a reserved chauffeur is waiting at the agreed corner rather than circling for a fare.",
         ],
       },
+      {
+        h2: "A neighborhood still rebuilding its own way",
+        paragraphs: [
+          "New Orleans East's rebuilding since Hurricane Katrina has followed its own path rather than a single master plan — some blocks along Read Boulevard have come back as busy retail corridors, others remain quieter residential streets rebuilding house by house, and our chauffeurs who cover the area regularly have learned the difference rather than treating the whole section as one uniform trip.",
+          "The sheer size of New Orleans East, the largest geographic section of the city, also means two addresses that look close together on a map can be a genuine ten-minute drive apart along Chef Menteur Highway or Hayne Boulevard, which is why we confirm the exact address and nearest cross street at booking rather than quoting a flat neighborhood-wide estimate.",
+        ],
+      },
     ],
     vehicles: vehicles(),
     faqs: [

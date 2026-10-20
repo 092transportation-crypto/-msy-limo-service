@@ -627,6 +627,13 @@ export const MARYLAND_BATCH5 = [
           "City Park weddings at the Pavilion of the Two Sisters sometimes add a shorter second line around the lagoons before guests transfer by vehicle to a reception elsewhere in the city — a combination we coordinate as a single wedding-day booking.",
         ],
       },
+      {
+        h2: "Heat, humidity and what guests should know before they join",
+        paragraphs: [
+          "A New Orleans second line in formal wear is a different experience in April than it is in a July afternoon, and couples planning a longer summer route sometimes shorten the parade itself and let the trailing vehicle carry more of the guest list sooner rather than later, especially for older relatives or anyone in heels on uneven brick sidewalks. We're glad to talk through that trade-off with a couple or planner before the day rather than after someone has already overheated three blocks in.",
+          "Handkerchiefs, parasols and the occasional second line umbrella are part of the tradition for a reason beyond style — they genuinely help in New Orleans humidity — and our trailing vehicle always carries bottled water for anyone who needs to step out of the parade early and ride the rest of the way.",
+        ],
+      },
     ],
     vehicles: vehicles(),
     faqs: [

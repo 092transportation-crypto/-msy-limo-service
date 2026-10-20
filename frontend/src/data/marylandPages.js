@@ -6,6 +6,7 @@ import { MARYLAND_BATCH4 } from "@/data/marylandPagesBatch4";
 import { MARYLAND_BATCH5 } from "@/data/marylandPagesBatch5";
 import { MARYLAND_BATCH6 } from "@/data/marylandPagesBatch6";
 import { MARYLAND_BATCH7 } from "@/data/marylandPagesBatch7";
+import { MARYLAND_BATCH8 } from "@/data/marylandPagesBatch8";
 
 export const MARYLAND_PAGES = [
   {
@@ -4039,7 +4040,7 @@ export const MARYLAND_PAGES = [
     "name": "Gibson Island",
     "badge": "Maryland Limo Service",
     "h1": "Gibson Island Limo Service",
-    "metaTitle": "Gibson Island Limo Service",
+    "metaTitle": "Gibson Island Limo Service | Car Service, Anne Arundel Co.",
     "metaDescription": "Chauffeured limo & car service in Gibson Island, Maryland. BWI, DCA & Dulles airport transfers, weddings, corporate & events. Flat. Call (877) 609-1919.",
     "stats": [
       {
@@ -4089,6 +4090,13 @@ export const MARYLAND_PAGES = [
         "h2": "Corporate travel, weddings and events",
         "paragraphs": [
           "Executives from the Baltimore and Annapolis firms whose principals live on the island, plus Fort Meade and BWI-corridor executives keep a corporate account for visiting clients and roadshow days. Weddings at the Gibson Island Club get a Sprinter van or stretch limousine with a chauffeur who has staged the venue before. For a night out, hourly service means the car waits and nobody drives home."
+        ]
+      },
+      {
+        "h2": "The gatehouse, the causeway and private-community logistics",
+        "paragraphs": [
+          "Gibson Island is a private, gated community reached by a single causeway, and every vehicle entering has to clear the gatehouse, which means a driver who hasn't been cleared in advance can lose real time at the gate rather than at the destination. We confirm your name and the date with the gatehouse ahead of the pickup or drop-off, so the chauffeur's arrival is expected rather than questioned.",
+          "That same single-road layout also means regatta weekends and Gibson Island Club events can back up the causeway itself when a large number of guests arrive within the same hour, and our chauffeurs who know the island build that possibility into the pickup time rather than cutting it close."
         ]
       }
     ],
@@ -4411,6 +4419,13 @@ export const MARYLAND_PAGES = [
         "h2": "Corporate travel, weddings and events",
         "paragraphs": [
           "Executives from GEICO, the Friendship Heights law and finance offices, NIH and Walter Reed to the north and the embassies and agencies of Northwest Washington keep a corporate account for visiting clients and roadshow days. Weddings at the Chevy Chase Club get a Sprinter van or stretch limousine with a chauffeur who has staged the venue before. For a night out, hourly service means the car waits and nobody drives home."
+        ]
+      },
+      {
+        "h2": "Friendship Heights shopping and Rock Creek Park photo stops",
+        "paragraphs": [
+          "The Collection at Chevy Chase and the Wisconsin Avenue shops around Friendship Heights draw a steady flow of hourly charter bookings, often paired with a Bethesda Row lunch or dinner stop a mile north — the chauffeur waits with the vehicle while you shop rather than circling the block or hunting for a parking garage.",
+          "Rock Creek Park's wooded stretch along Beach Drive and the Milkhouse Ford area is a popular stop for wedding and engagement photography, and our chauffeurs plan the pickup and parking around the park's weekend road closures, which block Beach Drive to vehicle traffic on Saturdays and Sundays in warmer months."
         ]
       }
     ],
@@ -10711,6 +10726,13 @@ export const MARYLAND_PAGES = [
         ]
       },
       {
+        "h2": "Multi-Day Programs and On-Site Coordination",
+        "paragraphs": [
+          "A three-day conference rarely has a clean start and finish: speakers arrive early to rehearse, exhibit staff needs a pre-dawn ride to beat the load-in deadline, and a closing dinner can run long enough that the last shuttle loop leaves well after the official agenda ends. We assign a single on-site contact for the length of your program rather than a different dispatcher for each day, so a schedule change on day two doesn't require re-explaining the whole event from scratch.",
+          "For programs spanning several Maryland or DC venues in one trip — a Baltimore Convention Center session followed by a National Harbor dinner, for instance — we build the full multi-day manifest in advance, so the vehicles and chauffeurs assigned to your group already know the second and third day's stops before the group lands."
+        ]
+      },
+      {
         "h2": "Rates, Cancellation and Booking",
         "paragraphs": [
           "Transfers between airports, hotels and venues are priced flat by vehicle class. Shuttle loops and full-day programs are priced hourly with a minimum, and both are confirmed in writing before the first pickup. There is no surge pricing during conventions, holiday weeks or bad weather.",
@@ -10794,6 +10816,10 @@ export const MARYLAND_PAGES = [
       {
         "label": "National Harbor Transportation",
         "to": "/national-harbor-transportation"
+      },
+      {
+        "label": "Bethesda Limo Service",
+        "to": "/bethesda-limo-service"
       }
     ],
     "schema": {
@@ -10887,6 +10913,13 @@ export const MARYLAND_PAGES = [
         ]
       },
       {
+        "h2": "Commissioning Week and Boat Show Logistics",
+        "paragraphs": [
+          "Commissioning Week in late May is the single busiest visitor week Annapolis sees all year — every Main Street inn and Eastport guesthouse books out months ahead, King George Street closes to general traffic for the ceremony itself, and parking anywhere near the Yard disappears entirely. We confirm the specific gate and ID requirements for your family's event with the Academy's public schedule before the week starts, rather than assuming last year's rules still apply.",
+          "October's Sailboat and Powerboat Shows bring a similar crush to City Dock, with show access roads and shuttle lots that change slightly from year to year. Our chauffeurs check the current show map each October rather than relying on where the shuttle lot sat the previous season, so a drop-off point that worked last year doesn't turn into a dead end this year."
+        ]
+      },
+      {
         "h2": "How This Page Differs From Our Standard BWI to Annapolis Route",
         "paragraphs": [
           "Our BWI to Annapolis route page covers the corridor for everyone, including commuters and legislators. This page is written for out-of-town guests: Academy families, boat show attendees, sailors and wedding guests who need help with hotel drop-offs, gate logistics and multi-day plans.",
@@ -10970,6 +11003,10 @@ export const MARYLAND_PAGES = [
       {
         "label": "Baltimore to Annapolis",
         "to": "/baltimore-to-annapolis"
+      },
+      {
+        "label": "Chesapeake Bay Events Transportation",
+        "to": "/chesapeake-bay-events-transportation"
       }
     ],
     "schema": {
@@ -11062,6 +11099,13 @@ export const MARYLAND_PAGES = [
         ]
       },
       {
+        "h2": "Seasonal and Event Travel Across the Three Airports",
+        "paragraphs": [
+          "The District's calendar moves airport demand as much as any one airline schedule. Cherry Blossom season fills downtown hotels and closes streets around the Tidal Basin in late March and early April, inaugurations and major marches bring motorcade routes and security perimeters that change for the day, and a packed National Mall event can add real time to the last mile between the airport and a downtown hotel even when the flight itself lands on schedule.",
+          "None of that changes your fare. We quote the same flat rate during Cherry Blossom weekends and state visits as any ordinary Tuesday, and our chauffeurs check the day's closures and motorcade notices before planning the route in from Reagan, Dulles or BWI rather than discovering a shutdown mid-trip."
+        ]
+      },
+      {
         "h2": "Flat Rates, Wait Time and Cancellation",
         "paragraphs": [
           "Every transfer is priced flat by vehicle class and confirmed at booking. Tolls and gratuity are disclosed up front, and the rate does not change if a state visit closes downtown or a storm delays your flight. Domestic arrivals include 45 minutes of complimentary wait time; international arrivals at Dulles and BWI include 60.",
@@ -11145,6 +11189,10 @@ export const MARYLAND_PAGES = [
       {
         "label": "National Harbor Transportation",
         "to": "/national-harbor-transportation"
+      },
+      {
+        "label": "Baltimore to Washington DC",
+        "to": "/baltimore-to-washington-dc"
       }
     ],
     "schema": {
@@ -11239,6 +11287,13 @@ export const MARYLAND_PAGES = [
         ]
       },
       {
+        "h2": "Rain Plans and Weather-Dependent Waterfront Venues",
+        "paragraphs": [
+          "Eastern Shore and Chesapeake waterfront venues build a tent or indoor backup into nearly every contract, and the shuttle schedule needs the same contingency: a venue switching the ceremony indoors at the last minute, or moving a cocktail hour off an exposed dock, can shift the pickup point by a few hundred yards without changing the time. We confirm the day-of rain plan with the venue's coordinator the morning of the wedding so the shuttle loop matches whichever version of the day actually happens.",
+          "Summer storms on the Bay also tend to arrive and clear within an hour, so rather than cancelling a shuttle loop over an afternoon forecast, we hold the published schedule and adjust the exact pickup spot in real time with the coordinator, which keeps guests moving instead of standing under a venue awning waiting for an update."
+        ]
+      },
+      {
         "h2": "Rates, Cancellation and What Guests See",
         "paragraphs": [
           "Airport transfers are flat rates by vehicle class. Shuttle loops and standby time are priced hourly with a minimum, and the full program is confirmed in writing. Wedding, limousine and Sprinter bookings can be cancelled free up to 12 hours before pickup; sedan and SUV airport transfers up to 3 hours.",
@@ -11322,6 +11377,10 @@ export const MARYLAND_PAGES = [
       {
         "label": "BWI to Annapolis Car Service",
         "to": "/bwi-to-annapolis-car-service"
+      },
+      {
+        "label": "National Harbor Transportation",
+        "to": "/national-harbor-transportation"
       }
     ],
     "schema": {
@@ -11416,6 +11475,13 @@ export const MARYLAND_PAGES = [
         ]
       },
       {
+        "h2": "Customs Delays and International Connections",
+        "paragraphs": [
+          "A long customs line at Dulles is the single most common reason an international arrival runs later than the flight's listed landing time, and it has nothing to do with how smoothly the flight itself went — a wide-body arrival bank from Europe or the Gulf can back the hall up well past an hour even on an ordinary Tuesday. We track the flight's actual landing, not the customs queue, which is exactly why 60 minutes of complimentary wait time is built into every international pickup rather than a shorter domestic-style window.",
+          "For visitors connecting onward to Reagan or BWI for a second flight, we plan that transfer with real customs-delay margin rather than the airline's minimum connection time, since missing a domestic connection because of an immigration line is one of the more avoidable travel problems we help prevent."
+        ]
+      },
+      {
         "h2": "Rates, Groups and Cancellation",
         "paragraphs": [
           "Transfers are priced flat by vehicle class with Dulles Toll Road charges and gratuity disclosed up front. There is no surge pricing during summits, inaugurations or weather delays. Tour groups and delegations landing together ride in a 13-passenger Mercedes Sprinter; families choose an Escalade or Suburban for luggage; executives prefer the BMW 7 Series or Mercedes-Benz S-Class.",
@@ -11499,6 +11565,10 @@ export const MARYLAND_PAGES = [
       {
         "label": "Airport Transportation",
         "to": "/services/airport-transportation"
+      },
+      {
+        "label": "Rockville Limo Service",
+        "to": "/rockville-limo-service"
       }
     ],
     "schema": {
@@ -11518,6 +11588,7 @@ export const MARYLAND_PAGES = [
   ...MARYLAND_BATCH5,
   ...MARYLAND_BATCH6,
   ...MARYLAND_BATCH7,
+  ...MARYLAND_BATCH8,
 ];
 
 // Every page carries five FAQs (visible block + FAQPage schema).

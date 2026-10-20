@@ -71,6 +71,13 @@ export const MARYLAND_BATCH4 = [
           "Both options include flight tracking, the complimentary wait window and the same fleet: Mercedes-Benz and BMW sedans, Cadillac Escalade and Chevrolet Suburban SUVs, Mercedes Sprinter vans and stretch limousines. Child car seats are available on request for either.",
         ],
       },
+      {
+        h2: "Finding MSY's baggage claim and terminal layout",
+        paragraphs: [
+          "MSY's single terminal keeps baggage claim on one level, with each airline's bags landing on a numbered carousel posted on the arrivals board, so the chauffeur knows exactly which carousel to stand near before your flight even lands rather than scanning the hall once you've already collected your bags. For a connecting traveler unfamiliar with the terminal, that single detail removes most of the guesswork a first MSY arrival usually involves.",
+          "International arrivals clear a separate customs and immigration path before reaching the same baggage hall, which is the main reason those flights carry a longer 60-minute complimentary wait rather than the standard 45 — the chauffeur is watching the customs flow as much as the flight-tracking board, and stays positioned at the hall exit until you clear it.",
+        ],
+      },
     ],
     vehicles: vehicles(),
     faqs: [
