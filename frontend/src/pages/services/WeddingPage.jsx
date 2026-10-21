@@ -177,6 +177,25 @@ const WeddingPage = () => {
         </div>
       </section>
 
+      <section className="py-16 bg-black">
+        <div className="max-w-4xl mx-auto px-6 md:px-12">
+          <h2 className="text-3xl font-medium mb-6 text-amber-500" style={{ fontFamily: "'Playfair Display', serif" }}>
+            Planning Your Wedding Day Transportation
+          </h2>
+          <div className="space-y-5 text-white/70 leading-relaxed">
+            <p>
+              A wedding day almost never runs on one vehicle. Most New Orleans weddings we work move through three or four legs — a getting-ready pickup, the ceremony, a photo stop, and the reception, often with a guest shuttle running on its own schedule alongside the wedding party's cars. We plan the whole day as one itinerary rather than a series of separate bookings, with the same chauffeur staying with your wedding party from the first pickup to the getaway car at the end of the night.
+            </p>
+            <p>
+              Venue access matters more here than almost anywhere else in our business. New Orleans has no shortage of stunning venues on streets a stretch limousine simply cannot reach — French Quarter courtyards, historic Garden District blocks, narrow lanes in Covington and Mandeville. We check your exact ceremony and reception addresses in advance and recommend the right vehicle for each one, rather than assuming a stretch limo works everywhere.
+            </p>
+            <p>
+              Second-line parades, a signature New Orleans wedding tradition, add their own timing considerations — a brass band procession through the French Quarter or Garden District needs a staging point for the vehicles, not just a pickup time. We plan around the parade route and build in the buffer a receiving line or a long second line naturally adds to the schedule, so your transportation never becomes the thing holding up the celebration.
+            </p>
+          </div>
+        </div>
+      </section>
+
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-6 md:px-12">
           <div className="grid lg:grid-cols-2 gap-12 items-center">

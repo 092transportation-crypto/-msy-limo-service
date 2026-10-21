@@ -97,6 +97,28 @@ const BookingPage = () => {
         </div>
       </section>
 
+      {/* What happens next */}
+      <section className="py-16 bg-black">
+        <div className="max-w-4xl mx-auto px-6 md:px-12">
+          <h2 className="text-3xl font-medium mb-6 text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-amber-500" style={{ fontFamily: "'Playfair Display', serif" }}>
+            What Happens After You Submit a Request
+          </h2>
+          <div className="space-y-5 text-white/70 leading-relaxed">
+            <p>
+              Once your request reaches dispatch, a member of our team confirms your pickup and drop-off addresses, vehicle class, and — for airport trips — your flight number, so we can start tracking it right away. You'll get a flat rate back, usually within 15 minutes during normal hours, and your card is only charged once you've approved that rate and the reservation is confirmed in writing.
+            </p>
+            <p>
+              For weddings, corporate accounts, and multi-stop itineraries, mention it in your request and we'll route it to someone who can plan the full day rather than quoting a single point-to-point trip. If your plans change after booking, our cancellation policy is straightforward: sedans and SUVs free up to 3 hours before pickup, Sprinter vans and special-event bookings free up to 12 hours before pickup.
+            </p>
+            <p>
+              Need a car sooner than the form allows, or simply prefer to talk it through? Call{" "}
+              <a href="tel:+18776091919" className="text-amber-400 hover:text-amber-300 font-semibold">(877) 609-1919</a>{" "}
+              — dispatch answers 24/7 and can often confirm a same-day reservation faster than an online request.
+            </p>
+          </div>
+        </div>
+      </section>
+
       <PageFaq faqs={BOOKING_FAQS} heading="Booking Questions" />
       <Footer />
     </div>

@@ -179,7 +179,26 @@ const AboutPage = () => {
         </div>
       </section>
 
-      <motion.section 
+      <section className="py-16 bg-black">
+        <div className="max-w-4xl mx-auto px-6 md:px-12">
+          <h2 className="text-3xl font-medium mb-6 text-amber-500" style={{ fontFamily: "'Playfair Display', serif" }}>
+            What Being Licensed & Insured Actually Means
+          </h2>
+          <div className="space-y-5 text-white/70 leading-relaxed">
+            <p>
+              Operating as a Licensed & Insured Carrier isn't a marketing phrase — it's a specific set of requirements we meet on every vehicle and every chauffeur. Each vehicle in our fleet carries commercial passenger insurance built for paid transportation, not a personal auto policy extended to cover the occasional ride. Every chauffeur passes a background check before ever being scheduled for a pickup, and our dispatch team tracks every active trip in real time, which is simply not something an on-demand rideshare driver or an unlicensed operator can offer.
+            </p>
+            <p>
+              That standard applies the same way whether you're booking a quick airport transfer or coordinating a full wedding day with multiple vehicles. We quote a flat rate before you book, confirm it in writing, and stand behind it regardless of traffic, demand, or how a trip actually unfolds. If a flight is delayed, our chauffeur is already tracking it and adjusts automatically — you're never the one managing that from the terminal.
+            </p>
+            <p>
+              Clients who book us once for an airport run often come back for weddings, corporate accounts, and recurring travel, because the same licensed, insured, background-checked standard applies to every booking, not just the first one. If you have questions about our credentials or coverage before you book, call <a href="tel:+18776091919" className="text-amber-400">(877) 609-1919</a> — we're glad to answer them directly.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <motion.section
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
@@ -187,12 +206,12 @@ const AboutPage = () => {
         className="py-20 bg-gradient-to-r from-amber-600 via-amber-500 to-amber-600"
       >
         <div className="max-w-7xl mx-auto px-6 md:px-12 text-center">
-          <motion.h2 
+          <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
-            className="text-3xl font-medium mb-6 text-black" 
+            className="text-3xl font-medium mb-6 text-black"
             style={{ fontFamily: "'Playfair Display', serif" }}
           >
             Ready to Experience the Difference?

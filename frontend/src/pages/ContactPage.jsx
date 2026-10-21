@@ -422,6 +422,26 @@ const ContactPage = () => {
         </div>
       </section>
 
+      {/* What to expect */}
+      <section className="py-16 bg-black">
+        <div className="max-w-4xl mx-auto px-6 md:px-12">
+          <h2 className="text-3xl font-medium mb-6 text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-amber-500" style={{ fontFamily: "'Playfair Display', serif" }}>
+            What to Expect When You Reach Out
+          </h2>
+          <div className="space-y-5 text-white/70 leading-relaxed">
+            <p>
+              Submitting the form above or calling (877) 609-1919 starts the same process either way: a member of our dispatch team confirms your pickup and drop-off addresses, your date and time, and the vehicle class that fits your group and luggage. For airport trips, we'll also ask for your flight number so we can track it and adjust your pickup automatically if the schedule changes. You'll have a flat rate confirmed before you book — nothing changes at drop-off because of traffic, demand, or how long the trip actually took.
+            </p>
+            <p>
+              Most quote requests get a response within 15 minutes during normal hours, and our dispatch desk is staffed 24/7 for bookings, changes, and live trip support, including the early-morning departures and late-night arrivals that make up a large share of our airport business. If your trip involves a wedding, a corporate account, or a multi-stop itinerary, mention it in your message and we'll route it to the right person rather than treating it as a standard point-to-point quote.
+            </p>
+            <p>
+              Prefer to talk it through? Call <a href="tel:+18776091919" className="text-amber-400">(877) 609-1919</a> directly — it's often the fastest way to lock in same-day or last-minute availability, and our team can walk through vehicle options and pricing with you in real time instead of waiting on an email exchange.
+            </p>
+          </div>
+        </div>
+      </section>
+
       <PageFaq faqs={CONTACT_FAQS} />
       <Footer />
     </div>

@@ -244,10 +244,17 @@ const EventsPage = () => {
             limousine with a professional chauffeur holding the door — no parking, no rideshare roulette, no waiting
             in the rain after the encore.
           </p>
-          <p className="text-gray-300 leading-relaxed">
+          <p className="text-gray-300 leading-relaxed mb-4">
             We handle concerts, galas, proms, bachelor and bachelorette parties, and game days with late-night
             availability and flat, all-inclusive pricing. Tell us the venue and the schedule; your chauffeur handles
             everything else. Book online in minutes or call 24/7 — your VIP night starts at the curb.
+          </p>
+          <p className="text-gray-300 leading-relaxed">
+            A reserved vehicle also removes the one real headache of event nights: pricing that spikes the moment doors
+            open or a game lets out. Rideshare demand peaks exactly when a venue empties all at once, while your flat
+            rate is confirmed before the event even starts. Our <Link to="/services/special-events" className="text-amber-400 hover:text-amber-300">special events page</Link> and
+            event-specific guides — from <Link to="/mardi-gras-parade-transportation" className="text-amber-400 hover:text-amber-300">Mardi Gras</Link> to the{" "}
+            <Link to="/new-orleans-convention-center-transportation" className="text-amber-400 hover:text-amber-300">Convention Center</Link> — cover the venue details that matter most on the night.
           </p>
         </div>
       </section>

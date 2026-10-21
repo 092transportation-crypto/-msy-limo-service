@@ -242,10 +242,19 @@ const CorporatePage = () => {
             executive car service gives your team exactly that — Wi-Fi-equipped vehicles, NDA-friendly chauffeurs,
             and a dedicated account manager for corporate transportation in New Orleans at any scale.
           </p>
-          <p className="text-gray-300 leading-relaxed">
+          <p className="text-gray-300 leading-relaxed mb-4">
             From business travel transportation in New Orleans for visiting executives to convention transportation
             for entire delegations during peak season, one call moves your whole team. That reliability is why
             companies searching for an executive car service in New Orleans make us their standing arrangement.
+          </p>
+          <p className="text-gray-300 leading-relaxed">
+            We also run dedicated programs for the industries that drive the most corporate travel through MSY —{" "}
+            <Link to="/new-orleans-hospitality-tourism-transportation" className="text-amber-400 hover:text-amber-300">hospitality and tourism</Link>,{" "}
+            <Link to="/louisiana-oil-gas-energy-corporate-transportation" className="text-amber-400 hover:text-amber-300">oil, gas and energy</Link>,{" "}
+            <Link to="/new-orleans-healthcare-medical-transportation" className="text-amber-400 hover:text-amber-300">healthcare</Link>,{" "}
+            <Link to="/new-orleans-legal-corporate-transportation" className="text-amber-400 hover:text-amber-300">legal</Link>, and the{" "}
+            <Link to="/new-orleans-meetings-events-industry-transportation" className="text-amber-400 hover:text-amber-300">meetings and conventions industry</Link>{" "}
+            — each with its own schedule, discretion and documentation requirements built in.
           </p>
         </div>
       </section>

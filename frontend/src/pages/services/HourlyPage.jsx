@@ -134,14 +134,40 @@ const HourlyPage = () => {
         </div>
       </section>
 
-      <section className="py-20 bg-gray-900">
-        <div className="max-w-7xl mx-auto px-6 md:px-12">
-          <motion.h2 
+      <section className="py-16 bg-black">
+        <div className="max-w-4xl mx-auto px-6 md:px-12">
+          <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
-            className="text-3xl font-medium text-center mb-12 text-amber-500" 
+            className="text-3xl font-medium mb-6 text-amber-500"
+            style={{ fontFamily: "'Playfair Display', serif" }}
+          >
+            How Hourly Charter Works
+          </motion.h2>
+          <div className="space-y-5 text-white/70 leading-relaxed">
+            <p>
+              Hourly charter is the service to book when your day does not fit a single point-to-point trip. Instead of booking a ride, waiting, and booking another ride, you reserve one chauffeur and one vehicle for a block of time — a minimum of three hours — and the car stays with you for every stop on your list. That might mean a morning of plantation touring along River Road, an afternoon of shopping and errands across Metairie and Kenner, or a corporate itinerary that moves between three offices and a working lunch before the day is done.
+            </p>
+            <p>
+              The schedule is yours to change. Unlike a fixed reservation with a single destination, hourly service lets you add a stop, extend a visit, or rearrange the order of the day as it actually unfolds. Your chauffeur waits curbside while you're inside a venue, keeps the vehicle climate-controlled and ready, and simply drives to the next address when you're ready to move — no re-booking, no second fare, no guessing whether a car will be available when you come back outside.
+            </p>
+            <p>
+              Pricing is straightforward: a flat hourly rate by vehicle class, confirmed before you book, with the three-hour minimum covering most half-day itineraries. Longer bookings — a full day of wedding-adjacent errands, a multi-stop corporate roadshow, or an extended wine and plantation tour out of the city — are quoted the same way, by the hour, with no surprise charges for the stops in between. Call <a href="tel:+18776091919" className="text-amber-400">(877) 609-1919</a> with your rough itinerary and we'll confirm the vehicle and the rate before your day begins.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-20 bg-gray-900">
+        <div className="max-w-7xl mx-auto px-6 md:px-12">
+          <motion.h2
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5 }}
+            className="text-3xl font-medium text-center mb-12 text-amber-500"
             style={{ fontFamily: "'Playfair Display', serif" }}
           >
             Popular Uses

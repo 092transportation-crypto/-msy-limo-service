@@ -7,6 +7,7 @@ import { MARYLAND_BATCH5 } from "@/data/marylandPagesBatch5";
 import { MARYLAND_BATCH6 } from "@/data/marylandPagesBatch6";
 import { MARYLAND_BATCH7 } from "@/data/marylandPagesBatch7";
 import { MARYLAND_BATCH8 } from "@/data/marylandPagesBatch8";
+import { MARYLAND_BATCH9 } from "@/data/marylandPagesBatch9";
 
 export const MARYLAND_PAGES = [
   {
@@ -11589,6 +11590,7 @@ export const MARYLAND_PAGES = [
   ...MARYLAND_BATCH6,
   ...MARYLAND_BATCH7,
   ...MARYLAND_BATCH8,
+  ...MARYLAND_BATCH9,
 ];
 
 // Every page carries five FAQs (visible block + FAQPage schema).

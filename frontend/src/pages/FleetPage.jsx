@@ -148,7 +148,26 @@ const FleetPage = () => {
         </div>
       </section>
 
-      <motion.section 
+      <section className="py-16 bg-black">
+        <div className="max-w-4xl mx-auto px-6 md:px-12">
+          <h2 className="text-3xl font-medium mb-6 text-amber-500" style={{ fontFamily: "'Playfair Display', serif" }}>
+            Choosing the Right Vehicle for Your Trip
+          </h2>
+          <div className="space-y-5 text-white/70 leading-relaxed">
+            <p>
+              The right vehicle depends on your group size, your luggage, and the kind of trip you're taking — not just the number of seats. A sedan like our Mercedes-Benz E-Class is the natural choice for one or two business travelers with a carry-on each, while the BMW 7 Series and Mercedes S-Class add a step up in cabin comfort for VIP and executive clients who want the quietest, most refined ride available.
+            </p>
+            <p>
+              Families and small groups with real luggage — golf bags, stroller, extra suitcases for a week away — do better in the Lincoln Nautilus, Chevrolet Suburban, or Cadillac Escalade, each of which trades a little of the sedan's formality for meaningfully more cargo room. For a wedding party, a corporate team, or any group of up to thirteen traveling together, a Mercedes Sprinter keeps everyone in one vehicle rather than splitting across several cars and several bookings.
+            </p>
+            <p>
+              Not sure which class fits your trip? Tell us your passenger count, luggage, and occasion when you call <a href="tel:+18776091919" className="text-amber-400">(877) 609-1919</a> or request a quote online, and we'll recommend the right vehicle before you book — not after you've already committed to one that doesn't quite fit.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <motion.section
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
@@ -156,12 +175,12 @@ const FleetPage = () => {
         className="py-16 bg-gradient-to-r from-amber-600 via-amber-500 to-amber-600"
       >
         <div className="max-w-4xl mx-auto px-6 md:px-12 text-center">
-          <motion.h2 
+          <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
-            className="text-3xl font-bold mb-4 text-black" 
+            className="text-3xl font-bold mb-4 text-black"
             style={{ fontFamily: "'Playfair Display', serif" }}
           >
             Ready to Ride in Style?

@@ -1636,4 +1636,584 @@ export const GUIDES = [
       { label: "Book a Ride", to: "/booking" },
     ],
   },
+  {
+    slug: "msy-to-metairie-kenner-limo-cost",
+    title: "How Much Does a Limo Cost From MSY Airport to Metairie and Kenner?",
+    metaTitle: "MSY to Metairie & Kenner Limo Cost | 2026 Guide",
+    metaDescription:
+      "What a chauffeured car actually costs from MSY to Metairie and Kenner by vehicle class, plus why these short, close-in trips are often undervalued.",
+    category: "Pricing",
+    author: "MSY Limo Team",
+    date: "October 21, 2026",
+    readTime: "6 min read",
+    excerpt:
+      "Metairie and Kenner sit closer to MSY than almost anywhere else we serve, which makes pricing these trips a different exercise than a long-haul fare. Here's what they actually cost.",
+    image: "/images/blog/scenario-airport-pickup-1.webp",
+    content: `
+      <p>Most of our cost guides look at longer hauls — Baton Rouge, the Gulf Coast, downtown New Orleans. Metairie and Kenner are a different case entirely: both sit within a few miles of the terminal, and that closeness changes the economics of the trip more than most travelers expect.</p>
+
+      <h2>Why a Short Trip Isn't Automatically a Cheap One</h2>
+      <p>It's tempting to assume a five-minute drive should cost next to nothing, but a flat-rate car service prices the whole service, not just the mileage: a licensed, background-checked chauffeur, a commercially insured vehicle, real-time flight tracking, and complimentary wait time that starts at touchdown rather than at your request. Those costs are largely fixed regardless of whether the drive is 4 miles or 40, which is exactly why rideshare apps — which price almost entirely on distance and demand — can look artificially cheap on a short hop and then spike without warning the moment a flight bank lands or a Saints game lets out nearby.</p>
+
+      <h2>Kenner: The Closest Transfer We Run</h2>
+      <p>Kenner sits immediately around MSY, and most <a href="/kenner-limo-service">Kenner pickups and drop-offs</a> run just a few miles and well under 15 minutes door to door. A luxury sedan transfer in this range is typically our most affordable airport fare, and it's a popular choice for airport-hotel stays, car-free business travelers working near the airport, and families who'd rather not rent a car for a trip that barely leaves Kenner at all.</p>
+
+      <h2>Metairie: A Slightly Longer, Still Quick Run</h2>
+      <p>Metairie adds a few more miles and typically 15 to 25 minutes depending on which part of town — Old Metairie, the Lakeside area, or the neighborhoods closer to the Jefferson Highway corridor each sit a little differently relative to the airport. <a href="/metairie-limo-service">Metairie car service</a> remains a flat rate confirmed before you book regardless of which part of the parish you're headed to, and an SUV or Sprinter van is a common upgrade for golf trips, wedding guests, or family groups with more luggage than a sedan comfortably holds.</p>
+
+      <h2>What Actually Changes the Fare Within These Two Cities</h2>
+      <ul>
+        <li><strong>Vehicle class.</strong> A sedan is priced lower than an SUV, which is priced lower than a Sprinter van or stretch limousine — the same ordering that applies everywhere in our fleet.</li>
+        <li><strong>Exact address.</strong> A pickup near the airport's own perimeter costs less than one deep in Old Metairie or out toward the Lakeside Shopping Center, even though both are "Metairie."</li>
+        <li><strong>Time of day and flight timing.</strong> Our rate doesn't surge, but very early or very late pickups can affect which vehicle classes are readily available if you book last-minute.</li>
+        <li><strong>Meet-and-greet.</strong> Having your chauffeur wait inside baggage claim with a name sign, rather than curbside, is a small add-on worth asking about if you're traveling with young kids or heavy luggage.</li>
+      </ul>
+
+      <h2>Why a Flat Rate Beats Rideshare Even on a Short Hop</h2>
+      <p>Rideshare pricing for a Kenner or Metairie trip looks appealing on a quiet Tuesday and considerably less appealing the moment a flight bank lands, a convention lets out downtown, or a Saints game sends traffic through the area. A reserved car quotes the rate before you fly and holds it regardless of what else is happening at the airport that hour — see our <a href="/why-you-should-never-take-uber-to-msy">look at rideshare's structural weak points at MSY</a> for the mechanics of why that gap shows up specifically at the airport.</p>
+
+      <h2>Getting an Exact Quote</h2>
+      <p>Because Metairie and Kenner each cover a range of neighborhoods at slightly different distances from the terminal, the fastest way to get an exact number is to call <a href="tel:+18776091919">(877) 609-1919</a> or request a quote online with your specific address and vehicle preference — we'll confirm the flat rate before you book, with no surprises at drop-off.</p>
+    `,
+    faqs: [
+      { q: "Is a limo to Kenner cheaper than a limo to Metairie?", a: "Usually, yes — Kenner sits immediately around the airport, so most Kenner trips run a few miles and under 15 minutes, while Metairie adds a bit more distance and time depending on the neighborhood." },
+      { q: "Why doesn't a 10-minute ride cost almost nothing?", a: "A flat-rate car service prices the full service — a licensed chauffeur, an insured vehicle, flight tracking and complimentary wait time — which stays largely fixed regardless of trip length. That's also why rideshare can look cheaper on paper but surge unpredictably." },
+      { q: "Does the exact Metairie neighborhood affect the price?", a: "Yes. A pickup near the airport's edge costs less than one deep in Old Metairie or near Lakeside, even though both addresses are in Metairie." },
+      { q: "Can I get an SUV or Sprinter van for a Metairie or Kenner trip?", a: "Yes. Vehicle class is priced in tiers — sedan, SUV, then Sprinter van or stretch limousine — and you can choose based on group size and luggage." },
+      { q: "How do I get an exact quote for my address?", a: "Call (877) 609-1919 or request a quote online with your specific pickup address and vehicle preference, and we'll confirm the flat rate before you book." },
+    ],
+    relatedLinks: [
+      { label: "Kenner Limo Service", to: "/kenner-limo-service" },
+      { label: "Metairie Limo Service", to: "/metairie-limo-service" },
+      { label: "MSY Limo Cost by Destination", to: "/msy-limo-cost-by-destination" },
+      { label: "Airport Transportation", to: "/services/airport-transportation" },
+      { label: "MSY Airport Meet and Greet", to: "/msy-airport-meet-and-greet" },
+      { label: "Why You Should Never Take Uber to MSY", to: "/why-you-should-never-take-uber-to-msy" },
+      { label: "Our Fleet", to: "/fleet" },
+      { label: "Book a Ride", to: "/booking" },
+    ],
+  },
+  {
+    slug: "how-to-choose-airport-car-service-new-orleans",
+    title: "How to Choose the Best Airport Car Service in New Orleans: A Buyer's Checklist",
+    metaTitle: "Best Airport Car Service in New Orleans: Checklist",
+    metaDescription:
+      "A practical checklist for choosing an airport car service in New Orleans — licensing, insurance, flight tracking, pricing and cancellation policy.",
+    category: "Guides",
+    author: "MSY Limo Team",
+    date: "October 21, 2026",
+    readTime: "7 min read",
+    excerpt:
+      "'Best' is a marketing word every company uses about itself. Here's the actual checklist to run any New Orleans airport car service through before you book.",
+    image: "/images/blog/airport-terminal-glass.webp",
+    content: `
+      <p>Every airport car service in New Orleans claims to be the best one. That word doesn't tell you much on its own. What actually separates a reliable chauffeur service from a risky one is a short list of concrete, checkable facts — the kind you can verify with a phone call before you ever hand over a credit card. This is that checklist.</p>
+
+      <h2>1. Is It a Licensed, Insured Commercial Carrier?</h2>
+      <p>This is the single most important question, and a legitimate operator will answer it immediately and specifically — not with a vague "yes, of course." Commercial passenger transportation in Louisiana requires state and local permitting, and the company should be able to tell you its carrier status without hesitation. If a company is evasive about this question, that alone is a disqualifying answer.</p>
+
+      <h2>2. Are Chauffeurs Background-Checked, or Just "Drivers"?</h2>
+      <p>There's a meaningful difference between a professional chauffeur who has passed a background check and holds the right commercial credentials, and a rideshare-style driver using a personal vehicle with none of that vetting. Ask directly how drivers are screened, and ask whether the person behind the wheel is an employee or a gig-economy contractor — the answer tells you a lot about accountability if something goes wrong.</p>
+
+      <h2>3. Does the Rate Move, or Is It Flat and Confirmed Before You Book?</h2>
+      <p>A reputable car service quotes a flat rate at booking, tied to vehicle class and route, and that number does not change because a flight bank landed at the same time or a convention let out downtown. If a company's pricing is vague, variable, or only "confirmed" after you've already committed, you're not actually getting the flat-rate guarantee that's the whole point of booking in advance.</p>
+
+      <h2>4. Does It Actually Track Your Flight?</h2>
+      <p>Real flight tracking means the company follows your specific flight number and adjusts the pickup to your actual landing time, not your originally scheduled one. Ask what happens if your flight is delayed two hours — a company with real flight tracking and genuine complimentary wait time (ours is 45 minutes domestic, 60 international, timed from touchdown) will answer plainly. A company without it will start talking about additional fees.</p>
+
+      <h2>5. What's the Cancellation Policy, in Writing?</h2>
+      <p>Plans change. A company that can tell you its exact cancellation window — ours is 3 hours for sedans and SUVs, 12 hours for Sprinter vans and special-event bookings — and will put it in writing at booking is one you can actually plan around. Vague answers here tend to predict vague answers everywhere else.</p>
+
+      <h2>6. What Does the Fleet Actually Look Like?</h2>
+      <p>Photos on a website are easy to stage. Ask what specific vehicles are in active service, how they're maintained, and whether what you book is what shows up — not a substitute vehicle because the one you reserved wasn't available. See our <a href="/fleet">current fleet</a> for the kind of specificity a legitimate operator should be able to match.</p>
+
+      <h2>7. How Does It Compare to Just Taking Rideshare?</h2>
+      <p>Sometimes rideshare genuinely is the better call — our <a href="/uber-vs-limo-service">Uber vs. limo service guide</a> covers exactly which trips those are. A good car service should be comfortable with that honesty rather than overselling every single ride as needing a reserved car.</p>
+
+      <h2>Putting the Checklist Into One Phone Call</h2>
+      <p>You can run through all seven questions in a single call before you book. If a company answers plainly, specifically, and consistently, you've found the "best" that actually matters — not the marketing word, the operational substance behind it. Call <a href="tel:+18776091919">(877) 609-1919</a> and ask us the same questions; we'll give you the same direct answers.</p>
+    `,
+    faqs: [
+      { q: "What's the single most important question to ask an airport car service?", a: "Whether it's a licensed, insured commercial carrier. A legitimate operator answers this immediately and specifically, without hedging." },
+      { q: "How is a chauffeur different from a rideshare driver?", a: "A professional chauffeur is typically an employee who has passed a background check and holds commercial credentials, versus a rideshare driver using a personal vehicle without that vetting." },
+      { q: "Should the price change if my flight is delayed?", a: "No. A flat rate confirmed at booking shouldn't change for a delay — and genuine flight tracking means the pickup adjusts automatically with complimentary wait time built in." },
+      { q: "What cancellation policy should I expect?", a: "A specific, written window — ours is 3 hours for sedans and SUVs, 12 hours for Sprinter vans and special-event bookings." },
+      { q: "Is a reserved car service always better than rideshare?", a: "No — some trips are genuinely better suited to rideshare. See our Uber vs. limo service guide for a trip-by-trip breakdown." },
+    ],
+    relatedLinks: [
+      { label: "Airport Transportation", to: "/services/airport-transportation" },
+      { label: "Uber vs. Limo Service in New Orleans", to: "/uber-vs-limo-service" },
+      { label: "Why You Should Never Take Uber to MSY", to: "/why-you-should-never-take-uber-to-msy" },
+      { label: "Our Fleet", to: "/fleet" },
+      { label: "MSY Airport Black Car Service", to: "/msy-airport-black-car-service" },
+      { label: "Best Car Service at Louis Armstrong Airport", to: "/best-car-service-louis-armstrong-new-orleans-airport" },
+      { label: "About Us", to: "/about" },
+      { label: "Book a Ride", to: "/booking" },
+    ],
+  },
+  {
+    slug: "rideshare-safety-risks-msy-airport",
+    title: "Rideshare Safety and Liability at MSY Airport: What Travelers Don't Realize",
+    metaTitle: "Rideshare Safety Risks at MSY Airport | What to Know",
+    metaDescription:
+      "What's different about rideshare safety and liability specifically at MSY — driver verification, insurance gaps, and late-night pickups explained.",
+    category: "Comparisons",
+    author: "MSY Limo Team",
+    date: "October 21, 2026",
+    readTime: "7 min read",
+    excerpt:
+      "Our other rideshare guides cover pricing and logistics at MSY. This one is specifically about safety and liability — the questions most travelers never think to ask until something goes wrong.",
+    image: "/images/stock/u-1449965408869.webp",
+    content: `
+      <p>Our <a href="/why-you-should-never-take-uber-to-msy">guide to rideshare's structural weak points at MSY</a> covers pricing and pickup logistics. This one is narrower and more serious: it's about safety and liability specifically, the questions travelers rarely think to ask until they're standing at the curb at midnight with a stranger's car pulling up.</p>
+
+      <h2>Who's Actually Driving?</h2>
+      <p>A rideshare app assigns whichever driver happens to be nearby and available at that moment — a different person every time, driving a personal vehicle that may or may not be properly maintained or commercially insured for passenger transport. A reserved chauffeur service, by contrast, employs background-checked drivers in commercially insured vehicles, vetted before they're ever assigned a passenger, not approved through an app's onboarding flow with limited ongoing oversight.</p>
+
+      <h2>The Insurance Gap Most Riders Never Think About</h2>
+      <p>Rideshare companies carry insurance, but coverage can vary depending on the exact moment of an incident — whether the driver was en route to a pickup, actively carrying a passenger, or between rides — and claims involving rideshare accidents can become genuinely complicated to sort out. A commercially insured car service carries coverage specifically built around passenger transport for every mile of the trip, which is a materially different liability picture if something does go wrong.</p>
+
+      <h2>Late-Night and Early-Morning Arrivals</h2>
+      <p>MSY sees international flights land late at night and domestic departures that require pre-dawn pickups, and both situations put solo travelers — especially women traveling alone — in a position of getting into an unfamiliar car with a stranger in a dark, quiet airport lot. A reserved chauffeur is assigned in advance, often the same driver you've used before if you book repeatedly, and the vehicle and driver's name are known to you before you ever leave the terminal.</p>
+
+      <h2>No Way to Verify Who's Coming</h2>
+      <p>A rideshare app gives you a name, a photo and a license plate — useful, but all of it is self-reported by the platform and none of it involves the kind of verification a commercial transportation company performs on its own chauffeurs before they're ever allowed to pick up a passenger. If a ride is cancelled and reassigned at the last minute, as sometimes happens, the verification process effectively restarts with someone new.</p>
+
+      <h2>What to Actually Do With This Information</h2>
+      <p>None of this means rideshare is unsafe for every trip — for a short, daytime ride with a friend, the risk profile is genuinely low. The point is narrower: late-night arrivals, solo travelers, families with children, and anyone prioritizing verified safety over convenience have a meaningfully different risk calculation at an airport than they do for a quick trip across town. Our <a href="/uber-vs-limo-service">trip-by-trip rideshare comparison guide</a> covers the full range of New Orleans trips if you want the broader picture.</p>
+
+      <h2>What a Reserved Chauffeur Changes</h2>
+      <p>With MSY Limo Service, your chauffeur is assigned and confirmed before you fly, your vehicle is commercially insured specifically for passenger transport, and every driver has passed a background check before ever being scheduled for a ride. For a late-night arrival or a solo traveler who wants that certainty locked in before landing, call <a href="tel:+18776091919">(877) 609-1919</a> or book online in advance.</p>
+    `,
+    faqs: [
+      { q: "Is rideshare actually less safe than a chauffeur service?", a: "The risk profile is different, not uniformly worse. For a short daytime trip, rideshare risk is generally low. For late-night arrivals or solo travelers, the lack of advance vetting and driver consistency is a real difference worth weighing." },
+      { q: "How is insurance different between rideshare and a car service?", a: "Rideshare insurance coverage can vary depending on the exact moment of an incident. A commercially insured car service carries coverage specifically for passenger transport for the full duration of every trip." },
+      { q: "Are rideshare drivers background-checked the same way chauffeurs are?", a: "Rideshare platforms run their own screening, but it's generally less rigorous and less consistently enforced than the background checks and credentialing required of a licensed chauffeur at a commercial carrier." },
+      { q: "Why does late-night arrival matter specifically?", a: "A quiet, dark airport lot late at night is a different environment than a busy daytime pickup. Knowing your driver and vehicle in advance, rather than meeting a stranger assigned moments before, matters more in that setting." },
+      { q: "Does this mean I should never use rideshare at MSY?", a: "No — it's about matching the choice to the trip. See our Uber vs. limo service guide for which specific MSY trips are reasonably served by rideshare and which aren't." },
+    ],
+    relatedLinks: [
+      { label: "Why You Should Never Take Uber to MSY", to: "/why-you-should-never-take-uber-to-msy" },
+      { label: "Uber vs. Limo Service in New Orleans", to: "/uber-vs-limo-service" },
+      { label: "Airport Transportation", to: "/services/airport-transportation" },
+      { label: "MSY Airport Meet and Greet", to: "/msy-airport-meet-and-greet" },
+      { label: "Why Hire a Chauffeur", to: "/why-hire-a-chauffeur" },
+      { label: "About Us", to: "/about" },
+      { label: "Our Fleet", to: "/fleet" },
+      { label: "Book a Ride", to: "/booking" },
+    ],
+  },
+  {
+    slug: "hidden-costs-rideshare-new-orleans-business-travel",
+    title: "The Hidden Costs of Rideshare for New Orleans Business Travel",
+    metaTitle: "Hidden Costs of Rideshare for Business Travel | NOLA",
+    metaDescription:
+      "Why rideshare can cost New Orleans businesses more than it appears — liability exposure, expense-report friction and lost executive time.",
+    category: "Corporate",
+    author: "MSY Limo Team",
+    date: "October 21, 2026",
+    readTime: "7 min read",
+    excerpt:
+      "Our corporate car service vs. rideshare guide covers the general comparison. This one runs the actual numbers a finance or risk team should be looking at.",
+    image: "/images/blog/scenario-corporate-2.webp",
+    content: `
+      <p>Our <a href="/corporate-car-service-vs-rideshare">corporate car service vs. rideshare guide</a> lays out the general comparison for New Orleans businesses. This one is narrower — it's aimed at whoever actually signs off on travel policy, and it runs through the costs that don't show up on the per-ride receipt but show up somewhere else in the company's budget or risk exposure.</p>
+
+      <h2>The Fare Isn't the Whole Cost</h2>
+      <p>A rideshare receipt looks simple: one fare, one line item. But the true cost of a business trip includes the executive's time waiting for a driver to arrive, the time lost when a ride is cancelled and reassigned, and the opportunity cost of an executive checking an app instead of preparing for the meeting they're traveling to. A reserved car with a confirmed pickup time and flight tracking returns that time to the traveler, which has real value even when it doesn't appear on an expense report.</p>
+
+      <h2>Liability Exposure Companies Don't Think About Until They Need To</h2>
+      <p>When a company books ground transportation for a client-facing trip, a sales visit, or an executive's travel, it's implicitly taking on some responsibility for how that trip goes. Rideshare's insurance coverage can vary by the exact moment of an incident, and a company has essentially no influence over who's driving or how that vehicle has been maintained. A commercially insured car service, with background-checked chauffeurs and a defined liability structure, shifts that exposure to a vendor built to carry it — the same reason companies vet other vendors handling anything consequential.</p>
+
+      <h2>Expense Report Friction Adds Up</h2>
+      <p>A finance team reconciling individual rideshare receipts from a traveling sales team — each with a slightly different fare, a different surge multiplier, and inconsistent documentation — spends real administrative time on something a single consolidated invoice would eliminate. A <a href="/new-orleans-corporate-travel-setup-guide">corporate account</a> with itemized billing by date, passenger and route turns a stack of loose receipts into one line a finance team can process in minutes.</p>
+
+      <h2>Surge Pricing Is an Unbudgeted Line Item</h2>
+      <p>Rideshare fares spike exactly when New Orleans is busiest — a convention week, a festival, a Saints game — which is also exactly when business travelers are most likely to be in town. A flat rate confirmed before you book removes this variability from the budget entirely, which matters more over a full year of travel than any single trip.</p>
+
+      <h2>Professional Appearance for Client-Facing Travel</h2>
+      <p>Picking up a client or candidate in whatever car happens to be assigned by an app sends a different signal than arriving in a consistent, professional vehicle with a chauffeur who knows the schedule. For client-facing travel, recruiting visits, and executive transport, that signal is itself a cost-benefit consideration, not just an aesthetic one.</p>
+
+      <h2>Running the Real Comparison</h2>
+      <p>None of this means every single company trip needs a reserved car — a quick solo hop with no client involved is a reasonable rideshare use, as our <a href="/uber-vs-limo-service">trip-by-trip guide</a> covers. The point for a finance or risk team is to price the full picture: time, liability, administrative overhead and surge exposure, not just the number on the receipt. Call <a href="tel:+18776091919">(877) 609-1919</a> to discuss setting up a corporate account that removes these hidden costs from your travel budget.</p>
+    `,
+    faqs: [
+      { q: "What costs does a rideshare receipt not show?", a: "Executive time lost waiting or dealing with a cancelled ride, liability exposure the company implicitly takes on, and administrative time reconciling inconsistent receipts." },
+      { q: "How does liability exposure differ between rideshare and a car service?", a: "Rideshare insurance coverage can vary by the exact moment of an incident, and the company has no influence over who's driving. A commercially insured car service carries defined coverage and background-checked chauffeurs." },
+      { q: "Does a corporate account actually save administrative time?", a: "Yes. A single itemized invoice by date, passenger and route replaces a stack of individual rideshare receipts with inconsistent documentation." },
+      { q: "Why does surge pricing matter for a travel budget?", a: "Rideshare fares spike during conventions, festivals and games — exactly when business travelers are most likely to be in town — making costs unpredictable. A flat rate removes that variability." },
+      { q: "Is rideshare ever still the right choice for a business trip?", a: "Yes, for a quick solo hop with no client involved. See our Uber vs. limo service guide for which specific trips make sense either way." },
+    ],
+    relatedLinks: [
+      { label: "Corporate Car Service vs. Rideshare", to: "/corporate-car-service-vs-rideshare" },
+      { label: "Corporate Travel Setup Guide", to: "/new-orleans-corporate-travel-setup-guide" },
+      { label: "Corporate Transportation", to: "/services/corporate-transportation" },
+      { label: "New Orleans Legal Industry Transportation", to: "/new-orleans-legal-corporate-transportation" },
+      { label: "New Orleans Healthcare Industry Transportation", to: "/new-orleans-healthcare-medical-transportation" },
+      { label: "MSY Airport Corporate Car Service", to: "/msy-airport-corporate-car-service" },
+      { label: "Our Fleet", to: "/fleet" },
+      { label: "Book a Ride", to: "/booking" },
+    ],
+  },
+  {
+    slug: "wedding-transportation-booking-mistakes-new-orleans",
+    title: "Common Wedding Transportation Booking Mistakes in New Orleans (and How to Avoid Them)",
+    metaTitle: "Wedding Transportation Mistakes to Avoid | NOLA",
+    metaDescription:
+      "The most common wedding limo booking mistakes New Orleans couples make — vehicle sizing, venue access, timing buffers — and how to avoid them.",
+    category: "Weddings",
+    author: "MSY Limo Team",
+    date: "October 21, 2026",
+    readTime: "7 min read",
+    excerpt:
+      "Our complete wedding limo planning guide covers how to plan the day right. This one covers the specific mistakes that actually derail wedding transportation.",
+    image: "/images/blog/scenario-wedding-2.webp",
+    content: `
+      <p>Our <a href="/blog/wedding-limo-service-louisiana">complete wedding limo planning guide</a> walks through how to plan transportation for a Louisiana wedding from the ground up. This guide takes the opposite approach: it's a list of the specific, recurring mistakes that actually derail wedding-day transportation, drawn from the kinds of calls we get after something's already gone sideways at someone else's wedding.</p>
+
+      <h2>Mistake 1: Booking One Vehicle for a Job That Needs Three</h2>
+      <p>Couples sometimes assume a single stretch limousine can handle the whole day — the bride, the groom, the whole wedding party, and maybe a few guests too. In practice, most full-service weddings need a sedan for the couple, a Sprinter van or limousine for the wedding party, and often a separate guest shuttle for out-of-town family. Trying to squeeze everyone into one vehicle either means a cramped, late-running day or a vehicle that simply can't fit everyone it needs to.</p>
+
+      <h2>Mistake 2: Not Checking Whether a Stretch Limo Can Actually Reach the Venue</h2>
+      <p>New Orleans has no shortage of gorgeous wedding venues on streets a stretch limousine cannot physically navigate — narrow French Quarter blocks, courtyard entrances, historic districts with tight turns. Booking the wrong vehicle class for the venue means discovering the problem on the wedding day itself, when it's far too late to fix. Confirm your venue's actual street access with your transportation provider before you book, not after.</p>
+
+      <h2>Mistake 3: Scheduling With No Buffer at All</h2>
+      <p>A wedding day timeline built on best-case timing — hair and makeup finishing exactly on schedule, the photographer wrapping up precisely on time, the receiving line moving briskly — almost never survives contact with an actual wedding day. Build 20 to 30 minutes of slack into each transition, especially between getting ready and the ceremony, so a normal delay doesn't cascade into a late start that stresses everyone involved.</p>
+
+      <h2>Mistake 4: Forgetting the Getaway Car Until the Week Before</h2>
+      <p>The getaway car is often an afterthought because it happens at the very end of a long day, but it needs the same planning as every other leg — confirmed timing, a staging location the chauffeur can actually reach near the reception's exit, and a clear handoff point. Couples who treat it as a last-minute add-on sometimes find their preferred vehicle class isn't available for that specific time slot anymore.</p>
+
+      <h2>Mistake 5: Not Coordinating Guest Shuttles With the Actual Hotel Block</h2>
+      <p>If your wedding has a hotel room block, a guest shuttle only works if it's actually timed to when guests are leaving the hotel and when the venue needs them to arrive — not a generic loop running on its own schedule. Share your hotel block and rough guest count with your transportation provider so the shuttle timing is built around your actual guests, not guesswork.</p>
+
+      <h2>Mistake 6: Booking Too Late for Peak Wedding Season</h2>
+      <p>Spring and fall Saturdays — and any date near a major local event — book out Sprinter vans and stretch limousines first. Couples who wait until a month or two before the date sometimes find their first-choice vehicle already committed to another wedding that day. Two to three months out is a safer window for peak-season dates; see our <a href="/top-10-wedding-venues-near-new-orleans">wedding venues guide</a> for timing specific to popular local venues.</p>
+
+      <h2>Mistake 7: Not Confirming the Cancellation and Change Policy</h2>
+      <p>Wedding plans shift — a guest count changes, a timeline moves by an hour. Confirm your provider's cancellation and change policy in writing before the day (ours is 12 hours' notice for Sprinter vans and limousines), so a reasonable last-minute adjustment doesn't turn into an unexpected charge or a scramble.</p>
+
+      <p>Avoiding these seven mistakes is mostly a matter of asking the right questions early rather than assuming the details will sort themselves out. Call <a href="tel:+18776091919">(877) 609-1919</a> to plan your wedding transportation with a chauffeur who'll flag these issues before they become problems, not after.</p>
+    `,
+    faqs: [
+      { q: "How many vehicles does a typical New Orleans wedding actually need?", a: "Most full-service weddings need at least a sedan for the couple and a Sprinter van or limousine for the wedding party, often with a separate guest shuttle for out-of-town family." },
+      { q: "Can a stretch limousine reach every French Quarter venue?", a: "No. Many historic blocks and courtyard entrances can't accommodate a stretch limousine. Confirm street access with your provider before booking that vehicle class." },
+      { q: "How much buffer should be built into a wedding-day timeline?", a: "20 to 30 minutes between transitions, especially between getting ready and the ceremony, is a reasonable cushion for the delays that happen on nearly every wedding day." },
+      { q: "When should the getaway car be planned?", a: "At the same time as the rest of the day's transportation, not the week before. It needs a confirmed staging location and timing just like every other leg." },
+      { q: "How far ahead should we book for peak wedding season?", a: "Two to three months ahead for spring and fall Saturdays, since Sprinter vans and stretch limousines book out first for those dates." },
+    ],
+    relatedLinks: [
+      { label: "Wedding Limo Service in Louisiana: Complete Guide", to: "/blog/wedding-limo-service-louisiana" },
+      { label: "Wedding Limo Service", to: "/services/wedding-limo" },
+      { label: "Top 10 Wedding Venues Near New Orleans", to: "/top-10-wedding-venues-near-new-orleans" },
+      { label: "New Orleans Wedding Limo Service", to: "/new-orleans-wedding-limo-service" },
+      { label: "Baton Rouge Limo Service for Weddings", to: "/baton-rouge-limo-service-for-weddings" },
+      { label: "Second Line Wedding Parade Transportation", to: "/second-line-wedding-parade-transportation" },
+      { label: "Our Fleet", to: "/fleet" },
+      { label: "Book a Ride", to: "/booking" },
+    ],
+  },
+  {
+    slug: "top-things-to-do-new-orleans-how-to-get-there",
+    title: "Top Things to Do in New Orleans and How to Get There",
+    metaTitle: "Top Things to Do in New Orleans | A Visitor's Guide",
+    metaDescription:
+      "The best things to do in New Orleans — French Quarter, Garden District, City Park, swamp tours and more — and how to get to each one.",
+    category: "Travel Guides",
+    author: "MSY Limo Team",
+    date: "October 21, 2026",
+    readTime: "8 min read",
+    excerpt:
+      "New Orleans rewards visitors who see more than just Bourbon Street. Here's a practical rundown of the city's best attractions, organized around how you'll actually get to each one.",
+    image: "/images/blog/landmark-nola-1.webp",
+    content: `
+      <p>Plenty of "things to do in New Orleans" lists read like a tourism brochure and skip the part visitors actually need: how you get from one place to the next. This guide organizes the city's best attractions by neighborhood and adds the practical transportation detail each one calls for.</p>
+
+      <h2>The French Quarter: Start Here, But Don't Stay Only Here</h2>
+      <p>Jackson Square, the St. Louis Cathedral, the French Market and Bourbon Street itself are the obvious starting point, and most downtown hotels put you within walking distance. The Quarter's narrow one-way streets and nightly pedestrian zones mean a chauffeured pickup works best staged on a perimeter street rather than attempting a curbside stop deep inside — our <a href="/french-quarter-transportation-guide">French Quarter transportation guide</a> covers exactly where that staging works best.</p>
+
+      <h2>The Garden District and Uptown: A Different New Orleans</h2>
+      <p>A short ride or streetcar trip from downtown, the Garden District's antebellum mansions and Uptown's university neighborhoods around Tulane and Loyola offer a quieter, architecturally rich contrast to the Quarter's energy. Magazine Street's miles of boutiques and restaurants make this an easy half-day or full-day addition. See our <a href="/garden-district-uptown-transportation-guide">Garden District and Uptown guide</a> for getting around the area efficiently.</p>
+
+      <h2>City Park and NOMA</h2>
+      <p>Larger than many small towns, <a href="/city-park-nola-transportation">City Park</a> holds the New Orleans Museum of Art, the Besthoff Sculpture Garden, City Putt, and the Carousel Gardens, spread across grounds big enough that parking at the wrong lot means a long walk to your actual destination. A chauffeur who drops you at the entrance closest to where you're actually headed saves real time here, especially with kids in tow.</p>
+
+      <h2>The National WWII Museum</h2>
+      <p>Consistently ranked among the country's top museums, the <a href="/national-wwii-museum-transportation">National WWII Museum</a> on Magazine Street in the Warehouse District is worth a full day for history-minded visitors, and it pairs naturally with lunch or dinner in the Warehouse District's restaurant row before or after your visit.</p>
+
+      <h2>Audubon Zoo and Aquarium</h2>
+      <p>Family visitors with a day to spend on wildlife can combine the <a href="/audubon-zoo-aquarium-transportation">Audubon Zoo and Aquarium of the Americas</a> into one day, with the zoo's Uptown location and the aquarium's downtown riverfront site a short, easy transfer apart by chauffeured car.</p>
+
+      <h2>A Swamp Tour Outside the City</h2>
+      <p>No New Orleans trip feels complete without seeing the actual Louisiana wetlands, and a <a href="/swamp-tour-transportation">swamp tour</a> an hour or so outside the city delivers that in a half-day round trip, typically combined with hotel pickup and drop-off so you're not driving unfamiliar back roads yourself.</p>
+
+      <h2>A River Road Plantation Day Trip</h2>
+      <p>For visitors interested in the region's deeper history, the <a href="/river-road-plantation-tour-transportation">River Road plantation estates</a> upriver from New Orleans make for a full-day excursion, best done with a chauffeur who knows the River Road route rather than attempting the drive and the tour schedule yourself.</p>
+
+      <h2>Festival Timing, If You're Planning Around One</h2>
+      <p>If your visit lines up with Mardi Gras, Jazz Fest, French Quarter Festival or Essence Festival, plan transportation around street closures and parade routes specifically — our dedicated guides for <a href="/blog/mardi-gras-transportation-guide">Mardi Gras</a> and <a href="/blog/new-orleans-jazz-fest-transportation">Jazz Fest</a> cover the logistics those events add on top of the ordinary city layout.</p>
+
+      <h2>Putting a Multi-Stop Day Together</h2>
+      <p>Rather than booking separate rides for each stop, a chauffeur on hourly service can move you between several of these attractions in one day, waiting between stops and adjusting the schedule as your actual pace through the city changes. Call <a href="tel:+18776091919">(877) 609-1919</a> or book our <a href="/services/hourly-charter">hourly charter service</a> to put together a day that covers more than one neighborhood without the hassle of separate bookings.</p>
+    `,
+    faqs: [
+      { q: "What's the best way to see both the French Quarter and the Garden District in one trip?", a: "They're a short ride apart. Many visitors do the Quarter on foot and use a chauffeured car or the streetcar to reach the Garden District and Uptown for a different pace and architecture." },
+      { q: "Is City Park worth a full day?", a: "It can be. Between NOMA, the sculpture garden, City Putt and the Carousel Gardens, the park is large enough that a full day is reasonable, especially with a chauffeur minimizing the walk between its spread-out attractions." },
+      { q: "How far is a swamp tour from New Orleans?", a: "Most swamp tours run about an hour outside the city each way, typically packaged as a half-day round trip with hotel pickup and drop-off." },
+      { q: "Can one chauffeur cover multiple attractions in a single day?", a: "Yes. Hourly charter service lets a chauffeur wait between stops and adjust the schedule as your day's actual pace changes, rather than booking separate point-to-point rides." },
+      { q: "Should I plan differently if my visit overlaps a festival?", a: "Yes. Mardi Gras, Jazz Fest and similar events bring street closures and parade routes that affect pickup and drop-off locations — check our event-specific guides before you finalize plans." },
+    ],
+    relatedLinks: [
+      { label: "French Quarter Transportation Guide", to: "/french-quarter-transportation-guide" },
+      { label: "Garden District & Uptown Transportation Guide", to: "/garden-district-uptown-transportation-guide" },
+      { label: "City Park Transportation", to: "/city-park-nola-transportation" },
+      { label: "National WWII Museum Transportation", to: "/national-wwii-museum-transportation" },
+      { label: "Audubon Zoo & Aquarium Transportation", to: "/audubon-zoo-aquarium-transportation" },
+      { label: "Swamp Tour Transportation", to: "/swamp-tour-transportation" },
+      { label: "Hourly Charter Service", to: "/services/hourly-charter" },
+      { label: "Book a Ride", to: "/booking" },
+    ],
+  },
+  {
+    slug: "msy-airport-car-service-vs-taxi-vs-rideshare",
+    title: "MSY Airport Ground Transportation Guide: Car Service vs. Taxi vs. Rideshare",
+    metaTitle: "MSY Car Service vs. Taxi vs. Rideshare | Guide",
+    metaDescription:
+      "Comparing car service, taxis and rideshare at MSY airport — pricing, reliability and pickup logistics, so first-time visitors know what to expect.",
+    category: "Guides",
+    author: "MSY Limo Team",
+    date: "October 21, 2026",
+    readTime: "7 min read",
+    excerpt:
+      "New Orleans has one major airport and three real ground transportation options once you land. Here's how car service, taxis and rideshare actually compare at MSY.",
+    image: "/images/stock/u-1492684223066.webp",
+    content: `
+      <p>Unlike some metro areas with multiple regional airports to choose between, New Orleans travelers have one straightforward question once they land at MSY: car service, taxi, or rideshare? Each option works a little differently at this specific airport, and knowing the mechanics before you land makes the choice easier.</p>
+
+      <h2>Reserved Car Service: Confirmed Before You Fly</h2>
+      <p>A reserved chauffeur service is the only option of the three that's arranged before you ever board your flight. Your rate is a flat quote confirmed at booking, your chauffeur tracks your actual flight number and adjusts the pickup to real landing time rather than the original schedule, and complimentary wait time (45 minutes domestic, 60 international) is built in so a delay doesn't cost you extra. This is the option built specifically for travelers with a deadline, a group, heavy luggage, or simply a preference for certainty over improvisation.</p>
+
+      <h2>Taxis: Metered, Available Curbside, Less Predictable</h2>
+      <p>Taxis at MSY queue at a designated curbside stand and charge metered or zone-based fares depending on the destination. They don't require advance booking, which is their main advantage, but pricing can be less transparent than a confirmed flat rate, and availability at the taxi stand can vary — particularly late at night when fewer cabs are actively working the airport.</p>
+
+      <h2>Rideshare: Cheap on a Quiet Day, Unpredictable on a Busy One</h2>
+      <p>Uber and Lyft both serve MSY from a dedicated rideshare pickup zone, reached by following terminal signage after baggage claim. Pricing is dynamic — it can be genuinely inexpensive on a quiet weekday and spike substantially during a flight bank, a festival, or a convention week. There's no flight tracking tied to your actual arrival, so a delayed flight means managing your own pickup timing from the terminal rather than having it handled automatically.</p>
+
+      <h2>A Side-by-Side on What Actually Matters</h2>
+      <ul>
+        <li><strong>Price certainty:</strong> car service confirms the rate before you fly; taxi and rideshare pricing can vary by time, demand and route.</li>
+        <li><strong>Flight delay handling:</strong> car service tracks your flight automatically; taxi and rideshare require you to manage your own timing.</li>
+        <li><strong>Group and luggage capacity:</strong> car service offers SUVs and Sprinter vans sized to the group in advance; taxis and rideshare depend on whatever vehicle is dispatched.</li>
+        <li><strong>Advance booking:</strong> car service is reserved ahead of time; taxi and rideshare are available on arrival without a reservation.</li>
+        <li><strong>Driver vetting:</strong> car service chauffeurs are background-checked employees; taxi licensing varies by operator, and rideshare vetting is run entirely by the app.</li>
+      </ul>
+
+      <h2>Which One Fits Your Trip</h2>
+      <p>A solo traveler landing midday with a carry-on and no particular deadline can reasonably use rideshare or a taxi. A family with luggage, a late-night or pre-dawn flight, a business trip with a fixed meeting time, or simply a traveler who wants one less variable on arrival day is better served by a reserved car service. Our <a href="/uber-vs-limo-service">full trip-by-trip comparison guide</a> goes deeper into specific New Orleans scenarios beyond the airport alone.</p>
+
+      <h2>First-Time Visitors: What to Expect at MSY Specifically</h2>
+      <p>MSY's terminal is compact enough that none of the three options involves an especially long walk from baggage claim, but the taxi stand and rideshare pickup zone are separate, clearly marked areas outside the terminal doors, while a reserved car service either meets you curbside or, with meet-and-greet, waits for you inside baggage claim itself — the most direct option if you're unfamiliar with the airport or traveling with a lot to carry.</p>
+
+      <h2>Booking a Reserved Car for Your MSY Arrival</h2>
+      <p>If you'd rather lock in your ground transportation before you land, call <a href="tel:+18776091919">(877) 609-1919</a> or book online — your rate is confirmed before you fly, and your chauffeur tracks your flight automatically.</p>
+    `,
+    faqs: [
+      { q: "Does New Orleans have more than one major airport to choose between?", a: "No — MSY (Louis Armstrong New Orleans International) is the region's one major commercial airport, so the real decision is which ground transportation to use once you land, not which airport to fly into." },
+      { q: "Is rideshare always cheaper than a reserved car service at MSY?", a: "Not always. Rideshare can be inexpensive on a quiet day but spikes during flight banks, festivals and conventions. A reserved car's flat rate is confirmed before you fly and doesn't change." },
+      { q: "What happens to a taxi or rideshare booking if my flight is delayed?", a: "Neither taxi nor rideshare tracks your specific flight, so you manage the timing yourself from the terminal. A reserved car service tracks your flight and adjusts the pickup automatically." },
+      { q: "Where do taxis and rideshare pick up at MSY?", a: "Both use designated curbside zones outside the terminal, reached by following posted signage after baggage claim — separate from where a reserved chauffeur typically meets you." },
+      { q: "Which option is best for a family with luggage or a late flight?", a: "A reserved car service, generally. It offers a vehicle sized to your group booked in advance, flight tracking, and complimentary wait time that a taxi or rideshare doesn't provide." },
+    ],
+    relatedLinks: [
+      { label: "Uber vs. Limo Service in New Orleans", to: "/uber-vs-limo-service" },
+      { label: "Why You Should Never Take Uber to MSY", to: "/why-you-should-never-take-uber-to-msy" },
+      { label: "First-Time New Orleans Visitor Guide", to: "/first-time-new-orleans-visitor-guide" },
+      { label: "Airport Transportation", to: "/services/airport-transportation" },
+      { label: "MSY Airport Meet and Greet", to: "/msy-airport-meet-and-greet" },
+      { label: "Airport Transportation Guide", to: "/airport-transportation-guide" },
+      { label: "Our Fleet", to: "/fleet" },
+      { label: "Book a Ride", to: "/booking" },
+    ],
+  },
+  {
+    slug: "prom-limo-cost-new-orleans-group-pricing",
+    title: "How Much Does Prom Limo Service Cost in New Orleans? Group Pricing Explained",
+    metaTitle: "Prom Limo Cost in New Orleans | Group Pricing",
+    metaDescription:
+      "What prom limo service actually costs in New Orleans — hourly rates by vehicle, how to split the bill by group size, and what affects the price.",
+    category: "Events",
+    author: "MSY Limo Team",
+    date: "October 21, 2026",
+    readTime: "6 min read",
+    excerpt:
+      "Our parent's planning guide covers safety and logistics. This one answers the question every group actually asks first: what does prom limo service cost, and how do we split it fairly?",
+    image: "/images/blog/fleet-sprinter-2.webp",
+    content: `
+      <p>Our <a href="/blog/prom-limo-service-new-orleans-parents-guide">prom limo parent's planning guide</a> covers the safety and logistics questions parents ask. This guide answers the question students and parents usually ask right after: what does it actually cost, and how do you split that fairly across a group?</p>
+
+      <h2>How Prom Transportation Is Typically Priced</h2>
+      <p>Prom limo service is almost always priced hourly with a minimum booking window, rather than as a flat per-trip rate, because the vehicle is reserved for the whole evening — pickup, dinner stop, the dance itself, and often an after-party — not a single point-to-point ride. As a general 2026 benchmark, hourly rates run roughly $85–$115 for a luxury sedan, $115–$150 for an SUV, and a separately quoted rate for stretch limousines and Sprinter vans, which carry more demand on peak prom weekends. A three- or four-hour minimum is standard.</p>
+
+      <h2>Vehicle Choice Changes the Per-Person Math Significantly</h2>
+      <p>A stretch limousine seating 8 and a Sprinter van seating up to 14 have different hourly rates, but the per-person cost often favors the larger vehicle once a group reaches a certain size — splitting a Sprinter van's rate across 12 students is frequently cheaper per person than splitting a smaller limousine's rate across 6. Before locking in a vehicle, do the actual per-person math for your specific group size rather than assuming the "prom vehicle" (a stretch limo) is automatically the most economical choice.</p>
+
+      <h2>What Changes the Total Beyond the Hourly Rate</h2>
+      <ul>
+        <li><strong>Hours booked.</strong> A dinner-then-dance night runs longer than a dance-only booking, and every extra hour adds to the total at the same hourly rate.</li>
+        <li><strong>Date demand.</strong> Prom weekends across the metro area's schools cluster in a few weeks each spring, and vehicles book out fastest for the most popular dates.</li>
+        <li><strong>Multiple pickup stops.</strong> Picking up students from several different addresses before heading to dinner adds time, which adds to the hourly total.</li>
+        <li><strong>Gratuity and fuel surcharge.</strong> Confirm whether these are included in the quoted hourly rate or added separately, so the group's final split matches what everyone expected.</li>
+      </ul>
+
+      <h2>A Practical Way to Split the Cost</h2>
+      <p>Most groups split the total booking cost evenly across every student in the vehicle, collected in advance by whichever parent or student is coordinating the booking, rather than trying to itemize who rode for which portion of the night. Confirming the total cost and the exact headcount before collecting money avoids the awkward conversation if someone drops out at the last minute — ask about the cancellation and change policy up front (ours is 12 hours' notice for Sprinter van and limousine bookings).</p>
+
+      <h2>Getting Multiple Groups Into One Quote</h2>
+      <p>If your group is deciding between a smaller limousine and a larger Sprinter van, or trying to combine with another group of friends to share a larger vehicle, call <a href="tel:+18776091919">(877) 609-1919</a> with your actual headcount, pickup addresses and the hours you need — we'll walk through the per-person math for your specific group rather than quoting a generic number that doesn't reflect your situation.</p>
+
+      <p>For the safety, chaperone and booking-process questions parents typically ask, see our <a href="/blog/prom-limo-service-new-orleans-parents-guide">parent's planning guide</a>.</p>
+    `,
+    faqs: [
+      { q: "Is prom limo service priced hourly or as a flat rate?", a: "Almost always hourly with a minimum booking window — typically three to four hours — since the vehicle is reserved for the whole evening, not a single point-to-point trip." },
+      { q: "Is a stretch limo or a Sprinter van cheaper per person?", a: "It depends on group size. A Sprinter van's hourly rate split across a larger group is often cheaper per person than a smaller limousine split across fewer students — do the math for your specific headcount." },
+      { q: "What besides the hourly rate affects the total cost?", a: "Hours booked, how many separate pickup stops are needed before dinner or the dance, date demand during peak prom weekends, and whether gratuity or fuel surcharge are included in the quote." },
+      { q: "How do groups usually split the cost fairly?", a: "Most groups divide the total booking cost evenly by headcount, collected in advance, after confirming the exact total and group size with the booking coordinator." },
+      { q: "What if someone in our group drops out after we've booked?", a: "Confirm the cancellation and change policy before booking — ours requires 12 hours' notice for Sprinter van and limousine bookings — so the remaining group isn't caught off guard." },
+    ],
+    relatedLinks: [
+      { label: "Prom Limo Service in New Orleans: Parent's Guide", to: "/blog/prom-limo-service-new-orleans-parents-guide" },
+      { label: "New Orleans Prom Limo Service", to: "/new-orleans-prom-limo-service" },
+      { label: "Metairie Prom Limo Service", to: "/metairie-prom-limo-service" },
+      { label: "Baton Rouge Prom Limo Service", to: "/baton-rouge-prom-limo-service" },
+      { label: "Special Events", to: "/services/special-events" },
+      { label: "Our Fleet", to: "/fleet" },
+      { label: "MSY Limo Cost by Destination", to: "/msy-limo-cost-by-destination" },
+      { label: "Book a Ride", to: "/booking" },
+    ],
+  },
+  {
+    slug: "business-traveler-airport-transportation-tips",
+    title: "10 Airport Transportation Tips for Business Travelers Flying Into MSY",
+    metaTitle: "10 Airport Tips for Business Travelers at MSY",
+    metaDescription:
+      "Ten practical tips for business travelers flying into MSY — booking, flight tracking, meet-and-greet, documentation and more. Call (877) 609-1919.",
+    category: "Corporate",
+    author: "MSY Limo Team",
+    date: "October 21, 2026",
+    readTime: "6 min read",
+    excerpt:
+      "A quick, practical list for anyone flying into MSY for business — the kind of tips that save real time on a trip where every minute before the meeting matters.",
+    image: "/images/blog/scenario-corporate-2.webp",
+    content: `
+      <p>Business travel through MSY comes with its own small set of frictions, and most of them are avoidable with a little planning. Here are ten practical tips, gathered from the kind of calls and questions we get from executives and road warriors traveling through New Orleans for work.</p>
+
+      <h2>1. Book Ground Transportation Before You Fly, Not After You Land</h2>
+      <p>Reserving a chauffeur before departure means a flat rate confirmed in advance and a vehicle already assigned to your flight number, rather than figuring out ground transportation while standing at baggage claim after a long flight.</p>
+
+      <h2>2. Use Flight Tracking Instead of Managing Your Own Timing</h2>
+      <p>A reserved car service that tracks your actual flight number removes one more thing from your plate during a delay — the pickup adjusts automatically, and complimentary wait time is built in, so you're not calling to explain you landed late.</p>
+
+      <h2>3. Consider Meet-and-Greet for Unfamiliar Trips</h2>
+      <p>If this is your first trip to New Orleans or you're arriving with equipment, display materials, or simply want one less thing to navigate solo, <a href="/msy-airport-meet-and-greet">meet-and-greet service</a> puts your chauffeur inside baggage claim with a name sign rather than meeting you curbside.</p>
+
+      <h2>4. Set Up a Corporate Account if You Travel Through MSY Regularly</h2>
+      <p>Frequent travelers and traveling teams benefit from a standing corporate account — consolidated billing, priority dispatch, and negotiated rates on recurring routes rather than booking fresh every time. See our <a href="/new-orleans-corporate-travel-setup-guide">corporate travel setup guide</a> for how to put one in place.</p>
+
+      <h2>5. Keep Documentation Simple From the Start</h2>
+      <p>A single itemized invoice from a corporate account is easier to process on an expense report than a stack of individual rideshare receipts with inconsistent fares. If expense reporting is a factor in your trip, ask about invoicing when you book.</p>
+
+      <h2>6. Plan for Convention and Festival Weeks</h2>
+      <p>If your trip overlaps a major convention, Mardi Gras, Jazz Fest, or a Saints home game, downtown traffic and rideshare demand both spike. Booking ahead and confirming your pickup and drop-off points in advance avoids discovering the conflict on arrival day.</p>
+
+      <h2>7. Choose the Right Vehicle for the Work You'll Do En Route</h2>
+      <p>If you need to work, take calls, or review materials during the ride, a sedan or SUV with a quiet cabin is worth requesting specifically rather than whatever vehicle happens to be available — mention it when you book.</p>
+
+      <h2>8. Build in a Buffer for Downtown Arrivals</h2>
+      <p>Conference check-in lines, hotel check-in, and downtown parking or drop-off logistics all take longer than they look on paper. Padding your schedule by 20-30 minutes on arrival day prevents a tight connection from becoming a missed meeting.</p>
+
+      <h2>9. Confirm the Cancellation Policy Before a Schedule Changes</h2>
+      <p>Business schedules shift constantly. Knowing your cancellation window in advance — ours is 3 hours for sedans and SUVs — means a rescheduled meeting doesn't turn into a surprise charge.</p>
+
+      <h2>10. Compare Against Rideshare Honestly, Trip by Trip</h2>
+      <p>Not every business trip needs a reserved car — a quick solo hop with no client involved might be a reasonable rideshare use. Our <a href="/corporate-car-service-vs-rideshare">corporate car service vs. rideshare guide</a> covers which trips actually benefit from the reservation and which don't.</p>
+
+      <h2>Putting It Together</h2>
+      <p>None of these tips require much extra effort, but together they remove most of the friction points that turn a routine business trip into an unnecessarily stressful one. Call <a href="tel:+18776091919">(877) 609-1919</a> to set up your next MSY business transfer or a standing corporate account for recurring travel.</p>
+    `,
+    faqs: [
+      { q: "What's the single most useful tip for a first-time business trip to MSY?", a: "Book ground transportation before you fly and use flight tracking, so your pickup adjusts automatically to your actual landing time instead of your original schedule." },
+      { q: "Is a corporate account worth it for occasional business travelers?", a: "It's most valuable for frequent travelers or traveling teams. Occasional travelers can still book individually, but anyone with recurring MSY trips should ask about consolidated billing and priority dispatch." },
+      { q: "How much buffer should I build in for a downtown arrival before a meeting?", a: "20 to 30 minutes beyond the drive time itself, to account for conference check-in, hotel check-in, and drop-off logistics in the CBD." },
+      { q: "Does convention or festival timing really affect my trip?", a: "Yes. Major conventions, Mardi Gras, Jazz Fest and Saints home games all increase downtown traffic and rideshare demand, so booking ahead and confirming pickup points matters more during those weeks." },
+      { q: "Should business travelers always use a reserved car instead of rideshare?", a: "Not always — a quick, low-stakes solo trip can be a reasonable rideshare use. See our corporate car service vs. rideshare guide for a trip-by-trip breakdown." },
+    ],
+    relatedLinks: [
+      { label: "Corporate Transportation", to: "/services/corporate-transportation" },
+      { label: "Corporate Car Service vs. Rideshare", to: "/corporate-car-service-vs-rideshare" },
+      { label: "Corporate Travel Setup Guide", to: "/new-orleans-corporate-travel-setup-guide" },
+      { label: "MSY Airport Meet and Greet", to: "/msy-airport-meet-and-greet" },
+      { label: "MSY Airport Corporate Car Service", to: "/msy-airport-corporate-car-service" },
+      { label: "New Orleans Meetings & Events Industry Transportation", to: "/new-orleans-meetings-events-industry-transportation" },
+      { label: "Our Fleet", to: "/fleet" },
+      { label: "Book a Ride", to: "/booking" },
+    ],
+  },
+  {
+    slug: "same-day-last-minute-msy-car-service",
+    title: "Same-Day and Last-Minute MSY Car Service: What's Actually Possible",
+    metaTitle: "Same-Day & Last-Minute MSY Car Service Guide",
+    metaDescription:
+      "Can you book MSY car service last-minute or same-day? What's realistic, what affects availability, and how to get a car on short notice.",
+    category: "Guides",
+    author: "MSY Limo Team",
+    date: "October 21, 2026",
+    readTime: "6 min read",
+    excerpt:
+      "Our other booking guides cover planning well ahead of time. This one is for the opposite situation — a trip that came together today, not two months ago.",
+    image: "/images/blog/scenario-airport-pickup-2.webp",
+    content: `
+      <p>Most of our booking guides assume you have weeks or months of lead time. This one is for the opposite situation: a flight booked this afternoon, a meeting that just got moved up, or a family emergency that doesn't care what your calendar looked like yesterday. Here's what's actually realistic on short notice.</p>
+
+      <h2>The Honest Answer: It Depends on the Hour and the Vehicle</h2>
+      <p>Same-day booking for a standard sedan or SUV is genuinely possible most of the time, particularly outside of peak demand windows — early morning and midday trips are usually easier to accommodate on short notice than Friday evening rush or the tail end of a major event weekend. Sprinter vans and stretch limousines, which carry more wedding and event-season demand, are considerably harder to secure same-day, since those vehicles are often already committed to a booking placed weeks earlier.</p>
+
+      <h2>What Actually Affects Last-Minute Availability</h2>
+      <ul>
+        <li><strong>Time of day.</strong> Overnight and pre-dawn requests sometimes have better odds than peak afternoon and evening windows, simply because fewer vehicles are already committed to other bookings at that hour.</li>
+        <li><strong>City-wide events.</strong> A major convention, a Saints game, Mardi Gras, or Jazz Fest pulls on the entire fleet at once, and last-minute availability drops sharply during those windows.</li>
+        <li><strong>Vehicle class requested.</strong> Sedans and SUVs have more units in the fleet than Sprinter vans and stretch limousines, which makes last-minute sedan and SUV bookings meaningfully easier.</li>
+        <li><strong>How far in advance "last minute" actually is.</strong> A call placed four hours before pickup has better odds than one placed twenty minutes before, even within the same day.</li>
+      </ul>
+
+      <h2>What to Do First If You Need a Car Today</h2>
+      <p>Call <a href="tel:+18776091919">(877) 609-1919</a> directly rather than filling out an online form and waiting for a response — dispatch can check real-time vehicle availability and confirm a pickup over the phone far faster than an email or web request. Have your pickup address, destination, flight number (if applicable), and passenger count ready so the call can move quickly.</p>
+
+      <h2>What a Last-Minute Booking Doesn't Change</h2>
+      <p>Even on short notice, the same standards apply: a licensed, background-checked chauffeur, a commercially insured vehicle, and a flat rate confirmed before you ride. A same-day booking is not a lower-standard booking — it's the same service placed with less lead time, which is exactly why availability (not quality) is the actual constraint.</p>
+
+      <h2>When Advance Booking Still Makes a Real Difference</h2>
+      <p>If your situation allows any lead time at all — even a few hours more than you currently have — use it. Our <a href="/how-far-ahead-to-book-msy-car-service">guide to booking lead times</a> covers how far ahead to plan for different vehicle classes and seasons, and the difference between booking four hours ahead versus twenty minutes ahead is often the difference between getting your preferred vehicle and getting whatever's left.</p>
+
+      <h2>A Realistic Example</h2>
+      <p>A traveler whose flight gets rebooked same-day to an earlier departure, needing a sedan transfer to MSY in three hours on an ordinary Tuesday, has good odds of a confirmed pickup with a quick phone call. The same request for a Sprinter van on the Saturday of a home Saints game has meaningfully worse odds — not because the service is unavailable in principle, but because that exact vehicle class is likely already committed elsewhere that day.</p>
+
+      <p>If you're facing a same-day need right now, the fastest path is simply to call <a href="tel:+18776091919">(877) 609-1919</a> — dispatch will tell you plainly what's available rather than making you guess.</p>
+    `,
+    faqs: [
+      { q: "Can I really book MSY car service the same day I need it?", a: "Often, yes, especially for a sedan or SUV outside peak demand windows. Sprinter vans and stretch limousines are harder to secure same-day since they're frequently already booked for weddings and events." },
+      { q: "What's the fastest way to book on short notice?", a: "Call (877) 609-1919 directly rather than using an online form — dispatch can check real-time availability and confirm a pickup over the phone much faster." },
+      { q: "Does a city-wide event affect last-minute availability?", a: "Yes, significantly. Conventions, Mardi Gras, Jazz Fest and Saints home games pull on the whole fleet at once, so last-minute availability drops sharply during those windows." },
+      { q: "Is a last-minute booking lower quality than a planned one?", a: "No. The same licensed chauffeurs, insured vehicles and flat-rate pricing apply regardless of how far ahead you book — availability is the only real constraint on short notice." },
+      { q: "How much does booking even a few hours earlier help?", a: "Meaningfully. A request placed several hours ahead has noticeably better odds than one placed twenty minutes before pickup, even within the same day." },
+    ],
+    relatedLinks: [
+      { label: "How Far Ahead to Book MSY Car Service", to: "/how-far-ahead-to-book-msy-car-service" },
+      { label: "Best Time to Book Airport Transportation", to: "/best-time-to-book-new-orleans-airport-transportation" },
+      { label: "Airport Transportation", to: "/services/airport-transportation" },
+      { label: "MSY Airport Arrival Pickup", to: "/msy-airport-arrival-pickup" },
+      { label: "Our Fleet", to: "/fleet" },
+      { label: "About Us", to: "/about" },
+      { label: "Contact", to: "/contact" },
+      { label: "Book a Ride", to: "/booking" },
+    ],
+  },
 ];
