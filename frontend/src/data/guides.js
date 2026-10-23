@@ -1047,6 +1047,7 @@ export const GUIDES = [
       { q: "How early should we book Sugar Bowl weekend transportation?", a: "As soon as your travel dates are confirmed. It's one of the highest-demand weekends of the year for vehicles near the Superdome, and availability tightens well before game week." },
     ],
     relatedLinks: [
+      { label: "Mega Event Host Year Transportation Guide", to: "/new-orleans-mega-event-host-year-transportation-guide" },
       { label: "Caesars Superdome Transportation", to: "/caesars-superdome-transportation" },
       { label: "New Year's Eve on Bourbon Street", to: "/blog/new-years-eve-bourbon-street-car-service" },
       { label: "Saints Game Day Service", to: "/services/saints-game-day" },
@@ -1112,6 +1113,7 @@ export const GUIDES = [
       { label: "French Quarter Transportation Guide", to: "/french-quarter-transportation-guide" },
       { label: "Garden District & Uptown Guide", to: "/garden-district-uptown-transportation-guide" },
       { label: "MSY Airport Transportation Guide", to: "/airport-transportation-guide" },
+      { label: "Airbnb & Vacation Rental Guest Transportation Guide", to: "/new-orleans-airbnb-vacation-rental-guest-transportation-guide" },
       { label: "Uber vs. Limo Service", to: "/uber-vs-limo-service" },
       { label: "Why Hire a Chauffeur", to: "/why-hire-a-chauffeur" },
       { label: "Northshore Transportation Guide", to: "/new-orleans-northshore-transportation-guide" },
@@ -1167,6 +1169,7 @@ export const GUIDES = [
       { q: "Can you handle a group for the whole weekend?", a: "Yes. Hourly, as-directed service covers multiple stops across a night, and Sprinter vans keep larger groups together rather than splitting across separate rideshare trips." },
     ],
     relatedLinks: [
+      { label: "Halloween & Krewe of Boo Transportation Guide", to: "/new-orleans-halloween-krewe-of-boo-transportation-guide" },
       { label: "French Quarter Transportation Guide", to: "/french-quarter-transportation-guide" },
       { label: "French Quarter Event Transportation for Planners", to: "/french-quarter-private-event-transportation" },
       { label: "MSY Airport Transportation Guide", to: "/airport-transportation-guide" },
@@ -1335,6 +1338,7 @@ export const GUIDES = [
       { q: "When does parking my own car still make more sense?", a: "When you need your car immediately after landing for something besides going home, or when the trip is short enough that the parking cost is minimal either way." },
     ],
     relatedLinks: [
+      { label: "Rental Car Return vs. Car Service Guide", to: "/msy-rental-car-return-vs-car-service-guide" },
       { label: "MSY Airport Transportation Guide", to: "/airport-transportation-guide" },
       { label: "Corporate Car Service vs. Rideshare", to: "/corporate-car-service-vs-rideshare" },
       { label: "Uber vs. Limo Service", to: "/uber-vs-limo-service" },
@@ -1902,6 +1906,7 @@ export const GUIDES = [
       { q: "How far ahead should we book for peak wedding season?", a: "Two to three months ahead for spring and fall Saturdays, since Sprinter vans and stretch limousines book out first for those dates." },
     ],
     relatedLinks: [
+      { label: "Wedding Weekend Farewell Brunch & Departure Guide", to: "/new-orleans-wedding-weekend-farewell-brunch-departure-guide" },
       { label: "Wedding Limo Service in Louisiana: Complete Guide", to: "/blog/wedding-limo-service-louisiana" },
       { label: "Wedding Limo Service", to: "/services/wedding-limo" },
       { label: "Top 10 Wedding Venues Near New Orleans", to: "/top-10-wedding-venues-near-new-orleans" },
@@ -2213,6 +2218,537 @@ export const GUIDES = [
       { label: "Our Fleet", to: "/fleet" },
       { label: "About Us", to: "/about" },
       { label: "Contact", to: "/contact" },
+      { label: "Book a Ride", to: "/booking" },
+    ],
+  },
+  {
+    slug: "new-orleans-marathon-race-weekend-transportation-guide",
+    title: "New Orleans Marathon & Road Race Weekend Transportation Guide",
+    metaTitle: "New Orleans Marathon Weekend Car Service Guide",
+    metaDescription:
+      "Running or watching the New Orleans Marathon or Crescent City Classic? How race-day street closures affect pickups, and how to book a reliable ride anyway.",
+    category: "Events",
+    author: "MSY Limo Team",
+    date: "October 23, 2026",
+    readTime: "6 min read",
+    excerpt:
+      "Road races close some of the same streets a parade does, just earlier in the morning. Here is what changes for pickups and drop-offs on race weekend, and how to plan around it.",
+    image: "/images/stock/u-1503376780353.webp",
+    content: `
+      <p>New Orleans hosts several large road races a year — the New Orleans Marathon and half marathon in late winter, and the Crescent City Classic 10K around Easter weekend among them — and each one closes a meaningful stretch of the city for several hours on a Saturday or Sunday morning. The closures are shorter-lived than a Mardi Gras parade route, but they land at a time most visitors aren't expecting street closures at all, which is exactly when they cause the most confusion.</p>
+
+      <h2>Which Races Actually Close New Orleans Streets</h2>
+      <p>The New Orleans Marathon and half marathon typically start near City Park and wind through Mid-City, Lakeview, the Garden District and St. Charles Avenue before finishing back near the park. The Crescent City Classic runs from the Caesars Superdome down Poydras and St. Charles Avenue to City Park. Both courses use streets that are also everyday thoroughfares — St. Charles Avenue most of all — so a closure on race morning affects a wider area than the finish-line footage usually suggests.</p>
+
+      <h2>What a Closure Means for Your Ride</h2>
+      <p>Street closures for a road race work differently than for a parade: they move with the runners rather than staying put, and they clear street by street as the field passes rather than all at once at the end. A chauffeur who knows the course can often reach a pickup point just after the runners have cleared that block, even while the overall event is still underway elsewhere on the route. That local timing is the main advantage of a reserved car over guessing with a rideshare app on race morning.</p>
+      <p>St. Charles Avenue, in particular, can stay restricted to cross traffic for several hours on race day, which affects movement between Uptown, the Garden District and downtown even for trips that have nothing to do with the race. We check the published closure map before dispatching any vehicle on a race weekend and route around the affected blocks rather than sitting in a line of cars waiting for a gap in the field.</p>
+
+      <h2>Getting to MSY on a Race Weekend Morning</h2>
+      <p>Race mornings start early — often before 7 a.m. — which actually works in travelers' favor for airport trips, since most closures aren't yet in effect at the hours many flights depart. The harder case is a traveler whose hotel sits directly on the course or a block from it; we build extra time into those pickups and, when needed, meet guests at a nearby cross street outside the restricted zone rather than attempting to reach the hotel's own door. Our <a href="/airport-transportation-guide">MSY airport transportation guide</a> covers general timing; race weekends simply need a wider buffer.</p>
+
+      <h2>If You're Running: Getting to the Start and Away from the Finish</h2>
+      <p>Runners face a particular logistics problem: a pre-dawn drop-off at a start line in an area with no parking, followed by a finish miles away where personal items and a change of clothes need to be waiting. A reserved sedan or SUV for the morning — one trip to the start, one scheduled pickup near the finish a few hours later — removes both ends of that problem without asking a friend or family member to wake up at 5 a.m. and find parking twice.</p>
+
+      <h2>If You're Spectating: Getting Around Without a Car</h2>
+      <p>Spectators following a runner along the route often want to see them at two or three points — maybe the start, a spot around mile 6 and the finish — which usually means crossing the course itself between viewing points, something a closed street makes harder than it looks on a map. A chauffeur familiar with the day's closures can plan a loop that gets a small group to each viewing point on time, parking the group near a clear cross street rather than circling the restricted zone.</p>
+
+      <h2>Booking Ahead for Race Weekend</h2>
+      <p>Hotels along St. Charles Avenue and near City Park book out early for marathon weekend, and vehicle availability follows the same pattern — reserve a week or two ahead if your schedule allows it, particularly for an early pickup near the course. Same-day requests are still possible; see our <a href="/same-day-last-minute-msy-car-service">same-day and last-minute car service guide</a> for what's realistic on short notice.</p>
+
+      <p>Whether you're running, spectating or simply trying to get to a flight on a race-day morning, <a href="/booking">book online</a> or call (877) 609-1919. We'll confirm the route around the day's closures before your chauffeur leaves.</p>
+    `,
+    faqs: [
+      { q: "Does the New Orleans Marathon close St. Charles Avenue?", a: "Yes, for several hours on race morning while runners are on that section of the course. The closure moves with the field rather than lasting the entire morning in one place, and we track it before dispatching your vehicle." },
+      { q: "Can you still get me to the airport on marathon morning?", a: "Usually, yes. Most flights depart later than the earliest closures take effect, and we build extra buffer into any pickup near the course. Tell us your hotel and flight time when booking so we can plan the route." },
+      { q: "Can you drop me at the start line before dawn?", a: "Yes. Pre-dawn start-line drop-offs are a routine race-weekend booking, and we can schedule a return pickup near the finish line for a few hours later in the same reservation." },
+      { q: "How far ahead should I book for marathon weekend?", a: "A week or two ahead is ideal, since hotel and vehicle demand both rise along the course corridor. Same-day requests can often still be accommodated outside the restricted zone." },
+      { q: "What is the cancellation policy for race-weekend bookings?", a: "Sedan and SUV reservations cancel free of charge up to 3 hours before pickup. Sprinter van and multi-vehicle bookings require 12 hours' notice." },
+    ],
+    relatedLinks: [
+      { label: "Garden District & Uptown Transportation Guide", to: "/garden-district-uptown-transportation-guide" },
+      { label: "MSY Airport Transportation Guide", to: "/airport-transportation-guide" },
+      { label: "Same-Day and Last-Minute MSY Car Service", to: "/same-day-last-minute-msy-car-service" },
+      { label: "Sugar Bowl & Superdome Transportation", to: "/sugar-bowl-new-years-superdome-transportation" },
+      { label: "Airport Transportation Service", to: "/services/airport-transportation" },
+      { label: "Our Fleet", to: "/fleet" },
+      { label: "Book a Ride", to: "/booking" },
+    ],
+  },
+  {
+    slug: "algiers-point-ferry-dependent-neighborhoods-car-service-guide",
+    title: "Algiers Point and the West Bank Ferry: A Transportation Guide for Ferry-Dependent Neighborhoods",
+    metaTitle: "Algiers Point & West Bank Ferry Transportation Guide",
+    metaDescription:
+      "Algiers Point and the West Bank rely on a ferry schedule, not just a bridge. How that affects your ride, and when a private car is the better option.",
+    category: "Local Guides",
+    author: "MSY Limo Team",
+    date: "October 23, 2026",
+    readTime: "6 min read",
+    excerpt:
+      "Algiers Point sits across the river from the French Quarter, and its ferry runs on a schedule, not on demand. Here is how that changes transportation planning for the neighborhood.",
+    image: "/images/stock/u-1511527844068.webp",
+    content: `
+      <p>Algiers Point is one of New Orleans' oldest neighborhoods and, for a visitor standing on the French Quarter side of the river, one of its most misunderstood. It looks close — the view across the Mississippi puts its Victorian rooftops almost within shouting distance of Jackson Square — but getting there depends on either the Crescent City Connection bridge or the Canal Street Ferry, and the ferry runs on a published schedule rather than whenever you happen to walk up to the dock.</p>
+
+      <h2>Why "It's Right Across the River" Is Misleading</h2>
+      <p>The ferry crossing itself takes only a few minutes, but the walk to the dock, the wait for the next departure and the walk from the Algiers-side landing to an actual address can easily add thirty to forty-five minutes to a trip that looks instant on a map. The ferry also has reduced schedules on some days and can suspend service for weather or maintenance without much notice, which catches visitors by surprise who planned a trip around a timetable they looked up once and assumed was fixed.</p>
+      <p>By road, the alternative is the Crescent City Connection bridge, which adds distance and time of its own, particularly during the afternoon commute when West Bank traffic backs up at the bridge approaches on both sides.</p>
+
+      <h2>When a Private Car Is Clearly the Better Choice</h2>
+      <p>A reserved vehicle removes the schedule dependency entirely. For a dinner reservation in Algiers Point, an early flight the next morning, or a wedding at one of the neighborhood's riverside venues, a chauffeur who takes the bridge on your schedule — rather than the ferry's — is the more predictable option, especially for a group, for anyone with luggage, or for a trip timed around anything with a fixed start, like a ceremony or a flight.</p>
+      <p>Algiers Point residents and regular visitors to the neighborhood's bars and restaurants on Verret and Opelousas Avenue often use rideshare or their own car for everyday trips and reserve a car specifically for the trips where a missed ferry or a bridge backup would actually matter — a wedding, a flight, a client dinner.</p>
+
+      <h2>MSY Airport Transfers From the West Bank</h2>
+      <p>Algiers, Algiers Point, Terrytown and the rest of the West Bank are a normal part of our MSY service area, reached by the Crescent City Connection and the West Bank Expressway rather than the ferry. We quote these as a flat rate the same way we quote any other address, and flight tracking and complimentary wait time apply exactly as they do anywhere else in our coverage area. See our <a href="/algiers-limo-service">Algiers limo service page</a> for route specifics.</p>
+
+      <h2>Weddings and Events in Algiers Point</h2>
+      <p>The neighborhood's riverside parks and historic homes make it a genuine, if sometimes overlooked, wedding and event setting, with views of the Quarter skyline that few other venues in the city can offer. A wedding day with guests split between the Algiers side and the French Quarter side of the river benefits from a reserved Sprinter van running guests across the bridge on a timed schedule rather than hoping enough of the party catches the same ferry.</p>
+
+      <h2>Planning a Visit to Algiers Point</h2>
+      <p>If you do want to experience the ferry — and it is a pleasant, inexpensive way to see the river for a few minutes — plan it as the scenic leg of a day rather than the only way back. A car can meet you on either side at a set time, so a missed sailing or a schedule change doesn't turn a short visit into a long wait on the dock.</p>
+
+      <p>For any Algiers Point or West Bank trip where the timing actually matters, <a href="/booking">book online</a> or call (877) 609-1919 for a flat rate confirmed before you ride.</p>
+    `,
+    faqs: [
+      { q: "Is the Canal Street Ferry a reliable way to get to Algiers Point?", a: "It's a pleasant short crossing, but it runs on a published schedule and can have reduced service or short-notice suspensions for weather or maintenance. For anything time-sensitive, a car via the Crescent City Connection bridge is more predictable." },
+      { q: "Do you serve Algiers and Algiers Point for airport transfers?", a: "Yes. Algiers, Algiers Point and the rest of the West Bank are quoted as a flat rate the same as any other address in our service area, using the bridge rather than the ferry." },
+      { q: "Can you handle a wedding with guests on both sides of the river?", a: "Yes. A Sprinter van running a timed shuttle across the Crescent City Connection is a common solution for Algiers Point weddings and events with a split guest list." },
+      { q: "How much extra time does the ferry actually add to a trip?", a: "Often thirty to forty-five minutes once you count the walk to the dock, the wait for the next departure and the walk from the landing to your destination, even though the crossing itself is short." },
+      { q: "What is the cancellation policy for West Bank bookings?", a: "Sedan and SUV reservations cancel free of charge up to 3 hours before pickup. Sprinter van and event bookings require 12 hours' notice." },
+    ],
+    relatedLinks: [
+      { label: "Algiers Limo Service", to: "/algiers-limo-service" },
+      { label: "Algiers Limo Service for Weddings", to: "/algiers-limo-service-for-weddings" },
+      { label: "French Quarter Transportation Guide", to: "/french-quarter-transportation-guide" },
+      { label: "Wedding Limo Service", to: "/services/wedding-limo" },
+      { label: "Airport Transportation", to: "/services/airport-transportation" },
+      { label: "First Time in New Orleans Guide", to: "/first-time-new-orleans-visitor-guide" },
+      { label: "Book a Ride", to: "/booking" },
+    ],
+  },
+  {
+    slug: "new-orleans-neighborhood-street-festivals-transportation-guide",
+    title: "New Orleans Neighborhood Street Festivals: A Transportation Guide Beyond the Big Three",
+    metaTitle: "New Orleans Neighborhood Festival Transportation Guide",
+    metaDescription:
+      "Bayou Boogaloo, Freret Street Festival, Oak Street Po-Boy Festival and more: parking and pickup logistics for New Orleans' smaller neighborhood festivals.",
+    category: "Events",
+    author: "MSY Limo Team",
+    date: "October 23, 2026",
+    readTime: "6 min read",
+    excerpt:
+      "Jazz Fest and Mardi Gras get all the attention, but New Orleans runs a full calendar of smaller neighborhood festivals with their own parking and pickup challenges.",
+    image: "/images/stock/u-1514320291840.webp",
+    content: `
+      <p>Jazz Fest, Mardi Gras and Essence Festival dominate the conversation about New Orleans events, but a full calendar of smaller neighborhood festivals runs underneath them all year — Bayou Boogaloo along Bayou St. John, the Freret Street Festival, the Oak Street Po-Boy Festival, and similar single-day neighborhood gatherings. They draw a few thousand people rather than a few hundred thousand, which sounds easier, but a neighborhood built for daily life, not crowds, often has worse parking and access than a venue designed to host one.</p>
+
+      <h2>Why a Small Festival Can Be Harder Than a Big One</h2>
+      <p>Major festivals like Jazz Fest plan for the crowd — dedicated lots, shuttle systems, rideshare zones set well away from the gates. A neighborhood festival on Freret Street or Oak Street simply closes a few blocks of an ordinary commercial strip for the day, with no dedicated parking infrastructure behind it. Residential side streets fill fast, and a rideshare pickup in the middle of a packed festival block is often not realistic at all, leaving attendees to walk several blocks in any direction before a car can reach them.</p>
+
+      <h2>Bayou Boogaloo and Bayou St. John</h2>
+      <p>This spring festival along the bayou between Mid-City and Faubourg St. John draws a laid-back, local crowd for music and food along the water, with the actual festival grounds running along a narrow strip of green space that leaves little room for cars. A chauffeur dropping a group here plans a pickup point a block or two off the bayou itself, on a cross street wide enough to actually stop, rather than attempting to reach the festival grounds directly.</p>
+
+      <h2>Freret Street and Oak Street Festivals</h2>
+      <p>Both Freret Street and Oak Street are compact commercial corridors in residential neighborhoods — Freret in the area between Uptown and Broadmoor, Oak Street in the Carrollton/Riverbend area — and both festivals close the main strip to car traffic for the day. The practical approach is a drop-off a short walk from the festival entrance on a cross street that stays open, confirmed in advance so the group isn't trying to describe their location over a crowd on the phone.</p>
+
+      <h2>Booking Around a Neighborhood Festival</h2>
+      <p>These festivals rarely require the weeks of advance planning that Jazz Fest or Mardi Gras do, but same-day availability can still tighten up on the festival date itself if a large group books late, since the same handful of streets near the festival become the pickup point for everyone attending. A short phone call to confirm the nearest workable pickup spot, made before the day of the event, saves real time versus figuring it out while standing in a crowd.</p>
+      <p>For groups planning to hit more than one neighborhood festival in a weekend, or combining a festival stop with dinner nearby, hourly service — covered in our <a href="/services/hourly-charter">hourly charter guide</a> — keeps one vehicle and chauffeur with you for the whole day rather than booking separate point-to-point trips.</p>
+
+      <h2>Visiting From Out of Town</h2>
+      <p>Visitors who build a trip around one of these smaller festivals often don't realize how residential the surrounding streets are until they're standing on one trying to find a ride. Checking the festival's own site for the current road-closure map before you travel, and mentioning the festival by name when you book your car, lets your chauffeur plan the actual pickup point rather than guessing at an address inside the closed zone.</p>
+
+      <p>Headed to a neighborhood festival, or combining one with dinner, a hotel transfer or an MSY pickup? <a href="/booking">Book online</a> or call (877) 609-1919 and we'll confirm the nearest workable pickup point before the day arrives.</p>
+    `,
+    faqs: [
+      { q: "Can you pick up right at a neighborhood festival like Freret Street or Oak Street?", a: "Usually not directly at the festival entrance, since the main strip is closed to cars. We confirm a nearby cross street that stays open as the actual pickup point in advance." },
+      { q: "Is Bayou Boogaloo accessible by car?", a: "The festival grounds run along a narrow stretch of Bayou St. John with limited car access. We plan a pickup a block or two off the bayou itself rather than at the water's edge." },
+      { q: "Do I need to book weeks ahead for a smaller neighborhood festival?", a: "Usually not as far ahead as for Jazz Fest or Mardi Gras, but booking a day or two before helps secure your preferred vehicle, since many attendees use the same handful of pickup streets on festival day." },
+      { q: "Can you handle a day that includes a festival and dinner afterward?", a: "Yes. Hourly as-directed service keeps one vehicle and chauffeur with your group for the whole day, which is often more efficient than booking separate trips for the festival and the evening." },
+      { q: "What is the cancellation policy for festival bookings?", a: "Sedan and SUV reservations cancel free of charge up to 3 hours before pickup. Sprinter van bookings require 12 hours' notice." },
+    ],
+    relatedLinks: [
+      { label: "Hourly Charter Service", to: "/services/hourly-charter" },
+      { label: "French Quarter Transportation Guide", to: "/french-quarter-transportation-guide" },
+      { label: "Garden District & Uptown Transportation Guide", to: "/garden-district-uptown-transportation-guide" },
+      { label: "Carrollton & Riverbend Limo Service", to: "/carrollton-riverbend-limo-service" },
+      { label: "Faubourg St. John Limo Service", to: "/faubourg-st-john-limo-service" },
+      { label: "Special Events", to: "/services/special-events" },
+      { label: "Book a Ride", to: "/booking" },
+    ],
+  },
+  {
+    slug: "new-orleans-airbnb-vacation-rental-guest-transportation-guide",
+    title: "Flying Into a New Orleans Airbnb or Vacation Rental? What's Different About Your Pickup",
+    metaTitle: "New Orleans Airbnb & Vacation Rental Car Service Guide",
+    metaDescription:
+      "Staying at a New Orleans Airbnb or vacation rental instead of a hotel? Here is how pickup, access and luggage logistics differ, and how to plan for them.",
+    category: "Travel Guides",
+    author: "MSY Limo Team",
+    date: "October 23, 2026",
+    readTime: "6 min read",
+    excerpt:
+      "A hotel has a lobby, a bellhop and a clear front door. A vacation rental has none of that, which changes how your airport pickup should actually be planned.",
+    image: "/images/stock/u-1710615209322.webp",
+    content: `
+      <p>A growing share of New Orleans visitors skip hotels entirely and book a shotgun house in the Marigny, a Creole cottage in the Garden District, or a condo in the Warehouse District through a short-term rental platform. The city itself is a great match for that kind of stay. The transportation planning around it, though, is genuinely different from a hotel pickup, and most of the differences only become obvious the moment a traveler is standing outside an unfamiliar front door with luggage and no bellhop in sight.</p>
+
+      <h2>No Lobby, No Front Desk, No Default Meeting Point</h2>
+      <p>A hotel pickup has a built-in default: the lobby entrance. A vacation rental doesn't. The "address" on a booking confirmation is sometimes a side door, a raised porch with narrow steps, or a shared driveway serving two or three units on a single lot, and street parking directly in front can be limited or simply occupied. We ask for the exact entrance, any gate or lockbox code relevant to arrival, and a description of where a vehicle can actually stop — before the pickup, not at the curb.</p>
+
+      <h2>Narrow Streets and No Loading Zones</h2>
+      <p>Many of the city's most charming rental neighborhoods — the Marigny, the Bywater, parts of Mid-City and the Garden District — have narrow, one-way streets with permit parking and no dedicated loading zone. A sedan can usually manage a quick stop; a Sprinter van with a family group and a week's worth of luggage sometimes cannot get directly to the door, and we plan for that by confirming vehicle size against the actual street before the trip rather than discovering the mismatch on arrival.</p>
+
+      <h2>Check-In Timing and Self-Service Access</h2>
+      <p>Most rentals use a lockbox, a smart lock or a remote check-in process rather than a staffed desk, which means there's no one at the property to call if a flight lands early and the listed check-in time hasn't arrived yet. Travelers arriving well ahead of check-in sometimes want a short diversion — a bag drop-adjacent stop, lunch nearby, or simply a slower route — rather than standing outside a locked unit, and we're glad to work that into the pickup if you let us know in advance.</p>
+
+      <h2>Multiple Guests, One Reservation</h2>
+      <p>A vacation rental booked by a group often means several travelers arriving on different flights throughout the same day, all heading to the same address. Rather than six separate bookings, we can coordinate staggered pickups under one reservation and one point of contact, so the group doesn't have to manage several different vendor relationships for what is effectively one trip.</p>
+
+      <h2>Departure Day: Coordinating Checkout and Flight Times</h2>
+      <p>Checkout times for short-term rentals are often earlier than a hotel's, and without a bellhop to hold bags, a group sometimes needs transportation before their actual flight — to a late lunch, a last-minute stop, or simply somewhere to wait with luggage. A Sprinter van booked for the whole departure window, rather than a single point-to-point ride, gives a group that flexibility without renting a second vehicle for a few hours.</p>
+
+      <h2>What to Tell Us When You Book</h2>
+      <p>For any vacation rental pickup or drop-off, the most useful details are the exact entrance (not just the street address), any access code or gate information relevant to timing, how many bags the group is traveling with, and whether the street allows a vehicle to stop directly in front. With those details confirmed ahead of time, a vacation rental pickup runs just as smoothly as a hotel pickup — it just takes a little more upfront information to get there.</p>
+
+      <p>Staying somewhere other than a hotel on your next New Orleans trip? <a href="/booking">Book online</a> or call (877) 609-1919 and mention it's a vacation rental so we can confirm access details before your chauffeur arrives.</p>
+    `,
+    faqs: [
+      { q: "Do you need the exact entrance for a vacation rental pickup, not just the address?", a: "Yes. A specific entrance, any relevant gate or lockbox details tied to timing, and where a vehicle can actually stop on the street make a real difference for rentals, since they lack a hotel's single front door." },
+      { q: "Can a Sprinter van reach every vacation rental address?", a: "Not always directly to the door on narrow one-way streets common in the Marigny, Bywater and parts of the Garden District. We confirm vehicle size against the actual street in advance and plan the closest workable stop." },
+      { q: "Can you coordinate pickups for a group arriving on different flights to the same rental?", a: "Yes. We can schedule staggered pickups for multiple travelers heading to one address under a single reservation and point of contact." },
+      { q: "What if I land before my rental's check-in time?", a: "Let us know in advance and we can work a short stop — lunch, a scenic detour or simply a slower route — into the pickup rather than dropping you at a locked door early." },
+      { q: "What is the cancellation policy for vacation rental transfers?", a: "The same as any booking: free cancellation up to 3 hours before pickup for sedans and SUVs, and 12 hours for Sprinter vans and multi-stop group bookings." },
+    ],
+    relatedLinks: [
+      { label: "MSY Airport Transportation Guide", to: "/airport-transportation-guide" },
+      { label: "French Quarter Transportation Guide", to: "/french-quarter-transportation-guide" },
+      { label: "Garden District & Uptown Transportation Guide", to: "/garden-district-uptown-transportation-guide" },
+      { label: "First Time in New Orleans Guide", to: "/first-time-new-orleans-visitor-guide" },
+      { label: "Marigny & Bywater Limo Service", to: "/marigny-bywater-limo-service" },
+      { label: "Airport Transportation", to: "/services/airport-transportation" },
+      { label: "Book a Ride", to: "/booking" },
+    ],
+  },
+  {
+    slug: "msy-rental-car-return-vs-car-service-guide",
+    title: "Rental Car Return at MSY vs. Booking a Car Service: What Actually Costs More Time and Money",
+    metaTitle: "MSY Rental Car Return vs Car Service: What's Smarter",
+    metaDescription:
+      "Renting a car for a New Orleans trip? Compare the real cost of a rental — deposit, gas, parking, return shuttle — against a flat-rate MSY car service.",
+    category: "Comparisons",
+    author: "MSY Limo Team",
+    date: "October 23, 2026",
+    readTime: "7 min read",
+    excerpt:
+      "A rental car's sticker price looks cheap until you add the deposit hold, the gas, the hotel parking fee and the return-shuttle wait on departure day. Here's the honest comparison.",
+    image: "/images/stock/u-1702722710064.webp",
+    content: `
+      <p>Visitors planning a New Orleans trip often default to renting a car out of habit, without actually running the numbers against a car service for the specific trip they're taking. For some itineraries a rental genuinely makes sense. For a large share of New Orleans visits — a few nights in the French Quarter or the Garden District with day trips by car service or tour, plus airport transfers — it doesn't, once every real cost is counted rather than just the daily rate on the booking screen.</p>
+
+      <h2>The Advertised Rate Is Rarely the Real Cost</h2>
+      <p>A rental's quoted daily rate typically excludes the airport concession fee, taxes that can add 20% or more to the total, a mandatory or near-mandatory insurance add-on for travelers whose personal policy doesn't clearly extend to Louisiana, and a security deposit hold on your card that can run several hundred dollars and takes days to release after return. None of that shows up in the rate comparison most people glance at before booking.</p>
+
+      <h2>Parking You Didn't Plan For</h2>
+      <p>Most hotels in the French Quarter, the CBD and the Warehouse District charge a daily parking fee — commonly $35 to $55 a night — that applies whether you drive the car once or not at all during your stay. For a traveler planning to walk the Quarter, take a car service to dinner, and use rideshare or tours for day trips, that parking fee is pure cost with no corresponding benefit, often exceeding what a few car-service trips would have cost outright.</p>
+
+      <h2>Gas, Tolls and the Return-Tank Rule</h2>
+      <p>Rental agreements typically require returning the car with a full tank or charge a premium per-gallon refueling fee that runs well above pump price. Finding a gas station near MSY on a tight return schedule, with an unfamiliar car and a flight to catch, adds a stressful errand to departure day that a car service simply removes.</p>
+
+      <h2>The Return-Shuttle Wait on Departure Day</h2>
+      <p>Returning a rental at MSY means driving to the rental return area, waiting for an agent or using a kiosk, then catching the rental company's shuttle bus to the terminal — a process that can take anywhere from fifteen minutes to the better part of an hour depending on the time of day and how busy the lot is. Build in margin for that wait, or risk it eating into your buffer before security. A car service drops you directly at the terminal curb, with no intermediate stop.</p>
+
+      <h2>Driving Conditions a Visitor Doesn't Know</h2>
+      <p>New Orleans parking is genuinely difficult for an unfamiliar driver — narrow one-way streets, confusing permit-zone signage, and a real risk of a boot or a tow from the city's aggressive parking enforcement in the Quarter and the CBD. A ticket, a boot removal fee or a tow adds real dollars and real stress to a trip, on top of whatever the rental itself cost.</p>
+
+      <h2>When a Rental Still Makes Sense</h2>
+      <p>None of this means a rental is never the right call. A trip built around day trips to plantation country, the Northshore or Baton Rouge on your own schedule, with several stops a car service would price separately each time, can genuinely favor a rental — particularly for a longer stay. The honest answer depends on how much driving you'll actually do versus how much time you'll spend parked.</p>
+
+      <h2>Running the Comparison for Your Trip</h2>
+      <p>Add up the daily rate, taxes and fees, insurance, hotel parking for every night of your stay, a full tank of gas, and the time cost of the return-shuttle process on departure day. Compare that total against a flat-rate MSY airport transfer plus whatever car-service or tour costs you'd book for specific outings. For most hotel-based, Quarter-and-Garden-District visits, the car-service total comes out lower, and it comes with no parking ticket risk and no gas-station detour on the way to your flight.</p>
+
+      <p>Skip the rental counter on your next trip. <a href="/booking">Book your MSY transfer online</a> or call (877) 609-1919 for a flat rate confirmed before you fly.</p>
+    `,
+    faqs: [
+      { q: "Is a rental car actually cheaper than a car service for a New Orleans trip?", a: "Often not once you add taxes, concession fees, insurance, hotel parking (commonly $35–$55 a night) and a full tank for return. For a hotel-based trip with occasional outings, a flat-rate car service frequently costs less overall." },
+      { q: "How long does rental car return at MSY actually take?", a: "Anywhere from fifteen minutes to nearly an hour once you count the drive to the return lot, the agent or kiosk process, and the shuttle bus to the terminal, depending on time of day." },
+      { q: "Is parking difficult for visitors driving in New Orleans?", a: "Yes. Narrow one-way streets, permit-zone signage and active enforcement in the French Quarter and CBD make parking genuinely tricky for drivers unfamiliar with the city, and tickets or tows are a real risk." },
+      { q: "When does a rental car still make sense for a New Orleans trip?", a: "For visits built around frequent self-driven day trips to plantation country, the Northshore or Baton Rouge, a rental can be the more economical choice, especially for longer stays." },
+      { q: "What is the cancellation policy for MSY car service bookings?", a: "Sedan and SUV reservations cancel free of charge up to 3 hours before pickup. Sprinter van and multi-stop bookings require 12 hours' notice." },
+    ],
+    relatedLinks: [
+      { label: "Park and Fly vs. Car Service", to: "/park-and-fly-vs-car-service-new-orleans-residents" },
+      { label: "Hidden Costs of Rideshare for Business Travel", to: "/hidden-costs-rideshare-new-orleans-business-travel" },
+      { label: "MSY Airport Transportation Guide", to: "/airport-transportation-guide" },
+      { label: "Best Car Service From MSY", to: "/best-car-service-louis-armstrong-new-orleans-airport" },
+      { label: "First Time in New Orleans Guide", to: "/first-time-new-orleans-visitor-guide" },
+      { label: "Airport Transportation", to: "/services/airport-transportation" },
+      { label: "Book a Ride", to: "/booking" },
+    ],
+  },
+  {
+    slug: "new-orleans-wedding-weekend-farewell-brunch-departure-guide",
+    title: "After the Wedding: Planning Farewell Brunch and Guest Departure Transportation in New Orleans",
+    metaTitle: "New Orleans Wedding Weekend Departure Day Guide",
+    metaDescription:
+      "The wedding day isn't the last transportation challenge. How to plan farewell brunch and staggered guest departures for a New Orleans wedding weekend.",
+    category: "Weddings",
+    author: "MSY Limo Team",
+    date: "October 23, 2026",
+    readTime: "6 min read",
+    excerpt:
+      "Most wedding transportation planning stops at the getaway car. The morning after — farewell brunch, hotel checkout and a dozen guests flying out on different schedules — deserves its own plan.",
+    image: "/images/stock/u-1739789750796.webp",
+    content: `
+      <p>Wedding transportation planning is usually built entirely around one day: getting-ready, ceremony, photos, reception, getaway car. That's the right priority, but it leaves a second day that catches plenty of couples and families off guard — the morning after, when a farewell brunch is on the calendar, hotel checkout is looming, and a dozen or more guests need to reach MSY on a dozen different flight schedules.</p>
+
+      <h2>Why Departure Day Deserves Its Own Plan</h2>
+      <p>By the morning after a wedding, the wedding party itself is usually exhausted, the planner's contract has typically ended, and the family is often the only group still coordinating logistics — while also trying to enjoy a farewell brunch rather than running transportation. Treating departure day as a planned booking, not an afterthought handled with individual rideshare requests, keeps that morning from becoming the most stressful part of the whole weekend.</p>
+
+      <h2>The Farewell Brunch Itself</h2>
+      <p>A farewell brunch at a French Quarter restaurant, a Garden District venue or a hotel's own dining room is often the last time the whole group is together, and getting guests there from scattered hotels — sometimes a different property than the wedding block if the weekend included multiple hotels — benefits from a scheduled shuttle loop rather than individual cars arriving at random. We coordinate the loop with the host or planner directly, timed to the brunch's actual start rather than a rough estimate.</p>
+
+      <h2>Staggered Flights Out of MSY</h2>
+      <p>Wedding guests rarely fly home on the same schedule. A reasonable morning-after plan groups guests by departure window rather than booking one vehicle per flight: an early group on a morning flight, a midday group after brunch, and a later group with time to spare. We can run this as several scheduled pickups under one family reservation and one point of contact, which is considerably easier to manage than guests independently arranging rideshare from a hotel lobby while still in brunch clothes.</p>
+
+      <h2>Checking Out Before the Flight</h2>
+      <p>Hotel checkout times and flight times rarely line up neatly, and a guest checking out at 11 a.m. with a 4 p.m. flight is often left holding luggage with nowhere obvious to go. A Sprinter van booked for the departure window, rather than individual point-to-point transfers, gives that group the option of a slower morning — brunch, a last walk through the Quarter, luggage stored in the vehicle — before heading to the airport on their own schedule rather than being rushed by a rideshare that showed up the moment it was called.</p>
+
+      <h2>Who Should Own This Booking</h2>
+      <p>In practice, this works best when one person — often a parent of the couple, a maid of honor, or the planner if their contract extends through brunch — owns the departure-day reservation and communicates the schedule to guests in advance, rather than leaving each guest to book their own ride. We're glad to work directly with that single point of contact and confirm pickup windows for the whole group a day or two ahead of the wedding itself.</p>
+
+      <h2>Booking Departure Day Alongside the Wedding</h2>
+      <p>The easiest time to arrange farewell brunch and departure transportation is when you're already booking the wedding day itself, so pickup windows, vehicle sizes and the guest list are confirmed well in advance rather than assembled the morning after the reception. See our <a href="/wedding-transportation-booking-mistakes-new-orleans">wedding transportation booking mistakes guide</a> for other details worth locking down early.</p>
+
+      <p>Planning a New Orleans wedding weekend? <a href="/booking">Book online</a> or call (877) 609-1919 to add farewell brunch and departure-day transportation to your wedding reservation.</p>
+    `,
+    faqs: [
+      { q: "Should farewell brunch transportation be booked separately from the wedding day?", a: "It can be booked as part of the same overall reservation. We recommend confirming it at the same time as the wedding-day vehicles so pickup windows and vehicle sizes are set well in advance." },
+      { q: "Can you handle guests leaving on different flights the morning after a wedding?", a: "Yes. We typically group guests by departure window — early, midday and later flights — and run each as a scheduled pickup under one family reservation rather than booking a separate vehicle for every individual flight." },
+      { q: "What if a guest's hotel checkout time is much earlier than their flight?", a: "A Sprinter van booked for the departure window can hold luggage and allow a slower morning — brunch, a last walk through the Quarter — before heading to MSY on the group's own schedule rather than rushing to the airport early." },
+      { q: "Who should coordinate departure-day transportation for the group?", a: "Ideally one point of contact — a parent, a member of the wedding party, or the planner if their contract extends that far — who communicates the schedule to guests and works directly with our dispatch team." },
+      { q: "What is the cancellation policy for farewell brunch and departure bookings?", a: "Sedan and SUV reservations cancel free of charge up to 3 hours before pickup. Sprinter van and multi-vehicle bookings require 12 hours' notice." },
+    ],
+    relatedLinks: [
+      { label: "Wedding Transportation Booking Mistakes", to: "/wedding-transportation-booking-mistakes-new-orleans" },
+      { label: "Top 10 Wedding Venues Near New Orleans", to: "/top-10-wedding-venues-near-new-orleans" },
+      { label: "Wedding Limo Service", to: "/services/wedding-limo" },
+      { label: "MSY Airport Transportation Guide", to: "/airport-transportation-guide" },
+      { label: "New Orleans Wedding Limo Service", to: "/new-orleans-wedding-limo-service" },
+      { label: "Airport Transportation", to: "/services/airport-transportation" },
+      { label: "Book a Ride", to: "/booking" },
+    ],
+  },
+  {
+    slug: "new-orleans-mega-event-host-year-transportation-guide",
+    title: "When New Orleans Hosts a Super Bowl or Final Four: Transportation Planning for Mega Event Years",
+    metaTitle: "New Orleans Super Bowl & Final Four Travel Guide",
+    metaDescription:
+      "New Orleans periodically hosts the Super Bowl, Final Four and CFP Championship. How credential zones, security perimeters and demand affect your ride.",
+    category: "Events",
+    author: "MSY Limo Team",
+    date: "October 23, 2026",
+    readTime: "7 min read",
+    excerpt:
+      "A Super Bowl or Final Four year brings security perimeters and credentialed zones that an ordinary Saints game day doesn't. Here's what's actually different.",
+    image: "/images/stock/u-1767584413129.webp",
+    content: `
+      <p>New Orleans has hosted the Super Bowl more times than any city besides Miami, along with Final Fours, the College Football Playoff National Championship and other mega events that land at the Caesars Superdome every few years. Each one brings a level of security and street control well beyond an ordinary Saints home game, and travelers and event guests who plan around regular game-day logistics are usually caught off guard by how different a designated mega-event week actually is.</p>
+
+      <h2>Federal Security Perimeters, Not Just Local Street Closures</h2>
+      <p>A Super Bowl or similarly designated mega event brings in federal security coordination, not just the New Orleans Police Department's usual event plan. That typically means a hard security perimeter around the Superdome and surrounding blocks for days before the game, credential checks at multiple checkpoints, and restricted vehicle access that extends much further out than the closures for a regular Saints game. Streets that are merely congested on an ordinary game day can be fully closed to all but credentialed vehicles during a mega-event week.</p>
+
+      <h2>Credentialed Zones and What That Means for Pickups</h2>
+      <p>Media, team staff, sponsors and VIP guests often operate inside credentialed zones that require a specific vehicle pass or driver credential to enter — something arranged through the event organizer or team, not something any car service can simply obtain on request. For guests without a credential, a chauffeur stages at the nearest approved drop-off or pickup point outside the perimeter and the final stretch is covered on foot, similar to the approach we use for parade-day and festival pickups, just on a larger scale.</p>
+
+      <h2>MSY Airport During a Mega Event Week</h2>
+      <p>A host week brings a significant surge in air traffic, hotel occupancy and demand for every form of ground transportation at once, which means both availability and pricing for on-demand rides tighten considerably, often for the entire week surrounding the event, not just game day itself. Travelers flying in for a mega event should expect longer curb waits generally and should book ground transportation well ahead rather than planning to arrange it on arrival.</p>
+
+      <h2>Hotel and Neighborhood Impact Beyond the Dome</h2>
+      <p>Mega events don't just affect downtown. Hotels across the city fill, including well outside walking distance of the Superdome, and official event activities — fan festivals, concerts, league-sponsored parties — often spread into the Warehouse District, the French Quarter and along the riverfront, each with its own access restrictions during the event window. A visitor staying across town from the Dome should expect meaningfully longer and less predictable trip times for the entire week, not just on game day.</p>
+
+      <h2>Corporate and Sponsor Travel During a Host Week</h2>
+      <p>Companies with sponsor hospitality, client entertaining or executive travel tied to a mega event typically need the same kind of coordinated, multi-vehicle program we run for conventions — see our <a href="/new-orleans-meetings-events-industry-transportation">meetings and events industry transportation page</a> — scaled up for a week where every other company in town is trying to book the same limited supply of vehicles. Securing a program weeks or months ahead, rather than during the event week itself, is the only reliable way to guarantee vehicle availability.</p>
+
+      <h2>Booking Ahead for a Host Year</h2>
+      <p>If New Orleans is hosting a Super Bowl, Final Four, CFP Championship or similar mega event during your planned travel dates, the standard advice for Saints game days — book a few days ahead — doesn't apply. Reserve as early as your dates are confirmed, since vehicle availability during a host week is genuinely scarce across the entire local market, not just unusually busy.</p>
+
+      <p>Traveling to New Orleans during a major event year? <a href="/booking">Book online</a> or call (877) 609-1919 as early as possible to secure your vehicle for the week.</p>
+    `,
+    faqs: [
+      { q: "Is a Super Bowl or Final Four week really different from an ordinary Saints game day?", a: "Yes, substantially. Mega events bring federal security coordination, credentialed vehicle zones and much wider security perimeters than a regular game day, along with a citywide surge in hotel occupancy and ground-transportation demand for the entire week." },
+      { q: "Can you get me inside a credentialed zone near the Superdome during a mega event?", a: "Vehicle credentials for those zones are issued through the event organizer or team, not arranged independently by a car service. We stage at the nearest approved drop-off outside the perimeter for guests without one." },
+      { q: "How far ahead should I book transportation for a mega event week?", a: "As early as your travel dates are confirmed. Vehicle availability tightens across the entire local market during a host week, not just on the day of the event itself." },
+      { q: "Does a mega event affect areas away from the Superdome?", a: "Yes. Hotels fill citywide and official event activities often spread into the Warehouse District, French Quarter and riverfront, each with its own access restrictions, so trip times lengthen across much of downtown for the whole week." },
+      { q: "Do you run corporate or sponsor transportation programs for mega events?", a: "Yes, on the same model as our convention and meetings-industry programs, scaled for the week. Early booking matters even more during a host year because of citywide demand." },
+    ],
+    relatedLinks: [
+      { label: "Sugar Bowl & Superdome Transportation", to: "/sugar-bowl-new-years-superdome-transportation" },
+      { label: "Caesars Superdome Transportation", to: "/caesars-superdome-transportation" },
+      { label: "New Orleans Meetings & Events Industry Transportation", to: "/new-orleans-meetings-events-industry-transportation" },
+      { label: "Saints Game Day Service", to: "/services/saints-game-day" },
+      { label: "New Orleans Convention Center Transportation", to: "/new-orleans-convention-center-transportation" },
+      { label: "Corporate Transportation", to: "/services/corporate-transportation" },
+      { label: "Book a Ride", to: "/booking" },
+    ],
+  },
+  {
+    slug: "new-orleans-event-planner-vendor-coordination-guide",
+    title: "Working With a New Orleans Transportation Provider: A Guide for Wedding and Event Planners",
+    metaTitle: "New Orleans Planner & Vendor Coordination Guide",
+    metaDescription:
+      "A guide for wedding and event planners: how to brief a New Orleans car service, coordinate with other vendors, and avoid day-of transportation surprises.",
+    category: "Corporate",
+    author: "MSY Limo Team",
+    date: "October 23, 2026",
+    readTime: "6 min read",
+    excerpt:
+      "Transportation works best for a planner when it's treated as a coordinated vendor relationship, not a one-off booking. Here's how to set that up.",
+    image: "/images/stock/u-1486406146926.webp",
+    content: `
+      <p>Most of our wedding and event content is written for the couple or the host booking their own day. This one is written for the other side of that relationship — the planners, producers and coordinators who book transportation repeatedly, for different clients, and who get the most value out of treating a car service as a coordinated vendor rather than a line item filled in once and forgotten.</p>
+
+      <h2>Brief the Timeline Like Any Other Vendor</h2>
+      <p>Photographers, florists and caterers all get a detailed day-of timeline from the planner. Transportation deserves the same treatment, not a single pickup time and address. We work best with the full sequence — getting-ready location and time, ceremony address and start time, photo stops if relevant, reception address, and the planned getaway time — rather than reconstructing it ourselves from a single confirmed slot. A planner who shares the same timeline document used with other vendors avoids the back-and-forth of us asking for details that already exist.</p>
+
+      <h2>One Point of Contact, Not Several</h2>
+      <p>On event day, requests change — a getting-ready session runs long, a photographer wants an extra ten minutes, a reception needs a later getaway than planned. These changes land more smoothly when there's a single person authorized to communicate them to our dispatch team, typically the planner or a designated day-of coordinator, rather than multiple family members or wedding-party members independently calling with conflicting information.</p>
+
+      <h2>Coordinating Around Other Vendors' Schedules</h2>
+      <p>Transportation rarely operates in isolation from the rest of the vendor team. A photographer's shot list affects how long a stop takes; a caterer's service timeline affects when guests should actually be seated; a DJ's planned last song affects the real getaway time versus the one printed on the schedule. Planners who flag these dependencies in advance — "the photographer needs fifteen minutes at this stop, build it in" — get a transportation plan that matches the actual day rather than a generic one.</p>
+
+      <h2>Multi-Vehicle Events and Group Logistics</h2>
+      <p>Larger weddings and corporate events often need several vehicles working in coordination — a getaway car for the couple, a Sprinter van for the wedding party, a separate shuttle loop for guests. We assign one dispatch contact for the whole program so a planner managing multiple vehicles isn't juggling separate relationships with separate drivers, which matters most on a day with little room for miscommunication.</p>
+
+      <h2>Setting Up a Standing Relationship</h2>
+      <p>Planners who book with us repeatedly, across different clients and events, can set up a standing account with consolidated billing and a direct line to a dispatch contact who already understands how that planner likes a day-of timeline structured. That relationship removes a layer of repeated explanation from every new booking and tends to produce a smoother day for everyone involved, including the client who never sees any of this coordination happening.</p>
+
+      <h2>What to Share Before Every Event</h2>
+      <p>At minimum: the full day-of timeline, a single point of contact for day-of changes, any address that's hard to find or has restricted vehicle access, and the number and type of vehicles needed. The more of this that's confirmed before the event rather than assembled on the day, the fewer surprises either side has to manage in real time.</p>
+
+      <p>Planning weddings or events in the New Orleans area? <a href="/contact">Contact us</a> to discuss a standing transportation relationship, or <a href="/booking">book a specific event</a> directly.</p>
+    `,
+    faqs: [
+      { q: "Do you work directly with wedding and event planners rather than just the couple or host?", a: "Yes. We regularly work from a planner's day-of timeline and take direction from a single designated point of contact for schedule changes on event day." },
+      { q: "Can we set up a standing account for events we book repeatedly?", a: "Yes. Planners and producers who book with us across multiple clients can set up an account with consolidated billing and a consistent dispatch contact." },
+      { q: "How should we brief you on the day-of timeline?", a: "The same timeline shared with your other vendors — getting-ready time, ceremony time, photo stops, reception address and planned getaway time — works best. We can adjust from there rather than reconstructing it from a single confirmed slot." },
+      { q: "Can you coordinate several vehicles for one event?", a: "Yes. Multi-vehicle events get one dispatch contact for the entire program, so a planner managing a getaway car, a wedding-party van and a guest shuttle isn't juggling separate vendor relationships." },
+      { q: "What is the cancellation policy for planner-booked events?", a: "Sedan and SUV reservations cancel free of charge up to 3 hours before pickup. Sprinter van and multi-vehicle event bookings require 12 hours' notice." },
+    ],
+    relatedLinks: [
+      { label: "Wedding Limo Service", to: "/services/wedding-limo" },
+      { label: "Corporate Transportation", to: "/services/corporate-transportation" },
+      { label: "New Orleans Meetings & Events Industry Transportation", to: "/new-orleans-meetings-events-industry-transportation" },
+      { label: "Wedding Transportation Booking Mistakes", to: "/wedding-transportation-booking-mistakes-new-orleans" },
+      { label: "Special Events", to: "/services/special-events" },
+      { label: "Contact Us", to: "/contact" },
+      { label: "Book a Ride", to: "/booking" },
+    ],
+  },
+  {
+    slug: "new-orleans-halloween-krewe-of-boo-transportation-guide",
+    title: "Halloween in New Orleans: Krewe of Boo and French Quarter Costume Weekend Transportation",
+    metaTitle: "New Orleans Halloween & Krewe of Boo Travel Guide",
+    metaDescription:
+      "Halloween weekend in New Orleans brings the Krewe of Boo parade and a packed French Quarter. How closures and crowds affect your ride, and how to plan.",
+    category: "Events",
+    author: "MSY Limo Team",
+    date: "October 23, 2026",
+    readTime: "6 min read",
+    excerpt:
+      "New Orleans treats Halloween like a second Mardi Gras, complete with its own parade. Here's how Krewe of Boo and a packed French Quarter weekend change transportation planning.",
+    image: "/images/stock/u-1568454537842.webp",
+    content: `
+      <p>New Orleans doesn't do Halloween the way most American cities do. The French Quarter turns into one of the largest adult costume gatherings in the country, bars and galleries host elaborate theme parties for the entire week leading up to it, and the city runs an actual parade — Krewe of Boo — through the Quarter and the CBD, complete with the same kind of route-based street closures that define Mardi Gras season.</p>
+
+      <h2>Krewe of Boo: A Real Parade, Not Just a Party</h2>
+      <p>Krewe of Boo rolls through the French Quarter and Central Business District in the days before Halloween, following a route and closure pattern similar to a Carnival parade, just on a smaller scale. Streets along the route close to vehicle traffic as the parade approaches and reopen gradually once it passes, and a chauffeur who checks the published route and schedule before leaving can time a pickup around the closure rather than arriving at a dead end.</p>
+
+      <h2>The French Quarter on Halloween Weekend Itself</h2>
+      <p>Independent of any parade, Halloween weekend turns Bourbon Street and the surrounding blocks into a dense, costumed crowd comparable to a major festival night, and the same guidance that applies to any big French Quarter night applies here, amplified: plan to meet your ride on a perimeter street rather than deep inside the Quarter, and build extra time into both pickup and drop-off. Our <a href="/french-quarter-transportation-guide">French Quarter transportation guide</a> covers the general pickup strategy that Halloween weekend simply makes more necessary than usual.</p>
+
+      <h2>Costume Logistics: Big Dresses, Wings and Group Coordination</h2>
+      <p>Halloween in New Orleans brings genuinely elaborate costumes — oversized headpieces, wings, hoop skirts and group costumes meant to be seen together — that don't always fit comfortably in a standard sedan. Groups with bulky costumes or a theme meant to arrive together are often better served by an SUV or Sprinter van with real cargo room, booked for the group as a whole rather than splitting into separate rideshares that scatter a coordinated costume group across several cars.</p>
+
+      <h2>Hotel and Party-Hopping Logistics</h2>
+      <p>Many visitors build a Halloween weekend trip around several different parties or bars across the Quarter, the Marigny and the Warehouse District on the same night, which is exactly the kind of multi-stop evening an hourly charter handles better than booking individual one-way trips. A chauffeur who stays with the group for the night removes the uncertainty of finding a ride mid-costume at 1 a.m. from a block that's suddenly harder to reach than it was earlier in the evening.</p>
+
+      <h2>Booking Ahead for Halloween Weekend</h2>
+      <p>Halloween weekend books out nearly as far ahead as Mardi Gras for hotels in the Quarter, and vehicle demand follows closely behind, particularly for Sprinter vans and any booking that spans the parade and the weekend's biggest party nights. Reserve as early as your plans are set, especially for a group booking or a multi-stop evening.</p>
+
+      <h2>Getting to MSY Around the Holiday</h2>
+      <p>Travelers flying in or out around Halloween weekend should expect the same kind of elevated demand and tighter availability that any major New Orleans event weekend brings, and a reserved airport transfer, booked ahead, avoids competing with the weekend's costumed crowd for an on-demand ride at the terminal.</p>
+
+      <p>Planning a New Orleans Halloween weekend? <a href="/booking">Book online</a> or call (877) 609-1919 to reserve your airport transfer or evening transportation before the Quarter fills up.</p>
+    `,
+    faqs: [
+      { q: "Does Krewe of Boo actually close streets like a Mardi Gras parade?", a: "Yes. It follows a published route through the French Quarter and CBD with the same kind of rolling street closures as a Carnival parade, just on a smaller scale. We check the route and schedule before any pickup near it." },
+      { q: "Can a sedan handle a big Halloween costume?", a: "Not always comfortably. Oversized headpieces, wings and hoop skirts often fit better in an SUV or Sprinter van, which also keeps a group costume together in one vehicle rather than splitting across several cars." },
+      { q: "Should we book a chauffeur for the whole night during Halloween weekend?", a: "For a multi-stop evening across several parties or bars, hourly as-directed service is usually more practical than booking separate one-way trips, especially once the Quarter fills up later in the night." },
+      { q: "How far ahead should I book for Halloween weekend in New Orleans?", a: "As early as your plans are confirmed. Hotels and vehicles, particularly Sprinter vans, book out nearly as far ahead as Mardi Gras weekend." },
+      { q: "What is the cancellation policy for Halloween weekend bookings?", a: "Sedan and SUV reservations cancel free of charge up to 3 hours before pickup. Sprinter van and group bookings require 12 hours' notice." },
+    ],
+    relatedLinks: [
+      { label: "French Quarter Transportation Guide", to: "/french-quarter-transportation-guide" },
+      { label: "Hourly Charter Service", to: "/services/hourly-charter" },
+      { label: "Southern Decadence Transportation Guide", to: "/southern-decadence-transportation-guide" },
+      { label: "French Quarter Private Event Transportation", to: "/french-quarter-private-event-transportation" },
+      { label: "Avoiding Transportation Scams in New Orleans", to: "/avoiding-transportation-scams-new-orleans" },
+      { label: "Special Events", to: "/services/special-events" },
+      { label: "Book a Ride", to: "/booking" },
+    ],
+  },
+  {
+    slug: "new-orleans-jazz-funeral-memorial-service-transportation-guide",
+    title: "Jazz Funerals and Memorial Service Transportation in New Orleans: A Respectful Planning Guide",
+    metaTitle: "New Orleans Jazz Funeral & Memorial Transportation Guide",
+    metaDescription:
+      "Planning memorial service or jazz funeral transportation in New Orleans? How second-line processions affect routing, and how to arrange a dignified ride.",
+    category: "Local Guides",
+    author: "MSY Limo Team",
+    date: "October 23, 2026",
+    readTime: "6 min read",
+    excerpt:
+      "A New Orleans jazz funeral is a genuine cultural tradition with its own route and timing, distinct from an ordinary funeral procession. Here's how to plan transportation around one respectfully.",
+    image: "/images/stock/u-1449824913935.webp",
+    content: `
+      <p>The New Orleans jazz funeral — a solemn procession to the cemetery followed by a celebratory second line on the way back — is one of the city's most distinctive and most misunderstood traditions. Families planning a memorial service here, whether as lifelong residents or as out-of-town relatives arranging services for a loved one, often need transportation that respects both the formality of the service and the specific, sometimes unpredictable, logistics a traditional procession creates.</p>
+
+      <h2>What a Jazz Funeral Actually Involves</h2>
+      <p>A traditional jazz funeral follows a somber brass-band dirge from the funeral home or church to the cemetery, with family and close mourners walking or riding behind. After the burial, the tone shifts: a second line forms, the band plays upbeat music, and the procession becomes a celebration of the person's life, often drawing neighborhood participants well beyond the immediate family. Not every New Orleans funeral includes this tradition, but families who do want one should expect a route that moves at walking pace and can change timing once it begins.</p>
+
+      <h2>Family Transportation to and From Services</h2>
+      <p>For the family itself, the core need is usually straightforward and dignified: a sedan or SUV to the funeral home or church, on to the cemetery, and back, timed around the service rather than the procession if the family isn't walking the route themselves. Out-of-town relatives flying into MSY for a service, often on short notice, are one of the more common bookings we handle in this category, and we treat the pickup with the same discretion and punctuality we'd want for our own family.</p>
+
+      <h2>Coordinating Around a Second Line Procession</h2>
+      <p>If the service includes a traditional second line, a vehicle cannot follow the brass band directly through the procession route, which moves on foot and can detour or extend without advance notice. We stage near the procession's endpoint or a confirmed meeting location rather than attempting to track it in real time, and we build in flexibility for a timeline that may run later than originally planned once the celebratory portion begins.</p>
+
+      <h2>Out-of-Town Family and Guests</h2>
+      <p>Families gathering from multiple cities for a memorial service often need coordinated airport pickups spread across several arrival times, followed by transportation to a repast or reception after the service. We can run this as a single family reservation with staggered pickups, similar to how we coordinate wedding guest arrivals, so one point of contact manages the whole group's logistics during what is already a difficult time.</p>
+
+      <h2>Funeral Homes and Repeat Arrangements</h2>
+      <p>Funeral homes and churches that regularly need transportation support for visiting family members, or that want a dependable referral to offer grieving families who ask about transportation, are welcome to set up a standing arrangement with our dispatch team. Consistency matters in this work, and a known point of contact removes one more thing a family has to figure out during an already difficult week.</p>
+
+      <h2>Booking With Short Notice</h2>
+      <p>Memorial services are rarely planned weeks in advance, and we understand that most requests in this category come with only a few days' notice. Call rather than booking online for these arrangements — a direct conversation lets us confirm the service details, any procession involved, and the family's specific needs more quickly than a standard reservation form.</p>
+
+      <p>For memorial service or jazz funeral transportation, call (877) 609-1919 to speak directly with our dispatch team, who will confirm arrangements with the discretion this occasion deserves.</p>
+    `,
+    faqs: [
+      { q: "Can a car follow a traditional second-line procession directly?", a: "No. A second line moves on foot and can extend or detour without advance notice, so we stage near the procession's endpoint or an agreed meeting point rather than following it in real time." },
+      { q: "Do you provide transportation for out-of-town family flying in for a funeral?", a: "Yes. Coordinated airport pickups for family arriving from multiple cities, often on short notice, are a common part of this work, and we can run them as one family reservation with a single point of contact." },
+      { q: "How much advance notice do you need for memorial service transportation?", a: "As little as a few days is workable in most cases. Call our dispatch team directly rather than booking online so we can confirm the specific service details and timing." },
+      { q: "Can funeral homes set up a standing arrangement for recurring needs?", a: "Yes. Funeral homes and churches that regularly need transportation support, or want a dependable referral for families, can set up a standing relationship with our dispatch team." },
+      { q: "What is the cancellation policy for memorial service bookings?", a: "Given the nature of these arrangements, we handle changes and cancellations directly and flexibly with the family — call (877) 609-1919 if plans change." },
+    ],
+    relatedLinks: [
+      { label: "First Time in New Orleans Guide", to: "/first-time-new-orleans-visitor-guide" },
+      { label: "Airport Transportation", to: "/services/airport-transportation" },
+      { label: "MSY Airport Transportation Guide", to: "/airport-transportation-guide" },
+      { label: "Why Hire a Chauffeur", to: "/why-hire-a-chauffeur" },
+      { label: "Special Events", to: "/services/special-events" },
+      { label: "Contact Us", to: "/contact" },
       { label: "Book a Ride", to: "/booking" },
     ],
   },

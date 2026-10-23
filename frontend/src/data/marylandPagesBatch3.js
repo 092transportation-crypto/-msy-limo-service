@@ -214,6 +214,7 @@ export const MARYLAND_BATCH3 = [
       { q: "What if I need to cancel?", a: "Sedans and SUVs can be cancelled without charge up to 3 hours before pickup. Sprinter vans, limousines and special-event reservations require 12 hours." },
     ],
     related: [
+      { label: "Slidell Limo Service for Weddings", to: "/slidell-limo-service-for-weddings" },
       { label: "MSY to Slidell", to: "/msy-to-slidell" },
       { label: "Pearl River Limo Service", to: "/pearl-river-la-limo-service" },
       { label: "Mandeville Limo Service", to: "/mandeville-limo-service" },
@@ -285,6 +286,7 @@ export const MARYLAND_BATCH3 = [
       { q: "What is the cancellation window for wedding vehicles?", a: "Sprinter vans, limousines and special-event bookings can be cancelled free of charge up to 12 hours before pickup. Sedans and SUVs have a 3-hour window." },
     ],
     related: [
+      { label: "Covington Limo Service for Weddings", to: "/covington-limo-service-for-weddings" },
       { label: "MSY to Covington", to: "/msy-to-covington" },
       { label: "Mandeville Limo Service", to: "/mandeville-limo-service" },
       { label: "Hammond Limo Service", to: "/hammond-la-limo-service" },
@@ -640,6 +642,7 @@ export const MARYLAND_BATCH3 = [
       { q: "What is the cancellation policy on a long trip?", a: "The same as any reservation: free cancellation up to 3 hours before pickup for sedans and SUVs, and 12 hours for Sprinter vans, limousines and special events." },
     ],
     related: [
+      { label: "Lafayette Limo Service for Weddings", to: "/lafayette-la-limo-service-for-weddings" },
       { label: "MSY to Lafayette", to: "/msy-to-lafayette" },
       { label: "MSY to New Iberia", to: "/msy-to-new-iberia" },
       { label: "MSY to Opelousas", to: "/msy-to-opelousas" },
@@ -709,6 +712,7 @@ export const MARYLAND_BATCH3 = [
       { q: "How much wait time is included?", a: "Airport pickups include 45 minutes on domestic arrivals and 60 on international, starting at landing. All other pickups include 15 minutes." },
     ],
     related: [
+      { label: "Hammond Corporate Car Service", to: "/hammond-la-corporate-car-service" },
       { label: "MSY to Hammond", to: "/msy-to-hammond" },
       { label: "Covington Limo Service", to: "/covington-la-limo-service" },
       { label: "Baton Rouge Limo Service", to: "/baton-rouge-limo-service" },

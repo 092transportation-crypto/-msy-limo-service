@@ -59,6 +59,19 @@ export const venues = [
         name: "Tipitina's",
         blurb:
           "The legendary Uptown room at Napoleon and Tchoupitoulas. Street parking is scarce — a waiting black car is the local move.",
+        link: "/tipitinas-transportation",
+      },
+      {
+        name: "The Orpheum Theater",
+        blurb:
+          "The Louisiana Philharmonic's restored 1918 downtown home on University Place, plus touring concerts and comedy — curbside drop-off beats the CBD garages.",
+        link: "/orpheum-theater-new-orleans-transportation",
+      },
+      {
+        name: "The Fillmore New Orleans",
+        blurb:
+          "The Fillmore brand's room at the foot of Canal Street near the riverfront — an easy add-on for downtown hotel guests and conventioneers.",
+        link: "/fillmore-new-orleans-transportation",
       },
     ],
     whyTitle: "Why Book a Chauffeur for Your Night Out?",
@@ -390,6 +403,11 @@ export const venues = [
         name: "Audubon Park & St. Charles Avenue",
         blurb: "A scenic streetcar-line drop-off for visitors who want a walk through the park before or after campus.",
       },
+      {
+        name: "University of New Orleans (Lakefront)",
+        blurb: "A separate campus community on the Lakefront — families with students at both schools book us for either stop.",
+        link: "/university-of-new-orleans-transportation",
+      },
     ],
     whyTitle: "Why Families Book a Chauffeur for Campus Weekends",
     whyParagraphs: [
@@ -469,6 +487,11 @@ export const venues = [
       {
         name: "Downtown New Orleans",
         blurb: "A direct ride for family dinners or an evening out after a campus visit.",
+      },
+      {
+        name: "University of New Orleans (Lakefront)",
+        blurb: "A separate campus community on the Lakefront, covered on the same flat-rate standard as any other MSY pickup.",
+        link: "/university-of-new-orleans-transportation",
       },
     ],
     whyTitle: "Why Book Ahead for Uptown Campus Weekends",
