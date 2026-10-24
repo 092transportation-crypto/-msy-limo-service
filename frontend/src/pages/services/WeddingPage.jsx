@@ -14,6 +14,10 @@ const WEDDING_FAQS = ensureFiveFaqs([
   { q: "Can you coordinate vehicles for the whole wedding party?", a: "Yes — a luxury sedan for the couple, stretch limousine for the bridal party, and Sprinter shuttles for guests, all coordinated on one timeline with one point of contact." },
   { q: "Do you decorate the wedding vehicle?", a: "Decorated vehicles are available upon request, along with red carpet service and a complimentary champagne toast for the newlyweds." },
   { q: "Which New Orleans wedding venues do you serve?", a: "All of them — from French Quarter courtyards and Garden District estates to Northshore venues in Covington and Mandeville. We plan routes and timing around your ceremony schedule." },
+  { q: "Can you coordinate transportation around a second-line parade?", a: "Yes — this is one of our most common wedding requests. Your getaway vehicle stages near the second-line's endpoint and times its pickup to when the procession actually arrives." },
+  { q: "Can a stretch limousine reach every wedding venue?", a: "Not every one. Some Garden District, Uptown and French Quarter streets are too narrow for a full stretch limo, and we'll recommend a Cadillac Escalade instead when your specific venue calls for it." },
+  { q: "Do you provide transportation for out-of-town wedding guests flying into MSY?", a: "Yes, as a flat-rate group transfer in a Sprinter van, delivered directly to your hotel block or the venue, with every flight tracked." },
+  { q: "What's the cancellation policy for a wedding booking?", a: "Sprinter van and limousine wedding bookings cancel free of charge up to 12 hours before the first pickup; sedan and SUV add-ons follow the standard 3-hour window." },
 ], { slug: "wedding" });
 const weddingFaqSchema = buildFaqSchema(WEDDING_FAQS);
 
@@ -53,8 +57,8 @@ const WeddingPage = () => {
   return (
     <div className="min-h-screen bg-black">
       <SEO
-        title="New Orleans Wedding Limo Service | Stretch Limos & Sprinters"
-        description="New Orleans wedding limo service — stretch limos, sedans & Sprinter guest shuttles with champagne toast and red carpet. Call (877) 609-1919 to book."
+        title="New Orleans Wedding Limo Service | Flat Rate, No Surprises"
+        description="One flat quote for your whole wedding day — stretch limo, Sprinter guest shuttle & champagne toast, second-line coordination included. (877) 609-1919."
         path="/services/wedding-limo"
         schema={[LOCAL_BUSINESS_SCHEMA, weddingFaqSchema]}
       />
@@ -304,6 +308,9 @@ const WeddingPage = () => {
               { to: "/french-quarter-limo-service", label: "French Quarter" },
               { to: "/new-orleans-anniversary-limo-service", label: "Anniversary Limo Service" },
               { to: "/services/special-events", label: "Special Events" },
+              { to: "/new-orleans-stretch-limo-rental", label: "Stretch Limo Rental" },
+              { to: "/blog/what-is-a-second-line-parade-wedding-tradition-explained", label: "What Is a Second Line Parade?" },
+              { to: "/blog/new-orleans-wedding-limo-cost-guide", label: "Wedding Limo Cost Guide" },
             ].map((l) => (
               <Link key={l.to} to={l.to} className="px-4 py-2 bg-amber-500/10 border border-amber-500/30 rounded-lg text-sm text-amber-400 font-medium hover:bg-amber-500/20 transition-colors">
                 {l.label}

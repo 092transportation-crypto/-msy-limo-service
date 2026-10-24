@@ -122,6 +122,14 @@ export const routes = [
         a: "All the time. SUVs seat up to 6 and Sprinter vans up to 13, so the whole group rides together from baggage claim to Bourbon Street. Ask about round-trip and multi-night packages when you book.",
       },
     ],
+    extraLinks: [
+      { to: "/french-quarter-limo-service", label: "French Quarter Limo Service" },
+      { to: "/msy-to-garden-district", label: "MSY to Garden District" },
+      { to: "/msy-to-warehouse-district", label: "MSY to Warehouse District" },
+      { to: "/msy-to-bywater-marigny", label: "MSY to Marigny & Bywater" },
+      { to: "/blog/how-far-is-msy-airport-from-french-quarter-and-downtown", label: "Distances From MSY, Explained" },
+      { to: "/blog/best-neighborhoods-to-stay-in-new-orleans-for-first-time-visitors", label: "Best Neighborhoods to Stay In" },
+    ],
   },
   {
     slug: "msy-to-metairie",

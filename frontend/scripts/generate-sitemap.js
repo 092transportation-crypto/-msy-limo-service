@@ -70,7 +70,7 @@ for (const slug of slugsFromFile("venuesData.js")) add(`/${slug}`, { priority: "
 
 // New Orleans / MSY-area city, neighborhood, service & event landing pages
 // (base marylandPages.js array + its Louisiana batch files).
-for (const file of ["marylandPages.js", "marylandPagesBatch3.js", "marylandPagesBatch4.js", "marylandPagesBatch5.js", "marylandPagesBatch6.js", "marylandPagesBatch7.js", "marylandPagesBatch8.js", "marylandPagesBatch9.js", "marylandPagesBatch10.js"]) {
+for (const file of ["marylandPages.js", "marylandPagesBatch3.js", "marylandPagesBatch4.js", "marylandPagesBatch5.js", "marylandPagesBatch6.js", "marylandPagesBatch7.js", "marylandPagesBatch8.js", "marylandPagesBatch9.js", "marylandPagesBatch10.js", "marylandPagesBatch11.js"]) {
   for (const slug of slugsFromFile(file)) add(`/${slug}`, { priority: "0.8" });
 }
 
@@ -78,7 +78,7 @@ for (const file of ["marylandPages.js", "marylandPagesBatch3.js", "marylandPages
 for (const slug of slugsFromFile("guides.js")) add(`/${slug}`, { priority: "0.7" });
 
 // Standalone SEO blog posts.
-for (const file of ["blogPostsData.js", "blogPostsBatch2.js", "blogPostsBatch3.js", "blogPostsBatch4.js", "blogPostsBatch5.js", "blogPostsBatch6.js", "blogPostsBatch7.js"]) {
+for (const file of ["blogPostsData.js", "blogPostsBatch2.js", "blogPostsBatch3.js", "blogPostsBatch4.js", "blogPostsBatch5.js", "blogPostsBatch6.js", "blogPostsBatch7.js", "blogPostsBatch8.js"]) {
   for (const slug of slugsFromFile(file)) add(`/blog/${slug}`, { changefreq: "monthly", priority: "0.7" });
 }
 

@@ -6,6 +6,7 @@ import { BLOG_POSTS_BATCH4 } from "@/data/blogPostsBatch4";
 import { BLOG_POSTS_BATCH5 } from "@/data/blogPostsBatch5";
 import { BLOG_POSTS_BATCH6 } from "@/data/blogPostsBatch6";
 import { BLOG_POSTS_BATCH7 } from "@/data/blogPostsBatch7";
+import { BLOG_POSTS_BATCH8 } from "@/data/blogPostsBatch8";
 
 export const seoBlogPosts = [
   {
@@ -1926,6 +1927,7 @@ seoBlogPosts.push(...BLOG_POSTS_BATCH4);
 seoBlogPosts.push(...BLOG_POSTS_BATCH5);
 seoBlogPosts.push(...BLOG_POSTS_BATCH6);
 seoBlogPosts.push(...BLOG_POSTS_BATCH7);
+seoBlogPosts.push(...BLOG_POSTS_BATCH8);
 seoBlogPosts.push({
   slug: "new-orleans-wedding-transportation-venues-guide",
   title: "New Orleans Wedding Transportation: The Complete Venue-by-Venue Guide",

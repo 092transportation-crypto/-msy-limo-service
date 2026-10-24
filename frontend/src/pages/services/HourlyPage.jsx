@@ -14,6 +14,10 @@ const HOURLY_FAQS = ensureFiveFaqs([
   { q: "What are hourly charters used for?", a: "Plantation and city tours, shopping days, multi-stop business schedules, medical appointments, and any itinerary where you want the vehicle to stay with you." },
   { q: "Can I change the itinerary during the charter?", a: "Yes — your chauffeur is at your disposal for the booked time, and route changes on the fly are part of the service." },
   { q: "Which vehicles are available by the hour?", a: "Every vehicle in our fleet: executive sedans, Cadillac Escalade SUVs, Mercedes Sprinter vans, and stretch limousines. Call (877) 609-1919 for hourly rates." },
+  { q: "How much does hourly charter cost?", a: "Roughly $85–$115 per hour for a luxury sedan and $115–$150 per hour for a premium SUV as a 2026 benchmark, with Sprinter vans and limousines quoted individually by date. See our limo rental cost guide for the full breakdown." },
+  { q: "Is hourly charter cheaper than booking several separate rides?", a: "Usually, once your day includes two or more stops. For a single trip with no detours, point-to-point pricing is typically the better value instead." },
+  { q: "Can we book hourly charter for a birthday, bachelorette party or night out?", a: "Yes — this is one of the most common hourly bookings. One chauffeur and vehicle stay with your group from the first stop to the last." },
+  { q: "Do you offer hourly charter for out-of-town day trips?", a: "Yes, including River Road plantation tours, Northshore day trips and swamp tours — often a better value than renting a car for a single day." },
 ], { slug: "hourly" });
 const hourlyFaqSchema = buildFaqSchema(HOURLY_FAQS);
 
@@ -53,8 +57,8 @@ const HourlyPage = () => {
   return (
     <div className="min-h-screen bg-black">
       <SEO
-        title="Hourly Limo Charter New Orleans | As-Directed Chauffeur"
-        description="Hourly as-directed chauffeur charter in New Orleans for tours, multi-stop days & events, with a dedicated vehicle. Call (877) 609-1919 to book."
+        title="Hourly Limo Charter New Orleans | One Car, No Limits"
+        description="One dedicated chauffeur for tours, multi-stop days, nights out & events — you set the itinerary, we confirm the flat hourly rate. (877) 609-1919."
         path="/services/hourly-charter"
         schema={[LOCAL_BUSINESS_SCHEMA, hourlyFaqSchema]}
       />
@@ -310,6 +314,9 @@ const HourlyPage = () => {
               { to: "/national-wwii-museum-transportation", label: "National WWII Museum" },
               { to: "/tulane-university-transportation", label: "Tulane University" },
               { to: "/services/wedding-limo", label: "Wedding Limo" },
+              { to: "/point-to-point-car-service-new-orleans", label: "Point-to-Point Car Service" },
+              { to: "/blog/new-orleans-limo-rental-cost-guide-hourly-daily-rates", label: "Limo Rental Cost Guide" },
+              { to: "/new-orleans-birthday-party-limo-service", label: "Birthday Party Limo Service" },
             ].map((l) => (
               <Link key={l.to} to={l.to} className="px-4 py-2 bg-amber-500/10 border border-amber-500/30 rounded-lg text-sm text-amber-400 font-medium hover:bg-amber-500/20 transition-colors">
                 {l.label}

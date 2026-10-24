@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import Navigation from "@/components/Navigation";
 import HeroSection from "@/components/HeroSection";
@@ -34,8 +35,8 @@ const HomePage = () => {
       className="min-h-screen bg-black"
     >
       <SEO
-        title="MSY Airport Car Service & New Orleans Limo | Book 24/7"
-        description="MSY airport car service & New Orleans limo with flat rates, no surge and real-time flight tracking. Licensed & insured. Book online or call (877) 609-1919."
+        title="MSY Airport Car Service & New Orleans Limo | No Surge"
+        description="Never pay surge again: MSY airport car service & New Orleans limo with flat rates, flight tracking & 24/7 dispatch. Licensed & insured. (877) 609-1919."
         path="/"
         schema={[homeFaqSchema]}
       />
@@ -91,10 +92,19 @@ const HomePage = () => {
               fleet — whether you need a New Orleans chauffeur service for a night in the French Quarter, a black car
               to a convention, or an airport transfer at dawn.
             </p>
-            <p className="text-gray-300 leading-relaxed">
+            <p className="text-gray-300 leading-relaxed mb-4">
               We serve the whole metro: Metairie chauffeur service for business travelers, Gretna and Marrero chauffeur
               service on the West Bank, Mandeville chauffeur service and Covington car service across the Northshore,
               plus Slidell and every parish in between. One flat quote, every mile in style.
+            </p>
+            <p className="text-gray-300 leading-relaxed">
+              Further out, our reserved chauffeurs run committed, flight-tracked transfers to <Link to="/lafayette-la-limo-service" className="text-amber-400 hover:text-amber-300 underline underline-offset-2">Lafayette</Link>,{" "}
+              <Link to="/lake-charles-la-limo-service" className="text-amber-400 hover:text-amber-300 underline underline-offset-2">Lake Charles</Link>,{" "}
+              <Link to="/houma-limo-service" className="text-amber-400 hover:text-amber-300 underline underline-offset-2">Houma</Link> and{" "}
+              <Link to="/baton-rouge-limo-service" className="text-amber-400 hover:text-amber-300 underline underline-offset-2">Baton Rouge</Link> — the kind of long-distance Louisiana trip a rideshare driver
+              usually won't accept. Looking for something closer to home? See our full{" "}
+              <Link to="/service-areas" className="text-amber-400 hover:text-amber-300 underline underline-offset-2">service area directory</Link> or ask about{" "}
+              <Link to="/new-orleans-limo-service-near-me" className="text-amber-400 hover:text-amber-300 underline underline-offset-2">limo service near you</Link>.
             </p>
           </div>
         </section>

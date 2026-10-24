@@ -14,6 +14,10 @@ const CORPORATE_FAQS = ensureFiveFaqs([
   { q: "Can you pick up our clients at MSY airport?", a: "Absolutely. We provide meet-and-greet service at baggage claim with a personalized sign, flight tracking, and direct delivery to your office, hotel, or meeting." },
   { q: "Do you handle roadshows and multi-stop itineraries?", a: "Yes. Hourly charters keep a dedicated chauffeur and vehicle with your team all day for investor roadshows, site visits, and multi-office schedules across the New Orleans metro and Baton Rouge." },
   { q: "Are your chauffeurs suitable for executive travel?", a: "All chauffeurs are background-checked, professionally trained, and discreet. As a Licensed & Insured Louisiana Carrier, we meet corporate duty-of-care requirements with commercial insurance on every vehicle." },
+  { q: "Can you run a recurring employee or conference shuttle?", a: "Yes. Shuttle contracts are scheduled and billed as a recurring service rather than one-off trips — see our corporate shuttle service page for how that's set up." },
+  { q: "Do you serve corporate travel outside New Orleans?", a: "Yes, including Baton Rouge, the Northshore, and Louisiana's oil, gas, maritime and legal corridors, all billed through the same corporate account." },
+  { q: "Can we set a spending or approval policy on our account?", a: "Yes. Corporate accounts can be configured with traveler profiles, approval workflows and consolidated monthly invoicing to match your internal policy." },
+  { q: "Is there a minimum commitment to open a corporate account?", a: "No. There's no setup cost and no minimum monthly spend — we configure the account around however much or little travel your team actually books." },
 ], { slug: "corporate" });
 const corporateFaqSchema = buildFaqSchema(CORPORATE_FAQS);
 
@@ -53,8 +57,8 @@ const CorporatePage = () => {
   return (
     <div className="min-h-screen bg-black">
       <SEO
-        title="Corporate Car Service New Orleans | Executive Chauffeur"
-        description="Executive corporate car service for New Orleans business travel — client meet & greet at MSY, roadshows & monthly billing. Call (877) 609-1919."
+        title="New Orleans Corporate Car Service | No Setup Cost"
+        description="Free corporate accounts with consolidated billing — client meet & greet at MSY, roadshows, shuttles & priority booking. Call (877) 609-1919 to set one up."
         path="/services/corporate-transportation"
         schema={[LOCAL_BUSINESS_SCHEMA, corporateFaqSchema]}
       />
@@ -310,6 +314,9 @@ const CorporatePage = () => {
               { to: "/warehouse-district-cbd-limo-service", label: "CBD / Warehouse District" },
               { to: "/msy-airport-corporate-car-service", label: "MSY Airport Corporate Transfers" },
               { to: "/services/hourly-charter", label: "Hourly Charter" },
+              { to: "/new-orleans-corporate-shuttle-service", label: "Corporate Shuttle Service" },
+              { to: "/louisiana-oil-gas-energy-corporate-transportation", label: "Oil & Gas Corporate Transportation" },
+              { to: "/geismar-la-limo-service", label: "Geismar Industrial Corridor" },
             ].map((l) => (
               <Link key={l.to} to={l.to} className="px-4 py-2 bg-amber-500/10 border border-amber-500/30 rounded-lg text-sm text-amber-400 font-medium hover:bg-amber-500/20 transition-colors">
                 {l.label}

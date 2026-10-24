@@ -14,6 +14,10 @@ const AIRPORT_FAQS = ensureFiveFaqs([
   { q: "How much wait time is included with an airport pickup?", a: "45 minutes of complimentary wait time on domestic arrivals, 60 minutes on international arrivals, and 15 minutes for departures — we track your flight so delays never cost you extra." },
   { q: "Where does my chauffeur meet me at MSY?", a: "Standard pickups meet you at the arrivals curb; with meet-and-greet service, your chauffeur waits inside baggage claim with a personalized sign and helps with luggage." },
   { q: "Do you offer flat rates for MSY airport car service?", a: "Yes — every airport transfer is a flat rate quoted by vehicle class and confirmed at booking, with no surge pricing at any hour or event. Call (877) 609-1919 for a quote." },
+  { q: "How far in advance should I book MSY airport transportation?", a: "A few days ahead is fine for most dates. Book further ahead — two to four weeks — for Mardi Gras, Jazz Fest, a Saints playoff weekend, or any date near a major citywide event, when Sprinter vans and limousines sell out first." },
+  { q: "Can you handle a group arriving on multiple flights?", a: "Yes. Tell us each flight number when you book and we'll track every leg separately, consolidating pickups into one or more vehicles once everyone has landed." },
+  { q: "Do you serve destinations beyond New Orleans from MSY?", a: "Yes. We run flat-rate, flight-tracked transfers from MSY to Baton Rouge, the Northshore, Houma, Lafayette, Lake Charles and dozens of other Louisiana cities and towns, in addition to every New Orleans-area neighborhood." },
+  { q: "What's the difference between a standard pickup and meet-and-greet?", a: "A standard pickup meets you at the arrivals curb after you've collected your bags; meet-and-greet puts your chauffeur inside baggage claim holding a sign with your name, which is worth choosing if you're unfamiliar with the terminal or traveling with young children." },
 ], { slug: "airport" });
 const airportFaqSchema = buildFaqSchema(AIRPORT_FAQS);
 
@@ -52,8 +56,8 @@ const AirportPage = () => {
   return (
     <div className="min-h-screen bg-black">
       <SEO
-        title="MSY Airport Transportation | Flat-Rate Car Service 24/7"
-        description="MSY airport transportation with real-time flight tracking, meet & greet and flat rates — never any surge pricing. Book online or call (877) 609-1919."
+        title="MSY Airport Transportation | No Surge, Ever | Book 24/7"
+        description="Skip the rideshare surge at MSY: flight-tracked pickup, 45 min free wait time & a flat rate confirmed before you fly. Book online or call (877) 609-1919."
         path="/services/airport-transportation"
         schema={[LOCAL_BUSINESS_SCHEMA, airportFaqSchema]}
       />
@@ -189,11 +193,19 @@ const AirportPage = () => {
             Orleans, plus direct transfers from Kenner to MSY airport — Kenner airport transportation is our home
             turf, minutes from the terminal.
           </p>
-          <p className="text-gray-300 leading-relaxed">
+          <p className="text-gray-300 leading-relaxed mb-4">
             West Bank travelers rely on us for Gretna to MSY airport, Harvey to MSY airport, and Westwego to MSY
             airport pickups, while Harvey airport transportation and Chalmette to MSY airport runs are quoted flat —
             no surge, ever. We also offer Metairie airport transportation and long-distance Baton Rouge airport car
             service, making us the luxury airport car service New Orleans travelers book again and again.
+          </p>
+          <p className="text-gray-300 leading-relaxed">
+            Not sure which pickup to book? A single, known trip from the terminal is simplest as a{" "}
+            <Link to="/point-to-point-car-service-new-orleans" className="text-amber-400 hover:text-amber-300 underline underline-offset-2">point-to-point transfer</Link>, while
+            families and small groups with extra luggage often prefer a{" "}
+            <Link to="/new-orleans-black-suv-service" className="text-amber-400 hover:text-amber-300 underline underline-offset-2">black SUV</Link> over a sedan. Searching for
+            {" "}<Link to="/new-orleans-limo-service-near-me" className="text-amber-400 hover:text-amber-300 underline underline-offset-2">limo service near you</Link> anywhere
+            in the metro turns up the same flat-rate, flight-tracked standard described on this page.
           </p>
         </div>
       </section>
@@ -339,7 +351,10 @@ const AirportPage = () => {
               { to: "/msy-airport-hotel-transfers", label: "Hotel Transfers" },
               { to: "/msy-to-new-orleans-downtown", label: "MSY to Downtown" },
               { to: "/msy-to-french-quarter", label: "MSY to French Quarter" },
+              { to: "/msy-to-garden-district", label: "MSY to Garden District" },
+              { to: "/msy-to-uptown-new-orleans", label: "MSY to Uptown" },
               { to: "/services/corporate-transportation", label: "Corporate Travel" },
+              { to: "/blog/how-far-is-msy-airport-from-french-quarter-and-downtown", label: "Distances From MSY, Explained" },
             ].map((l) => (
               <Link key={l.to} to={l.to} className="px-4 py-2 bg-amber-500/10 border border-amber-500/30 rounded-lg text-sm text-amber-400 font-medium hover:bg-amber-500/20 transition-colors">
                 {l.label}
