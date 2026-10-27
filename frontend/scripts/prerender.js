@@ -129,6 +129,17 @@ async function main() {
       await tick();
       if (!container.querySelector("h1")) throw new Error("no <h1> rendered");
       if (window.location.pathname.replace(/(.)\/+$/, "$1") !== route) throw new Error(`redirected to ${window.location.pathname}`);
+      // The <Toaster/> in App.js (sonner) injects a ~15KB CSS-in-JS <style>
+      // tag into <head> on mount, purely for toast styling that's invisible
+      // until a toast actually fires (never, on initial paint). It isn't in
+      // the pristine shell and the external stylesheet doesn't need it
+      // duplicated inline, so strip it before serializing — otherwise it's
+      // baked as dead weight into every one of the ~455 static pages,
+      // tanking their text-to-HTML ratio for zero visual benefit. React
+      // re-injects it live after hydration if a toast is ever shown.
+      for (const style of window.document.head.querySelectorAll("style")) {
+        if (/data-sonner-toaster|--toast-icon-margin/.test(style.textContent)) style.remove();
+      }
       const html = "<!doctype html>\n" + window.document.documentElement.outerHTML;
       const file = route === "/" ? shellPath : path.join(BUILD_DIR, route, "index.html");
       fs.mkdirSync(path.dirname(file), { recursive: true });
