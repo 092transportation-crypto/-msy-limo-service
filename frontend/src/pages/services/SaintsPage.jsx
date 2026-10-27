@@ -427,6 +427,8 @@ const SaintsPage = () => {
               { to: "/warehouse-district-cbd-limo-service", label: "Warehouse District Tailgating" },
               { to: "/services/special-events", label: "Special Events" },
               { to: "/services/hourly-charter", label: "Hourly Charter" },
+              { to: "/new-orleans-saints-superdome-game-day-traffic-parking-guide", label: "Saints Game Day Traffic & Parking Guide" },
+              { to: "/new-orleans-pelicans-smoothie-king-center-game-day-transportation-guide", label: "Pelicans Game Day Guide" },
             ].map((l) => (
               <Link key={l.to} to={l.to} className="px-4 py-2 bg-amber-500/10 border border-amber-500/30 rounded-lg text-sm text-amber-400 font-medium hover:bg-amber-500/20 transition-colors">
                 {l.label}

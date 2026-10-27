@@ -279,6 +279,8 @@ export const GUIDES = [
       { label: "Airport Transportation Service", to: "/services/airport-transportation" },
       { label: "MSY to French Quarter", to: "/msy-to-french-quarter" },
       { label: "Cruise Transportation", to: "/services/cruise-transportation" },
+      { label: "MSY International Arrivals Guide", to: "/msy-international-arrivals-customs-transportation-guide" },
+      { label: "MSY Long Layover Day Trip Guide", to: "/msy-long-layover-day-trip-transportation-guide" },
       { label: "Book a Ride", to: "/booking" },
     ],
   },
@@ -2749,6 +2751,493 @@ export const GUIDES = [
       { label: "Why Hire a Chauffeur", to: "/why-hire-a-chauffeur" },
       { label: "Special Events", to: "/services/special-events" },
       { label: "Contact Us", to: "/contact" },
+      { label: "Book a Ride", to: "/booking" },
+    ],
+  },
+  {
+    slug: "new-orleans-pelicans-smoothie-king-center-game-day-transportation-guide",
+    title: "New Orleans Pelicans Game Day: Smoothie King Center Traffic, Parking and Transportation Guide",
+    metaTitle: "Pelicans Game Day Transportation Guide | Smoothie King Center",
+    metaDescription: "A real Pelicans game day guide: Smoothie King Center parking, Warehouse District traffic, and why a reserved car beats circling for a spot. (877) 609-1919.",
+    category: "Events",
+    author: "MSY Limo Team",
+    date: "October 5, 2026",
+    readTime: "7 min read",
+    excerpt: "Tip-off traffic around the Smoothie King Center backs up the Warehouse District fast, and the nearby garages fill before the opening buzzer. Here's a practical plan for getting to a Pelicans game and home again without the circling.",
+    image: "/images/blog/scenario-group-shuttle.webp",
+    content: `
+      <p class="lead">The Smoothie King Center sits in the Warehouse District, a few blocks from the Caesars Superdome and a short walk from a dense cluster of restaurants and bars that fill up before and after every Pelicans home game. That proximity is great once you're on foot — it's the two hours before and the thirty minutes after tip-off that cause the actual headache, when every nearby garage fills and every nearby street backs up with the same traffic pattern the Superdome generates on football Sundays.</p>
+
+      <h2>Why arena-district parking fills faster than people expect</h2>
+      <p>The arena's attached and adjacent garages serve season ticket holders and early arrivals first, and once those fill, drivers get funneled into surface lots and street parking several blocks out — the exact blocks where restaurant and bar traffic is also at its peak before a game. Arriving even thirty minutes before tip-off, rather than the hour most fans assume is enough, can mean a parking search that eats into the first quarter.</p>
+      <p>A reserved chauffeur sidesteps the search entirely: the vehicle drops you directly at the arena entrance and either waits nearby or returns at a scheduled time, so the parking problem simply doesn't apply to your night.</p>
+
+      <h2>The exit is worse than the entrance</h2>
+      <p>Entry traffic is spread across a couple of hours as fans trickle in; exit traffic is compressed into the fifteen minutes after the final buzzer, when the entire arena empties onto the same handful of Warehouse District streets at once. Rideshare demand spikes to match, which means longer wait times and higher surge pricing right when everyone wants to leave simultaneously.</p>
+      <p>A pre-arranged pickup at a fixed time and location avoids the worst of that crunch — your chauffeur is already positioned nearby rather than joining the same scramble as every other driver pulling up a rideshare app at the final buzzer.</p>
+
+      <h2>Pairing a game with dinner in the Warehouse District</h2>
+      <p>Many Pelicans fans build a full evening around the game — dinner nearby beforehand, the game itself, and a stop afterward. We run that as one hourly, as-directed charter: a pickup from your hotel or home, a drop at a restaurant, a wait or return trip to the arena, and a final pickup after the game, all under one reservation rather than three separate rideshare calls.</p>
+
+      <h2>Out-of-town fans flying in for a game</h2>
+      <p>Visiting fans who fly into MSY specifically for a Pelicans game, whether for a marquee matchup or just a weekend trip built around basketball, are a steady part of our Warehouse District business. We coordinate the airport pickup, a hotel drop, and the arena trip as one connected plan, with flight tracking covering the arrival leg the same way it does on any airport transfer, so a delayed flight doesn't put the rest of the evening at risk.</p>
+      <p>Groups traveling together for a game — a group of coworkers, a father-son trip, a bachelor weekend built around basketball — often find a single Sprinter van simpler and more cost-effective than everyone arranging their own transportation separately once the airport leg, the arena leg and the return trip are all added up.</p>
+
+      <h2>Booking lead time and what's included</h2>
+      <p>Marquee matchups and weekend games fill the fleet's availability fastest, so booking a few days ahead is worth it for those dates; a weeknight game against a less prominent opponent can usually be arranged with a day's notice. The flat or hourly rate, confirmed before you book, includes the chauffeur and standard wait time.</p>
+      <p>Sedan and SUV bookings cancel free of charge up to 3 hours before pickup; Sprinter van bookings follow the 12-hour window. Call <a href="tel:+18776091919">(877) 609-1919</a> to book a Pelicans game night, or <a href="/booking">reserve online</a> in about a minute.</p>
+    `,
+    faqs: [
+      { q: "How early should I arrive to avoid Smoothie King Center parking trouble?", a: "At least an hour before tip-off if you're driving yourself and parking; a reserved car service removes the parking search entirely since it drops you at the entrance." },
+      { q: "Is the exit after the game really worse than arriving?", a: "Yes. Exit traffic compresses into the fifteen minutes after the final buzzer, when every fan and every rideshare driver converges on the same few Warehouse District streets at once." },
+      { q: "Can you coordinate dinner before the game and a pickup after?", a: "Yes, we run that as one hourly, as-directed charter covering a restaurant stop, the game, and a final pickup afterward." },
+      { q: "Do you serve group bookings for a Pelicans game?", a: "Yes, a Sprinter van comfortably moves a group of coworkers or a family together to and from the arena." },
+      { q: "How far ahead should I book for a marquee matchup?", a: "A few days ahead for a high-demand game; a weeknight game against a less prominent opponent is usually bookable with a day's notice." },
+    ],
+    relatedLinks: [
+      { label: "Smoothie King Center Transportation", to: "/smoothie-king-center-transportation" },
+      { label: "Caesars Superdome Transportation", to: "/caesars-superdome-transportation" },
+      { label: "Saints Game Day Transportation", to: "/services/saints-game-day" },
+      { label: "Warehouse District and CBD Limo Service", to: "/warehouse-district-cbd-limo-service" },
+      { label: "New Orleans Party Bus Transportation", to: "/new-orleans-party-bus-transportation" },
+      { label: "Book a Ride", to: "/booking" },
+    ],
+  },
+  {
+    slug: "new-orleans-saints-superdome-game-day-traffic-parking-guide",
+    title: "Saints Game Day in New Orleans: Caesars Superdome Traffic, Parking and Tailgate Transportation Guide",
+    metaTitle: "Saints Game Day Transportation Guide | Superdome Traffic",
+    metaDescription: "A real Saints game day guide: Caesars Superdome traffic patterns, tailgate logistics and why a reserved car beats fighting the postgame crowd. (877) 609-1919.",
+    category: "Events",
+    author: "MSY Limo Team",
+    date: "September 14, 2026",
+    readTime: "8 min read",
+    excerpt: "Sixty thousand fans converge on the Caesars Superdome on a Saints Sunday, and the surrounding streets close well before kickoff. Here's a practical, traffic-pattern-based plan for getting there, tailgating, and getting out.",
+    image: "/images/stock/u-1449965408869.webp",
+    content: `
+      <p class="lead">A Saints home Sunday brings roughly sixty thousand fans into the Central Business District at once, and the city closes or restricts several streets immediately around the Caesars Superdome hours before kickoff to manage pedestrian and tailgate traffic. Fans who've only driven to a handful of games tend to underestimate how early those closures start and how long the postgame exit actually takes — this guide covers both honestly, based on patterns we see every home Sunday.</p>
+
+      <h2>When street closures actually start</h2>
+      <p>Closures and restricted access around the Superdome and the adjacent Champions Square tailgate area typically begin three to four hours before kickoff, well before most casual fans plan to arrive. Drivers who assume a ninety-minute cushion is enough frequently find their intended route blocked and get rerouted several blocks out, adding real time to what looked like a short drive on a map.</p>
+      <p>A chauffeur who drives this corridor every home game knows the current closure pattern for that specific Sunday and plans the route and drop-off point accordingly, rather than discovering the closure at the barricade.</p>
+
+      <h2>Tailgating and Champions Square logistics</h2>
+      <p>Champions Square hosts the Superdome's official pregame tailgate experience, and fans headed there benefit from being dropped close by rather than parking several blocks away and walking in with coolers and gear. We coordinate a drop-off near Champions Square and a separate, pre-arranged pickup point and time for after the game, since the two locations and traffic patterns differ.</p>
+
+      <h2>Why the postgame exit is the hardest part</h2>
+      <p>Sixty thousand people leave within roughly the same twenty-minute window, and surrounding garages and rideshare pickup zones get overwhelmed immediately. A pre-arranged pickup at a specific, confirmed location — agreed before the game, not negotiated by text afterward — means your chauffeur is already positioned and waiting rather than joining the same scramble as everyone requesting a rideshare at the final whistle.</p>
+      <p>We recommend fans build in extra time after the game rather than expecting an immediate departure; the fastest way out is usually a short wait followed by a smooth ride, not a sprint to beat the crowd that ends in gridlock anyway.</p>
+
+      <h2>Group tailgate bookings and corporate suites</h2>
+      <p>Companies hosting clients in a suite, or a group of friends splitting a tailgate spot year after year, often book us for the full season rather than game by game — a standing arrangement that locks in a chauffeur and a confirmed pickup location for every home Sunday without rebooking each time. Consolidated billing through a corporate account makes this simple for a business entertaining clients at the Superdome throughout the season.</p>
+      <p>We also coordinate transportation for fans flying in from out of town for a single game, combining an MSY airport pickup, a hotel drop, and the game-day trip into one connected itinerary rather than three separate bookings.</p>
+
+      <h2>Booking lead time and what's included</h2>
+      <p>Primetime games, rivalry matchups and the home opener fill our fleet's Sunday availability first — book at least a week ahead for those, and several days ahead for a standard game. The flat or hourly rate, confirmed before you book, includes the chauffeur and a confirmed pickup location agreed in advance.</p>
+      <p>Sedan and SUV bookings cancel free of charge up to 3 hours before pickup; Sprinter van bookings follow the 12-hour window. Call <a href="tel:+18776091919">(877) 609-1919</a> to book your next Saints Sunday, or <a href="/booking">reserve online</a> in about a minute.</p>
+    `,
+    faqs: [
+      { q: "How early do street closures start around the Superdome on game day?", a: "Typically three to four hours before kickoff, earlier than many fans expect." },
+      { q: "Can you drop us near Champions Square for tailgating?", a: "Yes, and we coordinate a separate, pre-arranged pickup point and time for after the game since the tailgate and postgame traffic patterns differ." },
+      { q: "Why is the exit after the game so much worse than arriving?", a: "Roughly sixty thousand fans leave within about the same twenty-minute window, overwhelming nearby garages and rideshare pickup zones at once." },
+      { q: "Should we expect an immediate pickup right after the final whistle?", a: "We recommend building in a short wait rather than expecting an instant departure — a brief wait followed by a smooth ride beats sprinting into gridlock." },
+      { q: "How far ahead should I book for a primetime or rivalry game?", a: "At least a week ahead; those Sundays are our highest-demand dates." },
+    ],
+    relatedLinks: [
+      { label: "Caesars Superdome Transportation", to: "/caesars-superdome-transportation" },
+      { label: "Saints Game Day Transportation", to: "/services/saints-game-day" },
+      { label: "Warehouse District and CBD Limo Service", to: "/warehouse-district-cbd-limo-service" },
+      { label: "Sugar Bowl & New Year's Bowl Season Transportation", to: "/sugar-bowl-new-years-superdome-transportation" },
+      { label: "New Orleans Mega Event Host Year Guide", to: "/new-orleans-mega-event-host-year-transportation-guide" },
+      { label: "Book a Ride", to: "/booking" },
+    ],
+  },
+  {
+    slug: "streetcar-vs-car-service-new-orleans",
+    title: "Streetcar vs. Car Service in New Orleans: When the St. Charles Line Is Actually Enough",
+    metaTitle: "Streetcar vs. Car Service in New Orleans: Honest Guide",
+    metaDescription: "When does the St. Charles streetcar beat a car service in New Orleans, and when doesn't it? An honest, route-by-route comparison. (877) 609-1919.",
+    category: "Comparisons",
+    author: "MSY Limo Team",
+    date: "August 24, 2026",
+    readTime: "6 min read",
+    excerpt: "The St. Charles Avenue streetcar is a genuine, scenic way to get around parts of New Orleans — and a genuinely bad choice for others. Here's where each actually wins.",
+    image: "/images/blog/landmark-nola-streetcar-2.webp",
+    content: `
+      <p class="lead">New Orleans's streetcar lines, especially the St. Charles Avenue line running past the Garden District's mansions, are a real, charming way to see part of the city, and visitors are right to want to ride one. The honest answer to whether it replaces a car service, though, depends entirely on which trip you're asking about — and for several common trips, the streetcar is the wrong tool even though it looks appealing in photos.</p>
+
+      <h2>Where the streetcar genuinely wins</h2>
+      <p>For a leisurely daytime ride along St. Charles Avenue with no luggage, no schedule, and nowhere urgent to be, the streetcar is hard to beat — it's inexpensive, scenic, and exactly the experience many visitors picture when they imagine New Orleans. The same goes for a short hop along Canal Street or the Riverfront line between a few downtown stops on a nice afternoon.</p>
+
+      <h2>Where it falls apart</h2>
+      <p>Streetcars run on a fixed schedule and a fixed route, stop running overnight on most lines, and move at a genuinely slow pace — closer to a leisurely walk than a practical transit option when you're actually trying to get somewhere by a specific time. An MSY airport connection, a wedding with a strict ceremony start time, a late-night return from Frenchmen Street, or any trip with luggage are all situations where a fixed-schedule, slow-moving streetcar creates real risk rather than charm.</p>
+      <p>Reliability is also uneven — mechanical issues, single-tracking for maintenance, and crowding during festivals or conventions are common enough that locals rarely treat the streetcar as dependable for a trip that actually matters.</p>
+
+      <h2>A fair way to decide</h2>
+      <ul>
+        <li><strong>Sightseeing with no deadline:</strong> streetcar wins, easily.</li>
+        <li><strong>Airport transfer, any time of day:</strong> car service — the streetcar doesn't serve MSY at all.</li>
+        <li><strong>A wedding, meeting or dinner reservation with a real start time:</strong> car service.</li>
+        <li><strong>Late at night, after a show or dinner on Frenchmen Street:</strong> car service — service thins out and stops are unevenly lit.</li>
+        <li><strong>Traveling with luggage, a group, or anyone who shouldn't stand for a long ride:</strong> car service.</li>
+      </ul>
+      <p>Many visitors end up using both during a trip — the streetcar for an unhurried afternoon, and a reserved chauffeur for anything with a real deadline or anything after dark. That split isn't a compromise; it's the sensible way to use the city.</p>
+
+      <h2>What locals actually do</h2>
+      <p>Longtime New Orleanians tend to use the streetcar the same way: as a pleasant, occasional way to get along St. Charles Avenue on a nice day, not as their default way to reach a specific appointment. Residents who commute along the line build in generous time buffers precisely because they've experienced single-tracking delays and crowding firsthand, and visitors on a tighter schedule benefit from the same caution.</p>
+      <p>The streetcar also doesn't run every line 24 hours a day, and reduced late-night frequency on some routes means a wait that can stretch well beyond what a posted schedule suggests, especially after a festival or major event has temporarily increased ridership.</p>
+
+      <h2>Booking a car service when it matters</h2>
+      <p>For the trips where timing matters, we book as a flat-rate reservation confirmed before you ride, with a licensed chauffeur who knows exactly where your venue's actual entrance is, rather than the nearest streetcar stop.</p>
+      <p>Call <a href="tel:+18776091919">(877) 609-1919</a> or <a href="/booking">book online</a> for any trip where a fixed-schedule streetcar isn't the right tool.</p>
+    `,
+    faqs: [
+      { q: "Does the St. Charles streetcar go to MSY airport?", a: "No. New Orleans's streetcar lines don't reach MSY at all; any airport trip needs a car service, rideshare or shuttle." },
+      { q: "Is the streetcar a good choice for a wedding or event with a strict start time?", a: "Not recommended. Fixed schedules, single-tracking for maintenance and crowding make it too unpredictable when timing actually matters." },
+      { q: "Is the streetcar safe late at night?", a: "Service thins out overnight and stops are unevenly lit, so most locals prefer a car service after dark, especially for solo travelers." },
+      { q: "Can I bring luggage on the streetcar?", a: "Technically yes, but it's a slow, standing-room-common ride that's genuinely impractical with bags, especially during a festival or convention." },
+      { q: "What's the best way to combine streetcar sightseeing with a car service?", a: "Ride the streetcar for an unhurried afternoon along St. Charles Avenue, and book a chauffeur for airport transfers, events with real start times, and anything after dark." },
+    ],
+    relatedLinks: [
+      { label: "Garden District and Uptown Transportation Guide", to: "/garden-district-uptown-transportation-guide" },
+      { label: "Uber vs. Limo Service in New Orleans", to: "/uber-vs-limo-service" },
+      { label: "First Time in New Orleans Visitor Guide", to: "/first-time-new-orleans-visitor-guide" },
+      { label: "Airport Transportation", to: "/services/airport-transportation" },
+      { label: "Garden District Limo Service", to: "/garden-district-limo-service" },
+      { label: "Book a Ride", to: "/booking" },
+    ],
+  },
+  {
+    slug: "msy-international-arrivals-customs-transportation-guide",
+    title: "MSY International Arrivals Guide: Customs, the International Terminal and Your Pickup",
+    metaTitle: "MSY International Arrivals & Customs Transportation Guide",
+    metaDescription: "Flying into MSY internationally? A guide to customs, baggage claim and where your chauffeur actually waits, plus the 60-minute wait policy. (877) 609-1919.",
+    category: "Airport",
+    author: "MSY Limo Team",
+    date: "July 29, 2026",
+    readTime: "6 min read",
+    excerpt: "International arrivals at MSY move through customs and a separate baggage re-check before reaching the same curb as domestic travelers — here's exactly what to expect and where your car is actually waiting.",
+    image: "/images/blog/airport-terminal-glass.webp",
+    content: `
+      <p class="lead">Landing at Louis Armstrong New Orleans International Airport on an international flight involves a few extra steps domestic travelers skip entirely — passport control, customs declaration, and in many cases a baggage re-check before your bags move to the connecting or exit area. None of it is complicated, but knowing the sequence in advance makes the walk from the jet bridge to the curb far less stressful, and it changes exactly when your chauffeur should expect you.</p>
+
+      <h2>The actual sequence after landing</h2>
+      <p>After deplaning, international arrivals proceed to U.S. Customs and Border Protection for passport control and any customs declaration, then to baggage claim to collect checked bags, and finally through a customs exit where bags may be briefly rechecked before you reach the public arrivals area. Lines at passport control vary widely by time of day and how many wide-body flights land in the same window, so the total time from touchdown to curb can run anywhere from thirty minutes to well over an hour.</p>
+
+      <h2>Why flight tracking matters even more on international arrivals</h2>
+      <p>Because the walk from gate to curb is longer and less predictable than a domestic arrival, we track international flights and build in extra buffer before positioning the chauffeur, rather than timing the pickup to the scheduled landing time. Every international arrival includes 60 minutes of complimentary wait time, specifically because that process routinely takes longer than domestic customs-free arrivals.</p>
+
+      <h2>Where your chauffeur actually waits</h2>
+      <p>Your chauffeur meets you at the same public arrivals curb or baggage-claim area used for domestic pickups, holding a sign with your name, once you've cleared customs and collected your bags. There's no separate pickup zone exclusively for international arrivals at MSY — the extra steps happen before you reach that point, not after.</p>
+
+      <h2>What first-time international arrivals often get wrong</h2>
+      <p>Travelers unfamiliar with U.S. entry procedures sometimes underestimate how much the customs process can vary flight to flight — a quiet midweek arrival can clear in well under thirty minutes, while a wide-body flight landing alongside two or three others can take considerably longer simply due to the number of people moving through the same passport control booths at once. Because of that variability, we'd rather build in extra buffer on every international pickup than assume the fastest-case scenario.</p>
+      <p>It also helps to know that connecting onward from MSY after an international arrival, if that's part of your trip, typically requires collecting bags and re-checking them for the domestic leg — plan transportation around your final arrival time at the curb, not your original touchdown time.</p>
+
+      <h2>What to send us in advance</h2>
+      <p>Your flight number, the airline and originating city are enough for us to track the arrival accurately; we don't need advance notice of your immigration status or customs declaration, only standard flight details. If your arrival is unusually delayed by a connection issue or a long customs line, call dispatch and we'll confirm the chauffeur is still positioned and waiting.</p>
+
+      <h2>Booking lead time and what's included</h2>
+      <p>International arrivals can be booked as far ahead as you like once you have your flight confirmed; there's no special lead-time requirement beyond what we ask for any airport transfer. The flat rate, confirmed before you book, includes flight tracking and the 60-minute complimentary wait described above.</p>
+      <p>Call <a href="tel:+18776091919">(877) 609-1919</a> or <a href="/booking">book online</a> to arrange your next international arrival pickup at MSY.</p>
+    `,
+    faqs: [
+      { q: "How much wait time is included for an international arrival at MSY?", a: "60 minutes of complimentary wait time, compared to 45 minutes on domestic arrivals, specifically because customs and passport control add unpredictable time." },
+      { q: "Where does my chauffeur wait for an international arrival?", a: "At the same public arrivals curb or baggage-claim area used for domestic pickups — the extra customs steps happen before you reach that point." },
+      { q: "Do I need to tell you about my customs declaration or immigration status?", a: "No. We only need your flight number, airline and originating city to track the arrival." },
+      { q: "What if the customs line is unusually long?", a: "Call dispatch and we'll confirm the chauffeur remains positioned and waiting; the 60-minute wait window is built in for exactly this situation." },
+      { q: "Is there a separate pickup zone for international arrivals at MSY?", a: "No, international and domestic arrivals use the same public arrivals area once you've cleared customs." },
+    ],
+    relatedLinks: [
+      { label: "MSY Airport Transportation Guide", to: "/airport-transportation-guide" },
+      { label: "Best Car Service From MSY Airport", to: "/best-car-service-louis-armstrong-new-orleans-airport" },
+      { label: "How Early Should You Book MSY Airport Transportation?", to: "/how-far-ahead-to-book-msy-car-service" },
+      { label: "MSY Airport Meet and Greet", to: "/msy-airport-meet-and-greet" },
+      { label: "Airport Transportation", to: "/services/airport-transportation" },
+      { label: "Book a Ride", to: "/booking" },
+    ],
+  },
+  {
+    slug: "new-orleans-family-reunion-group-travel-transportation-guide",
+    title: "Family Reunions, Church Groups and Community Trips: A New Orleans Group Transportation Guide",
+    metaTitle: "New Orleans Family Reunion & Group Travel Transportation",
+    metaDescription: "Planning a New Orleans family reunion or church trip? A practical guide to group transportation that keeps everyone together. (877) 609-1919.",
+    category: "Planning",
+    author: "MSY Limo Team",
+    date: "July 13, 2026",
+    readTime: "7 min read",
+    excerpt: "A family reunion or church group trip to New Orleans usually means fifteen to forty people, several generations, and a schedule nobody wants to coordinate across a dozen separate rideshares. Here's how we actually plan these.",
+    image: "/images/blog/scenario-group-boarding.webp",
+    content: `
+      <p class="lead">Family reunions, church group trips and community organization visits to New Orleans share a common shape: a group of fifteen to forty people, often spanning several generations, arriving from multiple cities and needing to move together between a hotel, a group meal, a historic site or two, and maybe a riverboat cruise or plantation tour — without splintering into a dozen uncoordinated rideshare pickups that never quite arrive together.</p>
+
+      <h2>Why group charter works better than individual rideshares for this trip shape</h2>
+      <p>Multi-generational groups usually include members who shouldn't be navigating an unfamiliar city on foot or standing around waiting for a rideshare match — older relatives, young children, someone recovering from a recent surgery. A single reserved vehicle or small fleet keeps the group physically together, moves at a pace the whole group can manage, and removes the logistics burden from whoever in the family got stuck organizing the trip.</p>
+      <p>It also tends to cost less overall than the group discovers when pricing out six or eight separate rideshare fares to the same destinations across a multi-day visit.</p>
+
+      <h2>A typical reunion or group-trip itinerary</h2>
+      <p>Airport pickups for arriving family members, often from several different flights on the same day, followed by a group dinner, a day or two of sightseeing between the French Quarter, Garden District and a plantation or swamp tour, and a final group airport departure, are the most common shape. We coordinate the arrivals separately — staggering vehicles to match actual landing times rather than making everyone wait for the last flight — and then run the group together for the shared portions of the trip.</p>
+
+      <h2>Coordinating with one point of contact</h2>
+      <p>Rather than fielding separate calls from a dozen family members, we work with a single designated trip coordinator — often whoever is organizing the reunion — who confirms the itinerary, the headcount per leg, and any changes, while everyone else simply shows up and rides.</p>
+
+      <h2>Accommodating a range of ages and mobility needs</h2>
+      <p>Multi-generational groups routinely include members with different mobility needs, from young children who need to be kept close to elderly relatives who shouldn't be rushed between a curb and a vehicle. We ask the trip coordinator to flag any specific needs in advance — a slower boarding pace, help with a wheelchair or walker, or a request to keep certain family members in the same vehicle — so the day runs smoothly rather than being figured out on the spot.</p>
+      <p>Church groups and community organizations with a similar range of ages and needs benefit from the same advance planning, and we're happy to work directly with a group leader or trip coordinator the same way we would with a family member organizing a reunion.</p>
+
+      <h2>Booking lead time and what's included</h2>
+      <p>Group trips of this size are best booked three to four weeks ahead, especially during spring and fall when wedding and event charter also competes for the same fleet; a smaller group or a shorter visit can sometimes be arranged on shorter notice. The flat or hourly rate, confirmed before you book, includes a professional chauffeur for each vehicle.</p>
+      <p>Sedan and SUV bookings cancel free of charge up to 3 hours before pickup; Sprinter van bookings follow the 12-hour window. Call <a href="tel:+18776091919">(877) 609-1919</a> to start planning a family reunion or group trip, or <a href="/booking">request a quote online</a>.</p>
+    `,
+    faqs: [
+      { q: "How many people fit in one vehicle for a family reunion trip?", a: "Up to 14 in a Mercedes Sprinter van; larger groups are split across multiple vehicles traveling together." },
+      { q: "Can you coordinate pickups for family arriving on different flights?", a: "Yes. We stagger vehicles to match actual landing times rather than making everyone wait for the last arrival." },
+      { q: "Do you work with one trip organizer instead of each family member separately?", a: "Yes, we prefer a single designated coordinator who confirms the itinerary and headcount, while everyone else simply shows up and rides." },
+      { q: "How far ahead should a reunion or group trip be booked?", a: "Three to four weeks ahead is ideal, especially in spring and fall wedding season; shorter visits can sometimes be arranged with less notice." },
+      { q: "Can you include a plantation tour or riverboat cruise in the itinerary?", a: "Yes, we coordinate drop-off and pickup around the tour or cruise operator's schedule as part of the full group itinerary." },
+    ],
+    relatedLinks: [
+      { label: "New Orleans Corporate Shuttle Service", to: "/new-orleans-corporate-shuttle-service" },
+      { label: "River Road Plantation Tour Transportation", to: "/river-road-plantation-tour-transportation" },
+      { label: "Steamboat Natchez Transportation", to: "/steamboat-natchez-transportation" },
+      { label: "First Time in New Orleans Visitor Guide", to: "/first-time-new-orleans-visitor-guide" },
+      { label: "Airport Transportation", to: "/services/airport-transportation" },
+      { label: "Book a Ride", to: "/booking" },
+    ],
+  },
+  {
+    slug: "hurricane-season-evacuation-planning-transportation-guide-new-orleans",
+    title: "Hurricane Season Travel Planning: Booking Transportation Around New Orleans Storm Risk",
+    metaTitle: "Hurricane Season Transportation Planning Guide | New Orleans",
+    metaDescription: "Planning travel through New Orleans during hurricane season? A practical guide to flexible booking, rebooking policy and advance planning. (877) 609-1919.",
+    category: "Planning",
+    author: "MSY Limo Team",
+    date: "June 18, 2026",
+    readTime: "6 min read",
+    excerpt: "Hurricane season runs June through November, and a storm track that shifts a day or two before landfall can upend travel plans fast. Here's how we handle bookings around that uncertainty, and what residents and visitors should plan for.",
+    image: "/images/stock/u-1568454537842.webp",
+    content: `
+      <p class="lead">Hurricane season officially runs June through November, and residents of and visitors to the Gulf Coast know that a storm's projected track can shift meaningfully in the final day or two before any potential landfall. This guide isn't an emergency-response plan — if a mandatory evacuation order is issued, follow official guidance from local and state emergency management, not a car service's advice. It's a practical look at how to plan ordinary travel and bookings sensibly during a season when weather disruption is a real, recurring possibility rather than a rare exception.</p>
+
+      <h2>Booking flights and ground transportation with a storm in the outlook</h2>
+      <p>When a system is being watched in the Gulf but hasn't yet affected flight schedules, we recommend booking your MSY ground transportation as you normally would, while keeping an eye on both your airline's own rebooking policy and the storm's official forecast track. A flat rate confirmed days or weeks ahead doesn't change if your travel dates shift — we work with you to adjust the pickup time and date at no penalty when a legitimate weather disruption is the reason.</p>
+
+      <h2>What changes if your flight is delayed or cancelled by weather</h2>
+      <p>If MSY operations are disrupted by an approaching or departing storm, airlines typically issue mass rebooking waivers, and your original ground transportation reservation can usually be moved to the new flight time with a phone call rather than treated as a missed, chargeable booking. We ask that you call dispatch directly as soon as you know your new flight details, rather than waiting until you land, so a chauffeur isn't sent to meet a flight that's been cancelled.</p>
+
+      <h2>If an evacuation order is issued</h2>
+      <p>A mandatory evacuation order is an official directive from parish and state emergency management, and residents and visitors should follow that guidance directly — contraflow traffic patterns, shelter information and evacuation routes are managed by those agencies, not by any private transportation company. If you need ground transportation to reach an airport or a point along an evacuation route before an order takes effect, call us as early as possible once a storm watch or warning is issued, since availability tightens fast as the whole region moves at once.</p>
+
+      <h2>Planning ahead rather than waiting for a watch</h2>
+      <p>Residents who travel frequently during hurricane season, and visitors with a trip already planned for late summer or fall, are often better served by building a little flexibility into their own plans from the start — refundable fares where possible, and an awareness of which weeks historically see the most Gulf activity — rather than waiting to react once a storm is already in the forecast. We're happy to talk through a sensible booking approach for a trip planned well in advance during hurricane season, even with no storm currently on the map.</p>
+      <p>Corporate travelers with recurring trips through MSY during hurricane season sometimes set up a standing account specifically so rebooking around a weather disruption is a quick phone call rather than a new booking process each time.</p>
+
+      <h2>Booking lead time and what's included</h2>
+      <p>During an active storm watch or warning, call dispatch directly rather than booking online, since availability and routing can change hour to hour. Outside of an active weather event, standard booking lead times apply — a few days for most trips, longer for peak holiday or festival weekends that happen to fall within hurricane season.</p>
+      <p>Call <a href="tel:+18776091919">(877) 609-1919</a> any hour to discuss a booking affected by weather, or <a href="/booking">reserve online</a> for ordinary travel during hurricane season.</p>
+    `,
+    faqs: [
+      { q: "Do you provide emergency evacuation transportation during a mandatory evacuation order?", a: "No. A mandatory evacuation order is managed by parish and state emergency management, and you should follow their official guidance and routes. We handle ordinary ground transportation, including rebooking around weather-disrupted flights." },
+      { q: "What happens to my reservation if my flight is cancelled due to a storm?", a: "Call dispatch directly with your new flight details as soon as you have them, and we'll move your reservation to the new time at no penalty for a legitimate weather disruption." },
+      { q: "Should I book transportation if a storm is only being watched in the Gulf, not yet affecting flights?", a: "Yes, book normally and keep an eye on the forecast; we adjust pickup times and dates without penalty if the storm later disrupts your actual travel plans." },
+      { q: "How far ahead can I book during hurricane season?", a: "As far ahead as any other time of year — standard lead times apply outside of an active storm watch or warning." },
+      { q: "What should I do if a storm watch is issued while I'm already booked?", a: "Call dispatch directly rather than waiting; availability can tighten quickly as the whole region plans travel around the same system." },
+    ],
+    relatedLinks: [
+      { label: "Same-Day and Last-Minute MSY Car Service", to: "/same-day-last-minute-msy-car-service" },
+      { label: "How Early Should You Book MSY Airport Transportation?", to: "/how-far-ahead-to-book-msy-car-service" },
+      { label: "MSY Airport Transportation Guide", to: "/airport-transportation-guide" },
+      { label: "Avoiding Transportation Scams in New Orleans", to: "/avoiding-transportation-scams-new-orleans" },
+      { label: "Corporate Travel Guide for New Orleans", to: "/new-orleans-corporate-travel-setup-guide" },
+      { label: "Book a Ride", to: "/booking" },
+    ],
+  },
+  {
+    slug: "cruise-terminal-parking-vs-car-service-new-orleans-guide",
+    title: "New Orleans Cruise Terminal: Parking Costs vs. Car Service for Embarkation Day",
+    metaTitle: "New Orleans Cruise Terminal Parking vs. Car Service Guide",
+    metaDescription: "Compare Port of New Orleans cruise terminal parking costs to a flat-rate car service for embarkation day. What actually saves money. (877) 609-1919.",
+    category: "Pricing",
+    author: "MSY Limo Team",
+    date: "June 3, 2026",
+    readTime: "6 min read",
+    excerpt: "Parking a car at the Port of New Orleans for a seven-night cruise adds up fast, and it leaves your vehicle sitting exposed for a week or more. Here's an honest cost comparison against a flat-rate car service.",
+    image: "/images/stock/u-1514320291840.webp",
+    content: `
+      <p class="lead">Embarkation day at the Port of New Orleans's Julia Street and Erato Street cruise terminals is already a logistics puzzle — bags, boarding times, and a terminal that gets genuinely congested in the hours before a ship's scheduled departure. Deciding whether to drive yourself and park for the length of the cruise, or book a car service for drop-off and pickup, comes down to a straightforward cost and convenience comparison that's worth running before you commit.</p>
+
+      <h2>What port parking actually costs</h2>
+      <p>Port of New Orleans parking is priced per day for the length of your cruise, and a standard seven-night cruise means paying for roughly eight days of parking, since both embarkation and debarkation days typically count. For a multi-generational family road-tripping in and parking one vehicle, that can still be the simplest option — but for a traveler or couple flying into MSY first, adding a rental car just to drive it to the port and park it for a week rarely makes financial sense once the rental and parking costs are added together.</p>
+
+      <h2>What a car service actually costs by comparison</h2>
+      <p>A flat-rate transfer from MSY or a hotel to the cruise terminal, and a second flat-rate pickup on debarkation day, is priced as two trips rather than a week of parking fees — and for most travelers flying in, that total comes out lower than a week of port parking once a rental car is factored out of the equation entirely. Groups splitting the cost across several cabins often find the per-person cost of a shared Sprinter van transfer is a small fraction of what port parking would have cost for the same group's vehicles.</p>
+
+      <h2>The convenience factor beyond cost</h2>
+      <p>A car left at the port for a week is also a car sitting exposed to weather and, however rarely, theft or damage, for the length of your cruise — a risk port parking lots work to minimize but can't eliminate. A car service removes that risk from the equation along with the cost question, since there's no vehicle left behind at all.</p>
+
+      <h2>What embarkation morning actually looks like</h2>
+      <p>Cruise lines typically assign a boarding time window rather than a single moment to arrive, and terminal traffic builds steadily through the morning as multiple boarding groups converge on the same drop-off area. A chauffeur who knows the Julia Street and Erato Street terminal layouts can time the drop-off to your specific boarding window rather than arriving at the generic rush that self-driven passengers often hit by defaulting to the earliest possible arrival.</p>
+      <p>Debarkation morning follows a similar pattern in reverse — disembarking passengers are released in waves, and a pre-arranged pickup at a confirmed time means your chauffeur is positioned and waiting rather than you searching for a ride among thousands of fellow passengers all trying to leave around the same time.</p>
+
+      <h2>Booking lead time and what's included</h2>
+      <p>Cruise embarkation mornings move in predictable waves tied to the ship's boarding schedule, so we recommend booking your terminal drop-off and debarkation pickup as soon as your cruise dates are confirmed, ideally two to three weeks ahead during peak cruise season. The flat rate, confirmed before you book, includes real-time coordination around your actual flight or hotel departure time.</p>
+      <p>Call <a href="tel:+18776091919">(877) 609-1919</a> or <a href="/booking">book online</a> to arrange your next cruise terminal transfer.</p>
+    `,
+    faqs: [
+      { q: "How much does Port of New Orleans parking cost for a week-long cruise?", a: "It's priced per day and adds up across the length of the cruise, typically covering eight days once embarkation and debarkation are both counted — ask your terminal operator for current daily rates." },
+      { q: "Is a car service cheaper than parking for a cruise?", a: "Often yes for travelers flying in, since it replaces both a rental car and a week of port parking fees with two flat-rate trips." },
+      { q: "Do you serve both embarkation and debarkation day?", a: "Yes, we book both legs together so your return pickup is confirmed at the same time as your drop-off." },
+      { q: "Can a group split the cost of a terminal transfer?", a: "Yes, a shared Sprinter van transfer for a group traveling to the same ship typically costs far less per person than individual parking or rideshare fares." },
+      { q: "How far ahead should I book a cruise terminal transfer?", a: "Two to three weeks ahead during peak cruise season is ideal, though shorter notice can often be accommodated." },
+    ],
+    relatedLinks: [
+      { label: "Cruise Port Transportation", to: "/services/cruise-transportation" },
+      { label: "New Orleans Cruise Port Car Service", to: "/new-orleans-cruise-port-car-service" },
+      { label: "Airport Transportation", to: "/services/airport-transportation" },
+      { label: "MSY Limo Cost by Destination", to: "/msy-limo-cost-by-destination" },
+      { label: "Park and Fly vs. Car Service", to: "/park-and-fly-vs-car-service-new-orleans-residents" },
+      { label: "Book a Ride", to: "/booking" },
+    ],
+  },
+  {
+    slug: "new-orleans-food-tour-restaurant-hopping-transportation-guide",
+    title: "A New Orleans Food Tour by Private Car: Planning a Multi-Restaurant Evening",
+    metaTitle: "New Orleans Food Tour Car Service Guide | Restaurant Hopping",
+    metaDescription: "Planning a New Orleans food tour across multiple restaurants? A guide to chauffeured restaurant-hopping that beats parking at every stop. (877) 609-1919.",
+    category: "Local Guides",
+    author: "MSY Limo Team",
+    date: "May 20, 2026",
+    readTime: "6 min read",
+    excerpt: "New Orleans rewards a food-focused evening across two or three restaurants and a late dessert stop — if you can solve parking at each one. A reserved car handles that so the only decision left is what to order.",
+    image: "/images/stock/u-1490430657723.webp",
+    content: `
+      <p class="lead">New Orleans's food scene is genuinely suited to a multi-stop evening — a starter at one restaurant, the main event at another known for a specific dish, and a late dessert or drink stop somewhere entirely different. The food itself is rarely the hard part; parking at three different restaurants across two or three neighborhoods in one evening is where a self-driven plan falls apart.</p>
+
+      <h2>Why restaurant-hopping suits an hourly charter</h2>
+      <p>We book food-focused evenings as hourly, as-directed charter, the same way we book bachelor and bachelorette nights — you give the chauffeur a rough list of stops and an approximate order, and they adjust timing as each meal runs long or short. There's no penalty for lingering over a second round at one stop and cutting another one shorter than planned.</p>
+
+      <h2>A sample multi-restaurant route</h2>
+      <p>A common pattern starts with a French Quarter or Garden District dinner reservation, moves to a Frenchmen Street or Bywater spot known for a specific dish or dessert, and finishes with a late cocktail stop before returning to a hotel. Each leg involves a wait at the curb rather than a parking search, and each restaurant gets a chauffeur-timed drop-off rather than a scramble to find street parking during a dinner rush.</p>
+
+      <h2>Groups with different dietary interests</h2>
+      <p>Food-focused group trips sometimes split briefly — part of the group wants a specific restaurant the rest isn't interested in — and a reserved vehicle can handle a short detour to drop part of the group and continue with the rest, reconvening at a planned time rather than requiring everyone to agree on every stop.</p>
+
+      <h2>Dietary restrictions and special-occasion dinners</h2>
+      <p>Groups built around a specific dietary need, or an anniversary or birthday dinner where one stop matters more than the others, often use the same hourly structure but weight the evening toward a longer stay at the primary restaurant with shorter stops elsewhere. Let us know when booking if one reservation is the centerpiece of the night so the chauffeur plans the rest of the route around it rather than treating every stop equally.</p>
+      <p>We also coordinate reservations tied to a specific time — a chef's tasting menu with a strict seating, for example — by building in enough buffer before and after that an earlier stop running long doesn't put the main reservation at risk.</p>
+
+      <h2>Booking lead time and what's included</h2>
+      <p>A food-tour evening can usually be booked with a day or two of notice outside of major festival weekends; for Jazz Fest, French Quarter Festival or a major convention week, book at least a week ahead since restaurant demand and our fleet availability both peak together. The hourly rate, confirmed before you book, includes the chauffeur.</p>
+      <p>Sedan and SUV bookings cancel free of charge up to 3 hours before pickup; Sprinter van bookings follow the 12-hour window. Call <a href="tel:+18776091919">(877) 609-1919</a> to plan a restaurant-hopping evening, or <a href="/booking">reserve online</a>.</p>
+    `,
+    faqs: [
+      { q: "Is a food-tour booking hourly or a fixed per-stop rate?", a: "Hourly, as-directed charter — there's no fixed per-stop fee, so lingering longer at one restaurant doesn't cost extra beyond the hourly rate." },
+      { q: "Can the chauffeur help plan which restaurants to visit?", a: "Chauffeurs are happy to share suggestions, but this is private charter transportation, not a licensed guided food-tour service with a set menu or itinerary." },
+      { q: "What's the minimum booking length?", a: "Typically a three-hour minimum for hourly, as-directed charter." },
+      { q: "Can you split a group between two restaurants and reconvene later?", a: "Yes, we can run a short detour to drop part of the group and continue with the rest, reconvening at a planned time and place." },
+      { q: "How far ahead should I book during a festival week?", a: "At least a week ahead for Jazz Fest, French Quarter Festival or major convention weeks, since restaurant and fleet demand both spike together." },
+    ],
+    relatedLinks: [
+      { label: "French Quarter Limo Service", to: "/french-quarter-limo-service" },
+      { label: "Bourbon Street Transportation", to: "/bourbon-street-transportation" },
+      { label: "New Orleans Bachelorette Party Transportation", to: "/new-orleans-bachelorette-party-transportation" },
+      { label: "New Orleans Anniversary Limo Service", to: "/new-orleans-anniversary-limo-service" },
+      { label: "Hourly As-Directed Charter", to: "/services/hourly-charter" },
+      { label: "Book a Ride", to: "/booking" },
+    ],
+  },
+  {
+    slug: "bourbon-street-vs-frenchmen-street-transportation-guide",
+    title: "Bourbon Street vs. Frenchmen Street: A Nightlife Transportation Guide",
+    metaTitle: "Bourbon Street vs. Frenchmen Street Nightlife Guide",
+    metaDescription: "Bourbon Street or Frenchmen Street for your New Orleans night out? An honest comparison, plus how to get between them safely. (877) 609-1919.",
+    category: "Local Guides",
+    author: "MSY Limo Team",
+    date: "May 6, 2026",
+    readTime: "6 min read",
+    excerpt: "Bourbon Street and Frenchmen Street are both genuine New Orleans nightlife, but they're not the same night out. Here's how they differ, and how to move between them without a long walk through unfamiliar blocks.",
+    image: "/images/stock/u-1449824913935.webp",
+    content: `
+      <p class="lead">Visitors often arrive with Bourbon Street as the only nightlife destination they've heard of, then discover Frenchmen Street in the Marigny and wonder why nobody mentioned it sooner. Both are legitimate New Orleans nightlife — they're just different experiences, and knowing which one you actually want, and how to get between them, makes for a much better night.</p>
+
+      <h2>Bourbon Street: loud, dense, built for first-timers</h2>
+      <p>Bourbon Street is the high-energy, souvenir-cup, live-music-from-every-doorway experience most visitors picture — dense crowds, bars with huge speakers facing the street, and an atmosphere built entirely around first-time visitors having a big, loud night. It's genuinely fun for what it is, and there's no need to apologize for wanting that experience.</p>
+
+      <h2>Frenchmen Street: live jazz, a local crowd, a different pace</h2>
+      <p>Frenchmen Street, a short distance away in the Marigny neighborhood, is where a lot of working New Orleans musicians actually play, and the crowd skews toward serious live-music listeners rather than first-time tourists. It's quieter per block but not sleepy — venues like the Spotted Cat and d.b.a. draw real crowds, just a more music-focused one than Bourbon Street's.</p>
+
+      <h2>Getting between them without a long walk</h2>
+      <p>The two streets are close enough on a map that visitors sometimes plan to walk between them, but the walk passes through less tourist-dense blocks of the French Quarter and the edge of Marigny, and isn't something we'd recommend doing alone late at night, especially for a solo traveler unfamiliar with the area. A short, reserved ride between the two is a far safer way to experience both in one evening than walking it.</p>
+      <p>We run exactly this trip often — a Bourbon Street stop early, a reserved pickup and short ride to Frenchmen Street for live music, and a final return to a hotel, all under one hourly booking.</p>
+
+      <h2>A third option: the Marigny and Bywater beyond Frenchmen Street</h2>
+      <p>Visitors who enjoy Frenchmen Street sometimes don't realize the surrounding Marigny and Bywater neighborhoods hold a wider scattering of music venues, bars and late-night restaurants a few blocks further out — genuinely worth a visit, but spread out enough that walking between them isn't practical the way strolling along Frenchmen Street itself is. A reserved vehicle makes that wider neighborhood accessible the same way it makes the trip from Bourbon Street to Frenchmen Street accessible.</p>
+      <p>This is also where a chauffeur's local knowledge tends to matter most — knowing which blocks are well-lit and busy versus which are quieter residential stretches best avoided late at night on foot.</p>
+
+      <h2>Booking lead time and what's included</h2>
+      <p>A short nightlife-hopping booking can usually be arranged same-day; weekend nights during a festival or convention are busier and benefit from a day or two of advance notice. The hourly rate, confirmed before you book, includes the chauffeur.</p>
+      <p>Sedan and SUV bookings cancel free of charge up to 3 hours before pickup; Sprinter van and limousine bookings follow the 12-hour window. Call <a href="tel:+18776091919">(877) 609-1919</a> or <a href="/booking">book online</a> for your next night out.</p>
+    `,
+    faqs: [
+      { q: "Is Bourbon Street or Frenchmen Street better for live music?", a: "Frenchmen Street is where more working New Orleans musicians actually perform, and the crowd skews toward serious live-music listeners; Bourbon Street is louder and more tourist-focused." },
+      { q: "Can I walk between Bourbon Street and Frenchmen Street?", a: "It's close on a map, but the walk passes through less tourist-dense blocks and isn't something we'd recommend alone late at night. A short reserved ride is the safer option." },
+      { q: "Can you book one trip that covers both streets in one night?", a: "Yes, this is a common hourly booking — an early Bourbon Street stop, a ride to Frenchmen Street, and a final return to your hotel." },
+      { q: "Is Frenchmen Street good for first-time visitors?", a: "Yes, though it's a different experience than Bourbon Street — more about live jazz and a local crowd than the louder, bigger-night atmosphere of Bourbon Street." },
+      { q: "How far ahead should I book a nightlife-hopping trip?", a: "Same-day is usually fine; weekend nights during a festival or convention benefit from a day or two of advance notice." },
+    ],
+    relatedLinks: [
+      { label: "Bourbon Street Transportation", to: "/bourbon-street-transportation" },
+      { label: "French Quarter Limo Service", to: "/french-quarter-limo-service" },
+      { label: "Marigny and Bywater Limo Service", to: "/marigny-bywater-limo-service" },
+      { label: "New Orleans Bachelor Party Transportation", to: "/new-orleans-bachelor-party-transportation" },
+      { label: "Avoiding Transportation Scams in New Orleans", to: "/avoiding-transportation-scams-new-orleans" },
+      { label: "Book a Ride", to: "/booking" },
+    ],
+  },
+  {
+    slug: "msy-long-layover-day-trip-transportation-guide",
+    title: "Long Layover at MSY? A Guide to a Quick New Orleans Day Trip Between Flights",
+    metaTitle: "MSY Long Layover Day Trip Transportation Guide",
+    metaDescription: "Got a long layover at MSY? A realistic guide to leaving the airport for a quick New Orleans visit and getting back in time for your next flight. (877) 609-1919.",
+    category: "Travel Guides",
+    author: "MSY Limo Team",
+    date: "April 22, 2026",
+    readTime: "6 min read",
+    excerpt: "A five- or six-hour layover at MSY is enough time to leave the airport, see a real slice of New Orleans, and get back with room to spare — if the timing is planned honestly. Here's how.",
+    image: "/images/blog/scenario-airport-pickup-2.webp",
+    content: `
+      <p class="lead">A long layover at Louis Armstrong International is a genuine opportunity most connecting travelers don't realize they have — New Orleans's French Quarter is close enough to the airport that a five- or six-hour layover can include real time in the city, not just a stressful dash. The key is planning the timing honestly, with enough buffer that a short delay on the way back doesn't turn into a missed connecting flight.</p>
+
+      <h2>How much layover time you actually need</h2>
+      <p>Figure on about 30 to 40 minutes each way between MSY and downtown, plus standard airport re-arrival buffers — security re-screening, walking to your gate, and boarding time. A five-hour layover realistically allows for two to two and a half hours in the city once transportation and airport logistics on both ends are subtracted; a layover under four hours is better spent exploring the airport itself or relaxing at a gate rather than risking the trip.</p>
+
+      <h2>What to actually do with two hours downtown</h2>
+      <p>A focused walk through the French Quarter's historic core, a quick meal at a well-regarded restaurant, and maybe a stop at Jackson Square or a single museum make for a satisfying short visit without overreaching. We're happy to suggest a realistic route once we know your exact time window — the goal is one well-executed stop, not an ambitious multi-neighborhood tour that risks the return trip.</p>
+
+      <h2>Why a reserved car beats a rideshare for this specific trip</h2>
+      <p>A layover day trip has a hard deadline that a missed rideshare match or a surge-priced return ride genuinely threatens. A reserved chauffeur who tracks your outbound flight, waits with your bags handled, and times the return drop-off with real buffer before your next boarding time removes that risk entirely — the one thing you can't afford on a layover trip is an unreliable ride back.</p>
+
+      <h2>What to do with your luggage</h2>
+      <p>Most layover travelers prefer not to carry checked bags into the city, and if your connecting flight requires collecting and re-checking luggage, we can often store a carry-on bag securely in the vehicle for the duration of your stop rather than requiring you to haul everything around the French Quarter. Confirm your specific bag situation when booking so we can plan accordingly.</p>
+      <p>International connections add their own timing considerations on top of a standard layover, since clearing customs and re-checking bags for a domestic leg both take additional time — a longer layover window is worth having if your itinerary includes an international segment on either end.</p>
+
+      <h2>Booking lead time and what's included</h2>
+      <p>Layover day trips can typically be booked same-day once you know your connection times, though booking a day or two ahead if your itinerary is already set gives dispatch the best chance to plan the tightest, most realistic route for your specific window. The flat rate, confirmed before you book, includes flight tracking on both legs of the trip.</p>
+      <p>Call <a href="tel:+18776091919">(877) 609-1919</a> or <a href="/booking">book online</a> to plan a layover day trip with real buffer built in.</p>
+    `,
+    faqs: [
+      { q: "How long of a layover do I need to leave MSY for a day trip?", a: "At least five hours is a reasonable minimum once you account for roughly 30 to 40 minutes each way plus airport re-arrival buffers; under four hours is riskier." },
+      { q: "Can you plan a realistic route for my specific layover window?", a: "Yes, tell us your exact arrival and next departure time and we'll suggest a route sized to fit comfortably, not an overly ambitious one." },
+      { q: "Why not just use rideshare for a layover trip?", a: "A layover has a hard deadline, and an unreliable rideshare match or surge-priced return ride is the one risk you can't afford to take on a tight connection." },
+      { q: "Do you track my return flight for the trip back to the airport?", a: "Yes, flight tracking applies to both legs of a layover day trip, the same as any airport transfer." },
+      { q: "What can I actually see in about two hours downtown?", a: "A focused French Quarter walk, a meal, and a stop at Jackson Square or a single museum is a realistic, satisfying scope for a short layover visit." },
+    ],
+    relatedLinks: [
+      { label: "MSY Airport Transportation Guide", to: "/airport-transportation-guide" },
+      { label: "First Time in New Orleans Visitor Guide", to: "/first-time-new-orleans-visitor-guide" },
+      { label: "Top Things to Do in New Orleans", to: "/top-things-to-do-new-orleans-how-to-get-there" },
+      { label: "Same-Day and Last-Minute MSY Car Service", to: "/same-day-last-minute-msy-car-service" },
+      { label: "French Quarter Limo Service", to: "/french-quarter-limo-service" },
       { label: "Book a Ride", to: "/booking" },
     ],
   },

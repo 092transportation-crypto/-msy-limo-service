@@ -464,6 +464,7 @@ const CruisePage = () => {
               { to: "/msy-airport-hotel-transfers", label: "Pre-Cruise Hotel Transfers" },
               { to: "/french-quarter-limo-service", label: "French Quarter" },
               { to: "/services/airport-transportation", label: "MSY Airport Transportation" },
+              { to: "/cruise-terminal-parking-vs-car-service-new-orleans-guide", label: "Cruise Terminal Parking vs. Car Service Guide" },
             ].map((l) => (
               <Link key={l.to} to={l.to} className="px-4 py-2 bg-amber-500/10 border border-amber-500/30 rounded-lg text-sm text-amber-400 font-medium hover:bg-amber-500/20 transition-colors">
                 {l.label}

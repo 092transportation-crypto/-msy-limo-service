@@ -317,6 +317,8 @@ const HourlyPage = () => {
               { to: "/point-to-point-car-service-new-orleans", label: "Point-to-Point Car Service" },
               { to: "/blog/new-orleans-limo-rental-cost-guide-hourly-daily-rates", label: "Limo Rental Cost Guide" },
               { to: "/new-orleans-birthday-party-limo-service", label: "Birthday Party Limo Service" },
+              { to: "/new-orleans-sightseeing-tour-car-service", label: "Private Sightseeing Tour Car Service" },
+              { to: "/new-orleans-food-tour-restaurant-hopping-transportation-guide", label: "Food Tour Transportation Guide" },
             ].map((l) => (
               <Link key={l.to} to={l.to} className="px-4 py-2 bg-amber-500/10 border border-amber-500/30 rounded-lg text-sm text-amber-400 font-medium hover:bg-amber-500/20 transition-colors">
                 {l.label}

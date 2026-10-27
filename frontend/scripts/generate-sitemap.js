@@ -70,7 +70,29 @@ for (const slug of slugsFromFile("venuesData.js")) add(`/${slug}`, { priority: "
 
 // New Orleans / MSY-area city, neighborhood, service & event landing pages
 // (base marylandPages.js array + its Louisiana batch files).
-for (const file of ["marylandPages.js", "marylandPagesBatch3.js", "marylandPagesBatch4.js", "marylandPagesBatch5.js", "marylandPagesBatch6.js", "marylandPagesBatch7.js", "marylandPagesBatch8.js", "marylandPagesBatch9.js", "marylandPagesBatch10.js", "marylandPagesBatch11.js"]) {
+//
+// IMPORTANT: discover batch files dynamically instead of hardcoding a list.
+// A hardcoded list has previously gone stale here (and in sibling repos)
+// and silently excluded newer batches from the sitemap, so new pages never
+// got crawled even though they worked fine via client-side routing.
+function discoverDataFiles(baseName, batchPrefix) {
+  const files = fs
+    .readdirSync(DATA_DIR)
+    .filter((f) => f === baseName || (f.startsWith(batchPrefix) && f.endsWith(".js")))
+    .sort((a, b) => {
+      // Keep the base file first, then sort batch files numerically
+      // (Batch2, Batch3, ..., Batch10, Batch11, ...) rather than lexically.
+      if (a === baseName) return -1;
+      if (b === baseName) return 1;
+      const na = parseInt(a.match(/(\d+)/)?.[1] || "0", 10);
+      const nb = parseInt(b.match(/(\d+)/)?.[1] || "0", 10);
+      return na - nb;
+    });
+  return files;
+}
+
+const marylandFiles = discoverDataFiles("marylandPages.js", "marylandPagesBatch");
+for (const file of marylandFiles) {
   for (const slug of slugsFromFile(file)) add(`/${slug}`, { priority: "0.8" });
 }
 
@@ -78,7 +100,8 @@ for (const file of ["marylandPages.js", "marylandPagesBatch3.js", "marylandPages
 for (const slug of slugsFromFile("guides.js")) add(`/${slug}`, { priority: "0.7" });
 
 // Standalone SEO blog posts.
-for (const file of ["blogPostsData.js", "blogPostsBatch2.js", "blogPostsBatch3.js", "blogPostsBatch4.js", "blogPostsBatch5.js", "blogPostsBatch6.js", "blogPostsBatch7.js", "blogPostsBatch8.js"]) {
+const blogFiles = discoverDataFiles("blogPostsData.js", "blogPostsBatch");
+for (const file of blogFiles) {
   for (const slug of slugsFromFile(file)) add(`/blog/${slug}`, { changefreq: "monthly", priority: "0.7" });
 }
 

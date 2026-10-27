@@ -1338,6 +1338,7 @@ export const MARYLAND_BATCH3 = [
       { label: "Anniversary Limo Service", to: "/new-orleans-anniversary-limo-service" },
       { label: "Jazz Fest Transportation", to: "/jazz-fest-fair-grounds-transportation" },
       { label: "House of Blues New Orleans Transportation", to: "/house-of-blues-new-orleans-transportation" },
+      { label: "New Orleans Bachelor Party Transportation", to: "/new-orleans-bachelor-party-transportation" },
       { label: "Hourly Charter", to: "/services/hourly-charter" },
       { label: "Wedding Limo Service", to: "/services/wedding-limo" },
       { label: "Book a Ride", to: "/booking" },
