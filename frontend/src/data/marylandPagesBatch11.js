@@ -70,6 +70,13 @@ export const MARYLAND_BATCH11 = [
           "Weddings along Bayou Lafourche, and corporate travel for the sugar and oilfield-service companies based here, round out most of our non-airport Thibodaux business — book early for a Saturday in spring or fall.",
         ],
       },
+      {
+        h2: "Booking lead time and what's included",
+        paragraphs: [
+          "A 52-mile run to MSY is well within same-day booking range most weeks, but Nicholls State commencement, parents' weekend and any Saturday in wedding season fill the Thibodaux calendar first, so reserving two to three weeks out secures your preferred vehicle rather than whatever is still available. Every Thibodaux booking includes real-time flight tracking and 45 minutes of complimentary wait time on domestic arrivals at no extra charge.",
+          "Sedan and SUV transfers can be cancelled free of charge up to 3 hours before pickup; Sprinter van, limousine and wedding bookings follow the 12-hour window. Call (877) 609-1919 any hour to book, adjust or confirm a Thibodaux reservation.",
+        ],
+      },
     ],
     vehicles: vehicles(),
     faqs: [
@@ -129,6 +136,13 @@ export const MARYLAND_BATCH11 = [
         paragraphs: [
           "Shipyards and offshore-service companies based in Morgan City and Berwick book recurring executive and vendor travel through a corporate account with consolidated billing, the same way our oil-and-gas corporate clients elsewhere in Louisiana do.",
           "Weddings and events along the river are a smaller but regular part of our Morgan City business, usually booked as hourly, as-directed charter rather than a single flat-rate transfer.",
+        ],
+      },
+      {
+        h2: "Booking lead time and what's included",
+        paragraphs: [
+          "Because the 85-mile Morgan City run sits at the edge of what rideshare reliably covers, we recommend booking at least a week ahead for a standard airport transfer and two to three weeks ahead for a shipyard crew-change rotation or a wedding along the river, so both legs are locked in well before anyone boards a flight. Flight tracking and 45 minutes of complimentary domestic wait time are included on every transfer, no add-on fee.",
+          "Sedan and SUV bookings cancel free up to 3 hours before pickup; Sprinter van and event bookings follow the 12-hour window. Corporate accounts for shipbuilding and offshore-service employers can set a standing reservation rhythm rather than booking each crew change individually — call (877) 609-1919 to set one up.",
         ],
       },
     ],
@@ -192,6 +206,13 @@ export const MARYLAND_BATCH11 = [
           "Teche Country's historic venues host weddings regularly, and we plan those as a full-day itinerary — getting ready, ceremony, photos and reception — the same way we plan any wedding in our service area.",
         ],
       },
+      {
+        h2: "Booking lead time and what's included",
+        paragraphs: [
+          "At 120 miles each way, a New Iberia reservation is worth locking in several days ahead for a routine transfer and two to three weeks ahead for an Avery Island tour group or a Teche Country wedding Saturday, since those dates compete with every other long-distance booking on our calendar. Every quote already includes flight tracking and 45 minutes of complimentary wait time on domestic arrivals.",
+          "Sedan and SUV transfers cancel free of charge up to 3 hours before pickup; Sprinter van and wedding bookings follow the 12-hour window. Call (877) 609-1919 to confirm both legs of a New Iberia trip at once.",
+        ],
+      },
     ],
     vehicles: vehicles(),
     faqs: [
@@ -251,6 +272,13 @@ export const MARYLAND_BATCH11 = [
         paragraphs: [
           "Opelousas's Zydeco and Creole heritage festivals draw regional and out-of-state visitors, and we run flat-rate group transfers for festival weekends booked well in advance of the biggest dates.",
           "Weddings and family events across St. Landry Parish round out most of our non-festival Opelousas bookings, typically as hourly, as-directed charter for the full day.",
+        ],
+      },
+      {
+        h2: "Booking lead time and what's included",
+        paragraphs: [
+          "Opelousas sits far enough out that we book it exclusively as a reservation, never an on-demand request, and festival weekends tied to Zydeco and Creole heritage events sell out our Sprinter vans and limousines first — two to three weeks' notice is the safe window for a festival date, with shorter notice usually fine for a standard transfer. Flight tracking and 45 minutes of complimentary domestic wait time come standard on every booking.",
+          "Sedan and SUV fares cancel free up to 3 hours ahead; Sprinter van, limousine and festival group bookings follow the 12-hour window. Call (877) 609-1919 to reserve both the outbound and return legs together.",
         ],
       },
     ],
@@ -314,6 +342,13 @@ export const MARYLAND_BATCH11 = [
           "Bogalusa's timber and manufacturing employers book recurring executive and visitor travel through a corporate account with consolidated billing, the same way other Louisiana parish employers do with us.",
         ],
       },
+      {
+        h2: "Booking lead time and what's included",
+        paragraphs: [
+          "A standard Bogalusa airport transfer is usually fine with a few days' notice, but Washington Parish wedding season and any weekend tied to a timber or manufacturing company's visiting-executive schedule should be booked two to three weeks out to guarantee a Sprinter van or sedan at the exact time you need it. Flight tracking and 45 minutes of complimentary domestic wait time are included at no extra charge.",
+          "Sedan and SUV bookings cancel free up to 3 hours before pickup; Sprinter van and wedding bookings follow the 12-hour window. Call (877) 609-1919 for same-day availability or an advance reservation.",
+        ],
+      },
     ],
     vehicles: vehicles(),
     faqs: [
@@ -373,6 +408,13 @@ export const MARYLAND_BATCH11 = [
         paragraphs: [
           "Abita Brewing Company draws visitors from across the region, and we regularly handle tour and tasting-room transfers, often combined with other Northshore stops as part of an hourly charter.",
           "The town square, the Mystery House and nearby Covington and Mandeville round out a typical half-day or full-day Northshore itinerary we run for weekend visitors.",
+        ],
+      },
+      {
+        h2: "Booking lead time and what's included",
+        paragraphs: [
+          "Most Abita Springs trips — a brewery tour, a Causeway airport transfer — can be booked just a day or two ahead, though weekend brewery-tour slots and any Northshore wedding Saturday fill up faster and are worth reserving a week or two out. Every quote includes the Causeway toll, real-time flight tracking on airport runs, and 45 minutes of complimentary domestic wait time.",
+          "Sedan and SUV transfers cancel free of charge up to 3 hours before pickup; Sprinter van and event bookings follow the 12-hour window. Call (877) 609-1919 to combine a brewery tour with other Northshore stops on one hourly reservation.",
         ],
       },
     ],
@@ -436,6 +478,13 @@ export const MARYLAND_BATCH11 = [
           "Sugar and oilfield-service companies with a presence along Bayou Lafourche book recurring executive travel through a corporate account with consolidated billing.",
         ],
       },
+      {
+        h2: "Booking lead time and what's included",
+        paragraphs: [
+          "Raceland sits on a corridor we drive constantly, so a standard airport transfer is usually easy to arrange with just a day or two of notice; a Lafourche Parish wedding Saturday or a large corporate group for a sugar or oilfield-service company is worth booking two to three weeks ahead. Flight tracking and 45 minutes of complimentary domestic wait time are included on every airport run, no extra charge.",
+          "Sedan and SUV fares cancel free up to 3 hours before pickup; Sprinter van and wedding bookings follow the 12-hour window. Call (877) 609-1919 any hour to book a Raceland pickup.",
+        ],
+      },
     ],
     vehicles: vehicles(),
     faqs: [
@@ -495,6 +544,13 @@ export const MARYLAND_BATCH11 = [
         paragraphs: [
           "The route crosses the river at Luling on I-310, a short, predictable run that our chauffeurs also use on the way to Raceland and Houma, so Des Allemands is never an unfamiliar detour.",
           "Weddings and family events in the area are typically booked as hourly, as-directed charter rather than a single point-to-point fare.",
+        ],
+      },
+      {
+        h2: "Booking lead time and what's included",
+        paragraphs: [
+          "Swamp tour transfers are frequently booked just a day or two ahead, especially for travelers adding the stop the moment they land, though a group tour booked through a hotel concierge or a Des Allemands wedding should be reserved a week or two out to guarantee a Sprinter van on the right morning. Flight tracking, 45 minutes of complimentary domestic wait time, and door-to-dock routing are all included in the quoted flat rate.",
+          "Sedan and SUV transfers cancel free up to 3 hours before pickup; Sprinter van and event bookings follow the 12-hour window. Call (877) 609-1919 to pair an MSY landing with a same-day swamp tour pickup.",
         ],
       },
     ],
@@ -558,6 +614,13 @@ export const MARYLAND_BATCH11 = [
           "Weddings and family events across Lutcher and Gramercy are typically booked as hourly, as-directed charter for the full day.",
         ],
       },
+      {
+        h2: "Booking lead time and what's included",
+        paragraphs: [
+          "A River Parishes transfer to Lutcher or Gramercy is generally easy to arrange on short notice, but plant turnaround season brings a surge of contractor and executive travel that's worth scheduling two to three weeks ahead so a recurring corporate account has guaranteed capacity rather than competing for same-day vehicles. Flight tracking and 45 minutes of complimentary domestic wait time are included on every quote.",
+          "Sedan and SUV transfers cancel free up to 3 hours before pickup; Sprinter van and event bookings follow the 12-hour window. Call (877) 609-1919 to set up a standing corporate account for recurring River Parishes travel.",
+        ],
+      },
     ],
     vehicles: vehicles(),
     faqs: [
@@ -617,6 +680,13 @@ export const MARYLAND_BATCH11 = [
         paragraphs: [
           "Offices along the Causeway Boulevard corridor book recurring executive travel through a corporate account, and the short distance to Metairie, Harahan and Uptown makes same-day, multi-stop bookings easy to plan.",
           "Weddings and events here often combine a Jefferson pickup with an Uptown or Garden District venue — tell us both addresses and we'll quote the whole day as one itinerary.",
+        ],
+      },
+      {
+        h2: "Booking lead time and what's included",
+        paragraphs: [
+          "At 11 miles, a Jefferson airport run is one of the easier same-day bookings in our service area, with availability usually open right up to the day of travel; a multi-stop day combining Jefferson with Uptown or the Garden District is worth confirming a few days ahead so one chauffeur can be scheduled for the whole itinerary. Flight tracking and 45 minutes of complimentary domestic wait time are included at no extra charge.",
+          "Sedan and SUV fares cancel free up to 3 hours before pickup; Sprinter van and event bookings follow the 12-hour window. Call (877) 609-1919 to add a second address to a Jefferson pickup.",
         ],
       },
     ],
@@ -680,6 +750,13 @@ export const MARYLAND_BATCH11 = [
           "Every pickup is flight-tracked, so a visiting executive's delayed inbound flight doesn't leave a chauffeur waiting at the wrong time.",
         ],
       },
+      {
+        h2: "Booking lead time and what's included",
+        paragraphs: [
+          "Routine Geismar executive transfers are usually bookable with a day or two of notice, but plant turnaround and shutdown periods bring a sharp, predictable spike in demand for group transportation, and we recommend locking in a recurring schedule two to three weeks before the turnaround date rather than booking each leg as a one-off. Flight tracking and 45 minutes of complimentary domestic wait time are included on every transfer.",
+          "Sedan and SUV bookings cancel free up to 3 hours before pickup; Sprinter van and scheduled group bookings follow the 12-hour window. Call (877) 609-1919 to set up corporate billing ahead of a turnaround.",
+        ],
+      },
     ],
     vehicles: vehicles(),
     faqs: [
@@ -739,6 +816,13 @@ export const MARYLAND_BATCH11 = [
         paragraphs: [
           "The lakefront casino resorts draw a steady stream of visitors we transfer directly from MSY, and group bookings are common for golf trips and corporate incentive travel.",
           "LNG and petrochemical employers along the Lake Charles industrial corridor book recurring executive and contractor travel through a corporate account, and we also run wedding transportation for several lakefront venues.",
+        ],
+      },
+      {
+        h2: "Booking lead time and what's included",
+        paragraphs: [
+          "At 205 miles, a Lake Charles reservation should be made at least a week ahead for a standard transfer and two to three weeks ahead for a casino-resort group trip, an LNG corporate rotation, or a lakefront wedding, since both the outbound and return legs need a committed vehicle rather than an on-demand one. Flight tracking and 45 minutes of complimentary domestic wait time are included in every quoted flat rate.",
+          "Sedan and SUV transfers cancel free up to 3 hours before pickup; Sprinter van, limousine and event bookings follow the 12-hour window. Call (877) 609-1919 to reserve both directions of a Lake Charles trip together.",
         ],
       },
     ],
@@ -804,6 +888,13 @@ export const MARYLAND_BATCH11 = [
           "For weddings and multi-stop Garden District days, hourly, as-directed charter is usually the better fit — see our wedding limo service page for how we plan that kind of day.",
         ],
       },
+      {
+        h2: "Booking lead time and what's included",
+        paragraphs: [
+          "A single Garden District transfer is routinely available with same-day or next-day booking, though a wedding weekend or a hotel group filling several District B&Bs on the same Saturday should be reserved two to three weeks out to guarantee the right mix of sedans and a Sprinter van. Flight tracking and 45 minutes of complimentary domestic wait time are included on every airport run, no extra charge.",
+          "Sedan and SUV fares cancel free up to 3 hours before pickup; Sprinter van and wedding bookings follow the 12-hour window. Call (877) 609-1919 and we'll confirm which vehicle actually fits your exact Garden District address.",
+        ],
+      },
     ],
     vehicles: vehicles(),
     faqs: [
@@ -863,6 +954,13 @@ export const MARYLAND_BATCH11 = [
         paragraphs: [
           "The flat rate covers the full run regardless of Convention Center event traffic, and your chauffeur monitors conditions before your flight lands to choose the fastest path into the District.",
           "For a multi-stop day combining the Warehouse District with the French Quarter or the Garden District, hourly, as-directed charter keeps one chauffeur with you the whole time.",
+        ],
+      },
+      {
+        h2: "Booking lead time and what's included",
+        paragraphs: [
+          "Individual Warehouse District drop-offs are usually fine with a day's notice, but a convention week at the Morial Convention Center fills our Sprinter vans fast for exhibit-team and group check-in transfers, so booking two to three weeks before a major show's move-in date is the safer window. Flight tracking and 45 minutes of complimentary domestic wait time are included at no additional cost.",
+          "Sedan and SUV transfers cancel free up to 3 hours before pickup; Sprinter van and group bookings follow the 12-hour window. Call (877) 609-1919 to arrange a block of transfers for a convention team arriving on multiple flights.",
         ],
       },
     ],
@@ -926,6 +1024,13 @@ export const MARYLAND_BATCH11 = [
           "For a day that combines an Uptown pickup with a French Quarter dinner or a Garden District stop, hourly, as-directed charter keeps one chauffeur and vehicle with you throughout.",
         ],
       },
+      {
+        h2: "Booking lead time and what's included",
+        paragraphs: [
+          "A single Uptown transfer books easily on short notice most of the year, but Tulane and Loyola move-in weekend, parents' weekend and commencement fill vehicles quickly, so reserving two to three weeks ahead of those specific dates is the best way to guarantee a Sprinter van for a family moving a full carload. Flight tracking and 45 minutes of complimentary domestic wait time are included on every pickup.",
+          "Sedan and SUV fares cancel free up to 3 hours before pickup; Sprinter van and event bookings follow the 12-hour window. Call (877) 609-1919 ahead of a university weekend to lock in your preferred vehicle class.",
+        ],
+      },
     ],
     vehicles: vehicles(),
     faqs: [
@@ -985,6 +1090,13 @@ export const MARYLAND_BATCH11 = [
         paragraphs: [
           "The flat rate is confirmed before you fly, with your chauffeur tracking your inbound flight and adjusting for any delay automatically.",
           "For an evening that includes Frenchmen Street plus a French Quarter stop, hourly, as-directed charter keeps one chauffeur with you for the whole night rather than booking separate point-to-point rides.",
+        ],
+      },
+      {
+        h2: "Booking lead time and what's included",
+        paragraphs: [
+          "Most Marigny and Bywater transfers, including late-night pickups after a Frenchmen Street show, are bookable same-day or next-day; a weekend combining an airport arrival with multiple music-venue stops is easiest to plan a few days ahead so one chauffeur can stay with you the whole evening. Flight tracking and 45 minutes of complimentary domestic wait time are included on the airport leg at no extra charge.",
+          "Sedan and SUV fares cancel free up to 3 hours before pickup; Sprinter van and event bookings follow the 12-hour window. Call (877) 609-1919 and we'll build the night's stops into one hourly reservation.",
         ],
       },
     ],
@@ -1048,6 +1160,13 @@ export const MARYLAND_BATCH11 = [
           "Wedding guests flying in for a Bayou Lafourche ceremony are a regular group booking, usually handled with a Sprinter van delivering everyone straight to the venue or hotel block.",
         ],
       },
+      {
+        h2: "Booking lead time and what's included",
+        paragraphs: [
+          "A single airport-to-Thibodaux transfer is typically easy to book within a day or two of travel; a group of Nicholls State families on commencement weekend or a block of wedding guests flying in the same afternoon should book two to three weeks ahead to guarantee a Sprinter van rather than splitting across several sedans. Flight tracking and 45 minutes of complimentary domestic wait time are included in every quoted rate.",
+          "Sedan and SUV fares cancel free up to 3 hours before pickup; Sprinter van and group bookings follow the 12-hour window. Call (877) 609-1919 to coordinate pickups for several guests arriving on different flights.",
+        ],
+      },
     ],
     vehicles: vehicles(),
     faqs: [
@@ -1107,6 +1226,13 @@ export const MARYLAND_BATCH11 = [
         paragraphs: [
           "Lake Martin's swamp tours draw visitors year-round, and a Sprinter van is typically the most efficient way to move a tour group from MSY to the dock and back in one vehicle.",
           "Weddings at Cajun Country venues are planned as a full-day itinerary, the same way we plan any wedding in our service area, with a chauffeur who stays with the wedding party throughout.",
+        ],
+      },
+      {
+        h2: "Booking lead time and what's included",
+        paragraphs: [
+          "At 130 miles, we recommend booking a Breaux Bridge transfer at least a week ahead for a standard trip and two to three weeks ahead for Crawfish Festival weekend or a Cajun Country wedding, since both directions need a committed chauffeur rather than an on-demand one willing to make the long trip back. Flight tracking and 45 minutes of complimentary domestic wait time are included in the flat rate.",
+          "Sedan and SUV fares cancel free up to 3 hours before pickup; Sprinter van, limousine and festival or wedding group bookings follow the 12-hour window. Call (877) 609-1919 to reserve the round trip together.",
         ],
       },
     ],
@@ -1172,6 +1298,13 @@ export const MARYLAND_BATCH11 = [
           "Call ahead for a popular Friday or Saturday night, since weekend evenings are our highest-demand hourly bookings.",
         ],
       },
+      {
+        h2: "Booking lead time and what's included",
+        paragraphs: [
+          "A weekday or off-season birthday booking can often be arranged with just a few days' notice, but Friday and Saturday nights are our highest-demand hourly window, and a milestone birthday worth planning around deserves two to three weeks of lead time to guarantee a stretch limousine or Sprinter van for the date you want. The flat hourly rate, confirmed before you book, already covers the chauffeur staying with you from the first stop to the last.",
+          "Hourly, as-directed bookings follow the standard 12-hour cancellation window for Sprinter vans and limousines, or 3 hours for a sedan or SUV booking. Call (877) 609-1919 to build the night's itinerary and reserve your vehicle.",
+        ],
+      },
     ],
     vehicles: vehicles(),
     faqs: [
@@ -1231,6 +1364,13 @@ export const MARYLAND_BATCH11 = [
         paragraphs: [
           "Family flying into MSY on short notice gets the same flight tracking and complimentary wait time as any other arrival, so an unexpected delay doesn't add stress to an already difficult trip.",
           "A Sprinter van is often the practical choice when several family members are arriving on the same or nearby flights and want to travel together to the service or the family home.",
+        ],
+      },
+      {
+        h2: "Booking lead time and what's included",
+        paragraphs: [
+          "Funeral transportation is one of the few services we routinely book on short notice, often within 24 to 48 hours of a call, because we understand the timeline isn't always in a family's control; a pre-planned memorial service or a larger out-of-town family group benefits from a few days' advance notice when that's possible, but it's never required. The flat rate quoted at booking includes coordination directly with your funeral home and flight tracking for any out-of-town arrivals.",
+          "Given the nature of this service, cancellations or timing changes are handled directly with your dispatch contact rather than a fixed policy window — call (877) 609-1919 and we'll adjust as the day requires.",
         ],
       },
     ],
@@ -1300,6 +1440,13 @@ export const MARYLAND_BATCH11 = [
           "Thanksgiving weekend books out early for both hotels and ground transportation citywide, so reserving as soon as your travel dates are set is the best way to guarantee a Sprinter van or stretch limousine for a larger group.",
         ],
       },
+      {
+        h2: "Booking lead time and what's included",
+        paragraphs: [
+          "Thanksgiving weekend books out earlier than almost any other date on our calendar, for both Bayou Classic travel and family holiday travel competing for the same vehicles, so reserving as soon as your travel dates are confirmed — ideally a month or more ahead — is the only reliable way to guarantee a Sprinter van or stretch limousine for alumni groups. Flight tracking and 45 minutes of complimentary domestic wait time are included on every MSY pickup at no extra charge.",
+          "Sedan and SUV transfers cancel free up to 3 hours before pickup; Sprinter van and group bookings follow the 12-hour window. Call (877) 609-1919 early to lock in Bayou Classic weekend transportation.",
+        ],
+      },
     ],
     vehicles: vehicles(),
     faqs: [
@@ -1361,6 +1508,13 @@ export const MARYLAND_BATCH11 = [
           "Groups of friends or a company's hospitality team attending together typically book a Sprinter van, which also sidesteps parking near the festival's busiest venues.",
         ],
       },
+      {
+        h2: "Booking lead time and what's included",
+        paragraphs: [
+          "NOWFE weekend fills hotel blocks and ground transportation across the French Quarter and CBD quickly each spring, so booking two to three weeks ahead of the festival dates is the safest window for a group wanting a Sprinter van for multiple venues over several days. Flight tracking for out-of-town guests and 45 minutes of complimentary domestic wait time are included at no extra charge.",
+          "Sedan and SUV fares cancel free up to 3 hours before pickup; Sprinter van and multi-day hourly bookings follow the 12-hour window. Call (877) 609-1919 to map out a multi-venue festival schedule in advance.",
+        ],
+      },
     ],
     vehicles: vehicles(),
     faqs: [
@@ -1420,6 +1574,13 @@ export const MARYLAND_BATCH11 = [
         paragraphs: [
           "A Sprinter van keeps a group of friends or coworkers together for the drive out and back, which also means nobody has to think about parking or a post-race rideshare wait.",
           "For a day that includes lunch beforehand or a stop afterward, hourly, as-directed charter is the better fit than a single point-to-point fare.",
+        ],
+      },
+      {
+        h2: "Booking lead time and what's included",
+        paragraphs: [
+          "A single race-day transfer is usually easy to book within a day or two during the regular season, but marquee stakes days and opening weekend in late November draw bigger crowds, and clubhouse or corporate hospitality groups should book a Sprinter van a week or two ahead to guarantee availability. The flat rate, confirmed before you book, already includes coordinating pickup for whenever your group is ready to leave.",
+          "Sedan and SUV fares cancel free up to 3 hours before pickup; Sprinter van and group bookings follow the 12-hour window. Call (877) 609-1919 ahead of a big stakes-race Saturday.",
         ],
       },
     ],
@@ -1490,6 +1651,13 @@ export const MARYLAND_BATCH11 = [
           "Pickup is coordinated by text with your chauffeur for whenever your group is ready, the same as any other hourly booking.",
         ],
       },
+      {
+        h2: "Booking lead time and what's included",
+        paragraphs: [
+          "Most Treasure Chest transfers, including a quick stop on the way to or from MSY, are easy to book same-day or next-day; a larger birthday or bachelor/bachelorette group wanting a Sprinter van or stretch limousine for a full night out is worth reserving a week ahead, especially for a Friday or Saturday. Flight tracking on the airport leg and 45 minutes of complimentary domestic wait time are included at no extra charge.",
+          "Sedan and SUV fares cancel free up to 3 hours before pickup; Sprinter van and limousine group bookings follow the 12-hour window. Call (877) 609-1919 to set your return pickup time, whether that's fixed or open-ended.",
+        ],
+      },
     ],
     vehicles: [
       { name: "Mercedes-Benz E-Class", cls: "Business sedan", seats: 3, best: "a quick stop before a flight" },
@@ -1556,6 +1724,13 @@ export const MARYLAND_BATCH11 = [
         paragraphs: [
           "A French Quarter or Warehouse District dinner before or after the cruise is simple to add as one hourly reservation, keeping the same chauffeur and vehicle for the whole evening.",
           "Corporate groups and wedding parties who book the Natchez for a private event often add a Sprinter van to move the whole group from a hotel to the wharf together.",
+        ],
+      },
+      {
+        h2: "Booking lead time and what's included",
+        paragraphs: [
+          "A single Natchez drop-off and pickup is routinely bookable with a day or two of notice; a corporate or wedding group chartering the boat for a private event should reserve a Sprinter van a week or more ahead so the whole party can be moved from a hotel to the wharf together. The flat rate already accounts for tracking the boat's actual docking time rather than the posted schedule alone.",
+          "Sedan and SUV fares cancel free up to 3 hours before pickup; Sprinter van and private-event bookings follow the 12-hour window. Call (877) 609-1919 to pair the cruise with a French Quarter or Warehouse District dinner.",
         ],
       },
     ],
@@ -1626,6 +1801,13 @@ export const MARYLAND_BATCH11 = [
           "Companies relocating or hosting visiting employees also book a recurring hotel-to-office shuttle for the length of a project or assignment, billed as one consolidated account rather than individual trip invoices.",
         ],
       },
+      {
+        h2: "Booking lead time and what's included",
+        paragraphs: [
+          "A recurring shuttle contract typically takes one to two weeks to set up properly — confirming rider counts, the route, and the schedule before the first run — so starting that conversation as soon as a convention date or an office relocation is confirmed gives dispatch enough time to assign dedicated Sprinter vans rather than scrambling at the last minute. Every contract is billed through one consolidated corporate account rather than per-trip invoices.",
+          "Individual shuttle runs follow the same cancellation terms as any hourly booking — 3 hours' notice for a sedan or SUV, 12 hours for a Sprinter van — though an active contract's ongoing schedule is managed directly with your dispatch contact. Call (877) 609-1919 to scope out a shuttle contract.",
+        ],
+      },
     ],
     vehicles: vehicles(),
     faqs: [
@@ -1685,6 +1867,13 @@ export const MARYLAND_BATCH11 = [
         paragraphs: [
           "Call for a same-day request and dispatch will confirm the nearest available vehicle and a flat rate before it's sent your way; for weddings, events or airport transfers, booking in advance guarantees your preferred vehicle class.",
           "Either way, the standard doesn't change by neighborhood or by how far ahead you book — the rate confirmed at booking is the rate you pay.",
+        ],
+      },
+      {
+        h2: "Booking lead time and what's included",
+        paragraphs: [
+          "Same-day requests are common and usually accommodated citywide, since dispatch draws from one fleet rather than a neighborhood-specific pool; for a wedding, a major event weekend or a specific vehicle class, booking a week or more ahead guarantees your first choice rather than whatever's nearest when you call. Every flat-rate quote already includes flight tracking where it applies and the standard 45-minute complimentary wait window on domestic arrivals.",
+          "Sedan and SUV fares cancel free up to 3 hours before pickup; Sprinter van and event bookings follow the 12-hour window, the same standard across every neighborhood we serve. Call (877) 609-1919 for same-day dispatch or an advance reservation.",
         ],
       },
     ],
@@ -1748,6 +1937,13 @@ export const MARYLAND_BATCH11 = [
           "Tell us your plan when you book and we'll recommend whichever structure actually fits it; we'd rather quote the right service than the more expensive one.",
         ],
       },
+      {
+        h2: "Booking lead time and what's included",
+        paragraphs: [
+          "A single point-to-point trip is often bookable with just a few hours' notice, since it's the simplest reservation we run; booking a day or more ahead is still the safer choice during a major event weekend when every vehicle class is in higher demand citywide. The quoted flat rate already includes flight tracking on any airport leg, with no separate add-on fee.",
+          "Point-to-point bookings follow the standard cancellation terms — 3 hours for a sedan or SUV, 12 hours for a Sprinter van or limousine. Call (877) 609-1919 and we'll confirm your single pickup and drop-off before the car is dispatched.",
+        ],
+      },
     ],
     vehicles: vehicles(),
     faqs: [
@@ -1807,6 +2003,13 @@ export const MARYLAND_BATCH11 = [
         paragraphs: [
           "For an MSY airport transfer, a black SUV is booked the same way as any other vehicle class — a flat rate confirmed before you fly, with your flight tracked and your chauffeur positioned ahead of your arrival.",
           "For a multi-stop day, hourly, as-directed charter keeps the same SUV and chauffeur with you throughout rather than booking separate point-to-point trips.",
+        ],
+      },
+      {
+        h2: "Booking lead time and what's included",
+        paragraphs: [
+          "A single black SUV transfer is generally available same-day or next-day; a corporate account needing SUVs on a recurring schedule, or a family booking around a major holiday or event weekend, should reserve a week or more ahead to guarantee a Cadillac Escalade or Chevrolet Suburban rather than a substitute vehicle class. Flight tracking on airport runs and 45 minutes of complimentary domestic wait time are included at no extra cost.",
+          "Sedan and SUV fares cancel free up to 3 hours before pickup; Sprinter van and multi-vehicle group bookings follow the 12-hour window. Call (877) 609-1919 to confirm SUV availability for your date.",
         ],
       },
     ],
@@ -1875,6 +2078,13 @@ export const MARYLAND_BATCH11 = [
         paragraphs: [
           "A stretch limousine's length can be a genuine problem on some of New Orleans's narrower historic streets, and we'd rather flag that honestly when you book than discover it on the day. A Cadillac Escalade is often the better practical substitute for those specific addresses while still delivering a premium ride.",
           "For French Quarter pickups specifically, we typically stage at a nearby perimeter street rather than attempting to navigate the Quarter's narrowest blocks directly.",
+        ],
+      },
+      {
+        h2: "Booking lead time and what's included",
+        paragraphs: [
+          "Prom season and peak spring and fall wedding Saturdays are our highest-demand windows for stretch limousines, and those dates are worth reserving a month or more ahead; an off-peak birthday or bachelorette night can often be booked with a week or two of notice instead. The hourly rate, confirmed before you book, already includes a professional chauffeur and the complimentary champagne toast commonly added for celebrations.",
+          "Stretch limousine rentals follow the 12-hour cancellation window standard for Sprinter vans and limousines; a sedan or SUV substitute booking follows the 3-hour window instead. Call (877) 609-1919 to check limo availability for your date before you commit to a venue.",
         ],
       },
     ],
