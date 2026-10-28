@@ -57,8 +57,8 @@ const HourlyPage = () => {
   return (
     <div className="min-h-screen bg-black">
       <SEO
-        title="Hourly Limo Charter New Orleans | One Car, No Limits"
-        description="One dedicated chauffeur for tours, multi-stop days, nights out & events — you set the itinerary, we confirm the flat hourly rate. (877) 609-1919."
+        title="Hourly Limo Charter New Orleans | 3-Hour Minimum, Set Rate"
+        description="One chauffeur, one vehicle, your itinerary: hourly charter for tours, multi-stop days & nights out at a flat rate confirmed upfront. (877) 609-1919."
         path="/services/hourly-charter"
         schema={[LOCAL_BUSINESS_SCHEMA, hourlyFaqSchema]}
       />
@@ -262,14 +262,46 @@ const HourlyPage = () => {
         </div>
       </section>
 
+      {/* SEO: when hourly beats point-to-point */}
+      <section className="py-16 bg-gray-900">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6">
+          <h2 className="text-3xl font-medium mb-6 text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-yellow-300" style={{ fontFamily: "'Playfair Display', serif" }}>
+            When Hourly Charter Beats a Single Point-to-Point Ride
+          </h2>
+          <p className="text-gray-300 leading-relaxed mb-4">
+            Hourly, as-directed service earns its cost back the moment your day includes more than one stop. A single
+            airport transfer or a one-way trip to dinner is almost always cheaper as a flat-rate{" "}
+            <Link to="/point-to-point-car-service-new-orleans" className="text-amber-400 hover:text-amber-300">point-to-point ride</Link>, but
+            a River Road plantation day, a wedding that moves between a venue and a reception, or a night out that touches two or three bars
+            crosses the value line fast — one chauffeur, one vehicle, and no per-trip minimum charged each time you move.
+          </p>
+          <p className="text-gray-300 leading-relaxed mb-4">
+            Our most common hourly bookings are{" "}
+            <Link to="/river-road-plantation-tour-transportation" className="text-amber-400 hover:text-amber-300">River Road plantation tours</Link>,{" "}
+            <Link to="/new-orleans-sightseeing-tour-car-service" className="text-amber-400 hover:text-amber-300">private sightseeing days</Link>,
+            corporate{" "}
+            <Link to="/new-orleans-corporate-roadshow-transportation" className="text-amber-400 hover:text-amber-300">roadshows</Link> that
+            move between offices, and wedding days that run from getting-ready to the getaway car. For a group celebration, hourly charter
+            also covers <Link to="/new-orleans-bachelorette-party-transportation" className="text-amber-400 hover:text-amber-300">bachelorette</Link> and{" "}
+            <Link to="/new-orleans-bachelor-party-transportation" className="text-amber-400 hover:text-amber-300">bachelor</Link> party
+            nights where the vehicle needs to stay with the group from the first stop to the last.
+          </p>
+          <p className="text-gray-300 leading-relaxed">
+            Not sure which pricing model fits your day? Tell us your stops and approximate timing when you call{" "}
+            <a href="tel:+18776091919" className="text-amber-400 hover:text-amber-300">(877) 609-1919</a>, and we'll quote whichever — hourly
+            or point-to-point — actually works out cheaper for your itinerary.
+          </p>
+        </div>
+      </section>
+
       <section className="py-20 bg-gray-900">
         <div className="max-w-7xl mx-auto px-6 md:px-12">
-          <motion.h2 
+          <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
-            className="text-3xl font-medium text-center mb-12 text-amber-500" 
+            className="text-3xl font-medium text-center mb-12 text-amber-500"
             style={{ fontFamily: "'Playfair Display', serif" }}
           >
             Related Services

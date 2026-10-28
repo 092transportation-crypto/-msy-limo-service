@@ -18,6 +18,8 @@ const AIRPORT_FAQS = ensureFiveFaqs([
   { q: "Can you handle a group arriving on multiple flights?", a: "Yes. Tell us each flight number when you book and we'll track every leg separately, consolidating pickups into one or more vehicles once everyone has landed." },
   { q: "Do you serve destinations beyond New Orleans from MSY?", a: "Yes. We run flat-rate, flight-tracked transfers from MSY to Baton Rouge, the Northshore, Houma, Lafayette, Lake Charles and dozens of other Louisiana cities and towns, in addition to every New Orleans-area neighborhood." },
   { q: "What's the difference between a standard pickup and meet-and-greet?", a: "A standard pickup meets you at the arrivals curb after you've collected your bags; meet-and-greet puts your chauffeur inside baggage claim holding a sign with your name, which is worth choosing if you're unfamiliar with the terminal or traveling with young children." },
+  { q: "Is it cheaper to book a car service than take Uber from MSY?", a: "Often comparable or cheaper once you account for rideshare surge pricing at peak times, with no matching delay and no walk to a separate pickup zone — see our Uber pickup location guide and cost comparison for the full numbers." },
+  { q: "Can you pick up at Lakefront Airport (NEW) instead of MSY?", a: "Yes. We run the same flat-rate, flight-tracked service to and from New Orleans Lakefront Airport for private and charter flight arrivals." },
 ], { slug: "airport" });
 const airportFaqSchema = buildFaqSchema(AIRPORT_FAQS);
 
@@ -56,8 +58,8 @@ const AirportPage = () => {
   return (
     <div className="min-h-screen bg-black">
       <SEO
-        title="MSY Airport Transportation | No Surge, Ever | Book 24/7"
-        description="Skip the rideshare surge at MSY: flight-tracked pickup, 45 min free wait time & a flat rate confirmed before you fly. Book online or call (877) 609-1919."
+        title="MSY Airport Transportation | Flat Rate, 45-Min Free Wait"
+        description="Skip the MSY rideshare pickup zone: flight-tracked car service, 45 min free wait time & a flat rate confirmed before you fly. Book 24/7, (877) 609-1919."
         path="/services/airport-transportation"
         schema={[LOCAL_BUSINESS_SCHEMA, airportFaqSchema]}
       />
@@ -207,6 +209,13 @@ const AirportPage = () => {
             {" "}<Link to="/new-orleans-limo-service-near-me" className="text-amber-400 hover:text-amber-300 underline underline-offset-2">limo service near you</Link> anywhere
             in the metro turns up the same flat-rate, flight-tracked standard described on this page.
           </p>
+          <p className="text-gray-300 leading-relaxed mt-4">
+            Rideshare at MSY routes to its own designated pickup zone away from the terminal doors, with a driver-matching wait and surge
+            pricing at busy times — see our{" "}
+            <Link to="/blog/msy-airport-uber-lyft-pickup-location-guide" className="text-amber-400 hover:text-amber-300 underline underline-offset-2">Uber pickup location guide</Link> for
+            exactly where that is. A reserved chauffeur skips all of it: your car is already in position at the curb, or waiting inside at
+            baggage claim with meet-and-greet, the moment you clear the terminal.
+          </p>
         </div>
       </section>
 
@@ -355,6 +364,7 @@ const AirportPage = () => {
               { to: "/msy-to-uptown-new-orleans", label: "MSY to Uptown" },
               { to: "/services/corporate-transportation", label: "Corporate Travel" },
               { to: "/blog/how-far-is-msy-airport-from-french-quarter-and-downtown", label: "Distances From MSY, Explained" },
+              { to: "/blog/msy-airport-uber-lyft-pickup-location-guide", label: "MSY Uber Pickup Location Guide" },
             ].map((l) => (
               <Link key={l.to} to={l.to} className="px-4 py-2 bg-amber-500/10 border border-amber-500/30 rounded-lg text-sm text-amber-400 font-medium hover:bg-amber-500/20 transition-colors">
                 {l.label}

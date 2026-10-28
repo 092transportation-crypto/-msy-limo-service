@@ -19,8 +19,8 @@ export const MARYLAND_BATCH3 = [
     name: "Metairie",
     badge: "Jefferson Parish Limo Service",
     h1: "Metairie Limo Service",
-    metaTitle: "Metairie Limo Service | 9 Miles From MSY, Flat Rate",
-    metaDescription: "Metairie limo & car service just 9 miles from MSY — flat rate confirmed before you book, flight tracking, weddings & corporate travel. (877) 609-1919.",
+    metaTitle: "Metairie Limo Service | 9 Mi From MSY, No Surge Ever",
+    metaDescription: "Metairie limo & car service, 9 miles from MSY: flat rate locked in before you book, 45-min free wait, weddings & corporate travel. (877) 609-1919.",
     stats: [
       { label: "MSY Airport", value: "≈ 9 mi · 15–20 minutes" },
       { label: "Parish", value: "Jefferson" },
@@ -67,12 +67,14 @@ export const MARYLAND_BATCH3 = [
     faqs: [
       { q: "How much does car service from Metairie to MSY cost?", a: "It is a flat rate based on your pickup address and the vehicle you choose, confirmed before you book. There is no meter and no surge pricing. Call (877) 609-1919 or book online for an exact quote." },
       { q: "How early should I leave Metairie for a flight?", a: "The drive is usually 15 to 20 minutes, but I-10 can slow sharply at rush hour. Tell us your flight and we will recommend a pickup time that leaves room for check-in and security." },
-      { q: "Can you take me across the Causeway from Metairie?", a: "Yes. Mandeville, Covington and the rest of the Northshore are regular trips from Metairie, quoted as a flat rate in either direction." },
-      { q: "What is the cancellation policy?", a: "Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup. Sprinter vans, limousines and special-event bookings need 12 hours." },
       { q: "Do you offer hourly service in Metairie?", a: "Yes. Hourly bookings keep the vehicle and chauffeur with you for meetings, shopping, dinners or events, with as many stops as the time allows." },
+      { q: "Do you serve weddings and corporate roadshows based in Metairie?", a: "Yes. Metairie is one of our busiest wedding and corporate booking areas — see our wedding limo service and corporate roadshow pages for how a multi-stop day is planned." },
+      { q: "Can you pick up for a Pelicans or Saints game from Metairie?", a: "Yes, with a flat-rate drop near the Superdome or Smoothie King Center and a post-event pickup, so you skip downtown parking entirely." },
     ],
     related: [
       { label: "MSY to Metairie", to: "/msy-to-metairie" },
+      { label: "Metairie Corporate Car Service", to: "/metairie-corporate-car-service" },
+      { label: "Metairie Limo Service for Weddings", to: "/metairie-limo-service-for-weddings" },
       { label: "Kenner Limo Service", to: "/kenner-limo-service" },
       { label: "Gretna and Westbank Limo Service", to: "/gretna-westbank-limo-service" },
       { label: "Mandeville Limo Service", to: "/mandeville-limo-service" },

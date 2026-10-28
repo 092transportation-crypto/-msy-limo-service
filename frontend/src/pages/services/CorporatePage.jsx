@@ -18,6 +18,8 @@ const CORPORATE_FAQS = ensureFiveFaqs([
   { q: "Do you serve corporate travel outside New Orleans?", a: "Yes, including Baton Rouge, the Northshore, and Louisiana's oil, gas, maritime and legal corridors, all billed through the same corporate account." },
   { q: "Can we set a spending or approval policy on our account?", a: "Yes. Corporate accounts can be configured with traveler profiles, approval workflows and consolidated monthly invoicing to match your internal policy." },
   { q: "Is there a minimum commitment to open a corporate account?", a: "No. There's no setup cost and no minimum monthly spend — we configure the account around however much or little travel your team actually books." },
+  { q: "Can you handle a multi-stop corporate roadshow across Louisiana?", a: "Yes. One dedicated chauffeur and vehicle stays with your team for the full itinerary across New Orleans, Metairie and Baton Rouge — see our corporate roadshow transportation page for how that's planned." },
+  { q: "Do you provide transportation for visiting board members or VIP executives?", a: "Yes, with a black car or executive sedan, a discreet chauffeur, and meet-and-greet available at MSY for anyone your company flies in for a board meeting or site visit." },
 ], { slug: "corporate" });
 const corporateFaqSchema = buildFaqSchema(CORPORATE_FAQS);
 
@@ -57,8 +59,8 @@ const CorporatePage = () => {
   return (
     <div className="min-h-screen bg-black">
       <SEO
-        title="New Orleans Corporate Car Service | No Setup Cost"
-        description="Free corporate accounts with consolidated billing — client meet & greet at MSY, roadshows, shuttles & priority booking. Call (877) 609-1919 to set one up."
+        title="New Orleans Corporate Car Service | Free Account, No Setup Fee"
+        description="Executive car service in New Orleans with a free corporate account: consolidated billing, MSY client meet & greet, roadshows & shuttles. Call (877) 609-1919."
         path="/services/corporate-transportation"
         schema={[LOCAL_BUSINESS_SCHEMA, corporateFaqSchema]}
       />
@@ -260,6 +262,23 @@ const CorporatePage = () => {
             <Link to="/new-orleans-meetings-events-industry-transportation" className="text-amber-400 hover:text-amber-300">meetings and conventions industry</Link>{" "}
             — each with its own schedule, discretion and documentation requirements built in.
           </p>
+          <p className="text-gray-300 leading-relaxed mt-4">
+            Multi-stop days are where a corporate account pays for itself fastest. A{" "}
+            <Link to="/new-orleans-corporate-roadshow-transportation" className="text-amber-400 hover:text-amber-300">corporate roadshow</Link> that
+            moves between New Orleans, Metairie and Baton Rouge in a single day runs on one dedicated chauffeur and vehicle rather than a string of
+            separate rideshares, with wait time between meetings built into the hourly rate instead of billed as a surprise. The same account covers{" "}
+            <Link to="/new-orleans-corporate-shuttle-service" className="text-amber-400 hover:text-amber-300">recurring employee shuttles</Link>,
+            a visiting board member's{" "}
+            <Link to="/msy-airport-black-car-service" className="text-amber-400 hover:text-amber-300">black car airport transfer</Link>, and
+            game-day entertaining at a{" "}
+            <Link to="/services/saints-game-day" className="text-amber-400 hover:text-amber-300">Saints or Pelicans game</Link>, all on the same
+            consolidated monthly invoice.
+          </p>
+          <p className="text-gray-300 leading-relaxed mt-4">
+            Account setup takes a single phone call: tell us your typical travel patterns — recurring airport pickups, a standing monthly
+            roadshow, or occasional VIP client visits — and we configure traveler profiles and an approval workflow around how your office
+            actually operates, rather than a generic template. There's no minimum spend and no setup fee either way.
+          </p>
         </div>
       </section>
 
@@ -285,6 +304,8 @@ const CorporatePage = () => {
             {[
               { to: "/services/airport-transportation", title: "Airport Transportation", desc: "MSY Airport transfers" },
               { to: "/services/hourly-charter", title: "Hourly Charter", desc: "Flexible by-the-hour service" },
+              { to: "/new-orleans-corporate-roadshow-transportation", title: "Corporate Roadshow", desc: "Multi-stop days, one chauffeur" },
+              { to: "/baton-rouge-corporate-car-service", title: "Baton Rouge Corporate", desc: "Capital-corridor business travel" },
               { to: "/fleet", title: "Our Fleet", desc: "View our luxury vehicles" },
               { to: "/contact", title: "Get a Quote", desc: "Contact us for pricing" },
             ].map((item) => (
@@ -317,6 +338,8 @@ const CorporatePage = () => {
               { to: "/new-orleans-corporate-shuttle-service", label: "Corporate Shuttle Service" },
               { to: "/louisiana-oil-gas-energy-corporate-transportation", label: "Oil & Gas Corporate Transportation" },
               { to: "/geismar-la-limo-service", label: "Geismar Industrial Corridor" },
+              { to: "/new-orleans-corporate-roadshow-transportation", label: "Corporate Roadshow Transportation" },
+              { to: "/new-orleans-film-production-transportation", label: "Film & TV Production Transportation" },
             ].map((l) => (
               <Link key={l.to} to={l.to} className="px-4 py-2 bg-amber-500/10 border border-amber-500/30 rounded-lg text-sm text-amber-400 font-medium hover:bg-amber-500/20 transition-colors">
                 {l.label}

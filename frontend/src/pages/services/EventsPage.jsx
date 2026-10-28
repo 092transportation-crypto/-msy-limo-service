@@ -14,6 +14,9 @@ const EVENTS_FAQS = ensureFiveFaqs([
   { q: "Can you take us to concerts and games at the Superdome or Smoothie King Center?", a: "Absolutely. We drop you at the entrance and schedule a post-event pickup so you skip parking entirely — including Saints game days and major concerts." },
   { q: "How late do you operate for events?", a: "24/7. Late-night pickups after galas, festivals, and nights out are a core service — your ride home is scheduled before you even go out." },
   { q: "Is there surge pricing during festivals like Mardi Gras?", a: "Never. Event transportation is flat-rate, confirmed at booking. We do recommend reserving early for Mardi Gras, Jazz Fest, and Essence Fest weekends." },
+  { q: "Can you take our group to a bachelor or bachelorette party night out?", a: "Yes — a stretch limousine or party-ready SUV keeps the whole group together for dinner, Bourbon Street or Frenchmen Street, and the ride home, with the vehicle reserved before the night starts." },
+  { q: "Do you offer transportation for quinceañeras, birthdays and graduations?", a: "Yes, all booked the same way as a prom or gala: a flat rate confirmed at booking, with decorated-vehicle and photo-stop options available on request." },
+  { q: "Can you coordinate pickup for a large group across several hotels before an event?", a: "Yes. Tell us each pickup address and we'll sequence a Sprinter van route, or dispatch multiple vehicles, so everyone arrives together." },
 ], { slug: "events" });
 const eventsFaqSchema = buildFaqSchema(EVENTS_FAQS);
 
@@ -53,8 +56,8 @@ const EventsPage = () => {
   return (
     <div className="min-h-screen bg-black">
       <SEO
-        title="New Orleans Special Event Limo | Proms, Concerts & Galas"
-        description="Special event limo service for proms, concerts, galas and nights out in New Orleans. Flat rates, late-night pickups. Call (877) 609-1919 to reserve."
+        title="New Orleans Event Limo | Proms, Concerts, Galas & Bachelorette"
+        description="Flat-rate event limo service in New Orleans: proms, concerts, galas, bachelor/bachelorette nights & 24/7 late-night pickups. (877) 609-1919 to book."
         path="/services/special-events"
         schema={[LOCAL_BUSINESS_SCHEMA, eventsFaqSchema]}
       />
@@ -256,6 +259,29 @@ const EventsPage = () => {
             event-specific guides — from <Link to="/mardi-gras-parade-transportation" className="text-amber-400 hover:text-amber-300">Mardi Gras</Link> to the{" "}
             <Link to="/new-orleans-convention-center-transportation" className="text-amber-400 hover:text-amber-300">Convention Center</Link> — cover the venue details that matter most on the night.
           </p>
+          <p className="text-gray-300 leading-relaxed mt-4">
+            Celebrations come in more shapes than a prom or a game day. We run{" "}
+            <Link to="/new-orleans-bachelor-party-transportation" className="text-amber-400 hover:text-amber-300">bachelor</Link> and{" "}
+            <Link to="/new-orleans-bachelorette-party-transportation" className="text-amber-400 hover:text-amber-300">bachelorette</Link> nights
+            with a stretch limousine or party-ready SUV reserved before the group even leaves the hotel,{" "}
+            <Link to="/new-orleans-birthday-party-limo-service" className="text-amber-400 hover:text-amber-300">milestone birthday</Link> parties,
+            and <Link to="/new-orleans-quinceanera-limo-service" className="text-amber-400 hover:text-amber-300">quinceañera</Link> celebrations
+            with the same flat-rate, no-surge standard. For a casino night at{" "}
+            <Link to="/caesars-new-orleans-casino-transportation" className="text-amber-400 hover:text-amber-300">Caesars New Orleans</Link> or
+            a show at the{" "}
+            <Link to="/house-of-blues-new-orleans-transportation" className="text-amber-400 hover:text-amber-300">House of Blues</Link>, the
+            same reserved vehicle waits outside and drives you home when the night actually ends, rather than when a rideshare app finally finds a driver.
+          </p>
+          <p className="text-gray-300 leading-relaxed mt-4">
+            Group events are where booking ahead matters most. A stretch limousine or Sprinter van for a prom, bachelorette weekend, or
+            milestone birthday is one of the first things to sell out on a popular Saturday, especially during spring prom season, wedding
+            season or a major festival weekend. Reserving two to three weeks ahead secures the vehicle class you actually want instead of
+            whatever is still available the week of the event — call early and we'll hold your date while you finalize the guest count.
+          </p>
+          <p className="text-gray-300 leading-relaxed mt-4">
+            Every event booking is confirmed with a flat rate up front, covering the chauffeur, the vehicle and standard wait time, so
+            there's never a surprise add-on once the night is underway.
+          </p>
         </div>
       </section>
 
@@ -281,6 +307,8 @@ const EventsPage = () => {
             {[
               { to: "/services/wedding-limo", title: "Wedding Limo", desc: "Elegant wedding transportation" },
               { to: "/services/hourly-charter", title: "Hourly Charter", desc: "Flexible by-the-hour service" },
+              { to: "/services/saints-game-day", title: "Saints Game Day", desc: "Superdome game-day transfers" },
+              { to: "/new-orleans-bachelorette-party-transportation", title: "Bachelorette Parties", desc: "Group night-out transportation" },
               { to: "/fleet", title: "Our Fleet", desc: "View our luxury vehicles" },
               { to: "/contact", title: "Get a Quote", desc: "Contact us for pricing" },
             ].map((item) => (
@@ -313,6 +341,9 @@ const EventsPage = () => {
               { to: "/caesars-superdome-transportation", label: "Caesars Superdome" },
               { to: "/smoothie-king-center-transportation", label: "Smoothie King Center" },
               { to: "/house-of-blues-new-orleans-transportation", label: "House of Blues" },
+              { to: "/new-orleans-bachelor-party-transportation", label: "Bachelor Party Transportation" },
+              { to: "/new-orleans-birthday-party-limo-service", label: "Birthday Party Limo Service" },
+              { to: "/caesars-new-orleans-casino-transportation", label: "Caesars New Orleans Casino" },
             ].map((l) => (
               <Link key={l.to} to={l.to} className="px-4 py-2 bg-amber-500/10 border border-amber-500/30 rounded-lg text-sm text-amber-400 font-medium hover:bg-amber-500/20 transition-colors">
                 {l.label}

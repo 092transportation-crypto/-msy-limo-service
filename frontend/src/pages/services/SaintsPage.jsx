@@ -14,6 +14,8 @@ const SAINTS_FAQS = ensureFiveFaqs([
   { q: "Can you drop our group at a tailgate spot?", a: "Absolutely. We deliver groups to Champions Square or your preferred tailgate location hours before kickoff, with SUVs and Sprinter vans for larger crews." },
   { q: "How do post-game pickups work?", a: "Your chauffeur stages at a pre-agreed pickup point and monitors the game clock, so you're rolling shortly after the final whistle instead of sitting in garage traffic." },
   { q: "Do you offer season packages for Saints home games?", a: "Yes — season ticket holders can set up recurring game-day bookings at discounted rates. Call (877) 609-1919 to arrange your season schedule." },
+  { q: "Can you handle playoff or prime-time games with later kickoffs?", a: "Yes. Playoff and Sunday/Monday night games carry different traffic and parking patterns than a 1 p.m. kickoff, and our chauffeurs plan the pickup and staging point around the specific game time." },
+  { q: "Do you also run Pelicans game day transportation at the Smoothie King Center?", a: "Yes, with the same door-to-door and post-game pickup model — see our Pelicans game day guide for arena-specific details." },
 ], { slug: "saints" });
 const saintsFaqSchema = buildFaqSchema(SAINTS_FAQS);
 
@@ -89,8 +91,8 @@ const SaintsPage = () => {
   return (
     <div className="min-h-screen bg-black">
       <SEO
-        title="Saints Game Day Limo | Caesars Superdome Car Service"
-        description="Saints game day limo to the Caesars Superdome — tailgate drop-offs, post-game pickups & group vans up to 13. Call (877) 609-1919 to book your ride."
+        title="Saints Game Day Limo | Skip the Superdome Parking Garage"
+        description="Door-to-door Saints game day limo to the Caesars Superdome: tailgate drop-offs, post-game pickups & group vans up to 13. (877) 609-1919 to book."
         path="/services/saints-game-day"
         schema={[LOCAL_BUSINESS_SCHEMA, saintsFaqSchema]}
       />
@@ -360,6 +362,44 @@ const SaintsPage = () => {
         </div>
       </section>
 
+      {/* SEO: game day logistics */}
+      <section className="py-16 bg-gray-900">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6">
+          <h2 className="text-3xl font-medium mb-6 text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-yellow-300" style={{ fontFamily: "'Playfair Display', serif" }}>
+            Skipping the Superdome Parking Garage
+          </h2>
+          <p className="text-gray-300 leading-relaxed mb-4">
+            A home Saints game floods the CBD and Superdome garages with tens of thousands of cars converging on the
+            same few exits at once, and the post-game crawl out of the parking structures regularly runs 30 to 60
+            minutes before a single car moves. A reserved chauffeur removes both ends of that problem — dropped off
+            near the gate before kickoff, and picked up at a pre-agreed point the moment the final whistle blows,
+            rather than waiting in a structure for the garage to clear.
+          </p>
+          <p className="text-gray-300 leading-relaxed mb-4">
+            Tailgate groups book us for the same reason. We'll drop your group at Champions Square or a preferred
+            tailgate spot hours ahead of kickoff with an SUV or Sprinter van, then stage nearby for a pickup that
+            doesn't require anyone to walk to a distant parking lot after the game.
+          </p>
+          <p className="text-gray-300 leading-relaxed">
+            Game-day traffic and parking patterns shift for{" "}
+            <Link to="/new-orleans-saints-superdome-game-day-traffic-parking-guide" className="text-amber-400 hover:text-amber-300">playoff and prime-time games</Link>, and
+            the same door-to-door approach works for{" "}
+            <Link to="/new-orleans-pelicans-smoothie-king-center-game-day-transportation-guide" className="text-amber-400 hover:text-amber-300">Pelicans games</Link> at
+            the Smoothie King Center next door. Corporate groups entertaining clients on game day can book the same
+            service through our{" "}
+            <Link to="/services/corporate-transportation" className="text-amber-400 hover:text-amber-300">corporate transportation</Link> account
+            for consolidated billing.
+          </p>
+          <p className="text-gray-300 leading-relaxed mt-4">
+            Season ticket holders who book a chauffeur for every home game set up a standing arrangement once and skip re-booking for each
+            Sunday — we confirm your preferred tailgate spot and pickup window for the season and simply dispatch the car on schedule. For
+            a single big game, especially a rivalry matchup or a late-season game with playoff stakes, we recommend booking a few days
+            ahead once the kickoff time is announced, since both tailgate drop-offs and post-game pickups fill up fastest for the games
+            everyone in the city is talking about.
+          </p>
+        </div>
+      </section>
+
       {/* Who Dat CTA */}
       <motion.section 
         initial={{ opacity: 0 }}
@@ -429,6 +469,8 @@ const SaintsPage = () => {
               { to: "/services/hourly-charter", label: "Hourly Charter" },
               { to: "/new-orleans-saints-superdome-game-day-traffic-parking-guide", label: "Saints Game Day Traffic & Parking Guide" },
               { to: "/new-orleans-pelicans-smoothie-king-center-game-day-transportation-guide", label: "Pelicans Game Day Guide" },
+              { to: "/blog/saints-playoff-prime-time-game-day-logistics", label: "Saints Playoff & Prime-Time Game Logistics" },
+              { to: "/services/corporate-transportation", label: "Corporate Transportation" },
             ].map((l) => (
               <Link key={l.to} to={l.to} className="px-4 py-2 bg-amber-500/10 border border-amber-500/30 rounded-lg text-sm text-amber-400 font-medium hover:bg-amber-500/20 transition-colors">
                 {l.label}

@@ -67,9 +67,9 @@ export const routes = [
     slug: "msy-to-french-quarter",
     city: "French Quarter",
     h1: "MSY Airport to French Quarter Car Service",
-    metaTitle: "MSY to French Quarter Car Service | Door-to-Door 24/7",
+    metaTitle: "MSY to French Quarter Car Service | Flat Rate, No Surge",
     metaDescription:
-      "Flat-rate luxury car service from MSY to the French Quarter, with hotel drop-offs handled right on the Quarter's narrow streets. Call (877) 609-1919 to book.",
+      "MSY to French Quarter car service with hotel-door drop-offs on the Quarter's narrow streets — flat rate confirmed before you fly. (877) 609-1919.",
     distance: "≈ 15 miles",
     time: "25–35 minutes",
     routeVia: "via I-10 East & Orleans Avenue",
@@ -121,14 +121,24 @@ export const routes = [
         q: "Do you handle bachelor and bachelorette groups?",
         a: "All the time. SUVs seat up to 6 and Sprinter vans up to 13, so the whole group rides together from baggage claim to Bourbon Street. Ask about round-trip and multi-night packages when you book.",
       },
+      {
+        q: "Is a reserved car cheaper than Uber from MSY to the French Quarter?",
+        a: "Often comparable, and without the walk to MSY's separate rideshare pickup zone or the risk of surge pricing — see our Uber pickup location guide and cost comparison for the full numbers.",
+      },
+      {
+        q: "Can you combine this with a stop in Tremé or the Marigny?",
+        a: "Yes. Tell us your full itinerary and we'll quote a combined route rather than two separate bookings.",
+      },
     ],
     extraLinks: [
       { to: "/french-quarter-limo-service", label: "French Quarter Limo Service" },
       { to: "/msy-to-garden-district", label: "MSY to Garden District" },
       { to: "/msy-to-warehouse-district", label: "MSY to Warehouse District" },
       { to: "/msy-to-bywater-marigny", label: "MSY to Marigny & Bywater" },
+      { to: "/msy-to-treme", label: "MSY to Tremé" },
       { to: "/blog/how-far-is-msy-airport-from-french-quarter-and-downtown", label: "Distances From MSY, Explained" },
       { to: "/blog/best-neighborhoods-to-stay-in-new-orleans-for-first-time-visitors", label: "Best Neighborhoods to Stay In" },
+      { to: "/blog/msy-airport-uber-lyft-pickup-location-guide", label: "MSY Uber Pickup Location Guide" },
     ],
   },
   {

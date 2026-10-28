@@ -18,6 +18,8 @@ const WEDDING_FAQS = ensureFiveFaqs([
   { q: "Can a stretch limousine reach every wedding venue?", a: "Not every one. Some Garden District, Uptown and French Quarter streets are too narrow for a full stretch limo, and we'll recommend a Cadillac Escalade instead when your specific venue calls for it." },
   { q: "Do you provide transportation for out-of-town wedding guests flying into MSY?", a: "Yes, as a flat-rate group transfer in a Sprinter van, delivered directly to your hotel block or the venue, with every flight tracked." },
   { q: "What's the cancellation policy for a wedding booking?", a: "Sprinter van and limousine wedding bookings cancel free of charge up to 12 hours before the first pickup; sedan and SUV add-ons follow the standard 3-hour window." },
+  { q: "Do you offer vow renewal and anniversary transportation too?", a: "Yes — see our vow renewal limo service page for how we plan a half-day or full-day itinerary around a ceremony, photos and dinner for couples renewing their vows." },
+  { q: "Can you shuttle wedding guests flying in from out of town?", a: "Yes. A Sprinter van transfer from MSY straight to your hotel block, flight-tracked and flat-rate, is one of our most common wedding bookings." },
 ], { slug: "wedding" });
 const weddingFaqSchema = buildFaqSchema(WEDDING_FAQS);
 
@@ -57,8 +59,8 @@ const WeddingPage = () => {
   return (
     <div className="min-h-screen bg-black">
       <SEO
-        title="New Orleans Wedding Limo Service | Flat Rate, No Surprises"
-        description="One flat quote for your whole wedding day — stretch limo, Sprinter guest shuttle & champagne toast, second-line coordination included. (877) 609-1919."
+        title="New Orleans Wedding Limo Service | One Flat Quote, Zero Surprises"
+        description="Stretch limo, Sprinter guest shuttle & champagne toast for your New Orleans wedding day — one flat quote, second-line timing included. (877) 609-1919."
         path="/services/wedding-limo"
         schema={[LOCAL_BUSINESS_SCHEMA, weddingFaqSchema]}
       />
@@ -196,6 +198,10 @@ const WeddingPage = () => {
             <p>
               Second-line parades, a signature New Orleans wedding tradition, add their own timing considerations — a brass band procession through the French Quarter or Garden District needs a staging point for the vehicles, not just a pickup time. We plan around the parade route and build in the buffer a receiving line or a long second line naturally adds to the schedule, so your transportation never becomes the thing holding up the celebration.
             </p>
+            <p>
+              Out-of-town guests change the math too. Rather than letting each guest find their own way from MSY, most couples book a Sprinter van transfer straight from the terminal to the hotel block, timed to the heaviest arrival window the day before the ceremony, and the same coordination runs in reverse the morning after for a farewell brunch and departure. For couples returning to New Orleans years later to mark the occasion again, our{" "}
+              <Link to="/new-orleans-vow-renewal-limo-service" className="text-amber-400 hover:text-amber-300">vow renewal limo service</Link> runs on the same flat-rate, full-day model as the original wedding day.
+            </p>
           </div>
         </div>
       </section>
@@ -277,6 +283,7 @@ const WeddingPage = () => {
           >
             {[
               { to: "/services/special-events", title: "Special Events", desc: "Proms, galas, celebrations" },
+              { to: "/new-orleans-vow-renewal-limo-service", title: "Vow Renewal", desc: "Anniversary & vow renewal days" },
               { to: "/fleet", title: "Our Fleet", desc: "View our luxury vehicles" },
               { to: "/services/hourly-charter", title: "Hourly Charter", desc: "Flexible by-the-hour service" },
               { to: "/contact", title: "Get a Quote", desc: "Contact us for pricing" },
@@ -311,6 +318,8 @@ const WeddingPage = () => {
               { to: "/new-orleans-stretch-limo-rental", label: "Stretch Limo Rental" },
               { to: "/blog/what-is-a-second-line-parade-wedding-tradition-explained", label: "What Is a Second Line Parade?" },
               { to: "/blog/new-orleans-wedding-limo-cost-guide", label: "Wedding Limo Cost Guide" },
+              { to: "/top-10-wedding-venues-near-new-orleans", label: "Top 10 Wedding Venues Near New Orleans" },
+              { to: "/new-orleans-wedding-weekend-farewell-brunch-departure-guide", label: "Wedding Weekend Farewell Brunch Guide" },
             ].map((l) => (
               <Link key={l.to} to={l.to} className="px-4 py-2 bg-amber-500/10 border border-amber-500/30 rounded-lg text-sm text-amber-400 font-medium hover:bg-amber-500/20 transition-colors">
                 {l.label}

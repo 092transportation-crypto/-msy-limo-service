@@ -14,6 +14,8 @@ const CRUISE_FAQS = ensureFiveFaqs([
   { q: "Do you drop off directly at the cruise terminal?", a: "Yes — direct curbside drop-off at the Julia Street and Erato Street terminals with luggage assistance, so you walk straight to check-in." },
   { q: "Can you pick us up after the cruise returns?", a: "Absolutely. We schedule post-cruise pickups around typical debarkation times and monitor ship arrival status, taking you to MSY, your hotel, or home." },
   { q: "Do you handle large cruise groups?", a: "Yes — Sprinter vans seat up to 13 passengers with luggage, and we coordinate multiple vehicles for family reunions and group cruises. Call (877) 609-1919 to arrange it." },
+  { q: "Is it cheaper to park at the cruise terminal or book a car service?", a: "For most travelers, a car service costs about the same as several days of terminal parking once you add in luggage handling and the hassle of finding your car after the cruise — see our cruise parking vs. car service comparison for the full breakdown." },
+  { q: "Can you pick us up from a hotel the night before our cruise?", a: "Yes. Many cruisers fly in a day early and stay at a French Quarter or CBD hotel — we handle both the airport-to-hotel and hotel-to-terminal legs as one coordinated booking." },
 ], { slug: "cruise" });
 const cruiseFaqSchema = buildFaqSchema(CRUISE_FAQS);
 
@@ -86,8 +88,8 @@ const CruisePage = () => {
   return (
     <div className="min-h-screen bg-black">
       <SEO
-        title="New Orleans Cruise Port Car Service | MSY to the Terminal"
-        description="Cruise terminal transfers from MSY airport, hotels & homes to the Port of New Orleans. Luggage help, flat rates, group vans. Call (877) 609-1919 to book."
+        title="New Orleans Cruise Port Car Service | Direct to Julia Street"
+        description="Flat-rate cruise terminal transfers from MSY, hotels and homes to the Port of New Orleans — luggage help, group vans. Call (877) 609-1919 to book."
         path="/services/cruise-transportation"
         schema={[LOCAL_BUSINESS_SCHEMA, cruiseFaqSchema]}
       />
@@ -397,6 +399,41 @@ const CruisePage = () => {
         </div>
       </section>
 
+      {/* SEO: planning the cruise-day transfer */}
+      <section className="py-16 bg-black">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6">
+          <h2 className="text-3xl font-medium mb-6 text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-yellow-300" style={{ fontFamily: "'Playfair Display', serif" }}>
+            Planning Your Cruise Day Transfer
+          </h2>
+          <p className="text-gray-300 leading-relaxed mb-4">
+            Embarkation day runs on a tighter window than most travelers expect — boarding typically opens early
+            afternoon and the terminal gets busiest in the hour or two right before all-aboard. We back-time your
+            pickup from your cruise line's suggested arrival window rather than a generic estimate, so you're parked
+            at the curb with time to spare instead of racing the gangway closing.
+          </p>
+          <p className="text-gray-300 leading-relaxed mb-4">
+            Flying in the same day you sail adds real risk if a flight runs late, which is why many cruisers fly into{" "}
+            <Link to="/services/airport-transportation" className="text-amber-400 hover:text-amber-300">MSY</Link> a day ahead and
+            spend the night at a <Link to="/french-quarter-limo-service" className="text-amber-400 hover:text-amber-300">French Quarter</Link> or{" "}
+            <Link to="/warehouse-district-cbd-limo-service" className="text-amber-400 hover:text-amber-300">Warehouse District</Link> hotel
+            before a relaxed morning transfer to Julia Street the next day. We book the airport-to-hotel and hotel-to-terminal legs together
+            as one reservation, so there's no second booking to remember.
+          </p>
+          <p className="text-gray-300 leading-relaxed">
+            On the return, we track your ship's actual docking and debarkation status rather than the printed itinerary, since disembarkation
+            can run later than scheduled. Whether you're headed back to <Link to="/services/airport-transportation" className="text-amber-400 hover:text-amber-300">MSY</Link>,
+            a hotel for one more night, or straight home, the pickup adjusts to when you actually clear the terminal.
+          </p>
+          <p className="text-gray-300 leading-relaxed mt-4">
+            Group cruisers traveling with extended family or a reunion-sized party often ask whether a car service is really worth it over
+            self-parking at the terminal for the length of the cruise. Once you add up a week or more of daily parking fees, the hassle of
+            finding your vehicle again after disembarkation, and the risk of a flat tire or dead battery after sitting for a week, a flat-rate
+            round-trip transfer is frequently the simpler and more cost-effective choice — see our cruise terminal parking comparison for the
+            full numbers on your specific cruise length.
+          </p>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <motion.section 
         initial={{ opacity: 0 }}
@@ -465,6 +502,8 @@ const CruisePage = () => {
               { to: "/french-quarter-limo-service", label: "French Quarter" },
               { to: "/services/airport-transportation", label: "MSY Airport Transportation" },
               { to: "/cruise-terminal-parking-vs-car-service-new-orleans-guide", label: "Cruise Terminal Parking vs. Car Service Guide" },
+              { to: "/blog/new-orleans-cruise-port-parking-vs-car-service-cost-comparison", label: "Cruise Port Parking Cost Comparison" },
+              { to: "/blog/msy-to-cruise-port-guide", label: "MSY to Cruise Port Guide" },
             ].map((l) => (
               <Link key={l.to} to={l.to} className="px-4 py-2 bg-amber-500/10 border border-amber-500/30 rounded-lg text-sm text-amber-400 font-medium hover:bg-amber-500/20 transition-colors">
                 {l.label}
