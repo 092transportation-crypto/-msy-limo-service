@@ -59,7 +59,7 @@ export const routes = [
       },
       {
         q: "Can you handle groups arriving for a convention?",
-        a: "Yes. Our Cadillac Escalade SUVs seat up to 6 passengers and Mercedes Sprinter vans up to 13, and we can coordinate multiple vehicles for corporate groups arriving on different flights.",
+        a: "Yes. Our Lincoln Navigator SUVs seat up to 6 passengers and Mercedes Sprinter vans up to 13, and we can coordinate multiple vehicles for corporate groups arriving on different flights.",
       },
     ],
   },
@@ -237,7 +237,7 @@ export const routes = [
     whyTitle: "The Case for a Chauffeur on the Baton Rouge Run",
     whyParagraphs: [
       "Rideshare from MSY to Baton Rouge is a coin flip — many drivers reject 75-mile trips, and those who accept charge unpredictable long-distance premiums. A rental car adds pickup lines, drop fees, and Baton Rouge parking. Our flat rate is confirmed at booking, and the chauffeur, vehicle, and pickup time are locked in before your flight even boards.",
-      "Because we are a Licensed & Insured Carrier, the trip is covered by commercial insurance across every parish line, and our chauffeurs are trained for exactly this kind of intercity work. Ride in an S-Class or Escalade, take your calls, and arrive in the capital ready to work — or ready for kickoff.",
+      "Because we are a Licensed & Insured Carrier, the trip is covered by commercial insurance across every parish line, and our chauffeurs are trained for exactly this kind of intercity work. Ride in an S-Class or Navigator, take your calls, and arrive in the capital ready to work — or ready for kickoff.",
       "The 80-mile drive between MSY and Baton Rouge is also where the gap between rideshare and a reserved chauffeur is most obvious: an app-based driver can decline or cancel a trip this long with little notice, while our flat rate is confirmed and the vehicle committed the moment you book, in both directions if you reserve a round trip.",
     ],
     faqs: [
@@ -643,7 +643,7 @@ export const routes = [
     routeVia: "via I-10 East",
     intro: [
       "Flying into New Orleans and heading for the Mississippi Gulf Coast? Our MSY-to-Biloxi car service puts you at the Beau Rivage, Hard Rock, or your Gulf-front condo in about an hour and a half — without a rental counter, a shuttle timetable, or a rideshare driver deciding an 85-mile trip isn't worth the return leg.",
-      "Louis Armstrong International is frequently the smartest airport for Coast travelers: more nonstop routes and better fares than the regional alternatives, with a straight shot east on I-10 across the Louisiana marsh and into Harrison County. Your chauffeur tracks the flight, meets you at baggage claim or the curb, and handles luggage while you settle into a Mercedes sedan or Escalade for the ride.",
+      "Louis Armstrong International is frequently the smartest airport for Coast travelers: more nonstop routes and better fares than the regional alternatives, with a straight shot east on I-10 across the Louisiana marsh and into Harrison County. Your chauffeur tracks the flight, meets you at baggage claim or the curb, and handles luggage while you settle into a Mercedes sedan or Navigator for the ride.",
       "Casino weekends are the heart of this route, but far from all of it. We carry contractors and military personnel to Keesler Air Force Base, wedding parties to beachfront venues in Gulfport and Biloxi, and cruise passengers connecting between MSY and Coast hotels. Whatever brings you across the state line, the rate is flat, confirmed at booking, and immune to surge pricing.",
     ],
     highlights: [
@@ -739,7 +739,7 @@ export const routes = [
       },
       {
         q: "Can you fit a family's beach luggage?",
-        a: "Yes. Escalades handle a family of five with full luggage; Sprinter vans carry larger groups plus coolers, strollers, and golf clubs. Tell us your headcount and bags and we'll size the vehicle.",
+        a: "Yes. Navigators handle a family of five with full luggage; Sprinter vans carry larger groups plus coolers, strollers, and golf clubs. Tell us your headcount and bags and we'll size the vehicle.",
       },
       {
         q: "Do you provide car seats for the drive?",
@@ -946,7 +946,7 @@ export const routes = [
     routeVia: "via I-10 W, I-55 N & US-61 North",
     intro: [
       "Natchez rewards travelers who make the trip — the oldest city on the Mississippi River, its bluffs lined with antebellum mansions, its calendar anchored by Spring and Fall Pilgrimage tours that draw visitors from around the world. What Natchez doesn't have is a major airport. Our MSY-to-Natchez car service solves that: land at Louis Armstrong International, meet your chauffeur, and spend the three-hour drive north watching Louisiana give way to the Mississippi hill country.",
-      "The route follows I-55 through Manchac and McComb before turning onto US-61 — the storied Blues Highway — into Adams County. It's a drive with real history under it, and a much better experience from the back seat of an Escalade than from a rental car after a morning of flights. Couples celebrating anniversaries, heritage travelers tracing family lines, and Pilgrimage groups make up most of this route's bookings.",
+      "The route follows I-55 through Manchac and McComb before turning onto US-61 — the storied Blues Highway — into Adams County. It's a drive with real history under it, and a much better experience from the back seat of a Navigator than from a rental car after a morning of flights. Couples celebrating anniversaries, heritage travelers tracing family lines, and Pilgrimage groups make up most of this route's bookings.",
       "We also carry business travelers to Natchez's hospitality and industrial employers, and wedding parties to the city's mansion venues — Dunleith, Monmouth, and the bluff-top historic district. Every trip is flat-rate, flight-tracked, and confirmed in writing before you fly.",
     ],
     highlights: [
@@ -1553,7 +1553,7 @@ export const routes = [
     intro: [
       "Natchitoches is the oldest permanent settlement in the Louisiana Purchase — a brick-paved riverfront of Creole townhouses, a 300-year-old trading post turned film-famous small town, and host of the Christmas Festival of Lights that draws hundreds of thousands each winter. It is also 250 miles from Louis Armstrong International, a distance that turns most itineraries into a rental-car compromise. Our long-distance chauffeur service is the alternative: land at MSY, meet your chauffeur, and spend the next four hours resting while I-49 does the work.",
       "The route serves every kind of Natchitoches traveler. Festival visitors arrive for the lights, the meat pies, and the riverbank fireworks. Northwestern State University families fly in for move-in weekends, Demons athletics, and graduation. Film-history fans make the Steel Magnolias pilgrimage. And business travelers bound for the I-49 corridor's industries skip the puddle-jumper connections entirely — a direct flight into MSY plus a chauffeured car is frequently faster door to door than connecting through regional airports.",
-      "Long-distance is where a professional service shows its worth. The flat rate is confirmed before you fly, the vehicle is a late-model Mercedes sedan, Escalade, or Sprinter, and your chauffeur handles fuel, traffic, and the Alexandria interchange while you work, sleep, or watch Cane River country arrive. Every trip includes flight tracking and complimentary wait time at MSY.",
+      "Long-distance is where a professional service shows its worth. The flat rate is confirmed before you fly, the vehicle is a late-model Mercedes sedan, Navigator, or Sprinter, and your chauffeur handles fuel, traffic, and the Alexandria interchange while you work, sleep, or watch Cane River country arrive. Every trip includes flight tracking and complimentary wait time at MSY.",
     ],
     highlights: [
       "Direct 250-mile transfers — often faster than connecting flights",
@@ -1673,7 +1673,7 @@ export const routes = [
     intro: [
       "Monroe and West Monroe sit on opposite banks of the Ouachita River in the far northeast corner of Louisiana — home to the University of Louisiana Monroe, a regional healthcare and business hub, and the heart of Sportsman's Paradise duck country. At 270 miles from Louis Armstrong International, it is the longest Louisiana route we run, and the one where a professional chauffeur changes the trip most completely.",
       "Travelers choose this route for a simple reason: flight schedules. MSY's board of nonstops beats regional connections for many itineraries, and a four-hour chauffeured ride up US-165 through the pine country often gets you to Monroe at the same hour a two-stop regional itinerary would — without the missed-connection lottery. ULM families ride it for move-in and graduation, executives ride it for the corridor's corporate offices, and duck hunters ride it every winter with gear a regional jet would never take.",
-      "The vehicle makes the distance disappear. Stretch out in a Mercedes sedan or Escalade, work on the Wi-Fi, sleep off the flight, and let your chauffeur manage the road, the fuel, and the stops. The rate is flat and confirmed at booking, the flight is tracked into MSY, and the reservation is committed weeks ahead if you want it — the exact opposite of hoping an app finds a driver for the longest ride in Louisiana.",
+      "The vehicle makes the distance disappear. Stretch out in a Mercedes sedan or Navigator, work on the Wi-Fi, sleep off the flight, and let your chauffeur manage the road, the fuel, and the stops. The rate is flat and confirmed at booking, the flight is tracked into MSY, and the reservation is committed weeks ahead if you want it — the exact opposite of hoping an app finds a driver for the longest ride in Louisiana.",
     ],
     highlights: [
       "The full north-Louisiana run handled door to door",
@@ -1958,7 +1958,7 @@ export const routes = [
       },
       {
         q: "Can you handle a group heading to the Barataria wetlands?",
-        a: "Yes. Our Cadillac Escalade SUVs and Mercedes Sprinter vans comfortably carry groups and gear for a day in the wetlands.",
+        a: "Yes. Our Lincoln Navigator SUVs and Mercedes Sprinter vans comfortably carry groups and gear for a day in the wetlands.",
       },
     ],
   },

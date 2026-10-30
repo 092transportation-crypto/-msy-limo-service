@@ -21,7 +21,7 @@
 const VEHICLES = [
   { name: "Mercedes-Benz E-Class", cls: "Business sedan", seats: 3, best: "solo executives and couples" },
   { name: "BMW 7 Series", cls: "First-class sedan", seats: 3, best: "VIP and executive travel" },
-  { name: "Cadillac Escalade", cls: "Premium SUV", seats: 6, best: "families and small groups with luggage" },
+  { name: "Lincoln Navigator", cls: "Premium SUV", seats: 6, best: "families and small groups with luggage" },
   { name: "Chevrolet Suburban", cls: "Luxury SUV", seats: 6, best: "airport runs with extra luggage" },
   { name: "Mercedes Sprinter van", cls: "Executive van", seats: 14, best: "wedding parties, corporate teams and groups" },
   { name: "Stretch limousine", cls: "Limousine", seats: 8, best: "proms, weddings and celebrations" },
@@ -388,7 +388,7 @@ export const MARYLAND_BATCH12 = [
     intro: [
       "A New Orleans bachelor party weekend usually means moving a group of eight to fourteen guys between a hotel, dinner, Bourbon Street, a casino and whatever bar someone insists is 'just one more stop' — all after most of the group has had a few drinks. MSY Limo Service runs the whole night as one reserved vehicle with one professional chauffeur, so nobody is driving, nobody is splitting up into separate rideshares, and nobody gets left behind at 1 a.m.",
       "We book bachelor party nights as hourly, as-directed charter: you tell us the stops in roughly the order you want them, and the chauffeur adjusts in real time when plans change mid-evening, which they usually do.",
-      "A Mercedes Sprinter van or executive shuttle keeps a full group together for the whole night; a stretch limousine or Cadillac Escalade works well for a smaller crew that wants a louder entrance.",
+      "A Mercedes Sprinter van or executive shuttle keeps a full group together for the whole night; a stretch limousine or Lincoln Navigator works well for a smaller crew that wants a louder entrance.",
     ],
     highlights: [
       "One reserved vehicle keeps the whole group together all night",
@@ -424,7 +424,7 @@ export const MARYLAND_BATCH12 = [
     vehicles: [
       { name: "Mercedes Sprinter van", cls: "Executive van", seats: 14, best: "larger bachelor party groups" },
       { name: "Stretch limousine", cls: "Limousine", seats: 8, best: "a classic bachelor party entrance" },
-      { name: "Cadillac Escalade", cls: "Premium SUV", seats: 6, best: "smaller groups and narrow-street venues" },
+      { name: "Lincoln Navigator", cls: "Premium SUV", seats: 6, best: "smaller groups and narrow-street venues" },
       { name: "Chevrolet Suburban", cls: "Luxury SUV", seats: 6, best: "groups with golf clubs or gear" },
       { name: "BMW 7 Series", cls: "First-class sedan", seats: 3, best: "a quieter arrival before the night gets loud" },
       { name: "Mercedes-Benz E-Class", cls: "Business sedan", seats: 3, best: "a smaller pair or trio" },
@@ -497,7 +497,7 @@ export const MARYLAND_BATCH12 = [
       },
     ],
     vehicles: [
-      { name: "Cadillac Escalade", cls: "Premium SUV", seats: 6, best: "larger dogs and crates alongside luggage" },
+      { name: "Lincoln Navigator", cls: "Premium SUV", seats: 6, best: "larger dogs and crates alongside luggage" },
       { name: "Chevrolet Suburban", cls: "Luxury SUV", seats: 6, best: "multiple pets or a large crate" },
       { name: "Mercedes Sprinter van", cls: "Executive van", seats: 14, best: "pet relocations with extra belongings" },
       { name: "Mercedes-Benz E-Class", cls: "Business sedan", seats: 3, best: "a small pet in a carrier" },
@@ -577,7 +577,7 @@ export const MARYLAND_BATCH12 = [
       { q: "Can we include a River Road plantation in the same day?", a: "Yes, for a full-day booking. A plantation visit adds significant drive time, so we plan the itinerary around it rather than squeezing it into a half-day route." },
       { q: "What's the minimum booking length?", a: "Typically a three-hour minimum for hourly, as-directed sightseeing charter." },
       { q: "Can the route change while we're out?", a: "Yes. The chauffeur adjusts stop order and timing as you decide in the moment — nothing is locked to a fixed schedule." },
-      { q: "What vehicle is best for a family of four doing a half-day tour?", a: "A Mercedes-Benz E-Class sedan or Cadillac Escalade both work well; a larger family or multi-generational group often prefers the extra room of a Suburban or Sprinter van." },
+      { q: "What vehicle is best for a family of four doing a half-day tour?", a: "A Mercedes-Benz E-Class sedan or Lincoln Navigator both work well; a larger family or multi-generational group often prefers the extra room of a Suburban or Sprinter van." },
     ],
     related: [
       { label: "River Road Plantation Tour Transportation", to: "/river-road-plantation-tour-transportation" },
@@ -642,7 +642,7 @@ export const MARYLAND_BATCH12 = [
     vehicles: [
       { name: "BMW 7 Series", cls: "First-class sedan", seats: 3, best: "a discreet VIP arrival" },
       { name: "Mercedes-Benz E-Class", cls: "Business sedan", seats: 3, best: "a single owner or executive" },
-      { name: "Cadillac Escalade", cls: "Premium SUV", seats: 6, best: "owners traveling with a small party" },
+      { name: "Lincoln Navigator", cls: "Premium SUV", seats: 6, best: "owners traveling with a small party" },
       { name: "Chevrolet Suburban", cls: "Luxury SUV", seats: 6, best: "guests with luggage from a private flight" },
       { name: "Mercedes Sprinter van", cls: "Executive van", seats: 14, best: "flight crew or a larger traveling party" },
       { name: "Stretch limousine", cls: "Limousine", seats: 8, best: "not typically used for FBO transfers" },
@@ -695,7 +695,7 @@ export const MARYLAND_BATCH12 = [
       {
         h2: "Fitting a foursome and clubs in one vehicle",
         paragraphs: [
-          "A Cadillac Escalade or Chevrolet Suburban comfortably fits four golfers and their clubs in one trip; larger groups or a full corporate outing typically move into a Mercedes Sprinter van so nobody needs a second car.",
+          "A Lincoln Navigator or Chevrolet Suburban comfortably fits four golfers and their clubs in one trip; larger groups or a full corporate outing typically move into a Mercedes Sprinter van so nobody needs a second car.",
           "Let dispatch know the group size and whether everyone is bringing full bags so the right vehicle is assigned from the start rather than discovered to be too small at pickup.",
         ],
       },
@@ -715,7 +715,7 @@ export const MARYLAND_BATCH12 = [
       },
     ],
     vehicles: [
-      { name: "Cadillac Escalade", cls: "Premium SUV", seats: 6, best: "a foursome with clubs" },
+      { name: "Lincoln Navigator", cls: "Premium SUV", seats: 6, best: "a foursome with clubs" },
       { name: "Chevrolet Suburban", cls: "Luxury SUV", seats: 6, best: "a foursome with extra gear" },
       { name: "Mercedes Sprinter van", cls: "Executive van", seats: 14, best: "a full corporate golf outing" },
       { name: "Mercedes-Benz E-Class", cls: "Business sedan", seats: 3, best: "a pair of golfers without bags" },

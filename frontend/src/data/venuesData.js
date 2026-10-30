@@ -15,13 +15,13 @@ export const venues = [
     intro: [
       "New Orleans is one of the great live-music cities of the world, and getting to the show should feel as good as the show itself. Our private concert and event transportation covers every major venue in the city — the Smoothie King Center, Caesars Superdome, Champions Square, House of Blues, the Saenger Theatre, and Tipitina's — with a professional chauffeur, a flat rate confirmed before you ride, and a vehicle waiting when the encore ends.",
       "Anyone who has driven downtown on an event night knows the routine: garages fill by early evening, surge pricing spikes the moment doors open, and the post-show rideshare scramble can leave you standing on Poydras Street for an hour. A reserved chauffeur removes all of it. We drop you as close to the entrance as the venue and NOPD allow, then stage nearby so your vehicle is rolling toward the pickup point as you walk out.",
-      "We carry couples to Broadway touring shows at the Saenger, groups of friends to arena tours at the Smoothie King Center, tailgaters to Champions Square, and out-of-town fans straight from an MSY arrival to their hotel and on to the venue. Choose a luxury sedan for two, a Cadillac Escalade for up to six, or a Mercedes Sprinter van that keeps a group of up to thirteen together from the first pickup to the last drop-off.",
+      "We carry couples to Broadway touring shows at the Saenger, groups of friends to arena tours at the Smoothie King Center, tailgaters to Champions Square, and out-of-town fans straight from an MSY arrival to their hotel and on to the venue. Choose a luxury sedan for two, a Lincoln Navigator for up to six, or a Mercedes Sprinter van that keeps a group of up to thirteen together from the first pickup to the last drop-off.",
     ],
     highlights: [
       "Flat-rate pricing — no surge on event nights",
       "Chauffeurs who know every venue's drop-off and staging zones",
       "Post-show pickup coordinated by text with your chauffeur",
-      "Group-friendly Escalades and Sprinter vans up to 13 passengers",
+      "Group-friendly Navigators and Sprinter vans up to 13 passengers",
       "Hourly charters for pre-show dinner and after-parties",
       "Licensed & Insured Carrier",
     ],
@@ -91,7 +91,7 @@ export const venues = [
       },
       {
         q: "Can you take a group to a concert?",
-        a: "Absolutely. Our Cadillac Escalades seat up to 6 and Mercedes Sprinter vans up to 13, so the whole group rides together. For larger parties we coordinate multiple vehicles on the same schedule.",
+        a: "Absolutely. Our Lincoln Navigators seat up to 6 and Mercedes Sprinter vans up to 13, so the whole group rides together. For larger parties we coordinate multiple vehicles on the same schedule.",
       },
       {
         q: "Do you offer hourly service for event nights?",
@@ -121,7 +121,7 @@ export const venues = [
       "Flat rates that don't surge when the arena lets out",
       "Chauffeurs who know the Dave Dixon Drive event pattern",
       "Coordinated post-show pickup via your chauffeur's direct number",
-      "Escalades and Sprinter vans for concert groups up to 13",
+      "Navigators and Sprinter vans for concert groups up to 13",
       "Hotel, restaurant, and MSY airport pickups available",
       "Licensed & Insured Carrier",
     ],
@@ -259,7 +259,7 @@ export const venues = [
       },
       {
         q: "How much is game day transportation to the Superdome?",
-        a: "Flat rates depend on pickup location and vehicle — sedan, Escalade, or Sprinter van. Round trips with post-game pickup are the most popular booking. Call (877) 609-1919 for a quote.",
+        a: "Flat rates depend on pickup location and vehicle — sedan, Navigator, or Sprinter van. Round trips with post-game pickup are the most popular booking. Call (877) 609-1919 for a quote.",
       },
       {
         q: "Can you transport a tailgate group?",
@@ -350,7 +350,7 @@ export const venues = [
       },
       {
         q: "Can you handle a group night out?",
-        a: "Yes. Escalades seat up to 6 and Sprinter vans up to 13 — ideal for birthday parties and bachelorette groups doing dinner, the show, and a Frenchmen Street nightcap on one hourly charter.",
+        a: "Yes. Navigators seat up to 6 and Sprinter vans up to 13 — ideal for birthday parties and bachelorette groups doing dinner, the show, and a Frenchmen Street nightcap on one hourly charter.",
       },
     ],
   },
@@ -422,7 +422,7 @@ export const venues = [
       },
       {
         q: "Can you handle a car full of move-in boxes and furniture?",
-        a: "Yes. Our Cadillac Escalade SUVs and Mercedes Sprinter vans are the popular choice for move-in day loads, with room for luggage, boxes, and dorm furniture.",
+        a: "Yes. Our Lincoln Navigator SUVs and Mercedes Sprinter vans are the popular choice for move-in day loads, with room for luggage, boxes, and dorm furniture.",
       },
       {
         q: "Do you serve Yulman Stadium on football game days?",
@@ -511,7 +511,7 @@ export const venues = [
       },
       {
         q: "Do you handle move-in day loads of boxes and furniture?",
-        a: "Yes. Our Cadillac Escalade SUVs and Mercedes Sprinter vans are popular move-in day choices for exactly that reason.",
+        a: "Yes. Our Lincoln Navigator SUVs and Mercedes Sprinter vans are popular move-in day choices for exactly that reason.",
       },
       {
         q: "Can you coordinate multiple family flights for graduation?",

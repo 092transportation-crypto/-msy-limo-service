@@ -8,6 +8,7 @@ import { BLOG_POSTS_BATCH6 } from "@/data/blogPostsBatch6";
 import { BLOG_POSTS_BATCH7 } from "@/data/blogPostsBatch7";
 import { BLOG_POSTS_BATCH8 } from "@/data/blogPostsBatch8";
 import { BLOG_POSTS_BATCH9 } from "@/data/blogPostsBatch9";
+import { BLOG_POSTS_BATCH10 } from "@/data/blogPostsBatch10";
 
 export const seoBlogPosts = [
   {
@@ -38,7 +39,7 @@ export const seoBlogPosts = [
       <p>If your flight is delayed two hours, Uber doesn't care — you simply request a car when you finally land, at whatever the price is at that moment. A professional car service absorbs the delay for you. At MSY Limo Service, every airport pickup includes real-time flight tracking plus 45 minutes of complimentary wait time on domestic arrivals and 60 minutes on international ones. The chauffeur adjusts automatically; you never send a panicked "my flight is late" message.</p>
 
       <h2>Vehicles and Drivers: Whatever's Nearby vs. a Standard</h2>
-      <p>Rideshare quality is a lottery — you might get a spotless SUV or a compact with 180,000 miles and someone's gym bag in the trunk. With a licensed car service, the vehicle is part of the product: late-model Mercedes-Benz sedans, Cadillac Escalades, and Sprinter vans, detailed daily, driven by background-checked, professionally trained chauffeurs. MSY Limo Service operates as a Licensed & Insured Carrier, meaning commercial insurance covers every mile of your trip — a meaningful difference from a personal policy with a rideshare endorsement.</p>
+      <p>Rideshare quality is a lottery — you might get a spotless SUV or a compact with 180,000 miles and someone's gym bag in the trunk. With a licensed car service, the vehicle is part of the product: late-model Mercedes-Benz sedans, Lincoln Navigators, and Sprinter vans, detailed daily, driven by background-checked, professionally trained chauffeurs. MSY Limo Service operates as a Licensed & Insured Carrier, meaning commercial insurance covers every mile of your trip — a meaningful difference from a personal policy with a rideshare endorsement.</p>
 
       <h2>When Uber Makes Sense</h2>
       <p>Honesty matters: for a solo traveler with a backpack, no schedule pressure, and a short off-peak hop, rideshare is often the economical choice. If you land at 2 p.m. on a slow Wednesday and you're headed ten minutes away, the app will serve you fine.</p>
@@ -74,7 +75,7 @@ export const seoBlogPosts = [
       },
       {
         q: "Can I book a car service from MSY for a group?",
-        a: "Yes — Cadillac Escalade SUVs seat up to 6 and Mercedes Sprinter vans up to 13 with luggage, so groups ride together on one flat rate instead of coordinating multiple rideshares. Call (877) 609-1919 to reserve.",
+        a: "Yes — Lincoln Navigator SUVs seat up to 6 and Mercedes Sprinter vans up to 13 with luggage, so groups ride together on one flat rate instead of coordinating multiple rideshares. Call (877) 609-1919 to reserve.",
       },
     ],
   },
@@ -104,7 +105,7 @@ export const seoBlogPosts = [
       <p>Reputable black car services quote a total, flat price at booking — vehicle, tolls, airport fees, everything. Be wary of hourly minimums applied to simple transfers, vague "plus gratuity and fees" language, or quotes that can't be confirmed by email. A written flat rate is also what makes expense reporting painless for business travelers.</p>
 
       <h2>4. Look at the Fleet — Actually Look</h2>
-      <p>"Luxury vehicle" means different things to different operators. Ask what specific vehicles they run and how old they are. A serious fleet includes late-model executive sedans (Mercedes-Benz E- or S-Class), full-size luxury SUVs (Cadillac Escalade), and Sprinter vans for groups — maintained on schedule and detailed between trips. If the website shows stock photos but the company won't name its vehicles, that tells you something.</p>
+      <p>"Luxury vehicle" means different things to different operators. Ask what specific vehicles they run and how old they are. A serious fleet includes late-model executive sedans (Mercedes-Benz E- or S-Class), full-size luxury SUVs (Lincoln Navigator), and Sprinter vans for groups — maintained on schedule and detailed between trips. If the website shows stock photos but the company won't name its vehicles, that tells you something.</p>
 
       <h2>5. Ask Who's Driving</h2>
       <p>A black car is only as good as its chauffeur. Professional operators background-check every driver, train them on service standards (not just navigation), and put them in professional attire. Chauffeurs who work MSY daily also carry local knowledge no app provides: which terminal door is closest to your carousel, how Causeway fog changes a Northshore run, where the French Quarter closes to vehicles on a festival weekend.</p>
@@ -242,7 +243,7 @@ export const seoBlogPosts = [
       <h2>Choosing Your Vehicle Class</h2>
       <ul>
         <li><strong>Executive sedan:</strong> one to three travelers with standard luggage. The business-trip and couples' default.</li>
-        <li><strong>Luxury SUV (Cadillac Escalade):</strong> four to six travelers, golf bags, festival gear, or anyone who wants extra room after a long flight.</li>
+        <li><strong>Luxury SUV (Lincoln Navigator):</strong> four to six travelers, golf bags, festival gear, or anyone who wants extra room after a long flight.</li>
         <li><strong>Sprinter van:</strong> seven to thirteen travelers — bachelor and bachelorette parties, wedding groups, and family reunions ride together instead of splitting across three cars and meeting at the hotel eventually.</li>
       </ul>
       <p>Because flat rates are per vehicle, groups win big: an SUV split four ways routinely beats what four surge-hour rideshare seats would cost, in a nicer vehicle, with a guaranteed pickup.</p>
@@ -294,7 +295,7 @@ export const seoBlogPosts = [
       <p>Business travel through Louis Armstrong International runs on a simple equation: time is billable, impressions compound, and logistics should be invisible. A corporate car service turns airport transportation from a variable your travelers manage into infrastructure your company controls. Here's how New Orleans businesses — and the companies that visit them — put it to work.</p>
 
       <h2>The Client Pickup, Done Right</h2>
-      <p>When a prospect or investor lands at MSY, the first thing they experience of your company isn't your office — it's the thirty minutes between the jet bridge and downtown. A chauffeur at baggage claim holding a sign with their name, a spotless Escalade at the curb, a quiet ride to the meeting: that's a message about how you operate, delivered before anyone says a word. It costs less than the dinner you were already planning, and they'll mention it first.</p>
+      <p>When a prospect or investor lands at MSY, the first thing they experience of your company isn't your office — it's the thirty minutes between the jet bridge and downtown. A chauffeur at baggage claim holding a sign with their name, a spotless Navigator at the curb, a quiet ride to the meeting: that's a message about how you operate, delivered before anyone says a word. It costs less than the dinner you were already planning, and they'll mention it first.</p>
 
       <h2>Why Executives Book Chauffeurs for Themselves</h2>
       <ul>
@@ -454,7 +455,7 @@ export const seoBlogPosts = [
       <h2>Five Ways to Get the Most for Your Money</h2>
       <ol>
         <li><strong>Book early.</strong> Rates don't rise as travel dates approach the way airfare does, but vehicle classes sell out during festival weeks — and the sedan you wanted becomes the SUV you'll pay for.</li>
-        <li><strong>Right-size the vehicle.</strong> Two travelers with carry-ons don't need an Escalade. An honest company will talk you down a class, not up one.</li>
+        <li><strong>Right-size the vehicle.</strong> Two travelers with carry-ons don't need a Navigator. An honest company will talk you down a class, not up one.</li>
         <li><strong>Book the round trip together.</strong> Both legs are confirmed at once, your departure pickup is locked in, and accounting gets one clean pair of receipts.</li>
         <li><strong>Provide the flight number.</strong> It costs nothing and activates the tracking and wait-time protections you're already paying for.</li>
         <li><strong>Ride as a group.</strong> Per-vehicle pricing is the group traveler's best friend — a Sprinter split eight ways is routinely the cheapest comfortable seat leaving MSY.</li>
@@ -582,7 +583,7 @@ export const seoBlogPosts = [
       <p>The best companies quote one all-in number by vehicle class, confirm it in writing, and never revisit it — not for traffic, not for demand, not for a detour around a closed street. Surge pricing, "traffic surcharges," and gratuity that materializes at drop-off are how lesser operators advertise one price and charge another. Our full <a href="/blog/new-orleans-airport-limo-cost-2026">2026 cost guide</a> breaks down what a legitimate flat rate includes and the fee games to refuse.</p>
 
       <h2>Standard 4: The Fleet Is Real and Recent</h2>
-      <p>Ask any company two questions: what exact vehicles do you run, and how old are they? The best fleets at MSY are specific — late-model Mercedes-Benz executive sedans, Cadillac Escalades, Sprinter vans for groups — maintained on schedule and detailed between every trip. Stock photos and vague "luxury vehicle" language usually mean the car that shows up will surprise you, and not pleasantly.</p>
+      <p>Ask any company two questions: what exact vehicles do you run, and how old are they? The best fleets at MSY are specific — late-model Mercedes-Benz executive sedans, Lincoln Navigators, Sprinter vans for groups — maintained on schedule and detailed between every trip. Stock photos and vague "luxury vehicle" language usually mean the car that shows up will surprise you, and not pleasantly.</p>
 
       <h2>Standard 5: Chauffeurs, Not Just Drivers</h2>
       <p>A driver gets you there; a chauffeur is trained, background-checked, professionally dressed, and carries the local knowledge that no navigation app has: which arrivals door sits closest to your carousel, how Causeway fog reshapes a Northshore run, where to stage a French Quarter pickup when Royal Street closes for a second line. At the best companies, chauffeur vetting and training are described proudly and in detail — because they're expensive, and they're the product.</p>
@@ -603,7 +604,7 @@ export const seoBlogPosts = [
       <p>You don't have to take any company's word — including ours. Book a single transfer and grade it: Was the quote written and final? Did the chauffeur arrive early, track your flight, and load your bags without being asked? Was the vehicle the one promised, detailed and current-generation? Did a human answer when you called with a question? A company that passes a one-trip audit will pass on the morning your board member lands, and one that stumbles on an easy Tuesday told you everything cheaply.</p>
 
       <h2>How MSY Limo Service Scores</h2>
-      <p>We built the company against this exact scorecard: Licensed & Insured Carrier status, flight tracking with generous written wait time on every transfer, flat rates confirmed before you ride, a named late-model fleet of Mercedes sedans, Escalades, and Sprinters, background-checked professional chauffeurs, and a dispatch desk that answers around the clock — serving MSY, the cruise terminals, and every parish from the Northshore to Baton Rouge. Judge us by the standard, not the slogan: book online or call <a href="tel:+18776091919">(877) 609-1919</a>, ask every hard question in this guide, and then let the pickup speak for itself.</p>
+      <p>We built the company against this exact scorecard: Licensed & Insured Carrier status, flight tracking with generous written wait time on every transfer, flat rates confirmed before you ride, a named late-model fleet of Mercedes sedans, Navigators, and Sprinters, background-checked professional chauffeurs, and a dispatch desk that answers around the clock — serving MSY, the cruise terminals, and every parish from the Northshore to Baton Rouge. Judge us by the standard, not the slogan: book online or call <a href="tel:+18776091919">(877) 609-1919</a>, ask every hard question in this guide, and then let the pickup speak for itself.</p>
     `,
     faqs: [
       {
@@ -993,7 +994,7 @@ export const seoBlogPosts = [
       <p>Uber, Lyft, and the city's taxis cover the everyday middle ground well — cross-town hops, rainy-night returns, dinner in Mid-City. The weak spots are predictable: surge pricing during festivals and conventions, thin driver supply late at night and at dawn, and event-weekend pickup chaos in the Quarter, where street closures can put your driver three blocks and twenty minutes away.</p>
 
       <h2>Where a Private Car Service Fits</h2>
-      <p>A chauffeured car is not how you cross the Quarter — it is how you handle the trips where failure is expensive. The airport transfer, first and foremost: MSY sits 15 highway miles west with no rail option, and a flat-rate, flight-tracked pickup turns the most stressful leg of the trip into the easiest. Beyond that: early-morning departures, group dinners where six people should arrive together, plantation and swamp-tour days outside the city, cruise terminal transfers with a week of luggage, and any evening where the plan involves not driving. One flat rate, a professional chauffeur, and a vehicle sized to the group — sedan, Escalade, or Sprinter van.</p>
+      <p>A chauffeured car is not how you cross the Quarter — it is how you handle the trips where failure is expensive. The airport transfer, first and foremost: MSY sits 15 highway miles west with no rail option, and a flat-rate, flight-tracked pickup turns the most stressful leg of the trip into the easiest. Beyond that: early-morning departures, group dinners where six people should arrive together, plantation and swamp-tour days outside the city, cruise terminal transfers with a week of luggage, and any evening where the plan involves not driving. One flat rate, a professional chauffeur, and a vehicle sized to the group — sedan, Navigator, or Sprinter van.</p>
 
       <h2>Match the Ride to the Trip: A Cheat Sheet</h2>
       <ul>
@@ -1075,7 +1076,7 @@ export const seoBlogPosts = [
         <li><strong>Solo, tight budget, loose schedule:</strong> the shuttle earns its fare.</li>
         <li><strong>Spontaneous off-peak arrival:</strong> taxi or rideshare serves fine.</li>
         <li><strong>Couples and families with luggage:</strong> a flat-rate private car — the per-person gap nearly vanishes and the drama fully does.</li>
-        <li><strong>Groups of four-plus:</strong> one Escalade or Sprinter beats coordinating multiple cars, every time.</li>
+        <li><strong>Groups of four-plus:</strong> one Navigator or Sprinter beats coordinating multiple cars, every time.</li>
         <li><strong>Festival and convention arrivals:</strong> pre-booked car service, no contest — flat rates ignore surge.</li>
       </ul>
 
@@ -1134,7 +1135,7 @@ export const seoBlogPosts = [
       <p>MSY during Carnival is the airport at full throttle — the Friday and Saturday before Fat Tuesday and Ash Wednesday's exodus are among its busiest days of the year. This is the leg where pre-booking pays most: a flat-rate chauffeur with your flight number rides out delays automatically, meets you at the curb, and — critically — knows which approach to your hotel still exists that day. Booking the airport transfer at the same time you book the hotel is the move; Carnival-week capacity sells out, and improvising an MSY pickup on parade day is genuinely grim. The same goes double for the departure: hotels inside the closure box can require creative pickup points, and a local chauffeur plans that with you the night before.</p>
 
       <h2>Group Nights, Balls, and the Long Way Around</h2>
-      <p>Carnival's calendar is more than parades — balls, dinners, and family gatherings send dressed-up groups across town all season. One pre-booked Escalade or Sprinter with a chauffeur who reroutes around the day's closures beats six people in costumes negotiating three surging rideshares from a barricaded corner. For parade-night pickups, professionals arrange a fixed rendezvous point outside the box in advance — the difference between a smooth exit and an hour of walking.</p>
+      <p>Carnival's calendar is more than parades — balls, dinners, and family gatherings send dressed-up groups across town all season. One pre-booked Navigator or Sprinter with a chauffeur who reroutes around the day's closures beats six people in costumes negotiating three surging rideshares from a barricaded corner. For parade-night pickups, professionals arrange a fixed rendezvous point outside the box in advance — the difference between a smooth exit and an hour of walking.</p>
 
       <h2>Where You Stay Shapes How You Move</h2>
       <p>Transportation strategy starts at hotel booking. Stay along or near the parade route — St. Charles, the CBD, Canal — and Carnival comes to your doorstep, with the trade-off that arriving and departing by car during parade hours takes planning. Stay in the Quarter and you're walking distance from the season's heart but effectively car-free for the final week; plan pickups from the Quarter's lakeside or downriver edges. Stay farther out — Mid-City, Metairie — and you'll ride in daily, which is comfortable on parade-free mornings and demands the pre-positioning rule on parade days. There is no wrong answer, only a different transportation plan for each — and it's far easier to build that plan before you arrive than at a barricade.</p>
@@ -1193,7 +1194,7 @@ export const seoBlogPosts = [
       <p>Boarding windows typically run from late morning to mid-afternoon, and the ship sails with or without you. Working backward: if final boarding is 3:00, you want to be at the terminal by 1:30, which means leaving the airport by 12:45 at the latest — with slack for I-10's moods. Flying in the morning of the cruise is doable with an early flight and a pre-booked transfer; flying in the day before, enjoying an evening in the Quarter, and making a ten-minute hop to the port the next morning is the veteran move.</p>
 
       <h2>The Luggage Reality</h2>
-      <p>Cruise travel is the heaviest-luggage travel there is — a family of four rolling a week of formal nights and beach days does not fit in a sedan, let alone a surge-priced compact. This is the trip to size the vehicle honestly: an Escalade swallows a couple's worth of cruise luggage, and a Sprinter van handles a family or two couples traveling together, with everyone and every bag in one vehicle. At the terminal, porters take checked bags at the curb — so a drop-off directly at your terminal's entrance, rather than a walk from a distant pickup zone, saves real effort at the exact moment you have the most to carry.</p>
+      <p>Cruise travel is the heaviest-luggage travel there is — a family of four rolling a week of formal nights and beach days does not fit in a sedan, let alone a surge-priced compact. This is the trip to size the vehicle honestly: a Navigator swallows a couple's worth of cruise luggage, and a Sprinter van handles a family or two couples traveling together, with everyone and every bag in one vehicle. At the terminal, porters take checked bags at the curb — so a drop-off directly at your terminal's entrance, rather than a walk from a distant pickup zone, saves real effort at the exact moment you have the most to carry.</p>
 
       <h2>Your Options, Honestly Ranked</h2>
       <ul>
@@ -1226,7 +1227,7 @@ export const seoBlogPosts = [
       },
       {
         q: "What vehicle do we need for cruise luggage?",
-        a: "Size honestly: an Escalade handles a couple's cruise luggage comfortably, and a Sprinter van fits a family or two couples with every bag in one vehicle. Porters take checked bags at the terminal curb, so a door drop-off saves the heaviest carrying.",
+        a: "Size honestly: a Navigator handles a couple's cruise luggage comfortably, and a Sprinter van fits a family or two couples with every bag in one vehicle. Porters take checked bags at the terminal curb, so a door drop-off saves the heaviest carrying.",
       },
       {
         q: "How does the pickup work after my cruise returns?",
@@ -1251,7 +1252,7 @@ export const seoBlogPosts = [
       <p>We've already written about how airport limo pricing works — the factors, the fee traps, the anatomy of a flat rate. This is the other article, the one people actually search the night before they book: what does it cost to get from Louis Armstrong International to where I'm going? Below are honest 2026 market ranges by destination, vehicle-class pricing, a worked example for a real family trip, and the tipping etiquette nobody explains. Ranges set expectations; for your exact number, MSY Limo Service quotes flat rates in about a minute at <a href="tel:+18776091919">(877) 609-1919</a>.</p>
 
       <h2>First, the Word "Limo"</h2>
-      <p>In 2026, almost nobody booking "MSY limo service" means a stretch limousine. They mean a chauffeured black car — a late-model Mercedes-Benz sedan, a Cadillac Escalade, or a Mercedes Sprinter van, driven by a background-checked professional at a flat, pre-quoted price. That's the product these numbers describe.</p>
+      <p>In 2026, almost nobody booking "MSY limo service" means a stretch limousine. They mean a chauffeured black car — a late-model Mercedes-Benz sedan, a Lincoln Navigator, or a Mercedes Sprinter van, driven by a background-checked professional at a flat, pre-quoted price. That's the product these numbers describe.</p>
 
       <h2>Sedan Flat Rates by Destination</h2>
       <p>Distance drives the number, and New Orleans geography is friendly: the airport sits in Kenner, about 13 miles from the hotel core. Representative 2026 ranges for a chauffeured luxury sedan:</p>
@@ -1266,7 +1267,7 @@ export const seoBlogPosts = [
       </ul>
 
       <h2>SUVs, Sprinters, and the Per-Person Math</h2>
-      <p>A Cadillac Escalade — six passengers with real luggage room — adds roughly $30–$60 to any sedan rate. A Mercedes Sprinter seating up to 13 typically starts around $200–$300 for city transfers and scales with distance. The math that surprises people: a Sprinter carrying ten conventioneers to a CBD hotel costs less per person than the shared shuttle, and enormously less than three surge-priced rideshare XLs on an event weekend — while everyone arrives together with all the luggage in one vehicle.</p>
+      <p>A Lincoln Navigator — six passengers with real luggage room — adds roughly $30–$60 to any sedan rate. A Mercedes Sprinter seating up to 13 typically starts around $200–$300 for city transfers and scales with distance. The math that surprises people: a Sprinter carrying ten conventioneers to a CBD hotel costs less per person than the shared shuttle, and enormously less than three surge-priced rideshare XLs on an event weekend — while everyone arrives together with all the luggage in one vehicle.</p>
 
       <h2>What the Flat Rate Includes</h2>
       <p>Every legitimate MSY quote bundles the vehicle, the chauffeur, fuel, tolls, airport fees, real-time flight tracking, and waiting time — at MSY Limo Service, 45 complimentary minutes on domestic arrivals and 60 on international. What it never includes: surge multipliers, overnight fees, or "event pricing." Your rate during the biggest convention of the year is your rate on a quiet Tuesday, which is precisely the point of booking it in advance.</p>
@@ -1275,7 +1276,7 @@ export const seoBlogPosts = [
       <p>Point-to-point covers transfers; hourly covers occasions. When the car stays with you — a wedding shuttle rotation, a plantation-country tour, a client day bouncing between the CBD and Metairie — 2026 rates run roughly $85–$115 per hour for a sedan and $115–$150 for an SUV, usually with two-to-three-hour minimums. By the third stop of a multi-stop day, one committed vehicle beats a chain of separate bookings, and it deletes every between-stop wait from your schedule.</p>
 
       <h2>A Worked Example: The Family of Five</h2>
-      <p>Say you land Thursday for a long cruise weekend: five people, seven bags, a Warehouse District hotel night, then the cruise terminal Saturday morning. The chauffeured version: an Escalade at roughly $105–$150 airport-to-hotel, the same again hotel-to-port, everything included — call it $250 total, car seat installed, nobody dragging luggage across a rideshare lot in August humidity. The alternatives priced honestly: two UberXLs each leg in perfect conditions land near the same total, with zero guarantees about vehicle size, pickup timing, or what Saturday-morning cruise demand does to the fare. For groups, the flat rate isn't the splurge; it's frequently the floor.</p>
+      <p>Say you land Thursday for a long cruise weekend: five people, seven bags, a Warehouse District hotel night, then the cruise terminal Saturday morning. The chauffeured version: a Navigator at roughly $105–$150 airport-to-hotel, the same again hotel-to-port, everything included — call it $250 total, car seat installed, nobody dragging luggage across a rideshare lot in August humidity. The alternatives priced honestly: two UberXLs each leg in perfect conditions land near the same total, with zero guarantees about vehicle size, pickup timing, or what Saturday-morning cruise demand does to the fare. For groups, the flat rate isn't the splurge; it's frequently the floor.</p>
 
       <h2>Tipping, Deposits, and Payment</h2>
       <p>Gratuity of 15–20 percent is customary for chauffeured service, and most travelers add it at booking so the trip itself is cashless. Expect a card guarantee at reservation, the charge at or after service, and a written confirmation showing the all-in total before the vehicle arrives. Event work — weddings, Mardi Gras charters — reasonably carries a deposit; a simple airport transfer should not.</p>
@@ -1286,7 +1287,7 @@ export const seoBlogPosts = [
       <h2>Five Ways to Pay Less Without Downgrading</h2>
       <ul>
         <li><strong>Book 48 hours ahead</strong> — and much earlier for Mardi Gras, Jazz Fest, and Essence weekends, when vehicle classes sell out outright.</li>
-        <li><strong>Right-size the vehicle:</strong> two travelers with carry-ons belong in a sedan, not an Escalade.</li>
+        <li><strong>Right-size the vehicle:</strong> two travelers with carry-ons belong in a sedan, not a Navigator.</li>
         <li><strong>Book the round trip at once</strong> so the return leg locks at the same flat rate.</li>
         <li><strong>Share a Sprinter</strong> for groups of six or more — the per-person winner almost every time.</li>
         <li><strong>Set up a corporate account</strong> if your team visits monthly; negotiated rates beat retail.</li>
@@ -1298,7 +1299,7 @@ export const seoBlogPosts = [
     faqs: [
       {
         q: "How much is a car service from MSY to downtown New Orleans?",
-        a: "A chauffeured luxury sedan from MSY to the CBD or French Quarter typically runs $70–$95 flat in 2026, including the chauffeur, fuel, airport fees, flight tracking, and wait time. Escalade SUVs add roughly $30–$60. Call (877) 609-1919 for an exact quote.",
+        a: "A chauffeured luxury sedan from MSY to the CBD or French Quarter typically runs $70–$95 flat in 2026, including the chauffeur, fuel, airport fees, flight tracking, and wait time. Navigator SUVs add roughly $30–$60. Call (877) 609-1919 for an exact quote.",
       },
       {
         q: "What does MSY car service cost to the Northshore or Baton Rouge?",
@@ -1351,7 +1352,7 @@ export const seoBlogPosts = [
       <p>Pre-booked car service, no contest. Morial Center weeks are exactly when rideshare surges and taxi queues stretch, and your first meeting doesn't care which. A flat-rate pickup booked with your flight number absorbs delays automatically, produces the clean receipt your expense system wants, and puts the ride's risk on someone whose job is managing it. Book the return to MSY at the same time — departure morning is when improvisation costs flights.</p>
 
       <h2>The Family with Real Luggage</h2>
-      <p>A reserved Escalade or Sprinter. The shared-shuttle math collapses at four passengers, the rideshare lot walk with children and seven bags in Louisiana humidity is nobody's vacation memory, and car seats are the detail that decides everything — a professional service installs them before the vehicle arrives, while the app version is a shrug at the curb. One vehicle, one flat rate, everyone and everything together.</p>
+      <p>A reserved Navigator or Sprinter. The shared-shuttle math collapses at four passengers, the rideshare lot walk with children and seven bags in Louisiana humidity is nobody's vacation memory, and car seats are the detail that decides everything — a professional service installs them before the vehicle arrives, while the app version is a shrug at the curb. One vehicle, one flat rate, everyone and everything together.</p>
 
       <h2>The Group — Bachelor Party, Girls' Weekend, Wedding Block</h2>
       <p>One Sprinter beats three coordinated rideshares every single time: nobody's group chat becomes a dispatch center, nobody's car "is two minutes away" for twenty minutes, and the per-person cost usually undercuts the apps anyway. Book it days ahead; festival and wedding weekends sell the big vehicles out first.</p>
@@ -1420,7 +1421,7 @@ export const seoBlogPosts = [
       <p>The measure of a professional operation is the bad day, not the good one. Flight diverted? Dispatch re-times against the new arrival automatically. Missed connection putting you in four hours late? The reservation moves with you — call <a href="tel:+18776091919">(877) 609-1919</a> and a human adjusts it. Bag lost, adding an hour at the claim office? That's what the included wait time is for. The structural difference from app-based rides is that your trip was committed at booking; the question is never whether a car will exist, only when you'll be ready for it.</p>
 
       <h2>Choosing the Vehicle Honestly</h2>
-      <p>Match the metal to the party and the bags, not the occasion. One or two travelers with standard luggage ride correctly in a Mercedes-Benz sedan. Three to six people — or any trip involving golf clubs, festival gear, or a week of family packing — belong in a Cadillac Escalade. Groups up to 13 take one Mercedes Sprinter and arrive together. Car seats are a booking-time request, installed before the vehicle reaches you. When in doubt between two sizes, take the larger; luggage that doesn't fit is the most expensive $40 you never saved.</p>
+      <p>Match the metal to the party and the bags, not the occasion. One or two travelers with standard luggage ride correctly in a Mercedes-Benz sedan. Three to six people — or any trip involving golf clubs, festival gear, or a week of family packing — belong in a Lincoln Navigator. Groups up to 13 take one Mercedes Sprinter and arrive together. Car seats are a booking-time request, installed before the vehicle reaches you. When in doubt between two sizes, take the larger; luggage that doesn't fit is the most expensive $40 you never saved.</p>
 
       <h2>Where the Service Goes (Hint: Not Just Downtown)</h2>
       <p>The hotel core is the headline run — 13 miles, 25 to 35 minutes — but the service map is the whole region: the Garden District and Uptown, the cruise terminals at the Port of New Orleans, Metairie and Kenner, the Northshore towns across the Causeway, Baton Rouge, and the Mississippi Coast. The long runs deserve emphasis because they're where app-based options fail most reliably — a Covington trip that a rideshare driver cancels twice is a routine Tuesday for a chauffeur whose trip was committed days earlier.</p>
@@ -1429,7 +1430,7 @@ export const seoBlogPosts = [
       <p>Book the return when you book the arrival. Dispatch back-times your pickup from the departure — two hours before domestic flights, more during festival gridlock or morning rush on I-10 — and the scheduled car simply appears, which matters most in the 4-to-6 a.m. window when it has no real substitute. Our <a href="/blog/new-orleans-airport-early-morning-pickup">early-morning guide</a> covers the pre-dawn playbook in detail.</p>
 
       <h2>What It Costs: The Snapshot</h2>
-      <p>The quick 2026 reference: sedans run roughly $70–$95 to the CBD and French Quarter, $50–$75 for the short Metairie and Kenner hops, $110–$165 across to the Northshore, and $200–$280 to Baton Rouge, with Escalades adding $30–$60 and Sprinters starting around $200–$300 for city work. Every figure is flat and all-inclusive — chauffeur, fuel, airport fees, flight tracking, wait time — with no surge at any hour and no overnight premium for the 4 a.m. pickup. Our <a href="/blog/how-much-does-msy-airport-limo-cost">destination-by-destination cost guide</a> breaks all of it down further.</p>
+      <p>The quick 2026 reference: sedans run roughly $70–$95 to the CBD and French Quarter, $50–$75 for the short Metairie and Kenner hops, $110–$165 across to the Northshore, and $200–$280 to Baton Rouge, with Navigators adding $30–$60 and Sprinters starting around $200–$300 for city work. Every figure is flat and all-inclusive — chauffeur, fuel, airport fees, flight tracking, wait time — with no surge at any hour and no overnight premium for the 4 a.m. pickup. Our <a href="/blog/how-much-does-msy-airport-limo-cost">destination-by-destination cost guide</a> breaks all of it down further.</p>
 
       <h2>For Frequent Flyers: Stop Booking Retail</h2>
       <p>Anyone flying through MSY monthly — or hosting clients who do — should move to a corporate account: negotiated rates on standing routes, priority dispatch during convention crunches, booking by assistants with confirmations to everyone, and one monthly invoice instead of a stack of receipts. It's a ten-minute setup call, and it turns ground transportation into infrastructure nobody thinks about.</p>
@@ -1461,7 +1462,7 @@ export const seoBlogPosts = [
       },
       {
         q: "Which vehicle should I book from MSY?",
-        a: "Sedans fit one or two travelers with standard bags; a Cadillac Escalade fits up to six with real luggage; a Mercedes Sprinter carries groups up to 13 together. Car seats are installed before pickup when requested at booking. When torn between sizes, go larger.",
+        a: "Sedans fit one or two travelers with standard bags; a Lincoln Navigator fits up to six with real luggage; a Mercedes Sprinter carries groups up to 13 together. Car seats are installed before pickup when requested at booking. When torn between sizes, go larger.",
       },
       {
         q: "Does MSY car service cover the Northshore and Baton Rouge?",
@@ -1549,7 +1550,7 @@ export const seoBlogPosts = [
       <p>Most of what's written about New Orleans car service — most of what we've written — centers on the airport. Fair enough; it's the busiest run. But the city generates occasion travel like nowhere else in America: weddings by the hundreds, bachelor and bachelorette weekends every Friday, festival seasons that swallow whole months, galas, proms, and corporate entertaining year-round. This is the guide to all of it — what chauffeured service looks like beyond the MSY curb, what it costs, and how the city's calendar should shape your booking.</p>
 
       <h2>What "Limo Service" Means Here in 2026</h2>
-      <p>The modern fleet is chauffeured luxury vehicles, not mirrored ceilings: Mercedes-Benz sedans for couples and executives, Cadillac Escalades seating six, and Mercedes Sprinters carrying up to 13 — the workhorse of New Orleans group life. What makes it "limo service" is the operating standard: background-checked professional chauffeurs, commercial insurance on every mile as a Licensed &amp; Insured Carrier, vehicles detailed daily, and rates quoted flat, in writing, before you commit.</p>
+      <p>The modern fleet is chauffeured luxury vehicles, not mirrored ceilings: Mercedes-Benz sedans for couples and executives, Lincoln Navigators seating six, and Mercedes Sprinters carrying up to 13 — the workhorse of New Orleans group life. What makes it "limo service" is the operating standard: background-checked professional chauffeurs, commercial insurance on every mile as a Licensed &amp; Insured Carrier, vehicles detailed daily, and rates quoted flat, in writing, before you commit.</p>
 
       <h2>The Two Ways Everything Is Priced</h2>
       <p>Transfers — airport runs, hotel-to-venue, point A to B — price flat by vehicle class and distance. Occasions price hourly, because the car stays with you: roughly $85–$115 per hour for a sedan, $115–$150 for an SUV, and more for Sprinters, generally with two-to-three-hour minimums. The hourly model is the unlock for New Orleans specifically, where a proper evening might touch a Garden District dinner, a Frenchmen Street set, and a Quarter nightcap — one committed car turns that itinerary from a rideshare relay into a smooth loop.</p>
@@ -1595,7 +1596,7 @@ export const seoBlogPosts = [
       },
       {
         q: "What vehicles are available for groups in New Orleans?",
-        a: "Cadillac Escalades seat up to six, and Mercedes Sprinter vans carry up to 13 with luggage — the standard for bachelor and bachelorette weekends, wedding parties, and convention groups who want everyone moving together on one flat rate.",
+        a: "Lincoln Navigators seat up to six, and Mercedes Sprinter vans carry up to 13 with luggage — the standard for bachelor and bachelorette weekends, wedding parties, and convention groups who want everyone moving together on one flat rate.",
       },
       {
         q: "How does wedding transportation work in New Orleans?",
@@ -1632,7 +1633,7 @@ export const seoBlogPosts = [
       <p>Most visitors do not need a car in Baltimore or Washington. Inner Harbor hotels are walkable, the Convention Center is steps from Pratt Street, and downtown DC parking is expensive and scarce. Skip the shuttle to the rental lot and the deposit hold. Let a chauffeur take you straight to your hotel door, then book <a href="/services/hourly-charter">hourly service</a> on the days you actually want to roam.</p>
 
       <h3>3. One fixed price for the expense report</h3>
-      <p>Flat rates are confirmed when you book, by vehicle class, with no surge on convention days or holiday weekends. The finance team gets a single tidy receipt instead of a question about why the ride from the airport doubled. For groups, a Cadillac Escalade or Mercedes Sprinter often costs less per person than three separate cars.</p>
+      <p>Flat rates are confirmed when you book, by vehicle class, with no surge on convention days or holiday weekends. The finance team gets a single tidy receipt instead of a question about why the ride from the airport doubled. For groups, a Lincoln Navigator or Mercedes Sprinter often costs less per person than three separate cars.</p>
 
       <h3>4. Luggage is part of the plan</h3>
       <p>Cruise passengers heading to the Port of Baltimore terminal, about fifteen minutes from BWI, rarely travel light. A Chevrolet Suburban swallows four large suitcases and carry-ons with room to spare, and your chauffeur loads and unloads every piece. Read more in our guide to <a href="/services/cruise-transportation">cruise transportation</a>.</p>
@@ -1697,7 +1698,7 @@ export const seoBlogPosts = [
       <p>Capitol Hill drop-off zones are tightly controlled, so we plan the staging points in advance, confirm them with your planner the day before and keep dispatch on the line. Two Sprinters can run a continuous loop between a Pennsylvania Avenue hotel and the House and Senate office buildings all morning.</p>
 
       <h3>Hourly charters for a day of meetings</h3>
-      <p>For smaller groups, an <a href="/services/hourly-charter">hourly charter</a> in a Cadillac Escalade or BMW 7 Series keeps one chauffeur with you from the first appointment to the last, with luggage and briefing materials safely in the car between stops.</p>
+      <p>For smaller groups, an <a href="/services/hourly-charter">hourly charter</a> in a Lincoln Navigator or BMW 7 Series keeps one chauffeur with you from the first appointment to the last, with luggage and briefing materials safely in the car between stops.</p>
 
       <h2>One Invoice, Not Dozens of Receipts</h2>
       <p>Event planners tell us this is the reason they switch. A rideshare week produces a pile of receipts in different names, with surge fares no one can explain to accounting. A corporate account with MSY Limo Service produces a single itemized invoice by date, passenger and route, with flat rates agreed in advance. Visit our <a href="/maryland-corporate-transportation">Maryland corporate transportation</a> page for group and conference programs, or read about <a href="/services/corporate-transportation">corporate accounts</a>.</p>
@@ -1810,7 +1811,7 @@ export const seoBlogPosts = [
       <h2>Spring: Racing Silks and Dress Whites</h2>
 
       <h3>Preakness Stakes, May</h3>
-      <p>The 2026 Preakness ran at Laurel Park while Pimlico is rebuilt, and the race returns to Pimlico in 2027. Laurel Park sits minutes from our base, so stay at a BWI-area or Columbia hotel and book a Cadillac Escalade for six or a Sprinter for a hospitality-tent group. Details on our <a href="/preakness-stakes-transportation">Preakness transportation</a> page.</p>
+      <p>The 2026 Preakness ran at Laurel Park while Pimlico is rebuilt, and the race returns to Pimlico in 2027. Laurel Park sits minutes from our base, so stay at a BWI-area or Columbia hotel and book a Lincoln Navigator for six or a Sprinter for a hospitality-tent group. Details on our <a href="/preakness-stakes-transportation">Preakness transportation</a> page.</p>
 
       <h3>Commissioning Week, Annapolis, late May</h3>
       <p>Naval Academy families fill every room in Annapolis. Reserve a Main Street or Eastport hotel early and let a chauffeur handle the Academy gate logistics; see <a href="/bwi-to-annapolis-car-service">BWI to Annapolis car service</a>.</p>
@@ -1845,7 +1846,7 @@ export const seoBlogPosts = [
       },
       {
         q: "Which vehicle is best for a group going to a Maryland festival?",
-        a: "A Mercedes Sprinter for up to 13 keeps everyone together on one flat rate. Couples usually prefer an E-Class sedan; families with gear choose a Suburban or Escalade.",
+        a: "A Mercedes Sprinter for up to 13 keeps everyone together on one flat rate. Couples usually prefer an E-Class sedan; families with gear choose a Suburban or Navigator.",
       },
       {
         q: "How early should visitors book event transportation?",
@@ -1930,6 +1931,7 @@ seoBlogPosts.push(...BLOG_POSTS_BATCH6);
 seoBlogPosts.push(...BLOG_POSTS_BATCH7);
 seoBlogPosts.push(...BLOG_POSTS_BATCH8);
 seoBlogPosts.push(...BLOG_POSTS_BATCH9);
+seoBlogPosts.push(...BLOG_POSTS_BATCH10);
 seoBlogPosts.push({
   slug: "new-orleans-wedding-transportation-venues-guide",
   title: "New Orleans Wedding Transportation: The Complete Venue-by-Venue Guide",
@@ -1958,7 +1960,7 @@ seoBlogPosts.push({
 
     <h2>Garden District and Uptown: Narrow Streets, Real Turning Radius</h2>
     <p>The Garden District and Uptown hold some of the city's most photographed wedding venues — historic mansions, private gardens, and event spaces along streets canopied by live oaks old enough to have grown around the power lines. Those same streets are narrow, often one-way, and were laid out a century before anyone designed a stretch limousine. A vehicle that looks perfectly reasonable on paper can be the wrong choice for a specific Garden District address if nobody checks the actual street width and turning radius in advance.</p>
-    <p>This is the neighborhood where vehicle choice matters most. A Cadillac Escalade or a Mercedes-Benz S-Class sedan handles nearly any Garden District or Uptown block without issue. A full stretch limousine is a better fit for the wider avenues — St. Charles Avenue itself, for instance — than for the tight residential streets one block off it. A chauffeur who already knows which blocks near your specific venue can and can't accommodate a longer vehicle will tell you before your wedding day, not discover it by attempting a three-point turn in front of your guests.</p>
+    <p>This is the neighborhood where vehicle choice matters most. A Lincoln Navigator or a Mercedes-Benz S-Class sedan handles nearly any Garden District or Uptown block without issue. A full stretch limousine is a better fit for the wider avenues — St. Charles Avenue itself, for instance — than for the tight residential streets one block off it. A chauffeur who already knows which blocks near your specific venue can and can't accommodate a longer vehicle will tell you before your wedding day, not discover it by attempting a three-point turn in front of your guests.</p>
     <p>St. Charles Avenue also carries its own seasonal wrinkle: during the weeks leading up to Mardi Gras, major parades roll along this exact corridor and the avenue closes to vehicles for hours at a stretch. A late-winter Garden District or Uptown wedding needs its transportation plan built around the parade schedule, not just the ceremony schedule.</p>
 
     <h2>Northshore Weddings: Mandeville and Covington</h2>
@@ -1970,7 +1972,7 @@ seoBlogPosts.push({
     <p>For a River Road wedding, that distance changes several planning decisions at once. Guest shuttles need enough vehicles and round trips to move an entire guest list without anyone waiting an unreasonable amount of time at either end. The wedding party's own transportation needs enough buffer built in that traffic on the route out doesn't turn into a stressful late arrival. And any vendor coordinating hair, makeup, or photography on-site needs their own transportation plan that accounts for the same drive. We recommend treating a River Road wedding's transportation as its own dedicated logistics plan, built well before the week of the wedding, rather than an extension of a city-based plan.</p>
 
     <h2>Matching the Vehicle to the Job, Not Just the Aesthetic</h2>
-    <p>Wedding transportation is rarely one vehicle doing one job — it's usually a small, coordinated fleet, each vehicle assigned to a specific part of the day. A Mercedes-Benz S-Class sedan is the traditional choice for the couple's own arrival and departure, with room for a champagne toast in transit and an unmistakably elegant look in photos. A Cadillac Escalade suits a smaller, more intimate wedding party, or a couple who wants a more modern aesthetic than a classic stretch limousine provides. A Mercedes Sprinter van, seating up to thirteen, is the right choice for the full wedding party — bridesmaids, groomsmen, immediate family — keeping everyone together, on schedule, and out of the Louisiana heat and humidity between the ceremony and the reception.</p>
+    <p>Wedding transportation is rarely one vehicle doing one job — it's usually a small, coordinated fleet, each vehicle assigned to a specific part of the day. A Mercedes-Benz S-Class sedan is the traditional choice for the couple's own arrival and departure, with room for a champagne toast in transit and an unmistakably elegant look in photos. A Lincoln Navigator suits a smaller, more intimate wedding party, or a couple who wants a more modern aesthetic than a classic stretch limousine provides. A Mercedes Sprinter van, seating up to thirteen, is the right choice for the full wedding party — bridesmaids, groomsmen, immediate family — keeping everyone together, on schedule, and out of the Louisiana heat and humidity between the ceremony and the reception.</p>
     <p>Guest shuttles are their own category entirely, separate from the wedding party's vehicles, and are worth budgeting for whenever your venue has limited on-site parking or your guest list includes people unfamiliar with the city. A shuttle running a simple loop between a hotel block and the venue removes an entire category of day-of stress — nobody circling for parking, nobody arriving late because they misjudged French Quarter traffic, nobody needing a rideshare at 11 p.m. after the reception winds down.</p>
 
     <img src="/images/blog/scenario-wedding-3.webp" alt="Bride and groom departing a New Orleans wedding venue by luxury vehicle" style="width:100%;border-radius:1rem;margin:1.5rem 0;" />
@@ -2004,13 +2006,13 @@ seoBlogPosts.push({
   ],
   faqs: [
     { q: "How far in advance should we book wedding transportation in New Orleans?", a: "At least two to four weeks minimum, and considerably earlier for peak spring or fall wedding season, festival weekends, or any wedding involving multiple vehicles or a second-line coordination. Multi-vehicle bookings fill fastest." },
-    { q: "Can a stretch limousine actually get to our Garden District venue?", a: "It depends on the specific block. Many Garden District and Uptown streets are narrow and tree-lined with a tight turning radius that doesn't suit a full stretch limo. We check your exact venue address in advance and recommend a Cadillac Escalade or sedan instead when the street calls for it." },
+    { q: "Can a stretch limousine actually get to our Garden District venue?", a: "It depends on the specific block. Many Garden District and Uptown streets are narrow and tree-lined with a tight turning radius that doesn't suit a full stretch limo. We check your exact venue address in advance and recommend a Lincoln Navigator or sedan instead when the street calls for it." },
     { q: "What happens to our transportation plan if the French Quarter has a street closure on our wedding day?", a: "We check the city's event calendar and known closure patterns in the days before your wedding. If your venue's street is closed, your vehicle stages as close as the city allows and your chauffeur plans a short walk to bridge the gap — this is normal for Quarter weddings, not a sign anything went wrong." },
     { q: "Do you coordinate transportation around a second-line parade?", a: "Yes — this is one of the most common requests we get. Your chauffeur stages along or near the actual second-line route rather than at the ceremony site, and times the getaway vehicle to when the parade concludes, which is often later and at a different location than the ceremony itself." },
     { q: "How far is a River Road plantation wedding venue from New Orleans?", a: "Most River Road properties sit roughly 45 minutes to an hour and a half from the city, depending on the specific site and traffic through St. Charles and St. James parishes. We treat this as a genuine day-trip distance in your timeline, not a quick suburban drive." },
     { q: "Do you provide guest shuttles for weddings, or only vehicles for the couple and wedding party?", a: "Both. Guest shuttles are booked separately from the wedding party's vehicles and are especially worth budgeting for at venues with limited on-site parking, Northshore venues requiring a Causeway crossing, or River Road properties far from guests' hotels." },
     { q: "Can you handle a wedding that crosses the Lake Pontchartrain Causeway?", a: "Yes. Our chauffeurs plan Causeway crossing times around real traffic patterns, not just distance on a map, which matters most for a Friday rehearsal run or a Saturday evening reception shuttle." },
-    { q: "What vehicles do you offer for weddings?", a: "A Mercedes-Benz S-Class sedan for the couple, a Cadillac Escalade for a smaller or more modern-styled wedding party, a Mercedes Sprinter van seating up to thirteen for the full wedding party, and stretch limousines where the venue's streets accommodate one." },
+    { q: "What vehicles do you offer for weddings?", a: "A Mercedes-Benz S-Class sedan for the couple, a Lincoln Navigator for a smaller or more modern-styled wedding party, a Mercedes Sprinter van seating up to thirteen for the full wedding party, and stretch limousines where the venue's streets accommodate one." },
     { q: "Is the rate for wedding transportation flat, or can it change?", a: "Every wedding booking is a written, flat rate confirmed before your wedding day. It does not change due to traffic, second-line timing, or a longer-than-expected day, as long as the original scope of the booking holds." },
     { q: "What should we ask any wedding transportation company before booking?", a: "Whether they're a licensed and insured commercial carrier (not just a private driver), whether chauffeurs are background-checked and trained, whether the rate is a flat written quote, and whether they have specific experience with your venue's neighborhood — French Quarter, Garden District, Northshore or River Road each have different logistics." },
   ],

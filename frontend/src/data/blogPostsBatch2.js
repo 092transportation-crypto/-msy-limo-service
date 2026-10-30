@@ -183,7 +183,7 @@ export const BLOG_POSTS_BATCH2 = [
       <p>Rideshare and taxi availability can both tighten significantly during Mardi Gras, Jazz Fest and other major events, when demand across the city spikes at once. A reserved black car is committed in advance — your driver is coming because the trip is booked, not because they happened to be nearby when the parade let out.</p>
 
       <h2>The Vehicle and the Driver</h2>
-      <p>Rideshare and taxi vehicles vary by whatever the driver owns; you may get a compact sedan or a minivan depending on the app's assignment. A black car service specifies the vehicle class you are getting — a Mercedes-Benz sedan, an Escalade, a Sprinter — and the chauffeur is licensed, background-checked, and dressed for the occasion.</p>
+      <p>Rideshare and taxi vehicles vary by whatever the driver owns; you may get a compact sedan or a minivan depending on the app's assignment. A black car service specifies the vehicle class you are getting — a Mercedes-Benz sedan, a Navigator, a Sprinter — and the chauffeur is licensed, background-checked, and dressed for the occasion.</p>
 
       <h2>When Rideshare or a Taxi Is the Better Call</h2>
       <p>For a short, spontaneous trip with flexible timing outside of festival season — a quick hop between French Quarter bars, a same-day errand — rideshare is often faster to arrange and perfectly adequate. Taxis remain a reasonable option at fixed stands like hotels.</p>

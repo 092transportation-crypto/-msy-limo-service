@@ -144,7 +144,7 @@ export const BLOG_POSTS_BATCH4 = [
       <p>Taking clients to a Saints or Pelicans game is a common piece of <a href="/services/corporate-transportation">corporate hospitality</a> in New Orleans, and the transportation is part of the impression — a clean SUV or sedan waiting at the entrance says as much about your company as the tickets themselves. See our <a href="/blog/best-limo-service-for-groups">group limo service guide</a> for coordinating a larger client or team outing.</p>
 
       <h2>Groups and Watch Parties</h2>
-      <p>A group of six or more headed to the same game does better in one Sprinter van or Escalade than splitting into multiple cars that may not park near each other. Per-vehicle flat-rate pricing also tends to beat several individual rideshare fares once surge pricing kicks in around kickoff or tip-off traffic.</p>
+      <p>A group of six or more headed to the same game does better in one Sprinter van or Navigator than splitting into multiple cars that may not park near each other. Per-vehicle flat-rate pricing also tends to beat several individual rideshare fares once surge pricing kicks in around kickoff or tip-off traffic.</p>
 
       <h2>What's Included</h2>
       <p>Game-day car service is a flat rate confirmed at booking — no surge no matter how big the crowd, no waiting-fee surprises if a tailgate runs long. Standard 15 minutes of complimentary wait time applies outside of airport pickups, so a slightly delayed exit from the arena doesn't cost extra.</p>
@@ -176,7 +176,7 @@ export const BLOG_POSTS_BATCH4 = [
       <p class="lead">A milestone birthday in New Orleans usually isn't one stop — it's a dinner, a bar or lounge, maybe a jazz club, and a safe ride home at the end of a long night. Chauffeured transportation turns that sequence into one seamless evening instead of a scramble to coordinate rides between venues. Here's how to plan it well, whatever milestone you're celebrating.</p>
 
       <h2>Matching the Vehicle to the Milestone</h2>
-      <p>A 21st birthday group heading to Frenchmen Street or the French Quarter often wants room for the whole friend group and enough space to keep everyone together between bars — a Sprinter van or Escalade is the natural fit. A 40th or 50th birthday dinner at a Warehouse District restaurant, by contrast, often calls for something quieter and more understated — an executive sedan or a smaller SUV for the guest of honor and a close group.</p>
+      <p>A 21st birthday group heading to Frenchmen Street or the French Quarter often wants room for the whole friend group and enough space to keep everyone together between bars — a Sprinter van or Navigator is the natural fit. A 40th or 50th birthday dinner at a Warehouse District restaurant, by contrast, often calls for something quieter and more understated — an executive sedan or a smaller SUV for the guest of honor and a close group.</p>
 
       <h2>Building the Evening's Itinerary</h2>
       <p>Most milestone celebrations follow a similar shape: a pickup from home or a hotel, a dinner reservation, one or two stops for drinks or live music, and a final drop-off at the end of the night. Share this sequence with your chauffeur in advance, including rough timing for each stop, so the vehicle can be positioned and waiting rather than requested fresh at each location.</p>
@@ -352,7 +352,7 @@ export const BLOG_POSTS_BATCH4 = [
       </ul>
 
       <h2>Vehicle Choice for the Weekend</h2>
-      <p>A Sprinter van or Cadillac Escalade fits most bachelor and bachelorette groups comfortably and keeps the party together for the whole night. For a smaller, more intimate group, a luxury SUV works well and is easier to maneuver through French Quarter side streets between stops.</p>
+      <p>A Sprinter van or Lincoln Navigator fits most bachelor and bachelorette groups comfortably and keeps the party together for the whole night. For a smaller, more intimate group, a luxury SUV works well and is easier to maneuver through French Quarter side streets between stops.</p>
 
       <h2>Safety Is the Real Point</h2>
       <p>Bachelor and bachelorette weekends involve celebratory drinking by design, which is exactly the situation reserved transportation is built for. A confirmed chauffeur removes any question of who's driving at the end of the night, and it removes the temptation to walk unfamiliar streets alone late at night in a city you don't know well.</p>
@@ -367,7 +367,7 @@ export const BLOG_POSTS_BATCH4 = [
       <p>Give us your headcount, hotel, and rough nightly plans, and we'll build the transportation around your <a href="/services/special-events">bachelor or bachelorette weekend</a>. See our <a href="/blog/best-limo-service-for-groups">group limo guide</a> for more on multi-stop group coordination, and book online or call <a href="tel:+18776091919">(877) 609-1919</a>.</p>
     `,
     faqs: [
-      { q: "What's the best vehicle for a bachelorette party of eight?", a: "A Sprinter van or Cadillac Escalade comfortably fits most groups that size and keeps everyone together for the whole night, which matters more than the vehicle type itself." },
+      { q: "What's the best vehicle for a bachelorette party of eight?", a: "A Sprinter van or Lincoln Navigator comfortably fits most groups that size and keeps everyone together for the whole night, which matters more than the vehicle type itself." },
       { q: "Do you handle multi-stop French Quarter bar crawls?", a: "Yes — this is one of our most common bachelor and bachelorette bookings. Confirm your planned stops with dispatch and your chauffeur waits between each one." },
       { q: "Can you pick up guests arriving on different flights for the same weekend?", a: "Yes. Give us each flight number and we'll build a pickup sequence around the group's actual staggered arrival times." },
       { q: "Is it cheaper to book one vehicle for the whole group than separate rideshares?", a: "Usually, yes, especially on a busy French Quarter night when surge pricing applies. A flat per-vehicle rate split across the group is often the better value, with the added benefit of staying together." },
@@ -421,7 +421,7 @@ export const BLOG_POSTS_BATCH4 = [
       <p>Share your bridal party size, family headcount, and guest block with dispatch, and we'll recommend the right combination of vehicles for your day. Call <a href="tel:+18776091919">(877) 609-1919</a> or request a quote through <a href="/fleet">our fleet page</a>.</p>
     `,
     faqs: [
-      { q: "How many people fit in a wedding party SUV?", a: "A luxury SUV like a Cadillac Escalade comfortably fits a bridal party of four to six, including the couple." },
+      { q: "How many people fit in a wedding party SUV?", a: "A luxury SUV like a Lincoln Navigator comfortably fits a bridal party of four to six, including the couple." },
       { q: "Do we really need a guest shuttle?", a: "It depends on your hotel block size and venue distance. If a meaningful share of guests are staying at one hotel and the venue isn't walkable, a shuttle loop is usually cheaper per guest than individual rides." },
       { q: "Should the ceremony vehicle also be our getaway car?", a: "Either works. Reusing the same vehicle is simpler and slightly cheaper; a dedicated getaway car frees the arrival vehicle to leave earlier in the evening." },
       { q: "What if our bridal party is larger than 12 people?", a: "A Sprinter van seats up to 13, which covers most larger wedding parties in one vehicle. For anything beyond that, we can quote a second vehicle running alongside it." },

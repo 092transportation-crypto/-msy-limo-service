@@ -130,7 +130,7 @@ export const GUIDES = [
       <p>That chain of accountability matters more than it sounds. If plans change, you speak with a person. If something is left in the car, there is a record of which vehicle and which chauffeur. If a company needs to document employee travel, the trip details exist. A reserved service is answerable for the outcome in a way an anonymous on-demand match is not designed to be.</p>
 
       <h2>A Vehicle Prepared for You</h2>
-      <p>In chauffeured service the vehicle is part of what you reserve. You choose the class in advance, whether that is a Mercedes-Benz E-Class or S-Class, a BMW 7 Series, a Cadillac Escalade, a Chevrolet Suburban, a Mercedes Sprinter van or a stretch limousine, and that is what arrives. It is cleaned and checked before the trip, and it is sized to your party and luggage. Child car seats are available on request, which removes one of the hardest parts of traveling with small children. You can review the options on our <a href="/fleet">fleet page</a>.</p>
+      <p>In chauffeured service the vehicle is part of what you reserve. You choose the class in advance, whether that is a Mercedes-Benz E-Class or S-Class, a BMW 7 Series, a Lincoln Navigator, a Chevrolet Suburban, a Mercedes Sprinter van or a stretch limousine, and that is what arrives. It is cleaned and checked before the trip, and it is sized to your party and luggage. Child car seats are available on request, which removes one of the hardest parts of traveling with small children. You can review the options on our <a href="/fleet">fleet page</a>.</p>
 
       <h2>Discretion and Service Manners</h2>
       <p>Professional chauffeurs are trained to take their cue from the passenger. Some riders want local recommendations. Many want quiet, either to work, to take a call or simply to decompress after a flight. Conversations held in the vehicle stay there. Doors are opened, luggage is handled and the ride itself is smooth, since a chauffeur is judged on comfort and punctuality rather than speed.</p>
@@ -226,7 +226,7 @@ export const GUIDES = [
 
       <h2>Chauffeured Car Service</h2>
       <p>A reserved car is the option with the fewest unknowns. With MSY Limo Service, your flight is tracked in real time and the chauffeur adjusts to the actual arrival. Airport pickups include 45 minutes of complimentary wait time for domestic arrivals and 60 minutes for international arrivals. You can add meet and greet service to be met inside the terminal, which helps first-time visitors, older travelers and anyone hosting a guest.</p>
-      <p>The rate is flat and confirmed before you ride. You choose the vehicle in advance, from Mercedes-Benz and BMW sedans to Cadillac Escalade and Chevrolet Suburban SUVs and Mercedes Sprinter vans for groups, and child car seats are available on request. Details are on our <a href="/services/airport-transportation">airport transportation</a> page. If you are weighing whether the extra service is worth it for your trip, <a href="/why-hire-a-chauffeur">why hire a chauffeur</a> lays out what is included.</p>
+      <p>The rate is flat and confirmed before you ride. You choose the vehicle in advance, from Mercedes-Benz and BMW sedans to Lincoln Navigator and Chevrolet Suburban SUVs and Mercedes Sprinter vans for groups, and child car seats are available on request. Details are on our <a href="/services/airport-transportation">airport transportation</a> page. If you are weighing whether the extra service is worth it for your trip, <a href="/why-hire-a-chauffeur">why hire a chauffeur</a> lays out what is included.</p>
 
       <h2>Timing Your Departure</h2>
       <p>Most missed flights are lost on the ground. A few habits protect you.</p>
@@ -306,7 +306,7 @@ export const GUIDES = [
 
       <h2>Consistency of Driver and Vehicle</h2>
       <p>On-demand matching means each ride brings a different driver and a different vehicle. That is fine for an individual employee running an errand. It is less suitable when a senior executive is being collected from MSY, when a client is riding along, or when the first impression of your event begins at the curb.</p>
-      <p>A corporate car service lets you specify the vehicle class ahead of time: a Mercedes-Benz E-Class or S-Class or a BMW 7 Series for executives, a Cadillac Escalade or Chevrolet Suburban for small teams, and Mercedes Sprinter vans for groups. The standard is the same on every trip, which is the point. The full range is on our <a href="/fleet">fleet page</a>.</p>
+      <p>A corporate car service lets you specify the vehicle class ahead of time: a Mercedes-Benz E-Class or S-Class or a BMW 7 Series for executives, a Lincoln Navigator or Chevrolet Suburban for small teams, and Mercedes Sprinter vans for groups. The standard is the same on every trip, which is the point. The full range is on our <a href="/fleet">fleet page</a>.</p>
 
       <h2>Invoicing and Expense Control</h2>
       <p>Finance teams care about two things: predictability and paperwork. Chauffeured service addresses both. Rates are flat and confirmed before the ride, so a program can be budgeted in advance without exposure to demand-based price changes during a busy convention week. Corporate accounts receive consolidated monthly invoicing, so dozens of trips arrive as one statement rather than a scatter of individual receipts attached to expense reports.</p>
@@ -497,7 +497,7 @@ export const GUIDES = [
 
       <h2>Tulane, Loyola and Audubon Park</h2>
       <p>Tulane University and Loyola University New Orleans sit side by side on St. Charles Avenue, directly across from Audubon Park. The park runs from the avenue toward the river, and Audubon Zoo is at its far end, on the Magazine Street side.</p>
-      <p>The university calendar drives traffic here more than visitors expect. Move-in and move-out days, family weekends, home athletic events and especially commencement fill nearby hotels and crowd the streets around campus. Families flying in for these occasions should arrange airport transportation early. A Cadillac Escalade, Chevrolet Suburban or Mercedes Sprinter van handles a family and a student's worth of luggage far better than a sedan. Visiting faculty, recruiters and speakers are well served by our <a href="/services/corporate-transportation">corporate transportation</a> service.</p>
+      <p>The university calendar drives traffic here more than visitors expect. Move-in and move-out days, family weekends, home athletic events and especially commencement fill nearby hotels and crowd the streets around campus. Families flying in for these occasions should arrange airport transportation early. A Lincoln Navigator, Chevrolet Suburban or Mercedes Sprinter van handles a family and a student's worth of luggage far better than a sedan. Visiting faculty, recruiters and speakers are well served by our <a href="/services/corporate-transportation">corporate transportation</a> service.</p>
 
       <h2>Carnival Season on St. Charles</h2>
       <p>This is the seasonal complication. During the weeks leading up to Mardi Gras Day, most of the major parades in New Orleans follow an Uptown route that travels along St. Charles Avenue toward downtown. On parade days, the avenue closes to traffic well before the first float and reopens only after the last one passes and cleanup crews have followed. On the busiest days, several parades roll back to back.</p>
@@ -678,7 +678,7 @@ export const GUIDES = [
         <li><strong>BMW 7 Series or Mercedes S-Class sedan</strong> — seats up to 3. The first-class option for a couple who want a quieter, more premium cabin for an anniversary or date-night version of the tour.</li>
         <li><strong>Lincoln Nautilus SUV</strong> — seats up to 3 with extra luggage room, useful for a family bringing blankets, thermoses and camera gear for a multi-stop night.</li>
         <li><strong>Chevrolet Suburban</strong> — seats up to 5. A natural fit for an extended family group doing both a drive-through display and a walkable stop like National Harbor in the same evening.</li>
-        <li><strong>Cadillac Escalade</strong> — seats up to 6, with premium sound and rear screens, a popular choice for a grandparents-and-grandkids outing where keeping the kids entertained between stops matters.</li>
+        <li><strong>Lincoln Navigator</strong> — seats up to 6, with premium sound and rear screens, a popular choice for a grandparents-and-grandkids outing where keeping the kids entertained between stops matters.</li>
         <li><strong>Mercedes Sprinter shuttle</strong> — seats up to 13. The right call for an office holiday party, a church or school group, or an extended family reunion touring two or three displays together in one vehicle instead of splitting into several cars that inevitably get separated in the dark.</li>
         <li><strong>Mercedes Sprinter executive van</strong> — seats up to 13 with a limo-style interior, mood lighting and a mini bar, for a group that wants the evening itself to feel like part of the celebration, not just the transportation to it.</li>
       </ul>
@@ -738,7 +738,7 @@ export const GUIDES = [
       },
       {
         q: "What vehicle should we book for a family holiday lights tour versus a large group?",
-        a: "A couple or small family touring a single drive-through display is well served by a Mercedes-Benz E-Class sedan or Lincoln Nautilus SUV. A larger extended family or group doing a drive-through plus a walkable stop fits comfortably in a Chevrolet Suburban or Cadillac Escalade. An office party, school group or large family reunion touring multiple displays together typically books a Mercedes Sprinter shuttle or executive van, which seats up to 13.",
+        a: "A couple or small family touring a single drive-through display is well served by a Mercedes-Benz E-Class sedan or Lincoln Nautilus SUV. A larger extended family or group doing a drive-through plus a walkable stop fits comfortably in a Chevrolet Suburban or Lincoln Navigator. An office party, school group or large family reunion touring multiple displays together typically books a Mercedes Sprinter shuttle or executive van, which seats up to 13.",
       },
       {
         q: "What is your cancellation policy if weather affects a holiday lights tour?",
@@ -806,7 +806,7 @@ export const GUIDES = [
       <p>Alexandria, Natchitoches, Monroe and New Iberia fall inside this same range relative to their distance, and we quote all of them the same way — call with your exact pickup and drop-off and we confirm the number in about a minute.</p>
 
       <h2>SUV and Sprinter Pricing on Long Runs</h2>
-      <p>A Cadillac Escalade or Chevrolet Suburban typically adds roughly $40–$80 over the equivalent sedan rate on these longer trips, which matters less than it sounds once you are moving four or more people with real luggage. A Mercedes Sprinter van scales further but still beats splitting a group of eight or more across two rideshare vehicles that may not even accept a trip this long in the first place.</p>
+      <p>A Lincoln Navigator or Chevrolet Suburban typically adds roughly $40–$80 over the equivalent sedan rate on these longer trips, which matters less than it sounds once you are moving four or more people with real luggage. A Mercedes Sprinter van scales further but still beats splitting a group of eight or more across two rideshare vehicles that may not even accept a trip this long in the first place.</p>
 
       <h2>Round Trips and Why They're Worth Booking Together</h2>
       <p>On a trip to Lafayette, Lake Charles or the Gulf Coast, we strongly recommend locking in both legs when you first book. Same-day return availability on a 150-plus-mile route is far less certain than a scheduled round trip, and booking both legs together locks your return at the same confirmed rate rather than leaving it to chance.</p>
@@ -857,7 +857,7 @@ export const GUIDES = [
       <h2>Vehicle Types at MSY, and Who Each One Fits</h2>
       <ul>
         <li><strong>Luxury sedan</strong> (Mercedes-Benz E-Class, BMW 7 Series): one to three passengers, standard luggage, the default choice for solo business travelers and couples.</li>
-        <li><strong>Premium SUV</strong> (Cadillac Escalade, Chevrolet Suburban): families and small groups up to six, with real room for golf bags, car seats or beach luggage.</li>
+        <li><strong>Premium SUV</strong> (Lincoln Navigator, Chevrolet Suburban): families and small groups up to six, with real room for golf bags, car seats or beach luggage.</li>
         <li><strong>Sprinter van</strong> (up to 14 passengers): wedding parties, conventions and corporate groups who need to arrive together rather than splitting across several vehicles.</li>
         <li><strong>Stretch limousine</strong>: celebrations — proms, anniversaries, bachelorette weekends — where the vehicle is part of the occasion.</li>
         <li><strong>Shared shuttle</strong>: budget travelers with flexible timing and no urgency about extra stops.</li>
@@ -966,7 +966,7 @@ export const GUIDES = [
       <p>Every private event plan in the French Quarter starts from the same fact: the street grid predates the automobile, many blocks are one-way, and parts of Bourbon and Royal Streets close to vehicles nightly and during events. A planner who accounts for this upfront avoids the most common mistake — assuming a vehicle can simply pull up to the venue door the way it would anywhere else.</p>
 
       <h2>Weddings: Staging, Not Just Scheduling</h2>
-      <p>A French Quarter wedding transportation plan needs a staging point, not just a pickup time. Many historic venues — courtyards, galleries, converted townhouses — sit on blocks where a stretch limousine simply cannot maneuver. We check your exact venue address in advance and tell you honestly whether a stretch limo, a Cadillac Escalade or a sedan is the right call, and we identify a realistic staging spot on a nearby accessible street for the getaway car rather than promising a curbside moment that the block can't deliver.</p>
+      <p>A French Quarter wedding transportation plan needs a staging point, not just a pickup time. Many historic venues — courtyards, galleries, converted townhouses — sit on blocks where a stretch limousine simply cannot maneuver. We check your exact venue address in advance and tell you honestly whether a stretch limo, a Lincoln Navigator or a sedan is the right call, and we identify a realistic staging spot on a nearby accessible street for the getaway car rather than promising a curbside moment that the block can't deliver.</p>
       <p>The second common mistake is treating hotel-block guest shuttles as an afterthought. If your wedding is pulling guests from multiple French Quarter hotels, a Sprinter van running a scheduled loop is usually more reliable than asking everyone to arrange their own ride to a venue with limited nearby parking.</p>
 
       <h2>Second-Line Send-Offs: Plan Around the Parade, Not the Ceremony</h2>
@@ -991,7 +991,7 @@ export const GUIDES = [
       <p>Share your venue, timing and guest count, and we'll build a transportation plan around what the Quarter's streets actually allow. Call <a href="tel:+18776091919">(877) 609-1919</a> or <a href="/booking">book online</a>.</p>
     `,
     faqs: [
-      { q: "Can a stretch limousine reach every French Quarter venue?", a: "No. Many historic blocks are too narrow or one-way for a full stretch limo. We check your exact venue address in advance and recommend a Cadillac Escalade or sedan when the street calls for it." },
+      { q: "Can a stretch limousine reach every French Quarter venue?", a: "No. Many historic blocks are too narrow or one-way for a full stretch limo. We check your exact venue address in advance and recommend a Lincoln Navigator or sedan when the street calls for it." },
       { q: "How do you handle transportation for a second-line wedding send-off?", a: "We ask for your second-line route and expected end time separately from your ceremony schedule, since the getaway vehicle needs to stage near where the parade concludes, not at the ceremony site." },
       { q: "What vehicle works best for French Quarter hotel-block wedding guests?", a: "A Sprinter van running a scheduled loop between hotels and the venue is usually more reliable than guests arranging individual rides to a venue with limited nearby parking." },
       { q: "Is hourly service better than a fixed transfer for a photography session?", a: "Yes. Photography sessions move at the photographer's pace with unpredictable wait times at each stop, which hourly, as-directed charter handles far better than a fixed pickup-and-drop-off booking." },
@@ -1372,7 +1372,7 @@ export const GUIDES = [
       <p>Unlike a taxi or rideshare, that quote doesn't change if your flight lands during a Friday evening rush, if LSU has a home game that weekend, or if the Baton Rouge interstate backs up near the I-10/I-12 merge. The number you're quoted is the number on your card afterward.</p>
 
       <h2>Vehicle Classes and What They Cost</h2>
-      <p>A Mercedes-Benz E-Class or similar business sedan is the most economical option for one or two travelers and their luggage. A Cadillac Escalade or Chevrolet Suburban SUV costs more but seats up to six with room for golf bags, sample cases or a family's luggage. A Mercedes Sprinter van is priced for groups of up to 13 — useful for an LSU game-day group, a wedding party, or a company sending a full team between the two cities on the same booking. A stretch limousine sits at the top of the range and is booked far less often for this particular route, mostly for celebrations rather than standard transfers.</p>
+      <p>A Mercedes-Benz E-Class or similar business sedan is the most economical option for one or two travelers and their luggage. A Lincoln Navigator or Chevrolet Suburban SUV costs more but seats up to six with room for golf bags, sample cases or a family's luggage. A Mercedes Sprinter van is priced for groups of up to 13 — useful for an LSU game-day group, a wedding party, or a company sending a full team between the two cities on the same booking. A stretch limousine sits at the top of the range and is booked far less often for this particular route, mostly for celebrations rather than standard transfers.</p>
       <p>Call <a href="tel:+18776091919">(877) 609-1919</a> or request a quote online with your exact pickup and drop-off addresses for the current flat rate in each class — we'd rather give you a real number than a wide range that doesn't tell you much.</p>
 
       <h2>How That Compares to a Taxi or Rideshare</h2>

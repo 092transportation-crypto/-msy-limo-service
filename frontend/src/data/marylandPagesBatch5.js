@@ -5,7 +5,7 @@
 const VEHICLES = [
   { name: "Mercedes-Benz E-Class", cls: "Business sedan", seats: 3, best: "solo executives and couples" },
   { name: "BMW 7 Series", cls: "First-class sedan", seats: 3, best: "VIP and executive travel" },
-  { name: "Cadillac Escalade", cls: "Premium SUV", seats: 6, best: "families and small groups with luggage" },
+  { name: "Lincoln Navigator", cls: "Premium SUV", seats: 6, best: "families and small groups with luggage" },
   { name: "Chevrolet Suburban", cls: "Luxury SUV", seats: 6, best: "airport runs with beach or golf luggage" },
   { name: "Mercedes Sprinter van", cls: "Executive van", seats: 14, best: "wedding parties, corporate teams and groups" },
   { name: "Stretch limousine", cls: "Limousine", seats: 8, best: "proms, weddings and celebrations" },
@@ -494,7 +494,7 @@ export const MARYLAND_BATCH5 = [
     vehicles: vehicles(),
     faqs: [
       { q: "How far is Carrollton from MSY airport?", a: "About 15 miles, usually a 20 to 25 minute drive via I-10 and Carrollton Avenue, longer during Tulane or Loyola move-in and graduation weekends." },
-      { q: "Can you handle move-in day loads near Tulane and Loyola?", a: "Yes. Our Cadillac Escalade SUVs and Mercedes Sprinter vans are the popular choice for move-in day boxes and furniture." },
+      { q: "Can you handle move-in day loads near Tulane and Loyola?", a: "Yes. Our Lincoln Navigator SUVs and Mercedes Sprinter vans are the popular choice for move-in day boxes and furniture." },
       { q: "Can you drop us at Oak Street restaurants?", a: "Yes, directly at the door whenever possible, with a pickup timed to your reservation so there's no post-dinner parking hunt." },
       { q: "What does a car service from MSY to Carrollton cost?", a: "A flat rate by vehicle class, confirmed before you book, with no surge pricing even on campus move-in weekends. Call (877) 609-1919 for an exact quote." },
       { q: "Do you offer hourly service for a day in Uptown?", a: "Yes. Hourly bookings keep the vehicle and chauffeur with you for campus visits, shopping on Oak Street, and dinner, all in one booking." },

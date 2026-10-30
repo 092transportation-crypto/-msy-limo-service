@@ -19,7 +19,7 @@
 const VEHICLES = [
   { name: "Mercedes-Benz E-Class", cls: "Business sedan", seats: 3, best: "solo executives and couples" },
   { name: "BMW 7 Series", cls: "First-class sedan", seats: 3, best: "VIP and executive travel" },
-  { name: "Cadillac Escalade", cls: "Premium SUV", seats: 6, best: "families and small groups with luggage" },
+  { name: "Lincoln Navigator", cls: "Premium SUV", seats: 6, best: "families and small groups with luggage" },
   { name: "Chevrolet Suburban", cls: "Luxury SUV", seats: 6, best: "airport runs with extra luggage" },
   { name: "Mercedes Sprinter van", cls: "Executive van", seats: 14, best: "wedding parties, corporate teams and groups" },
   { name: "Stretch limousine", cls: "Limousine", seats: 8, best: "proms, weddings and celebrations" },
@@ -877,7 +877,7 @@ export const MARYLAND_BATCH11 = [
       {
         h2: "Why vehicle size matters for a Garden District drop-off",
         paragraphs: [
-          "Many Garden District and Uptown streets are narrow and tree-lined with a tight turning radius that doesn't suit a full stretch limousine or a longer SUV. We check your exact address in advance and recommend a sedan or a Cadillac Escalade instead when the street calls for it, rather than discovering the problem curbside.",
+          "Many Garden District and Uptown streets are narrow and tree-lined with a tight turning radius that doesn't suit a full stretch limousine or a longer SUV. We check your exact address in advance and recommend a sedan or a Lincoln Navigator instead when the street calls for it, rather than discovering the problem curbside.",
           "A Sprinter van works well for a group heading to the same B&B or wedding venue, since it handles the District's layout better than several separate sedans trying to park on the same block.",
         ],
       },
@@ -899,7 +899,7 @@ export const MARYLAND_BATCH11 = [
     vehicles: vehicles(),
     faqs: [
       { q: "How far is the Garden District from MSY airport?", a: "About 14 miles, usually 25 to 35 minutes via I-10 and the Pontchartrain Expressway." },
-      { q: "Can a stretch limousine reach every Garden District address?", a: "Not every one. Many streets are narrow with a tight turning radius, so we check your exact address and may recommend a sedan or Escalade instead." },
+      { q: "Can a stretch limousine reach every Garden District address?", a: "Not every one. Many streets are narrow with a tight turning radius, so we check your exact address and may recommend a sedan or Navigator instead." },
       { q: "Do you serve the historic bed-and-breakfasts in the District?", a: "Yes, regularly, along with St. Charles Avenue streetcar-line hotels." },
       { q: "Is the rate flat for this route?", a: "Yes, confirmed before you book, with real-time flight tracking included." },
       { q: "Can you plan a full wedding day starting in the Garden District?", a: "Yes, typically as hourly, as-directed charter — see our wedding limo service page for details." },
@@ -1273,7 +1273,7 @@ export const MARYLAND_BATCH11 = [
     intro: [
       "A milestone birthday deserves a night where nobody has to think about parking, surge pricing, or who's designated to drive, and our hourly birthday party limo service is built around exactly that — one vehicle, one chauffeur, and a schedule that bends to however the night actually unfolds.",
       "Whether it's a 21st, a 30th, a 40th or a big round number further on, we build the evening around your plan: dinner in the French Quarter, a stop at a Warehouse District bar, a late finish on Frenchmen Street — all on one hourly reservation rather than a string of separate rideshare calls.",
-      "Groups book a stretch limousine or a Sprinter van to keep everyone together for the whole night, while smaller parties often prefer a Cadillac Escalade or a sedan for the guest of honor.",
+      "Groups book a stretch limousine or a Sprinter van to keep everyone together for the whole night, while smaller parties often prefer a Lincoln Navigator or a sedan for the guest of honor.",
     ],
     highlights: [
       "One chauffeur and vehicle for the whole night, as-directed",
@@ -1294,7 +1294,7 @@ export const MARYLAND_BATCH11 = [
       {
         h2: "Vehicles for every group size",
         paragraphs: [
-          "A sedan or Escalade suits a couple or a small group celebrating quietly; a Sprinter van or stretch limousine keeps a larger group together for a proper night out, especially useful when the birthday crowd is splitting a hotel block.",
+          "A sedan or Navigator suits a couple or a small group celebrating quietly; a Sprinter van or stretch limousine keeps a larger group together for a proper night out, especially useful when the birthday crowd is splitting a hotel block.",
           "Call ahead for a popular Friday or Saturday night, since weekend evenings are our highest-demand hourly bookings.",
         ],
       },
@@ -1310,7 +1310,7 @@ export const MARYLAND_BATCH11 = [
     faqs: [
       { q: "How is a birthday party limo booking priced?", a: "Hourly, as-directed charter, typically a three-hour minimum, with the rate confirmed before you book and no surge pricing added." },
       { q: "Can we make multiple stops during the night?", a: "Yes. That's exactly what hourly, as-directed service is built for — one chauffeur who stays with you from the first stop to the last." },
-      { q: "What vehicle works best for a group birthday celebration?", a: "A Sprinter van or stretch limousine for larger groups; a sedan or Cadillac Escalade for smaller celebrations." },
+      { q: "What vehicle works best for a group birthday celebration?", a: "A Sprinter van or stretch limousine for larger groups; a sedan or Lincoln Navigator for smaller celebrations." },
       { q: "Can you pick us up deep in the French Quarter?", a: "We'll plan a nearby perimeter pickup point in advance, since several Quarter streets are closed to vehicle traffic at night." },
       { q: "Is a champagne toast included?", a: "A complimentary champagne toast is commonly included — mention it when you book so it's ready for your celebration." },
     ],
@@ -1376,7 +1376,7 @@ export const MARYLAND_BATCH11 = [
     ],
     vehicles: [
       { name: "Mercedes-Benz E-Class", cls: "Business sedan", seats: 3, best: "the family car" },
-      { name: "Cadillac Escalade", cls: "Premium SUV", seats: 6, best: "family groups and luggage" },
+      { name: "Lincoln Navigator", cls: "Premium SUV", seats: 6, best: "family groups and luggage" },
       { name: "Chevrolet Suburban", cls: "Luxury SUV", seats: 6, best: "out-of-town family airport transfers" },
       { name: "Mercedes Sprinter van", cls: "Executive van", seats: 14, best: "larger family groups traveling together" },
       { name: "BMW 7 Series", cls: "First-class sedan", seats: 3, best: "immediate family transport" },
@@ -1586,7 +1586,7 @@ export const MARYLAND_BATCH11 = [
     ],
     vehicles: [
       { name: "Mercedes-Benz E-Class", cls: "Business sedan", seats: 3, best: "a day at the rail with friends" },
-      { name: "Cadillac Escalade", cls: "Premium SUV", seats: 6, best: "clubhouse groups" },
+      { name: "Lincoln Navigator", cls: "Premium SUV", seats: 6, best: "clubhouse groups" },
       { name: "Chevrolet Suburban", cls: "Luxury SUV", seats: 6, best: "corporate hospitality outings" },
       { name: "Mercedes Sprinter van", cls: "Executive van", seats: 14, best: "larger groups of six to thirteen" },
       { name: "BMW 7 Series", cls: "First-class sedan", seats: 3, best: "a stylish arrival for stakes days" },
@@ -1595,7 +1595,7 @@ export const MARYLAND_BATCH11 = [
     faqs: [
       { q: "When does Fair Grounds Race Course run live racing?", a: "From Thanksgiving through late March, a different season from the venue's spring Jazz Fest weekends." },
       { q: "Can you drop us close to the clubhouse entrance?", a: "Yes, as close as track-day traffic control allows." },
-      { q: "What's the best vehicle for a group outing to the races?", a: "A Sprinter van for groups of six to thirteen; a sedan or Escalade for smaller groups." },
+      { q: "What's the best vehicle for a group outing to the races?", a: "A Sprinter van for groups of six to thirteen; a sedan or Navigator for smaller groups." },
       { q: "Is pricing higher on big stakes-race days?", a: "No. Your flat rate is confirmed before you book, with no surge pricing." },
       { q: "Can you time pickup for whenever we're ready to leave?", a: "Yes, we coordinate pickup by text for whenever your group decides to head out." },
     ],
@@ -1661,7 +1661,7 @@ export const MARYLAND_BATCH11 = [
     ],
     vehicles: [
       { name: "Mercedes-Benz E-Class", cls: "Business sedan", seats: 3, best: "a quick stop before a flight" },
-      { name: "Cadillac Escalade", cls: "Premium SUV", seats: 6, best: "small group nights out" },
+      { name: "Lincoln Navigator", cls: "Premium SUV", seats: 6, best: "small group nights out" },
       { name: "Chevrolet Suburban", cls: "Luxury SUV", seats: 6, best: "airport layover stops" },
       { name: "Mercedes Sprinter van", cls: "Executive van", seats: 14, best: "larger group casino nights" },
       { name: "BMW 7 Series", cls: "First-class sedan", seats: 3, best: "a stylish casino arrival" },
@@ -1736,7 +1736,7 @@ export const MARYLAND_BATCH11 = [
     ],
     vehicles: [
       { name: "Mercedes-Benz E-Class", cls: "Business sedan", seats: 3, best: "a couple's evening cruise" },
-      { name: "Cadillac Escalade", cls: "Premium SUV", seats: 6, best: "small group bookings" },
+      { name: "Lincoln Navigator", cls: "Premium SUV", seats: 6, best: "small group bookings" },
       { name: "Chevrolet Suburban", cls: "Luxury SUV", seats: 6, best: "families heading to the wharf" },
       { name: "Mercedes Sprinter van", cls: "Executive van", seats: 14, best: "group and corporate event bookings" },
       { name: "BMW 7 Series", cls: "First-class sedan", seats: 3, best: "a polished dinner-cruise arrival" },
@@ -1970,20 +1970,20 @@ export const MARYLAND_BATCH11 = [
     badge: "Chauffeur Service",
     h1: "New Orleans Black SUV Car Service",
     metaTitle: "New Orleans Black SUV Car Service | MSY Limo",
-    metaDescription: "Black SUV car service in New Orleans — Cadillac Escalades & Chevrolet Suburbans, flat rates, airport & corporate transfers. (877) 609-1919.",
+    metaDescription: "Black SUV car service in New Orleans — Lincoln Navigators & Chevrolet Suburbans, flat rates, airport & corporate transfers. (877) 609-1919.",
     stats: [
-      { label: "Fleet", value: "Cadillac Escalade · Chevrolet Suburban" },
+      { label: "Fleet", value: "Lincoln Navigator · Chevrolet Suburban" },
       { label: "Seats", value: "Up to 6 passengers + luggage" },
       { label: "Pricing", value: "Flat rate or hourly" },
       { label: "Dispatch", value: "24 / 7" },
     ],
     intro: [
-      "A black SUV is the right call when a sedan is too small and a full stretch limousine is more than the trip calls for — families with luggage, small executive groups, or anyone who simply prefers the extra room and presence of a Cadillac Escalade or Chevrolet Suburban.",
+      "A black SUV is the right call when a sedan is too small and a full stretch limousine is more than the trip calls for — families with luggage, small executive groups, or anyone who simply prefers the extra room and presence of a Lincoln Navigator or Chevrolet Suburban.",
       "We run black SUV service for MSY airport transfers, corporate travel, and group outings that need six-passenger capacity without the length of a limousine, which also makes an SUV easier to use on narrower Garden District or Uptown streets than a stretch vehicle.",
       "Every SUV in the fleet is late-model, professionally maintained, and driven by a licensed, background-checked chauffeur — the same standard across every vehicle class we run.",
     ],
     highlights: [
-      "Cadillac Escalades and Chevrolet Suburbans, late-model and maintained",
+      "Lincoln Navigators and Chevrolet Suburbans, late-model and maintained",
       "Seats up to six passengers with room for luggage",
       "Flat-rate airport transfers or hourly charter",
       "Easier street access than a stretch limousine on narrower blocks",
@@ -1995,7 +1995,7 @@ export const MARYLAND_BATCH11 = [
         h2: "When a black SUV is the right vehicle",
         paragraphs: [
           "Families flying in with checked bags, small executive groups traveling together, and anyone who wants extra room without booking a van all tend toward a black SUV rather than a sedan or a full Sprinter.",
-          "On streets where a stretch limousine's turning radius is a problem — parts of the Garden District and Uptown, for example — a Cadillac Escalade is often the better practical choice while still delivering a premium ride.",
+          "On streets where a stretch limousine's turning radius is a problem — parts of the Garden District and Uptown, for example — a Lincoln Navigator is often the better practical choice while still delivering a premium ride.",
         ],
       },
       {
@@ -2008,13 +2008,13 @@ export const MARYLAND_BATCH11 = [
       {
         h2: "Booking lead time and what's included",
         paragraphs: [
-          "A single black SUV transfer is generally available same-day or next-day; a corporate account needing SUVs on a recurring schedule, or a family booking around a major holiday or event weekend, should reserve a week or more ahead to guarantee a Cadillac Escalade or Chevrolet Suburban rather than a substitute vehicle class. Flight tracking on airport runs and 45 minutes of complimentary domestic wait time are included at no extra cost.",
+          "A single black SUV transfer is generally available same-day or next-day; a corporate account needing SUVs on a recurring schedule, or a family booking around a major holiday or event weekend, should reserve a week or more ahead to guarantee a Lincoln Navigator or Chevrolet Suburban rather than a substitute vehicle class. Flight tracking on airport runs and 45 minutes of complimentary domestic wait time are included at no extra cost.",
           "Sedan and SUV fares cancel free up to 3 hours before pickup; Sprinter van and multi-vehicle group bookings follow the 12-hour window. Call (877) 609-1919 to confirm SUV availability for your date.",
         ],
       },
     ],
     vehicles: [
-      { name: "Cadillac Escalade", cls: "Premium SUV", seats: 6, best: "families and small groups with luggage" },
+      { name: "Lincoln Navigator", cls: "Premium SUV", seats: 6, best: "families and small groups with luggage" },
       { name: "Chevrolet Suburban", cls: "Luxury SUV", seats: 6, best: "airport runs and corporate travel" },
       { name: "Mercedes-Benz E-Class", cls: "Business sedan", seats: 3, best: "solo travelers who don't need SUV capacity" },
       { name: "BMW 7 Series", cls: "First-class sedan", seats: 3, best: "VIP and executive travel" },
@@ -2022,7 +2022,7 @@ export const MARYLAND_BATCH11 = [
       { name: "Stretch limousine", cls: "Limousine", seats: 8, best: "celebrations where the vehicle is part of the event" },
     ],
     faqs: [
-      { q: "What black SUVs are in the fleet?", a: "Cadillac Escalades and Chevrolet Suburbans, both late-model and seating up to six passengers with luggage room." },
+      { q: "What black SUVs are in the fleet?", a: "Lincoln Navigators and Chevrolet Suburbans, both late-model and seating up to six passengers with luggage room." },
       { q: "When should I book a black SUV instead of a sedan?", a: "When you have more passengers, more luggage, or simply prefer the extra room — families and small executive groups are common SUV bookings." },
       { q: "Can a black SUV reach narrow Garden District or Uptown streets?", a: "Generally yes, more easily than a stretch limousine, though we still check your exact address in advance." },
       { q: "Is black SUV pricing flat for airport transfers?", a: "Yes, confirmed before you book by vehicle class, with no surge pricing." },
@@ -2055,7 +2055,7 @@ export const MARYLAND_BATCH11 = [
     intro: [
       "A stretch limousine is still the vehicle most people picture for a prom, a wedding party, a bachelorette night or a milestone celebration, and we rent ours the way they're meant to be used — with a professional, licensed chauffeur included, not a self-drive rental.",
       "Our stretch limousines seat up to eight and are booked by the hour, as-directed, which means the same vehicle and chauffeur stay with your group from the first pickup to the last drop-off rather than a single point-to-point fare.",
-      "Because stretch limousines have a longer wheelbase and wider turning radius than a sedan or SUV, we check your pickup and drop-off addresses in advance — some narrow Garden District, Uptown and French Quarter streets fit a sedan or Escalade better, and we'll tell you honestly if that's the case for your venue.",
+      "Because stretch limousines have a longer wheelbase and wider turning radius than a sedan or SUV, we check your pickup and drop-off addresses in advance — some narrow Garden District, Uptown and French Quarter streets fit a sedan or Navigator better, and we'll tell you honestly if that's the case for your venue.",
     ],
     highlights: [
       "Professional chauffeur included — not a self-drive rental",
@@ -2076,7 +2076,7 @@ export const MARYLAND_BATCH11 = [
       {
         h2: "Street access and vehicle fit",
         paragraphs: [
-          "A stretch limousine's length can be a genuine problem on some of New Orleans's narrower historic streets, and we'd rather flag that honestly when you book than discover it on the day. A Cadillac Escalade is often the better practical substitute for those specific addresses while still delivering a premium ride.",
+          "A stretch limousine's length can be a genuine problem on some of New Orleans's narrower historic streets, and we'd rather flag that honestly when you book than discover it on the day. A Lincoln Navigator is often the better practical substitute for those specific addresses while still delivering a premium ride.",
           "For French Quarter pickups specifically, we typically stage at a nearby perimeter street rather than attempting to navigate the Quarter's narrowest blocks directly.",
         ],
       },
@@ -2090,7 +2090,7 @@ export const MARYLAND_BATCH11 = [
     ],
     vehicles: [
       { name: "Stretch limousine", cls: "Limousine", seats: 8, best: "proms, weddings and celebrations" },
-      { name: "Cadillac Escalade", cls: "Premium SUV", seats: 6, best: "narrow-street venues a limo can't reach" },
+      { name: "Lincoln Navigator", cls: "Premium SUV", seats: 6, best: "narrow-street venues a limo can't reach" },
       { name: "Mercedes Sprinter van", cls: "Executive van", seats: 14, best: "larger wedding parties and groups" },
       { name: "Mercedes-Benz E-Class", cls: "Business sedan", seats: 3, best: "couples and smaller celebrations" },
       { name: "BMW 7 Series", cls: "First-class sedan", seats: 3, best: "a VIP arrival alternative to a limo" },
@@ -2100,7 +2100,7 @@ export const MARYLAND_BATCH11 = [
       { q: "Does a stretch limo rental include a chauffeur?", a: "Yes, every rental includes a professional, licensed chauffeur — we don't offer self-drive rentals." },
       { q: "How many passengers fit in a stretch limousine?", a: "Up to eight, depending on the specific vehicle assigned to your booking." },
       { q: "Is there a minimum booking time?", a: "Typically a three-hour minimum for hourly, as-directed charter." },
-      { q: "Can a stretch limo reach every New Orleans venue?", a: "Not every one — some Garden District, Uptown and French Quarter streets are too narrow, and we'll recommend a Cadillac Escalade instead when that's the case." },
+      { q: "Can a stretch limo reach every New Orleans venue?", a: "Not every one — some Garden District, Uptown and French Quarter streets are too narrow, and we'll recommend a Lincoln Navigator instead when that's the case." },
       { q: "How far ahead should I book for prom or wedding season?", a: "A few weeks ahead for prom season, and ideally months ahead for a peak spring or fall wedding Saturday." },
     ],
     related: [

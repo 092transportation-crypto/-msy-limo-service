@@ -55,7 +55,7 @@ const UniqueFeatures = () => {
     {
       icon: Car,
       title: "Luxury Fleet",
-      description: "Mercedes, Cadillac Escalade, Lincoln, Stretch Limos - all meticulously maintained.",
+      description: "Mercedes, Lincoln Navigator, Suburban, Stretch Limos - all meticulously maintained.",
       highlight: "PREMIUM",
       color: "from-amber-400 to-yellow-300",
       link: "/fleet"

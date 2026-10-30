@@ -31,7 +31,7 @@ export const faqData = [
   {
     id: "faq-5",
     question: "Which vehicles are best for weddings or group nights out?",
-    answer: "For weddings, our stretch limousines accommodate the whole wedding party. For family outings or group celebrations, the Cadillac Escalade seats up to 6 and the Mercedes Sprinter van carries up to 13 passengers in comfort."
+    answer: "For weddings, our stretch limousines accommodate the whole wedding party. For family outings or group celebrations, the Lincoln Navigator seats up to 6 and the Mercedes Sprinter van carries up to 13 passengers in comfort."
   },
   {
     id: "faq-6",

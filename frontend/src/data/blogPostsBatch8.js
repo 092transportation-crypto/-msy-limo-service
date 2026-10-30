@@ -33,11 +33,11 @@ export const BLOG_POSTS_BATCH8 = [
       <p class="lead">Search for "how much does a limo cost in New Orleans" and most of what comes back is airport transfer pricing — a flat rate for one pickup, one drop-off. That's a different question from what this guide answers: what does it cost to book a vehicle and chauffeur for a block of hours, or a full day, with no fixed route at all? Hourly, as-directed rental is its own pricing structure, and it's worth understanding on its own terms before you book a night out, a full-day charter, or anything that isn't a single point-to-point trip.</p>
 
       <h2>Hourly Rates by Vehicle Class</h2>
-      <p>As a general 2026 benchmark, hourly chauffeured service in New Orleans runs roughly $85–$115 per hour for a luxury sedan and $115–$150 per hour for a premium SUV like a Cadillac Escalade, typically with a three-hour minimum booking. Sprinter vans and stretch limousines are quoted individually based on your date and hours, since weekend evenings carry more demand than a weekday afternoon. None of these figures include a surge multiplier — the rate is confirmed at booking and holds regardless of traffic, event activity, or how the night actually unfolds.</p>
+      <p>As a general 2026 benchmark, hourly chauffeured service in New Orleans runs roughly $85–$115 per hour for a luxury sedan and $115–$150 per hour for a premium SUV like a Lincoln Navigator, typically with a three-hour minimum booking. Sprinter vans and stretch limousines are quoted individually based on your date and hours, since weekend evenings carry more demand than a weekday afternoon. None of these figures include a surge multiplier — the rate is confirmed at booking and holds regardless of traffic, event activity, or how the night actually unfolds.</p>
       <p>The three-hour minimum is standard across the industry, not a markup specific to one company, and it exists because dispatching a chauffeur and vehicle for less than that rarely makes sense logistically. If your actual need is a single trip rather than a block of time, point-to-point pricing — a flat rate for one pickup and one drop-off — is almost always the cheaper and more sensible option; see our point-to-point car service page for how that pricing works instead.</p>
 
       <h2>What a Full Day of Rental Actually Costs</h2>
-      <p>A full-day charter — commonly eight to ten hours — is priced as a multiple of the hourly rate rather than a flat day rate, so a sedan booked for eight hours lands in the $680–$920 range before any add-ons, and a Cadillac Escalade for the same eight hours runs roughly $920–$1,200. Full-day bookings are most common for weddings, out-of-town business delegations touring multiple meetings, or a family wanting one vehicle and chauffeur for an entire visit rather than booking separate rides.</p>
+      <p>A full-day charter — commonly eight to ten hours — is priced as a multiple of the hourly rate rather than a flat day rate, so a sedan booked for eight hours lands in the $680–$920 range before any add-ons, and a Lincoln Navigator for the same eight hours runs roughly $920–$1,200. Full-day bookings are most common for weddings, out-of-town business delegations touring multiple meetings, or a family wanting one vehicle and chauffeur for an entire visit rather than booking separate rides.</p>
       <p>Multi-vehicle full-day bookings — a sedan for principals and a Sprinter van for a larger group — are quoted as separate line items added together, which is usually clearer for budgeting than trying to estimate a single blended rate.</p>
 
       <h2>What Actually Moves the Price</h2>
@@ -429,7 +429,7 @@ export const BLOG_POSTS_BATCH8 = [
 
       <h2>Stretch Limousine: The Classic Choice</h2>
       <p>A stretch limousine seats up to eight and is still the vehicle most people picture for a prom, a wedding party, or a milestone celebration — the extended body, the presentation of arriving in one, and the classic look that photographs well are exactly why it remains popular. It's priced by the hour, as-directed, with a typical three-hour minimum, and a complimentary champagne toast is commonly included.</p>
-      <p>The tradeoff is the same longer wheelbase and wider turning radius that gives it its look: some historic New Orleans streets simply don't fit one, so we check your pickup and drop-off addresses in advance and will say so honestly if a Cadillac Escalade is the better practical substitute for your specific venue.</p>
+      <p>The tradeoff is the same longer wheelbase and wider turning radius that gives it its look: some historic New Orleans streets simply don't fit one, so we check your pickup and drop-off addresses in advance and will say so honestly if a Lincoln Navigator is the better practical substitute for your specific venue.</p>
 
       <h2>Party Bus: Built for a Bigger, Louder Group</h2>
       <p>A party bus (or a larger Sprinter van configured for groups) is the right call when your group is simply too large for a limousine, or when standing room, a sound system, and a more open, social layout matter more than the classic limo look. It's the standard choice for a bachelorette party with ten or more guests, a large milestone birthday, or a group that wants to treat the vehicle itself as part of the party rather than a ride between stops.</p>
@@ -438,7 +438,7 @@ export const BLOG_POSTS_BATCH8 = [
       <h2>A Side-by-Side Comparison</h2>
       <ul>
         <li><strong>Best for 1–3 people:</strong> Sedan</li>
-        <li><strong>Best for 4–6 people, narrow streets:</strong> Cadillac Escalade (SUV)</li>
+        <li><strong>Best for 4–6 people, narrow streets:</strong> Lincoln Navigator (SUV)</li>
         <li><strong>Best for 4–8 people, classic presentation:</strong> Stretch limousine</li>
         <li><strong>Best for 9+ people, social/standing layout:</strong> Party bus or Sprinter van</li>
       </ul>
@@ -455,7 +455,7 @@ export const BLOG_POSTS_BATCH8 = [
     faqs: [
       { q: "How many people fit in a stretch limousine?", a: "Up to eight, depending on the specific vehicle." },
       { q: "When should I book a party bus instead of a limo?", a: "When your group is nine or more people, or when you want a more open, social layout with standing room rather than the classic limo look." },
-      { q: "Can a stretch limo reach every New Orleans venue?", a: "Not every one — some Garden District, Uptown and French Quarter streets are too narrow, and a Cadillac Escalade is often the better practical substitute." },
+      { q: "Can a stretch limo reach every New Orleans venue?", a: "Not every one — some Garden District, Uptown and French Quarter streets are too narrow, and a Lincoln Navigator is often the better practical substitute." },
       { q: "Is a sedan too small for an event booking?", a: "Only if your group is larger than two or three people. For a couple or a small group, a sedan is a perfectly good, more understated option." },
       { q: "Is pricing different between a limo and a party bus?", a: "Both are typically priced hourly and quoted individually by date, since weekend demand varies for each vehicle type. Your rate is confirmed before you book either way." },
     ],

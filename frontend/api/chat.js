@@ -42,7 +42,7 @@ const FLEET_LIST = [
   '- First Class Sedan — BMW 7 Series / Mercedes S-Class (or similar), seats up to 3 with 2 bags',
   '- Midsize SUV — Lincoln Nautilus (or similar), seats up to 3 with 4 bags',
   '- Luxury SUV — Chevrolet Suburban (or similar), seats up to 5 with 5 bags',
-  '- Premium SUV — Cadillac Escalade (or similar), seats up to 6 with 5 bags',
+  '- Premium SUV — Lincoln Navigator (or similar), seats up to 6 with 5 bags',
   '- Sprinter Shuttle — Mercedes Sprinter van (or similar), seats up to 13',
   "- Sprinter Executive — Mercedes Sprinter with captain's chairs (or similar), seats up to 13",
 ].join('\n');
@@ -98,7 +98,7 @@ function normalizeVehicle(raw) {
   if (VEHICLE_ALIASES[v]) return VEHICLE_ALIASES[v];
   const exact = PRICING_VEHICLE_KEYS.find((k) => k.toLowerCase() === v);
   if (exact) return exact;
-  if (v.includes('escalade') || v.includes('premium')) return 'Premium SUV';
+  if (v.includes('navigator') || v.includes('escalade') || v.includes('premium')) return 'Premium SUV';
   if (v.includes('suburban') || v.includes('luxury')) return 'Luxury SUV';
   if (v.includes('nautilus') || v.includes('mid')) return 'Mid-Size SUV';
   if (v.includes('sprinter') && v.includes('exec')) return 'Sprinter Executive';

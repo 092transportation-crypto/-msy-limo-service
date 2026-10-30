@@ -3,7 +3,7 @@
 const VEHICLES = [
   { name: "Mercedes-Benz E-Class", cls: "Business sedan", seats: 3, best: "solo executives and couples" },
   { name: "BMW 7 Series", cls: "First-class sedan", seats: 3, best: "VIP and executive travel" },
-  { name: "Cadillac Escalade", cls: "Premium SUV", seats: 6, best: "families and small groups with luggage" },
+  { name: "Lincoln Navigator", cls: "Premium SUV", seats: 6, best: "families and small groups with luggage" },
   { name: "Chevrolet Suburban", cls: "Luxury SUV", seats: 6, best: "airport runs with beach or golf luggage" },
   { name: "Mercedes Sprinter van", cls: "Executive van", seats: 14, best: "wedding parties, corporate teams and groups" },
   { name: "Stretch limousine", cls: "Limousine", seats: 8, best: "proms, weddings and celebrations" },
@@ -1170,7 +1170,7 @@ export const MARYLAND_BATCH3 = [
       {
         h2: "Choosing the vehicle",
         paragraphs: [
-          "A BMW 7 Series or Mercedes-Benz E-Class suits a couple perfectly. If the anniversary is a family affair, a Cadillac Escalade seats six, a stretch limousine seats eight and a Sprinter van takes a larger party to a private dining room together. Surprise bookings are welcome: tell us who knows and who does not, and the chauffeur will play along.",
+          "A BMW 7 Series or Mercedes-Benz E-Class suits a couple perfectly. If the anniversary is a family affair, a Lincoln Navigator seats six, a stretch limousine seats eight and a Sprinter van takes a larger party to a private dining room together. Surprise bookings are welcome: tell us who knows and who does not, and the chauffeur will play along.",
         ],
       },
     ],

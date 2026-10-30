@@ -4,7 +4,7 @@
 const VEHICLES = [
   { name: "Mercedes-Benz E-Class", cls: "Business sedan", seats: 3, best: "solo executives and couples" },
   { name: "BMW 7 Series", cls: "First-class sedan", seats: 3, best: "VIP and executive travel" },
-  { name: "Cadillac Escalade", cls: "Premium SUV", seats: 6, best: "families and small groups with luggage" },
+  { name: "Lincoln Navigator", cls: "Premium SUV", seats: 6, best: "families and small groups with luggage" },
   { name: "Chevrolet Suburban", cls: "Luxury SUV", seats: 6, best: "airport runs with beach or golf luggage" },
   { name: "Mercedes Sprinter van", cls: "Executive van", seats: 14, best: "wedding parties, corporate teams and groups" },
   { name: "Stretch limousine", cls: "Limousine", seats: 8, best: "proms, weddings and celebrations" },
@@ -68,7 +68,7 @@ export const MARYLAND_BATCH4 = [
         h2: "Meet and greet versus curbside black car service",
         paragraphs: [
           "Standard black car service at MSY is a curbside pickup: the chauffeur texts when the vehicle is in position and meets you at the commercial pickup area. It is quick and suits frequent travelers who know the airport. Meet and greet is the slower, more personal version, and it is the one to choose whenever the traveler would rather be found than do the finding.",
-          "Both options include flight tracking, the complimentary wait window and the same fleet: Mercedes-Benz and BMW sedans, Cadillac Escalade and Chevrolet Suburban SUVs, Mercedes Sprinter vans and stretch limousines. Child car seats are available on request for either.",
+          "Both options include flight tracking, the complimentary wait window and the same fleet: Mercedes-Benz and BMW sedans, Lincoln Navigator and Chevrolet Suburban SUVs, Mercedes Sprinter vans and stretch limousines. Child car seats are available on request for either.",
         ],
       },
       {
@@ -146,7 +146,7 @@ export const MARYLAND_BATCH4 = [
         h2: "Roadshows, site visits and multi-city days",
         paragraphs: [
           "For a day of meetings, an hourly booking keeps one chauffeur and one vehicle with the team from the airport pickup to the last dinner, with as many stops as the day requires. That is more efficient than a sequence of individual rides, and it means nobody stands on a Poydras Street sidewalk refreshing an app between appointments.",
-          "Teams heading to Baton Rouge, Lafayette or the Mississippi coast after landing at MSY ride in a Chevrolet Suburban, Cadillac Escalade or Mercedes Sprinter van with the price agreed in advance and no cancellation once the chauffeur sees the distance.",
+          "Teams heading to Baton Rouge, Lafayette or the Mississippi coast after landing at MSY ride in a Chevrolet Suburban, Lincoln Navigator or Mercedes Sprinter van with the price agreed in advance and no cancellation once the chauffeur sees the distance.",
         ],
       },
       {
@@ -191,7 +191,7 @@ export const MARYLAND_BATCH4 = [
     ],
     intro: [
       "Black car service means a reserved, late-model vehicle with a professional chauffeur, booked in advance at a price you know. At Louis Armstrong New Orleans International Airport that reservation is the difference between walking to a rideshare lot and hoping, and walking to a car that is already waiting for you.",
-      "MSY Limo Service runs Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs and Mercedes Sprinter vans on airport work every day. The flat rate is confirmed before you ride, the chauffeur tracks your flight and the vehicle is in position when you land.",
+      "MSY Limo Service runs Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs and Mercedes Sprinter vans on airport work every day. The flat rate is confirmed before you ride, the chauffeur tracks your flight and the vehicle is in position when you land.",
       "We cover the whole region from the airport: the French Quarter and CBD, Uptown and the Garden District, Metairie and Kenner, the Northshore, Baton Rouge and the Gulf Coast.",
     ],
     highlights: [
@@ -229,7 +229,7 @@ export const MARYLAND_BATCH4 = [
       {
         h2: "Choosing the right vehicle",
         paragraphs: [
-          "A sedan suits one or two travelers with normal luggage. An Escalade or Suburban seats up to six and swallows golf bags, strollers and cruise luggage. For a group of up to fourteen, a Sprinter van keeps everyone on one vehicle and one flat rate. If you are unsure, tell dispatch how many people and bags are traveling and we will recommend the class that fits.",
+          "A sedan suits one or two travelers with normal luggage. A Navigator or Suburban seats up to six and swallows golf bags, strollers and cruise luggage. For a group of up to fourteen, a Sprinter van keeps everyone on one vehicle and one flat rate. If you are unsure, tell dispatch how many people and bags are traveling and we will recommend the class that fits.",
         ],
       },
     ],
@@ -306,7 +306,7 @@ export const MARYLAND_BATCH4 = [
       {
         h2: "Families, groups and cruise passengers",
         paragraphs: [
-          "A family with a stroller and four suitcases fits comfortably in a Cadillac Escalade or Chevrolet Suburban, and child car seats are available on request. Groups of up to fourteen ride together in a Mercedes Sprinter van. Many cruise passengers stay a night downtown before sailing, and we can book the airport-to-hotel and hotel-to-terminal transfers together so both are confirmed in advance.",
+          "A family with a stroller and four suitcases fits comfortably in a Lincoln Navigator or Chevrolet Suburban, and child car seats are available on request. Groups of up to fourteen ride together in a Mercedes Sprinter van. Many cruise passengers stay a night downtown before sailing, and we can book the airport-to-hotel and hotel-to-terminal transfers together so both are confirmed in advance.",
         ],
       },
     ],
@@ -458,7 +458,7 @@ export const MARYLAND_BATCH4 = [
       {
         h2: "Groups, cruise passengers and business travelers",
         paragraphs: [
-          "Families and cruise passengers with more luggage than a sedan can carry ride in a Cadillac Escalade, Chevrolet Suburban or Mercedes Sprinter van. Companies with several staff flying out on the same morning can book one Sprinter rather than a fleet of rides, on one flat rate. Corporate accounts receive a receipt for every trip and a single monthly invoice.",
+          "Families and cruise passengers with more luggage than a sedan can carry ride in a Lincoln Navigator, Chevrolet Suburban or Mercedes Sprinter van. Companies with several staff flying out on the same morning can book one Sprinter rather than a fleet of rides, on one flat rate. Corporate accounts receive a receipt for every trip and a single monthly invoice.",
         ],
       },
     ],
@@ -522,7 +522,7 @@ export const MARYLAND_BATCH4 = [
       {
         h2: "Wedding car service for the couple",
         paragraphs: [
-          "The stretch limousine is the traditional choice and still the most photographed. It seats eight, so the couple can ride with their closest attendants to the ceremony and alone afterward. Some couples prefer the BMW 7 Series or a Cadillac Escalade for a quieter arrival. The chauffeur waits at the ceremony, moves the vehicle for portraits and is outside the reception whenever you decide to leave.",
+          "The stretch limousine is the traditional choice and still the most photographed. It seats eight, so the couple can ride with their closest attendants to the ceremony and alone afterward. Some couples prefer the BMW 7 Series or a Lincoln Navigator for a quieter arrival. The chauffeur waits at the ceremony, moves the vehicle for portraits and is outside the reception whenever you decide to leave.",
           "If you plan a second line from the ceremony to the reception, tell us the route. The chauffeur will position the vehicle at the end of the walk so the limousine is waiting when the band stops.",
         ],
       },
@@ -611,7 +611,7 @@ export const MARYLAND_BATCH4 = [
         h2: "Black car service for clients and boards",
         paragraphs: [
           "When the passenger is a client, a board member or a candidate, the vehicle and the chauffeur are part of the impression. A BMW 7 Series or Mercedes-Benz E-Class with a chauffeur who greets by name and knows the destination says the visit was planned. For an arriving guest, add meet and greet at MSY and the chauffeur waits inside baggage claim with your company's name on the sign.",
-          "Boards and delegations travel together in a Cadillac Escalade, Chevrolet Suburban or Mercedes Sprinter van, and multi-vehicle moves are staged to arrive at the same time.",
+          "Boards and delegations travel together in a Lincoln Navigator, Chevrolet Suburban or Mercedes Sprinter van, and multi-vehicle moves are staged to arrive at the same time.",
         ],
       },
       {
@@ -683,7 +683,7 @@ export const MARYLAND_BATCH4 = [
         h2: "What sets black car service apart",
         paragraphs: [
           "With a taxi, the price is whatever the meter says at the end. With a rideshare, it is whatever demand says at the beginning. Black car service fixes the price when you book, fixes the vehicle class and assigns a chauffeur who has your name, your destination and your pickup instructions before leaving the garage. The result is a car that is there at the time you chose, in a city where that is not always a given.",
-          "The vehicles are the other half of the product: Mercedes-Benz E-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs and Mercedes Sprinter vans, cleaned between trips and driven by people who do this for a living.",
+          "The vehicles are the other half of the product: Mercedes-Benz E-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs and Mercedes Sprinter vans, cleaned between trips and driven by people who do this for a living.",
         ],
       },
       {
@@ -728,7 +728,7 @@ export const MARYLAND_BATCH4 = [
     metaTitle: "New Orleans Prom Limo Service | MSY Limo Service",
     metaDescription: "Prom limo service in New Orleans and Metairie: stretch limos and Sprinter vans, licensed chauffeurs, parent-approved itineraries. Call (877) 609-1919.",
     stats: [
-      { label: "Fleet", value: "Stretch limousine · Sprinter van · Escalade" },
+      { label: "Fleet", value: "Stretch limousine · Sprinter van · Navigator" },
       { label: "Coverage", value: "New Orleans · Metairie · Westbank · Northshore" },
       { label: "Pricing", value: "Hourly, confirmed at booking" },
     ],
@@ -765,7 +765,7 @@ export const MARYLAND_BATCH4 = [
       {
         h2: "Choosing between a limo and a Sprinter",
         paragraphs: [
-          "The stretch limousine is the photograph everyone wants and it seats eight. Above that, the Mercedes Sprinter van is the practical answer: fourteen seats, standing headroom for getting in and out in formal wear, and space for bags. Two couples who want something more understated can book a Cadillac Escalade or a BMW 7 Series with the same chauffeur standard.",
+          "The stretch limousine is the photograph everyone wants and it seats eight. Above that, the Mercedes Sprinter van is the practical answer: fourteen seats, standing headroom for getting in and out in formal wear, and space for bags. Two couples who want something more understated can book a Lincoln Navigator or a BMW 7 Series with the same chauffeur standard.",
         ],
       },
       {
@@ -911,7 +911,7 @@ export const MARYLAND_BATCH4 = [
       {
         h2: "Embarkation day: airport or hotel to the ship",
         paragraphs: [
-          "Tell us your cruise line and the terminal on your documents, and the chauffeur will use the matching entrance on Erato Street or Julia Street. A Cadillac Escalade or Chevrolet Suburban carries a family and a week of luggage; a Mercedes Sprinter van takes a group of up to fourteen with their bags on one flat rate. For arrivals at MSY the chauffeur tracks the flight and meets you at the commercial pickup area or inside baggage claim with meet and greet.",
+          "Tell us your cruise line and the terminal on your documents, and the chauffeur will use the matching entrance on Erato Street or Julia Street. A Lincoln Navigator or Chevrolet Suburban carries a family and a week of luggage; a Mercedes Sprinter van takes a group of up to fourteen with their bags on one flat rate. For arrivals at MSY the chauffeur tracks the flight and meets you at the commercial pickup area or inside baggage claim with meet and greet.",
         ],
       },
       {
@@ -933,7 +933,7 @@ export const MARYLAND_BATCH4 = [
       { q: "Which terminal will you drop us at?", a: "The one named on your cruise documents, whether the Erato Street or Julia Street terminal. Tell us the cruise line when you book and the chauffeur will use the right entrance." },
       { q: "How long is the drive from the airport to the port?", a: "Usually 25 to 35 minutes, longer during a major convention or a Superdome event when Convention Center Boulevard is busy." },
       { q: "What time should we be picked up on disembarkation day?", a: "It depends on your walk-off group and your flight. Give us both when you book and dispatch will recommend a pickup time with margin for the terminal and the drive." },
-      { q: "Can you fit six people and their luggage?", a: "Yes. The Escalade and Suburban seat six with luggage, and the Sprinter van takes up to fourteen with bags." },
+      { q: "Can you fit six people and their luggage?", a: "Yes. The Navigator and Suburban seat six with luggage, and the Sprinter van takes up to fourteen with bags." },
     ],
     related: [
       { label: "Cruise Transportation", to: "/services/cruise-transportation" },

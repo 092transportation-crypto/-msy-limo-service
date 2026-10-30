@@ -10,8 +10,8 @@ import PageFaq from "@/components/PageFaq";
 import { ensureFiveFaqs } from "@/lib/faqExtras";
 
 const FLEET_FAQS = ensureFiveFaqs([
-  { q: "What vehicles are in the MSY Limo fleet?", a: "Mercedes-Benz E-Class, BMW 7 Series and Mercedes S-Class sedans, Lincoln Nautilus, Chevrolet Suburban and Cadillac Escalade SUVs, plus Mercedes Sprinter shuttles, executive vans and limos seating up to 13 passengers — all late-model and meticulously maintained." },
-  { q: "Which vehicle is best for an MSY airport transfer?", a: "Sedans suit 1–3 travelers with standard luggage; the Nautilus, Suburban and Escalade fit families and extra bags; the Sprinters handle groups up to 13. We'll recommend the right class when you book." },
+  { q: "What vehicles are in the MSY Limo fleet?", a: "Mercedes-Benz E-Class, BMW 7 Series and Mercedes S-Class sedans, Lincoln Nautilus, Chevrolet Suburban and Lincoln Navigator SUVs, plus Mercedes Sprinter shuttles, executive vans and limos seating up to 13 passengers — all late-model and meticulously maintained." },
+  { q: "Which vehicle is best for an MSY airport transfer?", a: "Sedans suit 1–3 travelers with standard luggage; the Nautilus, Suburban and Navigator fit families and extra bags; the Sprinters handle groups up to 13. We'll recommend the right class when you book." },
   { q: "Do all vehicles include amenities?", a: "Yes — leather interiors, climate control, bottled water, phone charging, and Wi-Fi on equipped vehicles, with a professional chauffeur on every trip." },
   { q: "Are the vehicles commercially insured?", a: "Yes. MSY Limo Service is a Licensed & Insured Louisiana Carrier — every vehicle carries commercial livery insurance and is driven by a background-checked chauffeur." },
 ], { slug: "fleet" });
@@ -22,7 +22,7 @@ const fleet = [
   { id: 2, name: "BMW 7 Series / Mercedes S-Class 2023+ or similar", image: "/images/bmw-7-series.webp", passengers: 3, luggage: 2, category: "First Class Sedan", desc: "The pinnacle of luxury sedans for VIP travel.", features: ["Premium Leather", "Massage Seats", "Privacy Glass", "Mini Bar"] },
   { id: 3, name: "Lincoln Nautilus 2023+ or similar", image: "/images/lincoln-nautilus.webp", passengers: 3, luggage: 4, category: "Midsize SUV", desc: "The perfect balance of comfort and practicality with extra luggage room.", features: ["Extra Luggage Room", "Leather Interior", "Climate Control", "WiFi"] },
   { id: 4, name: "Chevrolet Suburban 2023+ or similar", image: "/images/chevy-suburban.webp", passengers: 5, luggage: 5, category: "Luxury SUV", desc: "Maximum space without compromising luxury — ideal for larger groups.", features: ["Spacious Interior", "Group Friendly", "Premium Sound", "USB Charging"] },
-  { id: 5, name: "Cadillac Escalade 2023+ or similar", image: "/images/cadillac-escalade.webp", passengers: 6, luggage: 5, category: "Premium SUV", desc: "America's premier luxury SUV for families and groups.", features: ["Spacious Interior", "Premium Sound", "TV Screens", "USB Charging"] },
+  { id: 5, name: "Lincoln Navigator 2026+ or similar", image: "/images/cadillac-escalade.webp", passengers: 6, luggage: 5, category: "Premium SUV", desc: "America's premier luxury SUV for families and groups.", features: ["Spacious Interior", "Premium Sound", "TV Screens", "USB Charging"] },
   { id: 6, name: "Mercedes Sprinter 2023+ or similar", image: "/images/sprinter-shuttle-seats.webp", passengers: 13, luggage: 13, category: "Sprinter Shuttle", desc: "Comfortable group shuttle for airport runs and events.", features: ["Group Seating", "Spacious Interior", "WiFi", "USB Ports"] },
   { id: 7, name: "Mercedes Sprinter 2023+ or similar", image: "/images/mercedes-sprinter.webp", passengers: 13, luggage: 13, category: "Sprinter Executive", desc: "Premium executive van with captain chairs and luxury amenities. Also the ultimate stretch limo experience for weddings and special occasions.", features: ["Captain Chairs", "Conference Setup", "Mood Lighting", "Mini Bar"] },
 ];
@@ -47,7 +47,7 @@ const FleetPage = () => {
     <div className="min-h-screen bg-black">
       <SEO
         title="Our Luxury Fleet | Sedans, SUVs & Sprinter Vans"
-        description="See the MSY Limo fleet — Mercedes sedans, Cadillac Escalade SUVs & Sprinter vans for New Orleans airport and event transportation. Call (877) 609-1919."
+        description="See the MSY Limo fleet — Mercedes sedans, Lincoln Navigator SUVs & Sprinter vans for New Orleans airport and event transportation. Call (877) 609-1919."
         path="/fleet"
         schema={[LOCAL_BUSINESS_SCHEMA, fleetFaqSchema]}
       />
@@ -158,7 +158,7 @@ const FleetPage = () => {
               The right vehicle depends on your group size, your luggage, and the kind of trip you're taking — not just the number of seats. A sedan like our Mercedes-Benz E-Class is the natural choice for one or two business travelers with a carry-on each, while the BMW 7 Series and Mercedes S-Class add a step up in cabin comfort for VIP and executive clients who want the quietest, most refined ride available.
             </p>
             <p>
-              Families and small groups with real luggage — golf bags, stroller, extra suitcases for a week away — do better in the Lincoln Nautilus, Chevrolet Suburban, or Cadillac Escalade, each of which trades a little of the sedan's formality for meaningfully more cargo room. For a wedding party, a corporate team, or any group of up to thirteen traveling together, a Mercedes Sprinter keeps everyone in one vehicle rather than splitting across several cars and several bookings.
+              Families and small groups with real luggage — golf bags, stroller, extra suitcases for a week away — do better in the Lincoln Nautilus, Chevrolet Suburban, or Lincoln Navigator SUVs, each of which trades a little of the sedan's formality for meaningfully more cargo room. For a wedding party, a corporate team, or any group of up to thirteen traveling together, a Mercedes Sprinter keeps everyone in one vehicle rather than splitting across several cars and several bookings.
             </p>
             <p>
               Not sure which class fits your trip? Tell us your passenger count, luggage, and occasion when you call <a href="tel:+18776091919" className="text-amber-400">(877) 609-1919</a> or request a quote online, and we'll recommend the right vehicle before you book — not after you've already committed to one that doesn't quite fit.

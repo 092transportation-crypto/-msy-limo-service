@@ -41,7 +41,7 @@ const fleet = [
   },
   {
     id: 5,
-    name: "Cadillac Escalade 2023+ or similar",
+    name: "Lincoln Navigator 2026+ or similar",
     image: "/images/cadillac-escalade.webp",
     passengers: 6,
     luggage: 5,

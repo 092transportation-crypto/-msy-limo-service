@@ -19,7 +19,7 @@ export const BLOG_POSTS_BATCH3 = [
       <p class="lead">Louis Armstrong New Orleans International Airport (MSY) sits in Kenner, about 14 miles west of the French Quarter, and welcomes travelers arriving for everything from a weekend of Bourbon Street to a week-long convention at the Morial Center. A limo service — really, a chauffeured car service that includes sedans, SUVs, Sprinter vans, and true stretch limousines — is the difference between an arrival that starts with a plan and one that starts with a scramble. This guide covers how MSY limo service actually works, from booking to drop-off.</p>
 
       <h2>What "Limo Service" Means at MSY</h2>
-      <p>Most travelers picturing "a limo" imagine the stretch version reserved for weddings and prom night. In practice, an airport limo service is a broader category: any pre-reserved, chauffeur-driven vehicle booked in advance for a flat rate, as opposed to a taxi you flag or a rideshare you hail on demand. At MSY, that includes executive sedans for one to three travelers, Cadillac Escalade SUVs for four to six, Mercedes Sprinter vans for larger groups, and stretch limousines for events that call for a grand arrival. All of them share the same operating model: booked ahead, flight-tracked, and priced before you ever get in the car.</p>
+      <p>Most travelers picturing "a limo" imagine the stretch version reserved for weddings and prom night. In practice, an airport limo service is a broader category: any pre-reserved, chauffeur-driven vehicle booked in advance for a flat rate, as opposed to a taxi you flag or a rideshare you hail on demand. At MSY, that includes executive sedans for one to three travelers, Lincoln Navigator SUVs for four to six, Mercedes Sprinter vans for larger groups, and stretch limousines for events that call for a grand arrival. All of them share the same operating model: booked ahead, flight-tracked, and priced before you ever get in the car.</p>
 
       <h2>How Booking Works</h2>
       <p>Reserving a car for MSY takes about a minute online, or a short call to dispatch. You'll need three pieces of information: your flight number, your drop-off address, and your party size with a rough luggage count. The flight number is the most important — it's what allows dispatch to track your arrival automatically, so the vehicle is dispatched against your actual landing time rather than the printed schedule. You'll get a written confirmation with a flat rate attached, and that number does not change between booking and drop-off.</p>
@@ -34,7 +34,7 @@ export const BLOG_POSTS_BATCH3 = [
       <h2>Choosing the Right Vehicle</h2>
       <ul>
         <li><strong>Executive sedan:</strong> one to three passengers with standard luggage — the default for solo business travel and couples.</li>
-        <li><strong>Luxury SUV (Cadillac Escalade):</strong> four to six passengers, or anyone with extra bags, golf clubs, or festival gear.</li>
+        <li><strong>Luxury SUV (Lincoln Navigator):</strong> four to six passengers, or anyone with extra bags, golf clubs, or festival gear.</li>
         <li><strong>Sprinter van:</strong> seven to thirteen passengers, ideal for wedding parties, sports teams, and convention groups moving together.</li>
         <li><strong>Stretch limousine:</strong> reserved less for a plain airport run and more for the occasion itself — anniversaries, milestone birthdays, or an arrival meant to be memorable.</li>
       </ul>
@@ -184,7 +184,7 @@ export const BLOG_POSTS_BATCH3 = [
       <p>Now change one variable: it's the Saturday of Jazz Fest, or the final weekend of Mardi Gras, or a major convention is letting out of the Morial Center at the same time your flight lands. Rideshare demand across the entire city spikes simultaneously, and surge multipliers respond in real time. Travelers landing during these windows routinely report Uber fares that double or triple the quiet-Tuesday price for the identical route. A flat-rate limo charges exactly what it quoted at booking — the same number whether it's Mardi Gras Saturday or a random Wednesday in August.</p>
 
       <h2>The Group Math Nobody Talks About</h2>
-      <p>This is where the comparison changes most dramatically. Uber prices per ride, which for a group often means requesting an XL or splitting into multiple cars — each one priced (and surged) independently. A limo service prices per vehicle. A Cadillac Escalade seating up to six or a Sprinter van seating up to thirteen is one flat rate, split however the group wants. Run the numbers for a family of four or a group of six headed to a wedding, and the per-seat cost in a limo is frequently lower than four or six individual (and possibly surging) rideshare fares — in a nicer vehicle, with everyone arriving together.</p>
+      <p>This is where the comparison changes most dramatically. Uber prices per ride, which for a group often means requesting an XL or splitting into multiple cars — each one priced (and surged) independently. A limo service prices per vehicle. A Lincoln Navigator seating up to six or a Sprinter van seating up to thirteen is one flat rate, split however the group wants. Run the numbers for a family of four or a group of six headed to a wedding, and the per-seat cost in a limo is frequently lower than four or six individual (and possibly surging) rideshare fares — in a nicer vehicle, with everyone arriving together.</p>
 
       <h2>The Hidden Costs Rideshare Doesn't Show You</h2>
       <ul>
@@ -259,7 +259,7 @@ export const BLOG_POSTS_BATCH3 = [
       <p class="lead">A Louisiana wedding carries traditions most couples elsewhere never have to plan around — a second-line parade through the French Quarter or Garden District, a citywide event calendar that can close streets with little notice, and venues ranging from antebellum plantation homes to Uptown mansions. Wedding limo service here has to account for all of it. This guide walks through the full planning process, from first inquiry to the getaway car.</p>
 
       <h2>Choosing the Right Vehicle for Your Day</h2>
-      <p>Wedding transportation isn't one vehicle — it's usually a small fleet doing different jobs across the day. A classic stretch limousine remains the traditional choice for the couple's arrival and departure, with room for a champagne toast in transit. A luxury SUV like a Cadillac Escalade suits a smaller, more intimate wedding party or a couple who wants a more modern look. For the full wedding party — bridesmaids, groomsmen, and family — a Mercedes Sprinter van seating up to thirteen keeps everyone together, on schedule, and out of the Louisiana heat between the ceremony and reception.</p>
+      <p>Wedding transportation isn't one vehicle — it's usually a small fleet doing different jobs across the day. A classic stretch limousine remains the traditional choice for the couple's arrival and departure, with room for a champagne toast in transit. A luxury SUV like a Lincoln Navigator suits a smaller, more intimate wedding party or a couple who wants a more modern look. For the full wedding party — bridesmaids, groomsmen, and family — a Mercedes Sprinter van seating up to thirteen keeps everyone together, on schedule, and out of the Louisiana heat between the ceremony and reception.</p>
 
       <h2>Building the Day-Of Timeline</h2>
       <p>Once your ceremony and reception venues, hair-and-makeup location, and photography schedule are set, the transportation sequence usually looks like this: a getting-ready pickup for the bridal party, a transfer to the ceremony, optional photo stops (the French Quarter and Garden District are both popular backdrops), a transfer to the reception, and a getaway car at the end of the night. Share this sequence with your car service as early as possible — it's the backbone of the whole day's logistics.</p>
@@ -342,7 +342,7 @@ export const BLOG_POSTS_BATCH3 = [
       <p class="lead">New Orleans runs a genuine business economy underneath its tourism reputation — energy companies, maritime and port logistics, healthcare, hospitality management, and a steady calendar of national conventions at the Ernest N. Morial Convention Center. Corporate car service is the infrastructure that keeps all of it moving on schedule. Here's how businesses actually use it, from a single client pickup to a full convention deployment.</p>
 
       <h2>The First Impression: Client and Investor Pickups</h2>
-      <p>When a client, investor, or new hire lands at MSY, the ride from the terminal to their first meeting is the first thing they experience of your company. A chauffeur waiting at baggage claim with a name sign, a clean Escalade at the curb, and a quiet ride into downtown communicates more about how your business operates than most of what happens in the meeting itself — and it costs a fraction of the dinner you were already planning to host.</p>
+      <p>When a client, investor, or new hire lands at MSY, the ride from the terminal to their first meeting is the first thing they experience of your company. A chauffeur waiting at baggage claim with a name sign, a clea Navigator at the curb, and a quiet ride into downtown communicates more about how your business operates than most of what happens in the meeting itself — and it costs a fraction of the dinner you were already planning to host.</p>
 
       <h2>Why Executives Book for Themselves, Not Just Guests</h2>
       <ul>
@@ -434,7 +434,7 @@ export const BLOG_POSTS_BATCH3 = [
       <p>A shared shuttle picks up multiple parties heading in roughly the same direction and drops each one off in sequence, often looping between the airport and a cluster of hotels near Kenner or Metairie, or on a scheduled run into downtown. You typically wait for the van to fill or for a scheduled departure time, and your ride includes stops for other passengers before you reach your own destination.</p>
 
       <h2>What "Private Limo" Means Here</h2>
-      <p>A private limo or car service is reserved exclusively for you and your party — no other passengers, no intermediate stops, no waiting for a van to fill. Whether it's an executive sedan, a Cadillac Escalade, or a Sprinter van, the vehicle is dedicated to your reservation from pickup to drop-off, at a flat rate confirmed before you fly.</p>
+      <p>A private limo or car service is reserved exclusively for you and your party — no other passengers, no intermediate stops, no waiting for a van to fill. Whether it's an executive sedan, a Lincoln Navigator, or a Sprinter van, the vehicle is dedicated to your reservation from pickup to drop-off, at a flat rate confirmed before you fly.</p>
 
       <h2>Cost: The First Question Most Travelers Ask</h2>
       <p>Shared shuttles generally price lower per seat, which makes sense — the operator is splitting the vehicle's cost across several parties. A private limo is quoted per vehicle rather than per seat, so a solo traveler pays more than a shuttle seat would cost. That gap narrows or disappears entirely for two or more travelers, since a private car's flat rate is the same whether one person rides or the vehicle is full, while a shuttle charges per person regardless of group size.</p>
@@ -535,7 +535,7 @@ export const BLOG_POSTS_BATCH3 = [
       <h2>Step 3: Choose Your Vehicle</h2>
       <ul>
         <li><strong>Executive sedan (Mercedes E-Class or similar):</strong> one to three passengers — the standard for business travel, couples, and solo airport transfers.</li>
-        <li><strong>Luxury SUV (Cadillac Escalade):</strong> four to six passengers, or extra luggage and gear.</li>
+        <li><strong>Luxury SUV (Lincoln Navigator):</strong> four to six passengers, or extra luggage and gear.</li>
         <li><strong>Sprinter van:</strong> seven to thirteen passengers — wedding parties, corporate groups, and family reunions.</li>
         <li><strong>Stretch limousine:</strong> occasions that call for a grand arrival — anniversaries, proms, milestone celebrations.</li>
       </ul>
@@ -622,7 +622,7 @@ export const BLOG_POSTS_BATCH3 = [
       <p class="lead">Group transportation in New Orleans has a specific shape most trips don't: bachelor and bachelorette parties heading to Bourbon Street, wedding parties moving between venues, convention teams arriving on staggered flights, and family reunions trying to keep everyone together instead of scattered across three separate cars. Here's how to pick the right vehicle and structure the booking so the whole group actually rides together.</p>
 
       <h2>Sizing the Vehicle to the Group</h2>
-      <p>Getting vehicle size right is the single biggest factor in whether group transportation feels smooth or chaotic. A group of four to six fits comfortably in a Cadillac Escalade SUV, with room for luggage or festival gear. Beyond six, a Mercedes Sprinter van seating up to thirteen is almost always the better call — one reservation, one flat rate, one pickup point, instead of splitting into multiple vehicles that then have to coordinate meeting up at the destination.</p>
+      <p>Getting vehicle size right is the single biggest factor in whether group transportation feels smooth or chaotic. A group of four to six fits comfortably in a Lincoln Navigator SUV, with room for luggage or festival gear. Beyond six, a Mercedes Sprinter van seating up to thirteen is almost always the better call — one reservation, one flat rate, one pickup point, instead of splitting into multiple vehicles that then have to coordinate meeting up at the destination.</p>
 
       <h2>Why Splitting Into Multiple Rideshares Rarely Works for Groups</h2>
       <p>The instinct to request "a few Ubers" for a group of eight or ten runs into three problems in New Orleans specifically: surge pricing multiplies across every vehicle requested at once, drivers aren't guaranteed to arrive together, and coordinating separate cars through French Quarter street closures during a festival or busy weekend is its own logistics headache. A single Sprinter van solves all three at once — one flat rate, one pickup, one arrival.</p>
@@ -808,7 +808,7 @@ export const BLOG_POSTS_BATCH3 = [
       <p>A taxi's core advantage is walk-up availability — no reservation, no app, just a queue at the airport or a stand outside a hotel. That works well when you need a ride right now with no planning. A black car requires booking ahead, which means no walk-up option, but in exchange guarantees a specific vehicle will be there at a specific time — no queue to wait in, no uncertainty about whether enough cabs are working a given night.</p>
 
       <h2>Vehicle Quality and Driver Standards</h2>
-      <p>Taxi fleets vary by operator and individual driver — vehicle age, cleanliness, and maintenance aren't standardized the way they are with a black car service. A black car service specifies the vehicle class you're getting — an executive sedan, a Cadillac Escalade, a Sprinter van — maintained on a documented schedule, driven by a professionally trained, background-checked chauffeur rather than a driver whose vetting process you have no visibility into.</p>
+      <p>Taxi fleets vary by operator and individual driver — vehicle age, cleanliness, and maintenance aren't standardized the way they are with a black car service. A black car service specifies the vehicle class you're getting — an executive sedan, a Lincoln Navigator, a Sprinter van — maintained on a documented schedule, driven by a professionally trained, background-checked chauffeur rather than a driver whose vetting process you have no visibility into.</p>
 
       <h2>The Airport Experience Specifically</h2>
       <p>At MSY, taxis queue at a stand outside baggage claim — reliable, but subject to the length of the line at any given moment, particularly during a busy arrivals bank. A black car service tracks your flight and stages the vehicle before you land, with 45 minutes of complimentary wait time on domestic arrivals (60 international) if your flight runs behind, so a delay never turns into extra taxi-stand time or a surprise wait charge.</p>
