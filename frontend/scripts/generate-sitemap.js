@@ -5,9 +5,11 @@
  * files, so every static page, landing page (city/route/venue/event/service),
  * guide and blog post is listed — including any just added.
  *
- * Reads the data files as plain text with regex (not require/execute), the
- * same approach used by the data-file audit scripts in this project, so it
- * has no dependency on the files compiling as ES modules.
+ * Reads most data files as plain text with regex (not require/execute), the
+ * same approach used by the data-file audit scripts in this project. Blog
+ * posts are the exception: their slug set comes from evaluating the real
+ * registry (src/data/blogPostsData.js), so scheduled posts are respected.
+ * Existing URLs keep their previous <lastmod>.
  *
  * Run with: node scripts/generate-sitemap.js
  * (Also wired up as `npm run sitemap`.)
@@ -32,8 +34,27 @@ function slugsFromFile(file) {
   return out;
 }
 
+// <loc> -> <lastmod> from the sitemap currently on disk. URLs already listed
+// keep their lastmod, so the daily scheduled-publishing rebuild (prebuild runs
+// this script) doesn't stamp every page with today's date; only URLs new to
+// the sitemap get today.
+function previousLastmods() {
+  const map = new Map();
+  let xml = "";
+  try {
+    xml = fs.readFileSync(OUT, "utf8");
+  } catch (e) {
+    return map;
+  }
+  const re = /<loc>([^<]+)<\/loc>\s*<lastmod>(\d{4}-\d{2}-\d{2})<\/lastmod>/g;
+  let m;
+  while ((m = re.exec(xml))) map.set(m[1], m[2]);
+  return map;
+}
+const PREVIOUS = previousLastmods();
+
 function url(loc, { changefreq = "monthly", priority = "0.8" } = {}) {
-  return `  <url>\n    <loc>${loc}</loc>\n    <lastmod>${TODAY}</lastmod>\n    <changefreq>${changefreq}</changefreq>\n    <priority>${priority}</priority>\n  </url>\n`;
+  return `  <url>\n    <loc>${loc}</loc>\n    <lastmod>${PREVIOUS.get(loc) || TODAY}</lastmod>\n    <changefreq>${changefreq}</changefreq>\n    <priority>${priority}</priority>\n  </url>\n`;
 }
 
 const entries = [];
@@ -100,10 +121,50 @@ for (const file of marylandFiles) {
 for (const slug of slugsFromFile("guides.js")) add(`/${slug}`, { priority: "0.7" });
 
 // Standalone SEO blog posts.
+//
+// The slug SET comes from the real registry (BLOG_POSTS in
+// src/data/blogPostsData.js), evaluated below, so scheduled posts
+// (src/lib/publishSchedule.js) stay out until their date and batch files that
+// exist on disk but aren't imported are never listed. Batch-file discovery
+// only supplies a stable ORDER for the slugs.
+function loadLiveBlogSlugs() {
+  const babel = require("@babel/core");
+  const Module = require("module");
+  const SRC = path.join(ROOT, "src");
+  const opts = {
+    babelrc: false,
+    configFile: false,
+    plugins: [require.resolve("@babel/plugin-transform-modules-commonjs")],
+  };
+  const origJs = Module._extensions[".js"];
+  const origResolve = Module._resolveFilename;
+  Module._extensions[".js"] = (module, filename) =>
+    filename.startsWith(SRC + path.sep)
+      ? module._compile(babel.transformSync(fs.readFileSync(filename, "utf8"), { ...opts, filename }).code, filename)
+      : origJs(module, filename);
+  Module._resolveFilename = function (request, ...rest) {
+    if (request.startsWith("@/")) request = path.join(SRC, request.slice(2));
+    return origResolve.call(this, request, ...rest);
+  };
+  try {
+    const { BLOG_POSTS } = require(path.join(DATA_DIR, "blogPostsData.js"));
+    if (!Array.isArray(BLOG_POSTS) || !BLOG_POSTS.length) throw new Error("BLOG_POSTS is empty");
+    return BLOG_POSTS.map((p) => p.slug);
+  } finally {
+    Module._extensions[".js"] = origJs;
+    Module._resolveFilename = origResolve;
+  }
+}
+
+const liveBlogSlugs = loadLiveBlogSlugs();
+const liveBlogSet = new Set(liveBlogSlugs);
+const orderedBlogSlugs = [];
 const blogFiles = discoverDataFiles("blogPostsData.js", "blogPostsBatch");
 for (const file of blogFiles) {
-  for (const slug of slugsFromFile(file)) add(`/blog/${slug}`, { changefreq: "monthly", priority: "0.7" });
+  for (const slug of slugsFromFile(file)) if (liveBlogSet.has(slug)) orderedBlogSlugs.push(slug);
 }
+for (const slug of liveBlogSlugs) orderedBlogSlugs.push(slug); // any the regex missed (add() dedupes)
+for (const slug of orderedBlogSlugs) add(`/blog/${slug}`, { changefreq: "monthly", priority: "0.7" });
 
 const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${entries.join("")}</urlset>\n`;
 fs.writeFileSync(OUT, xml, "utf8");

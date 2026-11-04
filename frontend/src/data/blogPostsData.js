@@ -1,5 +1,6 @@
 // Standalone SEO blog posts served at /blog/<slug> via BlogPostPage.
 import { ensureFiveFaqs } from "@/lib/faqExtras";
+import { isPublished } from "@/lib/publishSchedule";
 import { BLOG_POSTS_BATCH2 } from "@/data/blogPostsBatch2";
 import { BLOG_POSTS_BATCH3 } from "@/data/blogPostsBatch3";
 import { BLOG_POSTS_BATCH4 } from "@/data/blogPostsBatch4";
@@ -11,7 +12,9 @@ import { BLOG_POSTS_BATCH9 } from "@/data/blogPostsBatch9";
 import { BLOG_POSTS_BATCH10 } from "@/data/blogPostsBatch10";
 import { BLOG_POSTS_BATCH12 } from "@/data/blogPostsBatch12";
 
-export const seoBlogPosts = [
+// Every post, including ones scheduled for a future date (`scheduled: true`).
+// Not exported under this name: consumers read BLOG_POSTS (live only) below.
+const seoBlogPosts = [
   {
     slug: "msy-airport-car-service-vs-uber-2026",
     title: "MSY Airport Car Service vs. Uber in 2026: Which Should You Book?",
@@ -2025,5 +2028,14 @@ seoBlogPosts.forEach((p) => {
   p.faqs = ensureFiveFaqs(p.faqs, { slug: p.slug });
 });
 
+// Full list incl. scheduled posts — only for tooling that needs every slug
+// (slug-collision checks). Never render from it.
+export const ALL_BLOG_POSTS = seoBlogPosts;
+
+// Live posts only: scheduled posts dated after the build cutoff
+// (src/lib/publishSchedule.js) are hidden everywhere — /blog listing, the
+// /blog/<slug> route, related posts, breadcrumbs, sitemap and prerender.
+export const BLOG_POSTS = seoBlogPosts.filter(isPublished);
+
 export const getSeoBlogPostBySlug = (slug) =>
-  seoBlogPosts.find((p) => p.slug === slug);
+  BLOG_POSTS.find((p) => p.slug === slug);

@@ -3,7 +3,7 @@
 import { routes } from "@/data/routesData";
 import { venues } from "@/data/venuesData";
 import { MARYLAND_PAGES } from "@/data/marylandPages";
-import { seoBlogPosts } from "@/data/blogPostsData";
+import { BLOG_POSTS as seoBlogPosts } from "@/data/blogPostsData";
 import { GUIDES } from "@/data/guides";
 
 const STATIC = {

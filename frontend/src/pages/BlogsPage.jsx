@@ -6,7 +6,7 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import SEO, { buildFaqSchema } from "@/components/SEO";
 import { LOCAL_BUSINESS_SCHEMA } from "@/lib/localBusinessSchema";
-import { seoBlogPosts as datedPosts } from "@/data/blogPostsData";
+import { BLOG_POSTS as datedPosts } from "@/data/blogPostsData";
 import { GUIDES } from "@/data/guides";
 
 // Guides live at /<slug>; data-driven posts at /blog/<slug>. Guides lead the list.

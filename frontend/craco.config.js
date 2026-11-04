@@ -2,6 +2,15 @@
 const path = require("path");
 require("dotenv").config();
 
+// Scheduled blog publishing (src/lib/publishSchedule.js): pin the cutoff to the
+// build's Eastern date so the bundle, the sitemap and the prerender agree, and
+// the browser never decides on its own clock. Set before CRA reads REACT_APP_*.
+if (!process.env.REACT_APP_PUBLISH_CUTOFF) {
+  process.env.REACT_APP_PUBLISH_CUTOFF = new Intl.DateTimeFormat("en-CA", {
+    timeZone: "America/New_York", year: "numeric", month: "2-digit", day: "2-digit",
+  }).format(new Date());
+}
+
 // Check if we're in development/preview mode (not production build)
 // Craco sets NODE_ENV=development for start, NODE_ENV=production for build
 const isDevServer = process.env.NODE_ENV !== "production";

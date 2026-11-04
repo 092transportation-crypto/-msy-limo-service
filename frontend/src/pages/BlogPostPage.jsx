@@ -6,7 +6,7 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import SEO, { buildFaqSchema } from "@/components/SEO";
 import { LOCAL_BUSINESS_SCHEMA } from "@/lib/localBusinessSchema";
-import { getSeoBlogPostBySlug, seoBlogPosts } from "@/data/blogPostsData";
+import { getSeoBlogPostBySlug, BLOG_POSTS as seoBlogPosts } from "@/data/blogPostsData";
 import { GUIDES } from "@/data/guides";
 
 // Blog posts live at /blog/<slug>; guides (data/guides.js) share this template at /<slug>.

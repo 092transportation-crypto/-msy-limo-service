@@ -1,4 +1,7 @@
 {
+  "crons": [
+    { "path": "/api/cron/rebuild", "schedule": "5 10 * * *" }
+  ],
   "functions": {
     "api/sitemap.js": {
       "includeFiles": "public/sitemap-static.xml"
