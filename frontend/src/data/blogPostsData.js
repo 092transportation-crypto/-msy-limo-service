@@ -11,6 +11,7 @@ import { BLOG_POSTS_BATCH8 } from "@/data/blogPostsBatch8";
 import { BLOG_POSTS_BATCH9 } from "@/data/blogPostsBatch9";
 import { BLOG_POSTS_BATCH10 } from "@/data/blogPostsBatch10";
 import { BLOG_POSTS_BATCH12 } from "@/data/blogPostsBatch12";
+import { BLOG_POSTS_BATCH13 } from "@/data/blogPostsBatch13";
 
 // Every post, including ones scheduled for a future date (`scheduled: true`).
 // Not exported under this name: consumers read BLOG_POSTS (live only) below.
@@ -1937,6 +1938,7 @@ seoBlogPosts.push(...BLOG_POSTS_BATCH8);
 seoBlogPosts.push(...BLOG_POSTS_BATCH9);
 seoBlogPosts.push(...BLOG_POSTS_BATCH10);
 seoBlogPosts.push(...BLOG_POSTS_BATCH12);
+seoBlogPosts.push(...BLOG_POSTS_BATCH13);
 seoBlogPosts.push({
   slug: "new-orleans-wedding-transportation-venues-guide",
   title: "New Orleans Wedding Transportation: The Complete Venue-by-Venue Guide",
