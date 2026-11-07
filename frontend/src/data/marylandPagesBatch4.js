@@ -1020,7 +1020,7 @@ export const MARYLAND_BATCH4 = [
       { label: "New Orleans Bachelor Party Transportation", to: "/new-orleans-bachelor-party-transportation" },
       { label: "Marigny and Bywater Limo Service", to: "/marigny-bywater-limo-service" },
       { label: "House of Blues Transportation", to: "/house-of-blues-new-orleans-transportation" },
-      { label: "Bourbon Street vs. Frenchmen Street Guide", to: "/blog/bourbon-street-vs-frenchmen-street-transportation-guide" },
+      { label: "Bourbon Street vs. Frenchmen Street Guide", to: "/bourbon-street-vs-frenchmen-street-transportation-guide" },
       { label: "Book a Ride", to: "/booking" },
     ],
     schema: { areaServed: ["French Quarter, New Orleans", "New Orleans, LA", "Metairie, LA"], serviceType: "French Quarter and nightlife transportation" },
