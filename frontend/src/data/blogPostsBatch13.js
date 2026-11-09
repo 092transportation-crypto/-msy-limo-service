@@ -1946,5 +1946,306 @@ export const BLOG_POSTS_BATCH13 = [
       },
     ],
   },
+  // ---------------------------------------------------------- POST 19 (Nov 11)
+  // Added 2026-11-09: three more scheduled seasonal posts, one per day on
+  // November 11, 12 and 13, 2026 (the days after this batch's last post).
+  // Topics checked against every post, guide, landing page and sitemap URL on
+  // all five sites. Fleet capacities follow FleetPage.jsx; policies follow the
+  // FAQ and booking copy; no prices. Parade, festival and ball details are
+  // sent to the organizers.
+  {
+    slug: "twelfth-night-new-orleans-carnival-season-kickoff-guide",
+    title: "Twelfth Night in New Orleans: How the City Kicks Off Carnival Season on January 6",
+    metaTitle: "Twelfth Night Carnival Kickoff Guide | MSY Limo",
+    metaDescription:
+      "How New Orleans opens Carnival season on Twelfth Night, January 6: the first parades, the streetcar ride, king cake season and getting around that night.",
+    category: "Events",
+    author: "MSY Limo Team",
+    date: "November 11, 2026",
+    scheduled: true,
+    readTime: "8 min read",
+    excerpt:
+      "Mardi Gras is one day, but Carnival is a season, and in New Orleans it officially begins on January 6. Here is how Twelfth Night works, what happens around the city, and how to plan the evening.",
+    image: "/images/blog/landmark-nola-streetcar-2.webp",
+    content: `
+      <p>Visitors often think of Mardi Gras as a single day, but in New Orleans it is the last day of a much longer season. Carnival begins on January 6, the feast of the Epiphany, known in New Orleans as Twelfth Night because it falls twelve days after Christmas. From that evening until Mardi Gras Day, the city is in Carnival season: king cakes appear in bakeries and offices, krewes hold their balls, and the parade calendar slowly builds toward the final weekends.</p>
+      <p>Twelfth Night itself has become a celebration of its own. A handful of krewes mark the date with small, distinctive events that feel nothing like the giant parades of February, and for many locals it is one of the best nights of the year. This guide covers what happens, when and where, and how to plan transportation on January 6.</p>
+
+      <h2>Why January 6 Matters</h2>
+      <p>The Epiphany commemorates the visit of the Magi in Christian tradition, and in New Orleans it has long marked the start of Carnival. In 2027, January 6 falls on a Wednesday, and Mardi Gras Day falls on Tuesday, February 9, so the season runs about five weeks. The length of Carnival season changes every year because Mardi Gras is tied to the date of Easter.</p>
+      <p>For a full overview of how the season unfolds and when the major parades roll, our guide to <a href="/blog/when-is-mardi-gras-dates-parade-schedule-transportation-planning">Mardi Gras dates and the parade schedule</a> is a good starting point.</p>
+
+      <h2>What Happens on Twelfth Night</h2>
+      <p>Twelfth Night is not a single event. Several groups mark the evening in their own ways, and their schedules and routes are set each year by the organizers.</p>
+      <ul>
+        <li><strong>A walking parade in the French Quarter.</strong> In recent years, a krewe honoring Joan of Arc, whose birthday is traditionally celebrated on January 6, has held a walking parade through the Quarter, with costumed marchers, medieval themes and music.</li>
+        <li><strong>A streetcar ride.</strong> One of the city's oldest traditions has costumed revelers riding a St. Charles Avenue streetcar on Twelfth Night to announce the start of Carnival.</li>
+        <li><strong>King cake.</strong> January 6 is traditionally the first day of king cake season. Bakeries across the city begin selling them, and offices and families start the custom of whoever finds the baby buying the next cake.</li>
+        <li><strong>Balls and private events.</strong> Some krewes hold their first balls or private gatherings around Twelfth Night, marking the start of the formal side of the season.</li>
+      </ul>
+      <p>Because these are smaller events than the February parades, crowds are more manageable, but the French Quarter still gets busy, and some streets close while marchers pass. Check the organizers' announcements for this year's times and routes before you plan the evening.</p>
+
+      <h2>Getting Around on Twelfth Night</h2>
+      <p>January 6 is a weekday in 2027, so the evening combines normal rush-hour traffic with Twelfth Night crowds in the French Quarter and along St. Charles Avenue. Parking in the Quarter is limited at any time, and when streets close for a walking parade, getting a car close to where you want to be becomes harder. Our <a href="/french-quarter-transportation-guide">French Quarter transportation guide</a> explains how the neighborhood works for vehicles.</p>
+      <p>A chauffeured drop-off avoids the parking search. Your chauffeur drops you on the nearest street open to vehicles, usually just outside the closed blocks, and picks you up at a time and place you agree. With an hourly booking, the vehicle and chauffeur stay with your group for the evening, which helps if you want to see the walking parade in the Quarter and then catch the streetcar celebration on St. Charles.</p>
+
+      <h2>Planning the Evening</h2>
+      <ul>
+        <li><strong>Check this year's schedule</strong> for each event you want to see, and plan the order around their start times.</li>
+        <li><strong>Arrive early</strong> for the walking parade if you want to see it from the curb.</li>
+        <li><strong>Agree on a pickup point</strong> a block or two away from the parade route, where traffic is moving.</li>
+        <li><strong>Make a dinner reservation</strong> in advance; restaurants in the Quarter can be busy on Twelfth Night.</li>
+        <li><strong>Pick up a king cake</strong> during the day if you plan to share one, since popular bakeries can sell out.</li>
+        <li><strong>Charge your phone</strong> and save your chauffeur's number, since service can be slow in a crowded block.</li>
+      </ul>
+
+      <h2>January Weather</h2>
+      <p>New Orleans in early January is usually mild compared with most of the country, but evenings can be cool, damp and occasionally cold, especially if a front has just passed through. Bring a light jacket or layers for standing outdoors during a walking parade, and an umbrella if rain is in the forecast. Wet weather can delay or change outdoor events, so check the organizers' announcements on the day.</p>
+
+      <h2>Bringing Children</h2>
+      <p>Twelfth Night events are family-friendly and less overwhelming than the big February parades, which makes them a good introduction to Carnival for children. Pick a spot along the route where children can see without being pressed against a crowd, keep them close when marchers pass, and agree on what to do if anyone gets separated. Families with young children can request infant, convertible and booster seats when booking their ride.</p>
+
+      <h2>Visiting From Out of Town</h2>
+      <p>Twelfth Night is a good time to visit if you want to experience Carnival without the crowds and hotel prices of Mardi Gras weekend. Hotels are generally easier to book than in February, and the evening has a local, neighborhood feel. If you're flying in, we can meet you at MSY and bring you to your hotel. Airport pickups include 45 minutes of complimentary waiting time on domestic arrivals and 60 minutes on international arrivals, timed from touchdown, and we track flights in case of delays.</p>
+      <p>If you're planning to come back for the big parades in February, book early. Our guide on <a href="/blog/how-far-ahead-book-mardi-gras-jazz-fest-transportation">how far ahead to book Mardi Gras transportation</a> explains why.</p>
+
+      <h2>King Cake Runs and the Season Ahead</h2>
+      <p>For many New Orleanians, Carnival season is measured in king cakes. Offices order them for meetings, families pick them up for weekend gatherings, and visitors carry them home on flights. If you're picking up king cakes for a party or an office, a car can make a multi-bakery run across the city much easier than finding parking at each stop. If you're flying home with one, our guide to <a href="/blog/flying-home-from-msy-with-king-cake-hot-sauce-souvenirs">flying home from MSY with king cake</a> covers how to pack it.</p>
+
+      <h2>Choosing a Vehicle</h2>
+      <p>For a couple, a Mercedes-Benz E-Class seats up to three and is easy to maneuver around the Quarter. Families and small groups fit in a Chevrolet Suburban, which seats five, or a Lincoln Navigator, which seats six. For larger groups, such as friends celebrating the start of the season or an office outing, a Mercedes Sprinter carries up to thirteen passengers.</p>
+
+      <h2>Booking Your Ride</h2>
+      <p>Twelfth Night is busier every year, so book in advance. Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup, and Sprinter, limousine and special-event bookings up to 12 hours before. Your quote is all-inclusive, covering tolls, taxes and gratuity.</p>
+      <p>Call (877) 609-1919 any time or <a href="/booking">book online</a>. Tell us which events you'd like to see and where you're starting from, and we'll plan the evening around the street closures.</p>
+    `,
+    relatedLinks: [
+      { label: "Mardi Gras Parade Transportation", to: "/mardi-gras-parade-transportation" },
+      { label: "French Quarter Limo Service", to: "/french-quarter-limo-service" },
+      { label: "Mardi Gras Dates and Parade Schedule", to: "/blog/when-is-mardi-gras-dates-parade-schedule-transportation-planning" },
+      { label: "Book Your Ride", to: "/booking" },
+    ],
+    faqs: [
+      {
+        q: "When does Carnival season start in New Orleans?",
+        a: "Carnival season begins on January 6, the feast of the Epiphany, known in New Orleans as Twelfth Night. It runs until Mardi Gras Day, which falls on Tuesday, February 9 in 2027.",
+      },
+      {
+        q: "What happens on Twelfth Night in New Orleans?",
+        a: "In recent years the evening has included a walking parade in the French Quarter honoring Joan of Arc, a costumed streetcar ride on St. Charles Avenue, the start of king cake season and early krewe events. Check the organizers' announcements for this year's schedule.",
+      },
+      {
+        q: "Is Twelfth Night crowded like Mardi Gras weekend?",
+        a: "No. The Twelfth Night events are much smaller than the February parades, though the French Quarter still gets busy and some streets close while marchers pass.",
+      },
+      {
+        q: "Can a chauffeur take us to more than one Twelfth Night event?",
+        a: "Yes. With an hourly booking, the vehicle and chauffeur stay with your group, so you can see the walking parade in the Quarter and then head to St. Charles Avenue.",
+      },
+      {
+        q: "When does king cake season start?",
+        a: "Traditionally on January 6. Bakeries across New Orleans begin selling king cakes on Twelfth Night, and the season continues until Mardi Gras Day.",
+      },
+    ],
+  },
+
+  // ---------------------------------------------------------- POST 20 (Nov 12)
+  {
+    slug: "natchitoches-christmas-festival-of-lights-trip-from-new-orleans",
+    title: "The Natchitoches Christmas Festival: Planning a Trip From New Orleans to Louisiana's Festival of Lights",
+    metaTitle: "Natchitoches Christmas Festival Trip | MSY Limo",
+    metaDescription:
+      "A trip from New Orleans to the Natchitoches Christmas Festival and Festival of Lights: the long drive, festival day crowds, staying over and group travel.",
+    category: "Travel",
+    author: "MSY Limo Team",
+    date: "November 12, 2026",
+    scheduled: true,
+    readTime: "8 min read",
+    excerpt:
+      "For nearly a century, the small city of Natchitoches has lit up the banks of Cane River Lake for Christmas. Here is how to plan a trip from New Orleans, from the drive north to the festival-day crowds.",
+    image: "/images/blog/scenario-group-boarding.webp",
+    content: `
+      <p>Every December, Natchitoches, the oldest permanent settlement in the Louisiana Purchase territory, becomes one of the most festive places in the South. Its Christmas Festival dates back to the 1920s, and the lights strung along the banks of Cane River Lake and through the brick-paved historic district draw visitors from across Louisiana and beyond. Many people know the town from the film <em>Steel Magnolias</em>, which was shot there.</p>
+      <p>From New Orleans, Natchitoches is a long trip north, and the festival brings big crowds to a small town. This guide covers how the season works, how to plan the drive, and how to handle festival day and the trip home.</p>
+
+      <h2>The Festival of Lights and Festival Day</h2>
+      <p>The Christmas season in Natchitoches has two parts. The Festival of Lights is the display itself: lights and set pieces along Cane River Lake and through the historic district, which are traditionally switched on in late November and stay lit through the holidays into early January. Christmas Festival day is the big celebration, traditionally held on the first Saturday in December, with a parade, events along the riverbank and fireworks over the lake in the evening.</p>
+      <p>Dates, times, parade details and fireworks schedules are set by the organizers each year, so check the official Natchitoches Christmas Festival information before planning your trip. Many visitors choose a quieter evening in December to see the lights without the festival-day crowds.</p>
+
+      <h2>How Far It Is</h2>
+      <p>Natchitoches is in northwest Louisiana, roughly four hours or more from New Orleans depending on traffic and stops. The usual route heads west on I-10 toward Baton Rouge and then north on I-49 through Alexandria. Our <a href="/msy-to-natchitoches">MSY to Natchitoches</a> route page covers the drive in more detail.</p>
+      <p>That distance makes a same-day round trip a very long day, with eight hours or more of driving on top of the festivities. For festival day, when the fireworks are in the evening, the return trip would end well after midnight. Most visitors from New Orleans stay at least one night.</p>
+
+      <h2>Festival Day Crowds</h2>
+      <p>On festival day, Natchitoches welcomes a crowd many times its normal population. Roads into town slow as visitors arrive, parking fills early, and the riverbank fills well before the fireworks. Hotels and bed-and-breakfasts in and around Natchitoches book up far in advance for festival weekend, so if you're planning to stay, book your room as soon as you decide to go.</p>
+      <ul>
+        <li><strong>Arrive early in the day</strong> if you want to see the parade and find a spot along the riverbank for the fireworks.</li>
+        <li><strong>Agree on a meeting point</strong> with your group in case you get separated in the crowds.</li>
+        <li><strong>Plan meals ahead.</strong> Restaurants in the historic district fill quickly; Natchitoches meat pies are a local specialty worth trying.</li>
+        <li><strong>Expect slow traffic leaving town</strong> after the fireworks.</li>
+      </ul>
+
+      <h2>A Quieter Visit</h2>
+      <p>If you'd rather see the lights without the festival-day crowds, consider a weeknight or a weekend later in December. The lights are on through the season, the historic district is pleasant to walk in the evening, and shops and restaurants are easier to visit. A quieter visit also makes the trip more relaxed for older relatives and young children. It can also make it easier to find a hotel room, since festival weekend is usually the first to sell out, and to get a table at the town's restaurants without a long wait.</p>
+
+      <h2>Why a Chauffeured Trip Makes Sense</h2>
+      <p>Eight hours or more of round-trip driving, much of it on the interstate and part of it after dark, is a lot to add to a holiday outing. With a professional chauffeur, the adults can relax, the children can rest, and nobody has to drive back after a long evening. It's also simpler for groups: families or friends can travel together in one vehicle and arrive at the same time.</p>
+
+      <h2>Two Transfers or a Multi-Day Booking?</h2>
+      <p>For a weekend trip, two one-way transfers are often the most practical choice: one to Natchitoches on Friday or Saturday, and one back to New Orleans on Sunday. If you'd like the vehicle with you during your stay, for example to visit nearby attractions, ask about keeping the chauffeur for the whole trip. Tell us your plans and we'll suggest the best arrangement.</p>
+      <p>If you're flying in and heading straight to Natchitoches, we can pick you up at MSY and drive you directly. Airport pickups include 45 minutes of complimentary waiting time on domestic arrivals and 60 minutes on international arrivals, timed from touchdown.</p>
+
+      <h2>Driving I-49 After Dark</h2>
+      <p>The drive between New Orleans and Natchitoches includes long stretches of interstate through rural central Louisiana, where services are spread out and the roads are dark at night. In December, it gets dark early, so even a mid-afternoon departure can mean arriving after sunset. Winter weather in northern Louisiana is usually mild, but fog, heavy rain and the occasional cold snap can slow the drive. A professional chauffeur who drives long-distance routes regularly takes that strain off the group.</p>
+
+      <h2>Bringing Older Relatives</h2>
+      <p>The Christmas Festival is a multigenerational tradition for many Louisiana families. For grandparents, a long car ride and big crowds can be tiring, so a quieter weeknight visit, a hotel close to the historic district and a drop-off near the riverbank can make the trip far more comfortable. Tell us how older passengers get around when you book, and plan rest stops on the way. A larger vehicle such as a Chevrolet Suburban or Lincoln Navigator gives everyone room to stretch out on the long drive.</p>
+
+      <h2>Things to Do Beyond the Lights</h2>
+      <p>Natchitoches is worth exploring during the day, too. A few ideas:</p>
+      <ul>
+        <li><strong>The historic district</strong> along Front Street and the riverbank, with shops, galleries and historic buildings.</li>
+        <li><strong>Cane River Creole National Historical Park</strong>, south of town, which preserves historic plantation sites and tells the story of the Creole communities along the Cane River. Check its hours before you go.</li>
+        <li><strong>Local food</strong>, including the town's famous meat pies.</li>
+        <li><strong>Historic homes and churches</strong> in and around the town, some of which open for holiday tours; check the official visitor information for this season's offerings.</li>
+      </ul>
+
+      <h2>Choosing a Vehicle</h2>
+      <p>Pack for a weekend and choose a vehicle with room for everyone's luggage.</p>
+      <ul>
+        <li><strong>The Lincoln Nautilus</strong> seats three with room for four bags, a good fit for a couple with weekend luggage.</li>
+        <li><strong>The Chevrolet Suburban and Lincoln Navigator</strong> seat five and six, each with room for five bags, for families.</li>
+        <li><strong>The Mercedes Sprinter</strong> carries up to thirteen passengers with room for thirteen bags, ideal for church groups, extended families or friends traveling together.</li>
+      </ul>
+      <p>Families with young children can request infant, convertible and booster seats when they book.</p>
+
+      <h2>Booking Your Trip</h2>
+      <p>Festival weekend books early, both for hotels and for transportation, so reserve as soon as your plans are set. Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup, and Sprinter, limousine and special-event bookings up to 12 hours before. Your quote is all-inclusive, covering tolls, taxes and gratuity.</p>
+      <p>Call (877) 609-1919 any time or <a href="/booking">book online</a>. Tell us your dates, group size and where you're staying in Natchitoches, and we'll plan the trip from there.</p>
+    `,
+    relatedLinks: [
+      { label: "MSY to Natchitoches", to: "/msy-to-natchitoches" },
+      { label: "St. Francisville and Plantation Country Day Trip", to: "/blog/st-francisville-plantation-country-day-trip" },
+      { label: "Our Fleet", to: "/fleet" },
+      { label: "Book Your Ride", to: "/booking" },
+    ],
+    faqs: [
+      {
+        q: "When is the Natchitoches Christmas Festival?",
+        a: "Christmas Festival day is traditionally held on the first Saturday in December, and the Festival of Lights display is lit from late November into early January. Check the official festival information for this year's dates.",
+      },
+      {
+        q: "How far is Natchitoches from New Orleans?",
+        a: "Roughly four hours or more by car, depending on traffic and stops, usually via I-10 and I-49 through Alexandria.",
+      },
+      {
+        q: "Should we stay overnight in Natchitoches?",
+        a: "Most visitors from New Orleans do, especially on festival day, when the fireworks are in the evening. Hotels and bed-and-breakfasts book up early for festival weekend.",
+      },
+      {
+        q: "Is there a quieter time to see the lights?",
+        a: "Yes. The lights stay on through the holiday season, so a weeknight or a later December weekend avoids the festival-day crowds.",
+      },
+      {
+        q: "What vehicle works for a group trip to Natchitoches?",
+        a: "A Mercedes Sprinter carries up to thirteen passengers with room for thirteen bags. A Chevrolet Suburban or Lincoln Navigator suits a family with weekend luggage.",
+      },
+    ],
+  },
+
+  // ---------------------------------------------------------- POST 21 (Nov 13)
+  {
+    slug: "carnival-ball-season-new-orleans-krewe-ball-transportation-guide",
+    title: "Carnival Ball Season in New Orleans: Getting to Krewe Balls and Super Krewe Parties in Style",
+    metaTitle: "Carnival Ball Season Transportation Guide | MSY Limo",
+    metaDescription:
+      "How New Orleans Carnival ball season works, from invitation-only krewe balls to super krewe parties, plus formal dress, venues, timing and the ride home.",
+    category: "Events",
+    author: "MSY Limo Team",
+    date: "November 13, 2026",
+    scheduled: true,
+    readTime: "8 min read",
+    excerpt:
+      "Between Twelfth Night and Mardi Gras, New Orleans hosts a season of formal balls, from century-old invitation-only tableaux to huge after-parade parties. Here's how ball season works and how to plan the night.",
+    image: "/images/blog/scenario-wedding-2.webp",
+    content: `
+      <p>Parades are the public face of Carnival, but for many New Orleanians the season is just as much about the balls. Between Twelfth Night on January 6 and Mardi Gras Day, krewes host formal balls across the city: some are private, invitation-only affairs with traditions going back more than a century, while others are huge, ticketed parties that follow a krewe's parade. For guests attending a ball for the first time, the customs can be confusing, and the logistics of a formal night out in Carnival season are worth planning carefully.</p>
+      <p>This guide explains how Carnival balls work, what to expect, and how to handle transportation for one of the most formal nights of the year in New Orleans.</p>
+
+      <h2>Two Kinds of Carnival Balls</h2>
+      <h3>Traditional Krewe Balls</h3>
+      <p>Many of the city's older krewes hold private balls that are attended by invitation only. These events often center on a tableau, a staged presentation featuring the krewe's king, queen, maids and costumed members, followed by dancing. Invitations are highly valued, dress is formal, and the customs vary from krewe to krewe. Some balls have specific traditions about when guests arrive, where they sit and who may dance during certain parts of the evening.</p>
+      <h3>Super Krewe Parties</h3>
+      <p>Some of the largest krewes host enormous parties on the night of their parade, often in large venues where the parade itself may roll through or end. These events are ticketed and much larger than a traditional ball, with live music, food and dancing late into the night. They are a different kind of evening from a private tableau ball, but they share the formal-wear tradition and the need for good transportation planning.</p>
+
+      <h2>Dress Codes</h2>
+      <p>Carnival balls are formal. Many call for black tie, and some traditional krewes call for white tie for men and floor-length gowns for women. Invitations or tickets usually spell out the dress code, and it's important to follow it. If you're new to ball season, ask your host what's expected, since some older balls have customs that aren't written on the invitation.</p>
+      <p>Formal wear and long gowns are one reason guests prefer a chauffeured ride. Getting in and out of a vehicle in a gown, walking from a distant parking space in formal shoes, and dealing with a parking garage in the rain are all easier to avoid.</p>
+
+      <h2>Venues and Timing</h2>
+      <p>Balls are held in venues across the city, including hotel ballrooms, theaters, historic event halls and large convention spaces. Traditional balls often begin in the evening with the tableau and continue late, while super krewe parties can start before the parade arrives and run past midnight.</p>
+      <ul>
+        <li><strong>Check your invitation or ticket</strong> for the arrival time and any specific instructions.</li>
+        <li><strong>Plan around parade traffic.</strong> Many balls take place on nights when parades are rolling, which can close streets and slow traffic across the city.</li>
+        <li><strong>Allow extra time</strong> for arrival, especially if the venue is near a parade route.</li>
+        <li><strong>Plan the return.</strong> Balls often end late, when rideshares are scarce and prices high.</li>
+      </ul>
+
+      <h2>Why Parade Nights Complicate Things</h2>
+      <p>During Carnival season, parades close major streets, and the closures can last for hours. On a busy parade night, getting across the city can take much longer than usual, and some routes may be blocked entirely. A chauffeur who knows the parade routes and closures can plan a route to the venue that avoids the worst traffic, and choose a drop-off and pickup point that works around the closures. Our <a href="/blog/mardi-gras-parade-route-pickup-guide">Mardi Gras parade route pickup guide</a> explains how pickups work during parades.</p>
+
+      <h2>Arriving at the Ball</h2>
+      <p>Arriving by chauffeured car is part of the tradition for many ballgoers. Your chauffeur drops you at the venue entrance, or as close as traffic and any closures allow, so you don't have to walk from a parking garage in formal wear. If you're attending with a group, one vehicle keeps everyone together and arriving at the same time, which can matter at balls with set arrival times.</p>
+
+      <h2>Getting Home</h2>
+      <p>The end of a ball is often the hardest part of the night. Many guests leave at the same time, rideshares surge, and parade-night traffic can still be heavy. A pre-booked pickup means your car is waiting when you're ready. With an hourly booking, the vehicle and chauffeur stay nearby throughout the evening, which is helpful if the ball runs late or if you're going on to an after-party or a late supper.</p>
+
+      <h2>Etiquette for First-Time Guests</h2>
+      <p>Traditional balls have customs that first-time guests are often unsure about. Bring your invitation or admission card if one was issued, since some balls check them at the door. Arrive at the time stated; at many tableau balls the presentation starts promptly, and late arrivals can be asked to wait. Follow the seating arrangements and the instructions of the krewe's committee members, and avoid leaving during the tableau. Photography rules vary, so check before taking pictures. When in doubt, follow your host's lead.</p>
+      <p>Super krewe parties are more relaxed, but tickets, bag rules and security screening usually apply. Check the event's official information for entry rules before you go.</p>
+
+      <h2>Out-of-Town Guests</h2>
+      <p>Many guests fly in for a ball, sometimes for the first time. If you're traveling to New Orleans for ball season, we can meet you at MSY, take you to your hotel, and handle the ball night itself. Airport pickups include 45 minutes of complimentary waiting on domestic arrivals and 60 minutes on international arrivals, timed from touchdown, and we track flights in case of delays.</p>
+      <p>Hotels fill quickly on parade weekends, especially near the parade routes, so book early. Our <a href="/blog/how-far-ahead-book-mardi-gras-jazz-fest-transportation">guide to booking Mardi Gras transportation</a> explains why it pays to plan ahead.</p>
+
+      <h2>Families of Royalty and Maids</h2>
+      <p>For families with a daughter presented as a maid or queen, or a son or husband serving in the court, ball night is a major family occasion. Families often need transportation for several groups: the honoree arriving early for preparations, parents and relatives arriving later, and grandparents who may want to leave before the end. Tell us the different arrival and departure times, and we'll plan vehicles accordingly. For larger families, a Mercedes Sprinter carries up to thirteen passengers.</p>
+
+      <h2>Choosing a Vehicle</h2>
+      <p>For a couple, a BMW 7 Series or Mercedes S-Class suits a formal evening. For two couples or a small group, a Chevrolet Suburban or Lincoln Navigator seats five or six. For larger parties, a Mercedes Sprinter carries up to thirteen passengers. Gowns take up room, so tell us when you book if several guests in long dresses will be traveling together.</p>
+
+      <h2>Booking Your Ball Night</h2>
+      <p>Carnival weekends are among the busiest of the year for transportation in New Orleans, so book as soon as you have your invitation or tickets. Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup, and Sprinter, limousine and special-event bookings up to 12 hours before. Your quote is all-inclusive, covering tolls, taxes and gratuity.</p>
+      <p>Call (877) 609-1919 any time or <a href="/booking">book online</a>. Tell us the venue, your arrival time and whether a parade is rolling that night, and we'll plan the route around the closures.</p>
+    `,
+    relatedLinks: [
+      { label: "Mardi Gras Transportation Guide", to: "/blog/mardi-gras-transportation-guide" },
+      { label: "Mardi Gras World Car Service", to: "/limo-service-near-mardi-gras-world" },
+      { label: "Our Fleet", to: "/fleet" },
+      { label: "Book Your Ride", to: "/booking" },
+    ],
+    faqs: [
+      {
+        q: "When is Carnival ball season in New Orleans?",
+        a: "Ball season runs from Twelfth Night on January 6 until Mardi Gras Day, which falls on Tuesday, February 9 in 2027. Krewes hold their balls on dates throughout the season.",
+      },
+      {
+        q: "What should I wear to a Carnival ball?",
+        a: "Carnival balls are formal. Many call for black tie, and some traditional krewes call for white tie and floor-length gowns. Follow the dress code on your invitation or ticket, and ask your host if you're unsure.",
+      },
+      {
+        q: "What is a tableau ball?",
+        a: "Many traditional krewes hold invitation-only balls centered on a tableau, a staged presentation of the krewe's king, queen, maids and costumed members, followed by dancing.",
+      },
+      {
+        q: "How do parades affect getting to a ball?",
+        a: "Many balls take place on parade nights, when major streets close for hours. A chauffeur can plan a route around the closures and choose drop-off and pickup points that work.",
+      },
+      {
+        q: "Can the chauffeur wait during the ball?",
+        a: "Yes, with an hourly booking the vehicle and chauffeur stay nearby, which helps if the ball runs late or you're going on to an after-party.",
+      },
+    ],
+  },
 
 ];
