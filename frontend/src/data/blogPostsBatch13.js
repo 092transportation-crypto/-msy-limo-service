@@ -1624,5 +1624,327 @@ export const BLOG_POSTS_BATCH13 = [
       },
     ],
   },
+  // ---------------------------------------------------------- POST 16 (Nov 8)
+  // Added 2026-11-08: three more scheduled seasonal posts, one per day on
+  // November 8, 9 and 10, 2026 (the days after this batch's last posts).
+  // Topics checked against every post, guide and landing page on all five
+  // sites. Fleet capacities follow FleetPage.jsx; policies follow the FAQ and
+  // booking copy; no prices. Causeway operations, restaurant menus and event
+  // dates are sent to the official source.
+  {
+    slug: "causeway-fog-northshore-early-flights-msy-winter-guide",
+    title: "Causeway Fog and Early Flights: Getting From the Northshore to MSY on Winter Mornings",
+    metaTitle: "Causeway Fog & Early MSY Flights | MSY Limo",
+    metaDescription:
+      "How Causeway fog convoys, winter weather and early departures affect trips from Mandeville, Covington and Slidell to MSY, and how to plan a Northshore pickup.",
+    category: "Airport",
+    author: "MSY Limo Team",
+    date: "November 8, 2026",
+    scheduled: true,
+    readTime: "8 min read",
+    excerpt:
+      "From late fall into spring, dense fog over Lake Pontchartrain can slow the Causeway to a crawl just when Northshore travelers are heading to early flights. Here's how fog season works and how to plan the drive to MSY.",
+    image: "/images/blog/airport-dropoff.webp",
+    content: `
+      <p>For people who live on the Northshore, the Lake Pontchartrain Causeway is the everyday route to Louis Armstrong New Orleans International Airport. From Mandeville or Covington, you cross the lake, come off in Metairie and head west to Kenner, and on a clear morning it's an easy, predictable drive. But from late fall through early spring, the lake has a habit of producing fog thick enough to change everything about that trip, and it tends to happen at exactly the time of day early flights leave.</p>
+      <p>This guide explains how fog affects the Causeway, what the alternatives are, and how Northshore travelers can plan winter airport runs so a foggy morning doesn't cost them a flight.</p>
+
+      <h2>Why Fog Forms Over the Lake</h2>
+      <p>Fog over Lake Pontchartrain usually forms on cool, calm nights when moist air settles over the water and the surrounding marsh. It is most common in the cooler months, roughly from late fall into spring, and it is often thickest in the hours around sunrise, then lifts or burns off as the morning warms. On some days it clears by mid-morning; on others it lingers well into the day.</p>
+      <p>Fog can also be patchy. It's not unusual to leave Mandeville under clear skies, drive into a wall of fog a few miles out over the lake, and come out into sunshine again in Metairie. That unpredictability is what makes it hard to plan around if you're watching the clock.</p>
+
+      <h2>How the Causeway Handles Fog: Convoys</h2>
+      <p>The Causeway is two parallel bridges roughly 24 miles long, and for much of the crossing there is nothing to see but water. When visibility drops, the Causeway's own police department can hold traffic at each end and lead vehicles across in escorted convoys at reduced speed. Convoys keep drivers safe, but they add time: traffic waits for the next convoy to form, then crosses well below the normal speed.</p>
+      <p>On a bad fog morning, that can mean significant delays, and the backup at the north end can grow quickly as commuters, school traffic and airport travelers all arrive at once. The Causeway posts current conditions and convoy status on its official website and social media channels, and checking them before you leave is the single most useful habit for winter travel.</p>
+
+      <h2>The Alternatives: Twin Span and I-55</h2>
+      <p>When the Causeway is slow, there are other ways around the lake, though none is perfect.</p>
+      <ul>
+        <li><strong>I-10 through Slidell:</strong> From Slidell and the eastern Northshore, I-10 crosses the eastern end of the lake on the Twin Span into New Orleans East, then continues through the city toward the airport. It's a natural route for Slidell travelers, but it means driving through the city, which can be slow at rush hour. See our <a href="/msy-to-slidell">MSY to Slidell</a> route page.</li>
+        <li><strong>I-12 to I-55 and I-10 via LaPlace:</strong> From Hammond or western St. Tammany, heading west and around the lake avoids the Causeway entirely, but it's a longer drive, and the bridges over the Manchac swamp can see fog too.</li>
+      </ul>
+      <p>For most Mandeville and Covington travelers, the Causeway is still the best route, even with a convoy. The key is leaving enough time that a fog delay doesn't matter.</p>
+
+      <h2>Planning an Early Flight in Fog Season</h2>
+      <p>Early departures are the trips most affected by fog. Here's a practical way to plan:</p>
+      <ul>
+        <li><strong>Work backward from the flight.</strong> Aim to be at MSY at least two hours before a domestic departure and three before an international one, then add the normal driving time from your home.</li>
+        <li><strong>Add a fog buffer.</strong> For flights in the first wave of the morning during fog season, add extra time on top of your usual estimate. Arriving early is far better than watching a convoy form while boarding begins.</li>
+        <li><strong>Check conditions the night before and again when you wake up.</strong> Fog advisories from the National Weather Service and the Causeway's own updates give a good idea of what to expect.</li>
+        <li><strong>Have bags packed and by the door</strong> so you can leave earlier if fog is reported.</li>
+        <li><strong>Consider a later flight</strong> for important trips in the winter months, when morning fog is most likely.</li>
+      </ul>
+      <p>Our guide to <a href="/blog/new-orleans-airport-early-morning-pickup">early morning airport pickups</a> has more tips for the first flights of the day.</p>
+
+      <h2>If You're Driving Yourself</h2>
+      <p>Plenty of Northshore residents drive themselves to MSY, and on a foggy morning a few basics make the trip safer. Use your low-beam headlights, since high beams reflect off the fog and reduce what you can see. Leave far more following distance than usual, keep your speed steady, and follow any instructions from Causeway police during a convoy. Don't stop on the bridge unless you have to. And if you're parking at MSY, allow time for the garage and the walk to the terminal on top of the slower crossing.</p>
+
+      <h2>When Fog Affects Your Arrival Instead</h2>
+      <p>Fog doesn't only slow the drive. Low visibility at MSY itself can delay arriving flights, and sometimes flights divert to another airport until conditions improve. If you're flying home to the Northshore, a delayed arrival can then run into fog on the Causeway on the way home.</p>
+      <p>This is where flight tracking helps. Our chauffeurs follow your flight in real time, so the pickup adjusts to when you actually land. Airport pickups include 45 minutes of complimentary waiting time on domestic arrivals and 60 minutes on international arrivals, timed from touchdown, which absorbs most short delays. If a flight is significantly late or diverted, we'll adjust the pickup.</p>
+
+      <h2>Why a Professional Driver Helps on Fog Mornings</h2>
+      <p>Driving the Causeway in a fog convoy is stressful, especially in the dark before dawn with a flight to catch. A professional chauffeur who drives the route regularly knows how the convoys work, keeps an eye on conditions, and lets you rest, check in for your flight or finish an email instead of staring at taillights. You arrive at the terminal curb with your bags handled, rather than hunting for parking after a slow crossing.</p>
+      <p>It also helps when plans change. If the Causeway is in convoy and the route through Slidell looks faster for your location, your chauffeur can talk through the options with you before you leave.</p>
+
+      <h2>Choosing a Vehicle</h2>
+      <ul>
+        <li><strong>Sedans</strong> such as the Mercedes-Benz E-Class seat up to three passengers with two bags, ideal for business travelers.</li>
+        <li><strong>The Lincoln Nautilus</strong> seats three with room for four bags, a good fit for couples with luggage.</li>
+        <li><strong>The Chevrolet Suburban and Lincoln Navigator</strong> seat five and six respectively, each with room for five bags, for families heading out for the holidays.</li>
+        <li><strong>The Mercedes Sprinter</strong> carries up to thirteen passengers, for groups traveling together.</li>
+      </ul>
+      <p>Families traveling with young children can request infant, convertible and booster seats when they book.</p>
+
+      <h2>Booking a Northshore Airport Run</h2>
+      <p>We serve the whole Northshore, including <a href="/mandeville-limo-service">Mandeville</a>, Covington, Madisonville, Abita Springs and Slidell. Book early for holiday travel and the first flights of the day. Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup, and Sprinter bookings up to 12 hours before. Your quote is all-inclusive, covering tolls, taxes and gratuity, and is confirmed before you book.</p>
+      <p>Call (877) 609-1919 any time or <a href="/booking">book online</a>. Tell us your flight time and pickup address, and if it's fog season, we'll suggest a departure time with a buffer built in.</p>
+    `,
+    relatedLinks: [
+      { label: "MSY to Covington", to: "/msy-to-covington" },
+      { label: "Mandeville Limo Service", to: "/mandeville-limo-service" },
+      { label: "Early Morning Airport Pickups in New Orleans", to: "/blog/new-orleans-airport-early-morning-pickup" },
+      { label: "Book Your Ride", to: "/booking" },
+    ],
+    faqs: [
+      {
+        q: "What is a Causeway fog convoy?",
+        a: "When visibility over Lake Pontchartrain drops, the Causeway's police can hold traffic and lead vehicles across in escorted convoys at reduced speed. Convoys keep drivers safe but add time. The Causeway posts current conditions on its official website and social media.",
+      },
+      {
+        q: "When is fog most common on the Causeway?",
+        a: "Fog is most common in the cooler months, roughly from late fall into spring, and is often thickest around sunrise. It usually lifts as the morning warms, but on some days it lingers.",
+      },
+      {
+        q: "How much extra time should I allow for an early flight from the Northshore?",
+        a: "Aim to arrive at MSY at least two hours before a domestic flight and three before an international one, then add your normal drive time plus an extra buffer for fog during the winter months.",
+      },
+      {
+        q: "Is there a way to avoid the Causeway in fog?",
+        a: "Slidell travelers can use I-10 across the Twin Span, and western Northshore travelers can go around the lake via I-55 and LaPlace. Both are longer for most Mandeville and Covington trips, and fog can affect them too.",
+      },
+      {
+        q: "What if my flight into MSY is delayed by fog?",
+        a: "We track flights and adjust the pickup to your actual landing time. Domestic arrivals include 45 minutes of complimentary waiting from touchdown, and international arrivals include 60 minutes.",
+      },
+    ],
+  },
+
+  // ---------------------------------------------------------- POST 17 (Nov 9)
+  {
+    slug: "reveillon-dinners-new-orleans-december-tradition-guide",
+    title: "Réveillon Dinners in New Orleans: How to Enjoy the City's Old Creole Christmas Feast",
+    metaTitle: "Réveillon Dinners in New Orleans Guide | MSY Limo",
+    metaDescription:
+      "What a Réveillon dinner is, how New Orleans restaurants serve it each December, how to book a table and how to plan the night around the Quarter and Uptown.",
+    category: "Events",
+    author: "MSY Limo Team",
+    date: "November 9, 2026",
+    scheduled: true,
+    readTime: "8 min read",
+    excerpt:
+      "Réveillon began as a Creole family meal after midnight Mass and lives on as a December restaurant tradition. Here's what it is, how to choose a dinner, and how to plan the evening so getting there and home is the easy part.",
+    image: "/images/blog/landmark-nola-1.webp",
+    content: `
+      <p>Every December, menus at many New Orleans restaurants gain a word that visitors often haven't seen before: Réveillon. It comes from the French verb <em>réveiller</em>, to wake up, and it refers to one of the city's oldest holiday traditions, a late-night feast that Creole families once held after midnight Mass on Christmas Eve. Today it lives on as a special multi-course dinner served at restaurants across the city throughout the month, and it's one of the best ways to experience New Orleans in December.</p>
+      <p>This guide covers what Réveillon is, how restaurant Réveillon dinners usually work, how to plan an evening around one, and how to handle transportation in the busiest neighborhoods during the holiday season.</p>
+
+      <h2>A Short History of Réveillon</h2>
+      <p>In 19th-century New Orleans, Catholic Creole families often fasted before attending midnight Mass on Christmas Eve, then came home in the early hours to a large meal. The menu reflected the household and the season: egg dishes, breads, sweets, and often turtle soup, daube glacé or other rich preparations, served with wine or something stronger. A second Réveillon was traditionally held on New Year's Eve.</p>
+      <p>Over time the home tradition faded, but in recent decades it has been revived as a restaurant tradition. Restaurants now offer special Réveillon menus through much of December, and the city promotes them as part of its holiday celebrations. Many locals make an annual Réveillon dinner part of their holiday season, and visitors find it a memorable way to taste the city's food history.</p>
+
+      <h2>How Restaurant Réveillon Dinners Work</h2>
+      <p>Each participating restaurant creates its own Réveillon menu, so no two are the same. Most are prix-fixe dinners of several courses, often drawing on Creole and French traditions while adding the chef's own ideas. Some restaurants offer them only on certain nights, while others serve them throughout the season alongside their regular menu.</p>
+      <ul>
+        <li><strong>Check which restaurants are participating this year.</strong> The list changes annually, and the official city holiday guides and restaurants' own websites are the best sources.</li>
+        <li><strong>Reserve ahead.</strong> Popular restaurants fill up on December weekends, especially those in the French Quarter.</li>
+        <li><strong>Ask about dates.</strong> Some Réveillon menus run only on specific nights, and many restaurants have different hours on Christmas Eve, Christmas Day and New Year's Eve.</li>
+        <li><strong>Plan for a long meal.</strong> A multi-course dinner can easily run two hours or more, so allow plenty of time.</li>
+      </ul>
+
+      <h2>Choosing a Neighborhood</h2>
+      <p>Réveillon menus appear in restaurants across the city, and the neighborhood you choose shapes the whole evening.</p>
+      <ul>
+        <li><strong>The French Quarter</strong> has many of the city's oldest restaurants and the most festive atmosphere, with decorated balconies and holiday events. It also has the most crowded streets and the fewest places to park.</li>
+        <li><strong>The CBD and Warehouse District</strong> are close to many hotels and the convention center, with easier access by car.</li>
+        <li><strong>The Garden District and Uptown</strong> offer a quieter evening, with restaurants in historic houses along St. Charles Avenue and Magazine Street.</li>
+        <li><strong>Mid-City and other neighborhoods</strong> have restaurants that also take part, and they pair well with a visit to City Park.</li>
+      </ul>
+
+      <h2>Dress, Dietary Needs and Etiquette</h2>
+      <p>Réveillon dinners range from relaxed neighborhood restaurants to some of the city's most formal dining rooms. A few of the older French Quarter establishments have long expected men to wear jackets in the evening, so check each restaurant's dress guidance before you go. If anyone in your party has allergies or dietary restrictions, mention them when you reserve; a set menu is easier for the kitchen to adjust with notice. And because Réveillon dinners are usually prix-fixe, ask in advance whether wine pairings, tax and service are included, so the bill holds no surprises.</p>
+
+      <h2>Pairing Réveillon With Other Holiday Traditions</h2>
+      <p>A Réveillon dinner fits naturally into a holiday evening in New Orleans. Some ideas:</p>
+      <ul>
+        <li><strong>Celebration in the Oaks</strong>, the holiday light display in City Park, makes a lovely start or end to the evening. Our <a href="/blog/celebration-in-the-oaks-transportation-guide">Celebration in the Oaks guide</a> covers how to plan a visit.</li>
+        <li><strong>Holiday concerts at St. Louis Cathedral</strong> have long been part of the city's December calendar. Check the cathedral and the city's holiday listings for this year's schedule.</li>
+        <li><strong>Caroling in Jackson Square</strong>, usually held the Sunday before Christmas, pairs well with dinner in the Quarter.</li>
+        <li><strong>Bonfires on the levee</strong> on Christmas Eve upriver in St. James Parish make a memorable day trip. See our <a href="/blog/bonfires-on-the-levee-christmas-eve-river-road">Bonfires on the Levee guide</a>.</li>
+      </ul>
+
+      <h2>Getting Around on a Holiday Evening</h2>
+      <p>December evenings are busy across New Orleans, with holiday parties, conventions, sports events and visitors filling restaurants and hotels. Street parking in the French Quarter is extremely limited, garages can fill on weekends, and rideshare demand spikes when restaurants and bars let out. Our <a href="/blog/new-orleans-parking-guide-downtown-french-quarter">New Orleans parking guide</a> explains the options if you're driving yourself.</p>
+      <p>For a special dinner, a chauffeur removes all of that. You're dropped at the restaurant door, or as close as the Quarter's street closures allow, and picked up when you're ready. With a long meal and wine pairings, nobody has to worry about driving home.</p>
+
+      <h2>Hourly or Point-to-Point?</h2>
+      <p>For a simple dinner, separate one-way transfers to and from the restaurant work well. If the evening includes several stops, such as cocktails, dinner, a holiday light display and a nightcap, an hourly booking keeps the vehicle and chauffeur with your group all evening. That's also a good choice for corporate groups hosting clients at a holiday dinner, where timing matters and guests may leave at different times.</p>
+
+      <h2>Groups, Families and Visiting Relatives</h2>
+      <p>Réveillon dinners are popular with families gathering for the holidays and with friends celebrating together. For a group, the right vehicle keeps everyone together:</p>
+      <ul>
+        <li><strong>Sedans</strong> such as the Mercedes-Benz E-Class or BMW 7 Series seat up to three, ideal for a couple's night out.</li>
+        <li><strong>The Chevrolet Suburban and Lincoln Navigator</strong> seat five and six.</li>
+        <li><strong>The Mercedes Sprinter</strong> carries up to thirteen, perfect for a family or office dinner.</li>
+      </ul>
+      <p>If relatives are flying in for the holidays, we can pick them up at MSY and bring them straight to dinner, with luggage stored safely in the vehicle. Airport pickups include 45 minutes of complimentary waiting time on domestic arrivals and 60 minutes on international arrivals, timed from touchdown.</p>
+
+      <h2>A Note on Christmas Eve and New Year's Eve</h2>
+      <p>Christmas Eve and New Year's Eve are the two traditional Réveillon nights and among the busiest of the year for restaurants and transportation. If you plan to dine on either night, reserve your table and your ride as early as possible. Our guide to <a href="/blog/new-years-eve-bourbon-street-car-service">New Year's Eve car service</a> covers how to plan that night in particular.</p>
+
+      <h2>Booking Your Ride</h2>
+      <p>Reserve as soon as your dinner reservation is confirmed, especially for weekends in December. Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup, and Sprinter, limousine and special-event bookings up to 12 hours before. Your quote is all-inclusive, covering tolls, taxes and gratuity.</p>
+      <p>Call (877) 609-1919 any time or <a href="/booking">book online</a>. Tell us the restaurant, reservation time and any other stops, and we'll plan the evening from there.</p>
+    `,
+    relatedLinks: [
+      { label: "New Orleans Restaurant and Food Tour Chauffeur Guide", to: "/blog/new-orleans-restaurant-food-tour-chauffeur-guide" },
+      { label: "French Quarter Limo Service", to: "/french-quarter-limo-service" },
+      { label: "Celebration in the Oaks Transportation Guide", to: "/blog/celebration-in-the-oaks-transportation-guide" },
+      { label: "Book Your Ride", to: "/booking" },
+    ],
+    faqs: [
+      {
+        q: "What is a Réveillon dinner?",
+        a: "Réveillon is a New Orleans holiday tradition that began as a late-night feast Creole families held after midnight Mass on Christmas Eve. Today many restaurants serve special multi-course Réveillon menus throughout December.",
+      },
+      {
+        q: "When are Réveillon menus available in New Orleans?",
+        a: "Participating restaurants typically offer Réveillon menus through much of December, though some serve them only on certain nights. Check the restaurant's website or the city's official holiday listings for this year's details.",
+      },
+      {
+        q: "Do I need a reservation for a Réveillon dinner?",
+        a: "Yes, especially on December weekends and at popular French Quarter restaurants. Book your table early, then reserve your ride once your time is confirmed.",
+      },
+      {
+        q: "Can a chauffeur take us to dinner and a holiday light display?",
+        a: "Yes. With an hourly booking, the vehicle and chauffeur stay with your group all evening, so you can add Celebration in the Oaks, a concert or a nightcap without arranging another ride.",
+      },
+      {
+        q: "What vehicle works for a family Réveillon dinner?",
+        a: "A Chevrolet Suburban seats five and a Lincoln Navigator six. For larger families or office groups, a Mercedes Sprinter carries up to thirteen passengers.",
+      },
+    ],
+  },
+
+  // ---------------------------------------------------------- POST 18 (Nov 10)
+  {
+    slug: "caroling-in-jackson-square-new-orleans-christmas-tradition",
+    title: "Caroling in Jackson Square: How to Join One of New Orleans' Oldest Christmas Traditions",
+    metaTitle: "Caroling in Jackson Square Guide | MSY Limo",
+    metaDescription:
+      "Planning to join Caroling in Jackson Square: when it usually happens, crowds, where to stand, getting into the French Quarter and pairing it with dinner.",
+    category: "Events",
+    author: "MSY Limo Team",
+    date: "November 10, 2026",
+    scheduled: true,
+    readTime: "8 min read",
+    excerpt:
+      "Every December, thousands of people gather in Jackson Square by candlelight to sing carols in front of St. Louis Cathedral. Here's how the evening works, when to arrive, and how to get in and out of the French Quarter on one of its busiest nights.",
+    image: "/images/blog/landmark-nola-streetcar-1.webp",
+    content: `
+      <p>Few holiday scenes in New Orleans are as memorable as Jackson Square on the night of the annual Christmas caroling. Thousands of people fill the square, candles in hand, with St. Louis Cathedral lit up behind them, and sing carols together under the oaks. The event has been held for decades, organized by the Patio Planters of the Vieux Carré, and it has become one of the city's best-loved Christmas traditions for locals and visitors alike.</p>
+      <p>It's also one of the busiest evenings of the year in the French Quarter. This guide covers how the event usually works, when to arrive, what to bring, and how to plan transportation in and out of the Quarter.</p>
+
+      <h2>What Caroling in Jackson Square Is</h2>
+      <p>Caroling in Jackson Square is a free, community sing-along held in the square in front of St. Louis Cathedral. Participants traditionally receive candles and song sheets, and the crowd sings a program of familiar Christmas carols together. It's family-friendly, informal and open to everyone, whether you sing well or just enjoy the atmosphere.</p>
+      <p>The event is usually held on the Sunday evening before Christmas. Exact timing, details and any changes are set by the organizers each year, so check the official announcements before you plan your evening. Weather can also affect the event, as it is held outdoors.</p>
+
+      <h2>When to Arrive</h2>
+      <p>Jackson Square fills quickly on caroling night, and the best spots, close to the front where you can hear and see well, go early. A few tips:</p>
+      <ul>
+        <li><strong>Arrive well before the start time</strong> if you want to be inside the square rather than at its edges.</li>
+        <li><strong>Families with young children</strong> often prefer a spot near the edge of the crowd, where it's easier to step away if needed.</li>
+        <li><strong>Expect gates to the square to be busy</strong> as the start time approaches, and allow time to get through the crowd.</li>
+        <li><strong>Plan for the event to end in the evening</strong>, with thousands of people leaving at once.</li>
+      </ul>
+
+      <h2>What to Bring</h2>
+      <ul>
+        <li><strong>Layers.</strong> December evenings in New Orleans are usually mild but can turn cool and damp, especially after sundown.</li>
+        <li><strong>Comfortable shoes.</strong> You'll be standing for a while and walking on historic streets.</li>
+        <li><strong>Something to protect your hand from dripping wax</strong>, such as a paper cup or a small piece of cardboard.</li>
+        <li><strong>A small bag only.</strong> The square is crowded, and less is easier.</li>
+        <li><strong>A fully charged phone</strong> to find your group and your ride afterward.</li>
+      </ul>
+
+      <h2>Getting Into the French Quarter</h2>
+      <p>The streets immediately around Jackson Square are largely pedestrian, and on a busy December evening the surrounding blocks fill with visitors, diners and holiday shoppers. Street parking is extremely limited, and garages and lots near the river and the French Market can fill. Our <a href="/blog/new-orleans-parking-guide-downtown-french-quarter">French Quarter parking guide</a> explains the options if you're driving.</p>
+      <p>A chauffeured drop-off avoids the search. Your chauffeur drops you on the nearest street open to vehicles, usually along Decatur Street or another nearby street depending on traffic and closures that evening, and you walk the last short stretch to the square. Our <a href="/limo-service-near-jackson-square">Jackson Square car service</a> page covers the area in more detail.</p>
+
+      <h2>Planning the Pickup</h2>
+      <p>When the caroling ends, the crowd leaves all at once, and the streets around the square fill with pedestrians. Rideshare pickups are difficult, and cars trying to reach the square move slowly. The best approach is to agree on a specific pickup point a few blocks away before the event, in a spot your chauffeur can reach easily.</p>
+      <ul>
+        <li><strong>Choose a meeting point away from the square</strong>, where traffic is moving.</li>
+        <li><strong>Set a pickup time</strong> about twenty to thirty minutes after the expected end, or call when you're ready.</li>
+        <li><strong>Make sure everyone in your group knows the meeting point</strong>, in case you get separated in the crowd.</li>
+        <li><strong>If you're having dinner afterward</strong>, simply walk to the restaurant and arrange your pickup from there.</li>
+      </ul>
+
+      <h2>If It Rains</h2>
+      <p>Because the caroling is outdoors, rain can change the evening. Watch the organizers' announcements on the day for any change of plans, and bring a compact umbrella or rain jacket if the forecast is uncertain. Candles and rain don't mix, so a rainy night may also mean a smaller crowd and an easier arrival. If the event goes ahead in light rain, a car waiting a few blocks away means a short, dry walk instead of a long wait for a ride.</p>
+
+      <h2>Staying in the French Quarter?</h2>
+      <p>If your hotel is in the Quarter, you may be able to walk to the square, which is often the easiest option on caroling night. Guests staying in the CBD, the Warehouse District, the Garden District or farther out will find a drop-off and pickup much easier than finding parking. If you're arriving in New Orleans the same day, we can meet you at MSY and bring you to your hotel in time to drop your bags and walk over.</p>
+
+      <h2>Making an Evening of It</h2>
+      <p>Caroling in Jackson Square fits naturally into a festive December evening in the Quarter. Many visitors combine it with:</p>
+      <ul>
+        <li><strong>A Réveillon dinner</strong> at one of the Quarter's restaurants. Reserve early, as caroling night is busy.</li>
+        <li><strong>A walk through the decorated streets</strong>, where many balconies and storefronts are lit for the season.</li>
+        <li><strong>Coffee and beignets</strong> near the square, though lines can be long after the event.</li>
+        <li><strong>A drive to see Celebration in the Oaks</strong> in City Park. Our <a href="/blog/celebration-in-the-oaks-transportation-guide">Celebration in the Oaks guide</a> covers the details.</li>
+      </ul>
+      <p>For an evening with several stops, an hourly booking keeps the vehicle and chauffeur with your group, so you can move from the Quarter to dinner and on to the lights without arranging separate rides.</p>
+
+      <h2>Bringing Children and Older Relatives</h2>
+      <p>The event is family-friendly, and children often love the candles and the singing. With young children, keep candles under close supervision, choose a spot where you can step out of the crowd easily, and agree on a meeting point in case anyone gets separated. Families with young children can request infant, convertible and booster seats when booking their ride.</p>
+      <p>For older relatives or anyone who finds crowds and standing difficult, plan a drop-off as close as possible and a spot near the edge of the square. A shorter visit followed by dinner nearby is often more enjoyable than staying for the whole program in the middle of the crowd.</p>
+
+      <h2>Choosing a Vehicle</h2>
+      <p>For a couple, a sedan such as the Mercedes-Benz E-Class seats up to three. Families and small groups fit comfortably in a Chevrolet Suburban, which seats five, or a Lincoln Navigator, which seats six. For larger families, church groups or friends traveling together, a Mercedes Sprinter carries up to thirteen passengers.</p>
+
+      <h2>Booking Your Ride</h2>
+      <p>The Sunday before Christmas is one of the busiest evenings of the season, so book as soon as your plans are set. Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup, and Sprinter and special-event bookings up to 12 hours before. Your quote is all-inclusive, covering tolls, taxes and gratuity.</p>
+      <p>Call (877) 609-1919 any time or <a href="/booking">book online</a>. Tell us where you're starting, how many people are in your group and whether you're adding dinner or other stops, and we'll plan the drop-off and pickup around the crowds.</p>
+    `,
+    relatedLinks: [
+      { label: "Car Service Near Jackson Square", to: "/limo-service-near-jackson-square" },
+      { label: "French Quarter Transportation Guide", to: "/french-quarter-transportation-guide" },
+      { label: "Celebration in the Oaks Transportation Guide", to: "/blog/celebration-in-the-oaks-transportation-guide" },
+      { label: "Book Your Ride", to: "/booking" },
+    ],
+    faqs: [
+      {
+        q: "When is Caroling in Jackson Square?",
+        a: "It is usually held on the Sunday evening before Christmas. The organizers announce the exact date and time each year, so check official announcements before planning your evening.",
+      },
+      {
+        q: "Is Caroling in Jackson Square free?",
+        a: "Yes, it is a free community event. Participants traditionally receive candles and song sheets and sing carols together in front of St. Louis Cathedral.",
+      },
+      {
+        q: "How early should I arrive?",
+        a: "Arrive well before the start time if you want a spot inside the square. The square fills quickly, and the best spots near the front go early.",
+      },
+      {
+        q: "Where will the chauffeur drop us off?",
+        a: "The streets around Jackson Square are largely pedestrian, so drop-offs are on the nearest street open to vehicles, often along Decatur Street, depending on traffic and closures that evening.",
+      },
+      {
+        q: "How do we get picked up after the caroling ends?",
+        a: "Agree on a pickup point a few blocks away from the square, where traffic is moving, and set a time about twenty to thirty minutes after the expected end, or call your chauffeur when you're ready.",
+      },
+    ],
+  },
 
 ];
