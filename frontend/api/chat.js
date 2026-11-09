@@ -237,8 +237,14 @@ async function callClaude(messagesForApi) {
 }
 
 module.exports = async (req, res) => {
+  // GET is a status probe for the chat widget: it renders only when an
+  // Anthropic API key is configured, so visitors never see a dead chat.
+  if (req.method === 'GET') {
+    res.setHeader('Cache-Control', 'no-store');
+    return res.status(200).json({ enabled: Boolean((process.env.ANTHROPIC_API_KEY || '').trim()) });
+  }
   if (req.method !== 'POST') {
-    res.setHeader('Allow', 'POST');
+    res.setHeader('Allow', 'GET, POST');
     return res.status(405).json({ success: false, message: 'Method not allowed' });
   }
 

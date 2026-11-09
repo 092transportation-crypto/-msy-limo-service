@@ -7,9 +7,8 @@ import { VENUE_SLUGS } from "@/data/venuesData";
 import { GUIDES } from "@/data/guides";
 import { Toaster } from "@/components/ui/sonner";
 import ChatWidget from "@/components/ChatWidget";
+import ChatGate from "@/components/ChatGate";
 import FloatingCallButton from "@/components/FloatingCallButton";
-import LeadCapturePopup from "@/components/LeadCapturePopup";
-import ExitIntentPopup from "@/components/ExitIntentPopup";
 
 // Lazy load pages for better performance
 const HomePage = lazy(() => import("@/pages/HomePage"));
@@ -106,10 +105,10 @@ function App() {
         </Suspense>
       </BrowserRouter>
       <Toaster position="top-right" />
-      <ChatWidget />
+      <ChatGate>
+        <ChatWidget />
+      </ChatGate>
       <FloatingCallButton />
-      <LeadCapturePopup />
-      <ExitIntentPopup />
     </div>
   );
 }

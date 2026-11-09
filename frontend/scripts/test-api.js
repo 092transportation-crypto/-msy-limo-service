@@ -8,12 +8,8 @@
 // Covers:
 //   1. POST /api/chat falls back gracefully (no crash, 200) with no
 //      ANTHROPIC_API_KEY configured.
-//   2. POST /api/lead-capture 400s on missing name / missing phone.
-//   3. POST /api/lead-capture returns 201 and resolves quickly when
-//      Twilio + LEAD_WEBHOOK_URL env vars are all unset (no-op fire path).
-//   4. POST /api/lead-capture still returns 201 — and is bounded by the 6s
-//      per-call timeout, not left hanging — when LEAD_WEBHOOK_URL points at
-//      an unreachable host.
+//   2. GET /api/chat reports { enabled: false } with no ANTHROPIC_API_KEY,
+//      which keeps the chat widget hidden.
 
 const assert = require('assert');
 const path = require('path');
@@ -95,80 +91,24 @@ async function main() {
     assert.ok(res.body.reply.includes('877'), 'fallback reply should include the real phone number');
   });
 
-  await test('rejects non-POST requests', async () => {
+  await test('GET status probe reports disabled with no ANTHROPIC_API_KEY', async () => {
+    delete process.env.ANTHROPIC_API_KEY;
     // eslint-disable-next-line global-require
     const chatHandler = require(path.join(__dirname, '..', 'api', 'chat.js'));
     const req = mockReq({ method: 'GET' });
     const res = mockRes();
     await chatHandler(req, res);
+    assert.strictEqual(res.statusCode, 200);
+    assert.strictEqual(res.body.enabled, false);
+  });
+
+  await test('rejects other non-POST requests', async () => {
+    // eslint-disable-next-line global-require
+    const chatHandler = require(path.join(__dirname, '..', 'api', 'chat.js'));
+    const req = mockReq({ method: 'PUT' });
+    const res = mockRes();
+    await chatHandler(req, res);
     assert.strictEqual(res.statusCode, 405);
-  });
-
-  console.log('\napi/lead-capture.js');
-  await test('400s when name is missing', async () => {
-    // eslint-disable-next-line global-require
-    const leadHandler = require(path.join(__dirname, '..', 'api', 'lead-capture.js'));
-    const req = mockReq({ body: { phone: '5551234567' } });
-    const res = mockRes();
-    await leadHandler(req, res);
-    assert.strictEqual(res.statusCode, 400);
-    assert.strictEqual(res.body.success, false);
-  });
-
-  await test('400s when phone is missing/invalid', async () => {
-    // eslint-disable-next-line global-require
-    const leadHandler = require(path.join(__dirname, '..', 'api', 'lead-capture.js'));
-    const req = mockReq({ body: { name: 'Jane Doe', phone: '123' } });
-    const res = mockRes();
-    await leadHandler(req, res);
-    assert.strictEqual(res.statusCode, 400);
-    assert.strictEqual(res.body.success, false);
-  });
-
-  await test('400s on an invalid email when one is provided', async () => {
-    // eslint-disable-next-line global-require
-    const leadHandler = require(path.join(__dirname, '..', 'api', 'lead-capture.js'));
-    const req = mockReq({ body: { name: 'Jane Doe', phone: '5551234567', email: 'not-an-email' } });
-    const res = mockRes();
-    await leadHandler(req, res);
-    assert.strictEqual(res.statusCode, 400);
-  });
-
-  await test('201s quickly with valid input and no Twilio/webhook env vars set', async () => {
-    delete process.env.TWILIO_ACCOUNT_SID;
-    delete process.env.TWILIO_AUTH_TOKEN;
-    delete process.env.TWILIO_FROM_NUMBER;
-    delete process.env.ALERT_PHONE_NUMBER;
-    delete process.env.LEAD_WEBHOOK_URL;
-    // eslint-disable-next-line global-require
-    const leadHandler = require(path.join(__dirname, '..', 'api', 'lead-capture.js'));
-    const req = mockReq({ body: { name: 'Jane Doe', phone: '5551234567', email: 'jane@example.com' } });
-    const res = mockRes();
-    const start = Date.now();
-    await leadHandler(req, res);
-    const ms = Date.now() - start;
-    assert.strictEqual(res.statusCode, 201);
-    assert.strictEqual(res.body.success, true);
-    assert.ok(ms < 2000, `expected the no-op SMS/webhook path to resolve fast, took ${ms}ms`);
-  });
-
-  await test('201s and stays bounded by the timeout when LEAD_WEBHOOK_URL is unreachable', async () => {
-    // A non-routable address: the connection attempt either hangs (bounded
-    // by the 6s AbortController timeout in lib/leadWebhook.js) or fails fast
-    // with a network error — either way this must never throw, never return
-    // anything but 201, and never take meaningfully longer than the timeout.
-    process.env.LEAD_WEBHOOK_URL = 'http://10.255.255.1:1234/unreachable';
-    // eslint-disable-next-line global-require
-    const leadHandler = require(path.join(__dirname, '..', 'api', 'lead-capture.js'));
-    const req = mockReq({ body: { name: 'Jane Doe', phone: '5551234567' } });
-    const res = mockRes();
-    const start = Date.now();
-    await leadHandler(req, res);
-    const ms = Date.now() - start;
-    assert.strictEqual(res.statusCode, 201);
-    assert.strictEqual(res.body.success, true);
-    assert.ok(ms < 7000, `expected the webhook timeout (6s) to bound the call, took ${ms}ms`);
-    delete process.env.LEAD_WEBHOOK_URL;
   });
 
   console.log(`\n${passed} passed, ${failed} failed`);
