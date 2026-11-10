@@ -2248,4 +2248,323 @@ export const BLOG_POSTS_BATCH13 = [
     ],
   },
 
+  // ---------------------------------------------------------- POST 22 (Nov 14)
+  // Added 2026-11-10: three more scheduled December posts, one per day on
+  // November 14, 15 and 16, 2026 (the days after this batch's last post).
+  // Topics checked against every post, guide, landing page and sitemap URL on
+  // this site. Fleet capacities follow FleetPage.jsx; policies follow the FAQ
+  // and booking copy; no prices. Church, hotel and airline details are sent to
+  // the cathedral, the hotel and the airlines.
+  {
+    slug: "msy-holiday-travel-christmas-week-airport-rides",
+    title: "MSY Holiday Travel: Planning Christmas-Week Airport Rides In and Out of New Orleans",
+    metaTitle: "MSY Holiday Travel: Christmas-Week Rides | MSY Limo",
+    metaDescription:
+      "MSY holiday travel tips for Christmas week: when to leave for the airport, picking up visiting family, curbside crowds, luggage, gifts and booking a car early.",
+    category: "Travel",
+    author: "MSY Limo Team",
+    date: "November 14, 2026",
+    scheduled: true,
+    readTime: "8 min read",
+    excerpt:
+      "The days around Christmas and New Year's are some of the busiest of the year at Louis Armstrong New Orleans International Airport. Here's how to time your departures, meet visiting relatives and keep holiday luggage under control.",
+    image: "/images/blog/airport-dropoff.webp",
+    content: `
+      <p>MSY holiday travel has a rhythm of its own. In the days before Christmas, students head home, families fly in to see relatives, and visitors arrive for Réveillon dinners, Celebration in the Oaks and New Year's Eve in the French Quarter. A few days later the flow reverses, and right after New Year's the airport fills again as everyone heads home at once. Louis Armstrong New Orleans International Airport handles it, but the terminal, the curb and the roads leading to it are noticeably busier than on an ordinary week.</p>
+      <p>This guide covers the practical side of Christmas-week trips to and from MSY: when to leave, how to pick up visiting family, what to do about luggage and gifts, and how to book a ride that fits the season.</p>
+
+      <h2>Why Christmas Week at MSY Feels Different</h2>
+      <p>Holiday travel compresses a lot of people into the same few days. Flights are fuller, the morning and evening departure banks are crowded, and many travelers are flying with more bags than usual. Some are traveling with children, older parents or pets, and many are passengers who only fly once or twice a year and are less familiar with the airport. All of that slows the security line, the bag drop and the curb.</p>
+      <p>The roads change too. Traffic on the way to the airport can build around holiday shopping, school breaks and parties, and the days right before Christmas and New Year's Eve often bring heavier evening traffic across Metairie and Kenner. Winter weather adds its own surprises: a foggy morning on the Causeway, a cold front with heavy rain, or a storm elsewhere in the country that delays incoming flights. Our <a href="/blog/causeway-fog-northshore-early-flights-msy-winter-guide">Causeway fog and early flights guide</a> covers the Northshore side of winter mornings.</p>
+
+      <h2>When to Leave for the Airport</h2>
+      <p>The right departure time depends on where you're starting, whether you're checking bags and how busy your airline expects the day to be. As a general rule for the holiday weeks:</p>
+      <ul>
+        <li><strong>Follow your airline's guidance first.</strong> Airlines often recommend arriving earlier during peak holiday periods, and their advice for your specific flight is the one that matters.</li>
+        <li><strong>Add time for checked bags.</strong> Bag-drop lines are longer when nearly everyone is checking a suitcase and a box of gifts.</li>
+        <li><strong>Add time for the drive.</strong> From the French Quarter, the CBD or Uptown, allow more time than you would on a normal weekday, especially in the late afternoon.</li>
+        <li><strong>Be extra careful with first flights of the morning.</strong> Early departures mean early security lines, and a delayed start leaves no room to recover. Our <a href="/blog/new-orleans-airport-early-morning-pickup">early morning airport pickup guide</a> explains how pre-dawn pickups work.</li>
+      </ul>
+      <p>When you book, tell us your flight time and whether you're checking bags, and we'll suggest a pickup time with a comfortable buffer for the season.</p>
+
+      <h2>Picking Up Visiting Family at MSY</h2>
+      <p>Many Christmas-week bookings are for someone else: parents flying in from out of state, grandchildren coming home from college, or in-laws arriving for the holidays. A booked pickup means you don't have to circle the arrivals curb on one of the busiest days of the year or leave a holiday dinner half-cooked.</p>
+      <p>Every airport pickup is flight-tracked, so your chauffeur is dispatched against the actual landing time rather than the original schedule. Complimentary waiting time is built in: 45 minutes on domestic arrivals and 60 minutes on international arrivals. If your relatives are on a connecting flight that gets rebooked, let us know the new flight number and we'll adjust.</p>
+      <p>For relatives who aren't comfortable navigating the airport alone, meet-and-greet service is often worth adding. With meet-and-greet, the chauffeur waits inside baggage claim with a name sign and helps with bags from the carousel, instead of meeting them at the curb. Our <a href="/msy-airport-meet-and-greet">MSY meet-and-greet</a> page explains how it works, and our guide to <a href="/blog/msy-terminal-layout-2026-pickup-zones">MSY terminal pickup zones</a> shows where pickups happen.</p>
+      <h3>Booking on Someone Else's Behalf</h3>
+      <p>You can book and arrange a ride for a family member who is flying in. When you do, give us the passenger's name, their flight number and a mobile number where they can be reached after landing. Tell them in advance where the chauffeur will meet them, so they aren't searching for a car in a crowded terminal.</p>
+
+      <h2>Luggage, Gifts and Holiday Gear</h2>
+      <p>Holiday trips come with extra baggage: wrapped gifts, heavy coats for colder destinations, food packed to take home, and sometimes car seats and strollers. Vehicle choice matters more than usual.</p>
+      <ul>
+        <li><strong>Count bags, not just people.</strong> A Mercedes-Benz E-Class sedan seats up to three passengers with room for two bags. A Lincoln Nautilus seats three and takes four bags.</li>
+        <li><strong>Families with suitcases</strong> usually do better in a Chevrolet Suburban, which seats five with room for five bags, or a Lincoln Navigator, which seats six with room for five bags.</li>
+        <li><strong>Larger groups</strong> traveling together, such as an extended family arriving on the same flight, fit in a Mercedes Sprinter, which carries up to thirteen passengers and thirteen bags.</li>
+        <li><strong>Tell us about car seats.</strong> Infant, convertible and booster seats are available on request; give us the child's age when you book and the seat will be installed before the vehicle arrives.</li>
+      </ul>
+      <p>If you're carrying fragile gifts or food, mention it when you book so the chauffeur can load it carefully. If anyone in your group needs extra assistance getting in and out of the vehicle, our <a href="/blog/senior-accessibility-focused-car-service-new-orleans">senior and accessibility-focused car service guide</a> covers what to tell us ahead of time.</p>
+
+      <h2>Coming Home After the Holidays</h2>
+      <p>The return trip is often the part people forget to plan. The days after Christmas and right after New Year's bring their own rush, as visitors fly home and residents return from trips. If you're flying back into MSY, book your ride home before you leave, so a car is waiting when you land instead of a long line for a ride.</p>
+      <p>Return flights are also where weather elsewhere in the country causes the most trouble. A storm in the Northeast or the Midwest can delay or cancel connecting flights into New Orleans. Because pickups are flight-tracked, a delay doesn't leave you without a ride; just let us know if your flight is cancelled and rebooked on a different day.</p>
+
+      <h2>Holiday Trips That Start or End at the Airport</h2>
+      <p>Not every holiday airport ride is a simple trip to a house or hotel. Some of the most common Christmas-week trips we plan include:</p>
+      <ul>
+        <li><strong>Straight to the French Quarter</strong> for a visitor's first night, with a stop at the hotel to drop bags before dinner.</li>
+        <li><strong>To the Northshore</strong> for families spending the holidays in Mandeville, Covington or Slidell. Our <a href="/new-orleans-northshore-transportation-guide">Northshore transportation guide</a> covers the trip across the lake.</li>
+        <li><strong>To Baton Rouge</strong> or the River Parishes for family Christmas outside the city.</li>
+        <li><strong>To New Year's events</strong>, such as the Sugar Bowl at the Caesars Superdome. Our <a href="/sugar-bowl-new-years-superdome-transportation">Sugar Bowl transportation guide</a> covers bowl week.</li>
+      </ul>
+
+      <h2>Why a Booked Car Helps During Peak Weeks</h2>
+      <p>On a normal day, a rideshare to the airport may be easy to find. During the holidays, demand is higher at the same times everyone else is traveling, and surge pricing and longer waits are more likely. A pre-booked car service gives you a confirmed pickup time and a flat rate agreed before the trip, so the price doesn't change because of traffic or demand. Your quote is all-inclusive, covering tolls, taxes and gratuity.</p>
+      <p>A booked ride also means one less thing to coordinate on a busy day. Your chauffeur arrives at the scheduled time, helps with bags and drives a route planned around the day's traffic. For more on airport options, see our <a href="/services/airport-transportation">MSY airport transportation</a> page.</p>
+
+      <h2>A Simple Christmas-Week Checklist</h2>
+      <ul>
+        <li>Confirm your flight times and check your airline's holiday guidance.</li>
+        <li>Book both directions: the ride to MSY and the ride home.</li>
+        <li>Share flight numbers for any relatives you're picking up.</li>
+        <li>Count passengers and bags, and choose a vehicle that fits both.</li>
+        <li>Request child seats when you book.</li>
+        <li>Save our number, (877) 609-1919, in case plans change.</li>
+      </ul>
+
+      <h2>Booking Your Holiday Airport Ride</h2>
+      <p>The weeks around Christmas and New Year's fill early, so book as soon as your flights are set. Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup, and Sprinter van, limousine and special-event bookings up to 12 hours before.</p>
+      <p>Call (877) 609-1919 any time or <a href="/booking">book online</a>. Tell us your flight number, how many people are traveling and how many bags you're bringing, and we'll take care of the rest.</p>
+    `,
+    relatedLinks: [
+      { label: "MSY Airport Transportation", to: "/services/airport-transportation" },
+      { label: "MSY Meet and Greet", to: "/msy-airport-meet-and-greet" },
+      { label: "Our Fleet", to: "/fleet" },
+      { label: "Book Your Ride", to: "/booking" },
+    ],
+    faqs: [
+      {
+        q: "How early should I leave for MSY during Christmas week?",
+        a: "Follow your airline's guidance for your flight, then add extra time for checked bags and holiday traffic. Tell us your flight time when you book and we'll suggest a pickup time with a comfortable buffer.",
+      },
+      {
+        q: "Can I book an airport pickup for visiting relatives?",
+        a: "Yes. Give us the passenger's name, flight number and a mobile number. The pickup is flight-tracked, and you can add meet-and-greet so the chauffeur waits inside baggage claim with a name sign.",
+      },
+      {
+        q: "What happens if a holiday flight is delayed?",
+        a: "Every airport pickup is flight-tracked, so the chauffeur is dispatched against the actual landing time. Complimentary waiting time is 45 minutes on domestic arrivals and 60 minutes on international arrivals.",
+      },
+      {
+        q: "Which vehicle fits a family with holiday luggage?",
+        a: "A Chevrolet Suburban seats five with room for five bags and a Lincoln Navigator seats six with room for five bags. Larger groups fit in a Mercedes Sprinter, which carries up to thirteen passengers and thirteen bags.",
+      },
+      {
+        q: "Do you provide child car seats for airport rides?",
+        a: "Yes. Infant, convertible and booster seats are available on request. Tell us the child's age when you book and the seat will be installed before the vehicle arrives.",
+      },
+    ],
+  },
+
+  // ---------------------------------------------------------- POST 23 (Nov 15)
+  {
+    slug: "christmas-eve-midnight-mass-st-louis-cathedral-transportation",
+    title: "Midnight Mass at St. Louis Cathedral: Planning a Christmas Eve Ride Into the French Quarter",
+    metaTitle: "Midnight Mass at St. Louis Cathedral Guide | MSY Limo",
+    metaDescription:
+      "Planning midnight Mass at St. Louis Cathedral on Christmas Eve: arriving early, crowds, drop-off near Jackson Square, dinner beforehand and a ride home after.",
+    category: "Events",
+    author: "MSY Limo Team",
+    date: "November 15, 2026",
+    scheduled: true,
+    readTime: "8 min read",
+    excerpt:
+      "Christmas Eve midnight Mass at St. Louis Cathedral, facing Jackson Square, is one of the most memorable ways to spend the holiday in New Orleans. Here's how to plan the evening, from dinner to the late ride home.",
+    image: "/images/blog/landmark-nola-1.webp",
+    content: `
+      <p>Few places in New Orleans feel as much like Christmas as St. Louis Cathedral on Christmas Eve. The white facade and three spires look out over Jackson Square, the French Quarter is lit for the season, and the cathedral fills with worshippers, families and visitors for the late-night liturgy. For many people, midnight Mass at St. Louis Cathedral is the center of their New Orleans Christmas, and for visitors it's a chance to share in one of the city's oldest traditions.</p>
+      <p>It's also a late night in a busy part of town. This guide covers what to expect, when to arrive, how to plan dinner around the service, and how to get to the Quarter and home again comfortably.</p>
+
+      <h2>About St. Louis Cathedral</h2>
+      <p>The Cathedral-Basilica of Saint Louis, King of France, stands on Jackson Square between the Cabildo and the Presbytère, and it is one of the oldest cathedrals in continuous use in the United States. It is an active parish church and the seat of the Archdiocese of New Orleans, not just a landmark, and on Christmas Eve it is first and foremost a place of worship.</p>
+      <p>The tradition of attending Mass late on Christmas Eve runs deep in New Orleans. In Creole households, families often returned from midnight Mass to the late feast that gave its name to the city's Réveillon dinners. Our <a href="/blog/reveillon-dinners-new-orleans-december-tradition-guide">Réveillon dinner guide</a> tells that story and how restaurants carry it on today.</p>
+
+      <h2>Checking the Schedule</h2>
+      <p>The cathedral typically holds several services on Christmas Eve and Christmas Day, and the late-night Mass is usually among the most attended. Exact times, any music beforehand and any special arrangements for entry are set by the cathedral each year, so check the cathedral's official announcements before you plan your evening. Confirm the time of the service you want, not just the date, since "midnight Mass" in some parishes begins earlier in the evening.</p>
+      <p>If your group includes young children or older relatives, an earlier Christmas Eve service or a Christmas morning Mass may be easier. Many families also attend at their home parish elsewhere in the city or in Metairie, Kenner or the Northshore, and the same planning tips below apply.</p>
+
+      <h2>When to Arrive</h2>
+      <p>Christmas Eve at the cathedral draws a large crowd, and seats fill well before the service begins. A few tips:</p>
+      <ul>
+        <li><strong>Arrive early</strong> if you want a seat rather than standing room. Many people arrive well ahead of the start time.</li>
+        <li><strong>Keep your group together.</strong> Saving several seats in a full church is difficult, so arrive as one group if you can.</li>
+        <li><strong>Plan for a wait outside</strong> on a cool, damp night. December evenings in New Orleans are usually mild but can turn chilly after dark.</li>
+        <li><strong>Respect the setting.</strong> Dress as you would for church, silence phones, and follow any guidance from ushers about photography and seating.</li>
+      </ul>
+
+      <h2>Getting to Jackson Square</h2>
+      <p>The streets right around Jackson Square are largely pedestrian, and vehicles can't pull up to the cathedral doors. On Christmas Eve, the surrounding French Quarter is busy with diners and visitors, street parking is very limited, and nearby lots and garages can fill. Our <a href="/blog/new-orleans-parking-guide-downtown-french-quarter">French Quarter parking guide</a> covers the options if you plan to drive.</p>
+      <p>With a chauffeured ride, your driver drops you on the nearest street open to vehicles, often along Decatur Street or another nearby street depending on traffic that night, and you walk the short distance to the square. For older relatives, ask us to plan the closest possible drop-off and allow a few extra minutes for the walk. Our <a href="/limo-service-near-jackson-square">Jackson Square car service</a> page has more on getting in and out of the area.</p>
+
+      <h2>Planning Dinner Before Mass</h2>
+      <p>Many families make a full evening of it: an early dinner in the Quarter or the CBD, a walk past the decorated balconies, and then Mass. A few things help:</p>
+      <ul>
+        <li><strong>Reserve early.</strong> Christmas Eve is one of the busiest restaurant nights of the season, and many restaurants have special menus and limited hours.</li>
+        <li><strong>Leave plenty of time.</strong> Plan to finish dinner well before you want to be at the cathedral, so you aren't rushing through the crowd.</li>
+        <li><strong>Choose a restaurant within walking distance</strong> of Jackson Square if you can. That way the car only has to drop you at dinner and pick you up after Mass.</li>
+      </ul>
+      <p>With an hourly booking, the vehicle and chauffeur stay with your group for the evening, which is helpful if you're moving from a dinner outside the Quarter to the cathedral and then home. Our <a href="/services/hourly-charter">hourly charter</a> page explains how it works.</p>
+
+      <h2>The Ride Home After Midnight</h2>
+      <p>When midnight Mass ends, the congregation leaves at the same time, late at night, on one of the quietest nights of the year for public transportation. Rideshare availability can be unpredictable in the early hours of Christmas morning, and families with sleepy children don't want to wait on a corner. A pre-booked pickup solves that.</p>
+      <ul>
+        <li><strong>Agree on a pickup point a few blocks from the square</strong>, where the car can reach you easily.</li>
+        <li><strong>Make sure everyone knows the meeting point</strong> before the service, in case your group gets separated leaving the church.</li>
+        <li><strong>Set an approximate pickup time</strong> after the expected end, or call your chauffeur when you're ready to leave.</li>
+        <li><strong>Bring a small flashlight or use your phone</strong> on the walk to the car, since side streets can be dim late at night.</li>
+      </ul>
+
+      <h2>Visitors Spending Christmas in New Orleans</h2>
+      <p>Many visitors choose New Orleans for Christmas because of traditions like this one. If you're flying in for the holidays, we can meet you at MSY, take you to your hotel and plan your Christmas Eve around the service. Airport pickups are flight-tracked, with 45 minutes of complimentary waiting time on domestic arrivals and 60 minutes on international arrivals.</p>
+      <p>If your hotel is in the French Quarter, you may be able to walk to the cathedral, which is often the simplest option. Guests staying in the CBD, the Warehouse District, the Garden District or near the airport will find a drop-off and pickup far easier than parking. Our <a href="/french-quarter-transportation-guide">French Quarter transportation guide</a> explains how the Quarter's streets work for cars and pedestrians.</p>
+
+      <h2>Other Ways to Spend Christmas Eve in New Orleans</h2>
+      <p>Midnight Mass pairs naturally with other December traditions. Some families attend Caroling in Jackson Square, usually held on the Sunday before Christmas; our <a href="/blog/caroling-in-jackson-square-new-orleans-christmas-tradition">Jackson Square caroling guide</a> covers that evening. Others head upriver earlier on Christmas Eve to see the bonfires on the levee in the River Parishes, then return to the city; our <a href="/blog/bonfires-on-the-levee-christmas-eve-river-road">bonfires on the levee guide</a> explains the drive and timing. Combining the bonfires and a late Mass in one night takes careful planning, so ask us about timing when you book.</p>
+
+      <h2>Choosing a Vehicle</h2>
+      <p>For a couple, a Mercedes-Benz E-Class or a BMW 7 Series or Mercedes S-Class sedan seats up to three. Families fit comfortably in a Chevrolet Suburban, which seats five, or a Lincoln Navigator, which seats six. For extended families or church groups traveling together, a Mercedes Sprinter carries up to thirteen passengers, which keeps everyone together for dinner, Mass and the ride home. Infant, convertible and booster seats are available on request.</p>
+
+      <h2>Booking Your Christmas Eve Ride</h2>
+      <p>Christmas Eve is one of the busiest nights of the season, so book as soon as you know your plans. Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup, and Sprinter van, limousine and special-event bookings up to 12 hours before. Your quote is all-inclusive, covering tolls, taxes and gratuity.</p>
+      <p>Call (877) 609-1919 any time or <a href="/booking">book online</a>. Tell us where you're starting, where you're having dinner and which service you plan to attend, and we'll plan the drop-off and the late ride home.</p>
+    `,
+    relatedLinks: [
+      { label: "Car Service Near Jackson Square", to: "/limo-service-near-jackson-square" },
+      { label: "French Quarter Transportation Guide", to: "/french-quarter-transportation-guide" },
+      { label: "Réveillon Dinner Guide", to: "/blog/reveillon-dinners-new-orleans-december-tradition-guide" },
+      { label: "Book Your Ride", to: "/booking" },
+    ],
+    faqs: [
+      {
+        q: "What time is midnight Mass at St. Louis Cathedral?",
+        a: "The cathedral sets its Christmas Eve and Christmas Day service times each year. Check the cathedral's official announcements for the exact time of the service you want before planning your evening.",
+      },
+      {
+        q: "How early should we arrive for Christmas Eve Mass?",
+        a: "Arrive well before the start time if you want a seat. The cathedral is very popular on Christmas Eve and seats fill early, so arriving as one group makes it easier to sit together.",
+      },
+      {
+        q: "Where will the chauffeur drop us off?",
+        a: "The streets around Jackson Square are largely pedestrian, so drop-offs are on the nearest street open to vehicles, often along Decatur Street, depending on traffic that night.",
+      },
+      {
+        q: "Can we have dinner before Mass and a ride home after?",
+        a: "Yes. With an hourly booking, the vehicle and chauffeur stay with your group for the evening, from dinner to the cathedral and the late ride home.",
+      },
+      {
+        q: "What vehicle works for an extended family?",
+        a: "A Chevrolet Suburban seats five and a Lincoln Navigator seats six. For larger families or church groups, a Mercedes Sprinter carries up to thirteen passengers.",
+      },
+    ],
+  },
+
+  // ---------------------------------------------------------- POST 24 (Nov 16)
+  {
+    slug: "roosevelt-new-orleans-holiday-lobby-evening-guide",
+    title: "Seeing the Roosevelt New Orleans Holiday Lobby: A Festive Evening Out Downtown",
+    metaTitle: "Roosevelt New Orleans Holiday Lobby Guide | MSY Limo",
+    metaDescription:
+      "Plan a visit to the Roosevelt New Orleans holiday lobby: when to go, crowds, the Sazerac Bar, nearby holiday stops, and a chauffeured drop-off just off Canal.",
+    category: "Events",
+    author: "MSY Limo Team",
+    date: "November 16, 2026",
+    scheduled: true,
+    readTime: "8 min read",
+    excerpt:
+      "Every holiday season, the lobby of The Roosevelt New Orleans is decorated with lights and greenery, and locals and visitors stop in to see it. Here's how to plan a festive evening downtown around it.",
+    image: "/images/blog/landmark-nola-streetcar-2.webp",
+    content: `
+      <p>For many New Orleanians, the holidays don't really start until they've walked through the lobby of The Roosevelt New Orleans. Each season the historic hotel just off Canal Street decorates its long lobby with lights and greenery, and the display has become a tradition of its own: families stop by to take photos, friends meet there before dinner, and visitors add it to their list alongside Celebration in the Oaks and the decorated balconies of the French Quarter. A visit to the Roosevelt New Orleans holiday lobby is a simple, festive way to spend an evening downtown.</p>
+      <p>This guide covers when to go, what to expect, how to pair the lobby with dinner and drinks, and how to handle getting there and home on a busy December night.</p>
+
+      <h2>About The Roosevelt New Orleans</h2>
+      <p>The Roosevelt is one of the city's grand historic hotels, now part of the Waldorf Astoria collection. It sits in the Central Business District, a short walk from Canal Street and the edge of the French Quarter. Beyond the lobby, it's known for the Sazerac Bar, one of the city's best-known cocktail bars, with an Art Deco interior that has drawn locals and visitors for generations. Our <a href="/blog/new-orleans-cocktail-history-distillery-tour-chauffeur">New Orleans cocktail history tour guide</a> explains why the Sazerac Bar is a fixture on any cocktail tour.</p>
+
+      <h2>What to Expect From the Holiday Lobby</h2>
+      <p>The decorations change from year to year, but the idea stays the same: the hotel's lobby is transformed for the season with lights and holiday decor, and the effect is especially striking in the evening. The display typically goes up around the start of the holiday season and stays through the end of the year, but the hotel sets its own schedule, so check with the hotel for the current season's details before you go.</p>
+      <p>Keep in mind that the lobby is part of a working hotel. Guests are checking in and out, and hotel staff may manage crowds or limit access at busy times. Be considerate: keep walkways clear, keep photo stops short when it's crowded, and follow any instructions from the hotel. If you plan to visit with a large group, call the hotel ahead of time.</p>
+
+      <h2>When to Go</h2>
+      <ul>
+        <li><strong>Weekday evenings</strong> are usually calmer than Friday and Saturday nights.</li>
+        <li><strong>Early evening</strong> lets you see the lights after dark without the late dinner crowd.</li>
+        <li><strong>The weeks right before Christmas</strong> are the busiest, especially on weekends, when holiday parties, shoppers and visitors are all downtown at once.</li>
+        <li><strong>Weekday afternoons</strong> are quieter if you're bringing small children or older relatives, though the lights show best after dark.</li>
+      </ul>
+
+      <h2>Getting There</h2>
+      <p>The CBD and the area around Canal Street are among the busiest parts of the city in December. Holiday parties, conventions, Saints and Pelicans games and holiday shoppers all add traffic, and street parking is hard to find. Garages are available downtown, but on a busy evening you may circle for a while and then face a walk in holiday clothes. Our <a href="/blog/new-orleans-parking-guide-downtown-french-quarter">downtown and French Quarter parking guide</a> covers the options.</p>
+      <p>A chauffeured drop-off at the hotel entrance avoids all of that. Your chauffeur drops you at the door and, with an hourly booking, waits nearby while you visit the lobby, have a drink or move on to dinner. Our <a href="/warehouse-district-cbd-limo-service">CBD and Warehouse District car service</a> page covers the downtown area in more detail.</p>
+
+      <h2>Making an Evening of It</h2>
+      <p>The lobby itself is a short stop, so most people build an evening around it. Some ideas:</p>
+      <h3>Drinks at the Sazerac Bar</h3>
+      <p>The Sazerac Bar is a natural first or last stop. It gets crowded during the holidays, especially on weekends, so be prepared to wait or arrive early in the evening.</p>
+      <h3>A Réveillon Dinner</h3>
+      <p>Many New Orleans restaurants serve special Réveillon menus in December, a tradition rooted in the city's Creole Christmas history. Our <a href="/blog/reveillon-dinners-new-orleans-december-tradition-guide">Réveillon dinner guide</a> explains how it works. Reserve early, since December weekends book quickly.</p>
+      <h3>A Walk Into the French Quarter</h3>
+      <p>From the Roosevelt, the French Quarter is a short walk across Canal Street. Many balconies, courtyards and storefronts are decorated for the season, and Jackson Square and St. Louis Cathedral are especially beautiful at night. If your group would rather not walk, your chauffeur can take you from the hotel to the nearest street open to vehicles.</p>
+      <h3>Celebration in the Oaks</h3>
+      <p>For a bigger night out, pair the lobby with a visit to City Park's holiday lights. Our <a href="/blog/celebration-in-the-oaks-transportation-guide">Celebration in the Oaks guide</a> covers how a chauffeured visit to the park works.</p>
+      <p>With an hourly charter, one vehicle and chauffeur stay with your group for the whole evening, so you can move between the lobby, dinner and the lights without arranging separate rides. Our <a href="/services/hourly-charter">hourly charter</a> page explains the details.</p>
+
+      <h2>What to Wear and Bring</h2>
+      <p>December evenings in New Orleans are usually mild, but they can turn cool and damp after dark, and a cold front can bring a sudden chill or rain. Bring a light coat or a layer you can carry, plus a compact umbrella if the forecast is uncertain. Many people dress up for a holiday evening downtown, especially if dinner or the Sazerac Bar is part of the plan, so wear shoes you're comfortable walking in on older sidewalks. Keep bags small, since the lobby can be crowded, and charge your phone so you can take photos and reach your chauffeur when you're ready to go.</p>
+
+      <h2>Holiday Parties and Group Outings</h2>
+      <p>December is also holiday party season, and many offices and groups gather downtown in the weeks before Christmas. A stop to see the lobby can be a fun addition to a company dinner or a night out with friends. For groups, a Mercedes Sprinter carries up to thirteen passengers and keeps everyone together, which is easier than coordinating several cars in downtown traffic. Our <a href="/blog/corporate-holiday-party-transportation-new-orleans">corporate holiday party transportation guide</a> covers planning rides for a company event.</p>
+
+      <h2>Visiting With Family</h2>
+      <p>The holiday lobby is a favorite with families, and children usually love the lights. With young children, a weekday visit or an early-evening stop is often easiest, and a short visit followed by dinner nearby keeps the evening manageable. Infant, convertible and booster seats are available on request when you book your ride.</p>
+      <p>If you're bringing grandparents or anyone who finds walking difficult, a drop-off right at the hotel entrance makes a big difference. Plan for the lobby to be busy and allow extra time to move through it at a comfortable pace.</p>
+
+      <h2>Visiting From Out of Town</h2>
+      <p>If you're in New Orleans for the holidays, the Roosevelt makes an easy first evening after you land. We can meet you at MSY, take you to your hotel and return later for an evening downtown. Airport pickups are flight-tracked, with 45 minutes of complimentary waiting time on domestic arrivals and 60 minutes on international arrivals.</p>
+
+      <h2>Choosing a Vehicle</h2>
+      <p>For a couple, a Mercedes-Benz E-Class, a BMW 7 Series or a Mercedes S-Class seats up to three and suits a dressed-up evening. Families and small groups fit comfortably in a Chevrolet Suburban, which seats five, or a Lincoln Navigator, which seats six. Larger groups and office parties can travel together in a Mercedes Sprinter, which carries up to thirteen passengers. See our <a href="/fleet">fleet</a> for details on each vehicle.</p>
+
+      <h2>Booking Your Evening</h2>
+      <p>December evenings downtown fill quickly, especially on weekends, so book as soon as your plans are set. Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup, and Sprinter van, limousine and special-event bookings up to 12 hours before. Your quote is all-inclusive, covering tolls, taxes and gratuity.</p>
+      <p>Call (877) 609-1919 any time or <a href="/booking">book online</a>. Tell us where you're starting, how many people are in your group and what else you'd like to see, and we'll plan the evening around the holiday crowds.</p>
+    `,
+    relatedLinks: [
+      { label: "CBD and Warehouse District Car Service", to: "/warehouse-district-cbd-limo-service" },
+      { label: "Hourly Charter", to: "/services/hourly-charter" },
+      { label: "Celebration in the Oaks Transportation Guide", to: "/blog/celebration-in-the-oaks-transportation-guide" },
+      { label: "Book Your Ride", to: "/booking" },
+    ],
+    faqs: [
+      {
+        q: "When is the Roosevelt New Orleans holiday lobby decorated?",
+        a: "The decorations typically go up around the start of the holiday season and stay through the end of the year. The hotel sets its own schedule, so check with the hotel for the current season's details.",
+      },
+      {
+        q: "When is the best time to visit the holiday lobby?",
+        a: "Weekday evenings are usually calmer than weekends. Early evening lets you see the lights after dark before the late dinner crowd, while the weekends right before Christmas are the busiest.",
+      },
+      {
+        q: "Where will the chauffeur drop us off?",
+        a: "Your chauffeur drops you at the hotel entrance. With an hourly booking, the chauffeur waits nearby while you visit the lobby and takes you on to dinner or other stops.",
+      },
+      {
+        q: "What else can we do nearby?",
+        a: "Popular pairings include drinks at the Sazerac Bar, a Réveillon dinner, a walk into the decorated French Quarter across Canal Street, or a drive to Celebration in the Oaks in City Park.",
+      },
+      {
+        q: "What vehicle works for an office group?",
+        a: "A Mercedes Sprinter carries up to thirteen passengers and keeps the whole group together. Smaller groups fit in a Chevrolet Suburban, which seats five, or a Lincoln Navigator, which seats six.",
+      },
+    ],
+  },
+
 ];
