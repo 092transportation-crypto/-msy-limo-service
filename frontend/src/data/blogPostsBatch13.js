@@ -2567,4 +2567,339 @@ export const BLOG_POSTS_BATCH13 = [
     ],
   },
 
+  // ---------------------------------------------------------- POST 25 (Nov 17)
+  {
+    slug: "new-orleans-bowl-superdome-december-transportation",
+    title: "New Orleans Bowl Transportation: Getting Fans to the Superdome in December",
+    metaTitle: "New Orleans Bowl Transportation Guide | MSY Limo",
+    metaDescription:
+      "New Orleans Bowl transportation for visiting fans: MSY airport pickups, Superdome drop-off and pickup, team-group Sprinters and a game-day plan for December.",
+    category: "Events",
+    author: "MSY Limo Team",
+    date: "November 17, 2026",
+    scheduled: true,
+    readTime: "8 min read",
+    excerpt:
+      "The New Orleans Bowl brings two college football fan bases to the Caesars Superdome every December, many of them flying into MSY on short notice. Here's how to plan the airport run, the game and the ride back.",
+    image: "/images/blog/scenario-group-boarding.webp",
+    content: `
+      <p>Every December, the New Orleans Bowl brings two college football teams, their bands and thousands of their fans to the Caesars Superdome. It has been played in the city each year since 2001, and it usually falls in the first stretch of bowl season, a week or more before the Sugar Bowl takes over the same stadium for New Year's. For many fans it is a quick trip: the matchup is announced, flights are booked within days, and a weekend in New Orleans is built around one game. Good New Orleans Bowl transportation makes that short trip much easier, from the MSY arrival to the final whistle and the flight home.</p>
+      <p>This guide covers the timing, the airport, getting to and from the Superdome on game day, and how to move a family, a tailgate crew or an alumni group around the city without renting cars.</p>
+
+      <h2>When the Bowl Is Played and How Matchups Are Set</h2>
+      <p>The New Orleans Bowl is typically played in mid-to-late December. Bowl matchups across college football are usually announced in early December, after the conference championship games, which leaves fans only a couple of weeks to plan. Conference tie-ins are set by the bowl and can change from year to year, so check the bowl's official announcements for the date, kickoff time and teams before you book anything.</p>
+      <p>Because the planning window is short, flights and hotels fill fast once the teams are known. If your school is in the running, it helps to sketch your plan early: who's traveling, which airport you'll fly into, and whether you want a car for the whole weekend or just the airport and game-day legs. You can request a quote as soon as you have dates and adjust the details once your flights are confirmed.</p>
+
+      <h2>Flying Into MSY for the Game</h2>
+      <p>Most out-of-town fans fly into Louis Armstrong New Orleans International Airport (MSY) in Kenner, about 14 miles west of downtown. The drive to the CBD and the Superdome usually takes 20 to 30 minutes, longer at rush hour or when a big event is letting out. Our <a href="/msy-to-new-orleans-downtown">MSY to downtown New Orleans</a> page covers that route in more detail.</p>
+      <p>Bowl weekends often bring a wave of arrivals on the Friday and Saturday before the game, many of them wearing team colors and traveling in groups. Rideshare pickup at MSY happens in a designated area, and on a busy arrival day the wait for a larger vehicle can be long. A reserved pickup is simpler:</p>
+      <ul>
+        <li><strong>Flight tracking:</strong> your chauffeur follows your flight number and adjusts to the actual landing time, so a delayed connection doesn't cost you the ride.</li>
+        <li><strong>Complimentary waiting time:</strong> airport pickups include 45 minutes on domestic arrivals and 60 minutes on international arrivals, timed from actual touchdown.</li>
+        <li><strong>One vehicle for the whole group:</strong> no splitting into several cars and meeting up later at the hotel.</li>
+      </ul>
+      <p>Our <a href="/services/airport-transportation">airport transportation</a> page explains how pickups work, including where your chauffeur meets you.</p>
+
+      <h2>Getting to the Superdome on Game Day</h2>
+      <p>The Caesars Superdome sits on the edge of the CBD, next to the Smoothie King Center and Champions Square. On a bowl game day, the streets around the stadium fill with pregame crowds, team buses, band buses and fans walking in from downtown hotels. Some streets close or are restricted around kickoff, and stadium-area parking fills early. Our <a href="/caesars-superdome-transportation">Caesars Superdome transportation</a> page covers the area and how drop-offs work.</p>
+      <p>A few practical points for the New Orleans Bowl:</p>
+      <ul>
+        <li><strong>Plan to arrive early.</strong> Allow time for security lines, finding your gate and meeting friends before kickoff. Check the stadium's current bag policy before you leave your hotel.</li>
+        <li><strong>Agree on a drop-off point.</strong> Your chauffeur will use the closest practical spot that's open to vehicles that day, which may be a short walk from your gate.</li>
+        <li><strong>Pick a post-game meeting point</strong> a few blocks from the stadium. After the game, the streets right outside the Dome are crowded, and a pickup slightly away from the crowd is usually faster.</li>
+        <li><strong>Keep your phone charged.</strong> You'll want to reach your chauffeur when you're walking out.</li>
+      </ul>
+      <p>If you're staying within a few blocks of the Superdome, walking to the game may be the easiest choice. The car is most useful for guests staying farther out, in the Garden District, Uptown, Metairie or near the airport, and for anyone who doesn't want a long walk in a crowd after dark.</p>
+
+      <h2>Tailgates, Team Events and Fan Gatherings</h2>
+      <p>Bowl week usually includes more than the game itself. Schools and alumni associations often host pregame gatherings, and many fans plan a team dinner or a night out. Details vary by school and by year, so check with your athletic department or alumni association for official events and locations.</p>
+      <p>When a day includes several stops, such as a pregame party, the game and a dinner afterward, an <a href="/services/hourly-charter">hourly charter</a> keeps one vehicle and chauffeur with your group the whole time. You don't need to book separate rides between each stop, and you have somewhere to leave jackets, bags and souvenirs while you're at the game.</p>
+
+      <h2>Making a Weekend of It</h2>
+      <p>A December bowl trip is a good excuse to see New Orleans dressed for the holidays. If you're in town for a few days, consider:</p>
+      <ul>
+        <li><strong>The French Quarter in December,</strong> when balconies and courtyards are decorated for the season. Our <a href="/french-quarter-transportation-guide">French Quarter transportation guide</a> explains how drop-offs work on the Quarter's narrow streets.</li>
+        <li><strong>Celebration in the Oaks</strong> in City Park, the city's best-known holiday lights display. See our <a href="/blog/celebration-in-the-oaks-transportation-guide">Celebration in the Oaks guide</a> for timing and pickup tips.</li>
+        <li><strong>A Réveillon dinner,</strong> the December tradition of special holiday menus at New Orleans restaurants. Reserve early, since bowl weekend overlaps with peak holiday dining.</li>
+      </ul>
+
+      <h2>Traveling With Family</h2>
+      <p>Bowl games are family trips for many fans, with parents, grandparents and kids all in team gear. A few tips help when you're traveling with children or older relatives:</p>
+      <ul>
+        <li>Request infant, convertible or booster seats when you book, and tell us each child's age so the seats are installed before the vehicle arrives.</li>
+        <li>For grandparents or anyone who finds walking difficult, ask us to plan the closest practical drop-off and allow extra time to reach your seats.</li>
+        <li>A short post-game wait at a meeting point away from the stadium is easier on small children than standing in the crowd at the gates.</li>
+      </ul>
+
+      <h2>Choosing the Right Vehicle</h2>
+      <p>Match the vehicle to your group and your luggage, especially on airport days:</p>
+      <ul>
+        <li><strong>Mercedes-Benz E-Class</strong> or <strong>BMW 7 Series / Mercedes S-Class:</strong> up to 3 passengers, with room for 2 bags. Good for a couple or a small group traveling light.</li>
+        <li><strong>Lincoln Nautilus:</strong> up to 3 passengers, with room for 4 bags, for small groups with more luggage.</li>
+        <li><strong>Chevrolet Suburban:</strong> up to 5 passengers with 5 bags, a good fit for a family.</li>
+        <li><strong>Lincoln Navigator:</strong> up to 6 passengers with 5 bags, for a larger family or group of friends.</li>
+        <li><strong>Mercedes Sprinter:</strong> up to 13 passengers with 13 bags, for alumni groups, booster clubs and extended families who want to travel together.</li>
+      </ul>
+      <p>For larger groups, one Sprinter for the airport runs and game day is usually simpler than coordinating several cars. If your group is bigger than 13, we can plan more than one vehicle. See our <a href="/fleet">fleet</a> for details on each vehicle.</p>
+
+      <h2>Flying Home After the Game</h2>
+      <p>Many fans fly out the morning after the game, and bowl weekend departures can be busy at MSY, especially if your flight falls during the holiday travel rush. Book your return to the airport when you book your arrival, so the pickup time is set around your flight with a comfortable buffer for check-in and security. If you're flying out the same night as the game, leave generous time, since post-game traffic around the Superdome can be slow.</p>
+
+      <h2>Booking Your New Orleans Bowl Ride</h2>
+      <p>Because the matchup is announced only a few weeks before the game, book as soon as your travel plans are set. Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup, and Sprinter van, limousine and special-event bookings up to 12 hours before, which gives you some flexibility if plans change. Every quote is all-inclusive, covering tolls, taxes and gratuity.</p>
+      <p>Call (877) 609-1919 any time or <a href="/booking">book online</a>. Tell us your flight details, where you're staying, how many fans are in your group and your plans for game day, and we'll plan the airport runs and the Superdome pickup around the crowds.</p>
+    `,
+    relatedLinks: [
+      { label: "Caesars Superdome Transportation", to: "/caesars-superdome-transportation" },
+      { label: "MSY to Downtown New Orleans", to: "/msy-to-new-orleans-downtown" },
+      { label: "Sugar Bowl Transportation", to: "/sugar-bowl-new-years-superdome-transportation" },
+      { label: "Book Your Ride", to: "/booking" },
+    ],
+    faqs: [
+      {
+        q: "When is the New Orleans Bowl played?",
+        a: "The New Orleans Bowl is typically played in mid-to-late December at the Caesars Superdome. The bowl sets the date, kickoff time and matchup each year, so check its official announcements before booking.",
+      },
+      {
+        q: "How long is the drive from MSY to the Superdome?",
+        a: "The drive from Louis Armstrong New Orleans International Airport to the Superdome area usually takes 20 to 30 minutes, longer at rush hour or when a major event is letting out downtown.",
+      },
+      {
+        q: "Where will the chauffeur drop us off and pick us up on game day?",
+        a: "Your chauffeur uses the closest practical spot open to vehicles that day. After the game, we recommend a meeting point a few blocks from the stadium, away from the crowds at the gates.",
+      },
+      {
+        q: "What vehicle works for an alumni or booster club group?",
+        a: "A Mercedes Sprinter carries up to 13 passengers with 13 bags. Smaller groups fit in a Lincoln Navigator, which seats 6, or a Chevrolet Suburban, which seats 5.",
+      },
+      {
+        q: "Can we keep the same car for the whole game day?",
+        a: "Yes. With an hourly charter, one vehicle and chauffeur stay with your group for pregame events, the game and dinner afterward.",
+      },
+    ],
+  },
+
+  // ---------------------------------------------------------- POST 26 (Nov 18)
+  {
+    slug: "nutcracker-new-orleans-holiday-ballet-night-out",
+    title: "The Nutcracker in New Orleans: Planning a Holiday Ballet Night Out",
+    metaTitle: "Nutcracker New Orleans: Holiday Ballet Night Guide | MSY Limo",
+    metaDescription:
+      "Seeing the Nutcracker in New Orleans this December? Tips on matinee vs evening shows, theater drop-offs, dinner nearby, kids' car seats and getting home easily.",
+    category: "Events",
+    author: "MSY Limo Team",
+    date: "November 18, 2026",
+    scheduled: true,
+    readTime: "8 min read",
+    excerpt:
+      "For many families, a December performance of The Nutcracker is the holiday tradition. Here's how to plan the outing in New Orleans, from choosing a show time to the theater drop-off and the ride home.",
+    image: "/images/blog/scenario-doorman.webp",
+    content: `
+      <p>For many families, the holidays mean a trip to see The Nutcracker. The music, the snow scene and the Sugar Plum Fairy have made Tchaikovsky's ballet a December tradition across the country, and New Orleans is no exception. Local ballet companies, dance schools and touring productions stage the Nutcracker in New Orleans and the surrounding parishes each holiday season, and for children it is often their first trip to a real theater. A little planning turns it into an easy, memorable evening instead of a rush through holiday traffic.</p>
+      <p>This guide covers choosing a performance, timing the outing, getting to the theater, planning dinner and getting everyone home, whether you're a local family or visiting for the holidays.</p>
+
+      <h2>Finding a Performance</h2>
+      <p>Who performs the Nutcracker, where and when changes from year to year. Some productions are staged by professional or regional ballet companies, others by local dance schools, and touring productions sometimes come through the city as well. Performances are typically concentrated in the weeks between Thanksgiving and Christmas, often on weekends.</p>
+      <p>Many of the city's big stage productions are held downtown at venues like the Mahalia Jackson Theater in Louis Armstrong Park and the Saenger Theatre on Canal Street, while school and community productions may be staged at theaters in Metairie, on the Northshore or on a school campus. Check the producing company's official schedule for the venue, dates and curtain times, and buy tickets from the company or the venue's official box office.</p>
+
+      <h2>Matinee or Evening Show?</h2>
+      <p>The right show time depends on who's coming:</p>
+      <ul>
+        <li><strong>Matinees</strong> are often best for young children. Kids are fresher, the show ends before dinner, and you avoid a late drive home.</li>
+        <li><strong>Evening performances</strong> make it a dressed-up night out, which many couples and older children enjoy. Pair the show with dinner beforehand or a dessert stop after.</li>
+        <li><strong>Weekend shows</strong> are popular and sell quickly. If your schedule allows, a weekday or early-season performance may have better seat choices.</li>
+      </ul>
+      <p>Allow for the length of the show, including intermission, when you plan your pickup. The program or the venue's website usually lists an approximate running time.</p>
+
+      <h2>Getting to the Theater</h2>
+      <p>December is one of the busiest months downtown. Holiday parties, conventions, Saints and Pelicans games and shoppers all add traffic, and parking near the theaters can fill well before curtain. Arriving late to a ballet is no fun: latecomers may have to wait for a suitable break before being seated.</p>
+      <p>A chauffeured ride lets you skip the garage and arrive at the door:</p>
+      <ul>
+        <li><strong>Mahalia Jackson Theater:</strong> the theater sits inside Louis Armstrong Park on the edge of the Tremé, just across Rampart Street from the French Quarter. Your chauffeur drops you at the closest practical point for the park entrance used that evening. Our <a href="/treme-limo-service">Tremé car service</a> page covers the neighborhood.</li>
+        <li><strong>Saenger Theatre:</strong> the Saenger is on Canal Street at the edge of the French Quarter, one of the busiest stretches of downtown. Our <a href="/saenger-theatre-transportation">Saenger Theatre transportation</a> page explains drop-off and pickup there.</li>
+        <li><strong>Suburban and school venues:</strong> theaters in Metairie, on the Northshore or on school campuses are often easier to reach, but parking can still be tight on a sold-out night.</li>
+      </ul>
+      <p>Aim to arrive 20 to 30 minutes before curtain. That leaves time to find your seats, visit the restroom with the kids and browse the program before the lights go down.</p>
+
+      <h2>Dinner Before or After the Show</h2>
+      <p>Many families turn the Nutcracker into a full holiday outing. Some ideas:</p>
+      <ul>
+        <li><strong>An early dinner downtown</strong> before an evening show. Reserve ahead, since December weekends are among the busiest restaurant nights of the year.</li>
+        <li><strong>A Réveillon menu.</strong> Many New Orleans restaurants serve special holiday menus in December, a tradition rooted in the city's Creole Christmas history. Our <a href="/blog/reveillon-dinners-new-orleans-december-tradition-guide">Réveillon dinner guide</a> explains how it works.</li>
+        <li><strong>Dessert or hot chocolate</strong> after a matinee, followed by a drive past the holiday lights.</li>
+      </ul>
+      <p>When the evening has several stops, an <a href="/services/hourly-charter">hourly charter</a> keeps one vehicle and chauffeur with your group, so you can go from dinner to the theater to dessert without arranging separate rides or moving the car.</p>
+
+      <h2>Pairing the Ballet With Holiday Lights</h2>
+      <p>After a matinee, there's often time for another holiday stop before bedtime. Celebration in the Oaks in City Park is the city's best-known lights display; our <a href="/blog/celebration-in-the-oaks-transportation-guide">Celebration in the Oaks guide</a> covers how a chauffeured visit to the park works. The decorated lobby of The Roosevelt New Orleans in the CBD and the balconies of the French Quarter are other favorites. Keep the plan simple with young children: one show and one extra stop is usually plenty for a single day.</p>
+
+      <h2>Bringing Young Children</h2>
+      <p>The Nutcracker is a wonderful first ballet, and a few small steps make it go smoothly:</p>
+      <ul>
+        <li><strong>Check age guidance.</strong> Some productions recommend a minimum age or require a ticket for every child regardless of age. The venue or company will have its policy.</li>
+        <li><strong>Talk about the story beforehand</strong> so children know what to expect, especially that there's no talking on stage.</li>
+        <li><strong>Plan restroom breaks</strong> before the show and at intermission.</li>
+        <li><strong>Request car seats when you book.</strong> Infant, convertible and booster seats are available on request. Tell us each child's age and we'll have the seats installed before the vehicle arrives.</li>
+      </ul>
+
+      <h2>What to Wear</h2>
+      <p>Many families dress up for the ballet, and children often love wearing holiday outfits for the occasion. December evenings in New Orleans are usually mild but can turn cool and damp after dark, so bring a light coat for the walk to and from the theater, and keep a compact umbrella in the car if rain is in the forecast. A chauffeured drop-off means dress shoes and holiday clothes only have to make it from the curb to the lobby.</p>
+
+      <h2>Grandparents and Out-of-Town Family</h2>
+      <p>The Nutcracker is a classic outing when grandparents visit for the holidays. If family is flying in, we can meet them at MSY with flight tracking and complimentary waiting time of 45 minutes on domestic arrivals and 60 minutes on international arrivals, then bring everyone together for the show. For relatives who find walking difficult, ask us to plan the closest practical drop-off at the venue and allow a little extra time to reach your seats.</p>
+
+      <h2>Getting Home After the Show</h2>
+      <p>When the curtain comes down, the whole audience leaves at once, and the streets outside a sold-out theater can be crowded. A pre-arranged pickup makes the end of the night easy:</p>
+      <ul>
+        <li>Agree on a pickup point near the venue before you go in, so everyone knows where to meet.</li>
+        <li>Give your chauffeur an approximate end time, or call when you're walking out.</li>
+        <li>Keep a blanket or a favorite toy in the car for little ones who fall asleep on the ride home.</li>
+      </ul>
+
+      <h2>Choosing a Vehicle</h2>
+      <p>For a couple's night out, a Mercedes-Benz E-Class or a BMW 7 Series / Mercedes S-Class seats up to 3 passengers. Families fit comfortably in a Chevrolet Suburban, which seats 5, or a Lincoln Navigator, which seats 6. For a dance-school group, several families or a large extended family, a Mercedes Sprinter carries up to 13 passengers and keeps everyone together. See our <a href="/fleet">fleet</a> for details on each vehicle.</p>
+
+      <h2>Booking Your Nutcracker Outing</h2>
+      <p>December weekends fill quickly, so book your ride when you buy your tickets. Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup, and Sprinter van, limousine and special-event bookings up to 12 hours before. Every quote is all-inclusive, covering tolls, taxes and gratuity.</p>
+      <p>Call (877) 609-1919 any time or <a href="/booking">book online</a>. Tell us the venue, the curtain time, how many people are coming and any car seats you need, and we'll plan the drop-off and the ride home around the holiday crowds.</p>
+    `,
+    relatedLinks: [
+      { label: "Saenger Theatre Transportation", to: "/saenger-theatre-transportation" },
+      { label: "Tremé Car Service", to: "/treme-limo-service" },
+      { label: "Hourly Charter", to: "/services/hourly-charter" },
+      { label: "Book Your Ride", to: "/booking" },
+    ],
+    faqs: [
+      {
+        q: "Where is the Nutcracker performed in New Orleans?",
+        a: "Productions vary from year to year. Many large stage shows are held downtown at venues such as the Mahalia Jackson Theater and the Saenger Theatre, while school and community productions may be staged in Metairie, on the Northshore or on school campuses. Check the producing company's schedule.",
+      },
+      {
+        q: "Is a matinee or evening performance better for young children?",
+        a: "Matinees are often easier for young children. They're fresher, the show ends before dinner and you avoid a late drive home. Evening shows suit couples and older children who want a dressed-up night out.",
+      },
+      {
+        q: "How early should we arrive at the theater?",
+        a: "Aim to arrive 20 to 30 minutes before curtain so you have time to find your seats and take the kids to the restroom. Latecomers may have to wait for a suitable break before being seated.",
+      },
+      {
+        q: "Can you provide car seats for the kids?",
+        a: "Yes. Infant, convertible and booster seats are available on request. Tell us each child's age when you book, and the seats are installed before the vehicle arrives.",
+      },
+      {
+        q: "What vehicle works for a dance-school group or several families?",
+        a: "A Mercedes Sprinter carries up to 13 passengers. Smaller groups fit in a Lincoln Navigator, which seats 6, or a Chevrolet Suburban, which seats 5.",
+      },
+    ],
+  },
+
+  // ---------------------------------------------------------- POST 27 (Nov 19)
+  {
+    slug: "christmas-day-in-new-orleans-getting-around-dinner-rides",
+    title: "Christmas Day in New Orleans: Getting Around When the City Slows Down",
+    metaTitle: "Christmas Day in New Orleans: Rides & Dinner Plans | MSY Limo",
+    metaDescription:
+      "Spending Christmas Day in New Orleans? How to plan church, brunch and Christmas dinner, family visits and airport runs on a day when rides are harder to find.",
+    category: "Events",
+    author: "MSY Limo Team",
+    date: "November 19, 2026",
+    scheduled: true,
+    readTime: "8 min read",
+    excerpt:
+      "Christmas Day is one of the quietest days of the year in New Orleans, which is part of its charm, and also why getting around takes a little planning. Here's how to plan church, dinner, family visits and airport runs.",
+    image: "/images/blog/landmark-nola-2.webp",
+    content: `
+      <p>After the bustle of December, Christmas Day in New Orleans is something different. The CBD's office towers are dark, many shops close, and the French Quarter wakes up slowly after the late night of Christmas Eve. Families gather for church, brunch and long holiday meals, and visitors who chose the city for the holidays get to see a calmer side of it. That quiet is part of the charm, and it's also why getting around on Christmas Day takes a little more planning than usual.</p>
+      <p>This guide covers what to expect on December 25, how to plan church, brunch and dinner, how to handle visits across town and airport runs, and how to keep everyone together without anyone stuck driving.</p>
+
+      <h2>What to Expect on Christmas Day</h2>
+      <p>Many businesses close or keep short hours on Christmas Day, and some restaurants take the day off entirely. Others, especially hotel restaurants and places known for holiday menus, stay open and are often booked well in advance. Public transit typically runs a holiday schedule, and rideshare availability can be unpredictable, particularly early in the morning, late in the evening and for larger vehicles. If your day depends on getting from one place to another at a specific time, it's worth arranging the ride ahead.</p>
+      <p>Weather is usually mild, but a December cold front can bring a sudden chill or rain. Plan for a light coat and an umbrella, especially if you'll be walking between your car and a restaurant or church.</p>
+
+      <h2>Christmas Morning Church Services</h2>
+      <p>Many families start the day at Mass or a Christmas morning service. St. Louis Cathedral on Jackson Square and parishes across the city, Metairie, the West Bank and the Northshore hold Christmas services, and the most popular ones can be crowded. Check your church's schedule for service times, and plan to arrive early if you want to sit together.</p>
+      <p>If you attended the late service on Christmas Eve instead, our <a href="/blog/christmas-eve-midnight-mass-st-louis-cathedral-transportation">midnight Mass at St. Louis Cathedral guide</a> covers that evening. For a Christmas morning service in the Quarter, your chauffeur drops you on the nearest street open to vehicles and picks you up at an agreed meeting point afterward.</p>
+
+      <h2>Christmas Brunch and Christmas Dinner</h2>
+      <p>Food is the center of Christmas Day in New Orleans. Some families cook at home; others make a reservation and let a restaurant handle the feast. If you're eating out:</p>
+      <ul>
+        <li><strong>Reserve early.</strong> With fewer restaurants open, the ones serving on Christmas Day can fill weeks ahead.</li>
+        <li><strong>Confirm hours and menus.</strong> Many restaurants serve a set holiday menu on Christmas Day, sometimes with limited seating times.</li>
+        <li><strong>Ask about Réveillon.</strong> Some restaurants run their December Réveillon menus through Christmas. Our <a href="/blog/reveillon-dinners-new-orleans-december-tradition-guide">Réveillon dinner guide</a> explains the tradition and how it works today.</li>
+        <li><strong>Check your hotel.</strong> Hotel restaurants are often open on Christmas Day, which is convenient for visitors and for families hosting relatives in town.</li>
+      </ul>
+      <p>A holiday meal is also a good reason not to drive. A ride to and from dinner means everyone can enjoy the meal, the wine and the conversation without watching the clock or worrying about parking.</p>
+
+      <h2>Visiting Family Across Town</h2>
+      <p>For many local families, Christmas Day means more than one stop: breakfast at home, lunch with one side of the family in Metairie, dinner with the other in Gentilly or on the Northshore. Splitting the day between households is easier when nobody has to drive between them.</p>
+      <p>An <a href="/services/hourly-charter">hourly charter</a> keeps one vehicle and chauffeur with your family for a set block of time, so you can move between homes, church and dinner on your schedule and keep presents, dishes and coats in the car. If your day has two or three set trips, point-to-point rides booked in advance work too. Our <a href="/metairie-limo-service">Metairie car service</a> page covers rides around Jefferson Parish.</p>
+
+      <h2>Picking Up Grandparents and Holiday Guests</h2>
+      <p>Christmas Day is also a travel day. Some relatives fly in on the morning of the 25th to join the celebration, and others fly home that evening. Airports are often calmer on Christmas Day itself than in the days around it, but rides to and from the airport can still be harder to find.</p>
+      <ul>
+        <li><strong>Arrivals:</strong> your chauffeur tracks the flight and adjusts to the actual landing time, with 45 minutes of complimentary waiting time on domestic arrivals and 60 minutes on international arrivals. Our <a href="/msy-airport-arrival-pickup">MSY arrival pickup</a> page explains where your chauffeur meets you.</li>
+        <li><strong>Departures:</strong> book the ride to MSY when you book the arrival, with a comfortable buffer for check-in and security.</li>
+        <li><strong>Older relatives:</strong> a door-to-door ride with help with luggage is far easier than a curbside pickup by a family member juggling holiday cooking.</li>
+      </ul>
+      <p>If your guests are arriving earlier in the week, our <a href="/blog/msy-holiday-travel-christmas-week-airport-rides">Christmas-week MSY travel guide</a> covers the busier days before the holiday.</p>
+
+      <h2>Spending Christmas Day as a Visitor</h2>
+      <p>If you're visiting New Orleans for the holidays, Christmas Day can be a relaxed one. A few ideas:</p>
+      <ul>
+        <li><strong>A walk through the French Quarter</strong> in the morning, when the streets are quiet and the decorated balconies are easy to admire. Our <a href="/french-quarter-transportation-guide">French Quarter transportation guide</a> explains how the Quarter's streets work for cars and pedestrians.</li>
+        <li><strong>A drive past holiday decorations</strong> in the Garden District and Uptown, where many homes are decorated for the season.</li>
+        <li><strong>A long Christmas dinner</strong> at your hotel or a restaurant you reserved in advance.</li>
+      </ul>
+      <p>Opening hours for attractions, holiday light displays and museums on December 25 vary, and many close for the day. Check with each venue before you plan around it.</p>
+
+      <h2>Christmas Evening and the Ride Home</h2>
+      <p>Christmas dinners tend to run long, and the end of the night is when finding a ride is often hardest. Families leaving a relative's house in Kenner or Mandeville, or a restaurant downtown, may find few cars nearby and long waits for anything larger than a sedan. A pre-booked pickup avoids that: agree on an approximate time, and call your chauffeur when dessert is winding down. If plans change during the day, tell us as early as you can so we can adjust the pickup.</p>
+      <p>The ride home is also a good time to think about anyone who shouldn't be driving after a celebration. Arranging rides for the whole family means nobody has to be the designated driver, and older relatives get home safely without anyone leaving the party early to take them.</p>
+
+      <h2>Planning the Day: A Simple Checklist</h2>
+      <ul>
+        <li>Confirm church service times, restaurant reservations and hours a few days ahead.</li>
+        <li>List every stop, the number of passengers at each leg and any car seats you need.</li>
+        <li>Decide whether point-to-point rides or an hourly charter fits the day better.</li>
+        <li>Share pickup times and meeting points with everyone in the group.</li>
+        <li>Leave extra time between stops. Holiday meals rarely end on schedule.</li>
+      </ul>
+
+      <h2>Choosing a Vehicle</h2>
+      <p>For a couple heading to Christmas dinner, a Mercedes-Benz E-Class or a BMW 7 Series / Mercedes S-Class seats up to 3 passengers. A Lincoln Nautilus also seats up to 3, with extra room for luggage on airport days. Families fit comfortably in a Chevrolet Suburban, which seats 5, or a Lincoln Navigator, which seats 6. For a large family gathering, a Mercedes Sprinter carries up to 13 passengers, which lets everyone ride together between church, dinner and home. Infant, convertible and booster seats are available on request. See our <a href="/fleet">fleet</a> for details on each vehicle.</p>
+
+      <h2>Booking Your Christmas Day Rides</h2>
+      <p>Because Christmas Day plans are usually set well in advance, it's best to book early, especially for larger vehicles. Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup, and Sprinter van, limousine and special-event bookings up to 12 hours before. Every quote is all-inclusive, covering tolls, taxes and gratuity.</p>
+      <p>Call (877) 609-1919 any time or <a href="/booking">book online</a>. Tell us your stops, times and the number of passengers, and we'll plan your Christmas Day so the only thing anyone has to think about is the meal.</p>
+    `,
+    relatedLinks: [
+      { label: "MSY Arrival Pickup", to: "/msy-airport-arrival-pickup" },
+      { label: "Hourly Charter", to: "/services/hourly-charter" },
+      { label: "Réveillon Dinner Guide", to: "/blog/reveillon-dinners-new-orleans-december-tradition-guide" },
+      { label: "Book Your Ride", to: "/booking" },
+    ],
+    faqs: [
+      {
+        q: "Is it hard to get a ride on Christmas Day in New Orleans?",
+        a: "It can be. Public transit typically runs a holiday schedule and rideshare availability can be unpredictable, especially early, late and for larger vehicles. Booking ahead makes the day easier.",
+      },
+      {
+        q: "Are restaurants open on Christmas Day in New Orleans?",
+        a: "Some are, especially hotel restaurants and places known for holiday menus, but many close. Reserve early and confirm hours and menus with the restaurant before the day.",
+      },
+      {
+        q: "Can we keep one car for church, family visits and dinner?",
+        a: "Yes. With an hourly charter, one vehicle and chauffeur stay with your family for a set block of time, so you can move between stops on your schedule.",
+      },
+      {
+        q: "Do you pick up at MSY on Christmas Day?",
+        a: "Yes. Airport pickups are flight-tracked, with 45 minutes of complimentary waiting time on domestic arrivals and 60 minutes on international arrivals.",
+      },
+      {
+        q: "What vehicle works for a large family gathering?",
+        a: "A Mercedes Sprinter carries up to 13 passengers. Smaller families fit in a Chevrolet Suburban, which seats 5, or a Lincoln Navigator, which seats 6.",
+      },
+    ],
+  },
+
 ];
