@@ -3236,5 +3236,1547 @@ export const BLOG_POSTS_BATCH13 = [
       },
     ],
   },
+  // Added 2026-11-15: fourteen more scheduled posts, one per day on
+  // Nov 23 through Dec 6, 2026. Topics checked against every post, guide,
+  // landing page and the live sitemap (no existing Thanksgiving-week, Turkey
+  // Day Race, Black Friday, Small Business Saturday, house-party, December
+  // visitor, December wedding, winter hub-delay, winter-break, ski-trip,
+  // Friday-lunch, checkout-day or New Year's Day departure coverage). Sugar
+  // Bowl and the Fair Grounds already have their own pages, so they are only
+  // linked. Event dates and hours are sent to the organizers.
+
+  // ---------------------------------------------------------- POST 31 (Nov 23)
+  {
+    slug: "msy-thanksgiving-week-airport-travel-guide",
+    title: "Thanksgiving Week at MSY: Planning Airport Rides for the Busiest Travel Days",
+    metaTitle: "Thanksgiving Week MSY Airport Rides | MSY Limo",
+    metaDescription:
+      "Flying in or out of MSY for Thanksgiving? When the airport is busiest, how early to leave, picking up relatives and booking rides before the holiday rush.",
+    category: "Airport",
+    author: "MSY Limo Team",
+    date: "November 23, 2026",
+    scheduled: true,
+    readTime: "8 min read",
+    excerpt:
+      "Thanksgiving week brings some of the year's heaviest traffic through Louis Armstrong New Orleans International Airport. Here's how to time arrivals, departures and family pickups.",
+    image: "/images/blog/airport-terminal-glass.webp",
+    content: `
+      <p>Thanksgiving week is one of the busiest stretches of the year at Louis Armstrong New Orleans International Airport (MSY). College students head home, families fly in for the holiday table, and visitors arrive for a long weekend of food, football and the start of the holiday season. In 2026, Thanksgiving falls on Thursday, November 26, which puts the heaviest airport days on the Tuesday and Wednesday before the holiday and on the Sunday after it.</p>
+      <p>This guide covers when the crowds peak, how early to leave for the airport, how to plan pickups for arriving relatives and why a booked ride is worth arranging before the week begins.</p>
+
+      <h2>The Busiest Days of Thanksgiving Week</h2>
+      <p>Across the country, the days around Thanksgiving are some of the heaviest air travel days of the year, and MSY follows the same pattern:</p>
+      <ul>
+        <li><strong>Tuesday and Wednesday before Thanksgiving</strong> bring the outbound and inbound rush, with full flights, long security lines and busy curbs.</li>
+        <li><strong>Thanksgiving Day</strong> is usually calmer at the airport, though some travelers fly in the morning to make dinner.</li>
+        <li><strong>Friday and Saturday</strong> are moderate, with some early departures and Black Friday travelers.</li>
+        <li><strong>The Sunday after Thanksgiving</strong> is typically the heaviest return day, with crowded terminals from early morning into the evening.</li>
+      </ul>
+      <p>Roads around the airport follow the same rhythm. I-10 between New Orleans and Kenner gets heavy on the Wednesday afternoon before the holiday, when airport traffic mixes with people leaving work early and heading out of town.</p>
+
+      <h2>How Early to Leave for MSY</h2>
+      <p>Downtown New Orleans is about 14 miles from MSY, usually a 20 to 30 minute drive, but holiday traffic can stretch that. On the busiest days, plan to arrive at the terminal earlier than you would on a normal trip, and check your airline's guidance for check-in and bag-drop cutoffs. If you're checking bags, carrying food or gifts, or traveling with children, add more time. Our chauffeurs plan the route around the day's traffic, but the buffer at the airport is something only you can build in.</p>
+      <p>If you're flying very early on a holiday morning, our <a href="/blog/new-orleans-airport-early-morning-pickup">early-morning MSY pickup guide</a> covers what to expect before dawn.</p>
+
+      <h2>Picking Up Relatives Who Are Flying In</h2>
+      <p>One of the most common Thanksgiving bookings is a pickup for parents, grandparents or in-laws arriving at MSY while the host family is busy cooking. A scheduled pickup takes that errand off the host's plate:</p>
+      <ul>
+        <li><strong>Flight tracking.</strong> Every airport pickup is flight-tracked, so your chauffeur is dispatched against the actual landing time, not the original schedule.</li>
+        <li><strong>Complimentary waiting time.</strong> Domestic arrivals include 45 minutes of waiting time after landing and international arrivals include 60 minutes, which covers the walk to baggage claim and the wait for bags.</li>
+        <li><strong>Meet-and-greet.</strong> For older relatives or first-time visitors, a chauffeur can wait inside baggage claim with a name sign and help with luggage from the carousel. See our <a href="/msy-airport-meet-and-greet">MSY meet-and-greet</a> page.</li>
+      </ul>
+      <p>When you book, give us the traveler's name, flight number and a phone number they'll have on them. You can pay and manage the booking yourself while the ride goes to your guest.</p>
+
+      <h2>Several Arrivals on the Same Day</h2>
+      <p>Big family gatherings often mean several relatives landing at different times. You have two options. Separate pickups give each traveler their own car at their own landing time. A single larger vehicle, such as a Mercedes Sprinter that seats up to 13, works when flights land close together and the group is happy to wait for the last arrival. Tell us every flight when you book, and we'll suggest the plan that keeps waiting to a minimum.</p>
+
+      <h2>The Sunday Return Rush</h2>
+      <p>The Sunday after Thanksgiving is often the hardest day to find a ride on short notice. Rideshare demand climbs, surge pricing is common and taxi lines at the airport can be long. If you or your guests fly out that day, book the departure ride when you book the arrival, and leave extra time for check-in and security.</p>
+      <p>For travelers flying out from the Northshore early in the morning, our <a href="/blog/causeway-fog-northshore-early-flights-msy-winter-guide">Causeway fog and early flights guide</a> explains why late-fall mornings can need extra time on the bridge.</p>
+
+      <h2>Thanksgiving Weekend Events Can Add Traffic</h2>
+      <p>Thanksgiving weekend in New Orleans has its own events, and they can affect travel across the city. The Fair Grounds Race Course has traditionally opened its racing season around Thanksgiving, and the Bayou Classic brings a large crowd to the Superdome on the holiday weekend. If you're flying in for either, see our <a href="/fair-grounds-race-course-transportation">Fair Grounds</a> and <a href="/bayou-classic-transportation">Bayou Classic</a> pages, and check event dates with the organizers.</p>
+
+      <h2>Thanksgiving Week Airport Checklist</h2>
+      <ul>
+        <li>Book arrival and departure rides together, especially for the Wednesday before and Sunday after Thanksgiving.</li>
+        <li>Share flight numbers so pickups are flight-tracked.</li>
+        <li>Tell us about luggage, food carriers, gifts and car seats so the vehicle has room.</li>
+        <li>Check your airline's check-in and bag-drop guidance for the holiday week.</li>
+        <li>Save the chauffeur's contact details and our number, (877) 609-1919.</li>
+      </ul>
+
+      <h2>Arriving With Food, Gifts and Extra Bags</h2>
+      <p>Thanksgiving travelers tend to pack more than usual. Relatives fly in with gifts, a favorite casserole dish or a cooler of something from home, and locals heading out often carry pralines, coffee, hot sauce or a king cake for the family on the other end. More bags mean a bigger vehicle, so count everything before you book, including carry-ons and anything oversized such as a stroller or a folding wheelchair.</p>
+      <p>Food rules matter at the airport too. Solid foods are generally fine in carry-on bags, but liquids and spreadable items such as gravies, sauces and dips are subject to security limits. Check the current TSA guidance before you pack, and plan to check anything that won't pass the carry-on rules. Our <a href="/blog/flying-home-from-msy-with-king-cake-hot-sauce-souvenirs">guide to flying home with local food and souvenirs</a> covers the most common New Orleans items.</p>
+
+      <h2>Connecting Flights and Winter Weather</h2>
+      <p>Thanksgiving week is also the start of winter weather season elsewhere in the country. Many travelers reach MSY through connecting airports, and a storm at a northern hub can delay or cancel the last leg into New Orleans. Your pickup follows your flight's actual landing time, but if a delay turns into a missed connection and a rebooking, call or text us with the new flight number so the pickup moves with you.</p>
+
+      <h2>Where Your Chauffeur Meets You</h2>
+      <p>The MSY terminal brings all arriving passengers through a single building, which keeps pickups simple even on the busiest days. With a standard pickup, your chauffeur will contact you when you land and meet you at the arranged spot. With meet-and-greet, your chauffeur waits inside baggage claim with a name sign. Our <a href="/blog/msy-arrivals-guide-where-your-chauffeur-meets-you">MSY arrivals guide</a> walks through both, and our <a href="/blog/msy-terminal-layout-2026-pickup-zones">terminal layout guide</a> explains the pickup zones.</p>
+      <p>On the Wednesday before Thanksgiving, the curb can be crowded with cars waiting for passengers. A pre-arranged meeting point and a phone number your chauffeur can reach make it far easier to find each other than circling the arrivals lanes.</p>
+      <h2>Choosing a Vehicle</h2>
+      <p>A Mercedes-Benz E-Class or BMW 7 Series / Mercedes S-Class seats up to 3 passengers with room for two bags, a good fit for a couple with carry-ons. A Lincoln Nautilus seats 3 with room for four bags. A Chevrolet Suburban seats 5 and a Lincoln Navigator seats 6, each with room for five bags, which suits families with checked luggage. For a large group, a Mercedes Sprinter carries up to 13 passengers and 13 bags. Infant, convertible and booster seats are available on request. See our <a href="/fleet">fleet</a> for details.</p>
+
+      <h2>Booking Your Thanksgiving Airport Ride</h2>
+      <p>Holiday-week reservations fill early, so book as soon as your flights are set. Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup, and Sprinter van and special-event bookings up to 12 hours before. Every quote is all-inclusive, covering tolls, taxes and gratuity.</p>
+      <p>Call (877) 609-1919 any time or <a href="/booking">book online</a>. For more on airport rides, see our <a href="/services/airport-transportation">MSY airport transportation</a> page.</p>
+    `,
+    relatedLinks: [
+      { label: "MSY Airport Transportation", to: "/services/airport-transportation" },
+      { label: "MSY Meet-and-Greet", to: "/msy-airport-meet-and-greet" },
+      { label: "Christmas-Week MSY Travel", to: "/blog/msy-holiday-travel-christmas-week-airport-rides" },
+      { label: "Book Your Ride", to: "/booking" },
+    ],
+    faqs: [
+      {
+        q: "What are the busiest days at MSY around Thanksgiving?",
+        a: "The Tuesday and Wednesday before Thanksgiving and the Sunday after it are usually the busiest. In 2026, Thanksgiving is Thursday, November 26.",
+      },
+      {
+        q: "Can you pick up a relative for me while I'm cooking?",
+        a: "Yes. Give us the traveler's name, flight number and phone number. The pickup is flight-tracked, and meet-and-greet inside baggage claim is available.",
+      },
+      {
+        q: "How long will the chauffeur wait if a flight is late?",
+        a: "Pickups are dispatched against the actual landing time. After landing, domestic arrivals include 45 minutes of complimentary waiting time and international arrivals 60 minutes.",
+      },
+      {
+        q: "Can one vehicle collect several relatives on different flights?",
+        a: "Yes, if flights land close together. A Mercedes Sprinter seats up to 13. When arrivals are spread out, separate pickups usually keep waiting shorter.",
+      },
+      {
+        q: "How far ahead should I book for Thanksgiving week?",
+        a: "As soon as your flights are set. The Wednesday before and Sunday after Thanksgiving fill first.",
+      },
+    ],
+  },
+
+  // ---------------------------------------------------------- POST 32 (Nov 24)
+  {
+    slug: "turkey-day-race-city-park-thanksgiving-morning-rides",
+    title: "Turkey Day Race in City Park: Thanksgiving Morning Rides for Runners and Families",
+    metaTitle: "Turkey Day Race New Orleans Rides | MSY Limo",
+    metaDescription:
+      "Running the Turkey Day Race on Thanksgiving morning? Drop-off and pickup near City Park, timing tips and getting to the family table after the finish.",
+    category: "Events",
+    author: "MSY Limo Team",
+    date: "November 24, 2026",
+    scheduled: true,
+    readTime: "7 min read",
+    excerpt:
+      "For many New Orleans families, Thanksgiving starts with the Turkey Day Race near City Park. Here's how to handle drop-off, pickup and the drive to dinner afterward.",
+    image: "/images/blog/landmark-nola-1.webp",
+    content: `
+      <p>For a lot of New Orleans families, Thanksgiving doesn't start in the kitchen. It starts on a cool morning near City Park, where the Turkey Day Race has been part of the city's holiday for generations. The race has roots going back more than a century, and today it draws serious runners, first-timers, walkers, families pushing strollers and plenty of people in turkey hats and costumes.</p>
+      <p>Getting there and getting home is the part that can trip up a holiday morning. Streets near the start and finish close, parking near City Park fills early, and the day's real schedule, the Thanksgiving meal, starts not long after you cross the line. This guide covers how to plan rides around the race.</p>
+
+      <h2>Check the Race Details First</h2>
+      <p>The race is traditionally run on Thanksgiving morning in and around City Park, but course, start time, packet pickup and parking details are set by the organizers each year. Check the official race website for this year's information before you book a ride. Thanksgiving 2026 falls on Thursday, November 26.</p>
+
+      <h2>Why a Drop-Off Beats Parking</h2>
+      <p>Race mornings follow a familiar pattern. Thousands of people arrive in the same hour, the streets nearest the start close for the race, and anyone who drives circles for a space and then walks a long way to the start. After the finish, everyone leaves at once.</p>
+      <p>A drop-off avoids both problems. Your chauffeur takes you as close to the start area as the morning's road closures allow and agrees on a pickup point away from the busiest streets for after the race. You don't have to remember where you parked or sit in the line of cars leaving the area.</p>
+
+      <h2>Planning the Pickup</h2>
+      <ul>
+        <li><strong>Pick a meeting point outside the closures.</strong> A corner a few blocks from the finish is usually faster than trying to get a car right next to it.</li>
+        <li><strong>Agree on a time window.</strong> Tell your chauffeur roughly when you expect to finish, then call or text when you're walking to the pickup point.</li>
+        <li><strong>Bring a dry layer.</strong> Late-November mornings in New Orleans can be cool, and a jacket in the car is welcome after a run.</li>
+        <li><strong>Plan for the group.</strong> If friends or family are running at different paces, choose one meeting point and let the faster runners wait together.</li>
+      </ul>
+      <p>For a point-to-point ride, the reservation includes 15 minutes of waiting time at pickup. If your group's finish times are uncertain, an <a href="/services/hourly-charter">hourly charter</a> keeps the vehicle and chauffeur with you for a set block of time, so the car is there whenever the last runner finishes.</p>
+
+      <h2>From the Finish Line to the Family Table</h2>
+      <p>The best part of a chauffeured race morning is what comes next. Many families go straight from the race to a relative's house, a hotel to change or a restaurant for an early holiday meal. Some popular plans:</p>
+      <ul>
+        <li><strong>Race, home, dinner.</strong> A ride home to shower and change, then a second ride to dinner later in the day.</li>
+        <li><strong>Race to a relative's house.</strong> Bring a change of clothes and go straight to the gathering in Metairie, Gentilly, Lakeview or wherever the table is set.</li>
+        <li><strong>Race, then a restaurant meal.</strong> Many New Orleans restaurants serve Thanksgiving menus, so book your table early and plan the ride around the reservation.</li>
+      </ul>
+
+      <h2>Visitors Running the Race</h2>
+      <p>Visitors in town for the holiday sometimes join the race as a fun way to see a different side of New Orleans. If you're staying in the French Quarter, the CBD or the Warehouse District, City Park is a short drive away. Our <a href="/city-park-nola-transportation">City Park transportation</a> page covers rides to the park, and after the race you might come back later in the season for Celebration in the Oaks, the park's holiday lights tradition. See our <a href="/blog/celebration-in-the-oaks-transportation-guide">Celebration in the Oaks guide</a>.</p>
+
+      <h2>Families With Kids and Strollers</h2>
+      <p>Kids' events and family walkers make the race a true family morning. If you're bringing children, tell us how many car seats you need when you book. Infant, convertible and booster seats are available on request. Let us know about strollers too, so the vehicle has room for them in the back.</p>
+
+      <h2>What to Bring on Race Morning</h2>
+      <p>A little preparation the night before keeps the morning calm. Lay out your race bib, shoes and layers, and pack a small bag for the car with the things you'll want after the finish:</p>
+      <ul>
+        <li>A dry shirt, a warm layer and a towel.</li>
+        <li>Water and a snack for the ride home.</li>
+        <li>A change of clothes if you're heading straight to a holiday gathering.</li>
+        <li>Your phone, charged, so you can text your chauffeur from the finish area.</li>
+      </ul>
+      <p>With an hourly charter, the bag can stay in the car while you run, so you don't have to use bag check or carry anything on the course. On a point-to-point booking, bring only what you're comfortable carrying.</p>
+
+      <h2>Costumes, Strollers and Spectators</h2>
+      <p>Part of the fun of a Thanksgiving race is the crowd. Runners turn up in turkey hats, pilgrim costumes and full holiday outfits, and families line the course to cheer. If your group includes spectators who aren't running, plan where they'll watch and how they'll meet the runners afterward. A spectator who rides along in the car can wait near the pickup point and keep everyone's bags while the runners finish.</p>
+      <p>Strollers, wagons and costume props take up room in a vehicle, so mention them when you book. A Chevrolet Suburban or Lincoln Navigator handles a stroller and a family's bags comfortably, and a Mercedes Sprinter has space for a larger group and all its gear.</p>
+
+      <h2>Packet Pickup and the Day Before</h2>
+      <p>Many races hold packet pickup on the day or two before the event. If you're visiting and don't have a car, a short ride to packet pickup and back to the hotel saves a cab hunt during a busy holiday week. Check the race website for the location and hours, and add the stop to your booking. If you're also meeting relatives at MSY that week, our <a href="/blog/msy-thanksgiving-week-airport-travel-guide">Thanksgiving week MSY guide</a> covers the airport's busiest days.</p>
+      <h2>Choosing a Vehicle</h2>
+      <p>For one or two runners, a Mercedes-Benz E-Class seats up to 3. A Chevrolet Suburban seats 5 and a Lincoln Navigator seats 6, with room for strollers and bags. A running club or a big family group fits in a Mercedes Sprinter, which carries up to 13 passengers. See our <a href="/fleet">fleet</a>.</p>
+
+      <h2>Booking Your Race Morning Ride</h2>
+      <p>Thanksgiving morning rides are popular, so book ahead. Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup, and Sprinter van and special-event bookings up to 12 hours before. Every quote is all-inclusive, covering tolls, taxes and gratuity.</p>
+      <p>Call (877) 609-1919 or <a href="/booking">book online</a>. Tell us where you're starting, the race start area and where you're headed afterward, and we'll plan the morning around the race.</p>
+    `,
+    relatedLinks: [
+      { label: "City Park Transportation", to: "/city-park-nola-transportation" },
+      { label: "Race Weekend Transportation", to: "/new-orleans-marathon-race-weekend-transportation-guide" },
+      { label: "Hourly Charter", to: "/services/hourly-charter" },
+      { label: "Book Your Ride", to: "/booking" },
+    ],
+    faqs: [
+      {
+        q: "When is the Turkey Day Race in New Orleans?",
+        a: "It is traditionally run on Thanksgiving morning, which is Thursday, November 26 in 2026. Check the official race website for this year's start time and course.",
+      },
+      {
+        q: "Where can the car drop us off?",
+        a: "As close to the start area as the morning's road closures allow. We'll agree on a pickup point a few blocks from the finish, away from the busiest streets.",
+      },
+      {
+        q: "What if our runners finish at different times?",
+        a: "Point-to-point rides include 15 minutes of waiting time at pickup. An hourly charter keeps the car with you so it's there whenever the last runner finishes.",
+      },
+      {
+        q: "Can we go straight from the race to Thanksgiving dinner?",
+        a: "Yes. Bring a change of clothes, and we can take you to a relative's house, your hotel or a restaurant after the race.",
+      },
+      {
+        q: "Do you have car seats for kids?",
+        a: "Yes. Infant, convertible and booster seats are available on request. Tell us the children's ages when you book.",
+      },
+    ],
+  },
+
+  // ---------------------------------------------------------- POST 33 (Nov 25)
+  {
+    slug: "thanksgiving-dinner-new-orleans-family-restaurant-rides",
+    title: "Thanksgiving Dinner in New Orleans: Rides to the Family Table or a Restaurant Reservation",
+    metaTitle: "Thanksgiving Dinner Rides New Orleans | MSY Limo",
+    metaDescription:
+      "Plan Thanksgiving Day rides in New Orleans: getting to a relative's house or a restaurant, bringing older family members, and a safe ride home after dinner.",
+    category: "Lifestyle",
+    author: "MSY Limo Team",
+    date: "November 25, 2026",
+    scheduled: true,
+    readTime: "8 min read",
+    excerpt:
+      "Whether dinner is at Grandma's house in Metairie or a restaurant in the French Quarter, Thanksgiving Day rides take planning. Here's how to get everyone there and home safely.",
+    image: "/images/blog/scenario-doorman.webp",
+    content: `
+      <p>Thanksgiving in New Orleans is a food holiday in a food city. Some families gather at a relative's house for turkey alongside oyster dressing, gumbo or a fried turkey from the backyard. Others book a table at one of the city's restaurants that serve a holiday menu. Either way, the day comes with a few transportation questions: who's driving, who's bringing the older relatives, how the dishes get there, and how everyone gets home after a long, generous meal.</p>
+      <p>This guide covers how to plan Thanksgiving Day rides in New Orleans, from the morning's errands to the drive home. In 2026, Thanksgiving falls on Thursday, November 26.</p>
+
+      <h2>Rides to a Family Gathering</h2>
+      <p>The most common Thanksgiving booking is simple: get the family to the house where dinner is served. A few ways a chauffeured ride helps:</p>
+      <ul>
+        <li><strong>Bringing older relatives.</strong> Grandparents who no longer drive at night, or who live across the lake or on the Westbank, can ride door to door without anyone leaving the kitchen to fetch them.</li>
+        <li><strong>Visitors staying at hotels.</strong> Out-of-town relatives staying downtown can ride to the house in Metairie, Kenner, Gentilly or Uptown and back without renting a car.</li>
+        <li><strong>Carrying dishes.</strong> Tell us if you're bringing food. The chauffeur will make room for trays, coolers and pie boxes and help carry them to the door.</li>
+      </ul>
+
+      <h2>Restaurant Thanksgiving Dinners</h2>
+      <p>Many New Orleans restaurants offer Thanksgiving menus, and hotel dining rooms often do the same. Reservations for the holiday are usually set weeks ahead, so book your table first, then book the ride around it. Your chauffeur drops you at the door at your reservation time and picks you up when you're ready, so no one has to find parking in the French Quarter or the CBD on a holiday afternoon.</p>
+      <p>If your evening has more than one stop, such as a pre-dinner drink at a hotel bar or dessert somewhere else, an <a href="/services/hourly-charter">hourly charter</a> keeps the car and chauffeur with you for the evening.</p>
+
+      <h2>A Safe Ride Home</h2>
+      <p>Thanksgiving is a long meal for many families, and it often comes with wine, cocktails and a few hours at the table. A booked ride home means no one has to stay sober to drive, and no one has to wait for a rideshare on a night when fewer drivers are working. You can book the return trip for a set time or call when you're ready if you've chosen an hourly charter.</p>
+
+      <h2>Thanksgiving Day Around the City</h2>
+      <p>The holiday has its own traditions beyond dinner, and they can shape your day's rides:</p>
+      <ul>
+        <li><strong>The Turkey Day Race.</strong> Many families start the morning near City Park. See our <a href="/blog/turkey-day-race-city-park-thanksgiving-morning-rides">Turkey Day Race guide</a>.</li>
+        <li><strong>A day at the races.</strong> The Fair Grounds Race Course has traditionally opened its season around Thanksgiving, and a holiday afternoon at the track is a long-standing local custom. See our <a href="/fair-grounds-race-course-transportation">Fair Grounds Race Course</a> page and check the track's schedule.</li>
+        <li><strong>Football.</strong> Many families plan dinner around the day's games on television, and the Bayou Classic brings fans to the Superdome on the holiday weekend. See our <a href="/bayou-classic-transportation">Bayou Classic</a> page.</li>
+      </ul>
+
+      <h2>Scheduling Multiple Rides on One Day</h2>
+      <p>Thanksgiving Day rides often come in pairs or threes: a pickup for Grandma at noon, a ride for the cousins from their hotel at two, and rides home that evening. Tell us every pickup when you book, with addresses, times and the number of passengers, and we'll schedule each one. If several people are coming from the same area, one larger vehicle may be simpler than several cars.</p>
+
+      <h2>Visitors Spending Thanksgiving in New Orleans</h2>
+      <p>If you're visiting New Orleans for the holiday without family nearby, a restaurant Thanksgiving is a fine way to spend the day. Book the restaurant early, then plan a ride from your hotel. Some visitors pair dinner with an evening walk through the French Quarter or a drink at a hotel bar. Our <a href="/first-time-new-orleans-visitor-guide">first-time visitor guide</a> has more ideas for your trip.</p>
+
+      <h2>Thanksgiving Dinner Ride Checklist</h2>
+      <ul>
+        <li>Confirm the dinner address and arrival time, or your restaurant reservation.</li>
+        <li>List everyone who needs a ride, with pickup addresses and times.</li>
+        <li>Tell us about food, coolers, wheelchairs or walkers so the vehicle has room.</li>
+        <li>Book car seats for small children. Infant, convertible and booster seats are available on request.</li>
+        <li>Decide whether you want a set return time or an hourly charter.</li>
+      </ul>
+
+      <h2>Fitting the Morning Errands In</h2>
+      <p>Thanksgiving mornings are often a rush of last-minute errands: picking up a fried turkey that was ordered weeks ago, collecting pies from a bakery, grabbing ice or running to the store for the ingredient someone forgot. If the host is busy in the kitchen and other family members are still arriving, an hourly charter in the morning can take one person around to every stop and then on to the gathering. Tell us the stops when you book, and remember that many shops keep shorter hours on the holiday, so check opening times before you plan the route.</p>
+
+      <h2>Hosting Guests Who Are Staying Downtown</h2>
+      <p>Many families host relatives who stay at hotels in the French Quarter, the CBD or near the airport. Instead of sending someone to collect each group, book one pickup that stops at each hotel in turn, or separate rides for groups coming from different parts of the city. Share hotel names and the number of guests at each, and we'll plan the order of pickups so everyone arrives close to the same time. A Mercedes Sprinter that carries up to 13 passengers is a practical way to bring a large extended family to the table together, and to take everyone back at the end of the evening.</p>
+
+      <h2>The Long Weekend After Thanksgiving</h2>
+      <p>For many families the holiday doesn't end on Thursday night. Visitors often stay for the long weekend, which brings Black Friday shopping, Small Business Saturday, a Saints game or a first look at the city's holiday lights. If your guests want to see the season begin, our <a href="/blog/celebration-in-the-oaks-transportation-guide">Celebration in the Oaks guide</a> covers City Park's lights, and our <a href="/blog/miracle-on-fulton-street-holiday-lights-new-orleans-ride-guide">Fulton Street lights guide</a> covers a downtown display. Booking these rides at the same time as Thanksgiving Day keeps the whole weekend in one plan.</p>
+      <h2>Choosing a Vehicle</h2>
+      <p>A Mercedes-Benz E-Class or BMW 7 Series / Mercedes S-Class seats up to 3 passengers for a couple or a grandparent and a helper. A Lincoln Nautilus also seats 3 with more cargo room for dishes. A Chevrolet Suburban seats 5 and a Lincoln Navigator seats 6 for a family. A Mercedes Sprinter carries up to 13 passengers for a large family group. For guests who use a wheelchair, see our <a href="/new-orleans-wheelchair-accessible-transportation">accessible transportation</a> page and tell us when you book. See our <a href="/fleet">fleet</a> for details.</p>
+
+      <h2>Booking Your Thanksgiving Rides</h2>
+      <p>Holiday-day rides book quickly, so reserve early. Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup, and Sprinter van and special-event bookings up to 12 hours before. Every quote is all-inclusive, covering tolls, taxes and gratuity.</p>
+      <p>Call (877) 609-1919 or <a href="/booking">book online</a>, and let us handle the driving so you can focus on the table.</p>
+    `,
+    relatedLinks: [
+      { label: "Hourly Charter", to: "/services/hourly-charter" },
+      { label: "Fair Grounds Race Course", to: "/fair-grounds-race-course-transportation" },
+      { label: "Thanksgiving Week at MSY", to: "/blog/msy-thanksgiving-week-airport-travel-guide" },
+      { label: "Book Your Ride", to: "/booking" },
+    ],
+    faqs: [
+      {
+        q: "Do you operate on Thanksgiving Day?",
+        a: "Yes. Dispatch runs 24/7. Book early, because Thanksgiving Day rides fill quickly.",
+      },
+      {
+        q: "Can you pick up a grandparent and bring them to dinner?",
+        a: "Yes. Give us their address and the dinner address, and let us know about any mobility needs. The chauffeur can help them to and from the door.",
+      },
+      {
+        q: "Can we bring food in the car?",
+        a: "Yes. Tell us about trays, coolers and pie boxes when you book so the vehicle has room for them.",
+      },
+      {
+        q: "Can the car wait while we eat?",
+        a: "With an hourly charter, the vehicle and chauffeur stay with you for a set block of time. Point-to-point rides include 15 minutes of waiting time at pickup.",
+      },
+      {
+        q: "What vehicle works for a big family?",
+        a: "A Chevrolet Suburban seats 5, a Lincoln Navigator seats 6, and a Mercedes Sprinter carries up to 13 passengers.",
+      },
+    ],
+  },
+
+  // ---------------------------------------------------------- POST 34 (Nov 26)
+  {
+    slug: "black-friday-outlet-shopping-new-orleans-riverwalk-kenner",
+    title: "Black Friday Outlet Shopping in New Orleans: Riverwalk and the Kenner Outlets by Car",
+    metaTitle: "Black Friday Outlet Shopping New Orleans | MSY Limo",
+    metaDescription:
+      "Plan Black Friday at the Outlet Collection at Riverwalk and Fashion Outlets of New Orleans in Kenner: when to go, drop-off and pickup, and room for every bag.",
+    category: "Lifestyle",
+    author: "MSY Limo Team",
+    date: "November 26, 2026",
+    scheduled: true,
+    readTime: "8 min read",
+    excerpt:
+      "Black Friday at the New Orleans outlets means early hours, full lots and lots of bags. Here's how to plan a shopping day at Riverwalk and the Kenner outlets with a driver.",
+    image: "/images/blog/fleet-escalade-2.webp",
+    content: `
+      <p>Black Friday in the New Orleans area has two outlet destinations that draw big crowds. The Outlet Collection at Riverwalk sits on the riverfront downtown, steps from the Convention Center and the foot of Poydras Street. Fashion Outlets of New Orleans is in Kenner, a few minutes from Louis Armstrong New Orleans International Airport (MSY). Both get busy on the Friday after Thanksgiving, which in 2026 is November 27.</p>
+      <p>This guide covers when to go, how drop-off and pickup work at each, how to plan a day that includes both, and how to fit a trunk full of bags into the ride home.</p>
+
+      <h2>Check Hours Before You Go</h2>
+      <p>Outlet malls typically open early and stay open late on Black Friday, and many stores post their own special hours. Those hours change from year to year, so check each mall's website and the stores you care about before you plan your day. If a particular store has a door-buster sale, look up whether it opens at a different time than the rest of the mall.</p>
+
+      <h2>The Outlet Collection at Riverwalk</h2>
+      <p>Riverwalk is the downtown option, on the river behind the Convention Center and near the Warehouse District and the CBD. For visitors staying downtown, it's a short ride from most hotels. Downtown parking is tight on any busy day, and on Black Friday the garages and nearby streets fill with shoppers, convention traffic and holiday visitors.</p>
+      <p>A drop-off at the mall entrance means you walk straight in. When you're about ten minutes from finishing, call or text your chauffeur, and the car will meet you at the agreed entrance. Our <a href="/new-orleans-convention-center-transportation">Convention Center transportation</a> page covers the riverfront area around the mall.</p>
+
+      <h2>Fashion Outlets of New Orleans in Kenner</h2>
+      <p>The Kenner outlets sit near I-10 and the airport, which makes them convenient for families in Kenner, Metairie and the River Parishes, and for visitors with a flight later in the day. The parking lots are large, but on Black Friday the spaces near the entrances go fast and traffic on the surrounding roads builds through the day. Our <a href="/kenner-limo-service">Kenner car service</a> page covers rides across the city.</p>
+
+      <h2>Doing Both in One Day</h2>
+      <p>Some shoppers want to visit both outlets. The drive between downtown and Kenner is roughly 20 to 30 minutes depending on traffic, and on Black Friday it can take longer. Here's a plan that works for many groups:</p>
+      <ol>
+        <li>Start early at whichever outlet has the sales you care about most.</li>
+        <li>Load bags into the car between stops instead of carrying them all day.</li>
+        <li>Stop for lunch between malls.</li>
+        <li>Finish at the second outlet and head home with everything in one vehicle.</li>
+      </ol>
+      <p>For a multi-stop day like this, an <a href="/services/hourly-charter">hourly charter</a> is usually the better choice. The vehicle and chauffeur stay with you for a set block of time, and the car becomes a safe place to keep your bags between stops. A point-to-point ride includes 15 minutes of waiting time at pickup, which works for a single trip there and back.</p>
+
+      <h2>An Early Start</h2>
+      <p>Black Friday shoppers who want the best selection often arrive at opening. If your plan starts before sunrise, book the pickup the day before and tell us exactly where you're going first. Early-morning roads are usually clear, which makes the drive quick, but the first hour at the mall is often the most crowded. A drop-off at the door means you're in line while others are still looking for a parking space.</p>
+      <p>Bring a reusable bag or two, a phone charger and a list. Dress in layers, since late-November mornings can be cool and the malls warm up quickly once the crowds arrive.</p>
+
+      <h2>Shopping as a Group</h2>
+      <p>Black Friday is a tradition for many families and groups of friends. Shopping together in one vehicle means you can split up inside the mall and meet back at the car at a set time. Choose a meeting entrance and a time, and let your chauffeur know so the car is waiting. A group with an hourly charter can also send one person back to the car with bags while the rest keep shopping.</p>
+      <p>If your group includes children, tell us how many car seats you need. Infant, convertible and booster seats are available on request.</p>
+
+      <h2>Downtown Traffic on the Holiday Weekend</h2>
+      <p>The Friday after Thanksgiving is busy downtown for more than shopping. Visitors in town for the holiday weekend, Bayou Classic fans and holiday travelers all share the roads near the Superdome, the Convention Center and Canal Street. If your Riverwalk trip falls on a day with a big event nearby, leave more time and let us route around the busiest streets. Our <a href="/bayou-classic-transportation">Bayou Classic</a> page covers the holiday-weekend game.</p>
+      <h2>Room for Bags</h2>
+      <p>Cargo matters as much as passengers on Black Friday. Tell us how many people are shopping and whether you plan to buy anything large, so we can send a vehicle with enough room:</p>
+      <ul>
+        <li>A Mercedes-Benz E-Class seats up to 3 passengers with room for two bags, fine for a light shopping trip.</li>
+        <li>A Lincoln Nautilus seats 3 with room for four bags, a good choice for serious shoppers in a small group.</li>
+        <li>A Chevrolet Suburban seats 5 and a Lincoln Navigator seats 6, each with room for five bags.</li>
+        <li>A Mercedes Sprinter carries up to 13 passengers and 13 bags for a big group shopping day.</li>
+      </ul>
+      <p>See our <a href="/fleet">fleet</a> for details on each vehicle.</p>
+
+      <h2>Shopping Before a Flight</h2>
+      <p>Visitors flying home after Thanksgiving sometimes stop at the Kenner outlets on the way to MSY. If you do, tell us about your luggage when you book, so the vehicle has room for suitcases and shopping bags. Leave a generous buffer for traffic and check-in at MSY, which is busy all of Thanksgiving weekend. Our <a href="/blog/msy-thanksgiving-week-airport-travel-guide">Thanksgiving week MSY guide</a> covers the airport's busiest days.</p>
+
+      <h2>Other Holiday Shopping Ideas</h2>
+      <p>If outlets aren't your style, the weekend has other options. Small Business Saturday is a good day to shop local, and our <a href="/blog/magazine-street-shopping-day-chauffeur-guide">Magazine Street shopping guide</a> covers one of the city's best-known shopping streets. For a mall day in Metairie, see our <a href="/blog/lakeside-shopping-center-holiday-shopping-metairie-car-service">Lakeside Shopping Center guide</a>.</p>
+
+      <h2>Black Friday Checklist</h2>
+      <ul>
+        <li>Check mall and store hours for Black Friday.</li>
+        <li>Make a list of the stores and sales you want to hit.</li>
+        <li>Choose between a single round trip and an hourly charter.</li>
+        <li>Agree on pickup entrances and times with your chauffeur.</li>
+        <li>Tell us how many shoppers and how much cargo to expect.</li>
+      </ul>
+
+      <h2>Booking Your Black Friday Ride</h2>
+      <p>Book ahead, since holiday weekend rides fill quickly. Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup, and Sprinter van and special-event bookings up to 12 hours before. Every quote is all-inclusive, covering tolls, taxes and gratuity.</p>
+      <p>Call (877) 609-1919 or <a href="/booking">book online</a>, and let your chauffeur handle traffic and parking while you handle the deals.</p>
+    `,
+    relatedLinks: [
+      { label: "Hourly Charter", to: "/services/hourly-charter" },
+      { label: "Kenner Car Service", to: "/kenner-limo-service" },
+      { label: "Lakeside Shopping Center Guide", to: "/blog/lakeside-shopping-center-holiday-shopping-metairie-car-service" },
+      { label: "Book Your Ride", to: "/booking" },
+    ],
+    faqs: [
+      {
+        q: "When is Black Friday in 2026?",
+        a: "Black Friday is Friday, November 27, 2026, the day after Thanksgiving. Check each outlet's website for holiday hours.",
+      },
+      {
+        q: "Where are the outlet malls near New Orleans?",
+        a: "The Outlet Collection at Riverwalk is on the downtown riverfront near the Convention Center. Fashion Outlets of New Orleans is in Kenner, near I-10 and MSY.",
+      },
+      {
+        q: "Can we visit both outlets in one day?",
+        a: "Yes. The drive is roughly 20 to 30 minutes, longer in holiday traffic. An hourly charter keeps the car with you and holds your bags between stops.",
+      },
+      {
+        q: "Which vehicle has the most room for bags?",
+        a: "A Lincoln Nautilus has room for four bags with 3 passengers. The Chevrolet Suburban and Lincoln Navigator each have room for five bags, and a Mercedes Sprinter carries 13.",
+      },
+      {
+        q: "Can we shop on the way to the airport?",
+        a: "Yes. The Kenner outlets are close to MSY. Tell us about your luggage and leave extra time for holiday traffic and check-in.",
+      },
+    ],
+  },
+
+  // ---------------------------------------------------------- POST 35 (Nov 27)
+  {
+    slug: "small-business-saturday-new-orleans-royal-street-french-market",
+    title: "Small Business Saturday in New Orleans: Shopping Royal Street, the French Market and Local Shops",
+    metaTitle: "Small Business Saturday New Orleans | MSY Limo",
+    metaDescription:
+      "Shop local on Small Business Saturday in New Orleans: Royal Street galleries, the French Market, neighborhood shops and how to plan the day with a driver.",
+    category: "Lifestyle",
+    author: "MSY Limo Team",
+    date: "November 27, 2026",
+    scheduled: true,
+    readTime: "8 min read",
+    excerpt:
+      "Small Business Saturday is a good day to shop the French Quarter's galleries, antique shops and market stalls. Here's how to plan a local shopping day without the parking hunt.",
+    image: "/images/blog/landmark-nola-2.webp",
+    content: `
+      <p>Small Business Saturday falls on the Saturday after Thanksgiving, which in 2026 is November 28. In New Orleans, shopping local is easy to do well. The French Quarter alone holds generations-old antique dealers, art galleries, hat makers, perfumers, bookstores and market stalls, and neighborhoods across the city have their own clusters of independent shops.</p>
+      <p>The challenge is getting around. French Quarter streets are narrow, parking is scarce and expensive, and carrying bags from one end of the Quarter to the other gets old quickly. This guide covers where to shop, how drop-off and pickup work in the Quarter and how to fit several neighborhoods into one day.</p>
+
+      <h2>Royal Street</h2>
+      <p>Royal Street is the French Quarter's best-known shopping street, lined with antique shops, fine art galleries and jewelers, many in historic buildings. Parts of Royal Street are closed to cars during the day for pedestrians, and street musicians and performers often set up along the way. It's a street for walking, browsing and stepping inside shops that have been there for decades.</p>
+      <p>Because some blocks are pedestrian-only during the day, your chauffeur will drop you at the nearest open cross street. Agree on a pickup corner before you start.</p>
+
+      <h2>The French Market</h2>
+      <p>The French Market runs along the riverside edge of the Quarter, from near Jackson Square toward the Esplanade Avenue end. Its open-air stalls sell local crafts, art, jewelry, souvenirs and food, and the shops along Decatur Street nearby add more. It's a good place to find small gifts with a New Orleans feel, and the food stalls make it an easy lunch stop.</p>
+
+      <h2>Beyond the Quarter</h2>
+      <p>Small Business Saturday doesn't have to stop at the French Quarter. A few other areas are worth adding:</p>
+      <ul>
+        <li><strong>Magazine Street.</strong> Miles of boutiques, home goods and gift shops from the Lower Garden District to Uptown. See our <a href="/blog/magazine-street-shopping-day-chauffeur-guide">Magazine Street shopping day guide</a>.</li>
+        <li><strong>Frenchmen Street.</strong> Just downriver from the Quarter in the Marigny, with art and local makers, especially in the evening. Our <a href="/blog/frenchmen-street-live-music-night-transportation">Frenchmen Street guide</a> covers the area.</li>
+        <li><strong>Neighborhood shopping streets.</strong> Freret Street, Oak Street and others in Uptown and Carrollton have independent shops and restaurants. See our <a href="/freret-street-new-orleans-limo-service">Freret Street</a> page.</li>
+      </ul>
+
+      <h2>How a Chauffeured Shopping Day Works</h2>
+      <p>For a day with several stops, an <a href="/services/hourly-charter">hourly charter</a> keeps one vehicle and chauffeur with you for a set block of time. Your chauffeur drops you at the start of a shopping street, meets you at the other end, and holds your bags in the car between stops. You can move from the Quarter to Magazine Street to lunch without worrying about parking at each one.</p>
+      <p>For a simple round trip, a point-to-point ride includes 15 minutes of waiting time at pickup. Call or text your chauffeur when you're about ten minutes from finishing.</p>
+
+      <h2>A Sample Small Business Saturday Plan</h2>
+      <ol>
+        <li><strong>Morning on Royal Street.</strong> Start with galleries and antique shops while the street is calmer.</li>
+        <li><strong>Lunch near the French Market.</strong> Stop at the market's food stalls or a nearby restaurant.</li>
+        <li><strong>Afternoon on Magazine Street.</strong> Ride uptown for boutiques and gift shops.</li>
+        <li><strong>Evening on Frenchmen Street.</strong> Finish with live music and local art, then ride home.</li>
+      </ol>
+      <p>Tell us your plan when you book, and your chauffeur can map out the route.</p>
+
+      <h2>Shopping With Visitors</h2>
+      <p>If you have family in town for Thanksgiving, Small Business Saturday is a good way to show them the city. Older relatives can enjoy the Quarter's shops without the long walk from a distant parking garage, and a door-to-door ride gets everyone home together. If anyone in your group has mobility needs, let us know when you book, and your chauffeur will drop off and pick up as close to each stop as possible.</p>
+
+      <h2>Getting Gifts Home</h2>
+      <p>Antiques, framed art and other large purchases may need special handling. Many French Quarter dealers can ship for you, which is worth asking about if you're flying home. If you're bringing items with you, tell us about their size when you book so the vehicle has room. For flying home with local goods, see our <a href="/blog/flying-home-from-msy-with-king-cake-hot-sauce-souvenirs">guide to flying home from MSY with souvenirs</a>.</p>
+
+      <h2>Finding Local Gifts</h2>
+      <p>New Orleans makes it easy to give gifts that feel like the city. Some ideas to look for on a local shopping day:</p>
+      <ul>
+        <li><strong>Local art and prints.</strong> Galleries on Royal Street and artists at the French Market and on Frenchmen Street sell work in every price range.</li>
+        <li><strong>Food gifts.</strong> Pralines, coffee and chicory, local hot sauces and spice blends travel well and are easy to share.</li>
+        <li><strong>Books and music.</strong> Independent bookstores and record shops carry local authors and New Orleans music.</li>
+        <li><strong>Handmade goods.</strong> Jewelry, ceramics, textiles and home goods from local makers.</li>
+      </ul>
+      <p>If you're flying home with food gifts, check the airline and security rules for liquids before you pack.</p>
+
+      <h2>French Quarter Pickups on a Busy Saturday</h2>
+      <p>The Saturday after Thanksgiving is one of the busiest weekends of the year in the French Quarter, with holiday visitors, shoppers and Bayou Classic fans all in town. Traffic on Decatur, Chartres and the cross streets can move slowly, and some blocks close to cars. A few tips for smooth pickups:</p>
+      <ul>
+        <li>Pick a pickup corner on an open street, such as one near Esplanade Avenue, Canal Street or North Rampart Street, rather than the middle of the Quarter.</li>
+        <li>Call or text your chauffeur ten minutes before you're ready, so the car can work its way through traffic.</li>
+        <li>For groups, choose one meeting point and stick to it.</li>
+      </ul>
+      <p>Our <a href="/limo-service-near-jackson-square">Jackson Square car service</a> page covers rides to the heart of the Quarter.</p>
+
+      <h2>A Shorter Plan for Visitors</h2>
+      <p>If you're in town for only a day or two, a two- or three-hour shopping window in the Quarter can be enough. Start on Royal Street, walk toward Jackson Square and finish at the French Market, then meet your chauffeur on Decatur or at the Esplanade end for the ride back to your hotel.</p>
+      <h2>Choosing a Vehicle</h2>
+      <p>A Mercedes-Benz E-Class or BMW 7 Series / Mercedes S-Class seats up to 3 passengers with room for two bags. A Lincoln Nautilus seats 3 with room for four bags. A Chevrolet Suburban seats 5 and a Lincoln Navigator seats 6, each with room for five bags. For a large group, a Mercedes Sprinter carries up to 13 passengers. See our <a href="/fleet">fleet</a>.</p>
+
+      <h2>Booking Your Shopping Day</h2>
+      <p>Thanksgiving weekend is busy, so book ahead. Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup, and Sprinter van and special-event bookings up to 12 hours before. Every quote is all-inclusive, covering tolls, taxes and gratuity.</p>
+      <p>Call (877) 609-1919 or <a href="/booking">book online</a>. For more on getting around the Quarter, see our <a href="/french-quarter-transportation-guide">French Quarter transportation guide</a>.</p>
+    `,
+    relatedLinks: [
+      { label: "French Quarter Transportation Guide", to: "/french-quarter-transportation-guide" },
+      { label: "Magazine Street Shopping Guide", to: "/blog/magazine-street-shopping-day-chauffeur-guide" },
+      { label: "Hourly Charter", to: "/services/hourly-charter" },
+      { label: "Book Your Ride", to: "/booking" },
+    ],
+    faqs: [
+      {
+        q: "When is Small Business Saturday in 2026?",
+        a: "Small Business Saturday is Saturday, November 28, 2026, the day after Black Friday.",
+      },
+      {
+        q: "Can the car drop us on Royal Street?",
+        a: "Parts of Royal Street are closed to cars during the day, so your chauffeur will drop you at the nearest open cross street and meet you at an agreed corner.",
+      },
+      {
+        q: "Can the car hold our bags while we shop?",
+        a: "Yes, with an hourly charter. The vehicle and chauffeur stay with you, and you can drop bags in the car between stops.",
+      },
+      {
+        q: "Can we visit several neighborhoods in one day?",
+        a: "Yes. Many shoppers pair the French Quarter with Magazine Street or Frenchmen Street. Tell us your plan, and we'll map the route.",
+      },
+      {
+        q: "What if we buy something large?",
+        a: "Many French Quarter dealers can ship purchases. If you're taking an item with you, tell us its size so we send a vehicle with room.",
+      },
+    ],
+  },
+
+  // ---------------------------------------------------------- POST 36 (Nov 28)
+  {
+    slug: "holiday-house-party-safe-rides-home-new-orleans",
+    title: "Holiday House Parties in New Orleans: Planning Safe Rides Home for Hosts and Guests",
+    metaTitle: "Holiday Party Safe Rides Home New Orleans | MSY Limo",
+    metaDescription:
+      "Hosting or attending a holiday party in New Orleans? How to plan safe rides home for guests, book a car for the evening and handle parties across the lake.",
+    category: "Lifestyle",
+    author: "MSY Limo Team",
+    date: "November 28, 2026",
+    scheduled: true,
+    readTime: "8 min read",
+    excerpt:
+      "December fills the calendar with house parties, neighborhood open houses and friends' gatherings. Here's how hosts and guests can plan rides so everyone gets home safely.",
+    image: "/images/blog/scenario-group-boarding.webp",
+    content: `
+      <p>Between Thanksgiving and New Year's, the calendar fills with holiday gatherings. Neighbors host open houses, friends throw ugly-sweater parties, families gather for a holiday dinner and couples go from one party to the next on a single Saturday night. Most of these parties include drinks, and many run late. Planning a safe ride home is part of being a good host and a good guest.</p>
+      <p>This guide covers how hosts can arrange rides for guests, how guests can book a car for an evening of parties and how to handle gatherings across the lake or on the Westbank. If you're planning a company party, our <a href="/blog/corporate-holiday-party-transportation-new-orleans">corporate holiday party guide</a> covers office events.</p>
+
+      <h2>Why Plan Rides for a House Party</h2>
+      <p>Holiday party nights are some of the busiest nights for rideshare in New Orleans. On a December Saturday, guests leaving at midnight may wait a long time for a car or pay surge prices. Neighborhood streets in Uptown, Mid-City or the Marigny can be tight, and many guests drive in from Metairie, the Northshore or the Westbank. A plan made ahead of time means no one has to decide at the end of the night whether they're fit to drive.</p>
+
+      <h2>Options for Hosts</h2>
+      <p>Hosts have a few ways to help guests get home:</p>
+      <ul>
+        <li><strong>Book rides for specific guests.</strong> If you know who's coming from far away, such as older relatives or friends from across the lake, book a car to take them home at a set time.</li>
+        <li><strong>Keep a car on call.</strong> An <a href="/services/hourly-charter">hourly charter</a> keeps a vehicle and chauffeur at the party for a set block of time. The chauffeur can take guests home in groups as they leave.</li>
+        <li><strong>A shuttle for a big party.</strong> A Mercedes Sprinter carries up to 13 passengers. It can bring guests from a central meeting point or a hotel to the party and take them back at the end of the night.</li>
+      </ul>
+      <p>Tell guests in the invitation that rides are available, so they can plan to leave their cars at home.</p>
+
+      <h2>Options for Guests</h2>
+      <p>If you're going to one or more parties, book your own ride:</p>
+      <ul>
+        <li><strong>A ride there and back.</strong> Book a pickup at home and a return at a set time. Point-to-point rides include 15 minutes of waiting time at pickup, so choose a return time you're confident about.</li>
+        <li><strong>An evening of parties.</strong> On nights with two or three parties, an hourly charter keeps the car with you all evening, from the first party to the last and then home.</li>
+        <li><strong>Sharing with friends.</strong> Couples and friends going to the same parties can share one vehicle and split the plan.</li>
+      </ul>
+
+      <h2>Parties Across the Lake and on the Westbank</h2>
+      <p>New Orleans holiday parties often involve longer drives. Friends in Covington or Mandeville, family in Gretna or Algiers and parties in Kenner or LaPlace all mean a drive home on the Causeway, the Crescent City Connection or I-10 late at night. These are the trips where a booked ride matters most. Late-fall nights on the Northshore can also bring fog, which our <a href="/blog/causeway-fog-northshore-early-flights-msy-winter-guide">Causeway fog guide</a> covers. See our <a href="/new-orleans-northshore-transportation-guide">Northshore transportation guide</a> for rides across the lake.</p>
+
+      <h2>Planning the Night</h2>
+      <ul>
+        <li><strong>Share the address and gate details.</strong> Some neighborhoods have gated entrances or tricky parking. Tell us how to reach the door.</li>
+        <li><strong>Set a pickup time or a call-ahead plan.</strong> For an hourly charter, agree on how you'll let your chauffeur know you're ready.</li>
+        <li><strong>Plan for coats and gifts.</strong> If you're bringing dishes or gifts, tell us so there's room in the car.</li>
+        <li><strong>Keep our number handy.</strong> Call (877) 609-1919 if plans change during the evening.</li>
+      </ul>
+
+      <h2>Holiday Gatherings for Visitors</h2>
+      <p>If you're visiting family in New Orleans for the holidays and staying at a hotel, a booked ride to and from a family party means you don't need a rental car. Your chauffeur can pick you up at the hotel, bring you to the party and take you back at the end of the night. Our <a href="/msy-airport-hotel-transfers">MSY hotel transfers</a> page covers airport rides to and from your hotel.</p>
+
+      <h2>A Sample Party Night Plan</h2>
+      <p>Here's how a typical holiday party night might work with an hourly charter:</p>
+      <ol>
+        <li><strong>Early evening:</strong> Your chauffeur picks you up at home and takes you to the first party.</li>
+        <li><strong>Mid-evening:</strong> When you're ready to move on, call or text, and the car meets you at the door for the ride to the second party.</li>
+        <li><strong>Late evening:</strong> After the last party, the car takes you home, with a stop to drop off friends along the way.</li>
+      </ol>
+      <p>For a single party, a point-to-point ride there and a set return time is often enough. Tell us the timing when you book, and we'll suggest the option that fits.</p>
+
+      <h2>Thinking About Your Guests' Ride Home</h2>
+      <p>A good host thinks about the end of the night from the start. A few ideas:</p>
+      <ul>
+        <li><strong>Mention rides in the invitation.</strong> Let guests know if you've arranged transportation, so they can plan to leave their cars at home.</li>
+        <li><strong>Offer non-alcoholic options.</strong> Holiday mocktails and good coffee are welcome for guests who plan to drive.</li>
+        <li><strong>Keep an eye on the time.</strong> If you've booked a car for a set time, let guests know when it's leaving.</li>
+        <li><strong>Plan for the last guests.</strong> The last group to leave is often the one that most needs a ride.</li>
+      </ul>
+
+      <h2>Neighborhood Open Houses and Progressive Dinners</h2>
+      <p>Some New Orleans neighborhoods and social clubs host holiday open houses, home tours or progressive dinners, where guests move from house to house during the evening. These events are a natural fit for a Mercedes Sprinter, which carries up to 13 passengers and can move a whole group between stops. Share the list of addresses and the timing, and your chauffeur will plan the route. For a holiday evening that includes lights, see our <a href="/blog/celebration-in-the-oaks-transportation-guide">Celebration in the Oaks guide</a>.</p>
+      <h2>Choosing a Vehicle</h2>
+      <p>For a couple, a Mercedes-Benz E-Class or BMW 7 Series / Mercedes S-Class seats up to 3 passengers. A Chevrolet Suburban seats 5 and a Lincoln Navigator seats 6 for friends going together. For a large party shuttle, a Mercedes Sprinter carries up to 13 passengers. See our <a href="/fleet">fleet</a>.</p>
+
+      <h2>Booking Holiday Party Rides</h2>
+      <p>December Friday and Saturday nights book quickly, so reserve early. Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup, and Sprinter van and special-event bookings up to 12 hours before. Every quote is all-inclusive, covering tolls, taxes and gratuity.</p>
+      <p>Call (877) 609-1919 or <a href="/booking">book online</a>. Tell us the party address, the number of guests and how late you expect the night to run.</p>
+    `,
+    relatedLinks: [
+      { label: "Corporate Holiday Party Transportation", to: "/blog/corporate-holiday-party-transportation-new-orleans" },
+      { label: "Hourly Charter", to: "/services/hourly-charter" },
+      { label: "Sprinter Van With Driver", to: "/sprinter-van-rental-with-driver-new-orleans" },
+      { label: "Book Your Ride", to: "/booking" },
+    ],
+    faqs: [
+      {
+        q: "Can a host book rides home for party guests?",
+        a: "Yes. You can book rides for specific guests at set times, or keep a vehicle on an hourly charter to take guests home as they leave.",
+      },
+      {
+        q: "Can the car go to several parties in one night?",
+        a: "Yes. An hourly charter keeps the vehicle and chauffeur with you all evening, from the first party to the last and then home.",
+      },
+      {
+        q: "Can you take guests home across the Causeway?",
+        a: "Yes. We serve the Northshore, the Westbank, Kenner, LaPlace and the rest of the metro area.",
+      },
+      {
+        q: "How many guests can ride together?",
+        a: "A Chevrolet Suburban seats 5, a Lincoln Navigator seats 6 and a Mercedes Sprinter carries up to 13 passengers.",
+      },
+      {
+        q: "How far ahead should I book for a December weekend?",
+        a: "As early as possible. Friday and Saturday nights in December are among the busiest of the year.",
+      },
+    ],
+  },
+
+  // ---------------------------------------------------------- POST 37 (Nov 29)
+  {
+    slug: "new-orleans-in-december-visitor-holiday-guide",
+    title: "New Orleans in December: A Visitor's Guide to Holiday Traditions and Getting Around",
+    metaTitle: "New Orleans in December Visitor Guide | MSY Limo",
+    metaDescription:
+      "Visiting New Orleans in December? Holiday lights, réveillon dinners, caroling, bowl games, the weather, what to pack and how to get around during the season.",
+    category: "Travel",
+    author: "MSY Limo Team",
+    date: "November 29, 2026",
+    scheduled: true,
+    readTime: "9 min read",
+    excerpt:
+      "December in New Orleans brings holiday lights, réveillon menus, caroling in Jackson Square and bowl games at the Superdome. Here's an overview of the season and how to get around.",
+    image: "/images/blog/landmark-nola-streetcar-2.webp",
+    content: `
+      <p>New Orleans does the holidays its own way. Oak trees fill with lights, restaurants bring back the old Creole réveillon dinner, crowds gather with candles in Jackson Square, and bonfires line the levees upriver on Christmas Eve. December is also one of the more comfortable months to visit, with cool, often pleasant days and fewer crowds than Mardi Gras or Jazz Fest, apart from a few busy weekends.</p>
+      <p>This guide is an overview of a December visit: the traditions worth planning around, what to expect from the weather and how to get around the city during the season. Each section links to a more detailed guide.</p>
+
+      <h2>December Weather</h2>
+      <p>December in New Orleans is usually mild compared with most of the country, but it varies. Some days are warm enough for short sleeves, while a cold front can bring chilly, damp days and cool nights. Rain is common. Pack layers, a light jacket, a warmer coat for evenings and an umbrella. If you're planning outdoor evenings, such as a lights walk or a bonfire, bring something warmer than you expect to need.</p>
+
+      <h2>Holiday Lights</h2>
+      <ul>
+        <li><strong>Celebration in the Oaks.</strong> City Park's lights tradition runs through the season, with displays among the park's live oaks. See our <a href="/blog/celebration-in-the-oaks-transportation-guide">Celebration in the Oaks guide</a>.</li>
+        <li><strong>Miracle on Fulton Street.</strong> A holiday lights display on Fulton Street beside Caesars New Orleans, at the edge of the Warehouse District. See our <a href="/blog/miracle-on-fulton-street-holiday-lights-new-orleans-ride-guide">Fulton Street lights guide</a>.</li>
+        <li><strong>The Roosevelt lobby.</strong> The hotel's decorated lobby is a long-standing holiday stop downtown. See our <a href="/blog/roosevelt-new-orleans-holiday-lobby-evening-guide">Roosevelt holiday lobby guide</a>.</li>
+        <li><strong>A road trip to Natchitoches.</strong> The Christmas Festival of Lights in Natchitoches makes a long day trip. See our <a href="/blog/natchitoches-christmas-festival-of-lights-trip-from-new-orleans">Natchitoches guide</a>.</li>
+      </ul>
+
+      <h2>Food and Holiday Dining</h2>
+      <p>Réveillon is New Orleans' signature holiday dining tradition. Many restaurants offer special multi-course réveillon menus through December. See our <a href="/blog/reveillon-dinners-new-orleans-december-tradition-guide">réveillon dinner guide</a>. December is also a popular month for holiday dinners with family and friends, so book restaurants early for the busy weekends before Christmas.</p>
+
+      <h2>Music, Shows and Traditions</h2>
+      <ul>
+        <li><strong>Caroling in Jackson Square.</strong> A candlelit sing-along tradition in the French Quarter. See our <a href="/blog/caroling-in-jackson-square-new-orleans-christmas-tradition">Jackson Square caroling guide</a>.</li>
+        <li><strong>The Nutcracker.</strong> Holiday ballet performances are a December tradition. See our <a href="/blog/nutcracker-new-orleans-holiday-ballet-night-out">Nutcracker night out guide</a>.</li>
+        <li><strong>Hanukkah.</strong> Menorah lightings and family celebrations. See our <a href="/blog/hanukkah-in-new-orleans-menorah-lightings-family-rides">Hanukkah guide</a>.</li>
+        <li><strong>Christmas Eve.</strong> Midnight Mass at St. Louis Cathedral and the bonfires on the levee upriver. See our <a href="/blog/christmas-eve-midnight-mass-st-louis-cathedral-transportation">Midnight Mass guide</a> and <a href="/blog/bonfires-on-the-levee-christmas-eve-river-road">bonfires on the levee guide</a>.</li>
+      </ul>
+
+      <h2>Football and Big Events</h2>
+      <p>December brings college bowl games to the Caesars Superdome, along with Saints and Pelicans home games. The New Orleans Bowl is played in December, and the Sugar Bowl is played around New Year's. See our <a href="/blog/new-orleans-bowl-superdome-december-transportation">New Orleans Bowl guide</a>, our <a href="/sugar-bowl-new-years-superdome-transportation">Sugar Bowl transportation guide</a> and our <a href="/services/saints-game-day">Saints game day</a> page. Big game days mean heavy downtown traffic, so plan rides around kickoff.</p>
+
+      <h2>Shopping</h2>
+      <p>Holiday shopping in New Orleans ranges from Royal Street antiques to Magazine Street boutiques to Lakeside Shopping Center in Metairie. See our <a href="/blog/magazine-street-shopping-day-chauffeur-guide">Magazine Street guide</a> and <a href="/blog/lakeside-shopping-center-holiday-shopping-metairie-car-service">Lakeside Shopping Center guide</a>.</p>
+
+      <h2>Christmas Day and New Year's Eve</h2>
+      <p>Christmas Day is quieter, with many businesses closed and restaurants serving holiday menus. See our <a href="/blog/christmas-day-in-new-orleans-getting-around-dinner-rides">Christmas Day guide</a>. New Year's Eve brings big crowds to the French Quarter and the riverfront. See our <a href="/blog/new-years-eve-bourbon-street-car-service">New Year's Eve guide</a>.</p>
+
+      <h2>Getting Around in December</h2>
+      <p>New Orleans is a walkable city in the French Quarter and nearby neighborhoods, and the streetcar covers some routes. But December evenings bring cool weather, rain and busy event nights, and many holiday traditions, like City Park's lights or the River Road bonfires, are a drive away from the Quarter. A chauffeured ride helps in a few ways:</p>
+      <ul>
+        <li><strong>Airport transfers.</strong> MSY is about 14 miles from downtown, usually 20 to 30 minutes by car. See our <a href="/blog/msy-holiday-travel-christmas-week-airport-rides">Christmas-week MSY travel guide</a> for the busiest days.</li>
+        <li><strong>Evenings out.</strong> A ride to dinner, a show or a lights display and back to your hotel, without parking.</li>
+        <li><strong>Day trips.</strong> An <a href="/services/hourly-charter">hourly charter</a> keeps a car and chauffeur with you for River Road, the Northshore or a longer drive.</li>
+      </ul>
+
+      <h2>Where to Stay in December</h2>
+      <p>Where you stay shapes how you get around. The French Quarter puts you within walking distance of Jackson Square, Royal Street and many holiday dinners. The CBD and Warehouse District are close to the Superdome, the Convention Center and Fulton Street. The Garden District and Uptown are quieter, with easy access to Magazine Street and the St. Charles Avenue streetcar. Our <a href="/blog/best-neighborhoods-to-stay-in-new-orleans-for-first-time-visitors">neighborhood guide for first-time visitors</a> covers the options in more detail.</p>
+      <p>Hotel rates and availability vary across December. Bowl games, conventions and the weeks around Christmas and New Year's can fill rooms quickly, while early December weekdays are often quieter. Book early if your trip falls on a big weekend.</p>
+
+      <h2>A Sample Three-Day December Trip</h2>
+      <ol>
+        <li><strong>Day one:</strong> Arrive at MSY, check in and walk the decorated French Quarter. Have a réveillon dinner in the evening.</li>
+        <li><strong>Day two:</strong> Spend the morning on Magazine Street or at the National WWII Museum, then visit City Park's lights after dark.</li>
+        <li><strong>Day three:</strong> Join caroling in Jackson Square if your dates line up, or take a day trip along River Road, then head to MSY.</li>
+      </ol>
+      <p>Our <a href="/blog/how-many-days-do-you-need-in-new-orleans">how many days do you need guide</a> can help you decide on the length of your trip.</p>
+
+      <h2>Traveling With Kids in December</h2>
+      <p>December is a good month for a family trip. Lights displays, holiday shows and the Audubon Zoo and Aquarium give children plenty to enjoy, and cooler days make walking more comfortable than in summer. Plan evening activities early, since lights displays can get crowded later in the night, and pack warm layers. Infant, convertible and booster seats are available on request for rides. See our <a href="/blog/new-orleans-with-kids-family-trip-guide">New Orleans with kids guide</a>.</p>
+      <h2>Choosing a Vehicle</h2>
+      <p>A Mercedes-Benz E-Class or BMW 7 Series / Mercedes S-Class seats up to 3 passengers. A Lincoln Nautilus seats 3 with extra cargo room. A Chevrolet Suburban seats 5 and a Lincoln Navigator seats 6 for families. A Mercedes Sprinter carries up to 13 passengers for a group. See our <a href="/fleet">fleet</a>.</p>
+
+      <h2>Booking Your December Rides</h2>
+      <p>The weekends before Christmas and the days around New Year's book up early. Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup, and Sprinter van and special-event bookings up to 12 hours before. Every quote is all-inclusive, covering tolls, taxes and gratuity.</p>
+      <p>Call (877) 609-1919 or <a href="/booking">book online</a>. Check event dates and hours with each organizer before you plan your evenings.</p>
+    `,
+    relatedLinks: [
+      { label: "Celebration in the Oaks", to: "/blog/celebration-in-the-oaks-transportation-guide" },
+      { label: "Réveillon Dinners", to: "/blog/reveillon-dinners-new-orleans-december-tradition-guide" },
+      { label: "First-Time Visitor Guide", to: "/first-time-new-orleans-visitor-guide" },
+      { label: "Book Your Ride", to: "/booking" },
+    ],
+    faqs: [
+      {
+        q: "Is December a good time to visit New Orleans?",
+        a: "Yes. The weather is usually mild, the city is decorated for the holidays and crowds are lighter than during Mardi Gras or Jazz Fest, apart from busy event weekends.",
+      },
+      {
+        q: "What is the weather like in New Orleans in December?",
+        a: "It varies. Some days are warm, while cold fronts bring chilly, damp days and cool nights. Pack layers, a jacket and an umbrella.",
+      },
+      {
+        q: "What are the top holiday traditions in New Orleans?",
+        a: "Celebration in the Oaks in City Park, réveillon dinners, caroling in Jackson Square, Christmas Eve bonfires on the levee and Midnight Mass at St. Louis Cathedral.",
+      },
+      {
+        q: "Do I need a car in New Orleans in December?",
+        a: "Not necessarily. Many visitors walk the French Quarter and use a car service for the airport, evenings out and trips to City Park or River Road.",
+      },
+      {
+        q: "How far is MSY from the French Quarter?",
+        a: "About 14 miles from downtown, usually a 20 to 30 minute drive, longer in holiday traffic.",
+      },
+    ],
+  },
+
+  // ---------------------------------------------------------- POST 38 (Nov 30)
+  {
+    slug: "december-holiday-season-wedding-transportation-new-orleans",
+    title: "December Weddings in New Orleans: Holiday-Season Transportation Tips for Couples",
+    metaTitle: "December Wedding Transportation New Orleans | MSY Limo",
+    metaDescription:
+      "Planning a December wedding in New Orleans? Holiday traffic, early sunsets, cool evenings, guests flying into MSY and booking transportation early.",
+    category: "Events",
+    author: "MSY Limo Team",
+    date: "November 30, 2026",
+    scheduled: true,
+    readTime: "8 min read",
+    excerpt:
+      "A December wedding in New Orleans has beautiful decorations and cool weather, plus holiday traffic and early sunsets. Here's how to plan transportation for the couple and guests.",
+    image: "/images/blog/scenario-wedding-2.webp",
+    content: `
+      <p>A December wedding in New Orleans has a lot going for it. Hotels, churches and venues are dressed for the holidays, the weather is usually cool enough for a suit jacket, and guests get to combine a wedding weekend with the city's holiday traditions. It also comes with planning challenges that a spring or fall wedding doesn't have: holiday travel, busy event weekends, early sunsets and vendors whose calendars fill with holiday parties.</p>
+      <p>This guide covers the transportation side of a December wedding, from guest arrivals at MSY to the couple's exit at the end of the night.</p>
+
+      <h2>Book Transportation Early</h2>
+      <p>December is a busy month for chauffeured transportation in New Orleans. Corporate holiday parties, bowl games, holiday dinners and New Year's Eve all compete for the same vehicles. If your wedding falls on a Saturday in December, especially one close to Christmas or New Year's, book your transportation as soon as your venue and timeline are set. Sprinter vans and limousines are usually the first vehicles to book up.</p>
+
+      <h2>Plan Around Early Sunsets</h2>
+      <p>The sun sets earlier in December than at any other time of year. That affects your photo plan more than anything else. If you want daylight portraits in the French Quarter, Jackson Square or the Garden District, schedule them earlier in the afternoon and build the transportation timeline around them. Our <a href="/blog/wedding-event-photography-session-chauffeur-french-quarter">wedding photography session guide</a> covers how a chauffeur moves the couple between photo locations.</p>
+      <p>The upside of an early sunset is that holiday lights come on early, and evening photos with lights can be beautiful.</p>
+
+      <h2>Weather and Comfort</h2>
+      <p>December weather in New Orleans varies from mild to chilly and damp. Rain is always possible. A few transportation tips:</p>
+      <ul>
+        <li><strong>Plan for rain.</strong> A chauffeured vehicle can pull up close to the church or venue door so the couple and wedding party stay dry.</li>
+        <li><strong>Keep coats in the car.</strong> Wraps and jackets can stay in the vehicle during photos and come out for the evening.</li>
+        <li><strong>Plan a second line route with care.</strong> If you're doing a second line parade, check the weather and have a vehicle ready at the end. See our <a href="/second-line-wedding-parade-transportation">second line wedding parade</a> page.</li>
+      </ul>
+
+      <h2>Guests Flying Into MSY</h2>
+      <p>December guests often combine your wedding with holiday travel, which means full flights and busy airport days. Encourage guests to book flights early and avoid the tightest connections. For guest arrivals:</p>
+      <ul>
+        <li><strong>Airport pickups</strong> are flight-tracked, with 45 minutes of complimentary waiting time on domestic arrivals and 60 minutes on international arrivals.</li>
+        <li><strong>Group arrivals</strong> can share a Mercedes Sprinter, which carries up to 13 passengers and 13 bags.</li>
+        <li><strong>Hotel shuttles</strong> between the guests' hotel and the ceremony and reception keep everyone together. See our <a href="/blog/destination-wedding-guest-shuttle-french-quarter-hotels">wedding guest shuttle guide</a>.</li>
+      </ul>
+
+      <h2>Busy Weekends to Watch</h2>
+      <p>Some December weekends bring extra traffic downtown, especially bowl games at the Superdome, Saints home games and the weekend before Christmas. Before you lock in a date, check the city's event calendar. If your ceremony or reception is near the Superdome or the French Quarter on a game day, plan more time between stops and tell us about your timeline so we can route around the traffic.</p>
+
+      <h2>A Sample December Wedding Day Timeline</h2>
+      <ol>
+        <li><strong>Early afternoon:</strong> Pick up the couple and wedding party for portraits while there's daylight.</li>
+        <li><strong>Mid-afternoon:</strong> Bring the wedding party to the ceremony venue with time to spare.</li>
+        <li><strong>Late afternoon:</strong> Shuttle guests from the hotel to the ceremony.</li>
+        <li><strong>Evening:</strong> Move the couple and guests to the reception, with time for photos among the holiday lights.</li>
+        <li><strong>Late night:</strong> The couple's exit and guest shuttles back to the hotel.</li>
+      </ol>
+      <p>Our <a href="/blog/new-orleans-wedding-transportation-timeline">wedding transportation timeline guide</a> covers each step in more detail.</p>
+
+      <h2>New Year's Eve Weddings</h2>
+      <p>A New Year's Eve wedding is a memorable choice, but it's also the most demanding night of the year for transportation. French Quarter streets fill with crowds and some areas near the riverfront and Bourbon Street become hard to reach by car. If your wedding is on December 31, book transportation early, plan pickups outside the busiest blocks and leave plenty of time between stops. See our <a href="/blog/new-years-eve-bourbon-street-car-service">New Year's Eve guide</a>.</p>
+
+      <h2>Holiday Decorations at the Venue</h2>
+      <p>Many New Orleans venues, hotels and churches decorate for the season, which can save on flowers and décor and adds a festive feel to photos. Ask your venue what decorations will be up on your date and whether anything limits access, such as holiday events in the same building or a hotel lobby that's busy with visitors. If your ceremony is at a church, check the parish calendar, since December brings extra services and events that can affect timing and parking around the building.</p>
+
+      <h2>Guest Experiences for a Holiday Wedding Weekend</h2>
+      <p>A December wedding gives guests a reason to make a trip of it. Many couples add holiday activities to the weekend:</p>
+      <ul>
+        <li>A welcome evening that includes a walk through the decorated French Quarter or a visit to the Roosevelt's holiday lobby. See our <a href="/blog/roosevelt-new-orleans-holiday-lobby-evening-guide">Roosevelt holiday lobby guide</a>.</li>
+        <li>A group outing to City Park's lights. See our <a href="/blog/celebration-in-the-oaks-transportation-guide">Celebration in the Oaks guide</a>.</li>
+        <li>A réveillon dinner for the wedding party. See our <a href="/blog/reveillon-dinners-new-orleans-december-tradition-guide">réveillon guide</a>.</li>
+      </ul>
+      <p>A Mercedes Sprinter carrying up to 13 passengers makes these outings easy to organize, and booking them with the wedding day keeps all your transportation in one plan.</p>
+
+      <h2>The Morning After</h2>
+      <p>Holiday-season guests often fly home the day after the wedding, sometimes straight into the busiest days of holiday travel. A farewell brunch followed by organized airport rides is a thoughtful way to end the weekend. Our <a href="/new-orleans-wedding-weekend-farewell-brunch-departure-guide">farewell brunch and departure guide</a> covers how to coordinate guest departures, and our <a href="/blog/msy-holiday-travel-christmas-week-airport-rides">Christmas-week MSY travel guide</a> covers the airport's busiest days.</p>
+      <h2>Choosing Vehicles</h2>
+      <p>For the couple, a BMW 7 Series / Mercedes S-Class seats up to 3 passengers in a quiet, formal cabin. A Mercedes Sprinter Executive, with captain chairs and mood lighting, carries up to 13 passengers and works well for a wedding party. A Chevrolet Suburban seats 5 and a Lincoln Navigator seats 6 for parents and family. See our <a href="/fleet">fleet</a> and our <a href="/services/wedding-limo">wedding transportation</a> page.</p>
+
+      <h2>Booking Your December Wedding Transportation</h2>
+      <p>Wedding bookings are special-event bookings and can be cancelled free of charge up to 12 hours before pickup. Every quote is all-inclusive, covering tolls, taxes and gratuity.</p>
+      <p>Call (877) 609-1919 or <a href="/booking">book online</a>. Share your venues, timeline and guest count, and we'll put together a plan for the day.</p>
+    `,
+    relatedLinks: [
+      { label: "Wedding Transportation", to: "/services/wedding-limo" },
+      { label: "Wedding Transportation Timeline", to: "/blog/new-orleans-wedding-transportation-timeline" },
+      { label: "Top Wedding Venues Near New Orleans", to: "/top-10-wedding-venues-near-new-orleans" },
+      { label: "Book Your Ride", to: "/booking" },
+    ],
+    faqs: [
+      {
+        q: "How early should we book transportation for a December wedding?",
+        a: "As soon as your venue and timeline are set. December is busy with holiday parties, bowl games and New Year's Eve, and Sprinter vans book first.",
+      },
+      {
+        q: "How do early sunsets affect the wedding day?",
+        a: "Schedule daylight portraits earlier in the afternoon and build the transportation timeline around them. Holiday lights make good evening photos.",
+      },
+      {
+        q: "Can you pick up wedding guests at MSY?",
+        a: "Yes. Airport pickups are flight-tracked, with 45 minutes of waiting time on domestic arrivals and 60 minutes on international arrivals. Groups can share a Sprinter.",
+      },
+      {
+        q: "What vehicle works for the wedding party?",
+        a: "A Mercedes Sprinter Executive carries up to 13 passengers with captain chairs and mood lighting.",
+      },
+      {
+        q: "What is the cancellation policy for wedding bookings?",
+        a: "Weddings are special-event bookings and can be cancelled free of charge up to 12 hours before pickup.",
+      },
+    ],
+  },
+
+  // ---------------------------------------------------------- POST 39 (Dec 1)
+  {
+    slug: "winter-flight-delays-connecting-hubs-msy-pickups",
+    title: "Winter Weather Somewhere Else: Planning MSY Pickups When Connecting Flights Run Late",
+    metaTitle: "Winter Flight Delays and MSY Pickups | MSY Limo",
+    metaDescription:
+      "New Orleans rarely sees snow, but winter storms at connecting hubs still delay MSY flights. How flight tracking, wait time and rebooking work for your pickup.",
+    category: "Airport",
+    author: "MSY Limo Team",
+    date: "December 1, 2026",
+    scheduled: true,
+    readTime: "8 min read",
+    excerpt:
+      "Snow in Chicago or ice in Dallas can strand a New Orleans-bound traveler for hours. Here's how winter delays at connecting hubs affect MSY pickups and what to do when plans change.",
+    image: "/images/blog/scenario-corporate-rain.webp",
+    content: `
+      <p>New Orleans winters are mild, and a day of snow or ice here is rare. But many travelers flying into Louis Armstrong New Orleans International Airport (MSY) connect through airports that see real winter weather. A snowstorm in the Midwest, an ice storm in Texas or a deicing backlog on a cold morning in the Northeast can delay or cancel a flight to New Orleans, even when the sky over MSY is clear.</p>
+      <p>This guide explains how winter delays at connecting hubs affect your airport pickup, how flight tracking handles them and what to do when a delay turns into a missed connection or an overnight stay.</p>
+
+      <h2>Why Winter Weather Elsewhere Affects MSY</h2>
+      <p>Many flights into MSY connect through large hubs, some of which regularly deal with snow, ice and freezing temperatures between December and February. When a storm hits one of those airports, the effects spread:</p>
+      <ul>
+        <li><strong>Deicing delays.</strong> Aircraft may need deicing before departure on cold mornings, which slows takeoffs.</li>
+        <li><strong>Ground stops and reduced arrivals.</strong> Poor visibility or icy runways can slow or stop traffic at a hub for hours.</li>
+        <li><strong>Missed connections.</strong> A late first leg can mean missing the flight to New Orleans and waiting for a later one.</li>
+        <li><strong>Out-of-position aircraft and crews.</strong> A plane or crew stuck elsewhere can delay a flight to MSY even if the weather on its route is fine.</li>
+      </ul>
+      <p>Southern hubs can be affected too. A rare ice storm in Texas or a cold snap in Georgia can disrupt flights across the region.</p>
+
+      <h2>How Flight Tracking Handles Delays</h2>
+      <p>Every MSY airport pickup is flight-tracked. Your chauffeur is dispatched against your actual landing time, not the original schedule. If your flight is delayed by an hour or more, your chauffeur adjusts to the new arrival time. After you land, domestic arrivals include 45 minutes of complimentary waiting time and international arrivals include 60 minutes. Our <a href="/blog/how-flight-tracking-works-for-msy-airport-pickups">flight tracking guide</a> explains the process in detail.</p>
+
+      <h2>When You Miss a Connection</h2>
+      <p>Flight tracking follows the flight number in your booking. If you miss your connection and the airline rebooks you on a different flight, we won't see the new flight automatically. Here's what to do:</p>
+      <ol>
+        <li><strong>Call or text us with the new flight number</strong> as soon as you're rebooked.</li>
+        <li><strong>Tell us the new connecting airport</strong> if you've been rerouted through a different hub.</li>
+        <li><strong>Keep our number handy</strong>, (877) 609-1919, so you can update us quickly from the gate.</li>
+      </ol>
+      <p>If you're picking up someone else, such as a relative or a business guest, ask them to share any rebooking with you or with us directly.</p>
+
+      <h2>Overnight Delays</h2>
+      <p>Sometimes a winter storm means an overnight stay at the connecting airport and an arrival the next day. If that happens, call us to move your pickup to the new day and flight. For a late-night or very early arrival after a long delay, we can pick you up whenever your flight lands. Our dispatch runs 24/7.</p>
+
+      <h2>Departures From MSY</h2>
+      <p>Winter storms affect departures too. If you're flying out of MSY to a city with a winter storm in the forecast, check your flight status before you leave for the airport. If your flight is cancelled or moved, call us to change your pickup time. Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup, and Sprinter van and special-event bookings up to 12 hours before.</p>
+
+      <h2>Business Travelers</h2>
+      <p>For a business traveler, a winter delay can disrupt a whole day of meetings. A few tips:</p>
+      <ul>
+        <li><strong>Book an earlier flight</strong> when a winter storm is forecast at your connecting hub.</li>
+        <li><strong>Consider a nonstop</strong> where one is available, to avoid connection risk.</li>
+        <li><strong>Keep a buffer</strong> between your landing and your first meeting during the winter months.</li>
+        <li><strong>Share flight changes quickly</strong> so your pickup moves with you.</li>
+      </ul>
+      <p>See our <a href="/services/corporate-transportation">corporate transportation</a> page for business travel accounts.</p>
+
+      <h2>Holiday Travel Season</h2>
+      <p>Winter weather often arrives during the busiest travel weeks of the year. A delay on the week before Christmas, when flights are full, can mean a longer wait for an open seat on the next flight. Book holiday travel early, and see our <a href="/blog/msy-holiday-travel-christmas-week-airport-rides">Christmas-week MSY travel guide</a> for the busiest days at the airport.</p>
+
+      <h2>Local Weather in New Orleans</h2>
+      <p>New Orleans winters do bring some local weather challenges: cold fronts with heavy rain, occasional morning fog and, on rare occasions, freezing temperatures. For fog on the Causeway and early flights from the Northshore, see our <a href="/blog/causeway-fog-northshore-early-flights-msy-winter-guide">Causeway fog guide</a>. For summer storm delays, see our <a href="/blog/hurricane-season-flight-delay-playbook-msy">hurricane season delay playbook</a>.</p>
+
+      <h2>Picking Up a Guest Whose Flight Is Delayed</h2>
+      <p>If you've booked a ride for someone else, such as a parent, a client or a wedding guest, a few steps keep the pickup on track when weather hits:</p>
+      <ul>
+        <li><strong>Share your guest's phone number</strong> when you book, so the chauffeur can contact them directly.</li>
+        <li><strong>Ask your guest to text you any rebooking</strong>, including the new flight number and connecting airport.</li>
+        <li><strong>Forward changes to us</strong> right away, by phone or text.</li>
+      </ul>
+      <p>Flight tracking handles ordinary delays automatically. It's only the rebooking onto a different flight that needs a quick update.</p>
+
+      <h2>Checking Your Flight Before You Leave</h2>
+      <p>On winter days, the most useful habit is checking your flight before you leave home or the hotel. Airline apps usually show delays, gate changes and cancellations early, and some send alerts about weather at connecting airports. If your outbound flight is delayed by several hours, call us to move your pickup instead of waiting at the airport. If it's cancelled, check the airline's rebooking options first, then update your ride.</p>
+      <p>Many airlines also issue travel waivers ahead of major winter storms, which let travelers change flights without a fee. If a storm is forecast at your connection, it may be worth moving to an earlier or later flight before the weather arrives.</p>
+
+      <h2>Late-Night Arrivals After a Long Day</h2>
+      <p>A day of winter delays often ends with a flight landing at MSY late at night. After hours of waiting, a confirmed ride with a chauffeur who has been following the flight is a welcome sight. Our <a href="/msy-airport-meet-and-greet">MSY meet-and-greet</a> option puts your chauffeur inside baggage claim with a name sign, which is especially helpful for older travelers or anyone arriving tired after a long trip.</p>
+      <h2>Choosing a Vehicle</h2>
+      <p>A Mercedes-Benz E-Class or BMW 7 Series / Mercedes S-Class seats up to 3 passengers with room for two bags. A Lincoln Nautilus seats 3 with room for four bags. A Chevrolet Suburban seats 5 and a Lincoln Navigator seats 6, each with room for five bags. For a group, a Mercedes Sprinter carries up to 13 passengers and 13 bags. See our <a href="/fleet">fleet</a>.</p>
+
+      <h2>Booking Your Winter Airport Ride</h2>
+      <p>Every quote is all-inclusive, covering tolls, taxes and gratuity. Call (877) 609-1919 or <a href="/booking">book online</a>, and include your flight number so your pickup is tracked from the start.</p>
+    `,
+    relatedLinks: [
+      { label: "How Flight Tracking Works", to: "/blog/how-flight-tracking-works-for-msy-airport-pickups" },
+      { label: "MSY Airport Transportation", to: "/services/airport-transportation" },
+      { label: "MSY Arrival Pickup", to: "/msy-airport-arrival-pickup" },
+      { label: "Book Your Ride", to: "/booking" },
+    ],
+    faqs: [
+      {
+        q: "What happens to my pickup if my flight is delayed by weather?",
+        a: "Pickups are flight-tracked, so your chauffeur is dispatched against your actual landing time. After landing, domestic arrivals include 45 minutes of waiting time and international arrivals 60 minutes.",
+      },
+      {
+        q: "What if I miss my connection and get rebooked?",
+        a: "Call or text us with the new flight number. Flight tracking follows the flight in your booking, so we need the new flight to update your pickup.",
+      },
+      {
+        q: "Can you pick me up late at night after a long delay?",
+        a: "Yes. Dispatch runs 24/7, so we can pick you up whenever your rescheduled flight lands.",
+      },
+      {
+        q: "Can I cancel if my departing flight is cancelled?",
+        a: "Yes. Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup, and Sprinter vans and special events up to 12 hours before.",
+      },
+      {
+        q: "Does it snow in New Orleans?",
+        a: "Rarely. Most winter delays at MSY come from weather at connecting airports, not in New Orleans itself.",
+      },
+    ],
+  },
+
+  // ---------------------------------------------------------- POST 40 (Dec 2)
+  {
+    slug: "college-winter-break-rides-tulane-loyola-uno-to-msy",
+    title: "Winter Break Rides to MSY: Getting College Students Home From Tulane, Loyola, UNO and Xavier",
+    metaTitle: "College Winter Break Rides to MSY | MSY Limo",
+    metaDescription:
+      "Plan winter break airport rides for students at Tulane, Loyola, UNO and Xavier: timing around finals, booking for a student, luggage and returning in January.",
+    category: "Airport",
+    author: "MSY Limo Team",
+    date: "December 2, 2026",
+    scheduled: true,
+    readTime: "7 min read",
+    excerpt:
+      "Finals end, dorms close and thousands of students head to MSY at once. Here's how parents and students can plan a reliable ride from campus to the airport for winter break.",
+    image: "/images/blog/airport-dropoff.webp",
+    content: `
+      <p>Every December, New Orleans' universities empty out for winter break. Students at Tulane, Loyola, the University of New Orleans, Xavier and other schools finish their exams, pack up and head to Louis Armstrong New Orleans International Airport (MSY), often on the same few days. For parents who live far away, getting a student from campus to the airport safely, on time and with their bags is one more thing to manage during a busy month.</p>
+      <p>This guide covers how to plan winter break airport rides, how parents can book a ride for a student and how to handle the return trip in January.</p>
+
+      <h2>Timing Around Finals</h2>
+      <p>Each school sets its own exam schedule and residence hall closing dates, and they change from year to year. Check your school's academic calendar and housing office for this year's dates before booking flights. A few tips:</p>
+      <ul>
+        <li><strong>Leave a buffer after the last exam.</strong> Book a flight that gives time to finish the exam, pack and check out of housing.</li>
+        <li><strong>Watch housing deadlines.</strong> Residence halls often close shortly after finals end, which can push many students onto the same few days.</li>
+        <li><strong>Book flights early.</strong> Mid-December flights fill as holiday travel picks up.</li>
+      </ul>
+
+      <h2>Packing for the Trip Home</h2>
+      <p>Students heading home for winter break often travel heavier than they arrived. Laundry, gifts and items to leave at home all add up. A few tips before the ride:</p>
+      <ul>
+        <li><strong>Count the bags honestly.</strong> Tell us the total, including backpacks, laundry bags and boxes, so the vehicle has room.</li>
+        <li><strong>Check the airline's baggage rules.</strong> Overweight or extra bags can add fees and time at check-in.</li>
+        <li><strong>Leave what you can.</strong> If your residence hall lets you leave belongings over break, packing light makes the trip easier.</li>
+      </ul>
+
+      <h2>Early-Morning and Late-Night Flights</h2>
+      <p>Students often choose the cheapest flight, which can mean a very early departure or a late-night arrival. For an early flight, book the pickup the day before and make sure your student sets an alarm and has packed the night before. Our <a href="/blog/new-orleans-airport-early-morning-pickup">early-morning MSY pickup guide</a> covers what to expect before dawn. For a late return in January, the pickup is flight-tracked, so a delayed flight won't leave your student stranded at the airport.</p>
+
+      <h2>Students Traveling Internationally</h2>
+      <p>International students heading home for break often have long journeys with connections abroad. Leave extra time for check-in and security on international itineraries, and check the airline's guidance. When the student returns, an international arrival at MSY includes 60 minutes of complimentary waiting time after landing. See our <a href="/msy-international-arrivals-customs-transportation-guide">international arrivals guide</a> for how customs and pickups work.</p>
+
+      <h2>Winter Weather on the Way Home</h2>
+      <p>Many students fly home through connecting airports that see snow and ice in December. If your student's flight is delayed or rebooked, the pickup can be moved. See our <a href="/blog/winter-flight-delays-connecting-hubs-msy-pickups">winter flight delay guide</a> for what to do when connections change.</p>
+      <h2>Booking a Ride for Your Student</h2>
+      <p>Parents can book and pay for a ride while the student rides alone. When you book, include:</p>
+      <ul>
+        <li>The student's name and cell phone number, so the chauffeur can contact them directly.</li>
+        <li>The pickup address, including the residence hall name or the nearest campus entrance.</li>
+        <li>The flight number and departure time, so we can plan the pickup with enough time at the airport.</li>
+        <li>How many bags the student is bringing, including any boxes or large items.</li>
+      </ul>
+      <p>Your student will receive the chauffeur's details before pickup. Many parents find it reassuring to know the ride is booked with a professional chauffeur instead of relying on a late-night rideshare.</p>
+
+      <h2>Campus Pickups</h2>
+      <p>Campus streets get busy during move-out, and some residence halls have limited spots for cars. Tell us which building your student is in, and we'll agree on a pickup point that's easy to reach. Our <a href="/tulane-university-transportation">Tulane</a>, <a href="/loyola-university-transportation">Loyola</a>, <a href="/university-of-new-orleans-transportation">UNO</a> and <a href="/xavier-university-transportation">Xavier</a> pages cover rides to and from each campus.</p>
+
+      <h2>How Early to Leave for MSY</h2>
+      <p>Uptown and the Tulane and Loyola campuses are roughly 25 to 40 minutes from MSY depending on traffic, and the UNO campus on the lakefront and Xavier in Gert Town have their own routes to I-10. During December, the airport gets busier as holiday travel builds, so leave enough time for traffic, check-in and security. Check your airline's guidance for bag-drop cutoffs.</p>
+
+      <h2>Groups of Friends Heading to the Airport</h2>
+      <p>Students from the same city often fly home on the same day. Friends with flights close together can share one vehicle. A Chevrolet Suburban seats 5 and a Lincoln Navigator seats 6, each with room for five bags. A Mercedes Sprinter carries up to 13 passengers and 13 bags for a larger group. Sharing a ride is easy to arrange when you book.</p>
+
+      <h2>The Return Trip in January</h2>
+      <p>Winter break ends in January, and students fly back for the spring semester, often on the same weekend. Book the return pickup from MSY when you book the December ride. Airport pickups are flight-tracked, with 45 minutes of complimentary waiting time after a domestic arrival. If the return flight changes, call or text us with the new flight number. Our <a href="/blog/msy-arrivals-guide-where-your-chauffeur-meets-you">MSY arrivals guide</a> explains where your student will meet the chauffeur.</p>
+
+      <h2>Parents Visiting for Graduation</h2>
+      <p>Some schools hold December commencement ceremonies for students who finish mid-year. If you're flying in for a December graduation, see our <a href="/blog/college-graduation-season-transportation-new-orleans">graduation season guide</a> and our <a href="/new-orleans-graduation-limo-service">graduation limo service</a> page.</p>
+
+      <h2>Winter Break Ride Checklist</h2>
+      <ul>
+        <li>Check exam and housing dates on the school's calendar.</li>
+        <li>Book the flight with a buffer after the last exam.</li>
+        <li>Book the ride to MSY and the January return together.</li>
+        <li>Share the student's phone number, building and bag count.</li>
+        <li>Save our number, (877) 609-1919, in the student's phone.</li>
+      </ul>
+
+      <h2>Booking a Winter Break Ride</h2>
+      <p>Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup, and Sprinter van bookings up to 12 hours before. Every quote is all-inclusive, covering tolls, taxes and gratuity.</p>
+      <p>Call (877) 609-1919 or <a href="/booking">book online</a>. For more on airport rides, see our <a href="/msy-airport-departure-drop-off">MSY departure drop-off</a> page.</p>
+    `,
+    relatedLinks: [
+      { label: "Tulane University Transportation", to: "/tulane-university-transportation" },
+      { label: "Loyola University Transportation", to: "/loyola-university-transportation" },
+      { label: "MSY Departure Drop-Off", to: "/msy-airport-departure-drop-off" },
+      { label: "Book Your Ride", to: "/booking" },
+    ],
+    faqs: [
+      {
+        q: "Can a parent book a ride for a college student?",
+        a: "Yes. Book and pay for the ride, and give us the student's name, phone number, pickup address and flight. The student will get the chauffeur's details before pickup.",
+      },
+      {
+        q: "When do students leave for winter break?",
+        a: "It depends on each school's exam schedule and housing closing dates. Check the academic calendar and housing office for this year's dates.",
+      },
+      {
+        q: "Can several students share a ride to MSY?",
+        a: "Yes. A Chevrolet Suburban seats 5, a Lincoln Navigator seats 6 and a Mercedes Sprinter carries up to 13 passengers and 13 bags.",
+      },
+      {
+        q: "Can we book the January return at the same time?",
+        a: "Yes. Book both rides together. The return pickup is flight-tracked, with 45 minutes of waiting time after a domestic arrival.",
+      },
+      {
+        q: "How long is the drive from Uptown to MSY?",
+        a: "Roughly 25 to 40 minutes depending on traffic. Leave extra time in December as holiday travel builds.",
+      },
+    ],
+  },
+
+  // ---------------------------------------------------------- POST 41 (Dec 3)
+  {
+    slug: "ski-trip-from-msy-airport-ride-with-ski-bags",
+    title: "Flying From MSY for a Ski Trip: Getting Skis, Boots and the Family to the Airport",
+    metaTitle: "Ski Trip Rides to MSY Airport | MSY Limo",
+    metaDescription:
+      "Heading from New Orleans to the mountains for a ski trip? How to get ski bags, boot bags and the whole family to MSY, plus timing tips for winter flights.",
+    category: "Travel",
+    author: "MSY Limo Team",
+    date: "December 3, 2026",
+    scheduled: true,
+    readTime: "7 min read",
+    excerpt:
+      "A ski trip from New Orleans starts with a lot of gear and a flight out of MSY. Here's how to fit skis, snowboards, boot bags and the family into one ride to the airport.",
+    image: "/images/blog/fleet-sprinter-1.webp",
+    content: `
+      <p>New Orleans is about as far from a ski slope as an American city gets, but plenty of local families head to the mountains every winter. Christmas break, the week after New Year's and the long weekends of January and February are popular times for a ski trip to Colorado, Utah or elsewhere in the West. Every one of those trips starts the same way: a pile of ski bags, boot bags and suitcases by the front door and a flight out of Louis Armstrong New Orleans International Airport (MSY).</p>
+      <p>This guide covers how to get your gear and your group to the airport, which vehicle fits, and how to time a winter flight.</p>
+
+      <h2>Why Ski Gear Changes the Ride</h2>
+      <p>A family of four going on a beach vacation might bring four suitcases. The same family on a ski trip can bring four suitcases, two or three ski or snowboard bags and four boot bags. Ski bags are long, and they don't fit in every trunk. That's the biggest reason to plan the ride ahead of time instead of hoping a rideshare shows up with enough room.</p>
+      <p>When you book, tell us:</p>
+      <ul>
+        <li>How many passengers are traveling.</li>
+        <li>How many ski or snowboard bags you're bringing, and roughly how long they are.</li>
+        <li>How many boot bags, suitcases and carry-ons you have.</li>
+      </ul>
+      <p>With that information, we'll send a vehicle with room for everything.</p>
+
+      <h2>Renting Versus Bringing Gear</h2>
+      <p>Many families from New Orleans rent skis and snowboards at the resort instead of flying with them. Renting means fewer bags, a smaller vehicle and no oversized items at check-in. Bringing your own gear means a familiar fit and no rental lines at the mountain. Some families split the difference and bring only boots, which matter most for comfort. Whatever you choose, the transportation plan follows from your bag count, so decide before you book the ride.</p>
+
+      <h2>Holiday Ski Trips and the Busiest Travel Days</h2>
+      <p>The most popular ski weeks for New Orleans families often line up with school breaks: the days after Christmas, the week of New Year's and the long weekend in January. Those are also among the busiest days at MSY. A few tips:</p>
+      <ul>
+        <li>Book flights and rides early, since holiday-week vehicles fill fast.</li>
+        <li>Leave more time than usual at the airport for oversized bags and holiday crowds.</li>
+        <li>If you're leaving the day after Christmas, plan your pickup with the rest of the family's holiday schedule in mind.</li>
+      </ul>
+
+      <h2>Group Ski Trips</h2>
+      <p>Church groups, school clubs, friend groups and extended families often travel to the mountains together. A Mercedes Sprinter carries up to 13 passengers and 13 bags, which keeps a group and its gear in one vehicle instead of spreading it across several cars. Share the group's flight details and bag count when you book, and we'll confirm that everything fits. For a group returning on different flights, separate pickups may work better. Our <a href="/blog/family-reunion-airport-transportation-sprinter-van">group airport transportation guide</a> covers how a Sprinter works for group travel.</p>
+
+      <h2>Coming Home Tired</h2>
+      <p>The flight home from a ski trip often ends late, with tired kids and sore legs. Our <a href="/msy-airport-meet-and-greet">MSY meet-and-greet</a> option puts your chauffeur inside baggage claim to help with bags from the carousel and the oversized claim area.</p>
+      <h2>Choosing a Vehicle</h2>
+      <ul>
+        <li><strong>Couples with light gear.</strong> A Lincoln Nautilus seats 3 with room for four bags. If you're renting skis at the resort and bringing only boots and suitcases, it may be enough.</li>
+        <li><strong>Families.</strong> A Chevrolet Suburban seats 5 and a Lincoln Navigator seats 6, each with room for five bags. Long ski bags take more space than a suitcase, so tell us your full gear list.</li>
+        <li><strong>Large families and groups.</strong> A Mercedes Sprinter carries up to 13 passengers and 13 bags, with room for long ski bags and a group's luggage in one vehicle.</li>
+      </ul>
+      <p>See our <a href="/fleet">fleet</a> for details on each vehicle. If you're not sure, ask when you book, and we'll recommend the right one.</p>
+
+      <h2>Timing a Winter Flight</h2>
+      <p>Ski trips often fall during the busiest travel weeks of the year. A few timing tips:</p>
+      <ul>
+        <li><strong>Leave extra time for oversized bags.</strong> Ski and snowboard bags are often checked as special items, which can take longer at the counter. Check your airline's policy for sports equipment.</li>
+        <li><strong>Watch the weather at your destination and connection.</strong> Snow at your mountain airport or connecting hub can delay flights. See our <a href="/blog/winter-flight-delays-connecting-hubs-msy-pickups">winter flight delay guide</a>.</li>
+        <li><strong>Plan around the holiday rush.</strong> The week before Christmas and the days after New Year's are busy at MSY. See our <a href="/blog/msy-holiday-travel-christmas-week-airport-rides">Christmas-week travel guide</a>.</li>
+      </ul>
+
+      <h2>Coming Home</h2>
+      <p>Book your return pickup when you book the ride to the airport. Your pickup is flight-tracked, so a delay at a snowy mountain airport won't leave you without a ride. After a domestic arrival, you have 45 minutes of complimentary waiting time, which helps when oversized bags come out at a separate claim area. Tell us the gear you're bringing home so the same size vehicle meets you.</p>
+      <p>If your flight changes because of weather, call or text us with the new flight number.</p>
+
+      <h2>Northshore and Westbank Families</h2>
+      <p>Families heading out from Covington, Mandeville, Slidell, Gretna or Algiers have a longer drive to MSY and should leave earlier. Northshore travelers crossing the Causeway on winter mornings should also allow for fog. See our <a href="/blog/causeway-fog-northshore-early-flights-msy-winter-guide">Causeway fog guide</a>.</p>
+
+      <h2>Ski Trip Airport Checklist</h2>
+      <ul>
+        <li>Count passengers, ski bags, boot bags and suitcases before you book.</li>
+        <li>Check your airline's sports equipment policy.</li>
+        <li>Book both the departure ride and the return pickup.</li>
+        <li>Share your flight numbers so pickups are tracked.</li>
+        <li>Book car seats for small children. Infant, convertible and booster seats are available on request.</li>
+      </ul>
+
+      <h2>Booking Your Ski Trip Ride</h2>
+      <p>Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup, and Sprinter van bookings up to 12 hours before. Every quote is all-inclusive, covering tolls, taxes and gratuity.</p>
+      <p>Call (877) 609-1919 or <a href="/booking">book online</a>. See our <a href="/msy-airport-departure-drop-off">MSY departure drop-off</a> page for more on airport rides.</p>
+    `,
+    relatedLinks: [
+      { label: "Sprinter Van With Driver", to: "/sprinter-van-rental-with-driver-new-orleans" },
+      { label: "MSY Departure Drop-Off", to: "/msy-airport-departure-drop-off" },
+      { label: "Sedan vs SUV vs Sprinter", to: "/blog/sedan-vs-suv-vs-sprinter-which-to-book" },
+      { label: "Book Your Ride", to: "/booking" },
+    ],
+    faqs: [
+      {
+        q: "Will ski bags fit in an SUV?",
+        a: "Often, depending on how many you have. Tell us the number of ski bags, boot bags and suitcases when you book, and we'll send a vehicle with room for everything.",
+      },
+      {
+        q: "Which vehicle is best for a family ski trip?",
+        a: "A Chevrolet Suburban seats 5 and a Lincoln Navigator seats 6. For a large family or lots of gear, a Mercedes Sprinter carries up to 13 passengers and 13 bags.",
+      },
+      {
+        q: "Can you pick us up when we fly back from the mountains?",
+        a: "Yes. Book the return with your departure. The pickup is flight-tracked, with 45 minutes of waiting time after a domestic arrival.",
+      },
+      {
+        q: "What if snow delays our flight home?",
+        a: "Your pickup follows your flight's actual landing time. If you're rebooked onto a different flight, call or text us with the new flight number.",
+      },
+      {
+        q: "How early should we leave for MSY with ski gear?",
+        a: "Leave extra time. Oversized items can take longer at check-in, and holiday weeks are busy. Check your airline's guidance for sports equipment.",
+      },
+    ],
+  },
+
+  // ---------------------------------------------------------- POST 42 (Dec 4)
+  {
+    slug: "friday-before-christmas-lunch-french-quarter-car-service",
+    title: "The Long Friday Lunch Before Christmas: A French Quarter Tradition and a Ride Home",
+    metaTitle: "Friday Before Christmas Lunch New Orleans | MSY Limo",
+    metaDescription:
+      "The Friday before Christmas lunch is a French Quarter tradition. How to plan the day, why a ride matters after a long lunch and getting your group home.",
+    category: "Lifestyle",
+    author: "MSY Limo Team",
+    date: "December 4, 2026",
+    scheduled: true,
+    readTime: "7 min read",
+    excerpt:
+      "In New Orleans, a long Friday lunch in the French Quarter is a December ritual for many offices and friend groups. Here's how to plan the day and the ride home.",
+    image: "/images/blog/scenario-corporate-2.webp",
+    content: `
+      <p>In New Orleans, lunch on a Friday in December can last all afternoon. Old-line French Quarter restaurants fill with office groups, old friends and families in their holiday best, and some tables are still going strong when the dinner crowd arrives. The Friday before Christmas is the peak of the tradition, and at Galatoire's on Bourbon Street in particular it has become one of the city's best-known holiday rituals. In 2026, Christmas falls on a Friday, so check how the restaurant you have in mind is handling the last Friday before the holiday.</p>
+      <p>This guide covers how to plan a long Friday lunch in December, why a booked ride matters and how to get a group there and home.</p>
+
+      <h2>How the Tradition Works</h2>
+      <p>The long Friday lunch is part of the city's restaurant culture year-round, but December brings out the biggest crowds. Classic French Quarter dining rooms are known for long, social meals, with tables visiting each other and lunch running well into the afternoon. Reservation policies vary by restaurant, and some popular dining rooms have traditionally seated part of the room first-come, first-served, which has led to lines forming early on the busiest Fridays. Check each restaurant's current reservation policy before you plan your day.</p>
+
+      <h2>Why a Ride Makes Sense</h2>
+      <p>A long lunch usually comes with cocktails, wine and champagne, and by mid-afternoon few people at the table should be driving. French Quarter parking is limited and expensive, and on a December Friday the streets around Bourbon and Royal are crowded with diners, shoppers and visitors. A booked ride takes care of all of it:</p>
+      <ul>
+        <li><strong>Drop-off at the restaurant door</strong>, or as close as Quarter traffic allows.</li>
+        <li><strong>No parking to find or pay for.</strong></li>
+        <li><strong>A safe ride home</strong> at whatever hour lunch ends.</li>
+      </ul>
+
+      <h2>Choosing a Ride Plan</h2>
+      <p>A long lunch has an unpredictable end time, which affects how you book:</p>
+      <ul>
+        <li><strong>Point-to-point rides.</strong> A ride there and a separate ride home at a set time. The return includes 15 minutes of waiting time at pickup, so choose a time you're confident about, or call when you're ready to schedule the return.</li>
+        <li><strong>An hourly charter.</strong> An <a href="/services/hourly-charter">hourly charter</a> keeps the vehicle and chauffeur nearby for a set block of time. It's the easiest option when lunch might turn into an afternoon, or when your group plans to move on to another stop.</li>
+      </ul>
+
+      <h2>Office Groups</h2>
+      <p>For many New Orleans law firms, banks and offices, the December Friday lunch is an informal holiday party. If your company is hosting a group, a Mercedes Sprinter carries up to 13 passengers and keeps everyone together. Rides home can be split by neighborhood: a Sprinter for colleagues heading back to the CBD, and SUVs for those heading to Metairie or Uptown. For a formal office party, see our <a href="/blog/corporate-holiday-party-transportation-new-orleans">corporate holiday party guide</a>.</p>
+
+      <h2>After Lunch</h2>
+      <p>Some groups keep going after lunch with a stop at a hotel bar, a walk through the decorated French Quarter or a visit to the Roosevelt's holiday lobby. See our <a href="/blog/roosevelt-new-orleans-holiday-lobby-evening-guide">Roosevelt holiday lobby guide</a> and our <a href="/blog/reveillon-dinners-new-orleans-december-tradition-guide">réveillon dinner guide</a> for more holiday dining ideas.</p>
+
+      <h2>Visitors Joining In</h2>
+      <p>If you're visiting New Orleans in December, a long Friday lunch is one of the best ways to see the city's dining culture at its liveliest. Dress up, plan to stay a while and let the day unfold. Our <a href="/blog/new-orleans-restaurant-food-tour-chauffeur-guide">restaurant food tour guide</a> covers more ways to explore the city's food.</p>
+
+      <h2>Friday Lunch Checklist</h2>
+      <ul>
+        <li>Check the restaurant's reservation policy and plan around it.</li>
+        <li>Decide between point-to-point rides and an hourly charter.</li>
+        <li>Share pickup addresses for everyone in the group.</li>
+        <li>Plan where each person goes home after lunch.</li>
+        <li>Save our number, (877) 609-1919, for the return ride.</li>
+      </ul>
+
+      <h2>Dressing for the Occasion</h2>
+      <p>The December Friday lunch is a dressy affair for many regulars. Suits, holiday dresses, hats and festive ties are common sights in the classic dining rooms. Some restaurants also have their own dress codes, so check before you go, especially if you're visiting. Dressing up is part of the fun, and it's one more reason not to walk several blocks from a parking garage in good shoes on a rainy December afternoon.</p>
+
+      <h2>A Sample Plan for the Day</h2>
+      <ol>
+        <li><strong>Late morning:</strong> Your chauffeur picks up your group at the office or at home.</li>
+        <li><strong>Midday:</strong> Arrive at the restaurant, whether for a reservation or to join the line.</li>
+        <li><strong>Afternoon:</strong> Lunch runs long. With an hourly charter, the car stays nearby.</li>
+        <li><strong>Late afternoon:</strong> The group heads home, back to the office or on to another stop.</li>
+      </ol>
+      <p>Tell us your plan when you book, and we'll set up the ride around your timing.</p>
+
+      <h2>Rides Home for Everyone</h2>
+      <p>A long lunch group often lives across the metro area, from Uptown and Lakeview to Metairie and the Northshore. Plan the rides home before lunch starts:</p>
+      <ul>
+        <li>Group people by neighborhood so one vehicle can drop several guests in the same direction.</li>
+        <li>Book separate rides for guests going across the Causeway or the Crescent City Connection.</li>
+        <li>Agree on how guests will let the chauffeur know they're ready to leave.</li>
+      </ul>
+      <p>For more on rides home after a celebration, see our <a href="/blog/holiday-house-party-safe-rides-home-new-orleans">holiday party safe rides guide</a>.</p>
+
+      <h2>Combining Lunch With Shopping</h2>
+      <p>Some groups use the long lunch as part of a December day in the Quarter. A morning on Royal Street, a long lunch and a stop for gifts on the way home is a classic combination. See our <a href="/blog/small-business-saturday-new-orleans-royal-street-french-market">Royal Street and French Market shopping guide</a>.</p>
+      <h2>Choosing a Vehicle</h2>
+      <p>A Mercedes-Benz E-Class or BMW 7 Series / Mercedes S-Class seats up to 3 passengers. A Chevrolet Suburban seats 5 and a Lincoln Navigator seats 6. A Mercedes Sprinter carries up to 13 passengers for an office group. See our <a href="/fleet">fleet</a>.</p>
+
+      <h2>Booking Your Ride</h2>
+      <p>December Fridays book quickly. Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup, and Sprinter van and special-event bookings up to 12 hours before. Every quote is all-inclusive, covering tolls, taxes and gratuity.</p>
+      <p>Call (877) 609-1919 or <a href="/booking">book online</a>. For more on getting around the Quarter, see our <a href="/french-quarter-transportation-guide">French Quarter transportation guide</a>.</p>
+    `,
+    relatedLinks: [
+      { label: "French Quarter Transportation Guide", to: "/french-quarter-transportation-guide" },
+      { label: "Corporate Holiday Party Transportation", to: "/blog/corporate-holiday-party-transportation-new-orleans" },
+      { label: "Hourly Charter", to: "/services/hourly-charter" },
+      { label: "Book Your Ride", to: "/booking" },
+    ],
+    faqs: [
+      {
+        q: "What is the Friday before Christmas lunch in New Orleans?",
+        a: "A long-running local tradition of long, social Friday lunches at classic French Quarter restaurants in December, best known at Galatoire's on Bourbon Street.",
+      },
+      {
+        q: "Can the car wait while we have lunch?",
+        a: "With an hourly charter, the vehicle and chauffeur stay nearby for a set block of time. Point-to-point rides include 15 minutes of waiting time at pickup.",
+      },
+      {
+        q: "Can you take our office group to lunch?",
+        a: "Yes. A Mercedes Sprinter carries up to 13 passengers, and we can split rides home by neighborhood with SUVs.",
+      },
+      {
+        q: "How do I get a table?",
+        a: "Reservation policies vary by restaurant and can change. Check the restaurant directly before you plan your day.",
+      },
+      {
+        q: "Can you drop us right at the restaurant?",
+        a: "Yes, or as close as French Quarter traffic and street closures allow.",
+      },
+    ],
+  },
+
+  // ---------------------------------------------------------- POST 43 (Dec 5)
+  {
+    slug: "checkout-day-evening-flight-new-orleans-luggage-plan",
+    title: "Checkout Day With an Evening Flight: Making the Most of Your Last Day in New Orleans",
+    metaTitle: "Last Day in New Orleans Before an Evening Flight | MSY Limo",
+    metaDescription:
+      "Hotel checkout at 11 and a flight at 7? How to handle luggage, spend your last day in New Orleans and get to MSY on time with an hourly car or a timed pickup.",
+    category: "Travel",
+    author: "MSY Limo Team",
+    date: "December 5, 2026",
+    scheduled: true,
+    readTime: "8 min read",
+    excerpt:
+      "Most hotels want you out by late morning, but many flights home leave in the evening. Here's how to handle the luggage and enjoy a full last day before heading to MSY.",
+    image: "/images/blog/scenario-doorman.webp",
+    content: `
+      <p>It's one of the most common travel puzzles in New Orleans. Hotel checkout is in the late morning, but your flight home from Louis Armstrong New Orleans International Airport (MSY) doesn't leave until evening. That leaves several hours in the city with your luggage, and no room to go back to.</p>
+      <p>The good news is that a last day in New Orleans can be one of the best days of the trip if you plan the luggage and the ride. This guide covers your options, from leaving bags at the hotel to keeping a car with you all afternoon.</p>
+
+      <h2>Option 1: Leave Bags With the Hotel</h2>
+      <p>Many hotels will hold luggage for guests after checkout. Ask at the front desk the day before. If your hotel offers this, the plan is simple:</p>
+      <ol>
+        <li>Check out and leave your bags with the bell desk.</li>
+        <li>Spend the day exploring on foot or by streetcar.</li>
+        <li>Return to the hotel at an agreed time, where your chauffeur picks you and your bags up for the ride to MSY.</li>
+      </ol>
+      <p>This works well when your last-day plans are close to the hotel, such as a final walk through the French Quarter. Book the airport ride for a set time, and your chauffeur will meet you at the hotel. Our <a href="/msy-airport-hotel-transfers">MSY hotel transfers</a> page covers hotel pickups.</p>
+
+      <h2>Option 2: Keep a Car With You All Afternoon</h2>
+      <p>If your last day takes you farther from the hotel, an <a href="/services/hourly-charter">hourly charter</a> can be the easier option. The vehicle and chauffeur stay with you for a set block of time, and your luggage stays in the car. You can:</p>
+      <ul>
+        <li>Visit a museum, the Garden District or City Park without going back to the hotel.</li>
+        <li>Stop for a long lunch, then shop on Magazine Street.</li>
+        <li>Head straight to MSY from your last stop, with your bags already in the car.</li>
+      </ul>
+      <p>Your bags stay with the vehicle and chauffeur while you're out. Keep passports, medications and valuables with you, as you would on any trip.</p>
+
+      <h2>Option 3: A Stop on the Way to the Airport</h2>
+      <p>Some travelers like to make one more stop on the way to MSY. The airport is in Kenner, west of the city, so stops in Metairie or Kenner fit naturally on the route. The Fashion Outlets of New Orleans and Lakeside Shopping Center are both on the way. See our <a href="/blog/lakeside-shopping-center-holiday-shopping-metairie-car-service">Lakeside Shopping Center guide</a>. Tell us about the stop when you book, so the ride is planned around it.</p>
+
+      <h2>Ideas for a Last Day</h2>
+      <ul>
+        <li><strong>A long lunch.</strong> A classic French Quarter lunch is a fitting farewell. Our <a href="/blog/friday-before-christmas-lunch-french-quarter-car-service">Friday lunch guide</a> covers the tradition.</li>
+        <li><strong>The National WWII Museum.</strong> A museum visit is a good way to spend several hours. See our <a href="/national-wwii-museum-transportation">WWII Museum transportation</a> page.</li>
+        <li><strong>City Park and the sculpture garden.</strong> See our <a href="/blog/city-park-noma-sculpture-garden-family-outing-guide">City Park and sculpture garden guide</a>.</li>
+        <li><strong>A Garden District walk.</strong> See our <a href="/garden-district-uptown-transportation-guide">Garden District and Uptown guide</a>.</li>
+        <li><strong>Shopping for gifts.</strong> See our <a href="/blog/flying-home-from-msy-with-king-cake-hot-sauce-souvenirs">guide to flying home with local souvenirs</a>.</li>
+      </ul>
+
+      <h2>How Early to Leave for MSY</h2>
+      <p>Downtown New Orleans is about 14 miles from MSY, usually 20 to 30 minutes by car, though weekday rush hour on I-10 can make it longer. Evening flights often leave during or just after rush hour, so plan your last stop with that in mind. Check your airline's guidance for check-in and bag-drop times, and leave extra time during the holidays.</p>
+
+      <h2>Groups and Families</h2>
+      <p>For a family or group, the luggage problem is bigger. A Chevrolet Suburban seats 5 and a Lincoln Navigator seats 6, each with room for five bags. A Mercedes Sprinter carries up to 13 passengers and 13 bags, which makes it practical for a wedding party or a group trip on the final day. Our <a href="/new-orleans-wedding-weekend-farewell-brunch-departure-guide">farewell brunch and departure guide</a> covers the morning after a wedding weekend.</p>
+
+      <h2>Vacation Rental Guests</h2>
+      <p>If you're staying in a vacation rental, checkout times are often strict and there's usually no bell desk to hold bags. An hourly charter or a timed pickup at checkout solves the problem. See our <a href="/new-orleans-airbnb-vacation-rental-guest-transportation-guide">vacation rental transportation guide</a>.</p>
+
+      <h2>Late Checkout and Day Rooms</h2>
+      <p>Before you plan around a long day with luggage, ask your hotel about late checkout. Some hotels offer it on request, sometimes for a fee, and it can give you a few extra hours to rest, pack and change before heading out. If you're traveling with young children or have a very late flight, a room for part of the day can be worth the cost. Ask at the front desk the day before, since availability depends on how busy the hotel is.</p>
+
+      <h2>Freshening Up Before the Flight</h2>
+      <p>After a full last day in New Orleans' humidity or a cool, damp December afternoon, many travelers want to change clothes before a flight. A few ideas:</p>
+      <ul>
+        <li>Keep a small bag with a change of clothes and toiletries separate from your checked luggage.</li>
+        <li>Ask your hotel whether you can use a fitness center locker room or lobby restroom after checkout.</li>
+        <li>Plan a final stop at a restaurant where you can relax before heading to the airport.</li>
+      </ul>
+
+      <h2>Timing the Last Stop</h2>
+      <p>The biggest risk on a last day is losing track of time. Work backward from your flight: subtract the time your airline recommends for check-in and security, then subtract the drive to MSY and a buffer for traffic. That's when you need to be in the car. If you've booked an hourly charter, your chauffeur can help you keep track. Our <a href="/blog/msy-airport-tips-2026">MSY airport tips</a> cover security and check-in at the terminal.</p>
+
+      <h2>A Sample Last Day</h2>
+      <ol>
+        <li><strong>Late morning:</strong> Check out, load bags into the car or leave them with the bell desk.</li>
+        <li><strong>Midday:</strong> A long lunch in the French Quarter or the Garden District.</li>
+        <li><strong>Afternoon:</strong> A museum, a park or a final shopping stop.</li>
+        <li><strong>Early evening:</strong> Ride to MSY with time to spare.</li>
+      </ol>
+      <h2>Choosing a Vehicle</h2>
+      <p>A Mercedes-Benz E-Class or BMW 7 Series / Mercedes S-Class seats up to 3 passengers with room for two bags. A Lincoln Nautilus seats 3 with room for four bags, a good choice for a couple with checked luggage. See our <a href="/fleet">fleet</a> for every vehicle.</p>
+
+      <h2>Booking Your Last-Day Ride</h2>
+      <p>Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup, and Sprinter van bookings up to 12 hours before. Every quote is all-inclusive, covering tolls, taxes and gratuity.</p>
+      <p>Call (877) 609-1919 or <a href="/booking">book online</a>. Tell us your checkout time, your flight and how you'd like to spend the day, and we'll build the plan around it.</p>
+    `,
+    relatedLinks: [
+      { label: "Hourly Charter", to: "/services/hourly-charter" },
+      { label: "MSY Hotel Transfers", to: "/msy-airport-hotel-transfers" },
+      { label: "MSY Departure Drop-Off", to: "/msy-airport-departure-drop-off" },
+      { label: "Book Your Ride", to: "/booking" },
+    ],
+    faqs: [
+      {
+        q: "What can I do with my luggage after hotel checkout?",
+        a: "Many hotels hold bags for guests after checkout. Otherwise, an hourly charter keeps your luggage in the car while you spend the day in the city.",
+      },
+      {
+        q: "Can I go straight to MSY from my last stop?",
+        a: "Yes. With an hourly charter, your bags are already in the car, so your chauffeur can drive you from your last stop to the airport.",
+      },
+      {
+        q: "Can we stop somewhere on the way to the airport?",
+        a: "Yes. MSY is in Kenner, so stops in Metairie or Kenner fit naturally on the route. Tell us when you book.",
+      },
+      {
+        q: "How long is the drive from downtown to MSY?",
+        a: "About 14 miles, usually 20 to 30 minutes, longer during weekday rush hour and holiday weeks.",
+      },
+      {
+        q: "What vehicle fits a family with luggage?",
+        a: "A Chevrolet Suburban seats 5 and a Lincoln Navigator seats 6, each with room for five bags. A Mercedes Sprinter carries up to 13 passengers and 13 bags.",
+      },
+    ],
+  },
+
+  // ---------------------------------------------------------- POST 44 (Dec 6)
+  {
+    slug: "new-years-day-msy-departure-after-new-years-eve",
+    title: "Flying Home on New Year's Day: Getting to MSY After a New Year's Eve in New Orleans",
+    metaTitle: "New Year's Day Flights From MSY | MSY Limo",
+    metaDescription:
+      "Flying out of MSY on January 1 after New Year's Eve in New Orleans? How to time the ride, handle Sugar Bowl traffic and book your airport pickup in advance.",
+    category: "Airport",
+    author: "MSY Limo Team",
+    date: "December 6, 2026",
+    scheduled: true,
+    readTime: "7 min read",
+    excerpt:
+      "New Year's Eve in New Orleans often ends late, and New Year's Day flights come early. Here's how to plan the ride to MSY on January 1 and the days after.",
+    image: "/images/blog/airport-dropoff.webp",
+    content: `
+      <p>New Year's Eve in New Orleans is a big night. Crowds fill the French Quarter and the riverfront, fireworks light up the Mississippi and celebrations run well past midnight. For many visitors, the trip ends the next day with a flight home from Louis Armstrong New Orleans International Airport (MSY). Planning that New Year's Day ride now, while there's still choice on the calendar, makes the morning after much easier.</p>
+      <p>This guide covers how to time a January 1 departure, how New Year's week events affect traffic and how to book a ride you can count on.</p>
+
+      <h2>Why New Year's Day Rides Need Planning</h2>
+      <p>On New Year's Day, many visitors leave the city at the same time. Rideshare demand can be high and drivers fewer after a late night, and hotel lobbies fill with travelers looking for a ride at checkout. A booked ride, with a confirmed pickup time and a chauffeur who knows your flight, takes the guesswork out of the morning.</p>
+
+      <h2>Choose Your Flight With the Night Before in Mind</h2>
+      <p>If you're celebrating until the early hours, a very early flight on January 1 can be rough. Consider:</p>
+      <ul>
+        <li><strong>A late-morning or afternoon flight</strong> gives time to sleep, pack and check out without rushing.</li>
+        <li><strong>A January 2 flight</strong> lets you enjoy New Year's Day in the city, especially if you're going to the Sugar Bowl.</li>
+        <li><strong>An early flight</strong> works if you plan for it: pack before you go out, set multiple alarms and book the pickup the night before.</li>
+      </ul>
+
+      <h2>The Sugar Bowl and New Year's Week Traffic</h2>
+      <p>The Sugar Bowl is played at the Caesars Superdome around New Year's, and its date and kickoff time vary from year to year. On game day, traffic around the Superdome and downtown gets heavy, and fans from out of town fly in and out of MSY over the days before and after. If your flight falls near the game, check the schedule and leave extra time. Our <a href="/sugar-bowl-new-years-superdome-transportation">Sugar Bowl transportation guide</a> covers game-day travel.</p>
+
+      <h2>How Early to Leave for MSY</h2>
+      <p>Downtown New Orleans is about 14 miles from MSY, usually 20 to 30 minutes by car. Holiday roads can be lighter on the morning of January 1, but the airport itself is often busy, and street closures from the night before may still affect parts of the French Quarter. Check your airline's guidance for check-in and bag-drop cutoffs, and plan your pickup time with a buffer.</p>
+
+      <h2>Pickup From a French Quarter Hotel</h2>
+      <p>Some French Quarter streets stay busy or partly closed into New Year's morning while the city cleans up. If you're staying in the Quarter, your chauffeur may meet you at the nearest open corner or at a nearby hotel entrance. Confirm the pickup point the day before. Our <a href="/french-quarter-transportation-guide">French Quarter transportation guide</a> explains how pickups work in the Quarter.</p>
+
+      <h2>Groups Leaving Together</h2>
+      <p>Groups that celebrated together often fly home on different flights. Two options:</p>
+      <ul>
+        <li><strong>One vehicle for everyone</strong> when flights leave close together. A Mercedes Sprinter carries up to 13 passengers and 13 bags.</li>
+        <li><strong>Separate rides</strong> when flights are spread across the day, so no one waits at the airport for hours.</li>
+      </ul>
+      <p>Tell us every flight when you book, and we'll suggest the best plan.</p>
+
+      <h2>Planning the Whole Trip</h2>
+      <p>If you haven't booked your New Year's Eve plans yet, see our <a href="/blog/new-years-eve-bourbon-street-car-service">New Year's Eve guide</a> for rides on the big night, and our <a href="/blog/msy-holiday-travel-christmas-week-airport-rides">Christmas-week MSY travel guide</a> for arrivals during the holiday weeks. Book your arrival, New Year's Eve and departure rides together so everything is set before the season gets busy.</p>
+
+      <h2>Looking Ahead to January</h2>
+      <p>January in New Orleans brings the start of Carnival season on Twelfth Night, January 6. If you're coming back for Carnival, see our <a href="/blog/twelfth-night-new-orleans-carnival-season-kickoff-guide">Twelfth Night guide</a> and our <a href="/blog/how-far-ahead-book-mardi-gras-jazz-fest-transportation">guide to booking Mardi Gras transportation early</a>.</p>
+
+      <h2>Packing the Night Before</h2>
+      <p>The best thing you can do for a New Year's Day departure is pack on December 31 before you go out. A few tips:</p>
+      <ul>
+        <li>Pack everything except what you'll wear the next morning and your toiletries.</li>
+        <li>Set out your ID, boarding pass and phone charger where you'll see them.</li>
+        <li>Confirm your pickup time and location with us during the day on December 31.</li>
+        <li>Set more than one alarm, especially for a morning flight.</li>
+      </ul>
+      <p>If your hotel offers late checkout, ask about it in advance. A few extra hours can make a big difference after a late night.</p>
+
+      <h2>Arriving for New Year's Eve</h2>
+      <p>Many visitors fly in on December 30 or 31 for the celebration. Arrival days around New Year's are busy at MSY, and downtown traffic builds through the afternoon of December 31 as crowds head to the French Quarter and the riverfront. If you're arriving on New Year's Eve, aim for an earlier flight so you can check in and settle before the evening. Airport pickups are flight-tracked, with 45 minutes of complimentary waiting time on domestic arrivals and 60 minutes on international arrivals.</p>
+
+      <h2>New Year's Day in the City</h2>
+      <p>If your flight isn't until January 2, New Year's Day itself can be a relaxed day in New Orleans. Many visitors sleep in, have a late brunch and take an easy walk through the Quarter or along the riverfront. Some restaurants close or keep holiday hours on January 1, so check before you plan a meal. If you're going to the Sugar Bowl, plan your ride to the Superdome with plenty of time, since game-day traffic around the stadium is heavy. With an <a href="/services/hourly-charter">hourly charter</a>, you can combine brunch, a stop at the hotel and the game in one booking.</p>
+
+      <h2>International Departures</h2>
+      <p>If you're flying internationally on New Year's Day, check your airline's guidance for international check-in times, which are usually earlier than domestic. Leave plenty of time, and keep your passport and travel documents with you, not in a checked bag.</p>
+      <h2>Choosing a Vehicle</h2>
+      <p>A Mercedes-Benz E-Class or BMW 7 Series / Mercedes S-Class seats up to 3 passengers with room for two bags. A Lincoln Nautilus seats 3 with room for four bags. A Chevrolet Suburban seats 5 and a Lincoln Navigator seats 6, each with room for five bags. See our <a href="/fleet">fleet</a>.</p>
+
+      <h2>Booking Your New Year's Day Ride</h2>
+      <p>New Year's week is one of the busiest weeks of the year, so book as early as you can. Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup, and Sprinter van and special-event bookings up to 12 hours before. Every quote is all-inclusive, covering tolls, taxes and gratuity.</p>
+      <p>Call (877) 609-1919 or <a href="/booking">book online</a>. See our <a href="/msy-airport-departure-drop-off">MSY departure drop-off</a> page for more on airport rides.</p>
+    `,
+    relatedLinks: [
+      { label: "New Year's Eve Car Service", to: "/blog/new-years-eve-bourbon-street-car-service" },
+      { label: "Sugar Bowl Transportation", to: "/sugar-bowl-new-years-superdome-transportation" },
+      { label: "MSY Departure Drop-Off", to: "/msy-airport-departure-drop-off" },
+      { label: "Book Your Ride", to: "/booking" },
+    ],
+    faqs: [
+      {
+        q: "Should I book a ride to MSY for New Year's Day in advance?",
+        a: "Yes. Many visitors leave on January 1, and rideshare can be hard to find after a late night. Book your ride when you book your flight.",
+      },
+      {
+        q: "How long does it take to get from the French Quarter to MSY?",
+        a: "About 20 to 30 minutes for the roughly 14-mile drive from downtown. Leave a buffer for a busy airport on New Year's Day.",
+      },
+      {
+        q: "Can you pick us up in the French Quarter on New Year's morning?",
+        a: "Yes. Some streets may still be busy or partly closed, so we'll confirm a pickup point, such as the nearest open corner, the day before.",
+      },
+      {
+        q: "Does the Sugar Bowl affect airport traffic?",
+        a: "It can. The game is played at the Caesars Superdome around New Year's, and its date varies. Check the schedule and leave extra time.",
+      },
+      {
+        q: "Can our group ride to the airport together?",
+        a: "Yes, if flights leave close together. A Mercedes Sprinter carries up to 13 passengers and 13 bags.",
+      },
+    ],
+  },
 
 ];
