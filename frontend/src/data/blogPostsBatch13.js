@@ -5421,4 +5421,156 @@ export const BLOG_POSTS_BATCH13 = [
     ],
   },
 
+  // ---------------------------------------------------------- POST 52 (Nov 18)
+  {
+    slug: "french-quarter-ghost-tour-night-car-service",
+    title: "A Ghost Tour Night in the French Quarter: How to Plan the Ride There and Back",
+    metaTitle: "French Quarter Ghost Tour Transportation | MSY Limo",
+    metaDescription:
+      "Booking a New Orleans ghost tour? How to time your ride to the meeting point, where to be dropped off in the Quarter, and how to get back to your hotel late.",
+    category: "Lifestyle",
+    author: "MSY Limo Team",
+    date: "November 18, 2026",
+    scheduled: true,
+    readTime: "6 min read",
+    excerpt:
+      "Ghost and haunted-history walking tours are one of the most popular evenings in the French Quarter. The tour is on foot, but getting to the meeting point and home afterward still takes a plan.",
+    image: "/images/blog/landmark-nola-2.webp",
+    content: `
+      <p>New Orleans has a long list of stories about haunted townhouses, old hotels and courtyards, and evening ghost tours through the French Quarter are one of the most popular things visitors book. Most are walking tours led by a guide, and many start after dark. The walking part is the tour itself, but you still have to reach the meeting point on time and get back to your hotel or rental afterward, often late and after a couple of hours on your feet.</p>
+      <p>This guide covers how to plan the ride for a ghost tour night.</p>
+
+      <h2>How Ghost Tours Usually Work</h2>
+      <p>Most French Quarter ghost tours meet at a set spot, often outside a bar, shop or landmark, and then walk a loop through the Quarter's streets. Tours typically run around two hours, and evening start times are common. Some operators also run cemetery or daytime history tours. Check your ticket for the exact meeting point, start time and how early the guide asks you to arrive, since tours usually leave on schedule.</p>
+
+      <h2>Getting to the Meeting Point</h2>
+      <p>The French Quarter is busy in the evening, and many streets are narrow, one-way or closed to cars around Bourbon Street. A drop-off right at the meeting point isn't always possible. Give us the exact address on your ticket, and your chauffeur will drop you at the closest practical corner, usually a short walk away. Plan to arrive 15 minutes early so you aren't rushing through the crowds. Our <a href="/french-quarter-transportation-guide">French Quarter transportation guide</a> explains how pickups and drop-offs work in the Quarter, and our <a href="/limo-service-near-jackson-square">Jackson Square car service</a> page covers one of the most common starting areas.</p>
+
+      <h2>Dinner Before, Drinks After</h2>
+      <p>Many groups turn the tour into a full evening: dinner beforehand, the tour, then a drink or live music afterward. If that's your plan, there are two ways to book:</p>
+      <ul>
+        <li><strong>Hourly service:</strong> the vehicle and chauffeur stay with your group for the whole evening and are ready when you're done at each stop. See our <a href="/services/hourly-charter">hourly charter</a> page.</li>
+        <li><strong>Point-to-point rides:</strong> one ride to dinner or the meeting point, and another at a set time to take you home. Point-to-point rides include 15 minutes of waiting time at pickup. See our <a href="/point-to-point-car-service-new-orleans">point-to-point car service</a> page.</li>
+      </ul>
+      <p>For ideas after the tour, our <a href="/blog/frenchmen-street-live-music-night-transportation">Frenchmen Street night guide</a> covers live music a short ride from the Quarter.</p>
+
+      <h2>Getting Home After Dark</h2>
+      <p>Tours end wherever the route finishes, which may not be where you started. Check with the operator where the tour usually ends, and set your pickup for a nearby corner. If you're staying outside the Quarter, in the Garden District, Uptown, Metairie or a rental in another neighborhood, a booked ride saves you from waiting for a rideshare at a busy hour. Our <a href="/blog/is-new-orleans-safe-at-night-visitor-guide">guide to getting around New Orleans at night</a> has more tips for late evenings.</p>
+
+      <h2>Groups, Families and Wedding Weekends</h2>
+      <p>Ghost tours are popular with bachelorette groups, family reunions and wedding guests looking for something to do on a free night. For larger groups, one vehicle keeps everyone together and on time. A Mercedes Sprinter carries up to 13 passengers. For smaller groups, a Chevrolet Suburban seats 5 and a Lincoln Navigator seats 6. See our <a href="/fleet">fleet</a> for every vehicle. Some tours set age guidelines or are better suited to adults, so check before bringing children.</p>
+
+      <h2>Pair It With a Daytime Cemetery Visit</h2>
+      <p>If the stories on the tour leave you curious, a daytime visit to one of the city's historic cemeteries makes a good follow-up. Many cemeteries require a guided tour to enter. Our <a href="/blog/st-louis-cemetery-tomb-tour-transportation-guide">St. Louis Cemetery tour transportation guide</a> covers how those visits work.</p>
+
+      <h2>Booking Your Ghost Tour Ride</h2>
+      <p>Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup; Sprinter van and special-event bookings up to 12 hours before. Call (877) 609-1919 or <a href="/booking">book online</a> with your pickup address, the tour meeting point and start time, and your group size.</p>
+    `,
+    relatedLinks: [
+      { label: "Hourly Charter", to: "/services/hourly-charter" },
+      { label: "French Quarter Transportation Guide", to: "/french-quarter-transportation-guide" },
+      { label: "Our Fleet", to: "/fleet" },
+      { label: "Book Your Ride", to: "/booking" },
+    ],
+    faqs: [
+      {
+        q: "Can you drop us off right at the ghost tour meeting point?",
+        a: "Often close to it, but not always at the door. Some French Quarter streets are narrow or closed to cars, so your chauffeur drops you at the nearest practical corner, usually a short walk away.",
+      },
+      {
+        q: "How early should we arrive for a ghost tour?",
+        a: "Check your ticket for the operator's request. Arriving about 15 minutes early is a good rule, since evening traffic and crowds in the Quarter can slow the last few blocks.",
+      },
+      {
+        q: "Where should we be picked up after the tour?",
+        a: "Ask the tour operator where the route usually ends and book your pickup for a nearby corner. Tours don't always finish where they started.",
+      },
+      {
+        q: "Should we book hourly or separate rides?",
+        a: "Hourly service works well if you're adding dinner or drinks before or after the tour. Separate point-to-point rides work when you only need a ride there and a ride home at set times.",
+      },
+      {
+        q: "What vehicle fits a large group?",
+        a: "A Mercedes Sprinter carries up to 13 passengers. For smaller groups, a Chevrolet Suburban seats 5 and a Lincoln Navigator seats 6.",
+      },
+    ],
+  },
+
+  // ---------------------------------------------------------- POST 53 (Nov 18)
+  {
+    slug: "new-orleans-cooking-class-transportation-guide",
+    title: "Taking a Cooking Class in New Orleans: Planning the Ride for a Creole and Cajun Class",
+    metaTitle: "New Orleans Cooking Class Transportation | MSY Limo",
+    metaDescription:
+      "Booking a Creole or Cajun cooking class in New Orleans? How to get your group there on time, plan for a long lunch, and book rides for team-building classes.",
+    category: "Travel",
+    author: "MSY Limo Team",
+    date: "November 18, 2026",
+    scheduled: true,
+    readTime: "6 min read",
+    excerpt:
+      "A cooking class is one of the best ways to bring New Orleans food home with you. Here's how to plan the ride for a class with friends, family or a corporate group.",
+    image: "/images/blog/scenario-group-boarding.webp",
+    content: `
+      <p>Gumbo, jambalaya, étouffée and pralines are a big part of why people visit New Orleans, and a cooking class lets you learn to make them yourself. Classes range from demonstration-style sessions where you watch a chef and eat the results to hands-on classes where everyone cooks at their own station. Many are in or near the French Quarter, and some are in other neighborhoods or at private kitchens. They make a good group outing for a family trip, a girls' weekend or a corporate team.</p>
+      <p>This guide covers how to plan transportation for a cooking class.</p>
+
+      <h2>What to Expect From a Class</h2>
+      <p>Classes typically run a few hours and end with a meal of what was cooked, so plan for a long lunch or an early dinner. Many classes serve beer or wine, which is one more reason not to drive yourself. Start times are set, and classes may not wait for latecomers, so check your booking for the exact address, start time and how early to arrive.</p>
+
+      <h2>Getting There on Time</h2>
+      <p>If your class is in the French Quarter, parking is scarce and some streets are closed to cars at busy times. A drop-off at the door, or the nearest practical corner, means you can walk in without hunting for a garage. Plan to arrive 15 minutes early. Our <a href="/french-quarter-transportation-guide">French Quarter transportation guide</a> covers how drop-offs work there, and our <a href="/blog/new-orleans-parking-guide-downtown-french-quarter">parking guide</a> explains why many visitors skip driving downtown.</p>
+
+      <h2>Booking the Ride Home</h2>
+      <p>Because class lengths vary, you can book in two ways:</p>
+      <ul>
+        <li><strong>Point-to-point rides:</strong> one ride to the class and another at the scheduled end time. Point-to-point rides include 15 minutes of waiting time at pickup, so tell us the expected finish time. See our <a href="/point-to-point-car-service-new-orleans">point-to-point car service</a> page.</li>
+        <li><strong>Hourly service:</strong> the vehicle and chauffeur stay with you, which works well if you're adding a stop afterward, like a stroll through the French Market or a shopping trip. See our <a href="/services/hourly-charter">hourly charter</a> page.</li>
+      </ul>
+
+      <h2>Make It a Food Day</h2>
+      <p>Some visitors pair a cooking class with a food tour, a stop at a praline shop or dinner at a classic restaurant later in the day. If you're planning several food stops, our <a href="/blog/new-orleans-restaurant-food-tour-chauffeur-guide">restaurant and food tour guide</a> and <a href="/new-orleans-food-tour-restaurant-hopping-transportation-guide">restaurant-hopping transportation guide</a> cover how to plan the day.</p>
+
+      <h2>Cooking Classes for Corporate Groups</h2>
+      <p>Private cooking classes are a popular team-building activity for companies in town for a convention or meeting. The class has a fixed start time, and the group often comes from the same hotel or convention venue. One vehicle keeps the team together and on schedule. A Mercedes Sprinter carries up to 13 passengers, and larger groups can book more than one vehicle. See our <a href="/services/corporate-transportation">corporate transportation</a> page and our guide to <a href="/blog/corporate-entertaining-client-dinners-riverboat-team-events">client dinners and team events</a>.</p>
+
+      <h2>Families and Small Groups</h2>
+      <p>For a couple or a small family, a sedan or SUV is usually enough. A Chevrolet Suburban seats 5 and a Lincoln Navigator seats 6. Some classes set minimum ages for hands-on cooking, so check before booking for children. See our <a href="/fleet">fleet</a> for every vehicle.</p>
+
+      <h2>Taking Food Home on the Plane</h2>
+      <p>Many classes sell spice blends, roux mixes or praline boxes, and visitors often want to bring them home. Our <a href="/blog/flying-home-from-msy-with-king-cake-hot-sauce-souvenirs">guide to flying home with food souvenirs</a> covers what to pack for the flight out of MSY.</p>
+
+      <h2>Booking Your Class Ride</h2>
+      <p>Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup; Sprinter van and special-event bookings up to 12 hours before. Call (877) 609-1919 or <a href="/booking">book online</a> with your pickup address, the class address and start time, and your group size.</p>
+    `,
+    relatedLinks: [
+      { label: "Corporate Transportation", to: "/services/corporate-transportation" },
+      { label: "Hourly Charter", to: "/services/hourly-charter" },
+      { label: "Our Fleet", to: "/fleet" },
+      { label: "Book Your Ride", to: "/booking" },
+    ],
+    faqs: [
+      {
+        q: "How long does a New Orleans cooking class last?",
+        a: "It depends on the class, but many run a few hours and end with a meal. Check your booking for the start and end times, and give us both when you reserve your rides.",
+      },
+      {
+        q: "Should we book a ride home in advance?",
+        a: "Yes, if you know the end time. Point-to-point rides include 15 minutes of waiting time at pickup. If your timing is uncertain or you're adding stops, hourly service keeps the vehicle with you.",
+      },
+      {
+        q: "Can you transport a corporate group to a team-building class?",
+        a: "Yes. A Mercedes Sprinter carries up to 13 passengers, and larger teams can book more than one vehicle from the hotel or convention venue.",
+      },
+      {
+        q: "Can you drop us at the door in the French Quarter?",
+        a: "Often, though some Quarter streets are narrow or closed to cars at busy times. Your chauffeur will drop you at the door or the nearest practical corner.",
+      },
+      {
+        q: "What is the cancellation policy?",
+        a: "Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup. Sprinter van and special-event bookings can be cancelled free up to 12 hours before.",
+      },
+    ],
+  },
+
 ];
