@@ -5066,4 +5066,359 @@ export const BLOG_POSTS_BATCH13 = [
     ],
   },
 
+  // ---------------------------------------------------------- POST 48 (Dec 10)
+  {
+    slug: "rainy-day-wedding-transportation-plan-new-orleans",
+    title: "When Rain Hits the Wedding Day: A Transportation Backup Plan for New Orleans Couples",
+    metaTitle: "Rainy Wedding Day Transportation Plan | MSY Limo",
+    metaDescription:
+      "Rain in the New Orleans wedding forecast? How to adjust pickup times, curbside drop-offs, photo stops, guest shuttles and second lines so the day stays on schedule.",
+    category: "Weddings",
+    author: "MSY Limo Team",
+    date: "December 10, 2026",
+    scheduled: true,
+    readTime: "7 min read",
+    excerpt:
+      "New Orleans weather can turn in an hour. Here's how to build a rain plan into your wedding transportation, from pickup times and drop-off points to photos and guest shuttles.",
+    image: "/images/blog/scenario-wedding-1.webp",
+    content: `
+      <p>Every New Orleans couple learns to watch the forecast. Rain can roll in at any time of year here, and a downpour that lasts twenty minutes can still flood a low street, slow traffic on the interstate and turn a ten-minute ride into thirty. The good news is that a wedding day rarely needs to change much when it rains. It mostly needs a few extra minutes and a plan that everyone already knows.</p>
+      <p>This guide walks through the transportation side of a rain plan: what to tell your chauffeur, where to add time, and how to keep the bridal party, the couple and the guests dry between stops.</p>
+
+      <h2>Decide the Rain Plan Before the Week of the Wedding</h2>
+      <p>The easiest rain plan is the one you make in advance. When you finalize your transportation, write down two versions of the day: the plan if it's dry and the plan if it rains. The changes are usually small:</p>
+      <ul>
+        <li><strong>Earlier pickups</strong> for the bridal party and the couple, so a slow drive doesn't eat into ceremony time.</li>
+        <li><strong>Covered drop-off points</strong> at the getting-ready location, the ceremony and the reception.</li>
+        <li><strong>An indoor or covered photo stop</strong> to replace an outdoor one.</li>
+        <li><strong>A decision on the second line</strong>, if you've planned one.</li>
+      </ul>
+      <p>Share both versions with your planner and with us when you book, so the switch on the day is a quick confirmation rather than a new set of instructions. Our <a href="/blog/new-orleans-wedding-transportation-timeline">wedding transportation timeline guide</a> is a good starting point for the dry-weather version.</p>
+
+      <h2>Add Time Where Rain Slows the City</h2>
+      <p>Heavy rain affects New Orleans traffic in predictable places. Underpasses and low-lying streets can take on water, and drivers slow down on the interstate and the bridges. Rather than padding every leg of the day, add time to the legs that cross the most ground:</p>
+      <ul>
+        <li>The ride from the getting-ready location to the ceremony.</li>
+        <li>The ride from the ceremony to the reception, especially if they're in different neighborhoods.</li>
+        <li>Any guest shuttle between hotel blocks and the venue.</li>
+      </ul>
+      <p>Your chauffeur checks road conditions before leaving and will route around streets known to hold water. If the forecast looks bad the night before, tell us and we can move the first pickup earlier.</p>
+
+      <h2>Pick Covered Drop-Off Points</h2>
+      <p>Getting from the car to the door is where most people get wet. Ask each venue where a vehicle can pull up closest to an entrance, ideally under a porte-cochère, awning or side entrance. Many hotels, reception halls and churches have one, but it isn't always the main door. Put the exact drop-off point for each stop in your booking notes so the chauffeur knows where to go without having to circle the block.</p>
+      <p>If a venue has no covered entrance, plan for a short walk with umbrellas ready at the curb. Ask your planner or a bridesmaid to keep a few large umbrellas in the bridal suite, and let the chauffeur know they're coming along.</p>
+
+      <h2>Protect the Dress, the Shoes and the Flowers</h2>
+      <p>A little preparation in the car goes a long way:</p>
+      <ul>
+        <li>Keep a towel or two in the bridal suite for wiping shoes and hems before getting in.</li>
+        <li>Bring a bustle-friendly plan: a bridesmaid who knows how to gather the train so it stays off the wet ground between the door and the car.</li>
+        <li>Have bouquets and boutonnieres carried in last and handed out after everyone is seated.</li>
+        <li>Pack spare shoes for the walk from the car if heels and wet stone don't mix.</li>
+      </ul>
+      <p>An SUV or Sprinter is often easier than a sedan on a wet day, because the higher step-in and wider door give more room to manage a full dress. A Chevrolet Suburban seats 5 and a Lincoln Navigator seats 6, and a Mercedes Sprinter carries up to 13 passengers. See our <a href="/fleet">fleet</a> for every vehicle.</p>
+
+      <h2>Move the Photo Stop Indoors</h2>
+      <p>Many couples plan a photo stop between the ceremony and the reception: an oak-lined street, a French Quarter balcony or a park. If it rains, talk to your photographer about a covered alternative, such as a hotel lobby, a courtyard with galleries, or the venue's own porch. The chauffeur can wait while you shoot and bring the car right to the door when you're ready. Our <a href="/blog/wedding-event-photography-session-chauffeur-french-quarter">photography session guide</a> covers how timing works for photo stops.</p>
+
+      <h2>What Happens to the Second Line</h2>
+      <p>A second line in the rain can be a great memory, and some couples go ahead with umbrellas and ponchos. Others shorten the route or move it to a covered space. Either way, decide in advance with your band and planner, and let us know. If the parade is shortened, a vehicle can meet the couple at the new end point. See our <a href="/second-line-wedding-parade-transportation">second line transportation guide</a> for how vehicles work around a parade.</p>
+
+      <h2>Keep Guest Shuttles Simple</h2>
+      <p>Rain is a good reason to shuttle guests rather than ask them to drive and park. When guests arrive by shuttle, no one is hunting for a parking space or walking several blocks in the rain. A Mercedes Sprinter carries up to 13 guests per run. If you have a large hotel block, plan for loops and ask the hotel where the shuttle can load under cover. Our <a href="/blog/destination-wedding-guest-shuttle-french-quarter-hotels">guest shuttle guide</a> and <a href="/blog/how-many-cars-wedding-party-transportation">guide to how many cars you need</a> help with the numbers.</p>
+
+      <h2>Keep Everyone in Touch on the Day</h2>
+      <p>On a rainy wedding day, one person should be the point of contact for transportation, usually the planner or a trusted friend. That person talks to the chauffeur about any change, such as an earlier departure or a new drop-off door, so the couple doesn't have to. See our <a href="/blog/chauffeur-wedding-vendor-timeline-coordination">guide to coordinating your chauffeur with other vendors</a>.</p>
+
+      <h2>Booking and Cancellation</h2>
+      <p>Wedding and special-event bookings can be cancelled free of charge up to 12 hours before pickup; sedan and SUV reservations up to 3 hours before. In practice, rain rarely means cancelling, only adjusting times, and those changes are easiest to make the day before.</p>
+      <p>Call (877) 609-1919 or <a href="/booking">book online</a>. Put your rain plan in the booking notes, and we'll build it into the day.</p>
+    `,
+    relatedLinks: [
+      { label: "Wedding Transportation", to: "/services/wedding-limo" },
+      { label: "Our Fleet", to: "/fleet" },
+      { label: "Wedding Transportation Timeline", to: "/blog/new-orleans-wedding-transportation-timeline" },
+      { label: "Book Your Ride", to: "/booking" },
+    ],
+    faqs: [
+      {
+        q: "Should we change our wedding transportation if rain is forecast?",
+        a: "Usually only slightly. Move pickups earlier, choose covered drop-off points and swap outdoor photo stops for covered ones. Share the rain plan with us when you book.",
+      },
+      {
+        q: "How much extra time should we add for rain?",
+        a: "Add time to the longest legs of the day, such as the ride to the ceremony and the ride to the reception. Tell us the night before if the forecast looks heavy, and we can move the first pickup earlier.",
+      },
+      {
+        q: "Which vehicle is best for a bride on a rainy day?",
+        a: "An SUV or Sprinter often works better than a sedan, because the wider door and higher step-in give more room to manage a full dress.",
+      },
+      {
+        q: "Can we still have a second line in the rain?",
+        a: "Many couples do, with umbrellas and ponchos. Others shorten the route. Decide with your band and planner in advance, and a vehicle can meet you at the new end point.",
+      },
+      {
+        q: "Can we cancel if the weather is bad?",
+        a: "Wedding and special-event bookings can be cancelled free of charge up to 12 hours before pickup. Sedan and SUV reservations can be cancelled free up to 3 hours before.",
+      },
+    ],
+  },
+
+  // ---------------------------------------------------------- POST 49 (Dec 11)
+  {
+    slug: "hotel-to-hotel-transfer-new-orleans-split-stay-guide",
+    title: "Switching Hotels Mid-Trip in New Orleans: How a Hotel-to-Hotel Transfer Works",
+    metaTitle: "Hotel-to-Hotel Transfers in New Orleans | MSY Limo",
+    metaDescription:
+      "Splitting your New Orleans stay between the French Quarter, the CBD, Uptown or the Northshore? How to time checkout and check-in, store bags and book the move.",
+    category: "Travel",
+    author: "MSY Limo Team",
+    date: "December 11, 2026",
+    scheduled: true,
+    readTime: "6 min read",
+    excerpt:
+      "A few nights in the French Quarter, a few in the Garden District? Here's how to move between hotels without losing half a day to checkout times and luggage.",
+    image: "/images/blog/scenario-doorman.webp",
+    content: `
+      <p>Plenty of New Orleans visitors split a stay between two hotels. Some start with a few nights near Bourbon Street and finish somewhere quieter Uptown. Others arrive for a conference in the CBD and add a weekend in the French Quarter. Wedding guests often move from a hotel block to a family home, and holiday travelers sometimes switch when their first hotel's rate jumps for New Year's Eve.</p>
+      <p>The move itself is short, since most New Orleans hotels are within a few miles of each other. What makes it awkward is the gap between checkout and check-in, and what to do with the bags. This guide covers how to plan it.</p>
+
+      <h2>Mind the Checkout and Check-In Gap</h2>
+      <p>Most hotels set checkout in the late morning and check-in in the afternoon, so there are usually a few hours when you have no room. You have three ways to handle it:</p>
+      <ul>
+        <li><strong>Move the bags first.</strong> Check out, ride to the new hotel, and ask the front desk to hold your luggage until your room is ready. Then you're free for the day.</li>
+        <li><strong>Ask for flexibility.</strong> Ask the first hotel for a late checkout or the second for an early check-in. Neither is guaranteed, but it's worth asking a day or two ahead.</li>
+        <li><strong>Leave bags with the first hotel.</strong> Have them held at the old hotel, spend the day out, and pick everything up on the way to the new one.</li>
+      </ul>
+      <p>For most travelers, moving the bags first is simplest, because the luggage only has to be handled once.</p>
+
+      <h2>Why a Short Ride Still Benefits From a Booking</h2>
+      <p>The ride from the French Quarter to the Garden District is only a few miles, but with several suitcases it's a different trip. Streetcars aren't built for big luggage, the French Quarter's narrow streets make curbside pickups hard, and a rideshare may not fit a family's bags. A booked car arrives at the time you set, and the chauffeur loads and unloads the bags at both doors.</p>
+      <p>Point-to-point rides include 15 minutes of waiting time at pickup, which is usually plenty for settling a bill and bringing bags down. If you expect checkout to take longer, tell us when you book. See our <a href="/point-to-point-car-service-new-orleans">point-to-point car service guide</a>.</p>
+
+      <h2>Common Split-Stay Combinations</h2>
+      <ul>
+        <li><strong>French Quarter to Garden District or Uptown:</strong> nightlife first, then a slower pace among oak-lined streets. See our <a href="/garden-district-uptown-transportation-guide">Garden District and Uptown transportation guide</a>.</li>
+        <li><strong>CBD or Warehouse District to the French Quarter:</strong> common for conference attendees who stay on for the weekend. See our <a href="/warehouse-district-cbd-limo-service">Warehouse District and CBD</a> page.</li>
+        <li><strong>Hotel to a vacation rental:</strong> often in the Marigny, Bywater or Mid-City. Confirm the rental's check-in time and any lockbox or gate details before booking. See our <a href="/new-orleans-airbnb-vacation-rental-guest-transportation-guide">vacation rental guide</a>.</li>
+        <li><strong>New Orleans to the Northshore:</strong> a few city nights, then Mandeville or Covington across the Causeway. See our <a href="/new-orleans-northshore-transportation-guide">Northshore transportation guide</a>.</li>
+      </ul>
+      <p>If you're still choosing where to stay, our <a href="/blog/best-neighborhoods-to-stay-in-new-orleans-for-first-time-visitors">guide to the best neighborhoods for first-time visitors</a> compares the main areas.</p>
+
+      <h2>Make the Move Part of the Day</h2>
+      <p>A hotel change doesn't have to waste the morning. With hourly service, the same car can carry your bags to the new hotel, then take you to brunch, a museum or a garden tour, and drop you back when your room is ready. Our <a href="/services/hourly-charter">hourly charter</a> page explains how as-directed service works.</p>
+
+      <h2>Pickup Points in the French Quarter</h2>
+      <p>Some French Quarter hotels sit on streets where a car can't stop easily, especially when streets are closed for events. Ask the front desk where vehicles usually load guests and put that in your booking notes. Our <a href="/french-quarter-transportation-guide">French Quarter transportation guide</a> covers how pickups work in the Quarter.</p>
+
+      <h2>Choosing the Right Vehicle</h2>
+      <p>Luggage, not passenger count, usually decides the vehicle on a hotel move:</p>
+      <ul>
+        <li>A Mercedes-Benz E-Class seats up to 3 with room for two bags.</li>
+        <li>A Lincoln Nautilus seats 3 with room for four bags.</li>
+        <li>A Chevrolet Suburban seats 5 and a Lincoln Navigator seats 6, each with room for five bags.</li>
+        <li>A Mercedes Sprinter carries up to 13 passengers and 13 bags, useful for wedding parties or families moving together.</li>
+      </ul>
+      <p>See our <a href="/fleet">fleet</a> for every vehicle.</p>
+
+      <h2>Plan the Airport Rides Too</h2>
+      <p>If you're arriving at Louis Armstrong New Orleans International Airport (MSY), book the first ride to the first hotel, and the last ride from the second hotel to the airport. Airport pickups are flight-tracked, with 45 minutes of complimentary waiting time on domestic arrivals and 60 minutes on international arrivals. On departure day, our <a href="/blog/checkout-day-evening-flight-new-orleans-luggage-plan">checkout-day luggage plan</a> covers late flights after checkout.</p>
+
+      <h2>Booking the Transfer</h2>
+      <p>Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup, and Sprinter van bookings up to 12 hours before. Call (877) 609-1919 or <a href="/booking">book online</a> with both hotel names, your bag count and your checkout time.</p>
+    `,
+    relatedLinks: [
+      { label: "MSY Airport Hotel Transfers", to: "/msy-airport-hotel-transfers" },
+      { label: "Hourly Charter", to: "/services/hourly-charter" },
+      { label: "Our Fleet", to: "/fleet" },
+      { label: "Book Your Ride", to: "/booking" },
+    ],
+    faqs: [
+      {
+        q: "Can you move our luggage between hotels before our room is ready?",
+        a: "Yes. Check out, ride to the new hotel with your bags, and ask the front desk to hold them until your room is ready. The chauffeur loads and unloads at both doors.",
+      },
+      {
+        q: "How long will the chauffeur wait while we check out?",
+        a: "Point-to-point rides include 15 minutes of waiting time at pickup. If checkout may take longer, tell us when you book.",
+      },
+      {
+        q: "Can we sightsee on the same day as the hotel move?",
+        a: "Yes. With hourly service, the same car can carry your bags, take you around the city and drop you at the new hotel when your room is ready.",
+      },
+      {
+        q: "Which vehicle fits a family with a lot of luggage?",
+        a: "A Chevrolet Suburban seats 5 and a Lincoln Navigator seats 6, each with room for five bags. For larger groups, a Mercedes Sprinter carries up to 13 passengers and 13 bags.",
+      },
+      {
+        q: "Do you handle moves from New Orleans to the Northshore?",
+        a: "Yes. We drive across the lake to Mandeville, Covington, Slidell and other Northshore towns.",
+      },
+    ],
+  },
+
+  // ---------------------------------------------------------- POST 50 (Dec 12)
+  {
+    slug: "new-orleans-in-january-visitor-guide",
+    title: "New Orleans in January: A Visitor's Guide to Weather, Carnival's Start and Getting Around",
+    metaTitle: "New Orleans in January Visitor Guide | MSY Limo",
+    metaDescription:
+      "Visiting New Orleans in January? What the weather is typically like, how Carnival season begins on Twelfth Night, the football calendar, and how to get around.",
+    category: "Travel",
+    author: "MSY Limo Team",
+    date: "December 12, 2026",
+    scheduled: true,
+    readTime: "7 min read",
+    excerpt:
+      "January is one of New Orleans' best-kept secrets: cooler weather, king cake, the first nights of Carnival and fewer crowds than spring. Here's what to expect and how to plan the rides.",
+    image: "/images/blog/landmark-nola-streetcar-1.webp",
+    content: `
+      <p>January in New Orleans sits between two big seasons. The holidays and New Year's are just over, and Mardi Gras, which falls on Tuesday, February 9 in 2027, is still weeks away. In between, the city is a little calmer, the weather is usually cool, and Carnival season quietly begins. For many visitors it's one of the most comfortable months to see the city.</p>
+      <p>This guide covers what January is typically like, what's on the calendar, and how to plan transportation for a winter trip.</p>
+
+      <h2>What the Weather Is Typically Like</h2>
+      <p>January is usually the coolest month in New Orleans. Days are often mild, evenings can be chilly, and the occasional cold front brings a few brisk days. Rain is common in winter, so pack layers, a light jacket and something waterproof. Check the forecast close to your trip, as January weather varies a lot from year to year.</p>
+      <p>Cooler weather is a big part of the appeal. Walking the French Quarter, touring the Garden District or spending an afternoon in City Park is much more comfortable than in summer. Our <a href="/blog/best-time-of-year-to-visit-new-orleans-weather-crowds-pricing">guide to the best time of year to visit</a> compares the seasons.</p>
+
+      <h2>New Year's Week</h2>
+      <p>The first days of January are still part of the holiday rush. The Sugar Bowl is typically played at the Superdome around New Year's, and the French Quarter is busy with visiting fans. If you're in town for the game, see our <a href="/sugar-bowl-new-years-superdome-transportation">Sugar Bowl transportation guide</a>. If you're flying home after New Year's Eve, our <a href="/blog/new-years-day-msy-departure-after-new-years-eve">New Year's Day departure guide</a> covers the airport side.</p>
+
+      <h2>Twelfth Night and the Start of Carnival</h2>
+      <p>January 6, Twelfth Night, opens Carnival season in New Orleans. King cake appears in bakeries across the city, and in recent years the evening has included a walking parade in the French Quarter honoring Joan of Arc and other small celebrations. Our <a href="/blog/twelfth-night-new-orleans-carnival-season-kickoff-guide">Twelfth Night guide</a> covers what usually happens and where.</p>
+      <p>From Twelfth Night on, Carnival builds slowly. Krewes hold private balls on weekends, and parades start rolling in the weeks before Mardi Gras. Check official parade schedules close to your dates, since routes and times are set by the krewes and the city. If you're attending a ball, see our <a href="/blog/carnival-ball-season-new-orleans-krewe-ball-transportation-guide">Carnival ball transportation guide</a>.</p>
+
+      <h2>Football in January</h2>
+      <p>January is the end of the NFL regular season, and in years when the Saints make the playoffs, a home playoff game can fill downtown at short notice. If you're planning a trip around football, see our <a href="/blog/saints-playoff-prime-time-game-day-logistics">Saints playoff and prime-time game day guide</a>. The Pelicans' season is also in full swing at the Smoothie King Center; see our <a href="/smoothie-king-center-transportation">Smoothie King Center transportation</a> page.</p>
+
+      <h2>Things That Are Better in Cool Weather</h2>
+      <ul>
+        <li><strong>Walking tours</strong> of the French Quarter, the Garden District and the cemeteries. See our <a href="/blog/st-louis-cemetery-tomb-tour-transportation-guide">St. Louis Cemetery tour guide</a>.</li>
+        <li><strong>River Road plantation tours</strong>, a day trip upriver. See our <a href="/blog/oak-alley-river-road-plantation-tour-transportation">Oak Alley and River Road guide</a>.</li>
+        <li><strong>Swamp tours</strong>, which are pleasant on a mild day. Tour operators set their own winter schedules, so check before booking. See our <a href="/blog/swamp-tour-transfer-logistics-new-orleans-hotels">swamp tour transfer guide</a>.</li>
+        <li><strong>Museums</strong>, including the National WWII Museum. See our <a href="/national-wwii-museum-transportation">National WWII Museum transportation</a> page.</li>
+      </ul>
+
+      <h2>Getting Around in January</h2>
+      <p>The streetcars, walking and short rides cover most of a January trip. A booked car helps most on the days that need it: airport arrivals and departures, evenings out when it's cold or raining, and day trips outside the city. With hourly service, the same car and chauffeur stay with you for a day of stops. See our <a href="/services/hourly-charter">hourly charter</a> page.</p>
+      <p>Point-to-point rides include 15 minutes of complimentary waiting time at pickup, which helps when you're coming out of a restaurant or a museum.</p>
+
+      <h2>Flying Into MSY in January</h2>
+      <p>Winter storms elsewhere in the country can delay connecting flights into Louis Armstrong New Orleans International Airport (MSY). Every airport pickup is flight-tracked, so the chauffeur is dispatched against the actual landing time. Pickups include 45 minutes of complimentary waiting time on domestic arrivals and 60 minutes on international arrivals. See our <a href="/blog/winter-flight-delays-connecting-hubs-msy-pickups">guide to winter flight delays</a> and our <a href="/msy-airport-arrival-pickup">MSY arrival pickup</a> page.</p>
+
+      <h2>Choosing a Vehicle</h2>
+      <p>A Mercedes-Benz E-Class seats up to 3 passengers, a Chevrolet Suburban seats 5 and a Lincoln Navigator seats 6. For groups, a Mercedes Sprinter carries up to 13 passengers. See our <a href="/fleet">fleet</a>.</p>
+
+      <h2>Booking Your January Rides</h2>
+      <p>Book early if your trip overlaps New Year's week, a playoff game or a Carnival weekend, when demand rises. Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup, and Sprinter van and special-event bookings up to 12 hours before. Call (877) 609-1919 or <a href="/booking">book online</a>.</p>
+    `,
+    relatedLinks: [
+      { label: "MSY Arrival Pickup", to: "/msy-airport-arrival-pickup" },
+      { label: "Hourly Charter", to: "/services/hourly-charter" },
+      { label: "Twelfth Night Guide", to: "/blog/twelfth-night-new-orleans-carnival-season-kickoff-guide" },
+      { label: "Book Your Ride", to: "/booking" },
+    ],
+    faqs: [
+      {
+        q: "Is January a good time to visit New Orleans?",
+        a: "For many visitors, yes. The weather is usually cool and comfortable for walking, crowds are lighter than in spring, and Carnival season begins on January 6.",
+      },
+      {
+        q: "What is the weather like in New Orleans in January?",
+        a: "January is usually the coolest month, with mild days, chilly evenings and occasional cold fronts. Rain is common, so pack layers and something waterproof.",
+      },
+      {
+        q: "When does Carnival season start?",
+        a: "Carnival season begins on Twelfth Night, January 6, and runs until Mardi Gras Day, which falls on Tuesday, February 9 in 2027.",
+      },
+      {
+        q: "Are there Mardi Gras parades in January?",
+        a: "Carnival builds through January, and parades start rolling in the weeks before Mardi Gras. Check the official parade schedule close to your dates.",
+      },
+      {
+        q: "What happens if my January flight into MSY is delayed?",
+        a: "Every airport pickup is flight-tracked, so the chauffeur is dispatched against the actual landing time. Pickups include 45 minutes of waiting time on domestic arrivals and 60 minutes on international arrivals.",
+      },
+    ],
+  },
+
+  // ---------------------------------------------------------- POST 51 (Nov 18)
+  {
+    slug: "rehearsal-dinner-transportation-new-orleans",
+    title: "Rehearsal Dinner Transportation in New Orleans: Getting the Wedding Party There and Home",
+    metaTitle: "Rehearsal Dinner Transportation New Orleans | MSY Limo",
+    metaDescription:
+      "Planning a New Orleans rehearsal dinner? How to get the wedding party from the rehearsal to dinner, shuttle out-of-town family, and get everyone home early.",
+    category: "Weddings",
+    author: "MSY Limo Team",
+    date: "November 18, 2026",
+    scheduled: true,
+    readTime: "6 min read",
+    excerpt:
+      "The night before the wedding has its own logistics: a rehearsal, a dinner across town and a wedding party that needs to be home at a sensible hour. Here's how to plan the rides.",
+    image: "/images/blog/scenario-wedding-3.webp",
+    content: `
+      <p>The rehearsal dinner is often the first time the whole wedding party and both families are together in one room. In New Orleans, it might be a private room at a French Quarter restaurant, a courtyard in the Garden District or a dinner cruise on the river. It's a relaxed evening, but it comes with real logistics: the rehearsal and the dinner are often in different places, many guests are from out of town, and everyone needs to be rested for the wedding day.</p>
+      <p>This guide covers how to plan transportation for the night before the wedding.</p>
+
+      <h2>From the Rehearsal to the Dinner</h2>
+      <p>Most rehearsals take place at the ceremony venue, which may be a church, a hotel ballroom or an outdoor site, and the dinner is usually somewhere else. Moving the wedding party together keeps the evening on schedule. Instead of a dozen people looking for parking near a French Quarter restaurant, one vehicle carries them from the rehearsal to the dinner's door.</p>
+      <p>A Mercedes Sprinter carries up to 13 passengers, enough for most wedding parties. For a smaller group, a Chevrolet Suburban seats 5 and a Lincoln Navigator seats 6. See our <a href="/fleet">fleet</a> for every vehicle.</p>
+
+      <h2>Out-of-Town Family and Guests</h2>
+      <p>The rehearsal dinner often includes grandparents, aunts and uncles who have just flown in. Many are staying in hotels and don't know the city. A pickup from their hotel to the dinner, and a ride back afterward, saves them from finding their own way in an unfamiliar place. If several guests are staying at the same hotel block, one vehicle can collect them together. Our <a href="/blog/destination-wedding-guest-shuttle-french-quarter-hotels">guest shuttle guide</a> covers how to coordinate hotel pickups.</p>
+      <p>For guests flying in the day of the rehearsal, book their MSY pickup at the same time. Airport pickups are flight-tracked and include 45 minutes of complimentary waiting time on domestic arrivals and 60 minutes on international arrivals. See our <a href="/msy-airport-arrival-pickup">MSY arrival pickup</a> page.</p>
+
+      <h2>Hourly Service vs. Separate Rides</h2>
+      <p>There are two ways to book the evening:</p>
+      <ul>
+        <li><strong>Hourly service:</strong> the vehicle and chauffeur stay with your group from the rehearsal through the end of dinner, including the rides home. This works well when the timing of the dinner is uncertain. See our <a href="/services/hourly-charter">hourly charter</a> page.</li>
+        <li><strong>Separate point-to-point rides:</strong> one booking from the rehearsal to the dinner and another at a set time to take everyone home. Point-to-point rides include 15 minutes of waiting time at pickup.</li>
+      </ul>
+      <p>If you're not sure which fits, tell us the schedule and the number of guests, and we'll suggest an option.</p>
+
+      <h2>Getting Everyone Home on Time</h2>
+      <p>A rehearsal dinner in New Orleans can easily turn into a late night out. A set departure time helps the couple and the wedding party get some rest before the big day. Agree on when the last ride leaves, and let guests know in advance. Anyone who wants to stay out later can arrange their own ride, while the wedding party goes home on schedule.</p>
+
+      <h2>Dinner Cruises and Riverfront Venues</h2>
+      <p>Some couples hold the rehearsal dinner on a river cruise. Boarding times are fixed, so arriving late can mean missing the boat. Plan pickups with extra time and confirm the dock location with the cruise operator. See our <a href="/blog/steamboat-riverboat-cruise-dock-transportation-new-orleans">riverboat dock transportation guide</a>.</p>
+
+      <h2>Pickup Points in the French Quarter</h2>
+      <p>Many rehearsal dinners take place in the French Quarter, where narrow streets and event closures can make curbside pickups tricky. Ask the restaurant where vehicles usually load guests, and put that in your booking notes. Our <a href="/french-quarter-transportation-guide">French Quarter transportation guide</a> covers how pickups work in the Quarter.</p>
+
+      <h2>Use the Evening to Test the Wedding Day Plan</h2>
+      <p>The rehearsal is a good chance to confirm the wedding day timing: pickup addresses, drop-off doors and the order of rides. If you're using the same company both days, share the full weekend plan at once. Our <a href="/blog/new-orleans-wedding-transportation-timeline">wedding transportation timeline</a> and <a href="/blog/how-many-cars-wedding-party-transportation">guide to how many cars you need</a> help with planning the wedding day itself.</p>
+
+      <h2>Booking the Rehearsal Dinner</h2>
+      <p>Sprinter van and special-event bookings can be cancelled free of charge up to 12 hours before pickup; sedan and SUV reservations up to 3 hours before. Call (877) 609-1919 or <a href="/booking">book online</a> with the rehearsal address, the dinner venue and your guest count.</p>
+    `,
+    relatedLinks: [
+      { label: "Wedding Transportation", to: "/services/wedding-limo" },
+      { label: "Hourly Charter", to: "/services/hourly-charter" },
+      { label: "Our Fleet", to: "/fleet" },
+      { label: "Book Your Ride", to: "/booking" },
+    ],
+    faqs: [
+      {
+        q: "Do we need transportation for the rehearsal dinner?",
+        a: "It helps when the rehearsal and dinner are in different places, when many guests are from out of town, or when the dinner is in the French Quarter, where parking is hard to find.",
+      },
+      {
+        q: "What vehicle fits a wedding party?",
+        a: "A Mercedes Sprinter carries up to 13 passengers. For smaller groups, a Chevrolet Suburban seats 5 and a Lincoln Navigator seats 6.",
+      },
+      {
+        q: "Should we book hourly or separate rides?",
+        a: "Hourly service keeps the vehicle with your group all evening, which helps when timing is uncertain. Separate point-to-point rides work when the schedule is fixed.",
+      },
+      {
+        q: "Can you pick up out-of-town guests from their hotels?",
+        a: "Yes. Send us each hotel and guest count, and we can collect guests from the same hotel block together.",
+      },
+      {
+        q: "What is the cancellation policy?",
+        a: "Sprinter van and special-event bookings can be cancelled free of charge up to 12 hours before pickup. Sedan and SUV reservations can be cancelled free up to 3 hours before.",
+      },
+    ],
+  },
+
 ];
