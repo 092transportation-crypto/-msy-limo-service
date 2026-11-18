@@ -4779,4 +4779,291 @@ export const BLOG_POSTS_BATCH13 = [
     ],
   },
 
+  // ---------------------------------------------------------- POST 45 (Dec 7)
+  {
+    slug: "preservation-hall-new-orleans-night-out-car-service",
+    title: "A Night at Preservation Hall: Planning Your Ride to New Orleans' Traditional Jazz Landmark",
+    metaTitle: "Preservation Hall Night Out Car Service | MSY Limo",
+    metaDescription:
+      "Going to Preservation Hall in the French Quarter? How to time your arrival, where your chauffeur can meet you on St. Peter Street and how to pair a show with dinner.",
+    category: "Events",
+    author: "MSY Limo Team",
+    date: "December 7, 2026",
+    scheduled: true,
+    readTime: "7 min read",
+    excerpt:
+      "Preservation Hall is small, intimate and one of the most famous music rooms in New Orleans. Here's how to plan the ride there and back, and how to fit a show into a full evening.",
+    image: "/images/blog/landmark-nola-1.webp",
+    content: `
+      <p>Preservation Hall on St. Peter Street in the French Quarter is one of the best-known music rooms in New Orleans. It's a small, plain room with no bar, no food and no frills, built around one thing: traditional New Orleans jazz played up close. For many visitors, an evening set at Preservation Hall is the highlight of the trip.</p>
+      <p>Because the room is small and sets are short, a night at the Hall takes a little planning. This guide covers when to arrive, how pickups work in the Quarter and how to build a full evening around a show.</p>
+
+      <h2>How a Visit Typically Works</h2>
+      <p>Preservation Hall typically runs several short sets each evening, each lasting under an hour. Seating is limited, and many guests stand or sit on simple benches close to the band. Shows often sell out, especially on weekends and during the holiday season. Check Preservation Hall's own website for the current schedule, ticket options and door policies before you plan your night, since they can change.</p>
+
+      <h2>Timing Your Arrival</h2>
+      <p>A line often forms outside before each set. Plan to be dropped off with time to spare, so you're not rushing down St. Peter Street as the doors open. A few tips:</p>
+      <ul>
+        <li>Tell us your set time when you book, and we'll plan the pickup with a buffer for French Quarter traffic.</li>
+        <li>On busy nights, the last few blocks can move slowly. Your chauffeur may drop you at the nearest open corner.</li>
+        <li>Bring a light jacket in December. Evenings can be cool and damp, and you may wait outside before the set.</li>
+      </ul>
+
+      <h2>Pickup and Drop-Off in the French Quarter</h2>
+      <p>The French Quarter's narrow streets, one-way traffic and evening closures on parts of Bourbon Street affect where a car can stop. Preservation Hall is on St. Peter Street between Bourbon and Royal, so your chauffeur will usually meet you at a nearby cross street that's open to traffic. Confirm the meeting point when you book. Our <a href="/french-quarter-transportation-guide">French Quarter transportation guide</a> explains how pickups work in the Quarter, and our <a href="/limo-service-near-jackson-square">Jackson Square car service</a> page covers the area a block away.</p>
+
+      <h2>Building a Full Evening</h2>
+      <p>Because a set is short, most guests pair it with dinner or more music. Some popular combinations:</p>
+      <ul>
+        <li><strong>Dinner, then the Hall.</strong> An early dinner in the Quarter, then a later set.</li>
+        <li><strong>The Hall, then Frenchmen Street.</strong> An early set, then a short ride to the clubs on Frenchmen Street in the Marigny. See our <a href="/blog/frenchmen-street-live-music-night-transportation">Frenchmen Street live music guide</a>.</li>
+        <li><strong>A music crawl.</strong> The Hall plus one or two other venues. Our <a href="/blog/best-live-music-venues-new-orleans-beyond-frenchmen-street">guide to live music venues beyond Frenchmen Street</a> has more ideas.</li>
+      </ul>
+      <p>With an <a href="/services/hourly-charter">hourly charter</a>, the vehicle and chauffeur stay with you for a set block of time, which makes a multi-stop evening easy. For a single show, a point-to-point ride there and a scheduled pickup afterward is often enough.</p>
+
+      <h2>December at Preservation Hall</h2>
+      <p>December is a busy month in the French Quarter, with holiday visitors, Réveillon dinners and caroling in Jackson Square. Book both your show and your ride early. Our <a href="/blog/reveillon-dinners-new-orleans-december-tradition-guide">Réveillon dinner guide</a> and our <a href="/blog/new-orleans-in-december-visitor-holiday-guide">New Orleans in December guide</a> cover the rest of the season.</p>
+
+      <h2>Coming From the Airport</h2>
+      <p>Some visitors land at Louis Armstrong New Orleans International Airport (MSY) the same day they plan to see a show. Downtown is about 14 miles from MSY, usually 20 to 30 minutes by car, longer at rush hour. Airport pickups are flight-tracked, with 45 minutes of complimentary waiting time on domestic arrivals and 60 minutes on international arrivals. If your flight lands in the late afternoon, give yourself time to check in at your hotel before heading to the Hall. See our <a href="/msy-to-french-quarter">MSY to French Quarter</a> page.</p>
+
+      <h2>Getting Home Safely</h2>
+      <p>After the show, the Quarter is lively late into the night. Rather than looking for a ride on a crowded corner, arrange your pickup time and meeting point in advance. Point-to-point pickups include 15 minutes of complimentary waiting time. If you're running late, call dispatch and we'll adjust. Our <a href="/blog/is-new-orleans-safe-at-night-visitor-guide">guide to getting around New Orleans at night</a> has more tips.</p>
+
+      <h2>Choosing a Vehicle</h2>
+      <p>A Mercedes-Benz E-Class or BMW 7 Series / Mercedes S-Class seats up to 3 passengers. A Chevrolet Suburban seats 5 and a Lincoln Navigator seats 6. For a larger group, a Mercedes Sprinter carries up to 13 passengers. See our <a href="/fleet">fleet</a>.</p>
+
+      <h2>Booking Your Ride</h2>
+      <p>Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup, and Sprinter van and special-event bookings up to 12 hours before. Your rate is confirmed when you book.</p>
+      <p>Call (877) 609-1919 or <a href="/booking">book online</a>. Tell us your set time, your hotel and any dinner plans, and we'll build the evening around them.</p>
+    `,
+    relatedLinks: [
+      { label: "French Quarter Transportation Guide", to: "/french-quarter-transportation-guide" },
+      { label: "Frenchmen Street Live Music Rides", to: "/blog/frenchmen-street-live-music-night-transportation" },
+      { label: "Hourly Charter", to: "/services/hourly-charter" },
+      { label: "Book Your Ride", to: "/booking" },
+    ],
+    faqs: [
+      {
+        q: "Where is Preservation Hall?",
+        a: "On St. Peter Street between Bourbon and Royal in the French Quarter, about a block from Jackson Square.",
+      },
+      {
+        q: "How long is a show at Preservation Hall?",
+        a: "Sets are typically short, under an hour, with several sets each evening. Check Preservation Hall's website for the current schedule.",
+      },
+      {
+        q: "Can you drop us at the door?",
+        a: "As close as French Quarter traffic and street closures allow. On busy nights, your chauffeur may use the nearest open cross street.",
+      },
+      {
+        q: "Can we go to Frenchmen Street after the show?",
+        a: "Yes. With an hourly charter, the car stays with you, or we can schedule a second ride from the Hall to the Marigny.",
+      },
+      {
+        q: "How much waiting time is included at pickup?",
+        a: "Point-to-point pickups include 15 minutes of complimentary waiting time. An hourly charter keeps the vehicle with you for the booked block.",
+      },
+    ],
+  },
+
+  // ---------------------------------------------------------- POST 46 (Dec 8)
+  {
+    slug: "jazz-brunch-new-orleans-car-service-guide",
+    title: "Jazz Brunch in New Orleans: How to Plan the Ride for a Classic Weekend Tradition",
+    metaTitle: "Jazz Brunch in New Orleans: Car Service Guide | MSY Limo",
+    metaDescription:
+      "Planning a New Orleans jazz brunch in the Garden District or French Quarter? How to time the ride, handle dress codes and groups, and fit brunch into your last day.",
+    category: "Lifestyle",
+    author: "MSY Limo Team",
+    date: "December 8, 2026",
+    scheduled: true,
+    readTime: "7 min read",
+    excerpt:
+      "A long jazz brunch is a New Orleans weekend ritual. Here's how to get there and back, from a Garden District landmark to a French Quarter courtyard, without worrying about parking.",
+    image: "/images/blog/landmark-nola-streetcar-1.webp",
+    content: `
+      <p>Few things feel more New Orleans than a long weekend brunch with a live jazz band moving between the tables. Jazz brunch is a local tradition and a favorite for visitors, birthday groups, wedding weekends and families in town for the holidays.</p>
+      <p>Brunch also tends to run long, and parking near the best-known spots can be hard to find. This guide covers how to plan the ride, whether you're going to the Garden District or the French Quarter.</p>
+
+      <h2>Where Jazz Brunch Happens</h2>
+      <p>Jazz brunch is offered at restaurants across the city, but two areas are best known:</p>
+      <ul>
+        <li><strong>The Garden District.</strong> Commander's Palace, on Washington Avenue across from Lafayette Cemetery No. 1, is famous for its weekend jazz brunch.</li>
+        <li><strong>The French Quarter.</strong> Several Quarter restaurants, including The Court of Two Sisters on Royal Street, are known for jazz brunch in a courtyard setting.</li>
+      </ul>
+      <p>Days, hours, menus and dress codes vary by restaurant and can change, so check with the restaurant directly and make a reservation before you plan your ride.</p>
+
+      <h2>Dress Codes</h2>
+      <p>Some classic New Orleans restaurants keep a dress code for brunch. If you're dressing up, a car ride means you arrive looking the way you planned, without a long walk in the humidity or a cool December drizzle. Ask the restaurant about its dress code when you reserve.</p>
+
+      <h2>Timing the Ride</h2>
+      <p>Brunch reservations are often tightly booked on weekends. A few tips:</p>
+      <ul>
+        <li>Book your pickup with a buffer, especially from the French Quarter to the Garden District, where St. Charles Avenue traffic can be slow.</li>
+        <li>Plan for brunch to run longer than you expect. With an <a href="/services/hourly-charter">hourly charter</a>, the car stays nearby. With a point-to-point ride, schedule the return pickup a little later and call dispatch if you need more time.</li>
+        <li>On parade days and big event weekends, some streets close. We'll plan the route around them.</li>
+      </ul>
+
+      <h2>Pairing Brunch With a Garden District Walk</h2>
+      <p>A Garden District brunch fits naturally with a walk past the area's historic homes or an afternoon on Magazine Street. See our <a href="/garden-district-uptown-transportation-guide">Garden District and Uptown transportation guide</a> and our <a href="/blog/magazine-street-shopping-day-chauffeur-guide">Magazine Street shopping day guide</a>. For a guided look at the grand homes of St. Charles Avenue, see our <a href="/blog/uptown-st-charles-avenue-mansion-tour-chauffeur">St. Charles Avenue mansion tour guide</a>.</p>
+
+      <h2>Brunch for Groups</h2>
+      <p>Jazz brunch is a popular choice for birthdays, bachelorette weekends and wedding parties. For a group:</p>
+      <ul>
+        <li>A Mercedes Sprinter carries up to 13 passengers, so everyone arrives together.</li>
+        <li>For a larger party, we can run an SUV alongside the Sprinter.</li>
+        <li>Tell us whether guests are staying at one hotel or several, so we can plan pickups.</li>
+      </ul>
+      <p>See our <a href="/blog/new-orleans-bachelorette-weekend-itinerary-3-day-plan">bachelorette weekend itinerary</a> and our <a href="/blog/milestone-birthday-party-transportation-new-orleans">milestone birthday transportation guide</a> for more ideas.</p>
+
+      <h2>The Wedding Weekend Brunch</h2>
+      <p>Many wedding weekends end with a farewell brunch the morning after. If guests are flying home the same day, plan the brunch with their flights in mind. Our <a href="/new-orleans-wedding-weekend-farewell-brunch-departure-guide">farewell brunch and departure guide</a> covers how to coordinate brunch and airport rides.</p>
+
+      <h2>Brunch Before an Evening Flight</h2>
+      <p>A long brunch is a great way to spend a last day in New Orleans. If your flight from Louis Armstrong New Orleans International Airport (MSY) leaves in the evening, an hourly charter can carry your bags while you eat, then drive you to the airport. MSY is about 14 miles from downtown, usually 20 to 30 minutes by car. Our <a href="/blog/checkout-day-evening-flight-new-orleans-luggage-plan">checkout day and evening flight guide</a> covers the plan in detail.</p>
+
+      <h2>Holiday Brunches</h2>
+      <p>December brings families together, and brunch is an easy way to gather everyone. Popular dates book early, so reserve the restaurant first, then the ride. For other holiday dining traditions, see our <a href="/blog/reveillon-dinners-new-orleans-december-tradition-guide">Réveillon dinner guide</a> and our <a href="/blog/christmas-day-in-new-orleans-getting-around-dinner-rides">Christmas Day dinner rides guide</a>.</p>
+
+      <h2>Choosing a Vehicle</h2>
+      <p>A Mercedes-Benz E-Class or BMW 7 Series / Mercedes S-Class seats up to 3 passengers. A Chevrolet Suburban seats 5 and a Lincoln Navigator seats 6. A Mercedes Sprinter carries up to 13 passengers. Child car seats are available on request. See our <a href="/fleet">fleet</a>.</p>
+
+      <h2>Booking Your Brunch Ride</h2>
+      <p>Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup, and Sprinter van and special-event bookings up to 12 hours before. Point-to-point pickups include 15 minutes of complimentary waiting time.</p>
+      <p>Call (877) 609-1919 or <a href="/booking">book online</a>. Tell us the restaurant, your reservation time and the size of your group.</p>
+    `,
+    relatedLinks: [
+      { label: "Garden District and Uptown Guide", to: "/garden-district-uptown-transportation-guide" },
+      { label: "Food Tour Transportation", to: "/new-orleans-food-tour-restaurant-hopping-transportation-guide" },
+      { label: "Hourly Charter", to: "/services/hourly-charter" },
+      { label: "Book Your Ride", to: "/booking" },
+    ],
+    faqs: [
+      {
+        q: "Where can I go for jazz brunch in New Orleans?",
+        a: "Commander's Palace in the Garden District and several French Quarter restaurants, including The Court of Two Sisters, are well known for jazz brunch. Check each restaurant for current days and hours.",
+      },
+      {
+        q: "Can the car wait while we have brunch?",
+        a: "With an hourly charter, the vehicle and chauffeur stay nearby for the booked block. Point-to-point rides include 15 minutes of waiting time at pickup.",
+      },
+      {
+        q: "Can you take our whole group to brunch?",
+        a: "Yes. A Mercedes Sprinter carries up to 13 passengers, and we can add an SUV for a larger party.",
+      },
+      {
+        q: "Can we go to the airport after brunch?",
+        a: "Yes. With an hourly charter, your luggage stays in the car during brunch, and your chauffeur drives you to MSY afterward.",
+      },
+      {
+        q: "Do I need a reservation for jazz brunch?",
+        a: "At the best-known restaurants, usually yes, especially on weekends and holidays. Reserve directly with the restaurant before booking your ride.",
+      },
+    ],
+  },
+
+  // ---------------------------------------------------------- POST 47 (Dec 9)
+  {
+    slug: "booking-msy-airport-pickup-for-visiting-family-holidays",
+    title: "Picking Up Family at MSY for the Holidays: How to Book a Car for Relatives Flying In",
+    metaTitle: "Book an MSY Pickup for Visiting Family | MSY Limo",
+    metaDescription:
+      "Parents or relatives flying into MSY for the holidays? How to book a car in their name, share the details, add meet-and-greet and car seats, and pay as the host.",
+    category: "Airport",
+    author: "MSY Limo Team",
+    date: "December 9, 2026",
+    scheduled: true,
+    readTime: "7 min read",
+    excerpt:
+      "Can't get to the airport yourself? Here's how to book a chauffeured pickup at MSY for parents, grandparents or in-laws coming to New Orleans for the holidays.",
+    image: "/images/blog/scenario-airport-pickup-1.webp",
+    content: `
+      <p>The holidays bring family to New Orleans. Parents fly in for Christmas, grandparents come to meet a new baby and in-laws arrive for New Year's. But a holiday arrival at Louis Armstrong New Orleans International Airport (MSY) often lands in the middle of a workday, a school pickup or holiday cooking.</p>
+      <p>Booking a chauffeured pickup for your relatives means someone reliable meets them at the airport, helps with the bags and brings them straight to your door. This guide covers how to book a ride for someone else and what details to share.</p>
+
+      <h2>What You'll Need to Book</h2>
+      <p>When you book a pickup for a relative, have these details ready:</p>
+      <ul>
+        <li><strong>The passenger's full name</strong>, spelled the way it should appear on the sign.</li>
+        <li><strong>Their mobile number</strong>, so the chauffeur can reach them after landing.</li>
+        <li><strong>The airline and flight number</strong>, so the flight can be tracked.</li>
+        <li><strong>The number of passengers and bags</strong>, including gifts and holiday luggage.</li>
+        <li><strong>The drop-off address</strong>, plus any gate codes or parking notes.</li>
+        <li><strong>Your own contact details</strong>, as the person who booked.</li>
+      </ul>
+      <p>As the host, you can make the booking and handle payment yourself. Your relatives just need to land and look for their chauffeur.</p>
+
+      <h2>Flight Tracking and Wait Time</h2>
+      <p>Holiday flights are often delayed, especially when connecting hubs face winter weather. Every airport pickup is flight-tracked, so the chauffeur is dispatched against the actual landing time, not the original schedule. Pickups include 45 minutes of complimentary waiting time on domestic arrivals and 60 minutes on international arrivals. See our <a href="/blog/how-flight-tracking-works-for-msy-airport-pickups">guide to how flight tracking works</a> and our <a href="/blog/winter-flight-delays-connecting-hubs-msy-pickups">guide to winter flight delays</a>.</p>
+
+      <h2>Meet-and-Greet for First-Time Visitors</h2>
+      <p>If your relatives don't fly often, or have never been to MSY, add meet-and-greet. Their chauffeur waits inside baggage claim with a sign showing their name and helps with luggage from the carousel. It's the easiest way for an older traveler to find their ride. See our <a href="/msy-airport-meet-and-greet">MSY meet-and-greet</a> page and our <a href="/blog/msy-arrivals-guide-where-your-chauffeur-meets-you">guide to where your chauffeur meets you at MSY</a>.</p>
+
+      <h2>Tell Your Relatives What to Expect</h2>
+      <p>A quick message before they fly makes the arrival smooth:</p>
+      <ul>
+        <li>The chauffeur's contact details will be shared before pickup.</li>
+        <li>With meet-and-greet, they'll see a sign with their name in baggage claim.</li>
+        <li>They should turn their phone on after landing in case the chauffeur calls.</li>
+        <li>If bags are delayed or lost, they should let the chauffeur know before going to the baggage office.</li>
+      </ul>
+
+      <h2>Older Travelers and Extra Help</h2>
+      <p>Grandparents and older relatives may want a vehicle that's easy to step into and a chauffeur who helps with every bag. Tell us about any mobility needs when you book. If a relative needs wheelchair assistance through the terminal, ask their airline to arrange it in advance, so they're brought to baggage claim. Our <a href="/blog/senior-accessibility-focused-car-service-new-orleans">senior-focused car service guide</a> covers more options.</p>
+
+      <h2>Families With Young Children</h2>
+      <p>If your sister and her kids are flying in, child car seats are available on request. Tell us each child's age when you book, and the seats will be installed before the vehicle arrives. A Chevrolet Suburban seats 5 and a Lincoln Navigator seats 6, each with room for five bags. See our <a href="/blog/new-orleans-with-kids-family-trip-guide">guide to New Orleans with kids</a>.</p>
+
+      <h2>Several Relatives on Different Flights</h2>
+      <p>Holiday gatherings often mean relatives arriving from different cities on different flights. Two options:</p>
+      <ul>
+        <li><strong>Separate pickups</strong> for flights that land hours apart, so no one waits at the airport.</li>
+        <li><strong>One vehicle</strong> for flights that land close together. A Mercedes Sprinter carries up to 13 passengers and 13 bags.</li>
+      </ul>
+      <p>Send us every flight, and we'll suggest the best plan. Our <a href="/blog/family-reunion-airport-transportation-sprinter-van">family reunion airport transportation</a> page covers larger groups.</p>
+
+      <h2>Pickups Outside the City</h2>
+      <p>If you live in Metairie, Kenner, the Westbank or across the lake on the Northshore, we drive there too. MSY is in Kenner, so Metairie and Kenner addresses are a short ride. For Northshore drop-offs in Mandeville, Covington or Slidell, see our <a href="/new-orleans-northshore-transportation-guide">Northshore transportation guide</a>.</p>
+
+      <h2>Don't Forget the Ride Home</h2>
+      <p>Book the departure ride at the same time as the arrival. Holiday departure days, especially right after Christmas and on New Year's Day, are some of the busiest at MSY. See our <a href="/blog/msy-holiday-travel-christmas-week-airport-rides">Christmas-week MSY travel guide</a> and our <a href="/blog/new-years-day-msy-departure-after-new-years-eve">New Year's Day departure guide</a>.</p>
+
+      <h2>Choosing a Vehicle</h2>
+      <p>A Mercedes-Benz E-Class or BMW 7 Series / Mercedes S-Class seats up to 3 passengers with room for two bags. A Lincoln Nautilus seats 3 with room for four bags, a good choice for a couple with holiday luggage. See our <a href="/fleet">fleet</a> for every vehicle.</p>
+
+      <h2>Booking the Pickup</h2>
+      <p>Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup, and Sprinter van bookings up to 12 hours before. Your rate is confirmed when you book and does not change if the flight is delayed.</p>
+      <p>Call (877) 609-1919 or <a href="/booking">book online</a>. Add your relatives' names and flight details in the booking notes, and we'll take it from there.</p>
+    `,
+    relatedLinks: [
+      { label: "MSY Meet-and-Greet", to: "/msy-airport-meet-and-greet" },
+      { label: "MSY Arrival Pickup", to: "/msy-airport-arrival-pickup" },
+      { label: "Airport Transportation", to: "/services/airport-transportation" },
+      { label: "Book Your Ride", to: "/booking" },
+    ],
+    faqs: [
+      {
+        q: "Can I book an MSY pickup for someone else?",
+        a: "Yes. Book in your name, add the passenger's name, mobile number and flight details, and you can handle payment as the host.",
+      },
+      {
+        q: "What happens if my relative's flight is delayed?",
+        a: "Every airport pickup is flight-tracked, so the chauffeur is dispatched against the actual landing time. Pickups include 45 minutes of waiting time on domestic arrivals and 60 minutes on international arrivals.",
+      },
+      {
+        q: "How will my parents find their chauffeur?",
+        a: "With meet-and-greet, the chauffeur waits inside baggage claim with a sign showing their name and helps with luggage from the carousel.",
+      },
+      {
+        q: "Can you provide car seats for my relatives' children?",
+        a: "Yes. Infant, convertible and booster seats are available on request. Tell us each child's age when you book.",
+      },
+      {
+        q: "Can one vehicle pick up relatives from several flights?",
+        a: "If the flights land close together, yes. A Mercedes Sprinter carries up to 13 passengers and 13 bags. For flights hours apart, separate pickups work better.",
+      },
+    ],
+  },
+
 ];
