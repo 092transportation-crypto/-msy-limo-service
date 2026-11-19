@@ -5573,4 +5573,245 @@ export const BLOG_POSTS_BATCH13 = [
     ],
   },
 
+  // ---------------------------------------------------------- POST 54 (Dec 13)
+  {
+    slug: "engagement-party-transportation-new-orleans",
+    title: "Engagement Party Transportation in New Orleans: Rides for the Couple, Family and Guests",
+    metaTitle: "Engagement Party Transportation New Orleans | MSY Limo",
+    metaDescription:
+      "Hosting an engagement party in New Orleans? How to plan rides for the couple, shuttle family from hotels, pick up guests at MSY and get everyone home safely.",
+    category: "Weddings",
+    author: "MSY Limo Team",
+    date: "December 13, 2026",
+    scheduled: true,
+    readTime: "6 min read",
+    excerpt:
+      "December is a popular time to get engaged, and the party usually follows a few weeks later. Here's how to plan the rides so the couple, the families and the guests all get there and home.",
+    image: "/images/blog/scenario-wedding-2.webp",
+    content: `
+      <p>The holidays are one of the most popular times of year to get engaged, and an engagement party often follows within a few weeks. In New Orleans, that might be a private room at a French Quarter restaurant, a courtyard party in the Garden District, a family gathering at home in Metairie or a cocktail party at a hotel downtown. It's usually the first time both families meet, and it's a night with a lot of toasts.</p>
+      <p>This guide covers how to plan transportation for an engagement party, whether it's a dinner for twenty or a big open house.</p>
+
+      <h2>A Ride for the Couple</h2>
+      <p>The simplest booking is a car for the two of you: picked up at home, dropped at the door of the party and taken home at the end of the night. It means neither of you has to drive, find parking or keep an eye on the clock. A Mercedes-Benz E-Class or a BMW 7 Series seats up to 3 passengers, which suits the couple plus a parent or a friend. See our <a href="/fleet">fleet</a>.</p>
+      <p>If the proposal itself hasn't happened yet and you're planning it, our <a href="/blog/proposal-anniversary-chauffeur-new-orleans">proposal and anniversary guide</a> covers how a chauffeured evening can help.</p>
+
+      <h2>Bringing Both Families Together</h2>
+      <p>Engagement parties often include parents, grandparents and siblings who are visiting from out of town. Many are staying in hotels and don't know the city. A pickup from their hotel to the party, and a ride back afterward, saves them from finding their own way. If several relatives are staying at the same hotel, one vehicle can collect them together.</p>
+      <p>A Chevrolet Suburban seats 5, a Lincoln Navigator seats 6 and a Mercedes Sprinter carries up to 13 passengers. For a larger family group, a Sprinter keeps everyone together; see our <a href="/sprinter-van-rental-with-driver-new-orleans">Sprinter van with driver</a> page.</p>
+
+      <h2>Guests Flying Into MSY</h2>
+      <p>If family members are flying in for the weekend, book their airport rides at the same time as the party. Every airport pickup is flight-tracked, and pickups include 45 minutes of complimentary waiting time on domestic arrivals and 60 minutes on international arrivals. See our <a href="/msy-airport-arrival-pickup">MSY arrival pickup</a> page. If you'd like the chauffeur to meet them inside baggage claim with a name sign, ask about our <a href="/msy-airport-meet-and-greet">meet-and-greet service</a>.</p>
+
+      <h2>Hourly Service vs. Separate Rides</h2>
+      <p>There are two ways to book the evening:</p>
+      <ul>
+        <li><strong>Hourly service:</strong> the vehicle and chauffeur stay with you for the evening, which works well if the party moves on to a second spot or the end time is uncertain. See our <a href="/services/hourly-charter">hourly charter</a> page.</li>
+        <li><strong>Separate point-to-point rides:</strong> one ride to the party and another at a set time to take everyone home. Point-to-point rides include 15 minutes of waiting time at pickup, so choose a return time you're confident about.</li>
+      </ul>
+
+      <h2>Pickup Points at Popular Party Spots</h2>
+      <p>Many engagement parties in the city take place in the French Quarter, where narrow streets and closures can make curbside pickups tricky. Ask the venue where cars usually load guests, and add that to your booking notes. Our <a href="/french-quarter-transportation-guide">French Quarter transportation guide</a> explains how pickups work there. For parties Uptown or in the Garden District, see our <a href="/garden-district-limo-service">Garden District car service</a> page, and for a party at home in Jefferson Parish, our <a href="/metairie-limo-service">Metairie car service</a> page.</p>
+
+      <h2>Getting Guests Home Safely</h2>
+      <p>An engagement party usually means champagne. Offering rides home to close family, or arranging a vehicle that makes a few drop-offs at the end of the night, is a thoughtful way to look after your guests. Collect addresses ahead of time so the chauffeur can plan the order of stops.</p>
+
+      <h2>Thinking Ahead to the Wedding</h2>
+      <p>The engagement party is a good time to start thinking about wedding day logistics. Our <a href="/blog/new-orleans-wedding-transportation-timeline">wedding transportation timeline</a> and <a href="/blog/how-many-cars-wedding-party-transportation">guide to how many cars you need</a> are useful starting points, and our <a href="/new-orleans-wedding-limo-service">New Orleans wedding transportation</a> page covers what we offer on the day.</p>
+
+      <h2>Booking Your Engagement Party Rides</h2>
+      <p>Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup, and Sprinter van and special-event bookings up to 12 hours before. Call (877) 609-1919 or <a href="/booking">book online</a> with the party address, pickup locations and your guest count.</p>
+    `,
+    relatedLinks: [
+      { label: "Special Events", to: "/services/special-events" },
+      { label: "Wedding Transportation", to: "/services/wedding-limo" },
+      { label: "Hourly Charter", to: "/services/hourly-charter" },
+      { label: "Book Your Ride", to: "/booking" },
+    ],
+    faqs: [
+      {
+        q: "Do we need transportation for an engagement party?",
+        a: "It helps when the party is in the French Quarter, where parking is hard to find, when family is visiting from out of town, or when you'd like guests to get home safely after a toast or two.",
+      },
+      {
+        q: "What vehicle should we book?",
+        a: "A sedan seats up to 3 passengers, a Chevrolet Suburban seats 5 and a Lincoln Navigator seats 6. A Mercedes Sprinter carries up to 13 passengers for larger family groups.",
+      },
+      {
+        q: "Can you pick up family from their hotels?",
+        a: "Yes. Send us each hotel and the number of guests, and we can collect relatives staying at the same hotel together.",
+      },
+      {
+        q: "Can you make several drop-offs at the end of the night?",
+        a: "Yes. Send the addresses ahead of time so the chauffeur can plan the order of stops. Hourly service works well for multi-stop evenings.",
+      },
+      {
+        q: "What is the cancellation policy?",
+        a: "Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup. Sprinter van and special-event bookings can be cancelled free up to 12 hours before.",
+      },
+    ],
+  },
+
+  // ---------------------------------------------------------- POST 55 (Dec 14)
+  {
+    slug: "late-night-arrival-msy-airport-car-service",
+    title: "Landing Late at MSY: How to Plan a Late-Night Arrival in New Orleans",
+    metaTitle: "Late-Night Arrival at MSY Airport Car Service | MSY Limo",
+    metaDescription:
+      "Landing at MSY late at night? How flight tracking and waiting time work after dark, where to meet your chauffeur, and how to get to your hotel or home without the hassle.",
+    category: "Airport",
+    author: "MSY Limo Team",
+    date: "December 14, 2026",
+    scheduled: true,
+    readTime: "6 min read",
+    excerpt:
+      "The last flights into New Orleans land when the city is winding down. Here's how to make sure a ride is waiting, even if your flight runs later than planned.",
+    image: "/images/blog/scenario-airport-pickup-2.webp",
+    content: `
+      <p>Plenty of flights land at Louis Armstrong New Orleans International Airport (MSY) late in the evening, and delays elsewhere can push a 9 p.m. arrival past midnight. Late arrivals come with their own questions: will there be a ride when I land, how long will the driver wait, and how do I get to a hotel in the French Quarter or a home across the lake without a long wait at the curb?</p>
+      <p>This guide covers how to plan a late-night arrival at MSY.</p>
+
+      <h2>Why Late Arrivals Need a Plan</h2>
+      <p>Late at night, there are fewer cars around and you're more tired. If your flight is delayed, a ride you booked through an app can fall through, and you start again at the curb. A reserved car works the other way: the booking is made in advance, assigned to a chauffeur and dispatched against your actual landing time. Our dispatch is available 24/7, so a late-night arrival is handled the same way as one at noon.</p>
+
+      <h2>Flight Tracking and Waiting Time</h2>
+      <p>Every airport pickup is flight-tracked by flight number. If your flight lands early or late, the chauffeur's arrival moves with it, and you don't need to call anyone from the plane. Our <a href="/blog/how-flight-tracking-works-for-msy-airport-pickups">guide to flight tracking</a> explains how it works.</p>
+      <p>Pickups include 45 minutes of complimentary waiting time on domestic arrivals and 60 minutes on international arrivals. That covers the walk from the gate and a wait at baggage claim. If you're connecting through a hub in winter, our <a href="/blog/winter-flight-delays-connecting-hubs-msy-pickups">guide to winter flight delays</a> covers what to do if you miss a connection.</p>
+
+      <h2>Where to Meet Your Chauffeur</h2>
+      <p>Your confirmation explains where to meet your chauffeur. For standard pickups, that's at the curb; with meet-and-greet service, the chauffeur waits inside baggage claim with a name sign and helps with your bags. Late at night, when you're tired and the terminal is quiet, meet-and-greet takes the guesswork out of it. See our <a href="/msy-airport-meet-and-greet">MSY meet-and-greet</a> page and our <a href="/blog/msy-arrivals-guide-where-your-chauffeur-meets-you">arrivals guide</a>.</p>
+
+      <h2>Getting to Your Hotel</h2>
+      <p>Most late arrivals head straight to a hotel. Our route pages cover the most common trips:</p>
+      <ul>
+        <li><a href="/msy-to-french-quarter">MSY to the French Quarter</a></li>
+        <li><a href="/msy-to-new-orleans-downtown">MSY to downtown New Orleans</a></li>
+        <li><a href="/msy-to-warehouse-district">MSY to the Warehouse District</a></li>
+        <li><a href="/msy-to-metairie">MSY to Metairie</a></li>
+      </ul>
+      <p>If you're staying in the French Quarter, check with your hotel about late check-in and where cars can stop at night, as some Quarter streets are closed to traffic at busy times. Our <a href="/french-quarter-transportation-guide">French Quarter transportation guide</a> has more.</p>
+
+      <h2>Heading Home Across the Lake</h2>
+      <p>For Northshore residents, a late-night flight home often means a long drive after a long day. A booked car lets you rest on the way to <a href="/msy-to-mandeville">Mandeville</a>, <a href="/msy-to-covington">Covington</a> or <a href="/msy-to-slidell">Slidell</a>. In winter, fog on the Causeway can slow traffic at night; our <a href="/blog/causeway-fog-northshore-early-flights-msy-winter-guide">Causeway fog guide</a> covers what to expect.</p>
+
+      <h2>International Arrivals</h2>
+      <p>If you're arriving on an international flight, customs and immigration can add time before you reach baggage claim. International pickups include 60 minutes of complimentary waiting time. See our <a href="/blog/international-arrivals-msy-chauffeur-guide">international arrivals guide</a>.</p>
+
+      <h2>Booking at the Last Minute</h2>
+      <p>If your plans change and you need a car tonight, call us. We'll do our best to arrange a ride on short notice. Our <a href="/same-day-last-minute-msy-car-service">same-day car service</a> page explains how it works.</p>
+
+      <h2>Choosing a Vehicle</h2>
+      <p>A Mercedes-Benz E-Class seats up to 3 passengers, and a Chevrolet Suburban seats 5 with room for more bags. A Lincoln Navigator seats 6, and a Mercedes Sprinter carries up to 13 passengers for a group arriving together. See our <a href="/fleet">fleet</a>.</p>
+
+      <h2>Booking Your Late-Night Pickup</h2>
+      <p>Book with your flight number so the pickup is tracked from the start. Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup, and Sprinter van bookings up to 12 hours before. Call (877) 609-1919 or <a href="/booking">book online</a>.</p>
+    `,
+    relatedLinks: [
+      { label: "Airport Transportation", to: "/services/airport-transportation" },
+      { label: "MSY Arrival Pickup", to: "/msy-airport-arrival-pickup" },
+      { label: "MSY Meet & Greet", to: "/msy-airport-meet-and-greet" },
+      { label: "Book Your Ride", to: "/booking" },
+    ],
+    faqs: [
+      {
+        q: "Can I book a pickup for a flight that lands after midnight?",
+        a: "Yes. Our dispatch is available 24/7, and late-night pickups are booked and flight-tracked the same way as daytime ones.",
+      },
+      {
+        q: "What happens if my late flight is delayed even more?",
+        a: "Every airport pickup is flight-tracked, so the chauffeur is dispatched against the actual landing time. You don't need to call us from the plane.",
+      },
+      {
+        q: "How long will the chauffeur wait?",
+        a: "Pickups include 45 minutes of complimentary waiting time on domestic arrivals and 60 minutes on international arrivals.",
+      },
+      {
+        q: "Where do I meet my chauffeur at night?",
+        a: "Your confirmation explains where to meet. With meet-and-greet service, the chauffeur waits inside baggage claim with a name sign and helps with your bags.",
+      },
+      {
+        q: "Can you take me home to the Northshore late at night?",
+        a: "Yes. We drive from MSY to Mandeville, Covington, Slidell and other Northshore towns at any hour.",
+      },
+    ],
+  },
+
+  // ---------------------------------------------------------- POST 56 (Dec 15)
+  {
+    slug: "new-orleans-holiday-staycation-guide-for-locals",
+    title: "A New Orleans Holiday Staycation: A Night Downtown Without Driving",
+    metaTitle: "New Orleans Holiday Staycation Guide for Locals | MSY Limo",
+    metaDescription:
+      "Planning a holiday staycation in New Orleans? How to plan a night or weekend downtown, with hotel lobbies, lights, dinner and rides there and home without driving or parking.",
+    category: "Travel",
+    author: "MSY Limo Team",
+    date: "December 15, 2026",
+    scheduled: true,
+    readTime: "6 min read",
+    excerpt:
+      "You don't have to leave town to get away for the holidays. Here's how locals can plan a night or a weekend downtown, with the rides handled so nobody has to drive or park.",
+    image: "/images/blog/landmark-nola-2.webp",
+    content: `
+      <p>For people who live in Metairie, Kenner, the Westbank or across the lake, a holiday night in the city usually starts with the same problem: who's driving, and where do we park? A staycation solves it. Book a hotel downtown or in the French Quarter for a night or two, let someone else handle the driving, and spend the time on lights, dinner and the city at its most festive.</p>
+      <p>This guide covers how to plan a holiday staycation in New Orleans and how to handle the rides.</p>
+
+      <h2>Why a Staycation Works in December</h2>
+      <p>December is one of the busiest months of the year in the city. Hotel lobbies are decorated, restaurants serve holiday menus and there's something on most evenings. It's also a month when parking downtown is hard to find. Staying the night means you can enjoy a long dinner without thinking about the drive home. Our <a href="/blog/new-orleans-parking-guide-downtown-french-quarter">downtown parking guide</a> explains why many locals skip the car altogether.</p>
+
+      <h2>Choosing Where to Stay</h2>
+      <p>The French Quarter puts you within walking distance of Jackson Square, the riverfront and many of the city's classic restaurants. The CBD and Warehouse District are close to the hotel lobbies on Canal Street and the area around Fulton Street. Our <a href="/blog/best-neighborhoods-to-stay-in-new-orleans-for-first-time-visitors">neighborhood guide</a> was written for visitors, but it works just as well for locals choosing a base.</p>
+
+      <h2>Ideas for a Holiday Night in the City</h2>
+      <ul>
+        <li><strong>Hotel lobbies:</strong> several historic hotels decorate their lobbies for the season. See our <a href="/blog/roosevelt-new-orleans-holiday-lobby-evening-guide">Roosevelt holiday lobby guide</a>.</li>
+        <li><strong>Holiday lights:</strong> City Park's display is typically open from late November into early January. See our <a href="/blog/celebration-in-the-oaks-transportation-guide">Celebration in the Oaks guide</a> and our <a href="/blog/miracle-on-fulton-street-holiday-lights-new-orleans-ride-guide">Miracle on Fulton Street guide</a>.</li>
+        <li><strong>Reveillon dinners:</strong> many restaurants offer special December menus. See our <a href="/blog/reveillon-dinners-new-orleans-december-tradition-guide">Reveillon dinner guide</a>.</li>
+        <li><strong>A show:</strong> holiday performances are a December tradition. See our <a href="/blog/nutcracker-new-orleans-holiday-ballet-night-out">Nutcracker night out guide</a>.</li>
+        <li><strong>Brunch the next morning:</strong> see our <a href="/blog/jazz-brunch-new-orleans-car-service-guide">jazz brunch guide</a>.</li>
+      </ul>
+      <p>Dates and hours for holiday events change from year to year, so check the official schedules before you go.</p>
+
+      <h2>Getting There and Back</h2>
+      <p>The easiest plan is a ride from your home to the hotel, and a ride home at checkout. That way your car stays in your own driveway, and you don't pay for hotel parking. For a family or a group of friends, one vehicle can collect everyone from home. A Chevrolet Suburban seats 5, a Lincoln Navigator seats 6 and a Mercedes Sprinter carries up to 13 passengers. See our <a href="/fleet">fleet</a>.</p>
+      <p>If you live across the lake, see our <a href="/new-orleans-northshore-transportation-guide">Northshore transportation guide</a>, or our <a href="/mandeville-limo-service">Mandeville</a> and <a href="/slidell-limo-service">Slidell</a> pages. For Jefferson Parish, see our <a href="/metairie-limo-service">Metairie</a> and <a href="/kenner-limo-service">Kenner</a> pages.</p>
+
+      <h2>An Evening Out With Several Stops</h2>
+      <p>If your evening includes several stops, such as cocktails at a hotel bar, a drive through the lights and a late dinner, hourly service keeps the vehicle and chauffeur with you for the evening. See our <a href="/services/hourly-charter">hourly charter</a> page. For a single ride to dinner and back, point-to-point rides include 15 minutes of waiting time at pickup.</p>
+
+      <h2>Pickups in the French Quarter</h2>
+      <p>Some French Quarter streets are narrow or closed to cars at busy times, especially on December weekends. Your chauffeur will drop you at the door or the nearest practical corner. Our <a href="/french-quarter-transportation-guide">French Quarter transportation guide</a> covers how pickups work.</p>
+
+      <h2>Booking Your Staycation Rides</h2>
+      <p>Book early for December weekends, when demand rises. Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup, and Sprinter van and special-event bookings up to 12 hours before. Call (877) 609-1919 or <a href="/booking">book online</a> with your home address, your hotel and the times you need.</p>
+    `,
+    relatedLinks: [
+      { label: "Hourly Charter", to: "/services/hourly-charter" },
+      { label: "Special Events", to: "/services/special-events" },
+      { label: "Our Fleet", to: "/fleet" },
+      { label: "Book Your Ride", to: "/booking" },
+    ],
+    faqs: [
+      {
+        q: "Why book a staycation in New Orleans during the holidays?",
+        a: "December is a festive month in the city, with decorated hotel lobbies, holiday lights and special menus. Staying the night means nobody has to drive home or look for parking.",
+      },
+      {
+        q: "Can you pick us up at home and take us to a downtown hotel?",
+        a: "Yes. We pick up from homes in Metairie, Kenner, the Westbank, the Northshore and across the metro area, and take you back at checkout.",
+      },
+      {
+        q: "What vehicle fits a family or group of friends?",
+        a: "A Chevrolet Suburban seats 5 and a Lincoln Navigator seats 6. A Mercedes Sprinter carries up to 13 passengers.",
+      },
+      {
+        q: "Can we book a car for a night of holiday lights and dinner?",
+        a: "Yes. Hourly service keeps the vehicle and chauffeur with you for an evening of several stops.",
+      },
+      {
+        q: "What is the cancellation policy?",
+        a: "Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup. Sprinter van and special-event bookings can be cancelled free up to 12 hours before.",
+      },
+    ],
+  },
+
 ];
