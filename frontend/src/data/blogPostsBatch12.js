@@ -448,4 +448,271 @@ export const BLOG_POSTS_BATCH12 = [
       },
     ],
   },
+  // ---------------------------------------------------------- POST 6
+  // 2026-11-20 live push (3 posts, not scheduled): Friendsgiving group rides,
+  // rainy winter arrivals at MSY, and New Year's Eve group transportation.
+  // Topics checked against every slug/title in all blog batch files
+  // (including scheduled posts in batch 13), guides.js and landing pages.
+  {
+    slug: "friendsgiving-new-orleans-group-rides-guide",
+    title: "Friendsgiving in New Orleans: Planning Group Rides for Hosts and Guests",
+    metaTitle: "Friendsgiving Rides in New Orleans | MSY Limo Service",
+    metaDescription:
+      "Hosting or heading to Friendsgiving in New Orleans? How to plan group rides to a house dinner or restaurant table, pick the right vehicle and get everyone home.",
+    category: "Events",
+    author: "MSY Limo Team",
+    date: "November 20, 2026",
+    readTime: "7 min read",
+    excerpt:
+      "Friendsgiving has become its own night on the New Orleans calendar — a long dinner with friends, plenty of wine, and guests coming from all over the metro. Here's how to plan the rides so the host isn't the designated driver and nobody is stuck waiting for an app at midnight.",
+    image: "/images/blog/scenario-group-boarding.webp",
+    content: `
+      <p>Thanksgiving is about family, but in New Orleans the week around it has picked up a second tradition: Friendsgiving, the dinner you share with friends instead of relatives. It might be a potluck in a Mid-City shotgun, a long table at a restaurant in the Warehouse District, or a backyard fry in Metairie with a turkey nobody quite trusts. What every version has in common is a group of people arriving from different neighborhoods, a long evening, and a question that usually gets ignored until the last hour: how is everyone getting home? This guide covers how to plan Friendsgiving transportation so the night runs as easily as the dinner.</p>
+
+      <h2>When Friendsgiving Happens — and Why Timing Matters for Rides</h2>
+      <p>Most Friendsgivings land on the weekend before Thanksgiving or the Tuesday and Wednesday of Thanksgiving week, when friends are still in town before scattering to family dinners. That timing overlaps with some of the busiest travel days of the year at Louis Armstrong New Orleans International Airport (MSY), and with the general holiday rush around the city. Wednesday night in particular is one of the busiest social nights of the year in a lot of American cities, and New Orleans is no exception. If your dinner falls on that night, expect rideshare demand and pricing to be higher than usual, and book anything you want guaranteed well ahead.</p>
+      <p>Some groups hold Friendsgiving the weekend after Thanksgiving instead, once everyone is back from visiting relatives. That's a quieter window for dinner reservations, but it can overlap with Thanksgiving-weekend events and return travel, so it's still worth reserving vehicles early rather than assuming availability.</p>
+
+      <h2>House Dinner vs. Restaurant Table: Two Different Ride Plans</h2>
+      <p><strong>A Friendsgiving at someone's home</strong> usually has a loose start time and a very loose end time. Guests arrive over an hour or so, and the night winds down whenever the pie runs out. That makes it a good fit for booking the ride home rather than the ride there — or for an hourly booking if the host wants a vehicle available for a defined window at the end of the night. Many New Orleans neighborhoods have narrow streets and limited parking, so a host who arranges rides also saves the block from a dozen cars circling for spaces.</p>
+      <p><strong>A Friendsgiving at a restaurant</strong> has a fixed reservation time, and that changes the plan. Restaurants hold large-party tables for a limited window, and a group that trickles in late can lose part of its seating time. Picking the group up at one or two meeting points and arriving together solves that. A Mercedes Sprinter van seats up to 13 passengers, so a mid-sized group can ride in together, keep the conversation going, and get dropped at the door rather than hunting for parking downtown.</p>
+
+      <h2>Why the Host Shouldn't Be the Designated Driver</h2>
+      <p>The person who cooked all day is usually the last person who should be driving guests home at the end of the night. Friendsgiving tends to involve a lot of wine, a long meal, and a late finish — exactly the combination where arranging rides in advance is the responsible choice. Some hosts now treat a booked ride home the same way they treat the turkey: part of hosting. Splitting the cost of a group vehicle among guests often comes out reasonable per person, and it means nobody has to decide at 11 p.m. whether they're fine to drive.</p>
+      <p>If you're a guest rather than the host, booking your own round trip is a considerate move. It takes one more thing off the host's list, and it means you can stay for dessert without watching the clock.</p>
+
+      <h2>Choosing the Right Vehicle</h2>
+      <p>Match the vehicle to the group and the dishes, not just the headcount:</p>
+      <ul>
+        <li><strong>One or two guests:</strong> a Mercedes-Benz E-Class or, for a step up, a BMW 7 Series or Mercedes S-Class sedan seats up to 3 passengers.</li>
+        <li><strong>A couple carrying casserole dishes, a cooler or a folding table:</strong> a Lincoln Nautilus carries 3 passengers with more cargo room than a sedan.</li>
+        <li><strong>A small group of friends:</strong> a Chevrolet Suburban seats up to 5, and a Lincoln Navigator seats up to 6.</li>
+        <li><strong>The whole table:</strong> a Mercedes Sprinter seats up to 13 and keeps everyone together in one vehicle.</li>
+      </ul>
+      <p>Tell us when you book if you're bringing food. Covered dishes travel best in a vehicle with flat cargo space, and a chauffeur can help load and unload so nothing tips on the way.</p>
+
+      <h2>Guests Coming From Across the Metro</h2>
+      <p>New Orleans friend groups are rarely in one neighborhood. One person lives Uptown, another in Gentilly, another in Kenner, and someone always drives in from the Northshore. For a group that's spread out, consider two or three pickup points rather than a door-to-door loop across the whole metro, which can add a long time to the start of the evening. Guests coming from Mandeville, Covington or Slidell have a longer trip home across Lake Pontchartrain, and that's the leg most worth arranging in advance — see our <a href="/new-orleans-northshore-transportation-guide">Northshore transportation guide</a> for how trips across the lake work.</p>
+
+      <h2>Friends Flying In for the Holiday</h2>
+      <p>Friendsgiving is often the night that brings old friends back to town. If someone is landing at MSY the same day as the dinner, a flight-tracked airport pickup takes the timing pressure off: your chauffeur follows the flight, and complimentary waiting time is 45 minutes on domestic arrivals and 60 minutes on international. The ride can go straight to the dinner or to a hotel first to drop bags. Our explainer on <a href="/blog/how-flight-tracking-works-for-msy-airport-pickups">how flight tracking works for MSY pickups</a> covers what happens if the flight runs early or late.</p>
+
+      <h2>Booking an Hourly Car for the Evening</h2>
+      <p>For a restaurant Friendsgiving followed by drinks somewhere else, or a host who wants a car available to take guests home in shifts, an <a href="/services/hourly-charter">hourly charter</a> is often simpler than several separate point-to-point rides. The vehicle and chauffeur stay with your group for the booked window, and you decide the stops as the night unfolds. Our guide to <a href="/blog/hourly-as-directed-chauffeur-service-explained">hourly, as-directed chauffeur service</a> explains how that works in practice.</p>
+
+      <h2>A Simple Friendsgiving Ride Checklist</h2>
+      <ul>
+        <li>Confirm the date, the address or restaurant, and a realistic end time.</li>
+        <li>Count heads and dishes, then choose the vehicle.</li>
+        <li>Pick one to three pickup points instead of a long door-to-door loop.</li>
+        <li>Book the ride home at the same time as the ride there.</li>
+        <li>Share the chauffeur's details and meeting point with the group in advance.</li>
+      </ul>
+
+      <h2>Booking Your Friendsgiving Rides</h2>
+      <p>Reserve as soon as your date is set, especially if your dinner falls during Thanksgiving week. Sedans and SUVs can be cancelled free of charge up to 3 hours before pickup; Sprinter vans and special-event bookings can be cancelled free of charge up to 12 hours before pickup. <a href="/booking">Request a quote online</a> or call <a href="tel:+18776091919">(877) 609-1919</a> — our dispatch is available 24/7 — and spend the evening at the table instead of in the driver's seat.</p>
+    `,
+    relatedLinks: [
+      { label: "Hourly Charter Service", to: "/services/hourly-charter" },
+      { label: "Sprinter Van Rental With Driver", to: "/sprinter-van-rental-with-driver-new-orleans" },
+      { label: "Corporate Holiday Party Transportation", to: "/blog/corporate-holiday-party-transportation-new-orleans" },
+      { label: "Our Fleet", to: "/fleet" },
+      { label: "Book Your Ride", to: "/booking" },
+    ],
+    faqs: [
+      {
+        q: "What's the best vehicle for a Friendsgiving group?",
+        a: "It depends on group size. Sedans seat up to 3, a Chevrolet Suburban up to 5, a Lincoln Navigator up to 6, and a Mercedes Sprinter up to 13 — enough to bring a whole dinner table in together.",
+      },
+      {
+        q: "Should we book the ride there, the ride home, or both?",
+        a: "For a restaurant dinner with a fixed reservation, book both so the group arrives together. For a house dinner with a loose start, the ride home matters most, and booking it in advance means nobody has to drive after a long evening.",
+      },
+      {
+        q: "Can we bring food and dishes in the vehicle?",
+        a: "Yes. Let us know when you book so we can suggest a vehicle with enough flat cargo space. A Lincoln Nautilus or an SUV is a good choice for a couple carrying several covered dishes.",
+      },
+      {
+        q: "Can a friend flying into MSY be picked up and brought straight to dinner?",
+        a: "Yes. Airport pickups are flight-tracked, with 45 minutes of complimentary waiting time on domestic arrivals and 60 minutes on international arrivals, and the ride can go directly to the dinner address.",
+      },
+      {
+        q: "What is the cancellation policy if our plans change?",
+        a: "Sedans and SUVs can be cancelled free of charge up to 3 hours before pickup. Sprinter vans and special-event bookings can be cancelled free of charge up to 12 hours before pickup.",
+      },
+    ],
+  },
+  // ---------------------------------------------------------- POST 7
+  {
+    slug: "msy-winter-rain-cold-front-arrival-pickup-guide",
+    title: "Landing at MSY in Winter Rain: How Your Pickup Works When a Cold Front Moves Through",
+    metaTitle: "Rainy Winter Arrivals at MSY Airport | MSY Limo Service",
+    metaDescription:
+      "Flying into New Orleans during winter rain or a cold front? How MSY pickups work in bad weather, where to wait, and why a booked car beats the rideshare line.",
+    category: "Airport",
+    author: "MSY Limo Team",
+    date: "November 20, 2026",
+    readTime: "7 min read",
+    excerpt:
+      "New Orleans winters are mild, but they're not dry. Cold fronts bring rain, wind and the occasional thunderstorm, and they tend to arrive right when everyone is flying in for the holidays. Here's how a pickup at Louis Armstrong New Orleans International Airport works when the weather turns.",
+    image: "/images/blog/scenario-corporate-rain.webp",
+    content: `
+      <p>Visitors often picture New Orleans in winter as mild and pleasant, and much of the time it is. But between late November and February, the city sees a steady rhythm of cold fronts. Before a front, the air turns warm and humid; as it passes, there's often a band of rain, gusty wind, sometimes thunderstorms, and then a sharp drop in temperature. Those fronts don't care about holiday travel schedules, and a rainy evening at Louis Armstrong New Orleans International Airport (MSY) is a very different arrival from a clear one. This guide explains what changes when you land in winter weather, and how to make the trip from the terminal to your hotel or home as dry and predictable as possible.</p>
+
+      <h2>What Winter Weather Does to Arrivals</h2>
+      <p>Rain on its own rarely stops flights, but thunderstorms near the airport can slow or briefly pause arrivals and departures, and low cloud or fog can reduce how many flights land per hour. The result for travelers is usually a delay rather than a cancellation: flights hold, land late, and arrive in clusters once conditions improve. Bad weather at a connecting hub can also push your arrival later even when New Orleans is clear — our guide to <a href="/blog/how-flight-tracking-works-for-msy-airport-pickups">how flight tracking works for MSY pickups</a> explains how your pickup adjusts to the real landing time.</p>
+      <p>The practical takeaway: on a stormy winter night, the time on your itinerary is the least reliable number you have. A pickup planned around your actual touchdown is what keeps the evening on track.</p>
+
+      <h2>Why the Rideshare Line Is Hardest in the Rain</h2>
+      <p>Rain changes rideshare math everywhere. More people want a ride, fewer drivers want to be on wet roads, and prices climb at exactly the moment you'd most like to get out of the weather. At the airport, that can mean standing in the pickup area watching an estimated arrival time drift while flights that were delayed by the same storm all land at once. A reserved car flips that situation: your chauffeur is already tracking your flight, the rate was confirmed when you booked, and the vehicle is assigned to you rather than to whoever happens to be next in line.</p>
+
+      <h2>Curbside vs. Meet-and-Greet on a Wet Night</h2>
+      <p>With a standard pickup, your chauffeur meets you at the arrivals curb and times their arrival to your tracked landing. On a dry evening that's quick and easy. On a rainy one, many travelers prefer <a href="/msy-airport-meet-and-greet">meet-and-greet service</a>, where your chauffeur waits inside baggage claim with a personalized sign and helps with your luggage from there. You stay indoors until the car is ready, and you aren't trying to read a text message under an umbrella with a suitcase in the other hand. It's especially worth it for families with young children, older relatives, or anyone landing in New Orleans for the first time.</p>
+
+      <h2>Your Waiting Time Doesn't Shrink Because of the Weather</h2>
+      <p>Weather delays often stack up at baggage claim too: several late flights arriving together means busier carousels and slower bags. Complimentary waiting time is 45 minutes on domestic arrivals and 60 minutes on international arrivals, counted from your flight's actual touchdown rather than its scheduled time, so a storm-delayed landing doesn't eat into it. If you're running into an unusual delay inside the terminal, call <a href="tel:+18776091919">(877) 609-1919</a> and dispatch will keep your chauffeur informed. International travelers clearing customs on a busy evening can find more detail in our <a href="/blog/international-arrivals-msy-chauffeur-guide">international arrivals guide</a>.</p>
+
+      <h2>The Drive Into Town When It's Pouring</h2>
+      <p>Heavy rain in the New Orleans area can cause localized street flooding, especially at low spots and underpasses, and it slows traffic on I-10 between Kenner and the city. A professional chauffeur who drives these routes every day knows which stretches tend to collect water and will adjust the route rather than plowing through a flooded intersection. That local judgment matters more on a stormy winter night than on almost any other kind of trip. Allow some extra time if you have dinner plans right after landing, and check our pages for the trip from <a href="/msy-to-french-quarter">MSY to the French Quarter</a> or <a href="/msy-to-new-orleans-downtown">MSY to downtown New Orleans</a> for typical routes.</p>
+      <p>Northshore travelers have one more variable. Winter mornings can bring dense fog over Lake Pontchartrain, which can slow traffic on the Causeway. If you're flying out early from Mandeville, Covington or Slidell, our <a href="/blog/causeway-fog-northshore-early-flights-msy-winter-guide">Causeway fog guide</a> covers how to time the pickup.</p>
+
+      <h2>Choosing a Vehicle for Winter Travel</h2>
+      <p>Winter trips usually mean bulkier luggage: coats, holiday gifts, sometimes a second bag. Choose the vehicle with that in mind:</p>
+      <ul>
+        <li><strong>Solo travelers or couples with light bags:</strong> a Mercedes-Benz E-Class, BMW 7 Series or Mercedes S-Class sedan seats up to 3 passengers with room for 2 bags.</li>
+        <li><strong>Couples with extra luggage:</strong> a Lincoln Nautilus seats 3 with room for 4 bags.</li>
+        <li><strong>Families:</strong> a Chevrolet Suburban seats up to 5 with room for 5 bags, and a Lincoln Navigator seats up to 6 with room for 5 bags.</li>
+        <li><strong>Groups:</strong> a Mercedes Sprinter seats up to 13 passengers with room for 13 bags.</li>
+      </ul>
+      <p>If you're unsure, tell us your passenger count and how many bags you're checking when you book, and we'll recommend the right class.</p>
+
+      <h2>A Few Tips for a Rainy-Season Arrival</h2>
+      <ul>
+        <li>Book with your flight number so the pickup follows your actual landing time.</li>
+        <li>Keep a light rain jacket or compact umbrella in your carry-on — winter fronts can change the weather quickly.</li>
+        <li>Consider meet-and-greet if you're traveling with children, older relatives or a lot of luggage.</li>
+        <li>Keep your phone charged; a delayed landing is when you'll want to reach dispatch.</li>
+        <li>Book your return ride at the same time, especially for early-morning flights in winter.</li>
+      </ul>
+
+      <h2>Booking Your Winter Airport Ride</h2>
+      <p>The holiday season is one of the busiest stretches of the year at MSY, and rainy nights are when booked cars matter most. Reserve once your flight is ticketed through our <a href="/services/airport-transportation">airport transportation service</a>, or call <a href="tel:+18776091919">(877) 609-1919</a> — dispatch runs 24/7. Sedans and SUVs can be cancelled free of charge up to 3 hours before pickup, and Sprinter vans up to 12 hours before pickup, so you can book early without losing flexibility if your plans change.</p>
+    `,
+    relatedLinks: [
+      { label: "MSY Airport Meet & Greet Service", to: "/msy-airport-meet-and-greet" },
+      { label: "Airport Transportation", to: "/services/airport-transportation" },
+      { label: "How Flight Tracking Works at MSY", to: "/blog/how-flight-tracking-works-for-msy-airport-pickups" },
+      { label: "Causeway Fog and Early Flights", to: "/blog/causeway-fog-northshore-early-flights-msy-winter-guide" },
+      { label: "Book Your Ride", to: "/booking" },
+    ],
+    faqs: [
+      {
+        q: "What happens to my pickup if a storm delays my flight into MSY?",
+        a: "Your flight is tracked, so the pickup moves to match the real landing time at no extra charge. Complimentary waiting time — 45 minutes domestic, 60 minutes international — starts from actual touchdown.",
+      },
+      {
+        q: "Where should I wait for my chauffeur when it's raining?",
+        a: "With standard service your chauffeur meets you at the arrivals curb timed to your landing. If you'd rather stay inside, meet-and-greet service has your chauffeur waiting in baggage claim with a personalized sign.",
+      },
+      {
+        q: "Does rain change the price of my ride?",
+        a: "No. Your rate is confirmed when you book and doesn't surge because of weather or demand, unlike app-based rideshare pricing.",
+      },
+      {
+        q: "Will heavy rain slow the drive from MSY into New Orleans?",
+        a: "It can. Heavy rain slows I-10 traffic and can cause localized street flooding. Our chauffeurs know the routes that tend to collect water and adjust accordingly, so allow some extra time if you have plans right after landing.",
+      },
+      {
+        q: "Which vehicle should I book for winter luggage?",
+        a: "Sedans carry 2 bags, the Lincoln Nautilus 4, the Chevrolet Suburban and Lincoln Navigator 5, and the Mercedes Sprinter 13. Tell us your bag count when booking and we'll recommend the right class.",
+      },
+    ],
+  },
+  // ---------------------------------------------------------- POST 8
+  {
+    slug: "new-years-eve-group-transportation-new-orleans",
+    title: "New Year's Eve Group Transportation in New Orleans: Keeping Your Party Together All Night",
+    metaTitle: "New Year's Eve Group Transportation New Orleans | MSY Limo",
+    metaDescription:
+      "Planning New Year's Eve in New Orleans with a group? How to choose a vehicle, plan drop-offs and meeting points, and get everyone home after midnight.",
+    category: "Events",
+    author: "MSY Limo Team",
+    date: "November 20, 2026",
+    readTime: "8 min read",
+    excerpt:
+      "Celebrating New Year's Eve in New Orleans with friends, family or coworkers? The hardest part isn't the countdown — it's keeping a group together across dinner, a party and the ride home. Here's how to plan group transportation for the biggest night of the year.",
+    image: "/images/blog/fleet-sprinter-2.webp",
+    content: `
+      <p>New Year's Eve in New Orleans means different things to different groups. For some it's dinner in the French Quarter and the countdown near Jackson Square. For others it's live music on Frenchmen Street, a hotel party downtown, a private party Uptown or in Metairie, or a quiet dinner before the Sugar Bowl season kicks off. Whatever the plan, groups run into the same problem: eight or ten people, several stops, a midnight that everyone wants to spend together, and a ride home in the busiest hour of the year. This guide is about solving that problem for a group. If your night centers on the French Quarter crowd, read it alongside our <a href="/blog/new-years-eve-bourbon-street-car-service">Bourbon Street New Year's Eve guide</a>, which covers Quarter closures in more detail.</p>
+
+      <h2>Why New Year's Eve Is Hard for Groups</h2>
+      <p>A couple can usually improvise. A group can't. When ten people try to leave a crowded area at once, they need several rideshares, which means several drivers who may each be stuck in traffic in a different direction, at a time when prices are typically at their highest of the year. Someone's phone dies, someone gets left behind, and the end of the night turns into a coordination exercise. One reserved vehicle for the whole group removes most of that: one pickup, one meeting point, one chauffeur who already knows the plan.</p>
+
+      <h2>Choosing a Vehicle for the Group</h2>
+      <p>Start with the headcount, then think about the night:</p>
+      <ul>
+        <li><strong>Up to 3 guests:</strong> a Mercedes-Benz E-Class, BMW 7 Series or Mercedes S-Class sedan.</li>
+        <li><strong>Up to 5 guests:</strong> a Chevrolet Suburban.</li>
+        <li><strong>Up to 6 guests:</strong> a Lincoln Navigator.</li>
+        <li><strong>Up to 13 guests:</strong> a Mercedes Sprinter. The executive Sprinter has captain's chairs and mood lighting, which makes the ride between stops part of the celebration.</li>
+      </ul>
+      <p>For a group larger than 13, the usual plan is a Sprinter plus an SUV, or two Sprinters, with a shared schedule and meeting points. Tell us your headcount when you book and we'll recommend a combination. See our <a href="/sprinter-van-rental-with-driver-new-orleans">Sprinter van rental page</a> for more on group vehicles.</p>
+
+      <h2>Hourly Charter vs. Two One-Way Rides</h2>
+      <p>If your group is going to one place — a single party or one restaurant followed by the countdown nearby — a drop-off early in the evening and a reserved pickup after midnight may be all you need. If the night has several stops, an <a href="/services/hourly-charter">hourly charter</a> is usually the better fit. The vehicle and chauffeur stay with your group for the booked window, move with you from dinner to a party to a late music set, and are ready when you are. On a night when streets close and traffic shifts by the hour, having your own vehicle on call is worth more than on almost any other evening of the year.</p>
+
+      <h2>Plan the Night Around Street Closures</h2>
+      <p>Large crowds gather in the French Quarter and along the riverfront on New Year's Eve, and streets in and around the Quarter close to vehicles well before midnight. Busy nightlife corridors such as Frenchmen Street in the Marigny also become very crowded. The details change from year to year, so your chauffeur checks the current closures in the days before. The practical rule for groups: plan to be dropped off before areas close, not after, and choose a pickup point just outside the busiest zone rather than in the middle of it. Our <a href="/bourbon-street-vs-frenchmen-street-transportation-guide">Bourbon Street vs. Frenchmen Street guide</a> explains how pickups differ between the two.</p>
+
+      <h2>Pick a Meeting Point — and a Backup</h2>
+      <p>The single most useful thing a group can do is agree on a meeting point before the night starts. A hotel entrance a few blocks outside the crowd, well lit and easy to describe, works better than a street corner. Share it with everyone in the group, along with a set meeting time — for example, 30 to 45 minutes after midnight — and a backup point if the first one is blocked. Phone signal can be unreliable in dense crowds, so a plan that everyone knows in advance beats a flurry of texts at 12:20 a.m.</p>
+
+      <h2>Private Parties Outside the City Center</h2>
+      <p>Not every New Year's Eve happens downtown. Plenty of groups celebrate at a house party Uptown, a gathering in Metairie or Kenner, or a party across the lake on the Northshore. Those nights avoid the street closures but bring their own issue: rideshare supply thins out fast in residential neighborhoods after midnight, and the drive home from the Northshore crosses the Causeway. A group vehicle booked for a set pickup time solves that. Our <a href="/new-orleans-northshore-transportation-guide">Northshore transportation guide</a> has more on trips across the lake.</p>
+
+      <h2>Hotels, Out-of-Town Guests and the Next Morning</h2>
+      <p>Groups visiting for New Year's often stay in the CBD, the Warehouse District or the French Quarter. If your group is arriving at Louis Armstrong New Orleans International Airport (MSY) in the days before, booking the airport transfer and New Year's Eve transportation together keeps everything under one plan. Airport pickups include flight tracking and complimentary waiting time of 45 minutes for domestic arrivals and 60 minutes for international arrivals. If New Year's Day brings a football game, see our <a href="/sugar-bowl-new-years-superdome-transportation">Sugar Bowl transportation guide</a> for getting to the Caesars Superdome.</p>
+
+      <h2>A Sample Group Plan</h2>
+      <ul>
+        <li><strong>Early evening:</strong> pickup at the hotel or a central meeting point.</li>
+        <li><strong>Dinner:</strong> drop-off at the restaurant, timed before nearby closures begin.</li>
+        <li><strong>Late evening:</strong> the group heads to the countdown or a party; the vehicle repositions outside the busy area.</li>
+        <li><strong>After midnight:</strong> everyone meets at the agreed point at the agreed time.</li>
+        <li><strong>Ride home:</strong> drop-offs at the hotel or a few homes, planned in advance to keep the loop short.</li>
+      </ul>
+
+      <h2>Book Early — New Year's Eve Fills Up</h2>
+      <p>New Year's Eve is one of the highest-demand nights of the year for chauffeured transportation in New Orleans, and group vehicles like Sprinters are usually the first to book. Reserve as soon as your plans are set. Special-event bookings, including New Year's Eve, can be cancelled free of charge up to 12 hours before pickup, as can Sprinter vans. See our <a href="/services/special-events">special events service</a>, <a href="/booking">request a quote online</a>, or call <a href="tel:+18776091919">(877) 609-1919</a> — our dispatch is available 24/7, including on New Year's Eve.</p>
+    `,
+    relatedLinks: [
+      { label: "New Year's Eve on Bourbon Street", to: "/blog/new-years-eve-bourbon-street-car-service" },
+      { label: "Special Events Transportation", to: "/services/special-events" },
+      { label: "Sprinter Van Rental With Driver", to: "/sprinter-van-rental-with-driver-new-orleans" },
+      { label: "Hourly Charter Service", to: "/services/hourly-charter" },
+      { label: "Book Your Ride", to: "/booking" },
+    ],
+    faqs: [
+      {
+        q: "What's the best vehicle for a New Year's Eve group?",
+        a: "For up to 13 guests, a Mercedes Sprinter keeps everyone in one vehicle. Smaller groups fit a Lincoln Navigator (up to 6) or Chevrolet Suburban (up to 5). Larger groups usually book a Sprinter plus an SUV or two Sprinters.",
+      },
+      {
+        q: "Should we book an hourly charter or just a drop-off and pickup?",
+        a: "If the night has one destination, a drop-off and a reserved pickup after midnight often works. For a night with several stops, an hourly charter keeps the vehicle and chauffeur with your group the whole time.",
+      },
+      {
+        q: "Where should our group meet after midnight?",
+        a: "Agree on a meeting point before the night starts — ideally a well-lit hotel entrance a few blocks outside the busiest area — plus a set time and a backup location in case the first is blocked.",
+      },
+      {
+        q: "How far in advance should we book New Year's Eve transportation?",
+        a: "As early as possible. It's one of the busiest nights of the year, and group vehicles like Sprinters typically book first.",
+      },
+      {
+        q: "What is the cancellation policy for New Year's Eve bookings?",
+        a: "Special-event bookings, including New Year's Eve, and Sprinter vans can be cancelled free of charge up to 12 hours before pickup.",
+      },
+    ],
+  },
 ];
